@@ -228,6 +228,7 @@ def semantic_join(
         predicate, table_a, table_b, schema_a, schema_b, llm_model
     )
     plan_notes.append(f"projection={use_projection} — {proj_reason}")
+    timings["advise_model_and_projection"] = time.time() - t0
     
     if use_projection:
         if verbose:

@@ -231,10 +231,9 @@ Format:
 """
 
 def project_batch_prompt(
-    predicate: str, schema_b: list[str], rows_text: str
+    predicate: str, schema_b: list[str], target_samples: str, rows_text: str
 ) -> tuple[str, str]:
-    """Ask LLM to predict the matching target values based on the predicate.
-    Returns (system_prompt, user_prompt) tuple."""
+    """Ask LLM to predict the matching target values based on the predicate."""
     system = (
         "You are a data projection tool for a semantic join. Based on the join predicate, "
         "predict what the matching row in the target table would look like. Respond with JSON only."
@@ -244,10 +243,12 @@ def project_batch_prompt(
 Predicate: "{predicate}"
 Target Schema: {schema_b}
 
-For each row ID, generate a concise string predicting the content of the target row. 
-Do not explain your reasoning.
+To help you format your predictions accurately, here are a few examples of what the ACTUAL rows in the target table look like:
+{target_samples}
 
-Rows:
+For each row ID provided below, generate a concise string predicting the content of the target row. Match the style and formatting of the target samples above as closely as possible. Do not explain your reasoning.
+
+Rows to project:
 {rows_text}
 
 Respond exactly:

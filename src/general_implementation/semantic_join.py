@@ -27,6 +27,7 @@ import embed as _embed
 import cluster_filter
 import cluster_join
 import project
+import prompts
 from dataclasses import dataclass
 from utils import TokenUsage, compute_metrics, ground_truth
 
@@ -233,8 +234,12 @@ def semantic_join(
             print(f"[project] Projecting Table A to match Table B domain... ({proj_reason})")
         t0_proj = time.time()
         
+        # Extract a few samples of Table B to ground the LLM's predictions
+        samples_b = table_b.head(5).to_dict(orient="records")
+        target_samples_text = prompts._sample_block(schema_b, samples_b)
+        
         projections_a, proj_tokens = project.project_df(
-            table_a, "A", schema_a, schema_b, predicate, llm_model, 
+            table_a, "A", schema_a, schema_b, target_samples_text, predicate, llm_model, 
             batch_size=block_size, max_chars=max_chars_per_col, verbose=verbose
         )
         total_tokens += proj_tokens
@@ -247,10 +252,11 @@ def semantic_join(
         embed_schema_a = schema_a
 
     # Embed original or projected data
+    t0_embed = time.time() # Reset timer strictly for embedding
     emb_a = _embed.embed(df_a_for_embed, embed_schema_a, model, max_chars_per_col)
     emb_b = _embed.embed(table_b, schema_b, model, max_chars_per_col)
     
-    timings["embed"] = time.time() - t0
+    timings["embed"] = time.time() - t0_embed
     if verbose:
         print(f"[embed] A={emb_a.shape} B={emb_b.shape} ({timings['embed']:.1f}s)")
 

@@ -39,11 +39,10 @@ def _llm(system: str, user: str, model: str) -> tuple[str, TokenUsage]:
 
 def _project_batch(
     df: pd.DataFrame, prefix: str, schema_a: list[str], schema_b: list[str],
-    predicate: str, llm_model: str, max_chars: int
+    target_samples_text: str, predicate: str, llm_model: str, max_chars: int
 ) -> tuple[dict[int, str], TokenUsage]:
-    """Project one batch of rows; return {row_index: projection_string}."""
     rows_text = format_block(df, prefix, schema_a, max_chars)
-    system, user = prompts.project_batch_prompt(predicate, schema_b, rows_text)
+    system, user = prompts.project_batch_prompt(predicate, schema_b, target_samples_text, rows_text)
     raw, usage = _llm(system, user, llm_model)
 
     out: dict[int, str] = {}
@@ -62,7 +61,7 @@ def _project_batch(
 
 def project_df(
     df: pd.DataFrame, prefix: str, schema_a: list[str], schema_b: list[str],
-    predicate: str, llm_model: str, batch_size: int = 25,
+    target_samples_text: str, predicate: str, llm_model: str, batch_size: int = 25,
     max_chars: int = 400, verbose: bool = False
 ) -> tuple[pd.Series, TokenUsage]:
     """Projects a dataframe using the LLM. Returns a Series of projected strings."""
@@ -71,7 +70,7 @@ def project_df(
     
     for i, batch in enumerate(chunk_df(df, batch_size), 1):
         projs, usage = _project_batch(
-            batch, prefix, schema_a, schema_b, predicate, llm_model, max_chars
+            batch, prefix, schema_a, schema_b, target_samples_text, predicate, llm_model, max_chars
         )
         result.update(projs)
         tokens += usage

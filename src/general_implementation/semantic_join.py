@@ -26,6 +26,7 @@ import cluster as _cluster
 import embed as _embed
 import cluster_filter
 import cluster_join
+import project
 from dataclasses import dataclass
 from utils import TokenUsage, compute_metrics, ground_truth
 
@@ -221,8 +222,34 @@ def semantic_join(
     if verbose:
         print(f"[embed] model={model}")
 
-    emb_a = _embed.embed(table_a, schema_a, model, max_chars_per_col)
+    # Stage 1.5: Decide if we use projection
+    use_projection, proj_reason = advisor.choose_projection(
+        predicate, table_a, table_b, schema_a, schema_b, llm_model
+    )
+    plan_notes.append(f"projection={use_projection} — {proj_reason}")
+    
+    if use_projection:
+        if verbose:
+            print(f"[project] Projecting Table A to match Table B domain... ({proj_reason})")
+        t0_proj = time.time()
+        
+        projections_a, proj_tokens = project.project_df(
+            table_a, "A", schema_a, schema_b, predicate, llm_model, 
+            batch_size=block_size, max_chars=max_chars_per_col, verbose=verbose
+        )
+        total_tokens += proj_tokens
+        timings["project"] = time.time() - t0_proj
+        
+        df_a_for_embed = pd.DataFrame({"_projection": projections_a}, index=table_a.index)
+        embed_schema_a = ["_projection"]
+    else:
+        df_a_for_embed = table_a
+        embed_schema_a = schema_a
+
+    # Embed original or projected data
+    emb_a = _embed.embed(df_a_for_embed, embed_schema_a, model, max_chars_per_col)
     emb_b = _embed.embed(table_b, schema_b, model, max_chars_per_col)
+    
     timings["embed"] = time.time() - t0
     if verbose:
         print(f"[embed] A={emb_a.shape} B={emb_b.shape} ({timings['embed']:.1f}s)")

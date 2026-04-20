@@ -229,3 +229,61 @@ A row with no matches gets an empty list. No explanations.
 Format:
 {{"matches": {{"A-0": ["B-2", "B-5"], "A-1": [], "A-2": ["B-0"]}}}}
 """
+
+def project_batch_prompt(
+    predicate: str, schema_b: list[str], rows_text: str
+) -> tuple[str, str]:
+    """Ask LLM to predict the matching target values based on the predicate.
+    Returns (system_prompt, user_prompt) tuple."""
+    system = (
+        "You are a data projection tool for a semantic join. Based on the join predicate, "
+        "predict what the matching row in the target table would look like. Respond with JSON only."
+    )
+    user = f"""Predict the target values that would match these rows based on the predicate.
+
+Predicate: "{predicate}"
+Target Schema: {schema_b}
+
+For each row ID, generate a concise string predicting the content of the target row. 
+Do not explain your reasoning.
+
+Rows:
+{rows_text}
+
+Respond exactly:
+{{"projections": {{"<ID>": "<predicted string>", ...}}}}
+"""
+    return system, user
+
+def projection_detect_prompt(
+    predicate: str,
+    schema_a: list[str], schema_b: list[str],
+    samples_a: list[dict], samples_b: list[dict],
+) -> tuple[str, str]:
+    """Ask LLM if the join requires projecting Table A into Table B's domain."""
+    system = (
+        "You decide whether a two-table join predicate requires a data projection step "
+        "before performing a semantic similarity search. Respond with JSON only."
+    )
+    user = f"""Decide if this predicate requires projecting Table A into Table B's domain.
+
+Predicate: "{predicate}"
+
+Table A sample:
+{_sample_block(schema_a, samples_a)}
+
+Table B sample:
+{_sample_block(schema_b, samples_b)}
+
+A projection is REQUIRED when:
+- The predicate maps a complex text to a specific, ungrounded entity (e.g., "Table A abstract uses the dataset in Table B").
+- The raw text in Table A and Table B would not naturally have high embedding similarity, even if they match.
+
+A projection is NOT REQUIRED when:
+- The predicate compares symmetric properties (e.g., "Review A and Review B share the same sentiment" or "Text A directly contradicts Text B").
+- The raw texts are semantically comparable.
+
+Respond exactly:
+{{"requires_projection": true | false, "reason": "<one sentence>"}}
+"""
+    return system, user

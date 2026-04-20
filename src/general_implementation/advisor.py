@@ -137,3 +137,22 @@ def choose_clustering(
         m = min_cluster_size or 5
         m = max(2, int(m))
         return method, None, m, result.get("reason", "")
+
+def choose_projection(
+    predicate: str,
+    df_a: pd.DataFrame, df_b: pd.DataFrame,
+    schema_a: list[str], schema_b: list[str],
+    llm_model: str,
+) -> tuple[bool, str]:
+    """Decide if project-sim-filter is needed instead of standard sim-filter.
+    Returns (requires_projection, reason)."""
+    system, user = prompts.projection_detect_prompt(
+        predicate, schema_a, schema_b,
+        _samples(df_a, schema_a), _samples(df_b, schema_b),
+    )
+    result = _llm(system, user, llm_model)
+    
+    requires_proj = bool(result.get("requires_projection", False))
+    reason = result.get("reason", "")
+    
+    return requires_proj, reason

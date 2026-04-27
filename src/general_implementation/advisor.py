@@ -52,27 +52,77 @@ def _samples(df: pd.DataFrame, schema: list[str], n: int = 5) -> list[dict]:
     return df[schema].head(n).to_dict(orient="records")
 
 
-def choose_join_strategy(
+# def choose_join_strategy(
+#     predicate: str,
+#     df_a: pd.DataFrame, df_b: pd.DataFrame,
+#     schema_a: list[str], schema_b: list[str],
+#     llm_model: str,
+# ) -> tuple[str, list[str] | None, str]:
+#     """Decide whether the predicate is a same-label equi-join with a small,
+#     fixed label set. Returns (strategy, labels_or_None, reason).
+#     strategy is "classifier" or "pairwise"."""
+#     system, user = prompts.classifier_detect_prompt(
+#         predicate, schema_a, schema_b,
+#         _samples(df_a, schema_a), _samples(df_b, schema_b),
+#     )
+#     result = _llm(system, user, llm_model)
+#     is_classifier = bool(result.get("classifier"))
+#     labels = result.get("labels")
+#     reason = result.get("reason", "")
+
+#     if not is_classifier or not isinstance(labels, list) or len(labels) < 2:
+#         return "pairwise", None, reason
+
+#     # Clean label set: dedup, keep strings, ensure "unknown" exists.
+#     seen = set()
+#     clean: list[str] = []
+#     for label in labels:
+#         if isinstance(label, str) and label not in seen:
+#             seen.add(label)
+#             clean.append(label)
+#     if "unknown" not in seen:
+#         clean.append("unknown")
+#     return "classifier", clean, reason
+
+def determine_join_strategy(
     predicate: str,
     df_a: pd.DataFrame, df_b: pd.DataFrame,
     schema_a: list[str], schema_b: list[str],
     llm_model: str,
-) -> tuple[str, list[str] | None, str]:
-    """Decide whether the predicate is a same-label equi-join with a small,
-    fixed label set. Returns (strategy, labels_or_None, reason).
-    strategy is "classifier" or "pairwise"."""
+) -> tuple[str, str]:
+    """Call 1: Router. Decide whether the predicate is a same-label equi-join."""
     system, user = prompts.classifier_detect_prompt(
         predicate, schema_a, schema_b,
         _samples(df_a, schema_a), _samples(df_b, schema_b),
     )
     result = _llm(system, user, llm_model)
     is_classifier = bool(result.get("classifier"))
-    labels = result.get("labels")
     reason = result.get("reason", "")
 
-    if not is_classifier or not isinstance(labels, list) or len(labels) < 2:
-        return "pairwise", None, reason
+    if is_classifier:
+        return "classifier", reason
+    return "pairwise", reason
 
+
+def generate_classification_labels(
+    predicate: str,
+    df_b: pd.DataFrame,
+    schema_b: list[str],
+    llm_model: str,
+) -> list[str]:
+    """Call 2: Extractor. Extracts the taxonomy strictly from Table B."""
+    system = "You are an AI database query planner. Always respond in strictly valid JSON."
+    user = f"""
+    We are performing a classification join based on the predicate: "{predicate}"
+    Look at this sample of the target table (Table B) with schema {schema_b}:
+    {_samples(df_b, schema_b, n=25)}
+    
+    Identify the exact list of unique categories/labels we should classify Table A into.
+    Return a JSON object with a single key "labels" mapped to a list of strings.
+    """
+    result = _llm(system, user, llm_model)
+    labels = result.get("labels", [])
+    
     # Clean label set: dedup, keep strings, ensure "unknown" exists.
     seen = set()
     clean: list[str] = []
@@ -82,7 +132,8 @@ def choose_join_strategy(
             clean.append(label)
     if "unknown" not in seen:
         clean.append("unknown")
-    return "classifier", clean, reason
+        
+    return clean
 
 
 def choose_model(

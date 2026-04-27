@@ -1,0 +1,10 @@
+Run_ID,Dataset,Trial,Baseline_Type,Extrapolation_Multiplier,Recall,Precision,F1,Actual_Tokens,Projected_Full_Tokens,Actual_Time_s,Projected_Full_Time_s
+1,IMDB,1,Naive_Block_1_Extrapolated,100.0,53.7,100.0,69.88,4482,448200,14.92,1492.16
+2,IMDB,2,Naive_Block_1_Extrapolated,100.0,48.0,100.0,64.86,4494,449400,10.1,1010.43
+3,IMDB,3,Naive_Block_1_Extrapolated,100.0,14.81,88.89,25.4,4545,454500,7.92,791.63
+4,Emails,1,Naive_Block_1_Extrapolated,10.0,100.0,5.26,10.0,1561,15610,10.66,106.6
+5,Emails,2,Naive_Block_1_Extrapolated,10.0,100.0,12.77,22.64,1607,16070,10.39,103.9
+6,Emails,3,Naive_Block_1_Extrapolated,10.0,100.0,14.29,25.0,1582,15820,11.92,119.17
+7,MTSamples,1,Naive_Block_1_Extrapolated,20.0,40.0,25.0,30.77,2507,50140,12.52,250.3
+8,MTSamples,2,Naive_Block_1_Extrapolated,20.0,40.0,33.33,36.36,2490,49800,8.72,174.49
+9,MTSamples,3,Naive_Block_1_Extrapolated,20.0,40.0,25.0,30.77,2597,51940,10.37,207.45

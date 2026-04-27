@@ -12,6 +12,10 @@ import json
 
 EMBEDDING_MODELS = [
     {
+        "name": "distilbert-base-uncased-finetuned-sst-2-english",
+        "notes": "Specifically fine-tuned for positive/negative sentiment classification.",
+    },
+    {
         "name": "all-mpnet-base-v2",
         "notes": "Strong general-purpose semantic similarity. Default if unsure.",
     },

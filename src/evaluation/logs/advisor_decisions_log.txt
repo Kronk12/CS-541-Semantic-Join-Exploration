@@ -1,0 +1,24 @@
+=== IMDB (Sentiment) ===
+Strategy: CLASSIFIER (Labels: ['positive', 'negative', 'neutral', 'unknown'])
+Strategy Reason: The predicate checks if both reviews express the same sentiment, which is a discrete attribute with a small, finite label set.
+
+Projection: DISABLED
+Projection Reason: The predicate compares symmetric properties as both reviews express the same sentiment, making them semantically comparable.
+--------------------------------------------------
+
+=== Emails (Contradiction) ===
+Strategy: PAIRWISE (Labels: None)
+Strategy Reason: The predicate requires cross-row comparison to determine contradiction, which is not a same-label join.
+
+Projection: DISABLED
+Projection Reason: The predicate 'the two texts contradict each other' directly compares the semantic content of the texts, which are naturally comparable.
+--------------------------------------------------
+
+=== MTSamples (Medical) ===
+Strategy: PAIRWISE (Labels: None)
+Strategy Reason: The predicate involves matching clinical transcriptions to medical specialties, which is an open-ended label space without a fixed list.
+
+Projection: ENABLED
+Projection Reason: The predicate involves mapping complex clinical transcriptions to specific medical specialties, which are not directly comparable in raw text form.
+--------------------------------------------------
+

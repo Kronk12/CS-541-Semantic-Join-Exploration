@@ -19,11 +19,11 @@ def setup_imdb_data():
     if not os.path.exists('data'):
         os.makedirs('data')
         
-    table_a.to_csv('data/table_a_100.csv', index=False)
-    table_b.to_csv('data/table_b_100.csv', index=False)
+    table_a.to_csv('data/table_a.csv', index=False)
+    table_b.to_csv('data/table_b.csv', index=False)
     
-    print(f"Successfully created data/table_a_100.csv ({len(table_a)} rows)")
-    print(f"Successfully created data/table_b_100.csv ({len(table_b)} rows)")
+    print(f"Successfully created data/table_a.csv ({len(table_a)} rows)")
+    print(f"Successfully created data/table_b.csv ({len(table_b)} rows)")
     print("\nSample Review from Table A:")
     print(table_a['review'].iloc[0][:150] + "...")
 

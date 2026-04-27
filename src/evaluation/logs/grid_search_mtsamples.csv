@@ -1,0 +1,6 @@
+Run_ID,Config_Name,Filter_Threshold,Projection_Requested,Projection_Executed,Join_Strategy,Dropped_Clusters,Recall,Precision,F1,Tokens,Time_s
+1,Baseline_Standard,0.0,Forced_False,False,pairwise,0,40.0,37.04,38.46,51622,60.02
+2,Baseline_Projected,0.0,Forced_True,True,pairwise,0,41.0,36.28,38.5,66048,128.69
+3,Filter_Standard,0.15,Forced_False,False,pairwise,12,13.0,30.23,18.18,24681,48.01
+4,Filter_Projected,0.15,Forced_True,True,pairwise,13,21.0,42.86,28.19,33049,103.66
+5,Filter_Auto_Advisor,0.15,Auto (Advisor),True,pairwise,14,11.0,37.93,17.05,30049,38.43

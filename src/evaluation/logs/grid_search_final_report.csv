@@ -1,0 +1,14 @@
+Run_ID,Dataset,Strategy,Trial_ID,Row_Ratio,K_Clusters,Threshold,Dropped_Clusters,Recall,Precision,F1,Tokens,Time_s
+1,IMDB,classifier,1,N/A,N/A,N/A,N/A,76.53,74.7,75.6,22318,19.72
+2,IMDB,classifier,2,N/A,N/A,N/A,N/A,76.37,75.04,75.7,22287,15.8
+3,IMDB,classifier,3,N/A,N/A,N/A,N/A,76.21,75.12,75.66,22318,39.05
+4,Emails,pairwise,1,1:10,10,0.0,0,100.0,15.58,26.96,38188,106.19
+5,Emails,pairwise,2,1:10,10,0.0,0,100.0,16.99,29.04,38043,107.86
+6,Emails,pairwise,3,1:10,10,0.0,0,91.94,15.08,25.91,38078,109.29
+7,Emails,pairwise,1,1:10,10,0.025,0,100.0,19.62,32.8,37831,102.44
+8,Emails,pairwise,2,1:10,10,0.025,0,85.48,15.77,26.63,37913,97.07
+9,Emails,pairwise,3,1:10,10,0.025,0,85.48,15.36,26.04,38004,94.59
+10,Emails,pairwise,1,1:10,10,0.05,0,85.48,15.59,26.37,37898,96.29
+11,Emails,pairwise,2,1:10,10,0.05,0,100.0,18.18,30.77,37946,92.95
+12,Emails,pairwise,3,1:10,10,0.05,0,85.48,14.76,25.18,38047,98.31
+13,Emails,pairwise,1,1:10,10,0.075,0,100.0,20.26,33.7,37782,90.25

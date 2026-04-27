@@ -1,0 +1,10 @@
+Run_ID,Config_ID,Trial_ID,Config_Name,Filter_Threshold,Projection_Requested,Projection_Executed,Join_Strategy,Dropped_Clusters,Recall,Precision,F1,Tokens,Time_s
+1,1,1,0.05_projected,0.05,Forced_True,True,pairwise,10,41.0,34.17,37.27,46900,51.63
+2,1,2,0.05_projected,0.05,Forced_True,True,pairwise,9,43.0,32.33,36.91,55233,92.61
+3,1,3,0.05_projected,0.05,Forced_True,True,pairwise,8,33.0,29.73,31.28,53118,105.51
+4,2,1,0.10_projected,0.1,Forced_True,True,pairwise,12,14.0,31.11,19.31,40722,74.62
+5,2,2,0.10_projected,0.1,Forced_True,True,pairwise,12,33.0,27.73,30.14,46489,92.52
+6,2,3,0.10_projected,0.1,Forced_True,True,pairwise,13,18.0,38.3,24.49,36527,71.85
+7,3,1,0.15_projected,0.15,Forced_True,True,pairwise,14,4.0,26.67,6.96,32216,84.8
+8,3,2,0.15_projected,0.15,Forced_True,True,pairwise,14,4.0,22.22,6.78,32234,39.14
+9,3,3,0.15_projected,0.15,Forced_True,True,pairwise,15,3.0,42.86,5.61,27532,53.02

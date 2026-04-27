@@ -1,0 +1,4 @@
+Run_ID,Block_Size,Filter_Threshold,Dropped_Clusters,Recall,Precision,F1,Tokens,Time_s
+1,30,0.35,2,45.9,72.92,56.34,18527,54.64
+2,40,0.35,2,16.39,79.37,27.17,15961,27.47
+3,50,0.35,2,20.16,82.0,32.37,16133,29.11

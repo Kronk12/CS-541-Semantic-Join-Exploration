@@ -1,0 +1,12 @@
+Run_ID,Embedding,Block_Size,Filter_Threshold,Avg_Purity_%,Dropped_Clusters,Recall,Precision,F1,Tokens,Time_s
+1,distilbert-base-uncased-finetuned-sst-2-english,5,0.0,73.0,0,55.16,77.89,64.59,127463,204.35
+2,distilbert-base-uncased-finetuned-sst-2-english,5,0.15,73.0,1,45.16,76.53,56.8,101183,204.19
+5,distilbert-base-uncased-finetuned-sst-2-english,10,0.15,73.0,1,44.51,77.79,56.62,55889,111.82
+6,distilbert-base-uncased-finetuned-sst-2-english,10,0.3,73.0,2,36.39,85.71,51.09,38936,79.28
+7,distilbert-base-uncased-finetuned-sst-2-english,15,0.0,73.0,0,52.3,79.95,63.23,45439,93.68
+8,distilbert-base-uncased-finetuned-sst-2-english,15,0.15,73.0,0,48.69,78.57,60.12,49867,101.15
+9,distilbert-base-uncased-finetuned-sst-2-english,15,0.3,73.0,2,36.56,88.84,51.8,27781,56.25
+10,all-mpnet-base-v2,5,0.0,60.0,0,49.43,75.56,59.76,108350,217.0
+14,all-mpnet-base-v2,10,0.15,60.0,1,37.21,80.21,50.84,56830,227.28
+15,all-mpnet-base-v2,10,0.3,60.0,1,37.13,79.33,50.59,40511,81.27
+17,all-mpnet-base-v2,15,0.15,60.0,0,42.46,70.19,52.91,46823,91.82

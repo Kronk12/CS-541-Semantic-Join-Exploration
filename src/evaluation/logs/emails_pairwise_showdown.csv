@@ -1,0 +1,3 @@
+Run_ID,Dataset,Strategy,Trial,Row_Ratio,Threshold,Dropped_Clusters,Recall,Precision,F1,Tokens,Time_s
+1,Emails,pairwise,1,1:10,0.1,1,58.06,9.57,16.44,21747,87.6
+2,Emails,pairwise,1,1:10,0.2,2,58.06,10.06,17.14,21189,71.63

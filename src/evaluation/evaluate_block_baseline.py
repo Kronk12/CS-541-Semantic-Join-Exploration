@@ -18,12 +18,19 @@ def safe_semantic_join(*args, **kwargs):
 
 def load_full_datasets():
     print("Loading datasets for FULL Block evaluation...")
-    df_imdb = pd.read_csv('data/IMDB dataset.csv')
     
+    # Load Magellan Ground Truth
+    try:
+        magellan_gt_df = pd.read_csv('data/magellan_100_ground_truth.csv', encoding='latin1')
+        magellan_gt_pairs = set(zip(magellan_gt_df['idGoogleBase'], magellan_gt_df['idAmazon']))
+    except FileNotFoundError:
+        print("Warning: magellan_100_ground_truth.csv not found. Magellan ground truth validation will be empty.")
+        magellan_gt_pairs = set()
+
     return {
         "IMDB": {
-            "a": df_imdb.sample(n=100, random_state=42).reset_index(drop=True),
-            "b": df_imdb.sample(n=100, random_state=100).reset_index(drop=True),
+            "a": pd.read_csv('data/table_a.csv'),
+            "b": pd.read_csv('data/table_b.csv'),
             "schema_a": ["review"], "schema_b": ["review"],
             "pred": "both reviews express the same sentiment",
             "gt_fn": lambda a, b: a["sentiment"] == b["sentiment"],
@@ -35,12 +42,13 @@ def load_full_datasets():
             "pred": "the two texts contradict each other",
             "gt_fn": lambda a, b: (a["name"] == b["name"]) and (b["month_idx"] < a["month_idx"]),
         },
-        "MTSamples": {
-            "a": pd.read_csv('data/table_a_transcripts.csv'),
-            "b": pd.read_csv('data/table_b_specialties.csv'),
-            "schema_a": ["transcription"], "schema_b": ["specialty"],
-            "pred": "The clinical transcription belongs to this medical specialty.",
-            "gt_fn": lambda a, b: a["medical_specialty"] == b["specialty"],
+        "Magellan_Amazon_Google": {
+            "a": pd.read_csv('data/google_100_full.csv', encoding='latin1'),
+            "b": pd.read_csv('data/amazon_100_full.csv', encoding='latin1'),
+            "schema_a": ["name", "description", "manufacturer"], 
+            "schema_b": ["title", "description", "manufacturer"],
+            "pred": "These two listings represent the exact same software or electronic product.",
+            "gt_fn": lambda a, b: (a["id"], b["id"]) in magellan_gt_pairs,
         }
     }
 

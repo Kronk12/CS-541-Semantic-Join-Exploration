@@ -301,6 +301,8 @@ def semantic_join(
     )
     plan_notes.extend(notes)
     
+    default_k = 5
+
     if method == "kmeans":
         if cluster_ratio is not None:
             # Dynamically calculate based on ratio, capped by table size

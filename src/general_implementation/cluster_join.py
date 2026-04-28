@@ -109,6 +109,12 @@ def join_cluster_pair(
     tokens = TokenUsage()
     calls = 0
 
+    # OVERRIDE: Enforce a strict 2D grid to prevent asymmetric hallucination.
+    # This guarantees that if one side is chunked, the other side is either
+    # already smaller than block_size, or it gets chunked too.
+    if cluster_size_limit == -1:
+        cluster_size_limit = block_size ** 2
+
     na, nb = len(cluster_a), len(cluster_b)
 
     if na * nb <= cluster_size_limit:

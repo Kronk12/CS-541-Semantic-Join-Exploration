@@ -1,4 +1,0 @@
-Run_ID,Dataset,Trial,Baseline_Type,A_Size,B_Size,Total_Pairs_Evaluated,Recall,Precision,F1,Tokens,Time_s
-1,IMDB,1,Block_15_Full,100,100,10000,11.77,96.25,20.98,100637,158.29
-2,Emails,1,Block_15_Full,100,10,1000,50.0,31.0,38.27,6732,134.89
-3,Magellan_Amazon_Google,1,Block_15_Full,100,99,9900,97.0,95.1,96.04,83328,122.95

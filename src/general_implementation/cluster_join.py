@@ -8,7 +8,7 @@ each block-pair to the LLM with an inclusion prompt.
 
 import json
 import os
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 
 import pandas as pd
 from dotenv import load_dotenv
@@ -20,6 +20,18 @@ from utils import TokenUsage, chunk_df, format_block, parse_id
 load_dotenv()
 
 _client: OpenAI | None = None
+
+# Dataclass for cluster pair tracking
+@dataclass
+class ClusterPairStats:
+    ca: int
+    cb: int
+    size_a: int
+    size_b: int
+    total_pairs: int
+    matches: list[tuple[int, int]]
+    tokens: TokenUsage
+    n_llm_calls: int
 
 
 def _llm(prompt: str, model: str) -> tuple[str, TokenUsage]:
@@ -70,6 +82,7 @@ class JoinResult:
     matches: list[tuple[int, int]]
     tokens: TokenUsage
     n_llm_calls: int
+    pair_stats: list[ClusterPairStats] = field(default_factory=list)
 
 
 def _join_block_pair(
@@ -193,6 +206,9 @@ def join_clusters(
     tokens = TokenUsage()
     calls = 0
 
+    # list to hold tracking data
+    pair_stats: list[ClusterPairStats] = []
+
     for i, (ca, cb) in enumerate(cluster_pairs, 1):
         if ca < 0 or cb < 0:
             continue
@@ -210,6 +226,16 @@ def join_clusters(
         all_matches.extend(res.matches)
         tokens += res.tokens
         calls += res.n_llm_calls
+        pair_stats.append(ClusterPairStats(
+            ca=ca, 
+            cb=cb,
+            size_a=len(ga), 
+            size_b=len(gb),
+            total_pairs=len(ga) * len(gb),
+            matches=res.matches,
+            tokens=res.tokens,
+            n_llm_calls=res.n_llm_calls
+        ))
 
     # Dedup while preserving first-seen order.
     deduped = list(dict.fromkeys(all_matches))

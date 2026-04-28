@@ -149,8 +149,8 @@ def semantic_join(
     filter_threshold: float = 0.1,
     filter_sample_size: int = 10,
     min_profile_size: int = 40,
-    block_size: int = 20,
-    cluster_size_limit: int = 1000,
+    block_size: int = 15,
+    cluster_size_limit: int = -1,
     max_chars_per_col: int = 400,
     random_state: int = 42,
     verbose: bool = True,
@@ -336,7 +336,7 @@ def semantic_join(
 
     # Stage 3: optional sample-based filter.
     t0 = time.time()
-    if filter_threshold > 0 and pairs:
+    if filter_threshold != 0 and pairs:
         outcome = cluster_filter.filter_clusters(
             table_a, table_b, labels_a, labels_b, pairs,
             predicate, schema_a, schema_b, llm_model,

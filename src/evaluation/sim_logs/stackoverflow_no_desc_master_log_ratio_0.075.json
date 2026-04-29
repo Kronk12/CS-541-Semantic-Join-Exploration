@@ -1,0 +1,669 @@
+{
+  "fixed_tokens": {
+    "prompt": 8864,
+    "completion": 673
+  },
+  "clusters_a": {
+    "0": {
+      "size": 8,
+      "samples": [
+        {
+          "question_id": 35879220,
+          "question_text": "Title: Weights in a labeled_graph | Body: How do I add weights to this labeled graph that uses add_edge_by_label for use in dijkstra_shortest_paths?\nAm trying to use an example\nThanks\n\n#include &lt;boost/graph/adjacency_list.hpp&gt;\n#include &lt;boost/graph/copy.hpp&gt;\n#include &lt;boost/graph/labeled_graph.hpp&gt;\n#include &lt;boost/graph"
+        },
+        {
+          "question_id": 7679020,
+          "question_text": "Title: How to write an XQuery which crosses an xsd:any element? | Body: A schema contains a &lt;xsd:any/> element. \n\nThe code, by some external information, knows that in place of any there is a specific XML structure (e.g. foo).\n\nXQuery would be looking as /Root/Child/AnotherChild/book/title.\n\nBut XQuery complains that book element is not known, and XQuery thus is not "
+        },
+        {
+          "question_id": 16820230,
+          "question_text": "Title: Load JSON file into highcharts to draw a Line Chart | Body: I want to load a JSON file into highcharts. But, I am not being able to understand how to do it. The y-axis labels are the year values starting from 2046.  \n\nThe JSON file is as follows:\n\n{\n  \"year\":[2046,2047,2048,2049,2050,2051,2052,2053,2054,2055,2056,2057,2058,2059,2060,2061,2062,2063,2064,2065,"
+        }
+      ]
+    },
+    "1": {
+      "size": 17,
+      "samples": [
+        {
+          "question_id": 21685730,
+          "question_text": "Title: Jquery each loop + setTimeout problems with increments | Body: http://jsfiddle.net/fxLcy/ - example with setTimeout\n\nhttp://jsfiddle.net/fxLcy/1/ - this is the demo without setTimeout. All elements on right place, but i really need that delayed animation =/\n\nI want to place 6 cards per row via css transition and setTimeout. The point is, that i cant use increme"
+        },
+        {
+          "question_id": 21587540,
+          "question_text": "Title: rails3 jquery autocomplete getting and passing array | Body: This may seem like an easy problem to most of you, but it's been troubling me all day. \n\nI'm trying to implement messaging system. I want to be able to send message to multiple people. for this to happen i need help with two things:\nFirstly, data-delimeter doesn't work. I'm guessing i just don't kno"
+        },
+        {
+          "question_id": 13372060,
+          "question_text": "Title: Regex matching @\"*\" | Body: I am attempting to use regexes in jQuery, and I am running into some problems. This is the string that I am operating on:\n\nNSLog(@\"It works!\");\n\n\nI want the regex to select everything between the @\" and the \", inclusive. This regex works just fine in Reggy, but when put in my JavaScript, does not wo"
+        }
+      ]
+    },
+    "2": {
+      "size": 19,
+      "samples": [
+        {
+          "question_id": 39363200,
+          "question_text": "Title: \"AccessToken.user\" must be a \"User\" instance | Body: I am trying to figure out oAuth2 token based authentication since 3 days and no avail yet. I have written a code for user authentication. However, I am getting an error of \n\n\n  ValueError at /api/customer/login/ Cannot assign \"{'username':\n  'sanskars'}\": \"AccessToken.user\" must be a \"User\" instance"
+        },
+        {
+          "question_id": 23431940,
+          "question_text": "Title: C# access data from COMAdmin.COMAdminCatalog using WMI | Body: Earlier I was using code as below to grab COM+ applications and verify that my app is running\n\nCOMAdmin.COMAdminCatalog catalog = new COMAdmin.COMAdminCatalogClass();\ncatalog.Connect(servername);\ncatalog.GetCollection(\"Applications\")\n\n\nNow I need to perform the same actions but from other domain. So"
+        },
+        {
+          "question_id": 10795630,
+          "question_text": "Title: Share image from SD Card | Body: I'm trying for 2 weeks to find how to share images which are stored on an SD card with no success. \n\nThis answer doesn't work to me, nor is it what I'm looking for.\n\nI'm working with Cam Preview app that stores images to SD and then display them in in-app gallery: \n\n   public class GalleryView exten"
+        }
+      ]
+    },
+    "3": {
+      "size": 9,
+      "samples": [
+        {
+          "question_id": 11604390,
+          "question_text": "Title: Numerical Problems with GNU MP Bignum Library | Body: I'm doing some number crunching, which needs high precision arithmetic. I'm using the GNU MP library, and according to the GMP manual:\n\n\"Floating point number or Float for short, is an arbitrary precision mantissa with a limited precision exponent.\"\n\nAlthough the mantissa is supposed to have an arbi"
+        },
+        {
+          "question_id": 7837270,
+          "question_text": "Title: How .NET's regex engine treats RTL+LTR mixed strings? | Body: I have a mixed Hebrew/english string to parse.\nThe string is built like this:\n\n[3 hebrew] [2 english 2] [1 hebrew],\n\n\nSo, it can be read as: 1 2 3, and it is stored as 3 2 1 (exact byte sequence in file, double-checked in hex editor, and anyway RTL is only the display attribute). .NET regex parser h"
+        },
+        {
+          "question_id": 37287590,
+          "question_text": "Title: Is there a mechanism in C++ to make a full copy of a derived class from a base class pointer without dynamic memory allocation? | Body: Consider the following example, where object slicing occurs during dereference of a base pointer.\n\n#include &lt;stdio.h&gt;\n\nclass Base {\n  public:\n    virtual void hello() {\n        printf(\"hello world from base\\n\");\n    }\n};\nclass Derived : public Base{\n  public:\n    virtual void hello() {\n       "
+        }
+      ]
+    },
+    "4": {
+      "size": 9,
+      "samples": [
+        {
+          "question_id": 11271470,
+          "question_text": "Title: FATAL EXCEPTION: main- I have no idea what's wrong | Body: I'm still fairly new to Eclipse and I have tried everything to keep these errors from happening:\n\n06-30 00:38:28.773: E/AndroidRuntime(20520): FATAL EXCEPTION: main\n06-30 00:38:28.773: E/AndroidRuntime(20520): java.lang.SecurityException: Permission       Denial: starting Intent { act=android.intent"
+        },
+        {
+          "question_id": 11985680,
+          "question_text": "Title: Jackson equivalent to @XmlSeeAlso | Body: I am writing a RESTful web service using Java and Jersey, where the service will accept either XML or JSON inputs. Jackson is used as the JSON deserializer, and integrated into the Jersey config.\n\nOne of the endpoints is a POST request to a URL, where the content can be one of several different Java"
+        },
+        {
+          "question_id": 9181590,
+          "question_text": "Title: What is the purpose of empty abstract classes in Kohana 3? | Body: I haven't used abstract classes much in practice, though I understand what they are : a way to dictate to subclasses which methods must be implemented.\n\nI just put a Kohana project through Doxygen and can see the class hierarchy in its entirety. I see that, at the top of the chain we have a factory:"
+        }
+      ]
+    },
+    "5": {
+      "size": 14,
+      "samples": [
+        {
+          "question_id": 860880,
+          "question_text": "Title: Why would I get a GPF in DLLMain when run as a restricted user? | Body: Why is this code crashing when run as a restricted user, but not when run as an admin of the machine?\n\nextern \"C\" BOOL WINAPI DllMain(HINSTANCE hInstance, \n                               DWORD dwReason, \n                               LPVOID lpReserved)\n{\n hInstance;\n m_hInstance=hInstance;\n return "
+        },
+        {
+          "question_id": 4227950,
+          "question_text": "Title: File access issue | Body: Before writing to the file:\n\nusing (StreamWriter outfile = new StreamWriter(filePath, false, System.Text.Encoding.UTF8))\n{\n    outfile.Write(content);            \n}\n\n\nI'm checking the file write accsses using this:\n\npublic bool CheckIfAccessToFileIsGranted(string filePath)\n{\n     try\n     {\n        "
+        },
+        {
+          "question_id": 12987220,
+          "question_text": "Title: Get backreferences values and modificate these values | Body: Could you please explain why im not able to get values of backreferences from a matched regex result and apply it some modification before effective replacement?\n\nThe expected result is replacing for example string \".coord('X','Y')\" by \"X * Y\". But if X > to some value, divide this value by 2 and th"
+        }
+      ]
+    },
+    "6": {
+      "size": 24,
+      "samples": [
+        {
+          "question_id": 22025090,
+          "question_text": "Title: Datatable filter not working | Body: I am using Primefaces for creating a filterable table.\n\n&lt;p:dataTable id=\"tasksTable\" value=\"#{taskView.currentTasks}\" var=\"task\" rowIndexVar=\"index\" filteredValue=\"#{taskView.filteredTasks}\"&gt;\n                &lt;p:column headerText=\"Name\"&gt;\n                    &lt;h:outputText value=\"#{task."
+        },
+        {
+          "question_id": 2359300,
+          "question_text": "Title: wxPython change field on tab | Body: I apologize for a simple question, but I did not see this in the tutorials.\n\nI have a very simple gui, but I would like the user to be able to press the TAB key and have it move from one input field to another.  I am using wxPython with Python 2.6.\n"
+        },
+        {
+          "question_id": 37796290,
+          "question_text": "Title: Vaadin app is deployed on WildFly in Openshift, but i can see only standard openshift welcome page | Body: I'm a newbie with all that vaadin, wildfly and openshift stuff, so, please, excuse me, if I will sound stupid.\n\nI deployed my app to Wildfly 10 server. Everything was fine during deployment. But now I just can't see the rendered page (only welcome page can be accessed).\n\nWhen I deploy locally I use "
+        }
+      ]
+    }
+  },
+  "clusters_b": {
+    "0": {
+      "size": 3,
+      "samples": [
+        {
+          "concept_id": "T-1",
+          "concept_name": "html",
+          "Description": "HyperText Markup Language, the standard markup language for documents designed to be displayed in a web browser."
+        },
+        {
+          "concept_id": "T-2",
+          "concept_name": "javascript",
+          "Description": "A lightweight, interpreted programming language with first-class functions, core to interactive web development."
+        },
+        {
+          "concept_id": "T-3",
+          "concept_name": "jquery",
+          "Description": "A fast, small, and feature-rich JavaScript library designed to simplify HTML DOM tree traversal and manipulation."
+        }
+      ]
+    },
+    "1": {
+      "size": 7,
+      "samples": [
+        {
+          "concept_id": "T-0",
+          "concept_name": "java",
+          "Description": "A high-level, class-based, object-oriented programming language designed to have as few implementation dependencies as possible."
+        },
+        {
+          "concept_id": "T-4",
+          "concept_name": "c++",
+          "Description": "A general-purpose programming language created as an extension of C, known for performance, efficiency, and hardware control."
+        },
+        {
+          "concept_id": "T-5",
+          "concept_name": "c#",
+          "Description": "A modern, object-oriented, and type-safe programming language developed by Microsoft for the .NET framework."
+        }
+      ]
+    }
+  },
+  "pairs": [
+    {
+      "ca": 0,
+      "cb": 0,
+      "size_a": 8,
+      "size_b": 3,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          94,
+          1
+        ]
+      ],
+      "tokens": {
+        "prompt": 1053,
+        "completion": 56
+      }
+    },
+    {
+      "ca": 0,
+      "cb": 1,
+      "size_a": 8,
+      "size_b": 7,
+      "sample_rate": 0.04,
+      "matches": [
+        [
+          6,
+          4
+        ],
+        [
+          64,
+          7
+        ]
+      ],
+      "tokens": {
+        "prompt": 1093,
+        "completion": 60
+      }
+    },
+    {
+      "ca": 1,
+      "cb": 0,
+      "size_a": 17,
+      "size_b": 3,
+      "sample_rate": 0.4,
+      "matches": [
+        [
+          17,
+          3
+        ],
+        [
+          18,
+          3
+        ],
+        [
+          24,
+          3
+        ],
+        [
+          25,
+          3
+        ],
+        [
+          28,
+          2
+        ],
+        [
+          32,
+          3
+        ],
+        [
+          39,
+          1
+        ],
+        [
+          40,
+          2
+        ],
+        [
+          42,
+          2
+        ],
+        [
+          55,
+          3
+        ],
+        [
+          61,
+          3
+        ],
+        [
+          62,
+          2
+        ],
+        [
+          80,
+          2
+        ],
+        [
+          81,
+          2
+        ],
+        [
+          86,
+          3
+        ],
+        [
+          92,
+          1
+        ],
+        [
+          98,
+          3
+        ]
+      ],
+      "tokens": {
+        "prompt": 1780,
+        "completion": 174
+      }
+    },
+    {
+      "ca": 1,
+      "cb": 1,
+      "size_a": 17,
+      "size_b": 7,
+      "sample_rate": 0.0,
+      "matches": [],
+      "tokens": {
+        "prompt": 1820,
+        "completion": 128
+      }
+    },
+    {
+      "ca": 2,
+      "cb": 0,
+      "size_a": 19,
+      "size_b": 3,
+      "sample_rate": 0.0,
+      "matches": [],
+      "tokens": {
+        "prompt": 1786,
+        "completion": 118
+      }
+    },
+    {
+      "ca": 2,
+      "cb": 1,
+      "size_a": 19,
+      "size_b": 7,
+      "sample_rate": 0.16,
+      "matches": [
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          9,
+          6
+        ],
+        [
+          12,
+          9
+        ],
+        [
+          23,
+          8
+        ],
+        [
+          23,
+          9
+        ],
+        [
+          29,
+          6
+        ],
+        [
+          34,
+          9
+        ],
+        [
+          51,
+          7
+        ],
+        [
+          54,
+          9
+        ],
+        [
+          89,
+          9
+        ],
+        [
+          91,
+          6
+        ]
+      ],
+      "tokens": {
+        "prompt": 1826,
+        "completion": 191
+      }
+    },
+    {
+      "ca": 3,
+      "cb": 0,
+      "size_a": 9,
+      "size_b": 3,
+      "sample_rate": 0.0,
+      "matches": [],
+      "tokens": {
+        "prompt": 1014,
+        "completion": 58
+      }
+    },
+    {
+      "ca": 3,
+      "cb": 1,
+      "size_a": 9,
+      "size_b": 7,
+      "sample_rate": 0.2,
+      "matches": [
+        [
+          22,
+          5
+        ],
+        [
+          27,
+          4
+        ],
+        [
+          46,
+          4
+        ],
+        [
+          50,
+          4
+        ],
+        [
+          78,
+          4
+        ],
+        [
+          88,
+          4
+        ],
+        [
+          95,
+          4
+        ]
+      ],
+      "tokens": {
+        "prompt": 1054,
+        "completion": 100
+      }
+    },
+    {
+      "ca": 4,
+      "cb": 0,
+      "size_a": 9,
+      "size_b": 3,
+      "sample_rate": 0.0,
+      "matches": [],
+      "tokens": {
+        "prompt": 866,
+        "completion": 58
+      }
+    },
+    {
+      "ca": 4,
+      "cb": 1,
+      "size_a": 9,
+      "size_b": 7,
+      "sample_rate": 0.08,
+      "matches": [
+        [
+          5,
+          8
+        ],
+        [
+          8,
+          0
+        ],
+        [
+          21,
+          0
+        ],
+        [
+          41,
+          0
+        ],
+        [
+          53,
+          5
+        ],
+        [
+          58,
+          8
+        ],
+        [
+          66,
+          0
+        ],
+        [
+          75,
+          0
+        ]
+      ],
+      "tokens": {
+        "prompt": 906,
+        "completion": 104
+      }
+    },
+    {
+      "ca": 5,
+      "cb": 0,
+      "size_a": 14,
+      "size_b": 3,
+      "sample_rate": 0.06666666666666667,
+      "matches": [
+        [
+          56,
+          2
+        ]
+      ],
+      "tokens": {
+        "prompt": 1465,
+        "completion": 92
+      }
+    },
+    {
+      "ca": 5,
+      "cb": 1,
+      "size_a": 14,
+      "size_b": 7,
+      "sample_rate": 0.08,
+      "matches": [
+        [
+          13,
+          4
+        ],
+        [
+          44,
+          6
+        ],
+        [
+          49,
+          4
+        ],
+        [
+          70,
+          6
+        ],
+        [
+          72,
+          5
+        ],
+        [
+          74,
+          5
+        ],
+        [
+          85,
+          7
+        ]
+      ],
+      "tokens": {
+        "prompt": 1505,
+        "completion": 135
+      }
+    },
+    {
+      "ca": 6,
+      "cb": 0,
+      "size_a": 24,
+      "size_b": 3,
+      "sample_rate": 0.13333333333333333,
+      "matches": [
+        [
+          3,
+          1
+        ],
+        [
+          35,
+          2
+        ],
+        [
+          48,
+          1
+        ],
+        [
+          52,
+          1
+        ],
+        [
+          52,
+          2
+        ],
+        [
+          73,
+          1
+        ],
+        [
+          82,
+          1
+        ]
+      ],
+      "tokens": {
+        "prompt": 2341,
+        "completion": 177
+      }
+    },
+    {
+      "ca": 6,
+      "cb": 1,
+      "size_a": 24,
+      "size_b": 7,
+      "sample_rate": 0.12,
+      "matches": [
+        [
+          7,
+          7
+        ],
+        [
+          15,
+          6
+        ],
+        [
+          16,
+          8
+        ],
+        [
+          19,
+          8
+        ],
+        [
+          20,
+          8
+        ],
+        [
+          31,
+          9
+        ],
+        [
+          36,
+          5
+        ],
+        [
+          45,
+          8
+        ],
+        [
+          48,
+          8
+        ],
+        [
+          57,
+          5
+        ],
+        [
+          67,
+          5
+        ],
+        [
+          71,
+          9
+        ],
+        [
+          73,
+          6
+        ],
+        [
+          77,
+          8
+        ],
+        [
+          82,
+          6
+        ],
+        [
+          84,
+          7
+        ],
+        [
+          93,
+          8
+        ],
+        [
+          97,
+          9
+        ]
+      ],
+      "tokens": {
+        "prompt": 2381,
+        "completion": 220
+      }
+    }
+  ]
+}

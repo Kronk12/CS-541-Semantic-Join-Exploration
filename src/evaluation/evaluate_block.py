@@ -40,7 +40,7 @@ def load_full_datasets():
             "a": pd.read_csv('data/table_a_stack.csv'),
             "b": pd.read_csv('data/table_b_stack.csv'),
             "schema_a": ["question_text"], 
-            "schema_b": ["concept_name", "Description"],
+            "schema_b": ["concept_name"],
             "pred": "The question describes symptoms, errors, or intents that are solved by or directly related to this programming concept.",
             "gt_fn": lambda a, b: (int(a["question_id"]), str(b["concept_id"])) in so_gt_pairs,
         }

@@ -1,0 +1,3017 @@
+{
+  "fixed_tokens": {
+    "prompt": 33243,
+    "completion": 3374
+  },
+  "clusters_a": {
+    "0": {
+      "size": 14,
+      "samples": [
+        {
+          "review": "I was first introduced to John Waters films by seeing \"Female trouble\" on IFC. I was disgusted but for some sick reason i enjoyed it. Then, i picked up the Pink Flamingos DVD in the John Waters Boxed Set. The movie is about Babs Johnson \"The Filthiest Person Alive\" who lives in a trailer in Maryland with her obese egg obsessed mother,and her deranged son \"Crackers\". In the movie you will see such sick sights as sex with chickens, drag-queens, people eating feces, torture, and all other sorts of random humiliation. The film has a soundtrack from 60's rock and roll artists. The only problem is that some parts of the film seem to drag on and can get a little boring. I found \"Female Trouble\" a little more fun. Rated NC-17 for Explicit sex, violence, and disturbing images. Enjoy.",
+          "sentiment": "positive"
+        },
+        {
+          "review": "This movie has very good acting by virtually all the cast, a gripping story with a chilling ending, great music, and excellent visuals without significant special effects. It is interesting to note though that, like so much science fiction, its predictions for the future don't appear likely to come to pass as early as depicted. That's not to say we're out of the woods yet, but 2022 is now obviously too soon to be in this condition. It shares this failing with a fairly illustrious list of science fiction classics: \"1984\", \"2001: A Space Odyssey (compare its space station with our International Space Station) and Isaac Asimov's \"I Robot\" (positronic brains were to have been invented in the 1990's).",
+          "sentiment": "positive"
+        },
+        {
+          "review": "Send them to the freezer. This is the solution two butchers find after they discover the popularity of selling human flesh. An incredible story with humor and possible allegories that make it much more than a horror film. The complex characters defy superficial classification and make the story intriguing and worthwhile - if you can stand it. Definitely a dark film but also a bit redemptive.",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    "1": {
+      "size": 16,
+      "samples": [
+        {
+          "review": "The film quickly gets to a major chase scene with ever increasing destruction. The first really bad thing is the guy hijacking Steven Seagal would have been beaten to pulp by Seagal's driving, but that probably would have ended the whole premise for the movie.<br /><br />It seems like they decided to make all kinds of changes in the movie plot, so just plan to enjoy the action, and do not expect a coherent plot. Turn any sense of logic you may have, it will reduce your chance of getting a headache.<br /><br />I does give me some hope that Steven Seagal is trying to move back towards the type of characters he portrayed in his more popular movies.",
+          "sentiment": "negative"
+        },
+        {
+          "review": "Okay, I didn't get the Purgatory thing the first time I watched this episode. It seemed like something significant was going on that I couldn't put my finger on. This time those Costa Mesa fires on TV really caught my attention- and it helped that I was just writing an essay on Inferno! But let me see what HASN'T been discussed yet...<br /><br />A TWOP review mentioned that Tony had 7 flights of stairs to go down because of the broken elevator. Yeah, 7 is a significant number for lots of reasons, especially religious, but here's one more for ya. On a hunch I consulted wikipedia, and guess what Dante divided into 7 levels? Purgatorio. Excluding ante-Purgatory and Paradise. (The stuff at the bottom of the stairs and... what Tony can't get to.) <br /><br />On to the allegedly \"random\" monk-slap scene. As soon as the monks appeared, it fit perfectly in place with Tony trying to get out of Purgatory. You can tell he got worried when that Christian commercial (death, disease, and sin) came on, and he's getting more and more desperate because Christian heaven is looking kinda iffy for him. By the time he meets the monks he's thinking \"hey maybe these guys can help me?\" which sounds like contemplating other religions (e.g. Buddhism) and wondering if some other path could take him to \"salvation\". Not that Tony is necessarily literally thinking about becoming a Buddhist, but it appears Finnerty tried that (and messed up). That slap in the face basically tells Tony there's no quick fix- as in, no, you can't suddenly embrace Buddhism and get out of here. <br /><br />Tony was initially not too concerned about getting to heaven. But at the \"conference entrance\", he realizes that's not going to be so easy for him. At first I saw the name vs. driver's license problem as Tony having led sort of a double life, what with the killing people and sleeping around that he kept secret from most people. He feels free to have an affair with quasi-Melfi because \"he's Kevin Finnerty\". He figures out that he CAN fool some people with KF's cards, like hotel receptionists, but it won't get him out of Purgatory. Those helicopters- the helicopters of Heaven?- are keeping track of him and everything he does.<br /><br />After reading all the theories on \"inFinnerty\", though, it seems like KF's identity is a reminder of the infinite different paths Tony could've taken in his life. Possibly along with the car joke involving Infiniti's that made no sense to me otherwise. Aaaand at that point my brain fizzles out.",
+          "sentiment": "positive"
+        },
+        {
+          "review": "I was very disappointed with this series. It had lots of cool graphics and that's about it. The level of detail it went into was minimal, and I always got the feeling the audience was being patronized -- there was a lot of what seemed to me as \"This is extremely cool but we're not going to explain it in further detail because you won't get it anyway. Let's just show you some pretty pictures to entertain you.\" The host would drop interesting-sounding words such as \"sparticles\" and \"super-symmetry\" without any attempt at explaining what it was. We had to look it up on Wikipedia.<br /><br />Furthermore, I know quite a bit about superstrings (for a layman) and I found their explanations were convoluted and could have been so much better. They could have chosen MUCH better examples to explain concepts, but instead, the examples they used were confusing and further obscured the subject.<br /><br />Additionally, I got so sick of the repetitiveness. They could easily have condensed the series into one episode if they had cut out all the repetition. They must have shown the clips of the Quantum Caf\u00e9 about 8 times. The host kept saying the same things over and over and over again. I can't remember how many times he said \"The universe is made out of tiny little vibrating strings.\" It's like they were trying to brainwash us into just accepting \"superstrings are the best thing since sliced bread.\"<br /><br />Finally, the show ended off with an unpleasant sense of a \"competition\" between Fermilab and CERN, clearly biased towards Fermilab. This is supposed to be an educational program about quantum physics, not about whether the US is better than Europe or vice versa! I also felt that was part of the patronizing -- \"Audiences need to see some conflict to remain interested.\" Please. Give me a little more credit than that.<br /><br />Overall, 2 thumbs down :-(",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    "2": {
+      "size": 6,
+      "samples": [
+        {
+          "review": "I really liked this Summerslam due to the look of the arena, the curtains and just the look overall was interesting to me for some reason. Anyways, this could have been one of the best Summerslam's ever if the WWF didn't have Lex Luger in the main event against Yokozuna, now for it's time it was ok to have a huge fat man vs a strong man but I'm glad times have changed. It was a terrible main event just like every match Luger is in is terrible. Other matches on the card were Razor Ramon vs Ted Dibiase, Steiner Brothers vs Heavenly Bodies, Shawn Michaels vs Curt Hening, this was the event where Shawn named his big monster of a body guard Diesel, IRS vs 1-2-3 Kid, Bret Hart first takes on Doink then takes on Jerry Lawler and stuff with the Harts and Lawler was always very interesting, then Ludvig Borga destroyed Marty Jannetty, Undertaker took on Giant Gonzalez in another terrible match, The Smoking Gunns and Tatanka took on Bam Bam Bigelow and the Headshrinkers, and Yokozuna defended the world title against Lex Luger this match was boring and it has a terrible ending. However it deserves 8/10",
+          "sentiment": "positive"
+        },
+        {
+          "review": "Expectations were somewhat high for me when I went to see this movie, after all I thought Steve Carell could do no wrong coming off of great movies like Anchorman, The 40 Year-Old Virgin, and Little Miss Sunshine. Boy, was I wrong.<br /><br />I'll start with what is right with this movie: at certain points Steve Carell is allowed to be Steve Carell. There are a handful of moments in the film that made me laugh, and it's due almost entirely to him being given the wiggle-room to do his thing. He's an undoubtedly talented individual, and it's a shame that he signed on to what turned out to be, in my opinion, a total train-wreck.<br /><br />With that out of the way, I'll discuss what went horrifyingly wrong.<br /><br />The film begins with Dan Burns, a widower with three girls who is being considered for a nationally syndicated advice column. He prepares his girls for a family reunion, where his extended relatives gather for some time with each other.<br /><br />The family is high atop the list of things that make this an awful movie. No family behaves like this. It's almost as if they've been transported from Pleasantville or Leave it to Beaver. They are a caricature of what we think a family is when we're 7. It reaches the point where they become obnoxious and simply frustrating. Touch football, crossword puzzle competitions, family bowling, and talent shows ARE NOT HOW ACTUAL PEOPLE BEHAVE. It's almost sickening.<br /><br />Another big flaw is the woman Carell is supposed to be falling for. Observing her in her first scene with Steve Carell is like watching a stroke victim trying to be rehabilitated. What I imagine is supposed to be unique and original in this woman comes off as mildly retarded.<br /><br />It makes me think that this movie is taking place on another planet. I left the theater wondering what I just saw. After thinking further, I don't think it was much.",
+          "sentiment": "negative"
+        },
+        {
+          "review": "jeez, this was immensely boring. the leading man (Christian Schoyen) has got to be the worst actor i have ever seen. and another thing, if the character in the movie moved to America when he was ten or something and had been living here for over 20 years, he would speak a lot better English than what he pulls of here. or to say it in my own Language \"Skikkelig gebrokkent\". But it is cool to see Norwegian dudes in a movie made in Hollywood. it was just a damn shame they were talentless hacks. The storyline itself is below mediocre. I have a suspicion that Christian Schoyen did this movie just to live the dream, as he clearly does in the film by humping one beautiful babe after another.",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    "3": {
+      "size": 9,
+      "samples": [
+        {
+          "review": "Jane Austen would definitely approve of this one!<br /><br />Gwyneth Paltrow does an awesome job capturing the attitude of Emma. She is funny without being excessively silly, yet elegant. She puts on a very convincing British accent (not being British myself, maybe I'm not the best judge, but she fooled me...she was also excellent in \"Sliding Doors\"...I sometimes forget she's American ~!). <br /><br />Also brilliant are Jeremy Northam and Sophie Thompson and Phyllida Law (Emma Thompson's sister and mother) as the Bates women. They nearly steal the show...and Ms. Law doesn't even have any lines!<br /><br />Highly recommended.",
+          "sentiment": "positive"
+        },
+        {
+          "review": "This movie starts off somewhat slowly and gets running towards the end. Not that that is bad, it was done to illustrate character trait degression of the main character. Consequently, if you are not into tragedies, this is not your movie. It is the thought provoking philosophy of this movie that makes it worthwhile. If you liked Dostoyevsky's 'Crime and Punishment,\" you will probably like this if only for the comparisons. The intriguing question that the movie prompts is, \"What is it that makes a renowned writer completely disregard his publicly-aproved ideas for another set?\" The new ideas are quite opposed to the status quo-if you are a conservative you will not like this movie. <br /><br />Besides other philosophical questions, I must admit that the movie was quite aesthetically pleasing as well. The grassy hillsides and beautiful scenery helped me get past the slow start. Also, there was use of coloric symbolism in representing the mindstate of the main characters. If these sorts of things do not impress you, skip it. Overall I give this movie a 7.",
+          "sentiment": "positive"
+        },
+        {
+          "review": "I can't help but notice the negative reviews this movie has gotten. To be honest, I saw the preview for this movie, and the premise looked intrigued me. Yes, I rented it after reading others' comments. They are correct in that some of the acting leaves a lot to be desired. They are also correct that one of the best performances of this movie was that of Dr. Graves.<br /><br />Also interesting is Scott Clark, who plays Grant, the kid in the wheelchair. I identify with the character he played, perhaps because I am in a wheelchair.<br /><br />This movie is certainly worth your looking at.",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    "4": {
+      "size": 5,
+      "samples": [
+        {
+          "review": "Not many television shows appeal to quite as many different kinds of fans like Farscape does...I know youngsters and 30/40+ years old;fans both Male and Female in as many different countries as you can think of that just adore this T.V miniseries. It has elements that can be found in almost every other show on T.V, character driven drama that could be from an Australian soap opera; yet in the same episode it has science fact & fiction that would give even the hardiest \"Trekkie\" a run for his money in the brainbender stakes! Wormhole theory, Time Travel in true equational form...Magnificent. It embraces cultures from all over the map as the possibilities are endless having multiple stars and therefore thousands of planets to choose from.<br /><br />With such a broad scope; it would be expected that nothing would be able to keep up the illusion for long, but here is where \"Farscape\" really comes into it's own element...It succeeds where all others have failed, especially the likes of Star Trek (a universe with practically zero Kaos element!) They ran out of ideas pretty quickly + kept rehashing them! Over the course of 4 seasons they manage to keep the audience's attention using good continuity and constant character evolution with multiple threads to every episode with unique personal touches to camera that are specific to certain character groups within the whole. This structure allows for an extremely large area of subject matter as loyalties are forged and broken in many ways on many many issues. I happened to see the pilot (Premiere) in passing and just had to keep tuning in after that to see if Crichton would ever \"Get the girl\", after seeing them all on television I was delighted to see them available on DVD & I have to admit that it was the only thing that kept me sane whilst I had to do a 12 hour night shift and developed chronic insomnia...Farscape was the only thing to get me through those extremely long nights...<br /><br />Do yourself a favour; Watch the pilot and see what I mean...<br /><br />Farscape Comet",
+          "sentiment": "positive"
+        },
+        {
+          "review": "I've watched this movie on a fairly regular basis for most of my life, and it never gets old. For all the snide remarks and insults (mostly from David Spade), \"Tommy Boy\" has a giant heart. And that's what keeps this movie funny after all these years.<br /><br />Tommy Callahan (Chris Farley) is the son of Big Tom Callahan (Brian Dennehy), master car parts salesman, and has ridden on that all his life. But after his died dies on his wedding day, Tommy learns that the company is in debt, and about to be bought by Ray Zalinsky (Dan Akroyd), the owner of a huge car parts company. So in order to save the company, Tommy has to go on the road to sell the company's new brake pads. Along for the ride, though not by choice, is Richard Hayden (David Spade) a former classmate of Tommy's who was Big Tom's right-hand man.<br /><br />The movie rides on the chemistry between the two SNL stars (and real-life best friends) Chris Farley and David Spade. The duo has enough comic energy going between them to power the world. It's the big, dumb guy versus the smart little guy. It works, and some of their scenes are unforgettably funny. Farley and Spade are actually decent dramatic actors as well. Although the film is primarily a comedy, it has its fair share of drama, but Spade and especially Farley are just as good there as when they're making the audience laugh.<br /><br />Forgive me, but I have to talk about Chris Farley a little more. I read his biography (\"The Chris Farley Show: A Biography in Three Acts,\" for anyone who cares), and understanding who Chris was in real life made this movie more special to me. Chris Farley was a genuinely good person who struggled, and ultimately failed to conquer his addictions. Although this was the first movie he had a major role in, it is his best film. It really showed who he was, and just how much talent he had. Knowing Chris's story adds another layer to this movie, although it doesn't make it any less funny.<br /><br />Farley and Spade are matched with a good on screen cast. Rob Lowe is suitably slimy as Tommy's \"new brother,\" and Bo Derek is solid as his step-mother. Brian Dennehy is great as Big Tom. Dennehy makes it easy to believe that they're father in son. Big Tom is just as crazy as his son, although he's smarter and more mature. Dan Akroyd gives one of his best performances as Zalinsky, giving Tommy the hard truth behind advertising. Julie Warner is also good as Tommy's love interest, Michelle.<br /><br />For me, Peter Segal is one of the great comedy directors. He keeps the pace quick and energetic, but most importantly, he knows how to make comedy funny. He doesn't belabor the jokes, and he understands that funny actors know what they're doing and he allows them to do it. But Segal goes a step further. He gives \"Tommy Boy\" a friendly, almost nostalgic tone that both tugs the heartstrings (genuinely) and tickles the funnybone.<br /><br />Critics didn't like \"Tommy Boy.\" Shame on them. A movie doesn't have to be super sophisticated or subversively intellectual to be funny (God forbid Farley and Spade were forced to do muted comedy a la \"The Office\"). This is a great movie and one of my all-time favorites.",
+          "sentiment": "positive"
+        },
+        {
+          "review": "For once a story of hope highlighted over the tragic reality our youth face. Favela Rising draws one into a scary, unsafe and unfair world and shows through beautiful color and moving music how one man and his dedicated friends choose not to accept that world and change it through action and art. An entertaining, interesting, emotional, aesthetically beautiful film. I showed this film to numerous high school students as well who all live in neighborhoods with poverty and and gun violence and they were enamored with Anderson, the protagonist. I recommend this film to all ages over 13 (due to subtitles and some images of death) from all backgrounds.",
+          "sentiment": "positive"
+        }
+      ]
+    }
+  },
+  "clusters_b": {
+    "0": {
+      "size": 9,
+      "samples": [
+        {
+          "review": "Although this series and the mini film in particular were very important at the time of release, I feel that the series as a whole was actually fairly poorly written with a weak cast. The issues at heart are extremely well portrayed yet it is difficult to relate and understand the problems within the film when the acting and script isn't convincing enough (especially when looking at the mini film).<br /><br />I also don't believe that this mini film or series has stood the test of time as now many of the scenes are quite laughable. The issues are still crucial but Boys From The Blackstuff cannot fully aid the cause of understanding the problems in Britain in the 1980s.",
+          "sentiment": "negative"
+        },
+        {
+          "review": "From the start this film drags and drags. Clumsy overdubs explaining the history, monochrome acting, boring sets, total lack of any humanity, verve or style. The actors look as if they are drugged. Potentially an interesting story completely wasted. Surely somebody realised how bad it was at some point in producing it?",
+          "sentiment": "negative"
+        },
+        {
+          "review": "This is a very sad movie. Really. Nothing happens in this movie. The Script is bad!!! I guess they've just copy-paste the first 15 pages to 90 pages. The Producers must have thought let's create a Hollywood movie here in Belgium. They didn't succeed. Now in the third week it is only running in Antwerp and Brussels at 22h45 or something. In the past we have had really good movies in Belgium, like Daens. Shades is a waste of your time. Maybe you could sneak in the theater after you've seen a real movie. If you've seen 10 minutes of Shades, you've seen it all. It was advertised to death on local radio and TV. I hope it will disappear in the Shades soon.",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    "1": {
+      "size": 14,
+      "samples": [
+        {
+          "review": "Who doesn't love the muppets?! Impossible it is to watch them without getting some kind of warm, fuzzy feeling inside. So, I guess what's important is that this movie seemed to very successfully capture what makes the muppets so special. I don't remember much about the details of the plot but the various moments and characters in the film I recall quite fondly. In fact, there was quite a nostalgic atmosphere to the whole movie but without being self-conscious in any bad way. Refreshing for someone who possibly gets too hung up on meticulous details and technique; the \"magic\" transcends all that other stuff. 'Tis indeed what movies are made of.<br /><br />So, how does the film achieve these things? Hmmm, nice question! Stumped am I? Let's see. Really, I feel like it's quite simple. The filmmakers believe in their material and don't take themselves too seriously in the process. I probably wouldn't say the film has many truly inspired moments, but it does have a certain life to it (that funnily enough a great many \"real people\" movies lack). A zest. You really want to believe in these funny little people and their adventures. They also have a certain innocence about them that makes them all the more endearing.<br /><br />Generally I get the impression that the people that made the movie just weren't afraid to try whatever felt right to them at the time which gives the whole thing quite a loose feel. Kind of like a really accessible and enjoyable extended jazz session. Lots of talent, little predictability and plenty of warm personalities coming through. The cameos were of course a bunch of nice surprises for instance. Maybe I don't feel I have much to say about it because I was half-asleep when I saw it (and/or as I write this review). Anyway, I'm sort of semi-repeating myself here but I really liked the sense of family the movie had. Full of love I suppose you might say. Again, a feeling of nostalgia comes to mind which not many films manage to achieve so effectively or effortlessly.<br /><br />And to repeat myself once more, one of the film's best charms is its very relaxed and welcoming atmosphere. Like the Nathaniel Hawthorne quote about happiness being (like) a butterfly, so The Muppet Movie greatly succeeds partially by not seeming to try to do so. Same with beauty being best undiscovered or untouched or unforced or something like that. Anyway, if that sounds sappy, I also reckon it was pretty hilarious.<br /><br />So, all in all, this movie was very funny, touching and difficult not to smile along to. Plus it features lots of great music! Highly recommended to all humans, both the young and the young at heart.",
+          "sentiment": "positive"
+        },
+        {
+          "review": "I don't think I've really ever given Walter Matthau his due as a comedic performer. He's certainly been wonderful in plenty of lighthearted roles, but I guess I always put his success down to his characters' grumpiness and ruthlessness, a gruff contrast to the flamboyant personality of his frequent co-star Jack Lemmon, and, I suppose, a natural extension of his earlier work in dramatic pictures. Watching Gene Saks' 'The Odd Couple (1968),' adapted from a popular Neil Simon play, the realisation suddenly clicked: Matthau is, in his own right, absolutely hilarious! Initially striking the audience as filthy, crude and generally unappealing, his Oscar Madison eventually manages to worm his way into our hearts, culminating in a hilariously overplayed confession of emotions that Matthau rasps out in a voice not entirely his own. At the same time, while holding his own as a comedian, his interplay with Lemmon is, of course, pitch-perfect; indeed, the film rightly belongs to both actors, who have never failed to light up the cinema screen by themselves, let alone together.<br /><br />Calling to mind Billy Wilder's screenplay for 'The Apartment (1960),' this Neil Simon comedy builds itself around around a rather morbid premise. Compulsive house-cleaner Felix Unger (Lemmon), having just been evicted by his wife of twelve years, attempts to commit suicide, but fruitlessly abandons the idea after he wrecks his back trying to open the hotel window. Dejected, he arrives at the house of good friend Oscar (Matthau), a divorced slob who lives alone on a diet of potato crisps and green sandwiches (that might contain either very new cheese or very old meat!). Oscar kindly offers Felix a place to stay, but is soon overwhelmed by his friend's finicky personality and constant insistence on absolute cleanliness. The pair form an unusual sort of marital arrangement, with Felix assuming the role of the effeminate and constantly-nagging wife, and Oscar as the sloppy, unappreciative husband who always comes home later than he's supposed to. This is a marriage that barely lasts three weeks, and, by the end of it, we can completely sympathise with Felix's ex-wife, who remains unseen.<br /><br />'The Odd Couple' is a terrific comedy, most of all because it has a lot of heart. For all their arguing, it's obvious that the two roommates have plenty of affection for each other, most movingly seen when Felix tries to launch into a furious tirade, instead \u0096 perhaps inadvertently \u0096 ending up informing Oscar how \"tops\" he his. The pair's four poker buddies (John Fiedler, Herb Edelman, David Sheiner and Larry Haines) are also constantly badgering each other about some obscure annoyance, but you can't deny that they've got the best of intentions. Their decision to treat Felix as though nothing has happened to him may have sounded fine in theory, but maybe being ignored wasn't quite the correct solution to Felix's gloomy feelings of inadequacy and inconsequentiality. Unlike some comedies based on popular stage plays {I was recently disappointed by Wilder's 'The Seven Year Itch (1955)}, this film doesn't simply strike at the same chord throughout, and the relationship between the two leads is progressively developed, through tears, laughter and much disagreement.",
+          "sentiment": "positive"
+        },
+        {
+          "review": "A remake of the 1916 silent film, based on the 1909 novel by Maurice Leblanc. The detective series would be made into numerous plays, films and TV series in the UK, the US, and France over the years. This 1932 version starred the smashing Barrymore brothers John (as the Duke) and Lionel (as Detective Guerchard). They would also star together in Grand Hotel, Dinner at Eight, and several others over the next couple years. Sonia (Karen Morley) shows up in the Duke's bed during a party in this pre-Hayes code film; first the lights go out in the bedroom, then they go out in the main ballroom, then the search is on for the crook and the missing jewelry, as well as other missing valuables... You can tell talkies hadn't been around too long, as they still use caption cards several times. Also watch for a new kind of safe that doesn't need a combination. Well-thought- out plot, no big holes, but no big surprises here either. Not bad for an early talkie film. Clever ending.",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    "2": {
+      "size": 8,
+      "samples": [
+        {
+          "review": "A ruthless assassin has been hired to eliminate someone at the very top of the U.S. government. Constantly changing his identity and location, he is known only as the Jackal. Everything about this hit man is a secret. Aware of the Jackal's presence but uncertain of his purpose, the FBI's Deputy Director faces the biggest challenge of his career. In order to track down this cold-blooded killer, he and a by-the-book Russian intelligence officer enlist the aid of an imprisoned Irish terrorist. These unlikely allies enter a global race against the clock to stop the mysterious mercenary before he can complete his assignment. If you are looking for a non-stop action movie like Die Hard, then The Jackal is not your movie. It\u00b4s a slow spy thriller with many cool gadgets and weapons. Richard Gere does a good job playing an impassioned terrorist who is helping the FBI for a deeper cause than just freedom. And Willis puts forth a good effort as the Jackal. OK film but nothing more.",
+          "sentiment": "negative"
+        },
+        {
+          "review": "I've got as much testosterone as the next bloke, and Raquel Welch at her finest is certainly worth a look; but the fact is that a cardboard cut-out could act better, and an hour and half of Ms. W showing off her considerable assets does not a movie make.<br /><br />Considering the cast, it's surprising that it's as bad as it is. I've never been a big fan of Wagner, and his tough guy Harry is about as convincing as a 9-dollar bill. Godfrey Cambridge and Vittorio de Sica, both of whom I usually enjoy, seem to be sleeping through their lines; and as for Edward G...well, I can only assume he was there for the paycheck.<br /><br />This film is a mess: from non-existent plot, through stop-start action and unfunny script to puerile slapstick and annoying 60's 'caper' music. If it weren't for Miss Welch, I'd have given it a 0.<br /><br />That said, she is a treat to the eyes - even better than her delicious cameo in 'Bedazzled' - and for that reason alone I gave it a 3.",
+          "sentiment": "negative"
+        },
+        {
+          "review": "\"The Garden of Allah\" was one of the first feature length, 3-strip Technicolor films. To correct a previous poster the first Technicolor feature (after Disney's 5-year exclusivity deal) was 1935's \"Becky Sharp\" which was a costume drama that used the color for it's garish color costumes.<br /><br />\"The Garden of Allah\" looks as if it could have been shot years later as the cinematography uses not only the color but also the use of shadows. It must have been amazing for an audiences at the time to see a color feature after seeing basically only black and white films for their whole life. Unfortunately, the film does not stand up to the cinematography. That being said, the film is worth seeing just as a visual treat.",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    "3": {
+      "size": 7,
+      "samples": [
+        {
+          "review": "This anime is a must-see for fans of Evangelion. It's an earlier work of Anno Hideaki, but his unrestrained, dramatic style is quite in place. Also, those who didn't like Evangelion might find this release to bit slightly more palatable. Gunbuster is rather unique to sci-fi anime in that it's actually based on real science. In fact, the show has several little \"Science Lesson\" interludes explaining the physics behind some of the events in the movie. One of the big dramatic points in the film is the relative passage of time at speeds near that of light. The series does a wonderful job of dealing with the imaginably traumatic experience of leaving earth on a six month mission traveling near the speed of light and returning to an Earth where ten years have passed. The main character remains age 17 or 18 throughout the entire series while almost all of the other characters age considerably. Be warned, this show is heavy on the sap at times. It also has a couple of the most wholly unmerited breast shots that I have ever seen. I found it fairly easy to ignore the skimpy uniforms and boo-hoo scenes, because the series is otherwise very good, but viewers with a low sap tolerance might want to stay away from this one. On an interesting note, Gainax, as always, managed to run out of money in the last couple of episodes. However, they managed to use black and white film and still action sketches to produce a good resolution anyway. The ending is a bit silly, but it left me with such a good feeling in my gut I couldn't help but love it. Gunbuster is, in my opinion, one of the finest pieces of Anime around.",
+          "sentiment": "positive"
+        },
+        {
+          "review": "There's a part of me that would like to give this movie a high rating. Considering that it was made in 1953, this is a very courageous movie about transvestites, tackling the issue fairly seriously and sympathetically (and offering the viewer a lot of information on the subject) and trying very hard not to stereotype. The movie clearly makes the point that transvestites are not homosexuals, and that aside from wearing women's clothing they lead a relatively normal life. It deals with the pain of not being accepted in society - the plot revolves around a police officer (Lyle Talbot) desperately trying to understand the issue because of the recent suicide of a transvestite. So, you have to give everyone involved with this movie credit for taking on such a controversial (in the context of 1953) subject.<br /><br />Having said all that, I'm also sorry to say that this movie is absolutely dreadful. In trying to portray Glen/Glenda's (Edward D. Wood) pain, the movie falls into silly (and at times surprisingly - again given the era - sensual) fantasies that make the story very hard to follow. The acting is wooden at best. None of the dialogue comes across as real; the actors look and sound like people reading speeches written by others. And - worst of all - there was no point to having Bela Lugosi in this movie. This was another of the increasingly embarrassing roles this poor man took on in the latter stages of his career. \"Pull the strings; pull the strings,\" poor Lugosi's character (called The Spirit in the credits, but really coming across as more of a mad scientist) kept crying. And nothing he did really seemed to have much connection with the rest of the movie.<br /><br />For artistic merit, the movie doesn't really deserve much more than 1/10. However, for the courage involved in just putting it out, I'll give it a 3/10.",
+          "sentiment": "negative"
+        },
+        {
+          "review": "Of all the kung-fu films made through the 70's and 80's this is one that has developed a real cult following. With the exception of all the films Bruce Lee starred in this is a film that has stood the test of time and its due to the unique story. An aging kung-fu master tells his last pupil Yang Tieh (Sheng Chiang) about five pupils he has trained in the past. All five wore masks and nobody has seen the face of each other and they have all been trained differently. Their specialty in kung-fu is the name they have adopted like Lizard, Snake, Centipede, Toad and Scorpion. The master called them the Poison Clan and he does not know what has happened to them so he wants Tieh to find them and help the ones that are doing good to stop the others that are evil. An old man who was once a member of the Poison Clan has a map to where he has hidden a lot of money and he seems to be a target. Tieh does not know what they look like so he has to mingle in society and try and figure out who they are. Tieh has discovered that the Snake is Hung Wen Tung (Pai Wei) and along with Tang Sen Kue (Feng Lu) who is the Centipede they kill a family to find the map. A map is found by a mystery man who turns out to be the Scorpion but know one knows who he is. A local policeman named Ho Yung Sin (Philip Kwok) investigates the murders along with his partner Ma Chow (Chien Sun). Sin has a friend called Li Ho (Meng Lo) who is the Toad and they do know of each others identity. The Snake bribes the local officials to pin the murders on Li Ho and while he is in prison he is tortured and killed. When Sin finds out he teams up with Tieh and together they go to combat Tung and Kue. <br /><br />This film was directed by Cheh Chang and he was a very special director when it came to these films. Chang was not your run of the mill kung-fu director and his films always had a special quality to them. While most martial arts films deal with revenge Chang did not use that as a central theme. Even though there is some revenge going on later in this story this film is more complex than that. Five men trained by the same master in different ways and wearing masks. Then they are all in the same area and not knowing who the other is. Very unique story makes this film different from all the others and most of Changs stories were in a class all by themselves. I wouldn't exactly put it in the same league as \"Enter The Dragon\" because Bruce Lee was a worldwide icon and the martial arts he exhibited were more authentic looking. This film still has some impossible feats like clinging to sides of walls and all the flipping through the air but this film isn't necessarily about fight scenes. Its more about the intrigue of the story and the characters that are involved. That alone makes this different from all the other kung-fu films. Very well made with a unique story.",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    "4": {
+      "size": 12,
+      "samples": [
+        {
+          "review": "Once again Bronson's talent is mostly wasted on this shock value 1984 thriller which (uncut) is far more disturbing than most of what is out even today. The fact that \"The Evil That Men Do\" is very disturbing (in its verbal and visual depictions of torture) is not the problem. It is the shameless gratuity in which it is presented. Interestingly, this film seems to symbolize that latter part of Bronson's career in which he has tortured many of his fans with the same egregiously predictable and uncreative plots. One hopes this fine actor will rise again.",
+          "sentiment": "negative"
+        },
+        {
+          "review": "I'm sorry, but this is such a bad movie it's hilarious. Football hooligans arguing in a travel lodge? Suits? Shades?! Alan clearly had no idea what he was talking about when he made this, it is as far from the truth as you can get.<br /><br />The casting was atrocious...Gary Oldman as a football hooligan? He doesn't look scary, act scary or even come across as someone who would like football. And as for Yeti? What the hell? Suits, shades and sitting in a travelodge childishly taunting each other with \"its about time you got your nappy on\". Please.<br /><br />And the Yeti's gang spraying the ICC's underwear? <br /><br />I don't see how anyone can even take this film seriously!.<br /><br />4/10. Its possibly the most inaccurate portrayal of the crisis of the late eighties hooliganism i have ever seen.",
+          "sentiment": "negative"
+        },
+        {
+          "review": "This is one of the silliest movies I have ever had the misfortune to watch! I should have expected it, after seeing the first two, but I keep getting suckered into these types of movies with the idea of \"Maybe they did it right this time\". Nope - not even close.<br /><br />Where do I begin? How about with the special effects... To give you an idea of what passes for SFX in this movie, at one point a soldier is shooting at a \"Raptor\" as it runs down a hallway. Even with less than a second of screen time, the viewer can easily see that it is just a man with a tail apparently taped to him running around. Bad bad bad bad.<br /><br />How about the acting? If that's what you can call it. There is one character who, I suppose, is supposed to be from the south. However, after living in the south for six years now, I have never heard this way of talking. Perhaps he has some sort of weird disability - the inability to talk normally. I find it fascinating that the character does nothing that requires him to have that accent - therefore there was no reason for the actor to try to do one.<br /><br />How about the plot? It's pretty basic - Raptors escape, people with guns must hunt them down. I'm starting to wonder why the dinosaurs in these movies always seem to run into the nearest system of tunnels... wouldn't they stay outside to hunt prey? Oh well, at least they have the good sense to appear very very little in the movie which supposedly revolves around them.<br /><br />Other things - Let's say you are in a building and you know that there are man eating raptors running around in it. Would you decide to take time out to have an argument about who is better - Army or Marine? And then decide to have an arm wrestling contest to settle it? How about the idiotic idea that they have to track down the raptors - Split up into groups of two. Didn't they ever watch any horror movies (Or at least an episode of Scooby Doo)? In short, this is one of the dumber movies out there. Miss it unless you want to groan your way through a movie.",
+          "sentiment": "negative"
+        }
+      ]
+    }
+  },
+  "pairs": [
+    {
+      "ca": 0,
+      "cb": 0,
+      "size_a": 14,
+      "size_b": 9,
+      "sample_rate": 0.32,
+      "matches": [
+        [
+          47,
+          8
+        ],
+        [
+          47,
+          10
+        ],
+        [
+          47,
+          17
+        ],
+        [
+          47,
+          22
+        ],
+        [
+          47,
+          30
+        ],
+        [
+          47,
+          31
+        ],
+        [
+          47,
+          35
+        ],
+        [
+          47,
+          41
+        ]
+      ],
+      "tokens": {
+        "prompt": 2275,
+        "completion": 127
+      }
+    },
+    {
+      "ca": 0,
+      "cb": 1,
+      "size_a": 14,
+      "size_b": 14,
+      "sample_rate": 0.24,
+      "matches": [
+        [
+          27,
+          1
+        ],
+        [
+          27,
+          5
+        ],
+        [
+          27,
+          25
+        ],
+        [
+          27,
+          45
+        ],
+        [
+          27,
+          46
+        ],
+        [
+          31,
+          1
+        ],
+        [
+          31,
+          5
+        ],
+        [
+          31,
+          25
+        ],
+        [
+          31,
+          45
+        ],
+        [
+          31,
+          46
+        ],
+        [
+          44,
+          1
+        ],
+        [
+          44,
+          5
+        ],
+        [
+          44,
+          25
+        ],
+        [
+          44,
+          45
+        ],
+        [
+          44,
+          46
+        ],
+        [
+          45,
+          1
+        ],
+        [
+          45,
+          5
+        ],
+        [
+          45,
+          25
+        ],
+        [
+          45,
+          45
+        ],
+        [
+          45,
+          46
+        ],
+        [
+          49,
+          1
+        ],
+        [
+          49,
+          5
+        ],
+        [
+          49,
+          25
+        ],
+        [
+          49,
+          45
+        ],
+        [
+          49,
+          46
+        ]
+      ],
+      "tokens": {
+        "prompt": 2778,
+        "completion": 208
+      }
+    },
+    {
+      "ca": 0,
+      "cb": 2,
+      "size_a": 14,
+      "size_b": 8,
+      "sample_rate": 0.2,
+      "matches": [
+        [
+          47,
+          9
+        ],
+        [
+          47,
+          21
+        ],
+        [
+          47,
+          23
+        ]
+      ],
+      "tokens": {
+        "prompt": 2212,
+        "completion": 102
+      }
+    },
+    {
+      "ca": 0,
+      "cb": 3,
+      "size_a": 14,
+      "size_b": 7,
+      "sample_rate": 0.32,
+      "matches": [
+        [
+          18,
+          3
+        ],
+        [
+          18,
+          24
+        ],
+        [
+          18,
+          32
+        ],
+        [
+          18,
+          33
+        ],
+        [
+          18,
+          36
+        ],
+        [
+          18,
+          48
+        ],
+        [
+          25,
+          3
+        ],
+        [
+          25,
+          24
+        ],
+        [
+          25,
+          32
+        ],
+        [
+          25,
+          33
+        ],
+        [
+          25,
+          36
+        ],
+        [
+          25,
+          48
+        ],
+        [
+          27,
+          3
+        ],
+        [
+          27,
+          24
+        ],
+        [
+          27,
+          32
+        ],
+        [
+          27,
+          33
+        ],
+        [
+          27,
+          36
+        ],
+        [
+          27,
+          48
+        ],
+        [
+          31,
+          3
+        ],
+        [
+          31,
+          24
+        ],
+        [
+          31,
+          32
+        ],
+        [
+          31,
+          33
+        ],
+        [
+          31,
+          36
+        ],
+        [
+          31,
+          48
+        ],
+        [
+          35,
+          3
+        ],
+        [
+          35,
+          24
+        ],
+        [
+          35,
+          32
+        ],
+        [
+          35,
+          33
+        ],
+        [
+          35,
+          36
+        ],
+        [
+          35,
+          48
+        ],
+        [
+          44,
+          3
+        ],
+        [
+          44,
+          24
+        ],
+        [
+          44,
+          32
+        ],
+        [
+          44,
+          33
+        ],
+        [
+          44,
+          36
+        ],
+        [
+          44,
+          48
+        ],
+        [
+          45,
+          3
+        ],
+        [
+          45,
+          24
+        ],
+        [
+          45,
+          32
+        ],
+        [
+          45,
+          33
+        ],
+        [
+          45,
+          36
+        ],
+        [
+          45,
+          48
+        ],
+        [
+          48,
+          3
+        ],
+        [
+          48,
+          24
+        ],
+        [
+          48,
+          32
+        ],
+        [
+          48,
+          33
+        ],
+        [
+          48,
+          36
+        ],
+        [
+          48,
+          48
+        ],
+        [
+          49,
+          3
+        ],
+        [
+          49,
+          24
+        ],
+        [
+          49,
+          32
+        ],
+        [
+          49,
+          33
+        ],
+        [
+          49,
+          36
+        ],
+        [
+          49,
+          48
+        ]
+      ],
+      "tokens": {
+        "prompt": 2088,
+        "completion": 349
+      }
+    },
+    {
+      "ca": 0,
+      "cb": 4,
+      "size_a": 14,
+      "size_b": 12,
+      "sample_rate": 0.4,
+      "matches": [
+        [
+          47,
+          2
+        ],
+        [
+          47,
+          4
+        ],
+        [
+          47,
+          6
+        ],
+        [
+          47,
+          11
+        ],
+        [
+          47,
+          13
+        ],
+        [
+          47,
+          20
+        ],
+        [
+          47,
+          26
+        ],
+        [
+          47,
+          37
+        ],
+        [
+          47,
+          40
+        ],
+        [
+          47,
+          42
+        ],
+        [
+          47,
+          43
+        ],
+        [
+          47,
+          44
+        ]
+      ],
+      "tokens": {
+        "prompt": 2627,
+        "completion": 147
+      }
+    },
+    {
+      "ca": 1,
+      "cb": 0,
+      "size_a": 16,
+      "size_b": 9,
+      "sample_rate": 0.52,
+      "matches": [
+        [
+          8,
+          8
+        ],
+        [
+          8,
+          10
+        ],
+        [
+          8,
+          17
+        ],
+        [
+          8,
+          22
+        ],
+        [
+          8,
+          30
+        ],
+        [
+          8,
+          31
+        ],
+        [
+          8,
+          35
+        ],
+        [
+          8,
+          41
+        ],
+        [
+          32,
+          8
+        ],
+        [
+          32,
+          10
+        ],
+        [
+          32,
+          17
+        ],
+        [
+          32,
+          22
+        ],
+        [
+          32,
+          30
+        ],
+        [
+          32,
+          31
+        ],
+        [
+          32,
+          35
+        ],
+        [
+          32,
+          41
+        ],
+        [
+          33,
+          8
+        ],
+        [
+          33,
+          10
+        ],
+        [
+          33,
+          17
+        ],
+        [
+          33,
+          22
+        ],
+        [
+          33,
+          30
+        ],
+        [
+          33,
+          31
+        ],
+        [
+          33,
+          35
+        ],
+        [
+          33,
+          41
+        ],
+        [
+          34,
+          8
+        ],
+        [
+          34,
+          10
+        ],
+        [
+          34,
+          17
+        ],
+        [
+          34,
+          22
+        ],
+        [
+          34,
+          30
+        ],
+        [
+          34,
+          31
+        ],
+        [
+          34,
+          35
+        ],
+        [
+          34,
+          41
+        ],
+        [
+          36,
+          8
+        ],
+        [
+          36,
+          10
+        ],
+        [
+          36,
+          17
+        ],
+        [
+          36,
+          22
+        ],
+        [
+          36,
+          30
+        ],
+        [
+          36,
+          31
+        ],
+        [
+          36,
+          35
+        ],
+        [
+          36,
+          41
+        ],
+        [
+          38,
+          8
+        ],
+        [
+          38,
+          10
+        ],
+        [
+          38,
+          17
+        ],
+        [
+          38,
+          22
+        ],
+        [
+          38,
+          30
+        ],
+        [
+          38,
+          31
+        ],
+        [
+          38,
+          35
+        ],
+        [
+          38,
+          41
+        ],
+        [
+          39,
+          8
+        ],
+        [
+          39,
+          10
+        ],
+        [
+          39,
+          17
+        ],
+        [
+          39,
+          22
+        ],
+        [
+          39,
+          30
+        ],
+        [
+          39,
+          31
+        ],
+        [
+          39,
+          35
+        ],
+        [
+          39,
+          41
+        ],
+        [
+          40,
+          8
+        ],
+        [
+          40,
+          10
+        ],
+        [
+          40,
+          17
+        ],
+        [
+          40,
+          22
+        ],
+        [
+          40,
+          30
+        ],
+        [
+          40,
+          31
+        ],
+        [
+          40,
+          35
+        ],
+        [
+          40,
+          41
+        ],
+        [
+          42,
+          8
+        ],
+        [
+          42,
+          10
+        ],
+        [
+          42,
+          17
+        ],
+        [
+          42,
+          22
+        ],
+        [
+          42,
+          30
+        ],
+        [
+          42,
+          31
+        ],
+        [
+          42,
+          35
+        ],
+        [
+          42,
+          41
+        ],
+        [
+          43,
+          8
+        ],
+        [
+          43,
+          10
+        ],
+        [
+          43,
+          17
+        ],
+        [
+          43,
+          22
+        ],
+        [
+          43,
+          30
+        ],
+        [
+          43,
+          31
+        ],
+        [
+          43,
+          35
+        ],
+        [
+          43,
+          41
+        ]
+      ],
+      "tokens": {
+        "prompt": 2505,
+        "completion": 490
+      }
+    },
+    {
+      "ca": 1,
+      "cb": 1,
+      "size_a": 16,
+      "size_b": 14,
+      "sample_rate": 0.16,
+      "matches": [],
+      "tokens": {
+        "prompt": 3008,
+        "completion": 268
+      }
+    },
+    {
+      "ca": 1,
+      "cb": 2,
+      "size_a": 16,
+      "size_b": 8,
+      "sample_rate": 0.16,
+      "matches": [
+        [
+          8,
+          9
+        ],
+        [
+          8,
+          21
+        ],
+        [
+          8,
+          23
+        ],
+        [
+          9,
+          9
+        ],
+        [
+          9,
+          21
+        ],
+        [
+          9,
+          23
+        ],
+        [
+          30,
+          9
+        ],
+        [
+          30,
+          21
+        ],
+        [
+          30,
+          23
+        ],
+        [
+          32,
+          9
+        ],
+        [
+          32,
+          21
+        ],
+        [
+          32,
+          23
+        ],
+        [
+          33,
+          9
+        ],
+        [
+          33,
+          21
+        ],
+        [
+          33,
+          23
+        ],
+        [
+          34,
+          9
+        ],
+        [
+          34,
+          21
+        ],
+        [
+          34,
+          23
+        ],
+        [
+          36,
+          9
+        ],
+        [
+          36,
+          21
+        ],
+        [
+          36,
+          23
+        ],
+        [
+          38,
+          9
+        ],
+        [
+          38,
+          21
+        ],
+        [
+          38,
+          23
+        ],
+        [
+          39,
+          9
+        ],
+        [
+          39,
+          21
+        ],
+        [
+          39,
+          23
+        ],
+        [
+          40,
+          9
+        ],
+        [
+          40,
+          21
+        ],
+        [
+          40,
+          23
+        ],
+        [
+          42,
+          9
+        ],
+        [
+          42,
+          21
+        ],
+        [
+          42,
+          23
+        ],
+        [
+          43,
+          9
+        ],
+        [
+          43,
+          21
+        ],
+        [
+          43,
+          23
+        ]
+      ],
+      "tokens": {
+        "prompt": 2442,
+        "completion": 289
+      }
+    },
+    {
+      "ca": 1,
+      "cb": 3,
+      "size_a": 16,
+      "size_b": 7,
+      "sample_rate": 0.2,
+      "matches": [
+        [
+          41,
+          3
+        ],
+        [
+          41,
+          16
+        ],
+        [
+          41,
+          24
+        ],
+        [
+          41,
+          32
+        ],
+        [
+          41,
+          33
+        ],
+        [
+          41,
+          36
+        ],
+        [
+          41,
+          48
+        ]
+      ],
+      "tokens": {
+        "prompt": 2318,
+        "completion": 134
+      }
+    },
+    {
+      "ca": 1,
+      "cb": 4,
+      "size_a": 16,
+      "size_b": 12,
+      "sample_rate": 0.32,
+      "matches": [
+        [
+          8,
+          2
+        ],
+        [
+          8,
+          4
+        ],
+        [
+          8,
+          6
+        ],
+        [
+          8,
+          11
+        ],
+        [
+          8,
+          13
+        ],
+        [
+          8,
+          20
+        ],
+        [
+          8,
+          26
+        ],
+        [
+          8,
+          37
+        ],
+        [
+          8,
+          40
+        ],
+        [
+          8,
+          42
+        ],
+        [
+          8,
+          43
+        ],
+        [
+          9,
+          2
+        ],
+        [
+          9,
+          4
+        ],
+        [
+          9,
+          6
+        ],
+        [
+          9,
+          11
+        ],
+        [
+          9,
+          13
+        ],
+        [
+          9,
+          20
+        ],
+        [
+          9,
+          26
+        ],
+        [
+          9,
+          37
+        ],
+        [
+          9,
+          40
+        ],
+        [
+          9,
+          42
+        ],
+        [
+          9,
+          43
+        ],
+        [
+          30,
+          2
+        ],
+        [
+          30,
+          4
+        ],
+        [
+          30,
+          6
+        ],
+        [
+          30,
+          11
+        ],
+        [
+          30,
+          13
+        ],
+        [
+          30,
+          20
+        ],
+        [
+          30,
+          26
+        ],
+        [
+          30,
+          37
+        ],
+        [
+          30,
+          40
+        ],
+        [
+          30,
+          42
+        ],
+        [
+          30,
+          43
+        ],
+        [
+          32,
+          2
+        ],
+        [
+          32,
+          4
+        ],
+        [
+          32,
+          6
+        ],
+        [
+          32,
+          11
+        ],
+        [
+          32,
+          13
+        ],
+        [
+          32,
+          20
+        ],
+        [
+          32,
+          26
+        ],
+        [
+          32,
+          37
+        ],
+        [
+          32,
+          40
+        ],
+        [
+          32,
+          42
+        ],
+        [
+          32,
+          43
+        ],
+        [
+          33,
+          2
+        ],
+        [
+          33,
+          4
+        ],
+        [
+          33,
+          6
+        ],
+        [
+          33,
+          11
+        ],
+        [
+          33,
+          13
+        ],
+        [
+          33,
+          20
+        ],
+        [
+          33,
+          26
+        ],
+        [
+          33,
+          37
+        ],
+        [
+          33,
+          40
+        ],
+        [
+          33,
+          42
+        ],
+        [
+          33,
+          43
+        ],
+        [
+          34,
+          2
+        ],
+        [
+          34,
+          4
+        ],
+        [
+          34,
+          6
+        ],
+        [
+          34,
+          11
+        ],
+        [
+          34,
+          13
+        ],
+        [
+          34,
+          20
+        ],
+        [
+          34,
+          26
+        ],
+        [
+          34,
+          37
+        ],
+        [
+          34,
+          40
+        ],
+        [
+          34,
+          42
+        ],
+        [
+          34,
+          43
+        ],
+        [
+          36,
+          2
+        ],
+        [
+          36,
+          4
+        ],
+        [
+          36,
+          6
+        ],
+        [
+          36,
+          11
+        ],
+        [
+          36,
+          13
+        ],
+        [
+          36,
+          20
+        ],
+        [
+          36,
+          26
+        ],
+        [
+          36,
+          37
+        ],
+        [
+          36,
+          40
+        ],
+        [
+          36,
+          42
+        ],
+        [
+          36,
+          43
+        ],
+        [
+          38,
+          2
+        ],
+        [
+          38,
+          4
+        ],
+        [
+          38,
+          6
+        ],
+        [
+          38,
+          11
+        ],
+        [
+          38,
+          13
+        ],
+        [
+          38,
+          20
+        ],
+        [
+          38,
+          26
+        ],
+        [
+          38,
+          37
+        ],
+        [
+          38,
+          40
+        ],
+        [
+          38,
+          42
+        ],
+        [
+          38,
+          43
+        ],
+        [
+          39,
+          2
+        ],
+        [
+          39,
+          4
+        ],
+        [
+          39,
+          6
+        ],
+        [
+          39,
+          11
+        ],
+        [
+          39,
+          13
+        ],
+        [
+          39,
+          20
+        ],
+        [
+          39,
+          26
+        ],
+        [
+          39,
+          37
+        ],
+        [
+          39,
+          40
+        ],
+        [
+          39,
+          42
+        ],
+        [
+          39,
+          43
+        ],
+        [
+          40,
+          2
+        ],
+        [
+          40,
+          4
+        ],
+        [
+          40,
+          6
+        ],
+        [
+          40,
+          11
+        ],
+        [
+          40,
+          13
+        ],
+        [
+          40,
+          20
+        ],
+        [
+          40,
+          26
+        ],
+        [
+          40,
+          37
+        ],
+        [
+          40,
+          40
+        ],
+        [
+          40,
+          42
+        ],
+        [
+          40,
+          43
+        ],
+        [
+          42,
+          2
+        ],
+        [
+          42,
+          4
+        ],
+        [
+          42,
+          6
+        ],
+        [
+          42,
+          11
+        ],
+        [
+          42,
+          13
+        ],
+        [
+          42,
+          20
+        ],
+        [
+          42,
+          26
+        ],
+        [
+          42,
+          37
+        ],
+        [
+          42,
+          40
+        ],
+        [
+          42,
+          42
+        ],
+        [
+          42,
+          43
+        ],
+        [
+          43,
+          2
+        ],
+        [
+          43,
+          4
+        ],
+        [
+          43,
+          6
+        ],
+        [
+          43,
+          11
+        ],
+        [
+          43,
+          13
+        ],
+        [
+          43,
+          20
+        ],
+        [
+          43,
+          26
+        ],
+        [
+          43,
+          37
+        ],
+        [
+          43,
+          40
+        ],
+        [
+          43,
+          42
+        ],
+        [
+          43,
+          43
+        ]
+      ],
+      "tokens": {
+        "prompt": 2857,
+        "completion": 748
+      }
+    },
+    {
+      "ca": 2,
+      "cb": 0,
+      "size_a": 6,
+      "size_b": 9,
+      "sample_rate": 0.48,
+      "matches": [
+        [
+          10,
+          8
+        ],
+        [
+          10,
+          10
+        ],
+        [
+          10,
+          17
+        ],
+        [
+          10,
+          22
+        ],
+        [
+          10,
+          30
+        ],
+        [
+          10,
+          31
+        ],
+        [
+          10,
+          35
+        ],
+        [
+          10,
+          41
+        ],
+        [
+          12,
+          8
+        ],
+        [
+          12,
+          10
+        ],
+        [
+          12,
+          17
+        ],
+        [
+          12,
+          22
+        ],
+        [
+          12,
+          30
+        ],
+        [
+          12,
+          31
+        ],
+        [
+          12,
+          35
+        ],
+        [
+          12,
+          41
+        ],
+        [
+          13,
+          8
+        ],
+        [
+          13,
+          10
+        ],
+        [
+          13,
+          17
+        ],
+        [
+          13,
+          22
+        ],
+        [
+          13,
+          30
+        ],
+        [
+          13,
+          31
+        ],
+        [
+          13,
+          35
+        ],
+        [
+          13,
+          41
+        ],
+        [
+          14,
+          8
+        ],
+        [
+          14,
+          10
+        ],
+        [
+          14,
+          17
+        ],
+        [
+          14,
+          22
+        ],
+        [
+          14,
+          30
+        ],
+        [
+          14,
+          31
+        ],
+        [
+          14,
+          35
+        ],
+        [
+          14,
+          41
+        ]
+      ],
+      "tokens": {
+        "prompt": 1536,
+        "completion": 207
+      }
+    },
+    {
+      "ca": 2,
+      "cb": 1,
+      "size_a": 6,
+      "size_b": 14,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          15
+        ],
+        [
+          0,
+          45
+        ],
+        [
+          0,
+          46
+        ],
+        [
+          0,
+          47
+        ],
+        [
+          10,
+          18
+        ],
+        [
+          10,
+          19
+        ],
+        [
+          12,
+          12
+        ],
+        [
+          12,
+          18
+        ],
+        [
+          12,
+          19
+        ],
+        [
+          13,
+          18
+        ],
+        [
+          13,
+          19
+        ],
+        [
+          14,
+          18
+        ],
+        [
+          14,
+          19
+        ]
+      ],
+      "tokens": {
+        "prompt": 2039,
+        "completion": 105
+      }
+    },
+    {
+      "ca": 2,
+      "cb": 2,
+      "size_a": 6,
+      "size_b": 8,
+      "sample_rate": 0.12,
+      "matches": [
+        [
+          10,
+          9
+        ],
+        [
+          10,
+          21
+        ],
+        [
+          10,
+          23
+        ],
+        [
+          12,
+          9
+        ],
+        [
+          12,
+          21
+        ],
+        [
+          12,
+          23
+        ],
+        [
+          13,
+          9
+        ],
+        [
+          13,
+          21
+        ],
+        [
+          13,
+          23
+        ],
+        [
+          14,
+          9
+        ],
+        [
+          14,
+          21
+        ],
+        [
+          14,
+          23
+        ]
+      ],
+      "tokens": {
+        "prompt": 1473,
+        "completion": 96
+      }
+    },
+    {
+      "ca": 2,
+      "cb": 3,
+      "size_a": 6,
+      "size_b": 7,
+      "sample_rate": 0.0,
+      "matches": [],
+      "tokens": {
+        "prompt": 1349,
+        "completion": 40
+      }
+    },
+    {
+      "ca": 2,
+      "cb": 4,
+      "size_a": 6,
+      "size_b": 12,
+      "sample_rate": 0.48,
+      "matches": [
+        [
+          10,
+          2
+        ],
+        [
+          10,
+          4
+        ],
+        [
+          10,
+          6
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          10,
+          13
+        ],
+        [
+          10,
+          20
+        ],
+        [
+          10,
+          26
+        ],
+        [
+          10,
+          37
+        ],
+        [
+          10,
+          40
+        ],
+        [
+          10,
+          42
+        ],
+        [
+          10,
+          43
+        ],
+        [
+          12,
+          2
+        ],
+        [
+          12,
+          4
+        ],
+        [
+          12,
+          6
+        ],
+        [
+          12,
+          11
+        ],
+        [
+          12,
+          13
+        ],
+        [
+          12,
+          20
+        ],
+        [
+          12,
+          26
+        ],
+        [
+          12,
+          37
+        ],
+        [
+          12,
+          40
+        ],
+        [
+          12,
+          42
+        ],
+        [
+          12,
+          43
+        ],
+        [
+          13,
+          2
+        ],
+        [
+          13,
+          4
+        ],
+        [
+          13,
+          6
+        ],
+        [
+          13,
+          11
+        ],
+        [
+          13,
+          13
+        ],
+        [
+          13,
+          20
+        ],
+        [
+          13,
+          26
+        ],
+        [
+          13,
+          37
+        ],
+        [
+          13,
+          40
+        ],
+        [
+          13,
+          42
+        ],
+        [
+          13,
+          43
+        ],
+        [
+          14,
+          2
+        ],
+        [
+          14,
+          4
+        ],
+        [
+          14,
+          6
+        ],
+        [
+          14,
+          11
+        ],
+        [
+          14,
+          13
+        ],
+        [
+          14,
+          20
+        ],
+        [
+          14,
+          26
+        ],
+        [
+          14,
+          37
+        ],
+        [
+          14,
+          40
+        ],
+        [
+          14,
+          42
+        ],
+        [
+          14,
+          43
+        ]
+      ],
+      "tokens": {
+        "prompt": 1888,
+        "completion": 256
+      }
+    },
+    {
+      "ca": 3,
+      "cb": 0,
+      "size_a": 9,
+      "size_b": 9,
+      "sample_rate": 0.2,
+      "matches": [
+        [
+          19,
+          8
+        ],
+        [
+          19,
+          10
+        ],
+        [
+          19,
+          17
+        ],
+        [
+          19,
+          22
+        ],
+        [
+          19,
+          30
+        ],
+        [
+          19,
+          31
+        ],
+        [
+          19,
+          35
+        ],
+        [
+          19,
+          41
+        ],
+        [
+          20,
+          8
+        ],
+        [
+          20,
+          10
+        ],
+        [
+          20,
+          17
+        ],
+        [
+          20,
+          22
+        ],
+        [
+          20,
+          30
+        ],
+        [
+          20,
+          31
+        ],
+        [
+          20,
+          35
+        ],
+        [
+          20,
+          41
+        ],
+        [
+          23,
+          8
+        ],
+        [
+          23,
+          10
+        ],
+        [
+          23,
+          17
+        ],
+        [
+          23,
+          22
+        ],
+        [
+          23,
+          30
+        ],
+        [
+          23,
+          31
+        ],
+        [
+          23,
+          35
+        ],
+        [
+          23,
+          41
+        ],
+        [
+          29,
+          8
+        ],
+        [
+          29,
+          10
+        ],
+        [
+          29,
+          17
+        ],
+        [
+          29,
+          22
+        ],
+        [
+          29,
+          30
+        ],
+        [
+          29,
+          31
+        ],
+        [
+          29,
+          35
+        ],
+        [
+          29,
+          41
+        ]
+      ],
+      "tokens": {
+        "prompt": 1813,
+        "completion": 214
+      }
+    },
+    {
+      "ca": 3,
+      "cb": 1,
+      "size_a": 9,
+      "size_b": 14,
+      "sample_rate": 0.2,
+      "matches": [
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          45
+        ],
+        [
+          3,
+          46
+        ],
+        [
+          19,
+          18
+        ],
+        [
+          20,
+          39
+        ],
+        [
+          24,
+          1
+        ],
+        [
+          26,
+          1
+        ],
+        [
+          26,
+          5
+        ],
+        [
+          26,
+          45
+        ],
+        [
+          26,
+          46
+        ],
+        [
+          29,
+          47
+        ],
+        [
+          37,
+          1
+        ],
+        [
+          37,
+          5
+        ],
+        [
+          37,
+          45
+        ],
+        [
+          37,
+          46
+        ]
+      ],
+      "tokens": {
+        "prompt": 2316,
+        "completion": 131
+      }
+    },
+    {
+      "ca": 3,
+      "cb": 2,
+      "size_a": 9,
+      "size_b": 8,
+      "sample_rate": 0.36,
+      "matches": [
+        [
+          19,
+          9
+        ],
+        [
+          19,
+          21
+        ],
+        [
+          19,
+          23
+        ],
+        [
+          20,
+          9
+        ],
+        [
+          20,
+          21
+        ],
+        [
+          20,
+          23
+        ],
+        [
+          23,
+          9
+        ],
+        [
+          23,
+          21
+        ],
+        [
+          23,
+          23
+        ],
+        [
+          24,
+          27
+        ],
+        [
+          24,
+          34
+        ],
+        [
+          24,
+          49
+        ],
+        [
+          26,
+          27
+        ],
+        [
+          26,
+          34
+        ],
+        [
+          26,
+          49
+        ],
+        [
+          29,
+          9
+        ],
+        [
+          29,
+          21
+        ],
+        [
+          29,
+          23
+        ]
+      ],
+      "tokens": {
+        "prompt": 1750,
+        "completion": 142
+      }
+    },
+    {
+      "ca": 3,
+      "cb": 3,
+      "size_a": 9,
+      "size_b": 7,
+      "sample_rate": 0.4,
+      "matches": [
+        [
+          3,
+          3
+        ],
+        [
+          3,
+          32
+        ],
+        [
+          3,
+          33
+        ],
+        [
+          3,
+          36
+        ],
+        [
+          3,
+          48
+        ],
+        [
+          26,
+          3
+        ],
+        [
+          26,
+          32
+        ],
+        [
+          26,
+          33
+        ],
+        [
+          26,
+          36
+        ],
+        [
+          26,
+          48
+        ],
+        [
+          37,
+          3
+        ],
+        [
+          37,
+          32
+        ],
+        [
+          37,
+          33
+        ],
+        [
+          37,
+          36
+        ],
+        [
+          37,
+          48
+        ]
+      ],
+      "tokens": {
+        "prompt": 1626,
+        "completion": 130
+      }
+    },
+    {
+      "ca": 3,
+      "cb": 4,
+      "size_a": 9,
+      "size_b": 12,
+      "sample_rate": 0.24,
+      "matches": [
+        [
+          29,
+          2
+        ],
+        [
+          29,
+          4
+        ],
+        [
+          29,
+          6
+        ],
+        [
+          29,
+          11
+        ],
+        [
+          29,
+          13
+        ],
+        [
+          29,
+          20
+        ],
+        [
+          29,
+          26
+        ],
+        [
+          29,
+          37
+        ],
+        [
+          29,
+          40
+        ],
+        [
+          29,
+          42
+        ],
+        [
+          29,
+          43
+        ],
+        [
+          29,
+          44
+        ]
+      ],
+      "tokens": {
+        "prompt": 2165,
+        "completion": 117
+      }
+    },
+    {
+      "ca": 4,
+      "cb": 0,
+      "size_a": 5,
+      "size_b": 9,
+      "sample_rate": 0.16,
+      "matches": [
+        [
+          16,
+          8
+        ],
+        [
+          16,
+          10
+        ],
+        [
+          16,
+          17
+        ],
+        [
+          16,
+          22
+        ],
+        [
+          16,
+          30
+        ],
+        [
+          16,
+          31
+        ],
+        [
+          16,
+          35
+        ],
+        [
+          16,
+          41
+        ]
+      ],
+      "tokens": {
+        "prompt": 1433,
+        "completion": 73
+      }
+    },
+    {
+      "ca": 4,
+      "cb": 1,
+      "size_a": 5,
+      "size_b": 14,
+      "sample_rate": 0.56,
+      "matches": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          25
+        ],
+        [
+          1,
+          45
+        ],
+        [
+          1,
+          46
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          5,
+          25
+        ],
+        [
+          5,
+          45
+        ],
+        [
+          5,
+          46
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          6,
+          5
+        ],
+        [
+          6,
+          25
+        ],
+        [
+          6,
+          45
+        ],
+        [
+          6,
+          46
+        ],
+        [
+          11,
+          1
+        ],
+        [
+          11,
+          5
+        ],
+        [
+          11,
+          25
+        ],
+        [
+          11,
+          45
+        ],
+        [
+          11,
+          46
+        ],
+        [
+          16,
+          7
+        ],
+        [
+          16,
+          12
+        ],
+        [
+          16,
+          18
+        ],
+        [
+          16,
+          19
+        ],
+        [
+          16,
+          28
+        ],
+        [
+          16,
+          29
+        ],
+        [
+          16,
+          39
+        ],
+        [
+          16,
+          47
+        ]
+      ],
+      "tokens": {
+        "prompt": 1936,
+        "completion": 169
+      }
+    },
+    {
+      "ca": 4,
+      "cb": 2,
+      "size_a": 5,
+      "size_b": 8,
+      "sample_rate": 0.32,
+      "matches": [
+        [
+          1,
+          27
+        ],
+        [
+          5,
+          34
+        ],
+        [
+          6,
+          27
+        ],
+        [
+          11,
+          27
+        ],
+        [
+          11,
+          34
+        ]
+      ],
+      "tokens": {
+        "prompt": 1370,
+        "completion": 55
+      }
+    },
+    {
+      "ca": 4,
+      "cb": 3,
+      "size_a": 5,
+      "size_b": 7,
+      "sample_rate": 0.8,
+      "matches": [
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          24
+        ],
+        [
+          1,
+          32
+        ],
+        [
+          1,
+          33
+        ],
+        [
+          1,
+          36
+        ],
+        [
+          1,
+          48
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          5,
+          24
+        ],
+        [
+          5,
+          32
+        ],
+        [
+          5,
+          33
+        ],
+        [
+          5,
+          36
+        ],
+        [
+          5,
+          48
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          6,
+          24
+        ],
+        [
+          6,
+          32
+        ],
+        [
+          6,
+          33
+        ],
+        [
+          6,
+          36
+        ],
+        [
+          6,
+          48
+        ],
+        [
+          11,
+          3
+        ],
+        [
+          11,
+          24
+        ],
+        [
+          11,
+          32
+        ],
+        [
+          11,
+          33
+        ],
+        [
+          11,
+          36
+        ],
+        [
+          11,
+          48
+        ]
+      ],
+      "tokens": {
+        "prompt": 1246,
+        "completion": 150
+      }
+    },
+    {
+      "ca": 4,
+      "cb": 4,
+      "size_a": 5,
+      "size_b": 12,
+      "sample_rate": 0.32,
+      "matches": [
+        [
+          16,
+          2
+        ],
+        [
+          16,
+          4
+        ],
+        [
+          16,
+          6
+        ],
+        [
+          16,
+          11
+        ],
+        [
+          16,
+          13
+        ],
+        [
+          16,
+          20
+        ],
+        [
+          16,
+          26
+        ],
+        [
+          16,
+          37
+        ],
+        [
+          16,
+          40
+        ],
+        [
+          16,
+          42
+        ],
+        [
+          16,
+          43
+        ]
+      ],
+      "tokens": {
+        "prompt": 1785,
+        "completion": 88
+      }
+    }
+  ]
+}

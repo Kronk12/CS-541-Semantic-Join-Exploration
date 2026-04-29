@@ -8,7 +8,7 @@ def setup_imdb_data():
     
     # 1. Take a small sample to stay within your API/Time budget (100 rows)
     # This matches the sample size used in the 'Reviews' benchmark [cite: 2798]
-    sample_df = df.sample(n=200, random_state=42).reset_index(drop=True)
+    sample_df = df.sample(n=100, random_state=42).reset_index(drop=True)
     
     # 2. Split into two tables to simulate a Join
     table_a = sample_df.iloc[:100].copy()

@@ -1,0 +1,16 @@
+Run_ID,Dataset,Trial,Baseline_Type,Extrapolation_Multiplier,Recall,Precision,F1,Actual_Tokens,Projected_Full_Tokens,Actual_Time_s,Projected_Full_Time_s
+1,IMDB,1,Naive_Block_1_Extrapolated,25.0,74.0,64.91,69.16,31564,789100,72.36,1809.1
+2,IMDB,2,Naive_Block_1_Extrapolated,25.0,77.08,67.27,71.84,31333,783325,65.43,1635.83
+3,IMDB,3,Naive_Block_1_Extrapolated,25.0,82.0,69.49,75.23,31802,795050,67.82,1695.54
+4,IMDB,4,Naive_Block_1_Extrapolated,25.0,60.42,61.7,61.05,31458,786450,70.28,1757.1
+5,IMDB,5,Naive_Block_1_Extrapolated,25.0,72.0,64.29,67.92,32076,801900,70.08,1751.88
+6,Emails,1,Naive_Block_1_Extrapolated,100.0,100.0,3.26,6.32,18304,1830400,75.99,7599.42
+7,Emails,2,Naive_Block_1_Extrapolated,100.0,100.0,3.33,6.45,18350,1835000,65.68,6567.55
+8,Emails,3,Naive_Block_1_Extrapolated,100.0,100.0,3.45,6.67,18314,1831400,67.42,6741.6
+9,Emails,4,Naive_Block_1_Extrapolated,100.0,100.0,3.23,6.25,18284,1828400,65.25,6525.33
+10,Emails,5,Naive_Block_1_Extrapolated,100.0,100.0,3.37,6.52,18310,1831000,65.88,6588.33
+11,StackOverflow,1,Naive_Block_1_Extrapolated,10.0,45.45,83.33,58.82,22324,223240,61.76,617.61
+12,StackOverflow,2,Naive_Block_1_Extrapolated,10.0,100.0,76.92,86.96,24212,242120,64.94,649.38
+13,StackOverflow,3,Naive_Block_1_Extrapolated,10.0,100.0,100.0,100.0,23808,238080,62.5,625.04
+14,StackOverflow,4,Naive_Block_1_Extrapolated,10.0,70.0,70.0,70.0,23780,237800,68.33,683.32
+15,StackOverflow,5,Naive_Block_1_Extrapolated,10.0,76.92,100.0,86.96,23210,232100,93.83,938.27

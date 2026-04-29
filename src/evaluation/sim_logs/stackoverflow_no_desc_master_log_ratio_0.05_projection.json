@@ -1,0 +1,576 @@
+{
+  "fixed_tokens": {
+    "prompt": 17079,
+    "completion": 1561
+  },
+  "clusters_a": {
+    "0": {
+      "size": 15,
+      "samples": [
+        {
+          "question_id": 31936570,
+          "question_text": "Title: Crosswalk's XWalkView (an alternative to Webview) not working with AppBarLayout + CoordinatorLayout | Body: I'm trying to achieve the scrolling Toolbar technique (hiding Toolbar when scrolling down in a sibling child view) using CoordinatorLayout and AppBarLayout.\n\nI'm using Crosswalk's XWalkView (it's a view which functions like WebView).  \n\nWhen using regular WebView (inside a NestedScrollView) I can ac"
+        },
+        {
+          "question_id": 29485210,
+          "question_text": "Title: match_parent does not work in case of CustomListview | Body: &lt;com.mil.example.CustomListView\n                    android:id=\"@+id/villa_lv\"\n                    android:layout_width=\"match_parent\"\n                    android:layout_height=\"match_parent\"\n                    android:layout_below=\"@+id/itemImageLay\"\n                    android:fadingEdge=\"none"
+        },
+        {
+          "question_id": 26672520,
+          "question_text": "Title: How to use google maps places autocomplete api and list suggestions in a listview and not a dropdown | Body: https://developers.google.com/places/training/autocomplete-android\n\nI have used the above link, but I want the results as a list directly below the input box, not as a dropdown but as a listview occupying the whole page. Similar to Google Maps App in  Android.\n\nHow can i change the code to achieve t"
+        }
+      ]
+    },
+    "1": {
+      "size": 13,
+      "samples": [
+        {
+          "question_id": 39363200,
+          "question_text": "Title: \"AccessToken.user\" must be a \"User\" instance | Body: I am trying to figure out oAuth2 token based authentication since 3 days and no avail yet. I have written a code for user authentication. However, I am getting an error of \n\n\n  ValueError at /api/customer/login/ Cannot assign \"{'username':\n  'sanskars'}\": \"AccessToken.user\" must be a \"User\" instance"
+        },
+        {
+          "question_id": 23431940,
+          "question_text": "Title: C# access data from COMAdmin.COMAdminCatalog using WMI | Body: Earlier I was using code as below to grab COM+ applications and verify that my app is running\n\nCOMAdmin.COMAdminCatalog catalog = new COMAdmin.COMAdminCatalogClass();\ncatalog.Connect(servername);\ncatalog.GetCollection(\"Applications\")\n\n\nNow I need to perform the same actions but from other domain. So"
+        },
+        {
+          "question_id": 10795630,
+          "question_text": "Title: Share image from SD Card | Body: I'm trying for 2 weeks to find how to share images which are stored on an SD card with no success. \n\nThis answer doesn't work to me, nor is it what I'm looking for.\n\nI'm working with Cam Preview app that stores images to SD and then display them in in-app gallery: \n\n   public class GalleryView exten"
+        }
+      ]
+    },
+    "2": {
+      "size": 20,
+      "samples": [
+        {
+          "question_id": 21685730,
+          "question_text": "Title: Jquery each loop + setTimeout problems with increments | Body: http://jsfiddle.net/fxLcy/ - example with setTimeout\n\nhttp://jsfiddle.net/fxLcy/1/ - this is the demo without setTimeout. All elements on right place, but i really need that delayed animation =/\n\nI want to place 6 cards per row via css transition and setTimeout. The point is, that i cant use increme"
+        },
+        {
+          "question_id": 21587540,
+          "question_text": "Title: rails3 jquery autocomplete getting and passing array | Body: This may seem like an easy problem to most of you, but it's been troubling me all day. \n\nI'm trying to implement messaging system. I want to be able to send message to multiple people. for this to happen i need help with two things:\nFirstly, data-delimeter doesn't work. I'm guessing i just don't kno"
+        },
+        {
+          "question_id": 13372060,
+          "question_text": "Title: Regex matching @\"*\" | Body: I am attempting to use regexes in jQuery, and I am running into some problems. This is the string that I am operating on:\n\nNSLog(@\"It works!\");\n\n\nI want the regex to select everything between the @\" and the \", inclusive. This regex works just fine in Reggy, but when put in my JavaScript, does not wo"
+        }
+      ]
+    },
+    "3": {
+      "size": 34,
+      "samples": [
+        {
+          "question_id": 7837270,
+          "question_text": "Title: How .NET's regex engine treats RTL+LTR mixed strings? | Body: I have a mixed Hebrew/english string to parse.\nThe string is built like this:\n\n[3 hebrew] [2 english 2] [1 hebrew],\n\n\nSo, it can be read as: 1 2 3, and it is stored as 3 2 1 (exact byte sequence in file, double-checked in hex editor, and anyway RTL is only the display attribute). .NET regex parser h"
+        },
+        {
+          "question_id": 37287590,
+          "question_text": "Title: Is there a mechanism in C++ to make a full copy of a derived class from a base class pointer without dynamic memory allocation? | Body: Consider the following example, where object slicing occurs during dereference of a base pointer.\n\n#include &lt;stdio.h&gt;\n\nclass Base {\n  public:\n    virtual void hello() {\n        printf(\"hello world from base\\n\");\n    }\n};\nclass Derived : public Base{\n  public:\n    virtual void hello() {\n       "
+        },
+        {
+          "question_id": 10433330,
+          "question_text": "Title: Midlet must not closed even press cut button of device | Body: I am working in J2ME. I want that my MIDlet must run for infinite time. It must not close even I press any of key from my device.\n\nPlease help me what should I do for this?\n"
+        }
+      ]
+    },
+    "4": {
+      "size": 18,
+      "samples": [
+        {
+          "question_id": 2457320,
+          "question_text": "Title: Checklist for good email delivery in php | Body: I have a PHP application that sends email using the pear Mail function. Unfortunately all my emails end up in the junk folder.\n\nCan i get a checklist for things i should do to make sure my emails are recieved correctly.\n\nThank you\n"
+        },
+        {
+          "question_id": 15612820,
+          "question_text": "Title: Get image from a php file to iOS | Body: I want to get image from a php file (for example: http://abc.xyz.com/api/showImage.php) for a specific user through the user id &amp; set the image in the image view of my iOS app. How can i do so?\nThanks in advance.\n"
+        },
+        {
+          "question_id": 29208610,
+          "question_text": "Title: PHP cURL connect using IP address instead domain name | Body: I run several servers in the same data center that have internal networking enabled.  In the interests of speed and costs (internal traffic is not billed) I would like to be able to cURL between the various servers on their internal IPs.\n\nI have just discovered that if I attempt something along the "
+        }
+      ]
+    }
+  },
+  "clusters_b": {
+    "0": {
+      "size": 3,
+      "samples": [
+        {
+          "concept_id": "T-1",
+          "concept_name": "html",
+          "Description": "HyperText Markup Language, the standard markup language for documents designed to be displayed in a web browser."
+        },
+        {
+          "concept_id": "T-2",
+          "concept_name": "javascript",
+          "Description": "A lightweight, interpreted programming language with first-class functions, core to interactive web development."
+        },
+        {
+          "concept_id": "T-3",
+          "concept_name": "jquery",
+          "Description": "A fast, small, and feature-rich JavaScript library designed to simplify HTML DOM tree traversal and manipulation."
+        }
+      ]
+    },
+    "1": {
+      "size": 7,
+      "samples": [
+        {
+          "concept_id": "T-0",
+          "concept_name": "java",
+          "Description": "A high-level, class-based, object-oriented programming language designed to have as few implementation dependencies as possible."
+        },
+        {
+          "concept_id": "T-4",
+          "concept_name": "c++",
+          "Description": "A general-purpose programming language created as an extension of C, known for performance, efficiency, and hardware control."
+        },
+        {
+          "concept_id": "T-5",
+          "concept_name": "c#",
+          "Description": "A modern, object-oriented, and type-safe programming language developed by Microsoft for the .NET framework."
+        }
+      ]
+    }
+  },
+  "pairs": [
+    {
+      "ca": 0,
+      "cb": 0,
+      "size_a": 15,
+      "size_b": 3,
+      "sample_rate": 0.0,
+      "matches": [],
+      "tokens": {
+        "prompt": 1506,
+        "completion": 114
+      }
+    },
+    {
+      "ca": 0,
+      "cb": 1,
+      "size_a": 15,
+      "size_b": 7,
+      "sample_rate": 0.08,
+      "matches": [
+        [
+          16,
+          8
+        ],
+        [
+          19,
+          8
+        ],
+        [
+          20,
+          8
+        ],
+        [
+          31,
+          9
+        ],
+        [
+          34,
+          9
+        ],
+        [
+          48,
+          8
+        ],
+        [
+          54,
+          9
+        ],
+        [
+          58,
+          8
+        ],
+        [
+          71,
+          9
+        ],
+        [
+          84,
+          7
+        ],
+        [
+          89,
+          9
+        ],
+        [
+          93,
+          8
+        ],
+        [
+          97,
+          9
+        ]
+      ],
+      "tokens": {
+        "prompt": 1546,
+        "completion": 166
+      }
+    },
+    {
+      "ca": 1,
+      "cb": 0,
+      "size_a": 13,
+      "size_b": 3,
+      "sample_rate": 0.0,
+      "matches": [],
+      "tokens": {
+        "prompt": 1347,
+        "completion": 100
+      }
+    },
+    {
+      "ca": 1,
+      "cb": 1,
+      "size_a": 13,
+      "size_b": 7,
+      "sample_rate": 0.08,
+      "matches": [
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          5,
+          8
+        ],
+        [
+          6,
+          4
+        ],
+        [
+          7,
+          7
+        ],
+        [
+          8,
+          0
+        ],
+        [
+          10,
+          0
+        ],
+        [
+          13,
+          4
+        ],
+        [
+          14,
+          5
+        ]
+      ],
+      "tokens": {
+        "prompt": 1387,
+        "completion": 136
+      }
+    },
+    {
+      "ca": 2,
+      "cb": 0,
+      "size_a": 20,
+      "size_b": 3,
+      "sample_rate": 0.3333333333333333,
+      "matches": [
+        [
+          17,
+          3
+        ],
+        [
+          18,
+          3
+        ],
+        [
+          24,
+          3
+        ],
+        [
+          25,
+          3
+        ],
+        [
+          28,
+          2
+        ],
+        [
+          32,
+          3
+        ],
+        [
+          35,
+          2
+        ],
+        [
+          40,
+          2
+        ],
+        [
+          42,
+          2
+        ],
+        [
+          52,
+          2
+        ],
+        [
+          55,
+          3
+        ],
+        [
+          56,
+          2
+        ],
+        [
+          61,
+          3
+        ],
+        [
+          80,
+          2
+        ],
+        [
+          81,
+          2
+        ],
+        [
+          81,
+          3
+        ],
+        [
+          86,
+          3
+        ],
+        [
+          98,
+          3
+        ]
+      ],
+      "tokens": {
+        "prompt": 1963,
+        "completion": 197
+      }
+    },
+    {
+      "ca": 2,
+      "cb": 1,
+      "size_a": 20,
+      "size_b": 7,
+      "sample_rate": 0.0,
+      "matches": [],
+      "tokens": {
+        "prompt": 2003,
+        "completion": 149
+      }
+    },
+    {
+      "ca": 3,
+      "cb": 0,
+      "size_a": 34,
+      "size_b": 3,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          62,
+          3
+        ],
+        [
+          87,
+          3
+        ]
+      ],
+      "tokens": {
+        "prompt": 3275,
+        "completion": 255
+      }
+    },
+    {
+      "ca": 3,
+      "cb": 1,
+      "size_a": 34,
+      "size_b": 7,
+      "sample_rate": 0.08,
+      "matches": [
+        [
+          22,
+          5
+        ],
+        [
+          27,
+          4
+        ],
+        [
+          30,
+          0
+        ],
+        [
+          36,
+          5
+        ],
+        [
+          38,
+          5
+        ],
+        [
+          41,
+          0
+        ],
+        [
+          45,
+          8
+        ],
+        [
+          49,
+          4
+        ],
+        [
+          50,
+          4
+        ],
+        [
+          51,
+          7
+        ],
+        [
+          53,
+          5
+        ],
+        [
+          57,
+          5
+        ],
+        [
+          64,
+          7
+        ],
+        [
+          66,
+          0
+        ],
+        [
+          72,
+          5
+        ],
+        [
+          74,
+          5
+        ],
+        [
+          75,
+          0
+        ],
+        [
+          85,
+          7
+        ],
+        [
+          88,
+          4
+        ],
+        [
+          95,
+          4
+        ],
+        [
+          96,
+          5
+        ]
+      ],
+      "tokens": {
+        "prompt": 3699,
+        "completion": 349
+      }
+    },
+    {
+      "ca": 4,
+      "cb": 0,
+      "size_a": 18,
+      "size_b": 3,
+      "sample_rate": 0.06666666666666667,
+      "matches": [
+        [
+          39,
+          1
+        ],
+        [
+          92,
+          1
+        ],
+        [
+          94,
+          1
+        ]
+      ],
+      "tokens": {
+        "prompt": 1910,
+        "completion": 147
+      }
+    },
+    {
+      "ca": 4,
+      "cb": 1,
+      "size_a": 18,
+      "size_b": 7,
+      "sample_rate": 0.16,
+      "matches": [
+        [
+          9,
+          6
+        ],
+        [
+          12,
+          6
+        ],
+        [
+          12,
+          9
+        ],
+        [
+          15,
+          6
+        ],
+        [
+          21,
+          6
+        ],
+        [
+          29,
+          6
+        ],
+        [
+          44,
+          6
+        ],
+        [
+          70,
+          6
+        ],
+        [
+          73,
+          6
+        ],
+        [
+          82,
+          6
+        ],
+        [
+          90,
+          6
+        ],
+        [
+          91,
+          6
+        ]
+      ],
+      "tokens": {
+        "prompt": 1950,
+        "completion": 184
+      }
+    }
+  ]
+}

@@ -1,6 +1,7 @@
 import json
 
 import pandas as pd
+import os
 
 def _get_cluster_metadata(df: pd.DataFrame, labels: list, num_samples: int) -> dict:
     """Extracts sizes and sample rows for each valid cluster."""
@@ -70,6 +71,8 @@ def export_simulation_data(
                 "completion": stat.tokens.completion_tokens
             }
         })
+
+    os.makedirs(os.path.dirname(filepath), exist_ok=True)
 
     with open(filepath, "w") as f:
         json.dump(data, f, indent=2)

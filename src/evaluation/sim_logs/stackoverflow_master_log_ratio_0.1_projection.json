@@ -1,0 +1,787 @@
+{
+  "fixed_tokens": {
+    "prompt": 26253,
+    "completion": 4182
+  },
+  "clusters_a": {
+    "0": {
+      "size": 11,
+      "samples": [
+        {
+          "question_id": 2457320,
+          "question_text": "Title: Checklist for good email delivery in php | Body: I have a PHP application that sends email using the pear Mail function. Unfortunately all my emails end up in the junk folder.\n\nCan i get a checklist for things i should do to make sure my emails are recieved correctly.\n\nThank you\n"
+        },
+        {
+          "question_id": 29208610,
+          "question_text": "Title: PHP cURL connect using IP address instead domain name | Body: I run several servers in the same data center that have internal networking enabled.  In the interests of speed and costs (internal traffic is not billed) I would like to be able to cURL between the various servers on their internal IPs.\n\nI have just discovered that if I attempt something along the "
+        },
+        {
+          "question_id": 9181590,
+          "question_text": "Title: What is the purpose of empty abstract classes in Kohana 3? | Body: I haven't used abstract classes much in practice, though I understand what they are : a way to dictate to subclasses which methods must be implemented.\n\nI just put a Kohana project through Doxygen and can see the class hierarchy in its entirety. I see that, at the top of the chain we have a factory:"
+        }
+      ]
+    },
+    "1": {
+      "size": 14,
+      "samples": [
+        {
+          "question_id": 10795630,
+          "question_text": "Title: Share image from SD Card | Body: I'm trying for 2 weeks to find how to share images which are stored on an SD card with no success. \n\nThis answer doesn't work to me, nor is it what I'm looking for.\n\nI'm working with Cam Preview app that stores images to SD and then display them in in-app gallery: \n\n   public class GalleryView exten"
+        },
+        {
+          "question_id": 11271470,
+          "question_text": "Title: FATAL EXCEPTION: main- I have no idea what's wrong | Body: I'm still fairly new to Eclipse and I have tried everything to keep these errors from happening:\n\n06-30 00:38:28.773: E/AndroidRuntime(20520): FATAL EXCEPTION: main\n06-30 00:38:28.773: E/AndroidRuntime(20520): java.lang.SecurityException: Permission       Denial: starting Intent { act=android.intent"
+        },
+        {
+          "question_id": 31936570,
+          "question_text": "Title: Crosswalk's XWalkView (an alternative to Webview) not working with AppBarLayout + CoordinatorLayout | Body: I'm trying to achieve the scrolling Toolbar technique (hiding Toolbar when scrolling down in a sibling child view) using CoordinatorLayout and AppBarLayout.\n\nI'm using Crosswalk's XWalkView (it's a view which functions like WebView).  \n\nWhen using regular WebView (inside a NestedScrollView) I can ac"
+        }
+      ]
+    },
+    "2": {
+      "size": 11,
+      "samples": [
+        {
+          "question_id": 22025090,
+          "question_text": "Title: Datatable filter not working | Body: I am using Primefaces for creating a filterable table.\n\n&lt;p:dataTable id=\"tasksTable\" value=\"#{taskView.currentTasks}\" var=\"task\" rowIndexVar=\"index\" filteredValue=\"#{taskView.filteredTasks}\"&gt;\n                &lt;p:column headerText=\"Name\"&gt;\n                    &lt;h:outputText value=\"#{task."
+        },
+        {
+          "question_id": 16820230,
+          "question_text": "Title: Load JSON file into highcharts to draw a Line Chart | Body: I want to load a JSON file into highcharts. But, I am not being able to understand how to do it. The y-axis labels are the year values starting from 2046.  \n\nThe JSON file is as follows:\n\n{\n  \"year\":[2046,2047,2048,2049,2050,2051,2052,2053,2054,2055,2056,2057,2058,2059,2060,2061,2062,2063,2064,2065,"
+        },
+        {
+          "question_id": 24781920,
+          "question_text": "Title: What causes an hierarchy request error when trying to move an svg from one div to another? | Body: I am trying to move an svg from one div to another.  This stack question offered this solution which I tried.\n\ndocument.getElementById(\"LightBoxDiv\").appendChild(svgId+\"V\");\n\nWhen I tried this, I received an hierarchy request error.  This stack question suggested several things which might be the ca"
+        }
+      ]
+    },
+    "3": {
+      "size": 9,
+      "samples": [
+        {
+          "question_id": 21685730,
+          "question_text": "Title: Jquery each loop + setTimeout problems with increments | Body: http://jsfiddle.net/fxLcy/ - example with setTimeout\n\nhttp://jsfiddle.net/fxLcy/1/ - this is the demo without setTimeout. All elements on right place, but i really need that delayed animation =/\n\nI want to place 6 cards per row via css transition and setTimeout. The point is, that i cant use increme"
+        },
+        {
+          "question_id": 21587540,
+          "question_text": "Title: rails3 jquery autocomplete getting and passing array | Body: This may seem like an easy problem to most of you, but it's been troubling me all day. \n\nI'm trying to implement messaging system. I want to be able to send message to multiple people. for this to happen i need help with two things:\nFirstly, data-delimeter doesn't work. I'm guessing i just don't kno"
+        },
+        {
+          "question_id": 537140,
+          "question_text": "Title: jQuery: CSS Selectors | Body: How would I use jQuery CSS Selectors to find for instance:\n\ncss class name: \"Text\" which is a div inside of dom object \"wrapper\"?\n"
+        }
+      ]
+    },
+    "4": {
+      "size": 20,
+      "samples": [
+        {
+          "question_id": 23431940,
+          "question_text": "Title: C# access data from COMAdmin.COMAdminCatalog using WMI | Body: Earlier I was using code as below to grab COM+ applications and verify that my app is running\n\nCOMAdmin.COMAdminCatalog catalog = new COMAdmin.COMAdminCatalogClass();\ncatalog.Connect(servername);\ncatalog.GetCollection(\"Applications\")\n\n\nNow I need to perform the same actions but from other domain. So"
+        },
+        {
+          "question_id": 7679020,
+          "question_text": "Title: How to write an XQuery which crosses an xsd:any element? | Body: A schema contains a &lt;xsd:any/> element. \n\nThe code, by some external information, knows that in place of any there is a specific XML structure (e.g. foo).\n\nXQuery would be looking as /Root/Child/AnotherChild/book/title.\n\nBut XQuery complains that book element is not known, and XQuery thus is not "
+        },
+        {
+          "question_id": 860880,
+          "question_text": "Title: Why would I get a GPF in DLLMain when run as a restricted user? | Body: Why is this code crashing when run as a restricted user, but not when run as an admin of the machine?\n\nextern \"C\" BOOL WINAPI DllMain(HINSTANCE hInstance, \n                               DWORD dwReason, \n                               LPVOID lpReserved)\n{\n hInstance;\n m_hInstance=hInstance;\n return "
+        }
+      ]
+    },
+    "5": {
+      "size": 9,
+      "samples": [
+        {
+          "question_id": 11604390,
+          "question_text": "Title: Numerical Problems with GNU MP Bignum Library | Body: I'm doing some number crunching, which needs high precision arithmetic. I'm using the GNU MP library, and according to the GMP manual:\n\n\"Floating point number or Float for short, is an arbitrary precision mantissa with a limited precision exponent.\"\n\nAlthough the mantissa is supposed to have an arbi"
+        },
+        {
+          "question_id": 35879220,
+          "question_text": "Title: Weights in a labeled_graph | Body: How do I add weights to this labeled graph that uses add_edge_by_label for use in dijkstra_shortest_paths?\nAm trying to use an example\nThanks\n\n#include &lt;boost/graph/adjacency_list.hpp&gt;\n#include &lt;boost/graph/copy.hpp&gt;\n#include &lt;boost/graph/labeled_graph.hpp&gt;\n#include &lt;boost/graph"
+        },
+        {
+          "question_id": 7837270,
+          "question_text": "Title: How .NET's regex engine treats RTL+LTR mixed strings? | Body: I have a mixed Hebrew/english string to parse.\nThe string is built like this:\n\n[3 hebrew] [2 english 2] [1 hebrew],\n\n\nSo, it can be read as: 1 2 3, and it is stored as 3 2 1 (exact byte sequence in file, double-checked in hex editor, and anyway RTL is only the display attribute). .NET regex parser h"
+        }
+      ]
+    },
+    "6": {
+      "size": 10,
+      "samples": [
+        {
+          "question_id": 5611350,
+          "question_text": "Title: Capturing UIScrollView off screen content | Body: I'm working with a UIScrollView which can be used in either orientation and contains a number of subviews:\n\n// in viewDidLoad\n\nmainScrollView = (UIScrollView *)self.view;\n\nmainScrollView.contentSize = CGSizeMake(1024, 1432);\n\n\nI'm trying to capture a screen shot of the entire scroll view with all it"
+        },
+        {
+          "question_id": 23157670,
+          "question_text": "Title: What can cause NSUserDefaults to be cleared | Body: I've been getting some odd reports for my app where the application settings stored into the NSUserDefaults is being cleared. The reports have all been on iOS 7s\n\nI know you can manually clear the NSUserDefaults by either uninstalling or making a call to\n\nNSString *appDomain = [[NSBundle mainBundle]"
+        },
+        {
+          "question_id": 10827780,
+          "question_text": "Title: Setting EventQuery.Uri resets the EventQuery state | Body: This works:\n\npublic override bool GetAppointments(CalendarModel calendar, DateTime startDate, DateTime endDate) {\n    foreach (var googcal in _settings.Calendars.Where(googcal =&gt; googcal.Selected)) {\n        var eventQuery = new EventQuery {\n            Uri = new Uri(googcal.ProviderData),\n      "
+        }
+      ]
+    },
+    "7": {
+      "size": 6,
+      "samples": [
+        {
+          "question_id": 39363200,
+          "question_text": "Title: \"AccessToken.user\" must be a \"User\" instance | Body: I am trying to figure out oAuth2 token based authentication since 3 days and no avail yet. I have written a code for user authentication. However, I am getting an error of \n\n\n  ValueError at /api/customer/login/ Cannot assign \"{'username':\n  'sanskars'}\": \"AccessToken.user\" must be a \"User\" instance"
+        },
+        {
+          "question_id": 2359300,
+          "question_text": "Title: wxPython change field on tab | Body: I apologize for a simple question, but I did not see this in the tutorials.\n\nI have a very simple gui, but I would like the user to be able to press the TAB key and have it move from one input field to another.  I am using wxPython with Python 2.6.\n"
+        },
+        {
+          "question_id": 21448310,
+          "question_text": "Title: How do you find common sublists between two lists? | Body: How do you find or keep only the sublists of a list if it the sublist is also present within another list?\n\nlsta = [['a','b','c'],['c','d','e'],['e','f','g']]\nlstb = [['a','b','c'],['d','d','e'],['e','f','g']]\n\n\nI'd like to do something like set(lsta) &amp; set(lstb) \n\nDesired_List = [['a','b','c'],"
+        }
+      ]
+    },
+    "8": {
+      "size": 4,
+      "samples": [
+        {
+          "question_id": 15612820,
+          "question_text": "Title: Get image from a php file to iOS | Body: I want to get image from a php file (for example: http://abc.xyz.com/api/showImage.php) for a specific user through the user id &amp; set the image in the image view of my iOS app. How can i do so?\nThanks in advance.\n"
+        },
+        {
+          "question_id": 12085990,
+          "question_text": "Title: Detecting iOS orientation change instantly | Body: I have a game in which the orientation of the device affects the state of the game. The user must quickly switch between Landscape, Portrait, and Reverse Landscape orientations. So far I've been registering the game for orientation notifications via:\n\n[[UIDevice currentDevice] beginGeneratingDeviceO"
+        },
+        {
+          "question_id": 27757470,
+          "question_text": "Title: iOS WebView Youtube inline-Video | Body: I want to play an youtube-video inline inside a WebView in an iPhone App.\nIn the youtube iframe-api I use the parameter \"'playsinline': 1\". When I inspect the video-tag inside safari devtools, in the video-tag the\n\nwebkit-playsinline\n\n\nattribute is set correctly (...but the value is missing).  \nAnyh"
+        }
+      ]
+    },
+    "9": {
+      "size": 6,
+      "samples": [
+        {
+          "question_id": 11985680,
+          "question_text": "Title: Jackson equivalent to @XmlSeeAlso | Body: I am writing a RESTful web service using Java and Jersey, where the service will accept either XML or JSON inputs. Jackson is used as the JSON deserializer, and integrated into the Jersey config.\n\nOne of the endpoints is a POST request to a URL, where the content can be one of several different Java"
+        },
+        {
+          "question_id": 37796290,
+          "question_text": "Title: Vaadin app is deployed on WildFly in Openshift, but i can see only standard openshift welcome page | Body: I'm a newbie with all that vaadin, wildfly and openshift stuff, so, please, excuse me, if I will sound stupid.\n\nI deployed my app to Wildfly 10 server. Everything was fine during deployment. But now I just can't see the rendered page (only welcome page can be accessed).\n\nWhen I deploy locally I use "
+        },
+        {
+          "question_id": 19835400,
+          "question_text": "Title: Disposing a Thread in JDK 1.6+ | Body: In simple. How to stop and then dispose a thread in JDK 1.6 or 1.7? Javadoc say stop() is deprecated. What is the proper ways to stop/end and then dispose a thread?\n"
+        }
+      ]
+    }
+  },
+  "clusters_b": {
+    "0": {
+      "size": 6,
+      "samples": [
+        {
+          "concept_id": "T-0",
+          "concept_name": "java",
+          "Description": "A high-level, class-based, object-oriented programming language designed to have as few implementation dependencies as possible."
+        },
+        {
+          "concept_id": "T-4",
+          "concept_name": "c++",
+          "Description": "A general-purpose programming language created as an extension of C, known for performance, efficiency, and hardware control."
+        },
+        {
+          "concept_id": "T-5",
+          "concept_name": "c#",
+          "Description": "A modern, object-oriented, and type-safe programming language developed by Microsoft for the .NET framework."
+        }
+      ]
+    },
+    "1": {
+      "size": 4,
+      "samples": [
+        {
+          "concept_id": "T-1",
+          "concept_name": "html",
+          "Description": "HyperText Markup Language, the standard markup language for documents designed to be displayed in a web browser."
+        },
+        {
+          "concept_id": "T-2",
+          "concept_name": "javascript",
+          "Description": "A lightweight, interpreted programming language with first-class functions, core to interactive web development."
+        },
+        {
+          "concept_id": "T-3",
+          "concept_name": "jquery",
+          "Description": "A fast, small, and feature-rich JavaScript library designed to simplify HTML DOM tree traversal and manipulation."
+        }
+      ]
+    }
+  },
+  "pairs": [
+    {
+      "ca": 0,
+      "cb": 0,
+      "size_a": 11,
+      "size_b": 6,
+      "sample_rate": 0.0,
+      "matches": [],
+      "tokens": {
+        "prompt": 1349,
+        "completion": 70
+      }
+    },
+    {
+      "ca": 0,
+      "cb": 1,
+      "size_a": 11,
+      "size_b": 4,
+      "sample_rate": 0.2,
+      "matches": [
+        [
+          9,
+          6
+        ],
+        [
+          15,
+          6
+        ],
+        [
+          29,
+          6
+        ],
+        [
+          44,
+          6
+        ],
+        [
+          70,
+          6
+        ],
+        [
+          73,
+          6
+        ],
+        [
+          82,
+          6
+        ],
+        [
+          91,
+          6
+        ]
+      ],
+      "tokens": {
+        "prompt": 1274,
+        "completion": 118
+      }
+    },
+    {
+      "ca": 1,
+      "cb": 0,
+      "size_a": 14,
+      "size_b": 6,
+      "sample_rate": 0.12,
+      "matches": [
+        [
+          2,
+          8
+        ],
+        [
+          5,
+          8
+        ],
+        [
+          16,
+          8
+        ],
+        [
+          20,
+          8
+        ],
+        [
+          23,
+          8
+        ],
+        [
+          23,
+          9
+        ],
+        [
+          58,
+          8
+        ],
+        [
+          84,
+          7
+        ],
+        [
+          93,
+          8
+        ]
+      ],
+      "tokens": {
+        "prompt": 1598,
+        "completion": 125
+      }
+    },
+    {
+      "ca": 1,
+      "cb": 1,
+      "size_a": 14,
+      "size_b": 4,
+      "sample_rate": 0.0,
+      "matches": [],
+      "tokens": {
+        "prompt": 1523,
+        "completion": 107
+      }
+    },
+    {
+      "ca": 2,
+      "cb": 0,
+      "size_a": 11,
+      "size_b": 6,
+      "sample_rate": 0.0,
+      "matches": [],
+      "tokens": {
+        "prompt": 1370,
+        "completion": 86
+      }
+    },
+    {
+      "ca": 2,
+      "cb": 1,
+      "size_a": 11,
+      "size_b": 4,
+      "sample_rate": 0.2,
+      "matches": [
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          28,
+          2
+        ],
+        [
+          35,
+          2
+        ],
+        [
+          42,
+          2
+        ],
+        [
+          52,
+          1
+        ],
+        [
+          52,
+          2
+        ],
+        [
+          52,
+          6
+        ],
+        [
+          56,
+          2
+        ],
+        [
+          77,
+          2
+        ],
+        [
+          80,
+          2
+        ]
+      ],
+      "tokens": {
+        "prompt": 1295,
+        "completion": 117
+      }
+    },
+    {
+      "ca": 3,
+      "cb": 0,
+      "size_a": 9,
+      "size_b": 6,
+      "sample_rate": 0.0,
+      "matches": [],
+      "tokens": {
+        "prompt": 1118,
+        "completion": 72
+      }
+    },
+    {
+      "ca": 3,
+      "cb": 1,
+      "size_a": 9,
+      "size_b": 4,
+      "sample_rate": 0.25,
+      "matches": [
+        [
+          17,
+          3
+        ],
+        [
+          18,
+          3
+        ],
+        [
+          25,
+          3
+        ],
+        [
+          32,
+          3
+        ],
+        [
+          55,
+          3
+        ],
+        [
+          61,
+          3
+        ],
+        [
+          81,
+          3
+        ],
+        [
+          98,
+          3
+        ]
+      ],
+      "tokens": {
+        "prompt": 1043,
+        "completion": 104
+      }
+    },
+    {
+      "ca": 4,
+      "cb": 0,
+      "size_a": 20,
+      "size_b": 6,
+      "sample_rate": 0.12,
+      "matches": [
+        [
+          14,
+          5
+        ],
+        [
+          27,
+          4
+        ],
+        [
+          38,
+          5
+        ],
+        [
+          47,
+          5
+        ],
+        [
+          49,
+          4
+        ],
+        [
+          53,
+          5
+        ],
+        [
+          57,
+          5
+        ],
+        [
+          59,
+          5
+        ],
+        [
+          72,
+          5
+        ],
+        [
+          74,
+          5
+        ],
+        [
+          78,
+          4
+        ],
+        [
+          96,
+          5
+        ],
+        [
+          97,
+          9
+        ]
+      ],
+      "tokens": {
+        "prompt": 2099,
+        "completion": 176
+      }
+    },
+    {
+      "ca": 4,
+      "cb": 1,
+      "size_a": 20,
+      "size_b": 4,
+      "sample_rate": 0.0,
+      "matches": [],
+      "tokens": {
+        "prompt": 2024,
+        "completion": 149
+      }
+    },
+    {
+      "ca": 5,
+      "cb": 0,
+      "size_a": 9,
+      "size_b": 6,
+      "sample_rate": 0.16,
+      "matches": [
+        [
+          4,
+          4
+        ],
+        [
+          6,
+          4
+        ],
+        [
+          22,
+          5
+        ],
+        [
+          46,
+          4
+        ],
+        [
+          50,
+          4
+        ],
+        [
+          88,
+          4
+        ],
+        [
+          95,
+          4
+        ]
+      ],
+      "tokens": {
+        "prompt": 1209,
+        "completion": 86
+      }
+    },
+    {
+      "ca": 5,
+      "cb": 1,
+      "size_a": 9,
+      "size_b": 4,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          24,
+          2
+        ],
+        [
+          24,
+          3
+        ]
+      ],
+      "tokens": {
+        "prompt": 1134,
+        "completion": 81
+      }
+    },
+    {
+      "ca": 6,
+      "cb": 0,
+      "size_a": 10,
+      "size_b": 6,
+      "sample_rate": 0.08,
+      "matches": [
+        [
+          34,
+          9
+        ]
+      ],
+      "tokens": {
+        "prompt": 1298,
+        "completion": 83
+      }
+    },
+    {
+      "ca": 6,
+      "cb": 1,
+      "size_a": 10,
+      "size_b": 4,
+      "sample_rate": 0.05,
+      "matches": [
+        [
+          39,
+          1
+        ],
+        [
+          86,
+          3
+        ],
+        [
+          92,
+          1
+        ],
+        [
+          94,
+          1
+        ]
+      ],
+      "tokens": {
+        "prompt": 1223,
+        "completion": 80
+      }
+    },
+    {
+      "ca": 7,
+      "cb": 0,
+      "size_a": 6,
+      "size_b": 6,
+      "sample_rate": 0.16,
+      "matches": [
+        [
+          7,
+          7
+        ],
+        [
+          33,
+          7
+        ],
+        [
+          51,
+          7
+        ],
+        [
+          64,
+          7
+        ],
+        [
+          85,
+          7
+        ]
+      ],
+      "tokens": {
+        "prompt": 915,
+        "completion": 60
+      }
+    },
+    {
+      "ca": 7,
+      "cb": 1,
+      "size_a": 6,
+      "size_b": 4,
+      "sample_rate": 0.0,
+      "matches": [],
+      "tokens": {
+        "prompt": 840,
+        "completion": 40
+      }
+    },
+    {
+      "ca": 8,
+      "cb": 0,
+      "size_a": 4,
+      "size_b": 6,
+      "sample_rate": 0.2,
+      "matches": [
+        [
+          12,
+          9
+        ],
+        [
+          54,
+          9
+        ],
+        [
+          71,
+          9
+        ],
+        [
+          89,
+          9
+        ]
+      ],
+      "tokens": {
+        "prompt": 659,
+        "completion": 44
+      }
+    },
+    {
+      "ca": 8,
+      "cb": 1,
+      "size_a": 4,
+      "size_b": 4,
+      "sample_rate": 0.0625,
+      "matches": [
+        [
+          12,
+          6
+        ]
+      ],
+      "tokens": {
+        "prompt": 584,
+        "completion": 41
+      }
+    },
+    {
+      "ca": 9,
+      "cb": 0,
+      "size_a": 6,
+      "size_b": 6,
+      "sample_rate": 0.2,
+      "matches": [
+        [
+          8,
+          0
+        ],
+        [
+          41,
+          0
+        ],
+        [
+          66,
+          0
+        ],
+        [
+          75,
+          0
+        ],
+        [
+          99,
+          0
+        ]
+      ],
+      "tokens": {
+        "prompt": 826,
+        "completion": 71
+      }
+    },
+    {
+      "ca": 9,
+      "cb": 1,
+      "size_a": 6,
+      "size_b": 4,
+      "sample_rate": 0.0,
+      "matches": [],
+      "tokens": {
+        "prompt": 751,
+        "completion": 51
+      }
+    }
+  ]
+}

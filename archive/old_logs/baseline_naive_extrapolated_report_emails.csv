@@ -1,0 +1,4 @@
+Run_ID,Dataset,Trial,Baseline_Type,Extrapolation_Multiplier,Recall,Precision,F1,Actual_Tokens,Projected_Full_Tokens,Actual_Time_s,Projected_Full_Time_s
+1,Emails,1,Naive_Block_1_Extrapolated,100.0,100.0,3.33,6.45,18290,1829000,74.71,7470.66
+2,Emails,2,Naive_Block_1_Extrapolated,100.0,100.0,3.16,6.12,18370,1837000,69.89,6989.03
+3,Emails,3,Naive_Block_1_Extrapolated,100.0,100.0,3.7,7.14,18254,1825400,76.91,7690.83

@@ -14,7 +14,7 @@ df_a = pd.read_csv('data/table_a_emails.csv')
 df_b = pd.read_csv('data/table_b_emails.csv')
 
 # Define the target ratios for the grid search
-target_ratios = [0.1, 0.2, 0.05]
+target_ratios = [0.025, 0.075, 0.1]
 
 for ratio in target_ratios:
     # Convert decimal percentage to integer divisor
@@ -28,21 +28,24 @@ for ratio in target_ratios:
     result = semantic_join(
         table_a=df_a,
         table_b=df_b,
-        predicate="the two texts contradict each other",
-        schema_a=["email"],
+        predicate="The texts refer to the exact same person, and the internal email in Table B proves the witness statement in Table A is a lie.",
+        schema_a=["statement"],
         schema_b=["email"],
         filter_threshold=-1.0,
+        filter_sample_size=5,
         cluster_size_limit=-1,
         force_strategy="pairwise",
+        force_projection=True,
         embedding="all-mpnet-base-v2",
         clustering="kmeans",
         block_size=15,
+        min_profile_size=0,
         cluster_ratio=divisor, 
         verbose=False # Set to False to keep the console output clean during the loop
     )
 
     # Dynamically name the output file based on the ratio
-    output_filename = f"logs/emails_master_log_ratio_{ratio}.json"
+    output_filename = f"src/evaluation/sim_logs/emails_master_log_ratio_{ratio}_projection.json"
 
     # Export everything, including up to 3 sample rows per cluster
     export_simulation_data(

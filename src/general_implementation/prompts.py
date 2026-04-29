@@ -12,10 +12,6 @@ import json
 
 EMBEDDING_MODELS = [
     {
-        "name": "distilbert-base-uncased-finetuned-sst-2-english",
-        "notes": "Specifically fine-tuned for positive/negative sentiment classification.",
-    },
-    {
         "name": "all-mpnet-base-v2",
         "notes": "Strong general-purpose semantic similarity. Default if unsure.",
     },
@@ -166,13 +162,12 @@ It is NOT a same-label join when:
 - The predicate needs cross-row comparison (e.g. "A happened before B").
 - The label space is open-ended or unbounded (e.g. "same topic" with no fixed list).
 
-If it IS a same-label join, propose an explicit, mutually-exclusive label set
-that would cover every realistic row in both tables. Include a special
-"unknown" label for rows that don't fit.
+If it IS a same-label join, your strategy is "classifier". 
+If it is NOT a same-label join, your strategy is "pairwise". 
+Only output "unknown" if the predicate is completely illegible.
 
 Respond exactly:
-{{"classifier": true | false,
-  "labels": ["<label1>", "<label2>", ...] | null,
+{{"strategy": "classifier" | "pairwise",
   "reason": "<one sentence>"}}
 """
     return system, user
@@ -289,6 +284,6 @@ A projection is NOT REQUIRED when:
 - The raw texts are semantically comparable.
 
 Respond exactly:
-{{"requires_projection": true | false, "reason": "<one sentence>"}}
+{{"requires_projection": "true" | "false" | "unknown", "reason": "<one sentence>"}}
 """
     return system, user

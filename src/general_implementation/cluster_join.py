@@ -239,4 +239,4 @@ def join_clusters(
 
     # Dedup while preserving first-seen order.
     deduped = list(dict.fromkeys(all_matches))
-    return JoinResult(matches=deduped, tokens=tokens, n_llm_calls=calls)
+    return JoinResult(matches=deduped, tokens=tokens, n_llm_calls=calls, pair_stats=pair_stats)

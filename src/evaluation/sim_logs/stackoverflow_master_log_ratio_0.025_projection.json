@@ -1,0 +1,402 @@
+{
+  "fixed_tokens": {
+    "prompt": 14531,
+    "completion": 3557
+  },
+  "clusters_a": {
+    "0": {
+      "size": 83,
+      "samples": [
+        {
+          "question_id": 39363200,
+          "question_text": "Title: \"AccessToken.user\" must be a \"User\" instance | Body: I am trying to figure out oAuth2 token based authentication since 3 days and no avail yet. I have written a code for user authentication. However, I am getting an error of \n\n\n  ValueError at /api/customer/login/ Cannot assign \"{'username':\n  'sanskars'}\": \"AccessToken.user\" must be a \"User\" instance"
+        },
+        {
+          "question_id": 23431940,
+          "question_text": "Title: C# access data from COMAdmin.COMAdminCatalog using WMI | Body: Earlier I was using code as below to grab COM+ applications and verify that my app is running\n\nCOMAdmin.COMAdminCatalog catalog = new COMAdmin.COMAdminCatalogClass();\ncatalog.Connect(servername);\ncatalog.GetCollection(\"Applications\")\n\n\nNow I need to perform the same actions but from other domain. So"
+        },
+        {
+          "question_id": 22025090,
+          "question_text": "Title: Datatable filter not working | Body: I am using Primefaces for creating a filterable table.\n\n&lt;p:dataTable id=\"tasksTable\" value=\"#{taskView.currentTasks}\" var=\"task\" rowIndexVar=\"index\" filteredValue=\"#{taskView.filteredTasks}\"&gt;\n                &lt;p:column headerText=\"Name\"&gt;\n                    &lt;h:outputText value=\"#{task."
+        }
+      ]
+    },
+    "1": {
+      "size": 17,
+      "samples": [
+        {
+          "question_id": 10795630,
+          "question_text": "Title: Share image from SD Card | Body: I'm trying for 2 weeks to find how to share images which are stored on an SD card with no success. \n\nThis answer doesn't work to me, nor is it what I'm looking for.\n\nI'm working with Cam Preview app that stores images to SD and then display them in in-app gallery: \n\n   public class GalleryView exten"
+        },
+        {
+          "question_id": 11271470,
+          "question_text": "Title: FATAL EXCEPTION: main- I have no idea what's wrong | Body: I'm still fairly new to Eclipse and I have tried everything to keep these errors from happening:\n\n06-30 00:38:28.773: E/AndroidRuntime(20520): FATAL EXCEPTION: main\n06-30 00:38:28.773: E/AndroidRuntime(20520): java.lang.SecurityException: Permission       Denial: starting Intent { act=android.intent"
+        },
+        {
+          "question_id": 15612820,
+          "question_text": "Title: Get image from a php file to iOS | Body: I want to get image from a php file (for example: http://abc.xyz.com/api/showImage.php) for a specific user through the user id &amp; set the image in the image view of my iOS app. How can i do so?\nThanks in advance.\n"
+        }
+      ]
+    }
+  },
+  "clusters_b": {
+    "0": {
+      "size": 6,
+      "samples": [
+        {
+          "concept_id": "T-0",
+          "concept_name": "java",
+          "Description": "A high-level, class-based, object-oriented programming language designed to have as few implementation dependencies as possible."
+        },
+        {
+          "concept_id": "T-4",
+          "concept_name": "c++",
+          "Description": "A general-purpose programming language created as an extension of C, known for performance, efficiency, and hardware control."
+        },
+        {
+          "concept_id": "T-5",
+          "concept_name": "c#",
+          "Description": "A modern, object-oriented, and type-safe programming language developed by Microsoft for the .NET framework."
+        }
+      ]
+    },
+    "1": {
+      "size": 4,
+      "samples": [
+        {
+          "concept_id": "T-1",
+          "concept_name": "html",
+          "Description": "HyperText Markup Language, the standard markup language for documents designed to be displayed in a web browser."
+        },
+        {
+          "concept_id": "T-2",
+          "concept_name": "javascript",
+          "Description": "A lightweight, interpreted programming language with first-class functions, core to interactive web development."
+        },
+        {
+          "concept_id": "T-3",
+          "concept_name": "jquery",
+          "Description": "A fast, small, and feature-rich JavaScript library designed to simplify HTML DOM tree traversal and manipulation."
+        }
+      ]
+    }
+  },
+  "pairs": [
+    {
+      "ca": 0,
+      "cb": 0,
+      "size_a": 83,
+      "size_b": 6,
+      "sample_rate": 0.04,
+      "matches": [
+        [
+          1,
+          5
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          6,
+          4
+        ],
+        [
+          7,
+          7
+        ],
+        [
+          8,
+          0
+        ],
+        [
+          13,
+          4
+        ],
+        [
+          14,
+          5
+        ],
+        [
+          22,
+          5
+        ],
+        [
+          27,
+          4
+        ],
+        [
+          31,
+          9
+        ],
+        [
+          34,
+          9
+        ],
+        [
+          41,
+          0
+        ],
+        [
+          49,
+          4
+        ],
+        [
+          50,
+          4
+        ],
+        [
+          51,
+          7
+        ],
+        [
+          53,
+          5
+        ],
+        [
+          57,
+          5
+        ],
+        [
+          64,
+          7
+        ],
+        [
+          66,
+          0
+        ],
+        [
+          72,
+          5
+        ],
+        [
+          75,
+          0
+        ],
+        [
+          78,
+          4
+        ],
+        [
+          84,
+          7
+        ],
+        [
+          85,
+          7
+        ],
+        [
+          88,
+          4
+        ],
+        [
+          95,
+          4
+        ],
+        [
+          97,
+          9
+        ]
+      ],
+      "tokens": {
+        "prompt": 9681,
+        "completion": 690
+      }
+    },
+    {
+      "ca": 0,
+      "cb": 1,
+      "size_a": 83,
+      "size_b": 4,
+      "sample_rate": 0.1,
+      "matches": [
+        [
+          9,
+          6
+        ],
+        [
+          15,
+          6
+        ],
+        [
+          17,
+          3
+        ],
+        [
+          18,
+          3
+        ],
+        [
+          24,
+          2
+        ],
+        [
+          24,
+          3
+        ],
+        [
+          25,
+          3
+        ],
+        [
+          32,
+          3
+        ],
+        [
+          35,
+          2
+        ],
+        [
+          39,
+          1
+        ],
+        [
+          42,
+          2
+        ],
+        [
+          44,
+          6
+        ],
+        [
+          52,
+          2
+        ],
+        [
+          52,
+          6
+        ],
+        [
+          55,
+          3
+        ],
+        [
+          56,
+          2
+        ],
+        [
+          61,
+          3
+        ],
+        [
+          73,
+          6
+        ],
+        [
+          80,
+          2
+        ],
+        [
+          81,
+          2
+        ],
+        [
+          81,
+          3
+        ],
+        [
+          82,
+          6
+        ],
+        [
+          86,
+          3
+        ],
+        [
+          91,
+          6
+        ],
+        [
+          92,
+          1
+        ],
+        [
+          94,
+          1
+        ],
+        [
+          98,
+          3
+        ]
+      ],
+      "tokens": {
+        "prompt": 9231,
+        "completion": 726
+      }
+    },
+    {
+      "ca": 1,
+      "cb": 0,
+      "size_a": 17,
+      "size_b": 6,
+      "sample_rate": 0.12,
+      "matches": [
+        [
+          5,
+          8
+        ],
+        [
+          12,
+          9
+        ],
+        [
+          16,
+          8
+        ],
+        [
+          20,
+          8
+        ],
+        [
+          23,
+          8
+        ],
+        [
+          23,
+          9
+        ],
+        [
+          54,
+          9
+        ],
+        [
+          58,
+          8
+        ],
+        [
+          71,
+          9
+        ],
+        [
+          89,
+          9
+        ],
+        [
+          93,
+          8
+        ]
+      ],
+      "tokens": {
+        "prompt": 1800,
+        "completion": 173
+      }
+    },
+    {
+      "ca": 1,
+      "cb": 1,
+      "size_a": 17,
+      "size_b": 4,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          12,
+          6
+        ]
+      ],
+      "tokens": {
+        "prompt": 1725,
+        "completion": 132
+      }
+    }
+  ]
+}

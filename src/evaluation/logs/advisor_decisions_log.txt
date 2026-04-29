@@ -1,24 +1,53 @@
-=== IMDB (Sentiment) ===
-Strategy: CLASSIFIER (Labels: ['positive', 'negative', 'neutral', 'unknown'])
-Strategy Reason: The predicate checks if both reviews express the same sentiment, which is a discrete attribute with a small, finite label set.
+=== IMDB ===
+Strategy: CLASSIFIER (Labels: ['Positive', 'Negative', 'unknown'])
+Strategy Reason: The predicate checks if both reviews express the same sentiment, which is a discrete attribute with a small, finite label set (Positive or Negative) that can be determined from each review's content alone.
+Raw Strat JSON: {"strategy": "classifier", "reason": "The predicate checks if both reviews express the same sentiment, which is a discrete attribute with a small, finite label set (Positive or Negative) that can be determined from each review's content alone."}
+Raw Labels JSON: {"labels": ["Positive", "Negative"]}
 
-Projection: DISABLED
-Projection Reason: The predicate compares symmetric properties as both reviews express the same sentiment, making them semantically comparable.
+Projection: FALSE
+Projection Reason: The predicate compares symmetric properties by checking if both reviews express the same sentiment, which does not require projecting one table into the domain of the other.
+Raw Proj JSON: {"requires_projection": "false", "reason": "The predicate compares symmetric properties by checking if both reviews express the same sentiment, which does not require projecting one table into the domain of the other."}
+
+Performance (All Advisor LLMs): 7461 tokens | $0.01946 | 3.61s
 --------------------------------------------------
 
-=== Emails (Contradiction) ===
+=== Emails ===
 Strategy: PAIRWISE (Labels: None)
-Strategy Reason: The predicate requires cross-row comparison to determine contradiction, which is not a same-label join.
+Strategy Reason: The predicate requires cross-row comparison to determine if the email in Table B proves the witness statement in Table A is a lie, which is not a same-label join.
+Raw Strat JSON: {"strategy": "pairwise", "reason": "The predicate requires cross-row comparison to determine if the email in Table B proves the witness statement in Table A is a lie, which is not a same-label join."}
 
-Projection: DISABLED
-Projection Reason: The predicate 'the two texts contradict each other' directly compares the semantic content of the texts, which are naturally comparable.
+Embedding Model: all-mpnet-base-v2
+Model Reason: It is the best choice for strong general-purpose semantic similarity, which is needed to determine if the texts refer to the same person and prove a statement false.
+Raw Emb JSON: {"model": "all-mpnet-base-v2", "reason": "It is the best choice for strong general-purpose semantic similarity, which is needed to determine if the texts refer to the same person and prove a statement false."}
+
+Clustering Method: kmeans (k=2, min_size=None)
+Clustering Reason: The predicate implies two groups: statements that are lies and those that are not, which aligns with kmeans for binary classification.
+Raw Clust JSON: {"method": "kmeans", "n_clusters": 2, "min_cluster_size": null, "reason": "The predicate implies two groups: statements that are lies and those that are not, which aligns with kmeans for binary classification."}
+
+Projection: FALSE
+Projection Reason: The predicate directly compares statements and emails to determine if they refer to the same person and contradict each other, which are semantically comparable tasks.
+Raw Proj JSON: {"requires_projection": "false", "reason": "The predicate directly compares statements and emails to determine if they refer to the same person and contradict each other, which are semantically comparable tasks."}
+
+Performance (All Advisor LLMs): 2116 tokens | $0.00667 | 5.23s
 --------------------------------------------------
 
-=== MTSamples (Medical) ===
+=== StackOverflow ===
 Strategy: PAIRWISE (Labels: None)
-Strategy Reason: The predicate involves matching clinical transcriptions to medical specialties, which is an open-ended label space without a fixed list.
+Strategy Reason: The predicate requires cross-row comparison to determine if a question is solved by or directly related to a programming concept, and the label space is open-ended with no fixed list.
+Raw Strat JSON: {"strategy": "pairwise", "reason": "The predicate requires cross-row comparison to determine if a question is solved by or directly related to a programming concept, and the label space is open-ended with no fixed list."}
 
-Projection: ENABLED
-Projection Reason: The predicate involves mapping complex clinical transcriptions to specific medical specialties, which are not directly comparable in raw text form.
+Embedding Model: all-mpnet-base-v2
+Model Reason: It is a strong general-purpose model suitable for semantic similarity tasks involving programming concepts and questions.
+Raw Emb JSON: {"model": "all-mpnet-base-v2", "reason": "It is a strong general-purpose model suitable for semantic similarity tasks involving programming concepts and questions."}
+
+Clustering Method: kmeans (k=2, min_size=None)
+Clustering Reason: The predicate implies a small, fixed number of groups related to programming concepts, suitable for kmeans with 2 clusters.
+Raw Clust JSON: {"method": "kmeans", "n_clusters": 2, "min_cluster_size": null, "reason": "The predicate implies a small, fixed number of groups related to programming concepts, suitable for kmeans with 2 clusters."}
+
+Projection: TRUE
+Projection Reason: The predicate involves mapping complex question descriptions to specific programming concepts, which requires projecting Table A's text into the domain of Table B's concepts for meaningful semantic similarity comparison.
+Raw Proj JSON: {"requires_projection": "true", "reason": "The predicate involves mapping complex question descriptions to specific programming concepts, which requires projecting Table A's text into the domain of Table B's concepts for meaningful semantic similarity comparison."}
+
+Performance (All Advisor LLMs): 2612 tokens | $0.00785 | 5.25s
 --------------------------------------------------
 

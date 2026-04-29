@@ -12,6 +12,7 @@ import pandas as pd
 from dataclasses import dataclass
 from dotenv import load_dotenv
 from openai import OpenAI
+from utils import TokenUsage
 
 import prompts
 
@@ -20,7 +21,7 @@ load_dotenv()
 _client: OpenAI | None = None
 
 
-def _llm(system: str, user: str, model: str) -> dict:
+def _llm(system: str, user: str, model: str) -> tuple[dict, TokenUsage]:
     """Make an LLM call with JSON response format."""
     global _client
     if _client is None:
@@ -32,7 +33,14 @@ def _llm(system: str, user: str, model: str) -> dict:
         response_format={"type": "json_object"},
         temperature=0,
     )
-    return json.loads(resp.choices[0].message.content)
+
+    usage = resp.usage
+    tokens = TokenUsage(
+        prompt_tokens=usage.prompt_tokens, 
+        completion_tokens=usage.completion_tokens, 
+    )
+
+    return json.loads(resp.choices[0].message.content), tokens
 
 
 @dataclass
@@ -47,61 +55,41 @@ class Plan:
     notes: list[str]         # advisor rationales, for the run summary
 
 
-def _samples(df: pd.DataFrame, schema: list[str], n: int = 5) -> list[dict]:
-    """Extract first n rows from DataFrame as dicts for prompts."""
-    return df[schema].head(n).to_dict(orient="records")
-
-
-# def choose_join_strategy(
-#     predicate: str,
-#     df_a: pd.DataFrame, df_b: pd.DataFrame,
-#     schema_a: list[str], schema_b: list[str],
-#     llm_model: str,
-# ) -> tuple[str, list[str] | None, str]:
-#     """Decide whether the predicate is a same-label equi-join with a small,
-#     fixed label set. Returns (strategy, labels_or_None, reason).
-#     strategy is "classifier" or "pairwise"."""
-#     system, user = prompts.classifier_detect_prompt(
-#         predicate, schema_a, schema_b,
-#         _samples(df_a, schema_a), _samples(df_b, schema_b),
-#     )
-#     result = _llm(system, user, llm_model)
-#     is_classifier = bool(result.get("classifier"))
-#     labels = result.get("labels")
-#     reason = result.get("reason", "")
-
-#     if not is_classifier or not isinstance(labels, list) or len(labels) < 2:
-#         return "pairwise", None, reason
-
-#     # Clean label set: dedup, keep strings, ensure "unknown" exists.
-#     seen = set()
-#     clean: list[str] = []
-#     for label in labels:
-#         if isinstance(label, str) and label not in seen:
-#             seen.add(label)
-#             clean.append(label)
-#     if "unknown" not in seen:
-#         clean.append("unknown")
-#     return "classifier", clean, reason
+def _samples(df: pd.DataFrame, schema: list[str], n: int = 5, random_state: int = 42) -> list[dict]:
+    """Extract a representative random sample of n rows from DataFrame as dicts for prompts."""
+    sample_size = min(n, len(df))
+    if sample_size == 0:
+        return []
+    return df[schema].sample(n=sample_size, random_state=random_state).to_dict(orient="records")
 
 def determine_join_strategy(
     predicate: str,
     df_a: pd.DataFrame, df_b: pd.DataFrame,
     schema_a: list[str], schema_b: list[str],
     llm_model: str,
+    return_tokens: bool = False,
+    return_raw: bool = False
 ) -> tuple[str, str]:
     """Call 1: Router. Decide whether the predicate is a same-label equi-join."""
     system, user = prompts.classifier_detect_prompt(
         predicate, schema_a, schema_b,
         _samples(df_a, schema_a), _samples(df_b, schema_b),
     )
-    result = _llm(system, user, llm_model)
-    is_classifier = bool(result.get("classifier"))
+    result, tokens = _llm(system, user, llm_model)
+    
+    strategy = result.get("strategy", "unknown")
+    if strategy not in {"classifier", "pairwise", "unknown"}:
+        strategy = "unknown"
+
     reason = result.get("reason", "")
 
-    if is_classifier:
-        return "classifier", reason
-    return "pairwise", reason
+    if return_tokens and return_raw:
+        return strategy, reason, tokens, json.dumps(result)
+    elif return_tokens:
+        return strategy, reason, tokens
+    elif return_raw:
+        return strategy, reason, json.dumps(result)
+    return strategy, reason
 
 
 def generate_classification_labels(
@@ -109,6 +97,8 @@ def generate_classification_labels(
     df_b: pd.DataFrame,
     schema_b: list[str],
     llm_model: str,
+    return_tokens: bool = False,
+    return_raw: bool = False
 ) -> list[str]:
     """Call 2: Extractor. Extracts the taxonomy strictly from Table B."""
     system = "You are an AI database query planner. Always respond in strictly valid JSON."
@@ -120,7 +110,7 @@ def generate_classification_labels(
     Identify the exact list of unique categories/labels we should classify Table A into.
     Return a JSON object with a single key "labels" mapped to a list of strings.
     """
-    result = _llm(system, user, llm_model)
+    result, tokens = _llm(system, user, llm_model)
     labels = result.get("labels", [])
     
     # Clean label set: dedup, keep strings, ensure "unknown" exists.
@@ -133,6 +123,13 @@ def generate_classification_labels(
     if "unknown" not in seen:
         clean.append("unknown")
         
+    if return_tokens and return_raw:
+        return clean, tokens, json.dumps(result)
+    elif return_tokens:
+        return clean, tokens
+    elif return_raw:
+        return clean, json.dumps(result)
+        
     return clean
 
 
@@ -141,19 +138,31 @@ def choose_model(
     df_a: pd.DataFrame, df_b: pd.DataFrame,
     schema_a: list[str], schema_b: list[str],
     llm_model: str,
-) -> tuple[str, str]:
+    return_tokens: bool = False,
+    return_raw: bool = False
+) -> tuple:
     """Pick sentence-transformer model from the catalog.
     Returns (model_name, reason)."""
     system, user = prompts.model_prompt(
         predicate, schema_a, schema_b,
         _samples(df_a, schema_a), _samples(df_b, schema_b),
     )
-    result = _llm(system, user, llm_model)
+    result, tokens = _llm(system, user, llm_model)
     valid = {m["name"] for m in prompts.EMBEDDING_MODELS}
     model = result.get("model")
     if model not in valid:
         model = "all-mpnet-base-v2"
-    return model, result.get("reason", "")
+
+    reason = result.get("reason", "")
+
+    if return_tokens and return_raw:
+        return model, reason, tokens, json.dumps(result)
+    elif return_tokens:
+        return model, reason, tokens
+    elif return_raw:
+        return model, reason, json.dumps(result)
+    
+    return model, reason
 
 
 def choose_clustering(
@@ -162,7 +171,9 @@ def choose_clustering(
     schema_a: list[str], schema_b: list[str],
     embedding_dim: int,
     llm_model: str,
-) -> tuple[str, int | None, int | None, str]:
+    return_tokens: bool = False,
+    return_raw: bool = False
+) -> tuple:
     """Pick clustering algorithm and hyperparameters.
     Returns (method, n_clusters or None, min_cluster_size or None, reason)."""
     n_rows_a, n_rows_b = len(df_a), len(df_b)
@@ -172,28 +183,43 @@ def choose_clustering(
         _samples(df_a, schema_a), _samples(df_b, schema_b),
         n_rows_a, n_rows_b, embedding_dim, max_k,
     )
-    result = _llm(system, user, llm_model)
+    result, tokens = _llm(system, user, llm_model)
     method = result.get("method", "kmeans")
     if method not in {"kmeans", "hdbscan"}:
         method = "kmeans"
 
     n_clusters = result.get("n_clusters")
     min_cluster_size = result.get("min_cluster_size")
+    reason = result.get("reason", "")
 
     if method == "kmeans":
         k = n_clusters or 5
         k = max(2, min(max_k, int(k)))
-        return method, k, None, result.get("reason", "")
+        if return_tokens and return_raw:
+            return method, k, None, reason, tokens, json.dumps(result)
+        elif return_tokens:
+            return method, k, None, reason, tokens
+        elif return_raw:
+            return method, k, None, reason, json.dumps(result)
+        return method, k, None, reason
     else:
         m = min_cluster_size or 5
         m = max(2, int(m))
-        return method, None, m, result.get("reason", "")
+        if return_tokens and return_raw:
+            return method, None, m, reason, tokens, json.dumps(result)
+        elif return_tokens:
+            return method, None, m, reason, tokens
+        elif return_raw:
+            return method, None, m, reason, json.dumps(result)
+        return method, None, m, reason
 
 def choose_projection(
     predicate: str,
     df_a: pd.DataFrame, df_b: pd.DataFrame,
     schema_a: list[str], schema_b: list[str],
     llm_model: str,
+    return_tokens: bool = False,
+    return_raw: bool = False
 ) -> tuple[bool, str]:
     """Decide if project-sim-filter is needed instead of standard sim-filter.
     Returns (requires_projection, reason)."""
@@ -201,9 +227,18 @@ def choose_projection(
         predicate, schema_a, schema_b,
         _samples(df_a, schema_a), _samples(df_b, schema_b),
     )
-    result = _llm(system, user, llm_model)
+    result, tokens = _llm(system, user, llm_model)
+
+    proj_val = str(result.get("requires_projection", "unknown")).lower()
+    if proj_val not in {"true", "false", "unknown"}:
+        proj_val = "unknown"
     
-    requires_proj = bool(result.get("requires_projection", False))
     reason = result.get("reason", "")
     
-    return requires_proj, reason
+    if return_tokens and return_raw:
+        return proj_val, reason, tokens, json.dumps(result)
+    elif return_tokens:
+        return proj_val, reason, tokens
+    elif return_raw:
+        return proj_val, reason, json.dumps(result)
+    return proj_val, reason

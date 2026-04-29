@@ -42,6 +42,8 @@ class JoinResult:
     labels_b: list | None = None
     cluster_pairs_initial: list[tuple[int, int]] | None = None
     cluster_pairs_surviving: list[tuple[int, int]] | None = None
+    cluster_match_rates: dict | None = None
+    cluster_pair_stats: list | None = None
 
     def summary(
         self,
@@ -193,7 +195,11 @@ def semantic_join(
         jstrat, reason = advisor.determine_join_strategy(
             predicate, table_a, table_b, schema_a, schema_b, llm_model
         )
-        plan_notes.append(f"join_strategy={jstrat} — {reason}")
+        if jstrat == "unknown":
+            jstrat = "pairwise"
+            plan_notes.append(f"join_strategy={jstrat} (Fallback from unknown) — {reason}")
+        else:
+            plan_notes.append(f"join_strategy={jstrat} — {reason}")
     else:
         jstrat = "pairwise"
         plan_notes.append(f"join_strategy={jstrat} (Implied by pairwise params)")
@@ -252,16 +258,24 @@ def semantic_join(
 
     # Stage 1.5: Decide if we use projection
     if force_projection is not None:
-        use_projection = force_projection
+        do_projection = force_projection
         proj_reason = f"Forced override (use_projection={force_projection})"
     else:
-      use_projection, proj_reason = advisor.choose_projection(
-          predicate, table_a, table_b, schema_a, schema_b, llm_model
-      )
-    plan_notes.append(f"projection={use_projection} — {proj_reason}")
+        # Returns string "true", "false", or "unknown"
+        use_proj_str, proj_reason = advisor.choose_projection(
+            predicate, table_a, table_b, schema_a, schema_b, llm_model
+        )
+        
+        if use_proj_str == "unknown":
+            do_projection = False
+            proj_reason = f"(Fallback from unknown) {proj_reason}"
+        else:
+            do_projection = (use_proj_str == "true")
+            
+    plan_notes.append(f"projection={do_projection} — {proj_reason}")
     timings["advise_model_and_projection"] = time.time() - t0
     
-    if use_projection:
+    if do_projection:
         if verbose:
             print(f"[project] Projecting Table A to match Table B domain... ({proj_reason})")
         t0_proj = time.time()
@@ -301,8 +315,6 @@ def semantic_join(
     )
     plan_notes.extend(notes)
     
-    default_k = 5
-
     if method == "kmeans":
         if cluster_ratio is not None:
             # Dynamically calculate based on ratio, capped by table size
@@ -311,20 +323,19 @@ def semantic_join(
             plan_notes.append(f"cluster_ratio={cluster_ratio} -> k_a={k_a}, k_b={k_b}")
         else:
             # Fallback to default K, still protecting against asymmetric crashes
-            k_a = min(len(table_a), max(2, default_k))
-            k_b = min(len(table_b), max(2, default_k))
+            k_a = min(len(table_a), max(2, k))
+            k_b = min(len(table_b), max(2, k))
     else:
         k_a = k_b = None
-    
+
     if verbose:
         print(f"[cluster] method={method}"
-              + (f" k={k}" if k else "")
+              + (f" k_a={k_a}, k_b={k_b}" if k_a else (f" k={k}" if k else ""))
               + (f" min_cluster_size={m}" if m else ""))
+    
+    labels_a = _cluster.cluster(emb_a, method, n_clusters=k_a if k_a else k, min_cluster_size=m, random_state=random_state)
+    labels_b = _cluster.cluster(emb_b, method, n_clusters=k_b if k_b else k, min_cluster_size=m, random_state=random_state)
 
-    labels_a = _cluster.cluster(emb_a, method, n_clusters=k, min_cluster_size=m,
-                                random_state=random_state)
-    labels_b = _cluster.cluster(emb_b, method, n_clusters=k, min_cluster_size=m,
-                                random_state=random_state)
     timings["cluster"] = time.time() - t0
     if verbose:
         print(f"[cluster] A: {_cluster.distribution(labels_a)}")
@@ -349,6 +360,7 @@ def semantic_join(
         )
         surviving = outcome.kept
         total_tokens += outcome.tokens
+        match_rates = outcome.match_rates
         if verbose:
             print(f"[filter] kept {len(surviving)}/{len(pairs)} pairs, "
                   f"{outcome.tokens.total:,} tok")
@@ -383,7 +395,9 @@ def semantic_join(
         timings=timings, plan=plan,
         labels_a=labels_a, labels_b=labels_b,
         cluster_pairs_initial=pairs,
-        cluster_pairs_surviving=surviving
+        cluster_pairs_surviving=surviving,
+        cluster_match_rates=match_rates,
+        cluster_pair_stats=jr.pair_stats
     )
 
     if verbose:

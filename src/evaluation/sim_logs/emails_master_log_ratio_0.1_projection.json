@@ -1,0 +1,9477 @@
+{
+  "fixed_tokens": {
+    "prompt": 37360,
+    "completion": 7554
+  },
+  "clusters_a": {
+    "0": {
+      "size": 10,
+      "samples": [
+        {
+          "name": "David",
+          "statement": "David: I first heard about the losses in May 2022.",
+          "month_idx": 4
+        },
+        {
+          "name": "David",
+          "statement": "David: I first heard about the losses in April 2022.",
+          "month_idx": 3
+        },
+        {
+          "name": "David",
+          "statement": "David: I first heard about the losses in June 2022.",
+          "month_idx": 5
+        }
+      ]
+    },
+    "1": {
+      "size": 10,
+      "samples": [
+        {
+          "name": "Patricia",
+          "statement": "Patricia: I first heard about the losses in March 2022.",
+          "month_idx": 2
+        },
+        {
+          "name": "Patricia",
+          "statement": "Patricia: I first heard about the losses in May 2022.",
+          "month_idx": 4
+        },
+        {
+          "name": "Patricia",
+          "statement": "Patricia: I first heard about the losses in June 2022.",
+          "month_idx": 5
+        }
+      ]
+    },
+    "2": {
+      "size": 10,
+      "samples": [
+        {
+          "name": "James",
+          "statement": "James: I first heard about the losses in April 2022.",
+          "month_idx": 3
+        },
+        {
+          "name": "James",
+          "statement": "James: I first heard about the losses in May 2022.",
+          "month_idx": 4
+        },
+        {
+          "name": "James",
+          "statement": "James: I first heard about the losses in May 2022.",
+          "month_idx": 4
+        }
+      ]
+    },
+    "3": {
+      "size": 10,
+      "samples": [
+        {
+          "name": "Elizabeth",
+          "statement": "Elizabeth: I first heard about the losses in May 2022.",
+          "month_idx": 4
+        },
+        {
+          "name": "Elizabeth",
+          "statement": "Elizabeth: I first heard about the losses in June 2022.",
+          "month_idx": 5
+        },
+        {
+          "name": "Elizabeth",
+          "statement": "Elizabeth: I first heard about the losses in May 2022.",
+          "month_idx": 4
+        }
+      ]
+    },
+    "4": {
+      "size": 10,
+      "samples": [
+        {
+          "name": "Robert",
+          "statement": "Robert: I first heard about the losses in May 2022.",
+          "month_idx": 4
+        },
+        {
+          "name": "Robert",
+          "statement": "Robert: I first heard about the losses in March 2022.",
+          "month_idx": 2
+        },
+        {
+          "name": "Robert",
+          "statement": "Robert: I first heard about the losses in March 2022.",
+          "month_idx": 2
+        }
+      ]
+    },
+    "5": {
+      "size": 10,
+      "samples": [
+        {
+          "name": "Mary",
+          "statement": "Mary: I first heard about the losses in March 2022.",
+          "month_idx": 2
+        },
+        {
+          "name": "Mary",
+          "statement": "Mary: I first heard about the losses in March 2022.",
+          "month_idx": 2
+        },
+        {
+          "name": "Mary",
+          "statement": "Mary: I first heard about the losses in March 2022.",
+          "month_idx": 2
+        }
+      ]
+    },
+    "6": {
+      "size": 10,
+      "samples": [
+        {
+          "name": "Linda",
+          "statement": "Linda: I first heard about the losses in April 2022.",
+          "month_idx": 3
+        },
+        {
+          "name": "Linda",
+          "statement": "Linda: I first heard about the losses in June 2022.",
+          "month_idx": 5
+        },
+        {
+          "name": "Linda",
+          "statement": "Linda: I first heard about the losses in April 2022.",
+          "month_idx": 3
+        }
+      ]
+    },
+    "7": {
+      "size": 10,
+      "samples": [
+        {
+          "name": "Michael",
+          "statement": "Michael: I first heard about the losses in April 2022.",
+          "month_idx": 3
+        },
+        {
+          "name": "Michael",
+          "statement": "Michael: I first heard about the losses in April 2022.",
+          "month_idx": 3
+        },
+        {
+          "name": "Michael",
+          "statement": "Michael: I first heard about the losses in May 2022.",
+          "month_idx": 4
+        }
+      ]
+    },
+    "8": {
+      "size": 10,
+      "samples": [
+        {
+          "name": "John",
+          "statement": "John: I first heard about the losses in March 2022.",
+          "month_idx": 2
+        },
+        {
+          "name": "John",
+          "statement": "John: I first heard about the losses in May 2022.",
+          "month_idx": 4
+        },
+        {
+          "name": "John",
+          "statement": "John: I first heard about the losses in April 2022.",
+          "month_idx": 3
+        }
+      ]
+    },
+    "9": {
+      "size": 10,
+      "samples": [
+        {
+          "name": "Jennifer",
+          "statement": "Jennifer: I first heard about the losses in June 2022.",
+          "month_idx": 5
+        },
+        {
+          "name": "Jennifer",
+          "statement": "Jennifer: I first heard about the losses in June 2022.",
+          "month_idx": 5
+        },
+        {
+          "name": "Jennifer",
+          "statement": "Jennifer: I first heard about the losses in June 2022.",
+          "month_idx": 5
+        }
+      ]
+    }
+  },
+  "clusters_b": {
+    "0": {
+      "size": 10,
+      "samples": [
+        {
+          "name": "Michael",
+          "email": "I first told Michael about the losses in March 2022.",
+          "month_idx": 2
+        },
+        {
+          "name": "Michael",
+          "email": "I first told Michael about the losses in March 2022.",
+          "month_idx": 2
+        },
+        {
+          "name": "Michael",
+          "email": "I first told Michael about the losses in June 2022.",
+          "month_idx": 5
+        }
+      ]
+    },
+    "1": {
+      "size": 10,
+      "samples": [
+        {
+          "name": "Jennifer",
+          "email": "I first told Jennifer about the losses in April 2022.",
+          "month_idx": 3
+        },
+        {
+          "name": "Jennifer",
+          "email": "I first told Jennifer about the losses in February 2022.",
+          "month_idx": 1
+        },
+        {
+          "name": "Jennifer",
+          "email": "I first told Jennifer about the losses in June 2022.",
+          "month_idx": 5
+        }
+      ]
+    },
+    "2": {
+      "size": 10,
+      "samples": [
+        {
+          "name": "David",
+          "email": "I first told David about the losses in June 2022.",
+          "month_idx": 5
+        },
+        {
+          "name": "David",
+          "email": "I first told David about the losses in June 2022.",
+          "month_idx": 5
+        },
+        {
+          "name": "David",
+          "email": "I first told David about the losses in March 2022.",
+          "month_idx": 2
+        }
+      ]
+    },
+    "3": {
+      "size": 10,
+      "samples": [
+        {
+          "name": "James",
+          "email": "I first told James about the losses in June 2022.",
+          "month_idx": 5
+        },
+        {
+          "name": "James",
+          "email": "I first told James about the losses in June 2022.",
+          "month_idx": 5
+        },
+        {
+          "name": "James",
+          "email": "I first told James about the losses in April 2022.",
+          "month_idx": 3
+        }
+      ]
+    },
+    "4": {
+      "size": 10,
+      "samples": [
+        {
+          "name": "Mary",
+          "email": "I first told Mary about the losses in January 2022.",
+          "month_idx": 0
+        },
+        {
+          "name": "Mary",
+          "email": "I first told Mary about the losses in March 2022.",
+          "month_idx": 2
+        },
+        {
+          "name": "Mary",
+          "email": "I first told Mary about the losses in April 2022.",
+          "month_idx": 3
+        }
+      ]
+    },
+    "5": {
+      "size": 10,
+      "samples": [
+        {
+          "name": "Linda",
+          "email": "I first told Linda about the losses in June 2022.",
+          "month_idx": 5
+        },
+        {
+          "name": "Linda",
+          "email": "I first told Linda about the losses in March 2022.",
+          "month_idx": 2
+        },
+        {
+          "name": "Linda",
+          "email": "I first told Linda about the losses in January 2022.",
+          "month_idx": 0
+        }
+      ]
+    },
+    "6": {
+      "size": 10,
+      "samples": [
+        {
+          "name": "Robert",
+          "email": "I first told Robert about the losses in April 2022.",
+          "month_idx": 3
+        },
+        {
+          "name": "Robert",
+          "email": "I first told Robert about the losses in May 2022.",
+          "month_idx": 4
+        },
+        {
+          "name": "Robert",
+          "email": "I first told Robert about the losses in June 2022.",
+          "month_idx": 5
+        }
+      ]
+    },
+    "7": {
+      "size": 10,
+      "samples": [
+        {
+          "name": "Elizabeth",
+          "email": "I first told Elizabeth about the losses in June 2022.",
+          "month_idx": 5
+        },
+        {
+          "name": "Elizabeth",
+          "email": "I first told Elizabeth about the losses in June 2022.",
+          "month_idx": 5
+        },
+        {
+          "name": "Elizabeth",
+          "email": "I first told Elizabeth about the losses in March 2022.",
+          "month_idx": 2
+        }
+      ]
+    },
+    "8": {
+      "size": 10,
+      "samples": [
+        {
+          "name": "John",
+          "email": "I first told John about the losses in February 2022.",
+          "month_idx": 1
+        },
+        {
+          "name": "John",
+          "email": "I first told John about the losses in May 2022.",
+          "month_idx": 4
+        },
+        {
+          "name": "John",
+          "email": "I first told John about the losses in June 2022.",
+          "month_idx": 5
+        }
+      ]
+    },
+    "9": {
+      "size": 10,
+      "samples": [
+        {
+          "name": "Patricia",
+          "email": "I first told Patricia about the losses in March 2022.",
+          "month_idx": 2
+        },
+        {
+          "name": "Patricia",
+          "email": "I first told Patricia about the losses in April 2022.",
+          "month_idx": 3
+        },
+        {
+          "name": "Patricia",
+          "email": "I first told Patricia about the losses in March 2022.",
+          "month_idx": 2
+        }
+      ]
+    }
+  },
+  "pairs": [
+    {
+      "ca": 0,
+      "cb": 0,
+      "size_a": 10,
+      "size_b": 10,
+      "sample_rate": 0.04,
+      "matches": [
+        [
+          12,
+          86
+        ],
+        [
+          27,
+          16
+        ],
+        [
+          27,
+          45
+        ],
+        [
+          27,
+          92
+        ],
+        [
+          30,
+          78
+        ],
+        [
+          37,
+          1
+        ],
+        [
+          37,
+          3
+        ],
+        [
+          37,
+          37
+        ],
+        [
+          37,
+          40
+        ],
+        [
+          37,
+          93
+        ],
+        [
+          48,
+          86
+        ],
+        [
+          49,
+          16
+        ],
+        [
+          49,
+          45
+        ],
+        [
+          49,
+          92
+        ],
+        [
+          62,
+          86
+        ],
+        [
+          79,
+          86
+        ],
+        [
+          96,
+          16
+        ],
+        [
+          96,
+          45
+        ],
+        [
+          96,
+          92
+        ]
+      ],
+      "tokens": {
+        "prompt": 538,
+        "completion": 150
+      }
+    },
+    {
+      "ca": 0,
+      "cb": 1,
+      "size_a": 10,
+      "size_b": 10,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          12,
+          17
+        ],
+        [
+          12,
+          23
+        ],
+        [
+          12,
+          24
+        ],
+        [
+          12,
+          29
+        ],
+        [
+          12,
+          49
+        ],
+        [
+          12,
+          95
+        ],
+        [
+          12,
+          99
+        ],
+        [
+          24,
+          17
+        ],
+        [
+          24,
+          23
+        ],
+        [
+          24,
+          24
+        ],
+        [
+          24,
+          29
+        ],
+        [
+          24,
+          49
+        ],
+        [
+          24,
+          95
+        ],
+        [
+          24,
+          99
+        ],
+        [
+          27,
+          6
+        ],
+        [
+          27,
+          17
+        ],
+        [
+          27,
+          23
+        ],
+        [
+          27,
+          24
+        ],
+        [
+          27,
+          29
+        ],
+        [
+          27,
+          49
+        ],
+        [
+          27,
+          95
+        ],
+        [
+          27,
+          99
+        ],
+        [
+          30,
+          17
+        ],
+        [
+          30,
+          23
+        ],
+        [
+          30,
+          24
+        ],
+        [
+          30,
+          29
+        ],
+        [
+          30,
+          49
+        ],
+        [
+          30,
+          95
+        ],
+        [
+          30,
+          99
+        ],
+        [
+          37,
+          6
+        ],
+        [
+          37,
+          17
+        ],
+        [
+          37,
+          18
+        ],
+        [
+          37,
+          23
+        ],
+        [
+          37,
+          24
+        ],
+        [
+          37,
+          29
+        ],
+        [
+          37,
+          49
+        ],
+        [
+          37,
+          87
+        ],
+        [
+          37,
+          95
+        ],
+        [
+          37,
+          99
+        ],
+        [
+          48,
+          17
+        ],
+        [
+          48,
+          23
+        ],
+        [
+          48,
+          24
+        ],
+        [
+          48,
+          29
+        ],
+        [
+          48,
+          49
+        ],
+        [
+          48,
+          95
+        ],
+        [
+          48,
+          99
+        ],
+        [
+          49,
+          6
+        ],
+        [
+          49,
+          17
+        ],
+        [
+          49,
+          23
+        ],
+        [
+          49,
+          24
+        ],
+        [
+          49,
+          29
+        ],
+        [
+          49,
+          49
+        ],
+        [
+          49,
+          87
+        ],
+        [
+          49,
+          95
+        ],
+        [
+          49,
+          99
+        ],
+        [
+          62,
+          17
+        ],
+        [
+          62,
+          23
+        ],
+        [
+          62,
+          24
+        ],
+        [
+          62,
+          29
+        ],
+        [
+          62,
+          49
+        ],
+        [
+          62,
+          95
+        ],
+        [
+          62,
+          99
+        ],
+        [
+          79,
+          17
+        ],
+        [
+          79,
+          23
+        ],
+        [
+          79,
+          24
+        ],
+        [
+          79,
+          29
+        ],
+        [
+          79,
+          49
+        ],
+        [
+          79,
+          95
+        ],
+        [
+          79,
+          99
+        ],
+        [
+          96,
+          6
+        ],
+        [
+          96,
+          17
+        ],
+        [
+          96,
+          23
+        ],
+        [
+          96,
+          24
+        ],
+        [
+          96,
+          29
+        ],
+        [
+          96,
+          49
+        ],
+        [
+          96,
+          87
+        ],
+        [
+          96,
+          95
+        ],
+        [
+          96,
+          99
+        ]
+      ],
+      "tokens": {
+        "prompt": 538,
+        "completion": 444
+      }
+    },
+    {
+      "ca": 0,
+      "cb": 2,
+      "size_a": 10,
+      "size_b": 10,
+      "sample_rate": 0.4,
+      "matches": [
+        [
+          12,
+          12
+        ],
+        [
+          12,
+          43
+        ],
+        [
+          12,
+          69
+        ],
+        [
+          24,
+          38
+        ],
+        [
+          24,
+          47
+        ],
+        [
+          27,
+          0
+        ],
+        [
+          27,
+          7
+        ],
+        [
+          27,
+          64
+        ],
+        [
+          27,
+          91
+        ],
+        [
+          30,
+          12
+        ],
+        [
+          30,
+          43
+        ],
+        [
+          30,
+          69
+        ],
+        [
+          37,
+          38
+        ],
+        [
+          37,
+          47
+        ],
+        [
+          48,
+          12
+        ],
+        [
+          48,
+          43
+        ],
+        [
+          48,
+          69
+        ],
+        [
+          49,
+          0
+        ],
+        [
+          49,
+          7
+        ],
+        [
+          49,
+          64
+        ],
+        [
+          49,
+          91
+        ],
+        [
+          62,
+          12
+        ],
+        [
+          62,
+          43
+        ],
+        [
+          62,
+          69
+        ],
+        [
+          79,
+          12
+        ],
+        [
+          79,
+          43
+        ],
+        [
+          79,
+          69
+        ],
+        [
+          96,
+          0
+        ],
+        [
+          96,
+          7
+        ],
+        [
+          96,
+          64
+        ],
+        [
+          96,
+          91
+        ]
+      ],
+      "tokens": {
+        "prompt": 538,
+        "completion": 209
+      }
+    },
+    {
+      "ca": 0,
+      "cb": 3,
+      "size_a": 10,
+      "size_b": 10,
+      "sample_rate": 0.04,
+      "matches": [
+        [
+          12,
+          84
+        ],
+        [
+          24,
+          42
+        ],
+        [
+          24,
+          62
+        ],
+        [
+          24,
+          98
+        ],
+        [
+          27,
+          21
+        ],
+        [
+          27,
+          39
+        ],
+        [
+          27,
+          90
+        ],
+        [
+          27,
+          94
+        ],
+        [
+          30,
+          84
+        ],
+        [
+          37,
+          81
+        ],
+        [
+          48,
+          42
+        ],
+        [
+          48,
+          62
+        ],
+        [
+          48,
+          98
+        ],
+        [
+          49,
+          21
+        ],
+        [
+          49,
+          39
+        ],
+        [
+          49,
+          90
+        ],
+        [
+          49,
+          94
+        ],
+        [
+          62,
+          42
+        ],
+        [
+          62,
+          62
+        ],
+        [
+          62,
+          98
+        ],
+        [
+          79,
+          42
+        ],
+        [
+          79,
+          62
+        ],
+        [
+          79,
+          98
+        ],
+        [
+          96,
+          21
+        ],
+        [
+          96,
+          39
+        ],
+        [
+          96,
+          90
+        ],
+        [
+          96,
+          94
+        ]
+      ],
+      "tokens": {
+        "prompt": 538,
+        "completion": 189
+      }
+    },
+    {
+      "ca": 0,
+      "cb": 4,
+      "size_a": 10,
+      "size_b": 10,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          12,
+          4
+        ],
+        [
+          12,
+          71
+        ],
+        [
+          24,
+          9
+        ],
+        [
+          24,
+          56
+        ],
+        [
+          27,
+          67
+        ],
+        [
+          30,
+          4
+        ],
+        [
+          30,
+          71
+        ],
+        [
+          48,
+          9
+        ],
+        [
+          48,
+          56
+        ],
+        [
+          49,
+          67
+        ],
+        [
+          62,
+          9
+        ],
+        [
+          62,
+          56
+        ],
+        [
+          79,
+          9
+        ],
+        [
+          79,
+          56
+        ],
+        [
+          96,
+          67
+        ]
+      ],
+      "tokens": {
+        "prompt": 538,
+        "completion": 130
+      }
+    },
+    {
+      "ca": 0,
+      "cb": 5,
+      "size_a": 10,
+      "size_b": 10,
+      "sample_rate": 0.08,
+      "matches": [
+        [
+          12,
+          26
+        ],
+        [
+          12,
+          41
+        ],
+        [
+          12,
+          75
+        ],
+        [
+          24,
+          26
+        ],
+        [
+          24,
+          41
+        ],
+        [
+          24,
+          75
+        ],
+        [
+          27,
+          26
+        ],
+        [
+          27,
+          41
+        ],
+        [
+          27,
+          54
+        ],
+        [
+          27,
+          58
+        ],
+        [
+          27,
+          75
+        ],
+        [
+          27,
+          76
+        ],
+        [
+          30,
+          26
+        ],
+        [
+          30,
+          41
+        ],
+        [
+          30,
+          75
+        ],
+        [
+          37,
+          41
+        ],
+        [
+          37,
+          75
+        ],
+        [
+          48,
+          26
+        ],
+        [
+          48,
+          41
+        ],
+        [
+          48,
+          75
+        ],
+        [
+          49,
+          26
+        ],
+        [
+          49,
+          41
+        ],
+        [
+          49,
+          54
+        ],
+        [
+          49,
+          58
+        ],
+        [
+          49,
+          75
+        ],
+        [
+          49,
+          76
+        ],
+        [
+          62,
+          26
+        ],
+        [
+          62,
+          41
+        ],
+        [
+          62,
+          75
+        ],
+        [
+          79,
+          26
+        ],
+        [
+          79,
+          41
+        ],
+        [
+          79,
+          75
+        ],
+        [
+          96,
+          26
+        ],
+        [
+          96,
+          41
+        ],
+        [
+          96,
+          54
+        ],
+        [
+          96,
+          58
+        ],
+        [
+          96,
+          75
+        ],
+        [
+          96,
+          76
+        ]
+      ],
+      "tokens": {
+        "prompt": 538,
+        "completion": 244
+      }
+    },
+    {
+      "ca": 0,
+      "cb": 6,
+      "size_a": 10,
+      "size_b": 10,
+      "sample_rate": 0.16,
+      "matches": [
+        [
+          12,
+          10
+        ],
+        [
+          12,
+          36
+        ],
+        [
+          12,
+          52
+        ],
+        [
+          24,
+          11
+        ],
+        [
+          24,
+          34
+        ],
+        [
+          27,
+          30
+        ],
+        [
+          27,
+          51
+        ],
+        [
+          27,
+          70
+        ],
+        [
+          30,
+          10
+        ],
+        [
+          30,
+          36
+        ],
+        [
+          30,
+          52
+        ],
+        [
+          37,
+          10
+        ],
+        [
+          37,
+          11
+        ],
+        [
+          37,
+          30
+        ],
+        [
+          37,
+          34
+        ],
+        [
+          37,
+          36
+        ],
+        [
+          37,
+          51
+        ],
+        [
+          37,
+          52
+        ],
+        [
+          37,
+          70
+        ],
+        [
+          48,
+          11
+        ],
+        [
+          48,
+          34
+        ],
+        [
+          49,
+          30
+        ],
+        [
+          49,
+          51
+        ],
+        [
+          49,
+          70
+        ],
+        [
+          62,
+          11
+        ],
+        [
+          62,
+          34
+        ],
+        [
+          79,
+          11
+        ],
+        [
+          79,
+          34
+        ],
+        [
+          96,
+          30
+        ],
+        [
+          96,
+          51
+        ],
+        [
+          96,
+          70
+        ]
+      ],
+      "tokens": {
+        "prompt": 538,
+        "completion": 209
+      }
+    },
+    {
+      "ca": 0,
+      "cb": 7,
+      "size_a": 10,
+      "size_b": 10,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          12,
+          82
+        ],
+        [
+          30,
+          82
+        ],
+        [
+          37,
+          48
+        ],
+        [
+          37,
+          61
+        ],
+        [
+          37,
+          85
+        ],
+        [
+          37,
+          88
+        ]
+      ],
+      "tokens": {
+        "prompt": 538,
+        "completion": 91
+      }
+    },
+    {
+      "ca": 0,
+      "cb": 8,
+      "size_a": 10,
+      "size_b": 10,
+      "sample_rate": 0.32,
+      "matches": [
+        [
+          12,
+          46
+        ],
+        [
+          12,
+          77
+        ],
+        [
+          24,
+          5
+        ],
+        [
+          24,
+          50
+        ],
+        [
+          24,
+          65
+        ],
+        [
+          24,
+          77
+        ],
+        [
+          24,
+          89
+        ],
+        [
+          27,
+          5
+        ],
+        [
+          27,
+          13
+        ],
+        [
+          27,
+          46
+        ],
+        [
+          27,
+          50
+        ],
+        [
+          27,
+          57
+        ],
+        [
+          27,
+          65
+        ],
+        [
+          27,
+          72
+        ],
+        [
+          27,
+          77
+        ],
+        [
+          27,
+          89
+        ],
+        [
+          30,
+          46
+        ],
+        [
+          30,
+          77
+        ],
+        [
+          37,
+          5
+        ],
+        [
+          37,
+          13
+        ],
+        [
+          37,
+          33
+        ],
+        [
+          37,
+          46
+        ],
+        [
+          37,
+          50
+        ],
+        [
+          37,
+          57
+        ],
+        [
+          37,
+          65
+        ],
+        [
+          37,
+          72
+        ],
+        [
+          37,
+          89
+        ],
+        [
+          48,
+          5
+        ],
+        [
+          48,
+          50
+        ],
+        [
+          48,
+          65
+        ],
+        [
+          48,
+          77
+        ],
+        [
+          48,
+          89
+        ],
+        [
+          49,
+          5
+        ],
+        [
+          49,
+          13
+        ],
+        [
+          49,
+          46
+        ],
+        [
+          49,
+          50
+        ],
+        [
+          49,
+          57
+        ],
+        [
+          49,
+          65
+        ],
+        [
+          49,
+          72
+        ],
+        [
+          49,
+          77
+        ],
+        [
+          49,
+          89
+        ],
+        [
+          62,
+          5
+        ],
+        [
+          62,
+          50
+        ],
+        [
+          62,
+          65
+        ],
+        [
+          62,
+          77
+        ],
+        [
+          62,
+          89
+        ],
+        [
+          79,
+          5
+        ],
+        [
+          79,
+          50
+        ],
+        [
+          79,
+          65
+        ],
+        [
+          79,
+          77
+        ],
+        [
+          79,
+          89
+        ],
+        [
+          96,
+          5
+        ],
+        [
+          96,
+          13
+        ],
+        [
+          96,
+          46
+        ],
+        [
+          96,
+          50
+        ],
+        [
+          96,
+          57
+        ],
+        [
+          96,
+          65
+        ],
+        [
+          96,
+          72
+        ],
+        [
+          96,
+          77
+        ],
+        [
+          96,
+          89
+        ]
+      ],
+      "tokens": {
+        "prompt": 538,
+        "completion": 354
+      }
+    },
+    {
+      "ca": 0,
+      "cb": 9,
+      "size_a": 10,
+      "size_b": 10,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          12,
+          14
+        ],
+        [
+          12,
+          27
+        ],
+        [
+          12,
+          97
+        ],
+        [
+          24,
+          8
+        ],
+        [
+          24,
+          19
+        ],
+        [
+          27,
+          53
+        ],
+        [
+          30,
+          14
+        ],
+        [
+          30,
+          27
+        ],
+        [
+          30,
+          97
+        ],
+        [
+          37,
+          20
+        ],
+        [
+          37,
+          28
+        ],
+        [
+          37,
+          59
+        ],
+        [
+          48,
+          8
+        ],
+        [
+          48,
+          19
+        ],
+        [
+          49,
+          53
+        ],
+        [
+          62,
+          8
+        ],
+        [
+          62,
+          19
+        ],
+        [
+          79,
+          8
+        ],
+        [
+          79,
+          19
+        ],
+        [
+          96,
+          53
+        ]
+      ],
+      "tokens": {
+        "prompt": 538,
+        "completion": 154
+      }
+    },
+    {
+      "ca": 1,
+      "cb": 0,
+      "size_a": 10,
+      "size_b": 10,
+      "sample_rate": 0.24,
+      "matches": [
+        [
+          33,
+          16
+        ],
+        [
+          33,
+          92
+        ],
+        [
+          40,
+          1
+        ],
+        [
+          40,
+          3
+        ],
+        [
+          40,
+          37
+        ],
+        [
+          40,
+          40
+        ],
+        [
+          40,
+          93
+        ],
+        [
+          45,
+          1
+        ],
+        [
+          45,
+          3
+        ],
+        [
+          45,
+          37
+        ],
+        [
+          45,
+          40
+        ],
+        [
+          45,
+          93
+        ],
+        [
+          72,
+          16
+        ],
+        [
+          72,
+          92
+        ],
+        [
+          83,
+          1
+        ],
+        [
+          83,
+          3
+        ],
+        [
+          83,
+          37
+        ],
+        [
+          83,
+          40
+        ],
+        [
+          83,
+          93
+        ],
+        [
+          84,
+          16
+        ],
+        [
+          84,
+          92
+        ],
+        [
+          88,
+          16
+        ],
+        [
+          88,
+          92
+        ],
+        [
+          91,
+          1
+        ],
+        [
+          91,
+          3
+        ],
+        [
+          91,
+          37
+        ],
+        [
+          91,
+          40
+        ],
+        [
+          91,
+          93
+        ],
+        [
+          94,
+          1
+        ],
+        [
+          94,
+          3
+        ],
+        [
+          94,
+          37
+        ],
+        [
+          94,
+          40
+        ],
+        [
+          94,
+          93
+        ],
+        [
+          99,
+          1
+        ],
+        [
+          99,
+          3
+        ],
+        [
+          99,
+          37
+        ],
+        [
+          99,
+          40
+        ],
+        [
+          99,
+          93
+        ]
+      ],
+      "tokens": {
+        "prompt": 538,
+        "completion": 244
+      }
+    },
+    {
+      "ca": 1,
+      "cb": 1,
+      "size_a": 10,
+      "size_b": 10,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          40,
+          87
+        ],
+        [
+          45,
+          18
+        ],
+        [
+          83,
+          18
+        ],
+        [
+          91,
+          87
+        ],
+        [
+          99,
+          87
+        ]
+      ],
+      "tokens": {
+        "prompt": 538,
+        "completion": 84
+      }
+    },
+    {
+      "ca": 1,
+      "cb": 2,
+      "size_a": 10,
+      "size_b": 10,
+      "sample_rate": 0.08,
+      "matches": [
+        [
+          33,
+          38
+        ],
+        [
+          33,
+          47
+        ],
+        [
+          40,
+          12
+        ],
+        [
+          40,
+          43
+        ],
+        [
+          40,
+          69
+        ],
+        [
+          45,
+          12
+        ],
+        [
+          45,
+          43
+        ],
+        [
+          45,
+          69
+        ],
+        [
+          72,
+          38
+        ],
+        [
+          72,
+          47
+        ],
+        [
+          83,
+          12
+        ],
+        [
+          83,
+          43
+        ],
+        [
+          83,
+          69
+        ],
+        [
+          84,
+          38
+        ],
+        [
+          84,
+          47
+        ],
+        [
+          88,
+          38
+        ],
+        [
+          88,
+          47
+        ],
+        [
+          91,
+          12
+        ],
+        [
+          91,
+          43
+        ],
+        [
+          91,
+          69
+        ],
+        [
+          94,
+          12
+        ],
+        [
+          94,
+          43
+        ],
+        [
+          94,
+          69
+        ],
+        [
+          99,
+          12
+        ],
+        [
+          99,
+          43
+        ],
+        [
+          99,
+          69
+        ]
+      ],
+      "tokens": {
+        "prompt": 538,
+        "completion": 184
+      }
+    },
+    {
+      "ca": 1,
+      "cb": 3,
+      "size_a": 10,
+      "size_b": 10,
+      "sample_rate": 0.32,
+      "matches": [
+        [
+          33,
+          84
+        ],
+        [
+          40,
+          81
+        ],
+        [
+          45,
+          81
+        ],
+        [
+          72,
+          84
+        ],
+        [
+          83,
+          81
+        ],
+        [
+          84,
+          84
+        ],
+        [
+          88,
+          84
+        ],
+        [
+          91,
+          81
+        ],
+        [
+          94,
+          81
+        ],
+        [
+          99,
+          81
+        ]
+      ],
+      "tokens": {
+        "prompt": 538,
+        "completion": 104
+      }
+    },
+    {
+      "ca": 1,
+      "cb": 4,
+      "size_a": 10,
+      "size_b": 10,
+      "sample_rate": 0.28,
+      "matches": [
+        [
+          33,
+          2
+        ],
+        [
+          33,
+          15
+        ],
+        [
+          33,
+          31
+        ],
+        [
+          33,
+          35
+        ],
+        [
+          33,
+          96
+        ],
+        [
+          40,
+          2
+        ],
+        [
+          40,
+          4
+        ],
+        [
+          40,
+          9
+        ],
+        [
+          40,
+          15
+        ],
+        [
+          40,
+          31
+        ],
+        [
+          40,
+          35
+        ],
+        [
+          40,
+          56
+        ],
+        [
+          40,
+          71
+        ],
+        [
+          40,
+          96
+        ],
+        [
+          45,
+          2
+        ],
+        [
+          45,
+          4
+        ],
+        [
+          45,
+          9
+        ],
+        [
+          45,
+          15
+        ],
+        [
+          45,
+          31
+        ],
+        [
+          45,
+          35
+        ],
+        [
+          45,
+          56
+        ],
+        [
+          45,
+          67
+        ],
+        [
+          45,
+          71
+        ],
+        [
+          45,
+          96
+        ],
+        [
+          72,
+          2
+        ],
+        [
+          72,
+          15
+        ],
+        [
+          72,
+          31
+        ],
+        [
+          72,
+          35
+        ],
+        [
+          72,
+          96
+        ],
+        [
+          83,
+          2
+        ],
+        [
+          83,
+          4
+        ],
+        [
+          83,
+          9
+        ],
+        [
+          83,
+          15
+        ],
+        [
+          83,
+          31
+        ],
+        [
+          83,
+          35
+        ],
+        [
+          83,
+          56
+        ],
+        [
+          83,
+          67
+        ],
+        [
+          83,
+          71
+        ],
+        [
+          83,
+          96
+        ],
+        [
+          84,
+          2
+        ],
+        [
+          84,
+          15
+        ],
+        [
+          84,
+          31
+        ],
+        [
+          84,
+          35
+        ],
+        [
+          84,
+          96
+        ],
+        [
+          88,
+          2
+        ],
+        [
+          88,
+          15
+        ],
+        [
+          88,
+          31
+        ],
+        [
+          88,
+          35
+        ],
+        [
+          88,
+          96
+        ],
+        [
+          91,
+          2
+        ],
+        [
+          91,
+          4
+        ],
+        [
+          91,
+          9
+        ],
+        [
+          91,
+          15
+        ],
+        [
+          91,
+          31
+        ],
+        [
+          91,
+          35
+        ],
+        [
+          91,
+          56
+        ],
+        [
+          91,
+          71
+        ],
+        [
+          91,
+          96
+        ],
+        [
+          94,
+          2
+        ],
+        [
+          94,
+          4
+        ],
+        [
+          94,
+          15
+        ],
+        [
+          94,
+          31
+        ],
+        [
+          94,
+          35
+        ],
+        [
+          94,
+          71
+        ],
+        [
+          94,
+          96
+        ],
+        [
+          99,
+          2
+        ],
+        [
+          99,
+          4
+        ],
+        [
+          99,
+          9
+        ],
+        [
+          99,
+          15
+        ],
+        [
+          99,
+          31
+        ],
+        [
+          99,
+          35
+        ],
+        [
+          99,
+          56
+        ],
+        [
+          99,
+          71
+        ],
+        [
+          99,
+          96
+        ]
+      ],
+      "tokens": {
+        "prompt": 538,
+        "completion": 424
+      }
+    },
+    {
+      "ca": 1,
+      "cb": 5,
+      "size_a": 10,
+      "size_b": 10,
+      "sample_rate": 0.24,
+      "matches": [
+        [
+          33,
+          54
+        ],
+        [
+          33,
+          58
+        ],
+        [
+          33,
+          76
+        ],
+        [
+          40,
+          26
+        ],
+        [
+          40,
+          44
+        ],
+        [
+          45,
+          26
+        ],
+        [
+          45,
+          44
+        ],
+        [
+          72,
+          54
+        ],
+        [
+          72,
+          58
+        ],
+        [
+          72,
+          76
+        ],
+        [
+          83,
+          26
+        ],
+        [
+          83,
+          44
+        ],
+        [
+          84,
+          54
+        ],
+        [
+          84,
+          58
+        ],
+        [
+          84,
+          76
+        ],
+        [
+          88,
+          54
+        ],
+        [
+          88,
+          58
+        ],
+        [
+          88,
+          76
+        ],
+        [
+          91,
+          26
+        ],
+        [
+          91,
+          44
+        ],
+        [
+          94,
+          26
+        ],
+        [
+          94,
+          44
+        ],
+        [
+          99,
+          26
+        ],
+        [
+          99,
+          44
+        ]
+      ],
+      "tokens": {
+        "prompt": 538,
+        "completion": 174
+      }
+    },
+    {
+      "ca": 1,
+      "cb": 6,
+      "size_a": 10,
+      "size_b": 10,
+      "sample_rate": 0.52,
+      "matches": [
+        [
+          33,
+          36
+        ],
+        [
+          33,
+          52
+        ],
+        [
+          72,
+          36
+        ],
+        [
+          72,
+          52
+        ],
+        [
+          84,
+          36
+        ],
+        [
+          84,
+          52
+        ],
+        [
+          88,
+          36
+        ],
+        [
+          88,
+          52
+        ],
+        [
+          94,
+          11
+        ],
+        [
+          94,
+          34
+        ]
+      ],
+      "tokens": {
+        "prompt": 538,
+        "completion": 109
+      }
+    },
+    {
+      "ca": 1,
+      "cb": 7,
+      "size_a": 10,
+      "size_b": 10,
+      "sample_rate": 0.24,
+      "matches": [
+        [
+          33,
+          82
+        ],
+        [
+          40,
+          48
+        ],
+        [
+          40,
+          61
+        ],
+        [
+          40,
+          85
+        ],
+        [
+          40,
+          88
+        ],
+        [
+          45,
+          48
+        ],
+        [
+          45,
+          61
+        ],
+        [
+          45,
+          85
+        ],
+        [
+          45,
+          88
+        ],
+        [
+          72,
+          82
+        ],
+        [
+          83,
+          48
+        ],
+        [
+          83,
+          61
+        ],
+        [
+          83,
+          85
+        ],
+        [
+          83,
+          88
+        ],
+        [
+          84,
+          82
+        ],
+        [
+          88,
+          82
+        ],
+        [
+          91,
+          48
+        ],
+        [
+          91,
+          61
+        ],
+        [
+          91,
+          85
+        ],
+        [
+          91,
+          88
+        ],
+        [
+          94,
+          48
+        ],
+        [
+          94,
+          61
+        ],
+        [
+          94,
+          85
+        ],
+        [
+          94,
+          88
+        ],
+        [
+          99,
+          48
+        ],
+        [
+          99,
+          61
+        ],
+        [
+          99,
+          85
+        ],
+        [
+          99,
+          88
+        ]
+      ],
+      "tokens": {
+        "prompt": 538,
+        "completion": 194
+      }
+    },
+    {
+      "ca": 1,
+      "cb": 8,
+      "size_a": 10,
+      "size_b": 10,
+      "sample_rate": 0.08,
+      "matches": [
+        [
+          33,
+          77
+        ],
+        [
+          40,
+          72
+        ],
+        [
+          45,
+          33
+        ],
+        [
+          72,
+          77
+        ],
+        [
+          83,
+          33
+        ],
+        [
+          84,
+          77
+        ],
+        [
+          88,
+          77
+        ],
+        [
+          91,
+          72
+        ],
+        [
+          94,
+          57
+        ],
+        [
+          99,
+          72
+        ]
+      ],
+      "tokens": {
+        "prompt": 538,
+        "completion": 104
+      }
+    },
+    {
+      "ca": 1,
+      "cb": 9,
+      "size_a": 10,
+      "size_b": 10,
+      "sample_rate": 0.28,
+      "matches": [
+        [
+          33,
+          14
+        ],
+        [
+          33,
+          27
+        ],
+        [
+          33,
+          97
+        ],
+        [
+          40,
+          8
+        ],
+        [
+          40,
+          19
+        ],
+        [
+          45,
+          8
+        ],
+        [
+          45,
+          19
+        ],
+        [
+          72,
+          14
+        ],
+        [
+          72,
+          27
+        ],
+        [
+          72,
+          97
+        ],
+        [
+          83,
+          8
+        ],
+        [
+          83,
+          19
+        ],
+        [
+          84,
+          14
+        ],
+        [
+          84,
+          27
+        ],
+        [
+          84,
+          97
+        ],
+        [
+          88,
+          14
+        ],
+        [
+          88,
+          27
+        ],
+        [
+          88,
+          97
+        ],
+        [
+          91,
+          8
+        ],
+        [
+          91,
+          19
+        ],
+        [
+          94,
+          8
+        ],
+        [
+          94,
+          19
+        ],
+        [
+          99,
+          8
+        ],
+        [
+          99,
+          19
+        ]
+      ],
+      "tokens": {
+        "prompt": 538,
+        "completion": 174
+      }
+    },
+    {
+      "ca": 2,
+      "cb": 0,
+      "size_a": 10,
+      "size_b": 10,
+      "sample_rate": 0.08,
+      "matches": [
+        [
+          25,
+          86
+        ],
+        [
+          39,
+          78
+        ],
+        [
+          43,
+          78
+        ],
+        [
+          61,
+          1
+        ],
+        [
+          61,
+          3
+        ],
+        [
+          61,
+          37
+        ],
+        [
+          61,
+          40
+        ],
+        [
+          61,
+          93
+        ],
+        [
+          64,
+          78
+        ],
+        [
+          80,
+          78
+        ],
+        [
+          82,
+          78
+        ],
+        [
+          85,
+          78
+        ]
+      ],
+      "tokens": {
+        "prompt": 538,
+        "completion": 116
+      }
+    },
+    {
+      "ca": 2,
+      "cb": 1,
+      "size_a": 10,
+      "size_b": 10,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          25,
+          17
+        ],
+        [
+          25,
+          24
+        ],
+        [
+          25,
+          49
+        ],
+        [
+          39,
+          87
+        ],
+        [
+          43,
+          87
+        ],
+        [
+          55,
+          18
+        ],
+        [
+          61,
+          17
+        ],
+        [
+          61,
+          24
+        ],
+        [
+          61,
+          49
+        ],
+        [
+          64,
+          87
+        ],
+        [
+          80,
+          87
+        ],
+        [
+          82,
+          87
+        ],
+        [
+          85,
+          87
+        ],
+        [
+          93,
+          18
+        ]
+      ],
+      "tokens": {
+        "prompt": 538,
+        "completion": 124
+      }
+    },
+    {
+      "ca": 2,
+      "cb": 2,
+      "size_a": 10,
+      "size_b": 10,
+      "sample_rate": 0.04,
+      "matches": [
+        [
+          25,
+          79
+        ],
+        [
+          39,
+          12
+        ],
+        [
+          39,
+          43
+        ],
+        [
+          39,
+          69
+        ],
+        [
+          43,
+          12
+        ],
+        [
+          43,
+          43
+        ],
+        [
+          43,
+          69
+        ],
+        [
+          55,
+          12
+        ],
+        [
+          55,
+          43
+        ],
+        [
+          55,
+          69
+        ],
+        [
+          64,
+          12
+        ],
+        [
+          64,
+          43
+        ],
+        [
+          64,
+          69
+        ],
+        [
+          80,
+          12
+        ],
+        [
+          80,
+          43
+        ],
+        [
+          80,
+          69
+        ],
+        [
+          82,
+          12
+        ],
+        [
+          82,
+          43
+        ],
+        [
+          82,
+          69
+        ],
+        [
+          85,
+          12
+        ],
+        [
+          85,
+          43
+        ],
+        [
+          85,
+          69
+        ],
+        [
+          93,
+          12
+        ],
+        [
+          93,
+          43
+        ],
+        [
+          93,
+          69
+        ]
+      ],
+      "tokens": {
+        "prompt": 538,
+        "completion": 180
+      }
+    },
+    {
+      "ca": 2,
+      "cb": 3,
+      "size_a": 10,
+      "size_b": 10,
+      "sample_rate": 0.48,
+      "matches": [
+        [
+          25,
+          66
+        ],
+        [
+          39,
+          21
+        ],
+        [
+          39,
+          39
+        ],
+        [
+          39,
+          90
+        ],
+        [
+          39,
+          94
+        ],
+        [
+          43,
+          21
+        ],
+        [
+          43,
+          39
+        ],
+        [
+          43,
+          90
+        ],
+        [
+          43,
+          94
+        ],
+        [
+          55,
+          42
+        ],
+        [
+          55,
+          62
+        ],
+        [
+          55,
+          98
+        ],
+        [
+          64,
+          21
+        ],
+        [
+          64,
+          39
+        ],
+        [
+          64,
+          90
+        ],
+        [
+          64,
+          94
+        ],
+        [
+          80,
+          21
+        ],
+        [
+          80,
+          39
+        ],
+        [
+          80,
+          90
+        ],
+        [
+          80,
+          94
+        ],
+        [
+          82,
+          21
+        ],
+        [
+          82,
+          39
+        ],
+        [
+          82,
+          90
+        ],
+        [
+          82,
+          94
+        ],
+        [
+          85,
+          21
+        ],
+        [
+          85,
+          39
+        ],
+        [
+          85,
+          90
+        ],
+        [
+          85,
+          94
+        ],
+        [
+          93,
+          42
+        ],
+        [
+          93,
+          62
+        ],
+        [
+          93,
+          98
+        ]
+      ],
+      "tokens": {
+        "prompt": 538,
+        "completion": 210
+      }
+    },
+    {
+      "ca": 2,
+      "cb": 4,
+      "size_a": 10,
+      "size_b": 10,
+      "sample_rate": 0.08,
+      "matches": [
+        [
+          25,
+          9
+        ],
+        [
+          25,
+          56
+        ],
+        [
+          39,
+          4
+        ],
+        [
+          39,
+          71
+        ],
+        [
+          43,
+          4
+        ],
+        [
+          43,
+          71
+        ],
+        [
+          55,
+          9
+        ],
+        [
+          55,
+          56
+        ],
+        [
+          64,
+          4
+        ],
+        [
+          64,
+          71
+        ],
+        [
+          80,
+          4
+        ],
+        [
+          80,
+          71
+        ],
+        [
+          82,
+          4
+        ],
+        [
+          82,
+          71
+        ],
+        [
+          85,
+          4
+        ],
+        [
+          85,
+          71
+        ],
+        [
+          93,
+          9
+        ],
+        [
+          93,
+          56
+        ]
+      ],
+      "tokens": {
+        "prompt": 538,
+        "completion": 145
+      }
+    },
+    {
+      "ca": 2,
+      "cb": 5,
+      "size_a": 10,
+      "size_b": 10,
+      "sample_rate": 0.08,
+      "matches": [
+        [
+          25,
+          41
+        ],
+        [
+          39,
+          26
+        ],
+        [
+          39,
+          75
+        ],
+        [
+          43,
+          26
+        ],
+        [
+          43,
+          75
+        ],
+        [
+          55,
+          41
+        ],
+        [
+          61,
+          41
+        ],
+        [
+          64,
+          26
+        ],
+        [
+          64,
+          75
+        ],
+        [
+          80,
+          26
+        ],
+        [
+          80,
+          75
+        ],
+        [
+          82,
+          26
+        ],
+        [
+          82,
+          75
+        ],
+        [
+          85,
+          26
+        ],
+        [
+          85,
+          75
+        ],
+        [
+          93,
+          41
+        ]
+      ],
+      "tokens": {
+        "prompt": 538,
+        "completion": 134
+      }
+    },
+    {
+      "ca": 2,
+      "cb": 6,
+      "size_a": 10,
+      "size_b": 10,
+      "sample_rate": 0.04,
+      "matches": [
+        [
+          25,
+          63
+        ],
+        [
+          25,
+          74
+        ],
+        [
+          39,
+          10
+        ],
+        [
+          39,
+          36
+        ],
+        [
+          39,
+          52
+        ],
+        [
+          43,
+          10
+        ],
+        [
+          43,
+          36
+        ],
+        [
+          43,
+          52
+        ],
+        [
+          55,
+          11
+        ],
+        [
+          55,
+          34
+        ],
+        [
+          64,
+          10
+        ],
+        [
+          64,
+          36
+        ],
+        [
+          64,
+          52
+        ],
+        [
+          80,
+          10
+        ],
+        [
+          80,
+          36
+        ],
+        [
+          80,
+          52
+        ],
+        [
+          82,
+          10
+        ],
+        [
+          82,
+          36
+        ],
+        [
+          82,
+          52
+        ],
+        [
+          85,
+          10
+        ],
+        [
+          85,
+          36
+        ],
+        [
+          85,
+          52
+        ],
+        [
+          93,
+          11
+        ],
+        [
+          93,
+          34
+        ]
+      ],
+      "tokens": {
+        "prompt": 538,
+        "completion": 175
+      }
+    },
+    {
+      "ca": 2,
+      "cb": 7,
+      "size_a": 10,
+      "size_b": 10,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          39,
+          82
+        ],
+        [
+          43,
+          82
+        ],
+        [
+          61,
+          48
+        ],
+        [
+          61,
+          61
+        ],
+        [
+          61,
+          85
+        ],
+        [
+          61,
+          88
+        ],
+        [
+          64,
+          82
+        ],
+        [
+          80,
+          82
+        ],
+        [
+          82,
+          82
+        ],
+        [
+          85,
+          82
+        ]
+      ],
+      "tokens": {
+        "prompt": 538,
+        "completion": 107
+      }
+    },
+    {
+      "ca": 2,
+      "cb": 8,
+      "size_a": 10,
+      "size_b": 10,
+      "sample_rate": 0.04,
+      "matches": [
+        [
+          25,
+          57
+        ],
+        [
+          61,
+          77
+        ]
+      ],
+      "tokens": {
+        "prompt": 538,
+        "completion": 72
+      }
+    },
+    {
+      "ca": 2,
+      "cb": 9,
+      "size_a": 10,
+      "size_b": 10,
+      "sample_rate": 0.04,
+      "matches": [
+        [
+          25,
+          73
+        ],
+        [
+          39,
+          14
+        ],
+        [
+          39,
+          27
+        ],
+        [
+          39,
+          97
+        ],
+        [
+          43,
+          14
+        ],
+        [
+          43,
+          27
+        ],
+        [
+          43,
+          97
+        ],
+        [
+          61,
+          8
+        ],
+        [
+          61,
+          19
+        ],
+        [
+          64,
+          14
+        ],
+        [
+          64,
+          27
+        ],
+        [
+          64,
+          97
+        ],
+        [
+          80,
+          14
+        ],
+        [
+          80,
+          27
+        ],
+        [
+          80,
+          97
+        ],
+        [
+          82,
+          14
+        ],
+        [
+          82,
+          27
+        ],
+        [
+          82,
+          97
+        ],
+        [
+          85,
+          14
+        ],
+        [
+          85,
+          27
+        ],
+        [
+          85,
+          97
+        ],
+        [
+          93,
+          53
+        ]
+      ],
+      "tokens": {
+        "prompt": 538,
+        "completion": 165
+      }
+    },
+    {
+      "ca": 3,
+      "cb": 0,
+      "size_a": 10,
+      "size_b": 10,
+      "sample_rate": 0.2,
+      "matches": [
+        [
+          2,
+          78
+        ],
+        [
+          3,
+          16
+        ],
+        [
+          3,
+          45
+        ],
+        [
+          3,
+          92
+        ],
+        [
+          29,
+          78
+        ],
+        [
+          51,
+          78
+        ],
+        [
+          56,
+          78
+        ],
+        [
+          58,
+          86
+        ],
+        [
+          66,
+          78
+        ],
+        [
+          69,
+          16
+        ],
+        [
+          69,
+          45
+        ],
+        [
+          69,
+          92
+        ],
+        [
+          71,
+          1
+        ],
+        [
+          71,
+          3
+        ],
+        [
+          71,
+          37
+        ],
+        [
+          71,
+          40
+        ],
+        [
+          71,
+          93
+        ],
+        [
+          95,
+          86
+        ]
+      ],
+      "tokens": {
+        "prompt": 538,
+        "completion": 144
+      }
+    },
+    {
+      "ca": 3,
+      "cb": 1,
+      "size_a": 10,
+      "size_b": 10,
+      "sample_rate": 0.04,
+      "matches": [
+        [
+          71,
+          17
+        ],
+        [
+          71,
+          24
+        ],
+        [
+          71,
+          49
+        ]
+      ],
+      "tokens": {
+        "prompt": 538,
+        "completion": 78
+      }
+    },
+    {
+      "ca": 3,
+      "cb": 2,
+      "size_a": 10,
+      "size_b": 10,
+      "sample_rate": 0.04,
+      "matches": [
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          3,
+          64
+        ],
+        [
+          3,
+          91
+        ],
+        [
+          58,
+          38
+        ],
+        [
+          58,
+          47
+        ],
+        [
+          69,
+          0
+        ],
+        [
+          69,
+          7
+        ],
+        [
+          69,
+          64
+        ],
+        [
+          69,
+          91
+        ],
+        [
+          71,
+          12
+        ],
+        [
+          71,
+          43
+        ],
+        [
+          71,
+          69
+        ],
+        [
+          95,
+          38
+        ],
+        [
+          95,
+          47
+        ]
+      ],
+      "tokens": {
+        "prompt": 538,
+        "completion": 134
+      }
+    },
+    {
+      "ca": 3,
+      "cb": 3,
+      "size_a": 10,
+      "size_b": 10,
+      "sample_rate": 0.48,
+      "matches": [
+        [
+          2,
+          84
+        ],
+        [
+          3,
+          21
+        ],
+        [
+          3,
+          39
+        ],
+        [
+          3,
+          90
+        ],
+        [
+          3,
+          94
+        ],
+        [
+          29,
+          84
+        ],
+        [
+          51,
+          84
+        ],
+        [
+          56,
+          84
+        ],
+        [
+          58,
+          42
+        ],
+        [
+          58,
+          62
+        ],
+        [
+          58,
+          98
+        ],
+        [
+          66,
+          84
+        ],
+        [
+          69,
+          21
+        ],
+        [
+          69,
+          39
+        ],
+        [
+          69,
+          90
+        ],
+        [
+          69,
+          94
+        ],
+        [
+          71,
+          81
+        ],
+        [
+          95,
+          42
+        ],
+        [
+          95,
+          62
+        ],
+        [
+          95,
+          98
+        ]
+      ],
+      "tokens": {
+        "prompt": 538,
+        "completion": 154
+      }
+    },
+    {
+      "ca": 3,
+      "cb": 4,
+      "size_a": 10,
+      "size_b": 10,
+      "sample_rate": 0.04,
+      "matches": [
+        [
+          56,
+          9
+        ],
+        [
+          58,
+          4
+        ],
+        [
+          71,
+          4
+        ],
+        [
+          95,
+          9
+        ]
+      ],
+      "tokens": {
+        "prompt": 538,
+        "completion": 80
+      }
+    },
+    {
+      "ca": 3,
+      "cb": 5,
+      "size_a": 10,
+      "size_b": 10,
+      "sample_rate": 0.48,
+      "matches": [
+        [
+          2,
+          54
+        ],
+        [
+          2,
+          58
+        ],
+        [
+          2,
+          76
+        ],
+        [
+          3,
+          25
+        ],
+        [
+          3,
+          55
+        ],
+        [
+          3,
+          83
+        ],
+        [
+          29,
+          54
+        ],
+        [
+          29,
+          58
+        ],
+        [
+          29,
+          76
+        ],
+        [
+          51,
+          54
+        ],
+        [
+          51,
+          58
+        ],
+        [
+          51,
+          76
+        ],
+        [
+          56,
+          54
+        ],
+        [
+          56,
+          58
+        ],
+        [
+          56,
+          76
+        ],
+        [
+          66,
+          54
+        ],
+        [
+          66,
+          58
+        ],
+        [
+          66,
+          76
+        ],
+        [
+          69,
+          25
+        ],
+        [
+          69,
+          55
+        ],
+        [
+          69,
+          83
+        ],
+        [
+          71,
+          26
+        ],
+        [
+          71,
+          44
+        ]
+      ],
+      "tokens": {
+        "prompt": 538,
+        "completion": 171
+      }
+    },
+    {
+      "ca": 3,
+      "cb": 6,
+      "size_a": 10,
+      "size_b": 10,
+      "sample_rate": 0.2,
+      "matches": [
+        [
+          2,
+          30
+        ],
+        [
+          2,
+          70
+        ],
+        [
+          3,
+          11
+        ],
+        [
+          3,
+          34
+        ],
+        [
+          29,
+          30
+        ],
+        [
+          29,
+          70
+        ],
+        [
+          51,
+          30
+        ],
+        [
+          51,
+          70
+        ],
+        [
+          56,
+          30
+        ],
+        [
+          56,
+          70
+        ],
+        [
+          58,
+          11
+        ],
+        [
+          58,
+          34
+        ],
+        [
+          66,
+          30
+        ],
+        [
+          66,
+          70
+        ],
+        [
+          69,
+          11
+        ],
+        [
+          69,
+          34
+        ],
+        [
+          71,
+          11
+        ],
+        [
+          71,
+          34
+        ],
+        [
+          95,
+          11
+        ],
+        [
+          95,
+          34
+        ]
+      ],
+      "tokens": {
+        "prompt": 538,
+        "completion": 154
+      }
+    },
+    {
+      "ca": 3,
+      "cb": 7,
+      "size_a": 10,
+      "size_b": 10,
+      "sample_rate": 0.4,
+      "matches": [
+        [
+          2,
+          82
+        ],
+        [
+          3,
+          22
+        ],
+        [
+          3,
+          32
+        ],
+        [
+          29,
+          82
+        ],
+        [
+          51,
+          82
+        ],
+        [
+          56,
+          82
+        ],
+        [
+          66,
+          82
+        ],
+        [
+          69,
+          22
+        ],
+        [
+          69,
+          32
+        ],
+        [
+          71,
+          48
+        ],
+        [
+          71,
+          61
+        ],
+        [
+          71,
+          85
+        ],
+        [
+          71,
+          88
+        ]
+      ],
+      "tokens": {
+        "prompt": 538,
+        "completion": 121
+      }
+    },
+    {
+      "ca": 3,
+      "cb": 8,
+      "size_a": 10,
+      "size_b": 10,
+      "sample_rate": 0.4,
+      "matches": [
+        [
+          58,
+          46
+        ],
+        [
+          58,
+          57
+        ],
+        [
+          71,
+          77
+        ],
+        [
+          95,
+          46
+        ],
+        [
+          95,
+          57
+        ]
+      ],
+      "tokens": {
+        "prompt": 538,
+        "completion": 86
+      }
+    },
+    {
+      "ca": 3,
+      "cb": 9,
+      "size_a": 10,
+      "size_b": 10,
+      "sample_rate": 0.2,
+      "matches": [
+        [
+          2,
+          73
+        ],
+        [
+          3,
+          53
+        ],
+        [
+          29,
+          73
+        ],
+        [
+          51,
+          73
+        ],
+        [
+          56,
+          73
+        ],
+        [
+          58,
+          97
+        ],
+        [
+          66,
+          73
+        ],
+        [
+          69,
+          53
+        ],
+        [
+          95,
+          97
+        ]
+      ],
+      "tokens": {
+        "prompt": 538,
+        "completion": 100
+      }
+    },
+    {
+      "ca": 4,
+      "cb": 0,
+      "size_a": 10,
+      "size_b": 10,
+      "sample_rate": 0.24,
+      "matches": [
+        [
+          10,
+          78
+        ],
+        [
+          15,
+          16
+        ],
+        [
+          15,
+          45
+        ],
+        [
+          15,
+          92
+        ],
+        [
+          21,
+          78
+        ],
+        [
+          28,
+          78
+        ],
+        [
+          54,
+          16
+        ],
+        [
+          54,
+          45
+        ],
+        [
+          54,
+          92
+        ],
+        [
+          60,
+          86
+        ],
+        [
+          70,
+          86
+        ]
+      ],
+      "tokens": {
+        "prompt": 538,
+        "completion": 112
+      }
+    },
+    {
+      "ca": 4,
+      "cb": 1,
+      "size_a": 10,
+      "size_b": 10,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          10,
+          87
+        ],
+        [
+          15,
+          18
+        ],
+        [
+          21,
+          87
+        ],
+        [
+          28,
+          87
+        ],
+        [
+          54,
+          18
+        ],
+        [
+          60,
+          6
+        ],
+        [
+          70,
+          6
+        ]
+      ],
+      "tokens": {
+        "prompt": 538,
+        "completion": 92
+      }
+    },
+    {
+      "ca": 4,
+      "cb": 2,
+      "size_a": 10,
+      "size_b": 10,
+      "sample_rate": 0.56,
+      "matches": [
+        [
+          10,
+          12
+        ],
+        [
+          10,
+          43
+        ],
+        [
+          10,
+          69
+        ],
+        [
+          21,
+          12
+        ],
+        [
+          21,
+          43
+        ],
+        [
+          21,
+          69
+        ],
+        [
+          28,
+          12
+        ],
+        [
+          28,
+          43
+        ],
+        [
+          28,
+          69
+        ],
+        [
+          60,
+          12
+        ],
+        [
+          60,
+          43
+        ],
+        [
+          60,
+          69
+        ],
+        [
+          70,
+          12
+        ],
+        [
+          70,
+          43
+        ],
+        [
+          70,
+          69
+        ]
+      ],
+      "tokens": {
+        "prompt": 538,
+        "completion": 134
+      }
+    },
+    {
+      "ca": 4,
+      "cb": 3,
+      "size_a": 10,
+      "size_b": 10,
+      "sample_rate": 0.08,
+      "matches": [
+        [
+          10,
+          84
+        ],
+        [
+          11,
+          81
+        ],
+        [
+          13,
+          81
+        ],
+        [
+          15,
+          21
+        ],
+        [
+          15,
+          39
+        ],
+        [
+          15,
+          90
+        ],
+        [
+          15,
+          94
+        ],
+        [
+          21,
+          84
+        ],
+        [
+          28,
+          84
+        ],
+        [
+          54,
+          21
+        ],
+        [
+          54,
+          39
+        ],
+        [
+          54,
+          90
+        ],
+        [
+          54,
+          94
+        ],
+        [
+          60,
+          42
+        ],
+        [
+          60,
+          62
+        ],
+        [
+          60,
+          98
+        ],
+        [
+          70,
+          42
+        ],
+        [
+          70,
+          62
+        ],
+        [
+          70,
+          98
+        ],
+        [
+          81,
+          81
+        ]
+      ],
+      "tokens": {
+        "prompt": 538,
+        "completion": 154
+      }
+    },
+    {
+      "ca": 4,
+      "cb": 4,
+      "size_a": 10,
+      "size_b": 10,
+      "sample_rate": 0.04,
+      "matches": [
+        [
+          10,
+          71
+        ],
+        [
+          15,
+          67
+        ],
+        [
+          21,
+          67
+        ],
+        [
+          28,
+          67
+        ],
+        [
+          60,
+          9
+        ],
+        [
+          70,
+          9
+        ]
+      ],
+      "tokens": {
+        "prompt": 538,
+        "completion": 88
+      }
+    },
+    {
+      "ca": 4,
+      "cb": 5,
+      "size_a": 10,
+      "size_b": 10,
+      "sample_rate": 0.2,
+      "matches": [
+        [
+          10,
+          41
+        ],
+        [
+          10,
+          75
+        ],
+        [
+          15,
+          25
+        ],
+        [
+          15,
+          55
+        ],
+        [
+          15,
+          83
+        ],
+        [
+          21,
+          41
+        ],
+        [
+          21,
+          75
+        ],
+        [
+          28,
+          41
+        ],
+        [
+          28,
+          75
+        ],
+        [
+          54,
+          25
+        ],
+        [
+          54,
+          55
+        ],
+        [
+          54,
+          83
+        ],
+        [
+          60,
+          41
+        ],
+        [
+          60,
+          75
+        ],
+        [
+          70,
+          41
+        ],
+        [
+          70,
+          75
+        ]
+      ],
+      "tokens": {
+        "prompt": 538,
+        "completion": 137
+      }
+    },
+    {
+      "ca": 4,
+      "cb": 6,
+      "size_a": 10,
+      "size_b": 10,
+      "sample_rate": 0.28,
+      "matches": [
+        [
+          10,
+          10
+        ],
+        [
+          10,
+          36
+        ],
+        [
+          10,
+          52
+        ],
+        [
+          11,
+          63
+        ],
+        [
+          11,
+          74
+        ],
+        [
+          13,
+          63
+        ],
+        [
+          13,
+          74
+        ],
+        [
+          15,
+          10
+        ],
+        [
+          15,
+          11
+        ],
+        [
+          15,
+          36
+        ],
+        [
+          15,
+          52
+        ],
+        [
+          21,
+          10
+        ],
+        [
+          21,
+          36
+        ],
+        [
+          21,
+          52
+        ],
+        [
+          28,
+          10
+        ],
+        [
+          28,
+          36
+        ],
+        [
+          28,
+          52
+        ],
+        [
+          54,
+          10
+        ],
+        [
+          54,
+          11
+        ],
+        [
+          54,
+          36
+        ],
+        [
+          54,
+          52
+        ],
+        [
+          60,
+          11
+        ],
+        [
+          60,
+          30
+        ],
+        [
+          60,
+          34
+        ],
+        [
+          60,
+          51
+        ],
+        [
+          60,
+          70
+        ],
+        [
+          70,
+          11
+        ],
+        [
+          70,
+          30
+        ],
+        [
+          70,
+          34
+        ],
+        [
+          70,
+          51
+        ],
+        [
+          70,
+          70
+        ],
+        [
+          81,
+          10
+        ],
+        [
+          81,
+          36
+        ],
+        [
+          81,
+          52
+        ]
+      ],
+      "tokens": {
+        "prompt": 538,
+        "completion": 239
+      }
+    },
+    {
+      "ca": 4,
+      "cb": 7,
+      "size_a": 10,
+      "size_b": 10,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          10,
+          82
+        ],
+        [
+          11,
+          48
+        ],
+        [
+          11,
+          61
+        ],
+        [
+          11,
+          85
+        ],
+        [
+          11,
+          88
+        ],
+        [
+          13,
+          48
+        ],
+        [
+          13,
+          61
+        ],
+        [
+          13,
+          85
+        ],
+        [
+          13,
+          88
+        ],
+        [
+          21,
+          82
+        ],
+        [
+          28,
+          82
+        ],
+        [
+          81,
+          48
+        ],
+        [
+          81,
+          61
+        ],
+        [
+          81,
+          85
+        ],
+        [
+          81,
+          88
+        ]
+      ],
+      "tokens": {
+        "prompt": 538,
+        "completion": 133
+      }
+    },
+    {
+      "ca": 4,
+      "cb": 8,
+      "size_a": 10,
+      "size_b": 10,
+      "sample_rate": 0.24,
+      "matches": [
+        [
+          10,
+          77
+        ],
+        [
+          15,
+          33
+        ],
+        [
+          21,
+          13
+        ],
+        [
+          21,
+          72
+        ],
+        [
+          28,
+          13
+        ],
+        [
+          28,
+          72
+        ],
+        [
+          54,
+          33
+        ],
+        [
+          60,
+          46
+        ],
+        [
+          60,
+          57
+        ],
+        [
+          70,
+          46
+        ],
+        [
+          70,
+          57
+        ],
+        [
+          81,
+          77
+        ]
+      ],
+      "tokens": {
+        "prompt": 538,
+        "completion": 116
+      }
+    },
+    {
+      "ca": 4,
+      "cb": 9,
+      "size_a": 10,
+      "size_b": 10,
+      "sample_rate": 0.2,
+      "matches": [
+        [
+          10,
+          73
+        ],
+        [
+          11,
+          8
+        ],
+        [
+          11,
+          19
+        ],
+        [
+          13,
+          8
+        ],
+        [
+          13,
+          19
+        ],
+        [
+          15,
+          53
+        ],
+        [
+          21,
+          73
+        ],
+        [
+          28,
+          73
+        ],
+        [
+          54,
+          53
+        ],
+        [
+          60,
+          14
+        ],
+        [
+          60,
+          27
+        ],
+        [
+          60,
+          97
+        ],
+        [
+          70,
+          14
+        ],
+        [
+          70,
+          27
+        ],
+        [
+          70,
+          97
+        ],
+        [
+          81,
+          8
+        ],
+        [
+          81,
+          19
+        ]
+      ],
+      "tokens": {
+        "prompt": 538,
+        "completion": 139
+      }
+    },
+    {
+      "ca": 5,
+      "cb": 0,
+      "size_a": 10,
+      "size_b": 10,
+      "sample_rate": 0.32,
+      "matches": [
+        [
+          9,
+          16
+        ],
+        [
+          9,
+          45
+        ],
+        [
+          9,
+          92
+        ],
+        [
+          16,
+          16
+        ],
+        [
+          16,
+          45
+        ],
+        [
+          16,
+          92
+        ],
+        [
+          20,
+          16
+        ],
+        [
+          20,
+          45
+        ],
+        [
+          20,
+          92
+        ],
+        [
+          32,
+          16
+        ],
+        [
+          32,
+          45
+        ],
+        [
+          32,
+          92
+        ],
+        [
+          35,
+          1
+        ],
+        [
+          35,
+          3
+        ],
+        [
+          35,
+          37
+        ],
+        [
+          35,
+          40
+        ],
+        [
+          35,
+          93
+        ],
+        [
+          53,
+          1
+        ],
+        [
+          53,
+          3
+        ],
+        [
+          53,
+          37
+        ],
+        [
+          53,
+          40
+        ],
+        [
+          53,
+          93
+        ],
+        [
+          59,
+          16
+        ],
+        [
+          59,
+          45
+        ],
+        [
+          59,
+          92
+        ],
+        [
+          67,
+          1
+        ],
+        [
+          67,
+          3
+        ],
+        [
+          67,
+          37
+        ],
+        [
+          67,
+          40
+        ],
+        [
+          67,
+          93
+        ],
+        [
+          87,
+          1
+        ],
+        [
+          87,
+          3
+        ],
+        [
+          87,
+          37
+        ],
+        [
+          87,
+          40
+        ],
+        [
+          87,
+          93
+        ],
+        [
+          90,
+          16
+        ],
+        [
+          90,
+          45
+        ],
+        [
+          90,
+          92
+        ]
+      ],
+      "tokens": {
+        "prompt": 538,
+        "completion": 244
+      }
+    },
+    {
+      "ca": 5,
+      "cb": 1,
+      "size_a": 10,
+      "size_b": 10,
+      "sample_rate": 0.04,
+      "matches": [],
+      "tokens": {
+        "prompt": 538,
+        "completion": 64
+      }
+    },
+    {
+      "ca": 5,
+      "cb": 2,
+      "size_a": 10,
+      "size_b": 10,
+      "sample_rate": 0.16,
+      "matches": [
+        [
+          9,
+          79
+        ],
+        [
+          16,
+          79
+        ],
+        [
+          20,
+          79
+        ],
+        [
+          32,
+          12
+        ],
+        [
+          32,
+          43
+        ],
+        [
+          32,
+          69
+        ],
+        [
+          35,
+          12
+        ],
+        [
+          35,
+          43
+        ],
+        [
+          35,
+          69
+        ],
+        [
+          53,
+          12
+        ],
+        [
+          53,
+          43
+        ],
+        [
+          53,
+          69
+        ],
+        [
+          59,
+          79
+        ],
+        [
+          67,
+          12
+        ],
+        [
+          67,
+          43
+        ],
+        [
+          67,
+          69
+        ],
+        [
+          87,
+          12
+        ],
+        [
+          87,
+          43
+        ],
+        [
+          87,
+          69
+        ],
+        [
+          90,
+          12
+        ],
+        [
+          90,
+          43
+        ],
+        [
+          90,
+          69
+        ]
+      ],
+      "tokens": {
+        "prompt": 538,
+        "completion": 164
+      }
+    },
+    {
+      "ca": 5,
+      "cb": 3,
+      "size_a": 10,
+      "size_b": 10,
+      "sample_rate": 0.36,
+      "matches": [
+        [
+          9,
+          66
+        ],
+        [
+          16,
+          66
+        ],
+        [
+          20,
+          66
+        ],
+        [
+          32,
+          81
+        ],
+        [
+          35,
+          81
+        ],
+        [
+          53,
+          81
+        ],
+        [
+          59,
+          66
+        ],
+        [
+          67,
+          66
+        ],
+        [
+          87,
+          66
+        ],
+        [
+          90,
+          81
+        ]
+      ],
+      "tokens": {
+        "prompt": 538,
+        "completion": 104
+      }
+    },
+    {
+      "ca": 5,
+      "cb": 4,
+      "size_a": 10,
+      "size_b": 10,
+      "sample_rate": 0.44,
+      "matches": [
+        [
+          9,
+          2
+        ],
+        [
+          9,
+          15
+        ],
+        [
+          9,
+          31
+        ],
+        [
+          9,
+          35
+        ],
+        [
+          9,
+          96
+        ],
+        [
+          16,
+          2
+        ],
+        [
+          16,
+          15
+        ],
+        [
+          16,
+          31
+        ],
+        [
+          16,
+          35
+        ],
+        [
+          16,
+          96
+        ],
+        [
+          20,
+          2
+        ],
+        [
+          20,
+          15
+        ],
+        [
+          20,
+          31
+        ],
+        [
+          20,
+          35
+        ],
+        [
+          20,
+          96
+        ],
+        [
+          32,
+          2
+        ],
+        [
+          32,
+          15
+        ],
+        [
+          32,
+          31
+        ],
+        [
+          32,
+          35
+        ],
+        [
+          32,
+          96
+        ],
+        [
+          35,
+          2
+        ],
+        [
+          35,
+          4
+        ],
+        [
+          35,
+          9
+        ],
+        [
+          35,
+          15
+        ],
+        [
+          35,
+          31
+        ],
+        [
+          35,
+          35
+        ],
+        [
+          35,
+          56
+        ],
+        [
+          35,
+          96
+        ],
+        [
+          53,
+          2
+        ],
+        [
+          53,
+          4
+        ],
+        [
+          53,
+          9
+        ],
+        [
+          53,
+          15
+        ],
+        [
+          53,
+          31
+        ],
+        [
+          53,
+          35
+        ],
+        [
+          53,
+          56
+        ],
+        [
+          53,
+          96
+        ],
+        [
+          59,
+          2
+        ],
+        [
+          59,
+          15
+        ],
+        [
+          59,
+          31
+        ],
+        [
+          59,
+          35
+        ],
+        [
+          59,
+          96
+        ],
+        [
+          67,
+          2
+        ],
+        [
+          67,
+          4
+        ],
+        [
+          67,
+          9
+        ],
+        [
+          67,
+          15
+        ],
+        [
+          67,
+          31
+        ],
+        [
+          67,
+          35
+        ],
+        [
+          67,
+          56
+        ],
+        [
+          67,
+          96
+        ],
+        [
+          87,
+          2
+        ],
+        [
+          87,
+          4
+        ],
+        [
+          87,
+          9
+        ],
+        [
+          87,
+          15
+        ],
+        [
+          87,
+          31
+        ],
+        [
+          87,
+          35
+        ],
+        [
+          87,
+          56
+        ],
+        [
+          87,
+          96
+        ],
+        [
+          90,
+          2
+        ],
+        [
+          90,
+          15
+        ],
+        [
+          90,
+          31
+        ],
+        [
+          90,
+          35
+        ],
+        [
+          90,
+          96
+        ]
+      ],
+      "tokens": {
+        "prompt": 538,
+        "completion": 364
+      }
+    },
+    {
+      "ca": 5,
+      "cb": 5,
+      "size_a": 10,
+      "size_b": 10,
+      "sample_rate": 0.28,
+      "matches": [
+        [
+          9,
+          41
+        ],
+        [
+          16,
+          41
+        ],
+        [
+          20,
+          41
+        ],
+        [
+          32,
+          41
+        ],
+        [
+          35,
+          41
+        ],
+        [
+          35,
+          54
+        ],
+        [
+          35,
+          58
+        ],
+        [
+          35,
+          76
+        ],
+        [
+          53,
+          41
+        ],
+        [
+          53,
+          54
+        ],
+        [
+          53,
+          58
+        ],
+        [
+          53,
+          76
+        ],
+        [
+          59,
+          41
+        ],
+        [
+          67,
+          41
+        ],
+        [
+          87,
+          41
+        ],
+        [
+          90,
+          41
+        ]
+      ],
+      "tokens": {
+        "prompt": 538,
+        "completion": 134
+      }
+    },
+    {
+      "ca": 5,
+      "cb": 6,
+      "size_a": 10,
+      "size_b": 10,
+      "sample_rate": 0.16,
+      "matches": [
+        [
+          9,
+          63
+        ],
+        [
+          9,
+          74
+        ],
+        [
+          16,
+          63
+        ],
+        [
+          16,
+          74
+        ],
+        [
+          20,
+          63
+        ],
+        [
+          20,
+          74
+        ],
+        [
+          32,
+          11
+        ],
+        [
+          32,
+          34
+        ],
+        [
+          35,
+          10
+        ],
+        [
+          35,
+          36
+        ],
+        [
+          35,
+          52
+        ],
+        [
+          53,
+          10
+        ],
+        [
+          53,
+          36
+        ],
+        [
+          53,
+          52
+        ],
+        [
+          59,
+          63
+        ],
+        [
+          59,
+          74
+        ],
+        [
+          67,
+          10
+        ],
+        [
+          67,
+          36
+        ],
+        [
+          67,
+          52
+        ],
+        [
+          87,
+          10
+        ],
+        [
+          87,
+          36
+        ],
+        [
+          87,
+          52
+        ],
+        [
+          90,
+          11
+        ],
+        [
+          90,
+          34
+        ]
+      ],
+      "tokens": {
+        "prompt": 538,
+        "completion": 174
+      }
+    },
+    {
+      "ca": 5,
+      "cb": 7,
+      "size_a": 10,
+      "size_b": 10,
+      "sample_rate": 0.24,
+      "matches": [
+        [
+          9,
+          60
+        ],
+        [
+          9,
+          68
+        ],
+        [
+          9,
+          80
+        ],
+        [
+          16,
+          60
+        ],
+        [
+          16,
+          68
+        ],
+        [
+          16,
+          80
+        ],
+        [
+          20,
+          60
+        ],
+        [
+          20,
+          68
+        ],
+        [
+          20,
+          80
+        ],
+        [
+          32,
+          60
+        ],
+        [
+          32,
+          68
+        ],
+        [
+          32,
+          80
+        ],
+        [
+          35,
+          48
+        ],
+        [
+          35,
+          61
+        ],
+        [
+          35,
+          85
+        ],
+        [
+          35,
+          88
+        ],
+        [
+          53,
+          48
+        ],
+        [
+          53,
+          61
+        ],
+        [
+          53,
+          85
+        ],
+        [
+          53,
+          88
+        ],
+        [
+          59,
+          60
+        ],
+        [
+          59,
+          68
+        ],
+        [
+          59,
+          80
+        ],
+        [
+          67,
+          22
+        ],
+        [
+          67,
+          32
+        ],
+        [
+          87,
+          22
+        ],
+        [
+          87,
+          32
+        ],
+        [
+          90,
+          60
+        ],
+        [
+          90,
+          68
+        ],
+        [
+          90,
+          80
+        ]
+      ],
+      "tokens": {
+        "prompt": 538,
+        "completion": 204
+      }
+    },
+    {
+      "ca": 5,
+      "cb": 8,
+      "size_a": 10,
+      "size_b": 10,
+      "sample_rate": 0.24,
+      "matches": [
+        [
+          9,
+          13
+        ],
+        [
+          9,
+          33
+        ],
+        [
+          9,
+          46
+        ],
+        [
+          9,
+          57
+        ],
+        [
+          9,
+          72
+        ],
+        [
+          16,
+          13
+        ],
+        [
+          16,
+          33
+        ],
+        [
+          16,
+          46
+        ],
+        [
+          16,
+          57
+        ],
+        [
+          16,
+          72
+        ],
+        [
+          20,
+          13
+        ],
+        [
+          20,
+          33
+        ],
+        [
+          20,
+          46
+        ],
+        [
+          20,
+          57
+        ],
+        [
+          20,
+          72
+        ],
+        [
+          32,
+          13
+        ],
+        [
+          32,
+          33
+        ],
+        [
+          32,
+          72
+        ],
+        [
+          35,
+          13
+        ],
+        [
+          35,
+          46
+        ],
+        [
+          35,
+          57
+        ],
+        [
+          35,
+          72
+        ],
+        [
+          53,
+          13
+        ],
+        [
+          53,
+          46
+        ],
+        [
+          53,
+          57
+        ],
+        [
+          53,
+          72
+        ],
+        [
+          59,
+          13
+        ],
+        [
+          59,
+          33
+        ],
+        [
+          59,
+          46
+        ],
+        [
+          59,
+          57
+        ],
+        [
+          59,
+          72
+        ],
+        [
+          67,
+          33
+        ],
+        [
+          67,
+          46
+        ],
+        [
+          67,
+          57
+        ],
+        [
+          87,
+          33
+        ],
+        [
+          87,
+          46
+        ],
+        [
+          87,
+          57
+        ],
+        [
+          90,
+          13
+        ],
+        [
+          90,
+          33
+        ],
+        [
+          90,
+          72
+        ]
+      ],
+      "tokens": {
+        "prompt": 538,
+        "completion": 254
+      }
+    },
+    {
+      "ca": 5,
+      "cb": 9,
+      "size_a": 10,
+      "size_b": 10,
+      "sample_rate": 0.16,
+      "matches": [],
+      "tokens": {
+        "prompt": 538,
+        "completion": 64
+      }
+    },
+    {
+      "ca": 6,
+      "cb": 0,
+      "size_a": 10,
+      "size_b": 10,
+      "sample_rate": 0.2,
+      "matches": [
+        [
+          0,
+          86
+        ],
+        [
+          7,
+          16
+        ],
+        [
+          7,
+          45
+        ],
+        [
+          7,
+          92
+        ],
+        [
+          34,
+          86
+        ],
+        [
+          52,
+          86
+        ],
+        [
+          75,
+          86
+        ],
+        [
+          86,
+          16
+        ],
+        [
+          86,
+          45
+        ],
+        [
+          86,
+          92
+        ],
+        [
+          92,
+          78
+        ],
+        [
+          97,
+          78
+        ]
+      ],
+      "tokens": {
+        "prompt": 538,
+        "completion": 116
+      }
+    },
+    {
+      "ca": 6,
+      "cb": 1,
+      "size_a": 10,
+      "size_b": 10,
+      "sample_rate": 0.08,
+      "matches": [],
+      "tokens": {
+        "prompt": 538,
+        "completion": 64
+      }
+    },
+    {
+      "ca": 6,
+      "cb": 2,
+      "size_a": 10,
+      "size_b": 10,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          0,
+          12
+        ],
+        [
+          0,
+          43
+        ],
+        [
+          0,
+          69
+        ],
+        [
+          7,
+          38
+        ],
+        [
+          7,
+          47
+        ],
+        [
+          34,
+          12
+        ],
+        [
+          34,
+          43
+        ],
+        [
+          34,
+          69
+        ],
+        [
+          41,
+          38
+        ],
+        [
+          41,
+          47
+        ],
+        [
+          52,
+          12
+        ],
+        [
+          52,
+          43
+        ],
+        [
+          52,
+          69
+        ],
+        [
+          75,
+          12
+        ],
+        [
+          75,
+          43
+        ],
+        [
+          75,
+          69
+        ],
+        [
+          78,
+          38
+        ],
+        [
+          78,
+          47
+        ],
+        [
+          86,
+          38
+        ],
+        [
+          86,
+          47
+        ],
+        [
+          92,
+          38
+        ],
+        [
+          92,
+          47
+        ],
+        [
+          97,
+          38
+        ],
+        [
+          97,
+          47
+        ]
+      ],
+      "tokens": {
+        "prompt": 538,
+        "completion": 174
+      }
+    },
+    {
+      "ca": 6,
+      "cb": 3,
+      "size_a": 10,
+      "size_b": 10,
+      "sample_rate": 0.24,
+      "matches": [
+        [
+          0,
+          66
+        ],
+        [
+          7,
+          42
+        ],
+        [
+          7,
+          62
+        ],
+        [
+          7,
+          81
+        ],
+        [
+          7,
+          84
+        ],
+        [
+          7,
+          98
+        ],
+        [
+          34,
+          66
+        ],
+        [
+          52,
+          66
+        ],
+        [
+          75,
+          66
+        ],
+        [
+          78,
+          42
+        ],
+        [
+          78,
+          62
+        ],
+        [
+          78,
+          81
+        ],
+        [
+          78,
+          98
+        ],
+        [
+          86,
+          42
+        ],
+        [
+          86,
+          62
+        ],
+        [
+          86,
+          81
+        ],
+        [
+          86,
+          84
+        ],
+        [
+          86,
+          98
+        ],
+        [
+          92,
+          42
+        ],
+        [
+          92,
+          62
+        ],
+        [
+          92,
+          81
+        ],
+        [
+          92,
+          98
+        ],
+        [
+          97,
+          42
+        ],
+        [
+          97,
+          62
+        ],
+        [
+          97,
+          81
+        ],
+        [
+          97,
+          98
+        ]
+      ],
+      "tokens": {
+        "prompt": 538,
+        "completion": 185
+      }
+    },
+    {
+      "ca": 6,
+      "cb": 4,
+      "size_a": 10,
+      "size_b": 10,
+      "sample_rate": 0.16,
+      "matches": [
+        [
+          41,
+          4
+        ],
+        [
+          41,
+          71
+        ],
+        [
+          78,
+          9
+        ],
+        [
+          86,
+          9
+        ],
+        [
+          86,
+          67
+        ],
+        [
+          92,
+          9
+        ],
+        [
+          97,
+          9
+        ]
+      ],
+      "tokens": {
+        "prompt": 538,
+        "completion": 94
+      }
+    },
+    {
+      "ca": 6,
+      "cb": 5,
+      "size_a": 10,
+      "size_b": 10,
+      "sample_rate": 0.12,
+      "matches": [
+        [
+          0,
+          41
+        ],
+        [
+          0,
+          75
+        ],
+        [
+          7,
+          26
+        ],
+        [
+          7,
+          44
+        ],
+        [
+          7,
+          75
+        ],
+        [
+          34,
+          41
+        ],
+        [
+          34,
+          75
+        ],
+        [
+          41,
+          41
+        ],
+        [
+          41,
+          75
+        ],
+        [
+          52,
+          41
+        ],
+        [
+          52,
+          75
+        ],
+        [
+          75,
+          41
+        ],
+        [
+          75,
+          75
+        ],
+        [
+          78,
+          41
+        ],
+        [
+          78,
+          75
+        ],
+        [
+          86,
+          26
+        ],
+        [
+          86,
+          44
+        ],
+        [
+          86,
+          75
+        ],
+        [
+          92,
+          41
+        ],
+        [
+          92,
+          75
+        ],
+        [
+          97,
+          41
+        ],
+        [
+          97,
+          75
+        ]
+      ],
+      "tokens": {
+        "prompt": 538,
+        "completion": 164
+      }
+    },
+    {
+      "ca": 6,
+      "cb": 6,
+      "size_a": 10,
+      "size_b": 10,
+      "sample_rate": 0.4,
+      "matches": [
+        [
+          7,
+          11
+        ],
+        [
+          7,
+          34
+        ],
+        [
+          41,
+          10
+        ],
+        [
+          41,
+          36
+        ],
+        [
+          41,
+          52
+        ],
+        [
+          78,
+          10
+        ],
+        [
+          78,
+          36
+        ],
+        [
+          78,
+          52
+        ],
+        [
+          86,
+          10
+        ],
+        [
+          86,
+          36
+        ],
+        [
+          86,
+          52
+        ],
+        [
+          92,
+          10
+        ],
+        [
+          92,
+          36
+        ],
+        [
+          92,
+          52
+        ],
+        [
+          97,
+          10
+        ],
+        [
+          97,
+          36
+        ],
+        [
+          97,
+          52
+        ]
+      ],
+      "tokens": {
+        "prompt": 538,
+        "completion": 143
+      }
+    },
+    {
+      "ca": 6,
+      "cb": 7,
+      "size_a": 10,
+      "size_b": 10,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          41,
+          60
+        ],
+        [
+          41,
+          68
+        ],
+        [
+          41,
+          80
+        ],
+        [
+          78,
+          82
+        ]
+      ],
+      "tokens": {
+        "prompt": 538,
+        "completion": 82
+      }
+    },
+    {
+      "ca": 6,
+      "cb": 8,
+      "size_a": 10,
+      "size_b": 10,
+      "sample_rate": 0.08,
+      "matches": [
+        [
+          7,
+          13
+        ],
+        [
+          41,
+          77
+        ],
+        [
+          78,
+          13
+        ],
+        [
+          86,
+          33
+        ],
+        [
+          92,
+          13
+        ],
+        [
+          97,
+          13
+        ]
+      ],
+      "tokens": {
+        "prompt": 538,
+        "completion": 88
+      }
+    },
+    {
+      "ca": 6,
+      "cb": 9,
+      "size_a": 10,
+      "size_b": 10,
+      "sample_rate": 0.2,
+      "matches": [
+        [
+          0,
+          53
+        ],
+        [
+          0,
+          73
+        ],
+        [
+          7,
+          14
+        ],
+        [
+          7,
+          27
+        ],
+        [
+          7,
+          97
+        ],
+        [
+          34,
+          53
+        ],
+        [
+          34,
+          73
+        ],
+        [
+          41,
+          14
+        ],
+        [
+          41,
+          27
+        ],
+        [
+          41,
+          97
+        ],
+        [
+          52,
+          53
+        ],
+        [
+          52,
+          73
+        ],
+        [
+          75,
+          53
+        ],
+        [
+          75,
+          73
+        ],
+        [
+          78,
+          14
+        ],
+        [
+          78,
+          27
+        ],
+        [
+          78,
+          97
+        ],
+        [
+          86,
+          14
+        ],
+        [
+          86,
+          27
+        ],
+        [
+          86,
+          97
+        ],
+        [
+          92,
+          14
+        ],
+        [
+          92,
+          27
+        ],
+        [
+          92,
+          97
+        ],
+        [
+          97,
+          14
+        ],
+        [
+          97,
+          27
+        ],
+        [
+          97,
+          97
+        ]
+      ],
+      "tokens": {
+        "prompt": 538,
+        "completion": 184
+      }
+    },
+    {
+      "ca": 7,
+      "cb": 0,
+      "size_a": 10,
+      "size_b": 10,
+      "sample_rate": 0.4,
+      "matches": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          37
+        ],
+        [
+          1,
+          40
+        ],
+        [
+          1,
+          93
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          4,
+          37
+        ],
+        [
+          4,
+          40
+        ],
+        [
+          4,
+          93
+        ],
+        [
+          8,
+          78
+        ],
+        [
+          18,
+          78
+        ],
+        [
+          47,
+          1
+        ],
+        [
+          47,
+          3
+        ],
+        [
+          47,
+          37
+        ],
+        [
+          47,
+          40
+        ],
+        [
+          47,
+          93
+        ],
+        [
+          65,
+          1
+        ],
+        [
+          65,
+          3
+        ],
+        [
+          65,
+          37
+        ],
+        [
+          65,
+          40
+        ],
+        [
+          65,
+          93
+        ],
+        [
+          68,
+          1
+        ],
+        [
+          68,
+          3
+        ],
+        [
+          68,
+          37
+        ],
+        [
+          68,
+          40
+        ],
+        [
+          68,
+          93
+        ]
+      ],
+      "tokens": {
+        "prompt": 538,
+        "completion": 192
+      }
+    },
+    {
+      "ca": 7,
+      "cb": 1,
+      "size_a": 10,
+      "size_b": 10,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          1,
+          17
+        ],
+        [
+          1,
+          24
+        ],
+        [
+          1,
+          49
+        ],
+        [
+          4,
+          17
+        ],
+        [
+          4,
+          24
+        ],
+        [
+          4,
+          49
+        ],
+        [
+          8,
+          87
+        ],
+        [
+          18,
+          87
+        ],
+        [
+          47,
+          87
+        ],
+        [
+          63,
+          18
+        ],
+        [
+          65,
+          87
+        ],
+        [
+          68,
+          87
+        ],
+        [
+          98,
+          18
+        ]
+      ],
+      "tokens": {
+        "prompt": 538,
+        "completion": 120
+      }
+    },
+    {
+      "ca": 7,
+      "cb": 2,
+      "size_a": 10,
+      "size_b": 10,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          1,
+          12
+        ],
+        [
+          1,
+          43
+        ],
+        [
+          1,
+          69
+        ],
+        [
+          4,
+          12
+        ],
+        [
+          4,
+          43
+        ],
+        [
+          4,
+          69
+        ],
+        [
+          8,
+          38
+        ],
+        [
+          8,
+          47
+        ],
+        [
+          18,
+          38
+        ],
+        [
+          18,
+          47
+        ],
+        [
+          47,
+          38
+        ],
+        [
+          47,
+          47
+        ],
+        [
+          63,
+          0
+        ],
+        [
+          63,
+          7
+        ],
+        [
+          63,
+          64
+        ],
+        [
+          63,
+          91
+        ],
+        [
+          65,
+          38
+        ],
+        [
+          65,
+          47
+        ],
+        [
+          68,
+          38
+        ],
+        [
+          68,
+          47
+        ],
+        [
+          98,
+          0
+        ],
+        [
+          98,
+          7
+        ],
+        [
+          98,
+          64
+        ],
+        [
+          98,
+          91
+        ]
+      ],
+      "tokens": {
+        "prompt": 538,
+        "completion": 175
+      }
+    },
+    {
+      "ca": 7,
+      "cb": 3,
+      "size_a": 10,
+      "size_b": 10,
+      "sample_rate": 0.36,
+      "matches": [
+        [
+          1,
+          66
+        ],
+        [
+          1,
+          81
+        ],
+        [
+          4,
+          66
+        ],
+        [
+          4,
+          81
+        ],
+        [
+          8,
+          66
+        ],
+        [
+          18,
+          66
+        ],
+        [
+          36,
+          66
+        ],
+        [
+          47,
+          66
+        ],
+        [
+          63,
+          66
+        ],
+        [
+          63,
+          84
+        ],
+        [
+          65,
+          66
+        ],
+        [
+          68,
+          66
+        ],
+        [
+          98,
+          66
+        ],
+        [
+          98,
+          84
+        ]
+      ],
+      "tokens": {
+        "prompt": 538,
+        "completion": 124
+      }
+    },
+    {
+      "ca": 7,
+      "cb": 4,
+      "size_a": 10,
+      "size_b": 10,
+      "sample_rate": 0.16,
+      "matches": [
+        [
+          1,
+          4
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          18,
+          9
+        ],
+        [
+          36,
+          71
+        ],
+        [
+          47,
+          67
+        ],
+        [
+          65,
+          67
+        ],
+        [
+          68,
+          67
+        ]
+      ],
+      "tokens": {
+        "prompt": 538,
+        "completion": 96
+      }
+    },
+    {
+      "ca": 7,
+      "cb": 5,
+      "size_a": 10,
+      "size_b": 10,
+      "sample_rate": 0.24,
+      "matches": [
+        [
+          1,
+          26
+        ],
+        [
+          1,
+          44
+        ],
+        [
+          4,
+          26
+        ],
+        [
+          4,
+          44
+        ],
+        [
+          8,
+          54
+        ],
+        [
+          8,
+          58
+        ],
+        [
+          8,
+          76
+        ],
+        [
+          18,
+          54
+        ],
+        [
+          18,
+          58
+        ],
+        [
+          18,
+          76
+        ],
+        [
+          47,
+          54
+        ],
+        [
+          47,
+          58
+        ],
+        [
+          47,
+          76
+        ],
+        [
+          63,
+          25
+        ],
+        [
+          63,
+          55
+        ],
+        [
+          63,
+          83
+        ],
+        [
+          65,
+          54
+        ],
+        [
+          65,
+          58
+        ],
+        [
+          65,
+          76
+        ],
+        [
+          68,
+          54
+        ],
+        [
+          68,
+          58
+        ],
+        [
+          68,
+          76
+        ],
+        [
+          98,
+          25
+        ],
+        [
+          98,
+          55
+        ],
+        [
+          98,
+          83
+        ]
+      ],
+      "tokens": {
+        "prompt": 538,
+        "completion": 180
+      }
+    },
+    {
+      "ca": 7,
+      "cb": 6,
+      "size_a": 10,
+      "size_b": 10,
+      "sample_rate": 0.32,
+      "matches": [
+        [
+          1,
+          63
+        ],
+        [
+          1,
+          74
+        ],
+        [
+          4,
+          63
+        ],
+        [
+          4,
+          74
+        ],
+        [
+          8,
+          10
+        ],
+        [
+          8,
+          36
+        ],
+        [
+          8,
+          52
+        ],
+        [
+          18,
+          10
+        ],
+        [
+          18,
+          36
+        ],
+        [
+          18,
+          52
+        ],
+        [
+          47,
+          10
+        ],
+        [
+          47,
+          36
+        ],
+        [
+          47,
+          52
+        ],
+        [
+          63,
+          10
+        ],
+        [
+          63,
+          36
+        ],
+        [
+          63,
+          52
+        ],
+        [
+          65,
+          10
+        ],
+        [
+          65,
+          36
+        ],
+        [
+          65,
+          52
+        ],
+        [
+          68,
+          10
+        ],
+        [
+          68,
+          36
+        ],
+        [
+          68,
+          52
+        ],
+        [
+          98,
+          10
+        ],
+        [
+          98,
+          36
+        ],
+        [
+          98,
+          52
+        ]
+      ],
+      "tokens": {
+        "prompt": 538,
+        "completion": 180
+      }
+    },
+    {
+      "ca": 7,
+      "cb": 7,
+      "size_a": 10,
+      "size_b": 10,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          8,
+          82
+        ],
+        [
+          18,
+          82
+        ],
+        [
+          36,
+          48
+        ],
+        [
+          36,
+          61
+        ],
+        [
+          36,
+          85
+        ],
+        [
+          36,
+          88
+        ],
+        [
+          47,
+          82
+        ],
+        [
+          65,
+          82
+        ],
+        [
+          68,
+          82
+        ]
+      ],
+      "tokens": {
+        "prompt": 538,
+        "completion": 103
+      }
+    },
+    {
+      "ca": 7,
+      "cb": 8,
+      "size_a": 10,
+      "size_b": 10,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          1,
+          77
+        ],
+        [
+          4,
+          77
+        ]
+      ],
+      "tokens": {
+        "prompt": 538,
+        "completion": 72
+      }
+    },
+    {
+      "ca": 7,
+      "cb": 9,
+      "size_a": 10,
+      "size_b": 10,
+      "sample_rate": 0.12,
+      "matches": [
+        [
+          1,
+          8
+        ],
+        [
+          1,
+          19
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          4,
+          19
+        ],
+        [
+          8,
+          73
+        ],
+        [
+          18,
+          73
+        ],
+        [
+          47,
+          73
+        ],
+        [
+          63,
+          53
+        ],
+        [
+          65,
+          73
+        ],
+        [
+          68,
+          73
+        ],
+        [
+          98,
+          53
+        ]
+      ],
+      "tokens": {
+        "prompt": 538,
+        "completion": 110
+      }
+    },
+    {
+      "ca": 8,
+      "cb": 0,
+      "size_a": 10,
+      "size_b": 10,
+      "sample_rate": 0.2,
+      "matches": [
+        [
+          5,
+          78
+        ],
+        [
+          5,
+          86
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          6,
+          37
+        ],
+        [
+          6,
+          40
+        ],
+        [
+          6,
+          93
+        ],
+        [
+          17,
+          1
+        ],
+        [
+          17,
+          3
+        ],
+        [
+          17,
+          37
+        ],
+        [
+          17,
+          40
+        ],
+        [
+          17,
+          93
+        ],
+        [
+          22,
+          1
+        ],
+        [
+          22,
+          3
+        ],
+        [
+          22,
+          37
+        ],
+        [
+          22,
+          40
+        ],
+        [
+          22,
+          93
+        ],
+        [
+          23,
+          1
+        ],
+        [
+          23,
+          3
+        ],
+        [
+          23,
+          37
+        ],
+        [
+          23,
+          40
+        ],
+        [
+          23,
+          93
+        ],
+        [
+          26,
+          1
+        ],
+        [
+          26,
+          3
+        ],
+        [
+          26,
+          37
+        ],
+        [
+          26,
+          40
+        ],
+        [
+          26,
+          93
+        ],
+        [
+          46,
+          1
+        ],
+        [
+          46,
+          3
+        ],
+        [
+          46,
+          37
+        ],
+        [
+          46,
+          40
+        ],
+        [
+          46,
+          93
+        ],
+        [
+          73,
+          1
+        ],
+        [
+          73,
+          3
+        ],
+        [
+          73,
+          37
+        ],
+        [
+          73,
+          40
+        ],
+        [
+          73,
+          93
+        ],
+        [
+          74,
+          1
+        ],
+        [
+          74,
+          3
+        ],
+        [
+          74,
+          37
+        ],
+        [
+          74,
+          40
+        ],
+        [
+          74,
+          93
+        ],
+        [
+          76,
+          1
+        ],
+        [
+          76,
+          3
+        ],
+        [
+          76,
+          37
+        ],
+        [
+          76,
+          40
+        ],
+        [
+          76,
+          93
+        ]
+      ],
+      "tokens": {
+        "prompt": 538,
+        "completion": 289
+      }
+    },
+    {
+      "ca": 8,
+      "cb": 1,
+      "size_a": 10,
+      "size_b": 10,
+      "sample_rate": 0.04,
+      "matches": [
+        [
+          5,
+          87
+        ],
+        [
+          17,
+          17
+        ],
+        [
+          17,
+          24
+        ],
+        [
+          17,
+          49
+        ],
+        [
+          22,
+          87
+        ],
+        [
+          23,
+          87
+        ],
+        [
+          26,
+          18
+        ],
+        [
+          46,
+          17
+        ],
+        [
+          46,
+          24
+        ],
+        [
+          46,
+          49
+        ],
+        [
+          73,
+          18
+        ],
+        [
+          74,
+          87
+        ],
+        [
+          76,
+          18
+        ]
+      ],
+      "tokens": {
+        "prompt": 538,
+        "completion": 120
+      }
+    },
+    {
+      "ca": 8,
+      "cb": 2,
+      "size_a": 10,
+      "size_b": 10,
+      "sample_rate": 0.2,
+      "matches": [
+        [
+          5,
+          12
+        ],
+        [
+          5,
+          43
+        ],
+        [
+          5,
+          69
+        ],
+        [
+          17,
+          38
+        ],
+        [
+          17,
+          47
+        ],
+        [
+          26,
+          0
+        ],
+        [
+          26,
+          7
+        ],
+        [
+          26,
+          64
+        ],
+        [
+          26,
+          91
+        ],
+        [
+          46,
+          38
+        ],
+        [
+          46,
+          47
+        ],
+        [
+          73,
+          0
+        ],
+        [
+          73,
+          7
+        ],
+        [
+          73,
+          64
+        ],
+        [
+          73,
+          91
+        ],
+        [
+          76,
+          0
+        ],
+        [
+          76,
+          7
+        ],
+        [
+          76,
+          64
+        ],
+        [
+          76,
+          91
+        ]
+      ],
+      "tokens": {
+        "prompt": 538,
+        "completion": 153
+      }
+    },
+    {
+      "ca": 8,
+      "cb": 3,
+      "size_a": 10,
+      "size_b": 10,
+      "sample_rate": 0.48,
+      "matches": [
+        [
+          5,
+          84
+        ],
+        [
+          6,
+          81
+        ],
+        [
+          17,
+          42
+        ],
+        [
+          17,
+          62
+        ],
+        [
+          17,
+          98
+        ],
+        [
+          22,
+          84
+        ],
+        [
+          23,
+          84
+        ],
+        [
+          26,
+          21
+        ],
+        [
+          26,
+          39
+        ],
+        [
+          26,
+          90
+        ],
+        [
+          26,
+          94
+        ],
+        [
+          46,
+          42
+        ],
+        [
+          46,
+          62
+        ],
+        [
+          46,
+          98
+        ],
+        [
+          73,
+          21
+        ],
+        [
+          73,
+          39
+        ],
+        [
+          73,
+          90
+        ],
+        [
+          73,
+          94
+        ],
+        [
+          74,
+          84
+        ],
+        [
+          76,
+          21
+        ],
+        [
+          76,
+          39
+        ],
+        [
+          76,
+          90
+        ],
+        [
+          76,
+          94
+        ]
+      ],
+      "tokens": {
+        "prompt": 538,
+        "completion": 169
+      }
+    },
+    {
+      "ca": 8,
+      "cb": 4,
+      "size_a": 10,
+      "size_b": 10,
+      "sample_rate": 0.32,
+      "matches": [
+        [
+          5,
+          2
+        ],
+        [
+          5,
+          15
+        ],
+        [
+          5,
+          31
+        ],
+        [
+          5,
+          35
+        ],
+        [
+          5,
+          96
+        ],
+        [
+          6,
+          2
+        ],
+        [
+          6,
+          4
+        ],
+        [
+          6,
+          15
+        ],
+        [
+          6,
+          31
+        ],
+        [
+          6,
+          35
+        ],
+        [
+          6,
+          96
+        ],
+        [
+          17,
+          2
+        ],
+        [
+          17,
+          15
+        ],
+        [
+          17,
+          31
+        ],
+        [
+          17,
+          35
+        ],
+        [
+          17,
+          96
+        ],
+        [
+          22,
+          2
+        ],
+        [
+          22,
+          4
+        ],
+        [
+          22,
+          9
+        ],
+        [
+          22,
+          15
+        ],
+        [
+          22,
+          31
+        ],
+        [
+          22,
+          35
+        ],
+        [
+          22,
+          96
+        ],
+        [
+          23,
+          2
+        ],
+        [
+          23,
+          4
+        ],
+        [
+          23,
+          9
+        ],
+        [
+          23,
+          15
+        ],
+        [
+          23,
+          31
+        ],
+        [
+          23,
+          35
+        ],
+        [
+          23,
+          96
+        ],
+        [
+          26,
+          2
+        ],
+        [
+          26,
+          4
+        ],
+        [
+          26,
+          9
+        ],
+        [
+          26,
+          15
+        ],
+        [
+          26,
+          31
+        ],
+        [
+          26,
+          35
+        ],
+        [
+          26,
+          56
+        ],
+        [
+          26,
+          96
+        ],
+        [
+          46,
+          2
+        ],
+        [
+          46,
+          15
+        ],
+        [
+          46,
+          31
+        ],
+        [
+          46,
+          35
+        ],
+        [
+          46,
+          96
+        ],
+        [
+          73,
+          2
+        ],
+        [
+          73,
+          4
+        ],
+        [
+          73,
+          9
+        ],
+        [
+          73,
+          15
+        ],
+        [
+          73,
+          31
+        ],
+        [
+          73,
+          35
+        ],
+        [
+          73,
+          56
+        ],
+        [
+          73,
+          67
+        ],
+        [
+          73,
+          96
+        ],
+        [
+          74,
+          2
+        ],
+        [
+          74,
+          4
+        ],
+        [
+          74,
+          9
+        ],
+        [
+          74,
+          15
+        ],
+        [
+          74,
+          31
+        ],
+        [
+          74,
+          35
+        ],
+        [
+          74,
+          56
+        ],
+        [
+          74,
+          96
+        ],
+        [
+          76,
+          2
+        ],
+        [
+          76,
+          4
+        ],
+        [
+          76,
+          9
+        ],
+        [
+          76,
+          15
+        ],
+        [
+          76,
+          31
+        ],
+        [
+          76,
+          35
+        ],
+        [
+          76,
+          56
+        ],
+        [
+          76,
+          67
+        ],
+        [
+          76,
+          96
+        ]
+      ],
+      "tokens": {
+        "prompt": 538,
+        "completion": 399
+      }
+    },
+    {
+      "ca": 8,
+      "cb": 5,
+      "size_a": 10,
+      "size_b": 10,
+      "sample_rate": 0.48,
+      "matches": [
+        [
+          5,
+          26
+        ],
+        [
+          5,
+          44
+        ],
+        [
+          22,
+          54
+        ],
+        [
+          22,
+          58
+        ],
+        [
+          22,
+          76
+        ],
+        [
+          23,
+          54
+        ],
+        [
+          23,
+          58
+        ],
+        [
+          23,
+          76
+        ],
+        [
+          26,
+          25
+        ],
+        [
+          26,
+          55
+        ],
+        [
+          26,
+          83
+        ],
+        [
+          73,
+          25
+        ],
+        [
+          73,
+          55
+        ],
+        [
+          73,
+          83
+        ],
+        [
+          74,
+          54
+        ],
+        [
+          74,
+          58
+        ],
+        [
+          74,
+          76
+        ],
+        [
+          76,
+          25
+        ],
+        [
+          76,
+          55
+        ],
+        [
+          76,
+          83
+        ]
+      ],
+      "tokens": {
+        "prompt": 538,
+        "completion": 157
+      }
+    },
+    {
+      "ca": 8,
+      "cb": 6,
+      "size_a": 10,
+      "size_b": 10,
+      "sample_rate": 0.48,
+      "matches": [
+        [
+          5,
+          63
+        ],
+        [
+          5,
+          74
+        ],
+        [
+          6,
+          10
+        ],
+        [
+          6,
+          36
+        ],
+        [
+          6,
+          52
+        ],
+        [
+          17,
+          63
+        ],
+        [
+          17,
+          74
+        ],
+        [
+          22,
+          10
+        ],
+        [
+          22,
+          36
+        ],
+        [
+          22,
+          52
+        ],
+        [
+          23,
+          10
+        ],
+        [
+          23,
+          36
+        ],
+        [
+          23,
+          52
+        ],
+        [
+          26,
+          11
+        ],
+        [
+          26,
+          34
+        ],
+        [
+          46,
+          63
+        ],
+        [
+          46,
+          74
+        ],
+        [
+          73,
+          11
+        ],
+        [
+          73,
+          34
+        ],
+        [
+          74,
+          10
+        ],
+        [
+          74,
+          36
+        ],
+        [
+          74,
+          52
+        ],
+        [
+          76,
+          11
+        ],
+        [
+          76,
+          34
+        ]
+      ],
+      "tokens": {
+        "prompt": 538,
+        "completion": 174
+      }
+    },
+    {
+      "ca": 8,
+      "cb": 7,
+      "size_a": 10,
+      "size_b": 10,
+      "sample_rate": 0.12,
+      "matches": [
+        [
+          5,
+          48
+        ],
+        [
+          5,
+          61
+        ],
+        [
+          5,
+          85
+        ],
+        [
+          5,
+          88
+        ],
+        [
+          6,
+          82
+        ],
+        [
+          17,
+          48
+        ],
+        [
+          17,
+          61
+        ],
+        [
+          17,
+          85
+        ],
+        [
+          17,
+          88
+        ],
+        [
+          22,
+          82
+        ],
+        [
+          23,
+          82
+        ],
+        [
+          46,
+          48
+        ],
+        [
+          46,
+          61
+        ],
+        [
+          46,
+          85
+        ],
+        [
+          46,
+          88
+        ],
+        [
+          74,
+          82
+        ]
+      ],
+      "tokens": {
+        "prompt": 538,
+        "completion": 137
+      }
+    },
+    {
+      "ca": 8,
+      "cb": 8,
+      "size_a": 10,
+      "size_b": 10,
+      "sample_rate": 0.76,
+      "matches": [
+        [
+          5,
+          5
+        ],
+        [
+          6,
+          13
+        ],
+        [
+          6,
+          72
+        ],
+        [
+          17,
+          46
+        ],
+        [
+          17,
+          57
+        ],
+        [
+          22,
+          13
+        ],
+        [
+          22,
+          72
+        ],
+        [
+          23,
+          13
+        ],
+        [
+          23,
+          72
+        ],
+        [
+          26,
+          33
+        ],
+        [
+          46,
+          46
+        ],
+        [
+          46,
+          57
+        ],
+        [
+          73,
+          33
+        ],
+        [
+          74,
+          13
+        ],
+        [
+          74,
+          72
+        ],
+        [
+          76,
+          33
+        ]
+      ],
+      "tokens": {
+        "prompt": 538,
+        "completion": 134
+      }
+    },
+    {
+      "ca": 8,
+      "cb": 9,
+      "size_a": 10,
+      "size_b": 10,
+      "sample_rate": 0.2,
+      "matches": [
+        [
+          5,
+          14
+        ],
+        [
+          5,
+          27
+        ],
+        [
+          5,
+          97
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          6,
+          19
+        ],
+        [
+          17,
+          8
+        ],
+        [
+          17,
+          19
+        ],
+        [
+          22,
+          8
+        ],
+        [
+          22,
+          19
+        ],
+        [
+          23,
+          8
+        ],
+        [
+          23,
+          19
+        ],
+        [
+          26,
+          8
+        ],
+        [
+          26,
+          19
+        ],
+        [
+          46,
+          8
+        ],
+        [
+          46,
+          19
+        ],
+        [
+          73,
+          8
+        ],
+        [
+          73,
+          19
+        ],
+        [
+          74,
+          8
+        ],
+        [
+          74,
+          19
+        ],
+        [
+          76,
+          8
+        ],
+        [
+          76,
+          19
+        ]
+      ],
+      "tokens": {
+        "prompt": 538,
+        "completion": 159
+      }
+    },
+    {
+      "ca": 9,
+      "cb": 0,
+      "size_a": 10,
+      "size_b": 10,
+      "sample_rate": 0.4,
+      "matches": [
+        [
+          42,
+          78
+        ],
+        [
+          44,
+          78
+        ],
+        [
+          50,
+          86
+        ],
+        [
+          57,
+          86
+        ],
+        [
+          89,
+          86
+        ]
+      ],
+      "tokens": {
+        "prompt": 538,
+        "completion": 84
+      }
+    },
+    {
+      "ca": 9,
+      "cb": 1,
+      "size_a": 10,
+      "size_b": 10,
+      "sample_rate": 0.36,
+      "matches": [
+        [
+          42,
+          87
+        ],
+        [
+          44,
+          87
+        ],
+        [
+          50,
+          6
+        ],
+        [
+          57,
+          6
+        ],
+        [
+          77,
+          17
+        ],
+        [
+          77,
+          24
+        ],
+        [
+          77,
+          49
+        ],
+        [
+          89,
+          6
+        ]
+      ],
+      "tokens": {
+        "prompt": 538,
+        "completion": 98
+      }
+    },
+    {
+      "ca": 9,
+      "cb": 2,
+      "size_a": 10,
+      "size_b": 10,
+      "sample_rate": 0.2,
+      "matches": [
+        [
+          14,
+          12
+        ],
+        [
+          14,
+          43
+        ],
+        [
+          14,
+          69
+        ],
+        [
+          19,
+          12
+        ],
+        [
+          19,
+          43
+        ],
+        [
+          19,
+          69
+        ],
+        [
+          31,
+          12
+        ],
+        [
+          31,
+          43
+        ],
+        [
+          31,
+          69
+        ],
+        [
+          38,
+          12
+        ],
+        [
+          38,
+          43
+        ],
+        [
+          38,
+          69
+        ],
+        [
+          42,
+          38
+        ],
+        [
+          42,
+          47
+        ],
+        [
+          44,
+          38
+        ],
+        [
+          44,
+          47
+        ],
+        [
+          50,
+          79
+        ],
+        [
+          57,
+          79
+        ],
+        [
+          89,
+          79
+        ]
+      ],
+      "tokens": {
+        "prompt": 538,
+        "completion": 150
+      }
+    },
+    {
+      "ca": 9,
+      "cb": 3,
+      "size_a": 10,
+      "size_b": 10,
+      "sample_rate": 0.2,
+      "matches": [
+        [
+          42,
+          84
+        ],
+        [
+          44,
+          84
+        ],
+        [
+          50,
+          42
+        ],
+        [
+          50,
+          62
+        ],
+        [
+          50,
+          98
+        ],
+        [
+          57,
+          42
+        ],
+        [
+          57,
+          62
+        ],
+        [
+          57,
+          98
+        ],
+        [
+          77,
+          81
+        ],
+        [
+          89,
+          42
+        ],
+        [
+          89,
+          62
+        ],
+        [
+          89,
+          98
+        ]
+      ],
+      "tokens": {
+        "prompt": 538,
+        "completion": 118
+      }
+    },
+    {
+      "ca": 9,
+      "cb": 4,
+      "size_a": 10,
+      "size_b": 10,
+      "sample_rate": 0.04,
+      "matches": [
+        [
+          44,
+          67
+        ],
+        [
+          50,
+          9
+        ],
+        [
+          50,
+          56
+        ],
+        [
+          57,
+          9
+        ],
+        [
+          57,
+          56
+        ],
+        [
+          77,
+          4
+        ],
+        [
+          77,
+          71
+        ],
+        [
+          89,
+          9
+        ],
+        [
+          89,
+          56
+        ]
+      ],
+      "tokens": {
+        "prompt": 538,
+        "completion": 104
+      }
+    },
+    {
+      "ca": 9,
+      "cb": 5,
+      "size_a": 10,
+      "size_b": 10,
+      "sample_rate": 0.16,
+      "matches": [
+        [
+          42,
+          54
+        ],
+        [
+          42,
+          58
+        ],
+        [
+          42,
+          76
+        ],
+        [
+          44,
+          54
+        ],
+        [
+          44,
+          58
+        ],
+        [
+          44,
+          76
+        ],
+        [
+          77,
+          26
+        ],
+        [
+          77,
+          44
+        ]
+      ],
+      "tokens": {
+        "prompt": 538,
+        "completion": 101
+      }
+    },
+    {
+      "ca": 9,
+      "cb": 6,
+      "size_a": 10,
+      "size_b": 10,
+      "sample_rate": 0.44,
+      "matches": [
+        [
+          42,
+          10
+        ],
+        [
+          42,
+          36
+        ],
+        [
+          42,
+          52
+        ],
+        [
+          44,
+          10
+        ],
+        [
+          44,
+          36
+        ],
+        [
+          44,
+          52
+        ],
+        [
+          50,
+          63
+        ],
+        [
+          50,
+          74
+        ],
+        [
+          57,
+          63
+        ],
+        [
+          57,
+          74
+        ],
+        [
+          89,
+          63
+        ],
+        [
+          89,
+          74
+        ]
+      ],
+      "tokens": {
+        "prompt": 538,
+        "completion": 119
+      }
+    },
+    {
+      "ca": 9,
+      "cb": 7,
+      "size_a": 10,
+      "size_b": 10,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          42,
+          82
+        ],
+        [
+          44,
+          82
+        ],
+        [
+          77,
+          48
+        ],
+        [
+          77,
+          61
+        ],
+        [
+          77,
+          85
+        ],
+        [
+          77,
+          88
+        ]
+      ],
+      "tokens": {
+        "prompt": 538,
+        "completion": 91
+      }
+    },
+    {
+      "ca": 9,
+      "cb": 8,
+      "size_a": 10,
+      "size_b": 10,
+      "sample_rate": 0.08,
+      "matches": [
+        [
+          14,
+          13
+        ],
+        [
+          14,
+          72
+        ],
+        [
+          19,
+          13
+        ],
+        [
+          19,
+          72
+        ],
+        [
+          31,
+          13
+        ],
+        [
+          31,
+          72
+        ],
+        [
+          38,
+          13
+        ],
+        [
+          38,
+          72
+        ],
+        [
+          50,
+          5
+        ],
+        [
+          50,
+          57
+        ],
+        [
+          57,
+          5
+        ],
+        [
+          57,
+          57
+        ],
+        [
+          89,
+          5
+        ],
+        [
+          89,
+          57
+        ]
+      ],
+      "tokens": {
+        "prompt": 538,
+        "completion": 127
+      }
+    },
+    {
+      "ca": 9,
+      "cb": 9,
+      "size_a": 10,
+      "size_b": 10,
+      "sample_rate": 0.2,
+      "matches": [
+        [
+          14,
+          53
+        ],
+        [
+          19,
+          53
+        ],
+        [
+          31,
+          53
+        ],
+        [
+          38,
+          53
+        ],
+        [
+          42,
+          73
+        ],
+        [
+          44,
+          73
+        ]
+      ],
+      "tokens": {
+        "prompt": 538,
+        "completion": 88
+      }
+    }
+  ]
+}

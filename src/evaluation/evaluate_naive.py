@@ -20,7 +20,7 @@ def load_extrapolation_datasets():
     print("Loading datasets for Naive Extrapolation...")
 
     so_gt_df = pd.read_csv('data/stack_ground_truth.csv')
-    so_gt_pairs = set(zip(so_gt_df['question_id'], so_gt_df['concept_id']))
+    so_gt_pairs = set(zip(so_gt_df['question_id'].astype(int), so_gt_df['concept_id'].astype(str)))
     
     return {
         "IMDB": {
@@ -34,8 +34,8 @@ def load_extrapolation_datasets():
         "Emails": {
             "a": pd.read_csv('data/table_a_emails.csv'),
             "b": pd.read_csv('data/table_b_emails.csv'),
-            "schema_a": ["email"], "schema_b": ["email"],
-            "pred": "the two texts contradict each other",
+            "schema_a": ["statement"], "schema_b": ["email"],
+            "pred": "The texts refer to the exact same person, and the internal email in Table B proves the witness statement in Table A is a lie.",
             "gt_fn": lambda a, b: (a["name"] == b["name"]) and (b["month_idx"] < a["month_idx"]),
             "sample_a": 10, "sample_b": 10
         },
@@ -45,7 +45,7 @@ def load_extrapolation_datasets():
             "schema_a": ["question_text"], 
             "schema_b": ["concept_name", "Description"],
             "pred": "The question describes symptoms, errors, or intents that are solved by or directly related to this programming concept.",
-            "gt_fn": lambda a, b: (a["question_id"], b["concept_id"]) in so_gt_pairs,
+            "gt_fn": lambda a, b: (int(a["question_id"]), str(b["concept_id"])) in so_gt_pairs,
             "sample_a": 10, "sample_b": 10 
         }
     }
@@ -54,7 +54,7 @@ def run_naive_extrapolated_baseline():
     datasets = load_extrapolation_datasets()
     trials = 3
     results = []
-    output_file = os.path.join(current_dir, 'logs/baseline_naive_extrapolated_report.csv')
+    output_file = os.path.join(current_dir, 'logs/baseline_naive.csv')
     
     print(f"\nStarting NAIVE Baseline (Block=1) with Extrapolation. Saving to {output_file}")
     

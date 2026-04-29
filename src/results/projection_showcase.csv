@@ -1,0 +1,125 @@
+Dataset,Original_Table_A_Text,LLM_Generated_Projection
+Emails,Linda: I first heard about the losses in April 2022.,I first told Linda about the losses in June 2022.
+Emails,Michael: I first heard about the losses in April 2022.,I first told Michael about the losses in March 2022.
+Emails,Elizabeth: I first heard about the losses in May 2022.,I first told Elizabeth about the losses in March 2022.
+Emails,Elizabeth: I first heard about the losses in June 2022.,I first told Elizabeth about the losses in March 2022.
+Emails,Michael: I first heard about the losses in April 2022.,I first told Michael about the losses in March 2022.
+Emails,John: I first heard about the losses in March 2022.,I first told John about the losses in March 2022.
+Emails,John: I first heard about the losses in May 2022.,I first told John about the losses in March 2022.
+Emails,Linda: I first heard about the losses in June 2022.,I first told Linda about the losses in June 2022.
+Emails,Michael: I first heard about the losses in May 2022.,I first told Michael about the losses in March 2022.
+Emails,Mary: I first heard about the losses in March 2022.,I first told Mary about the losses in March 2022.
+Emails,Robert: I first heard about the losses in May 2022.,I first told Robert about the losses in March 2022.
+Emails,Robert: I first heard about the losses in March 2022.,I first told Robert about the losses in March 2022.
+Emails,David: I first heard about the losses in May 2022.,I first told David about the losses in June 2022.
+Emails,Robert: I first heard about the losses in March 2022.,I first told Robert about the losses in March 2022.
+Emails,Jennifer: I first heard about the losses in June 2022.,I first told Jennifer about the losses in March 2022.
+StackOverflow (No Desc),"Title: ""AccessToken.user"" must be a ""User"" instance | Body: I am trying to figure out oAuth2 token based authentication since 3 days and no avail yet. I have written a code for user authentication. However, I am getting an error of 
+
+
+  ValueError at /api/customer/login/ Cannot assign ""{'username':
+  'sanskars'}"": ""AccessToken.user"" must be a ""User"" instance",java
+StackOverflow (No Desc),"Title: C# access data from COMAdmin.COMAdminCatalog using WMI | Body: Earlier I was using code as below to grab COM+ applications and verify that my app is running
+
+COMAdmin.COMAdminCatalog catalog = new COMAdmin.COMAdminCatalogClass();
+catalog.Connect(servername);
+catalog.GetCollection(""Applications"")
+
+
+Now I need to perform the same actions but from other domain. So",c#
+StackOverflow (No Desc),"Title: Share image from SD Card | Body: I'm trying for 2 weeks to find how to share images which are stored on an SD card with no success. 
+
+This answer doesn't work to me, nor is it what I'm looking for.
+
+I'm working with Cam Preview app that stores images to SD and then display them in in-app gallery: 
+
+   public class GalleryView exten",android
+StackOverflow (No Desc),"Title: Datatable filter not working | Body: I am using Primefaces for creating a filterable table.
+
+&lt;p:dataTable id=""tasksTable"" value=""#{taskView.currentTasks}"" var=""task"" rowIndexVar=""index"" filteredValue=""#{taskView.filteredTasks}""&gt;
+                &lt;p:column headerText=""Name""&gt;
+                    &lt;h:outputText value=""#{task.",java
+StackOverflow (No Desc),"Title: Numerical Problems with GNU MP Bignum Library | Body: I'm doing some number crunching, which needs high precision arithmetic. I'm using the GNU MP library, and according to the GMP manual:
+
+""Floating point number or Float for short, is an arbitrary precision mantissa with a limited precision exponent.""
+
+Although the mantissa is supposed to have an arbi",c++
+StackOverflow (No Desc),"Title: FATAL EXCEPTION: main- I have no idea what's wrong | Body: I'm still fairly new to Eclipse and I have tried everything to keep these errors from happening:
+
+06-30 00:38:28.773: E/AndroidRuntime(20520): FATAL EXCEPTION: main
+06-30 00:38:28.773: E/AndroidRuntime(20520): java.lang.SecurityException: Permission       Denial: starting Intent { act=android.intent",android
+StackOverflow (No Desc),"Title: Weights in a labeled_graph | Body: How do I add weights to this labeled graph that uses add_edge_by_label for use in dijkstra_shortest_paths?
+Am trying to use an example
+Thanks
+
+#include &lt;boost/graph/adjacency_list.hpp&gt;
+#include &lt;boost/graph/copy.hpp&gt;
+#include &lt;boost/graph/labeled_graph.hpp&gt;
+#include &lt;boost/graph",c++
+StackOverflow (No Desc),"Title: wxPython change field on tab | Body: I apologize for a simple question, but I did not see this in the tutorials.
+
+I have a very simple gui, but I would like the user to be able to press the TAB key and have it move from one input field to another.  I am using wxPython with Python 2.6.
+",python
+StackOverflow (No Desc),"Title: Jackson equivalent to @XmlSeeAlso | Body: I am writing a RESTful web service using Java and Jersey, where the service will accept either XML or JSON inputs. Jackson is used as the JSON deserializer, and integrated into the Jersey config.
+
+One of the endpoints is a POST request to a URL, where the content can be one of several different Java",java
+StackOverflow (No Desc),"Title: Checklist for good email delivery in php | Body: I have a PHP application that sends email using the pear Mail function. Unfortunately all my emails end up in the junk folder.
+
+Can i get a checklist for things i should do to make sure my emails are recieved correctly.
+
+Thank you
+",php
+StackOverflow (No Desc),"Title: Vaadin app is deployed on WildFly in Openshift, but i can see only standard openshift welcome page | Body: I'm a newbie with all that vaadin, wildfly and openshift stuff, so, please, excuse me, if I will sound stupid.
+
+I deployed my app to Wildfly 10 server. Everything was fine during deployment. But now I just can't see the rendered page (only welcome page can be accessed).
+
+When I depl...",java
+StackOverflow (No Desc),"Title: How to write an XQuery which crosses an xsd:any element? | Body: A schema contains a &lt;xsd:any/> element. 
+
+The code, by some external information, knows that in place of any there is a specific XML structure (e.g. foo).
+
+XQuery would be looking as /Root/Child/AnotherChild/book/title.
+
+But XQuery complains that book element is not known, and XQuery thus is not ",xquery
+StackOverflow (No Desc),"Title: Get image from a php file to iOS | Body: I want to get image from a php file (for example: http://abc.xyz.com/api/showImage.php) for a specific user through the user id &amp; set the image in the image view of my iOS app. How can i do so?
+Thanks in advance.
+",php
+StackOverflow (No Desc),"Title: Why would I get a GPF in DLLMain when run as a restricted user? | Body: Why is this code crashing when run as a restricted user, but not when run as an admin of the machine?
+
+extern ""C"" BOOL WINAPI DllMain(HINSTANCE hInstance, 
+                               DWORD dwReason, 
+                               LPVOID lpReserved)
+{
+ hInstance;
+ m_hInstance=hInstance;
+ return ",c++
+StackOverflow (No Desc),"Title: File access issue | Body: Before writing to the file:
+
+using (StreamWriter outfile = new StreamWriter(filePath, false, System.Text.Encoding.UTF8))
+{
+    outfile.Write(content);            
+}
+
+
+I'm checking the file write accsses using this:
+
+public bool CheckIfAccessToFileIsGranted(string filePath)
+{
+     try
+     {
+        ",c#
+IMDB,"I really liked this Summerslam due to the look of the arena, the curtains and just the look overall was interesting to me for some reason. Anyways, this could have been one of the best Summerslam's ever if the WWF didn't have Lex Luger in the main event against Yokozuna, now for it's time it was ok to have a huge fat man vs a strong man but I'm glad times have changed. It was a terrible main ev...","review=I'm sorry, but this is such a bad movie it's hilarious. Football hooligans arguing in a travel lodge? Suits? Shades?! Al"
+IMDB,"Not many television shows appeal to quite as many different kinds of fans like Farscape does...I know youngsters and 30/40+ years old;fans both Male and Female in as many different countries as you can think of that just adore this T.V miniseries. It has elements that can be found in almost every other show on T.V, character driven drama that could be from an Australian soap opera; yet in the s...","review=Who doesn't love the muppets?! Impossible it is to watch them without getting some kind of warm, fuzzy feeling inside. S"
+IMDB,"The film quickly gets to a major chase scene with ever increasing destruction. The first really bad thing is the guy hijacking Steven Seagal would have been beaten to pulp by Seagal's driving, but that probably would have ended the whole premise for the movie.<br /><br />It seems like they decided to make all kinds of changes in the movie plot, so just plan to enjoy the action, and do not expec...",review=Once again Bronson's talent is mostly wasted on this shock value 1984 thriller which (uncut) is far more disturbing than
+IMDB,"Jane Austen would definitely approve of this one!<br /><br />Gwyneth Paltrow does an awesome job capturing the attitude of Emma. She is funny without being excessively silly, yet elegant. She puts on a very convincing British accent (not being British myself, maybe I'm not the best judge, but she fooled me...she was also excellent in ""Sliding Doors""...I sometimes forget she's American ~!). <br ...","review=This anime is a must-see for fans of Evangelion. It's an earlier work of Anno Hideaki, but his unrestrained, dramatic st"
+IMDB,"Expectations were somewhat high for me when I went to see this movie, after all I thought Steve Carell could do no wrong coming off of great movies like Anchorman, The 40 Year-Old Virgin, and Little Miss Sunshine. Boy, was I wrong.<br /><br />I'll start with what is right with this movie: at certain points Steve Carell is allowed to be Steve Carell. There are a handful of moments in the film th...","review=I'm sorry, but this is such a bad movie it's hilarious. Football hooligans arguing in a travel lodge? Suits? Shades?! Al"
+IMDB,"I've watched this movie on a fairly regular basis for most of my life, and it never gets old. For all the snide remarks and insults (mostly from David Spade), ""Tommy Boy"" has a giant heart. And that's what keeps this movie funny after all these years.<br /><br />Tommy Callahan (Chris Farley) is the son of Big Tom Callahan (Brian Dennehy), master car parts salesman, and has ridden on that all hi...","review=Who doesn't love the muppets?! Impossible it is to watch them without getting some kind of warm, fuzzy feeling inside. S"
+IMDB,"For once a story of hope highlighted over the tragic reality our youth face. Favela Rising draws one into a scary, unsafe and unfair world and shows through beautiful color and moving music how one man and his dedicated friends choose not to accept that world and change it through action and art. An entertaining, interesting, emotional, aesthetically beautiful film. I showed this film to numero...","review=Who doesn't love the muppets?! Impossible it is to watch them without getting some kind of warm, fuzzy feeling inside. S"
+IMDB,"Okay, I didn't get the Purgatory thing the first time I watched this episode. It seemed like something significant was going on that I couldn't put my finger on. This time those Costa Mesa fires on TV really caught my attention- and it helped that I was just writing an essay on Inferno! But let me see what HASN'T been discussed yet...<br /><br />A TWOP review mentioned that Tony had 7 flights o...",review=Once again Bronson's talent is mostly wasted on this shock value 1984 thriller which (uncut) is far more disturbing than
+IMDB,"I was very disappointed with this series. It had lots of cool graphics and that's about it. The level of detail it went into was minimal, and I always got the feeling the audience was being patronized -- there was a lot of what seemed to me as ""This is extremely cool but we're not going to explain it in further detail because you won't get it anyway. Let's just show you some pretty pictures to ...","review=I'm sorry, but this is such a bad movie it's hilarious. Football hooligans arguing in a travel lodge? Suits? Shades?! Al"
+IMDB,"The first 30 minutes of Tinseltown had my finger teetering on the remote, poised to flick around to watch something else. The premise of two writers, down on their luck, living in a self-storage-space ""bin"" was mildly amusing, but, painfully bland.<br /><br />The introduction of the character, played by Joe Pantoliano - the big deal movie guy, that lives in the park and sleeps in a lavatory, of...","review=I'm sorry, but this is such a bad movie it's hilarious. Football hooligans arguing in a travel lodge? Suits? Shades?! Al"
+IMDB,"jeez, this was immensely boring. the leading man (Christian Schoyen) has got to be the worst actor i have ever seen. and another thing, if the character in the movie moved to America when he was ten or something and had been living here for over 20 years, he would speak a lot better English than what he pulls of here. or to say it in my own Language ""Skikkelig gebrokkent"". But it is cool to see...","review=I'm sorry, but this is such a bad movie it's hilarious. Football hooligans arguing in a travel lodge? Suits? Shades?! Al"
+IMDB,"Great just great! The West Coast got ""Dirty"" Harry Callahan, the East Coast got Sharky. Burt Reynolds plays Sharky in ""Sharky's Machine"" and I enjoyed every minute of it. Playing a maverick narcotics cop in Atlanta, GA is just what everyone wants. Instead of suspension, he's sent to vice squad. Like in the Dirty Harry movies or any other cop movies, the captain is always going to be the jerk. W...","review=Who doesn't love the muppets?! Impossible it is to watch them without getting some kind of warm, fuzzy feeling inside. S"
+IMDB,"It's made in 2007 and the CG is bad for a movie made in 1998. At one part in the movie there is a stop motion shot of a dinosaur that actually looks good, but this just makes the extremely amateur work on the CG stuff look even worse.<br /><br />The writing, acting, directing and everything else in this movie is just terrible. This is as bad as, if not worse than Raptor Island and 100 million B...","review=I'm sorry, but this is such a bad movie it's hilarious. Football hooligans arguing in a travel lodge? Suits? Shades?! Al"
+IMDB,This movie stinks majorly. The only reason I gave it a 3 was because the graphics were semi charming. It's total disregard for a plot and the lack of even insubstantial surface character development made it seem like just a bunch of nice drawings. This is by far THE worse anime that came out of Japan. I can't believe they actually put their names on this garbage. What a rip off selling this thi...,"review=I'm sorry, but this is such a bad movie it's hilarious. Football hooligans arguing in a travel lodge? Suits? Shades?! Al"
+IMDB,"We can start with the wooden acting but this film is a disaster. Having grown up in NY I can tell you that this film is an insult to anyone who is familiar with the community or the people. I'm not even a defender of the culture in any way and found this to be a Hollywoodized piece of trash to fit its own fictional, ridiculous culture presentation and language that anyone who watches Seinfeld k...","review=I'm sorry, but this is such a bad movie it's hilarious. Football hooligans arguing in a travel lodge? Suits? Shades?! Al"

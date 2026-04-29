@@ -118,7 +118,7 @@ fig.legend(
     handles=custom_handles, 
     labels=hue_order, 
     loc='upper center', 
-    bbox_to_anchor=(0.5, 0.95), 
+    bbox_to_anchor=(0.5, .85), # 1. Lowered the legend slightly (was 0.95)
     ncol=2, 
     title='Pipeline Variant (Bars = F1 Score, Lines = Token Cost)', 
     title_fontsize='11', 
@@ -135,9 +135,13 @@ for p in ax1.patches:
                     ha='center', va='bottom', xytext=(0, 5), 
                     textcoords='offset points', fontweight='bold')
 
-plt.title('Optimal Configurations: Standard Pairwise vs. Domain Projection', fontsize=16, fontweight='bold', pad=40)
+# 2. Increased pad to push the title safely above the legend
+plt.title('Optimal Configurations: Standard Pairwise vs. Projection', fontsize=16, fontweight='bold', pad=70)
+
 plt.tight_layout()
-plt.subplots_adjust(top=0.85) 
+
+# 3. Squished the top of the plot down further to make room for the stacked text
+plt.subplots_adjust(top=0.75) 
 
 filepath = 'src/figures/optimal_projection_comparison.png'
 plt.savefig(filepath, dpi=300, bbox_inches='tight')

@@ -136,7 +136,7 @@ for p in ax1.patches:
                     textcoords='offset points', fontweight='bold')
 
 # 2. Increased pad to push the title safely above the legend
-plt.title('Optimal Configurations: Standard Pairwise vs. Projection', fontsize=16, fontweight='bold', pad=70)
+plt.title('Optimal Configurations: Standard vs. Projection', fontsize=16, fontweight='bold', pad=70)
 
 plt.tight_layout()
 

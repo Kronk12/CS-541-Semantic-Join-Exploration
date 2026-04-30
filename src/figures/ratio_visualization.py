@@ -99,7 +99,7 @@ fig.legend(
     handles=custom_handles, 
     labels=datasets_list, 
     loc='upper center', 
-    bbox_to_anchor=(0.5, 0.90), # Lowered from 0.95
+    bbox_to_anchor=(0.5, 0.85), # Lowered from 0.95
     ncol=3, 
     title='Dataset (Bars = F1 Score, Lines = Token Cost)', 
     title_fontsize='11', 

@@ -1,133 +1,212 @@
 {
   "fixed_tokens": {
-    "prompt": 17079,
-    "completion": 1561
+    "prompt": 35279,
+    "completion": 3180
   },
   "clusters_a": {
     "0": {
-      "size": 15,
+      "size": 21,
       "samples": [
         {
-          "question_id": 31936570,
-          "question_text": "Title: Crosswalk's XWalkView (an alternative to Webview) not working with AppBarLayout + CoordinatorLayout | Body: I'm trying to achieve the scrolling Toolbar technique (hiding Toolbar when scrolling down in a sibling child view) using CoordinatorLayout and AppBarLayout.\n\nI'm using Crosswalk's XWalkView (it's a view which functions like WebView).  \n\nWhen using regular WebView (inside a NestedScrollView) I can ac"
+          "question_id": 21177580,
+          "question_text": "Title: Java running out of memory on VPS | Body: The program has no apparent memory leaks and while I am observing it run the locally in my machine it works fine. On the VPS it crashes after few hours with a sequence of error messages as shown below. \n\nException in thread \"Thread-10422\" java.lang.OutOfMemoryError: Java heap space\n\nI don't understa"
         },
         {
-          "question_id": 29485210,
-          "question_text": "Title: match_parent does not work in case of CustomListview | Body: &lt;com.mil.example.CustomListView\n                    android:id=\"@+id/villa_lv\"\n                    android:layout_width=\"match_parent\"\n                    android:layout_height=\"match_parent\"\n                    android:layout_below=\"@+id/itemImageLay\"\n                    android:fadingEdge=\"none"
+          "question_id": 29204840,
+          "question_text": "Title: Unit test ServiceLoader | Body: I have a method that uses ServiceLoader to load services using resources.\n\npublic List&lt;String&gt; getContextData(int Id)\n{\n  List&lt;String&gt; list = new ArrayList&lt;String&gt;();\n  ServiceLoader&lt;ContextPlugin&gt; serviceLoader =  ServiceLoader.load(ContextPlugin.class);\n  for (Iterator&lt;C"
         },
         {
-          "question_id": 26672520,
-          "question_text": "Title: How to use google maps places autocomplete api and list suggestions in a listview and not a dropdown | Body: https://developers.google.com/places/training/autocomplete-android\n\nI have used the above link, but I want the results as a list directly below the input box, not as a dropdown but as a listview occupying the whole page. Similar to Google Maps App in  Android.\n\nHow can i change the code to achieve t"
+          "question_id": 19675160,
+          "question_text": "Title: defining a method using inherited methods | Body: I'm trying to define void add(T thing) method by using the inherited push method of a stack but Eclipse says the return type is incompatible with Vector&lt;T&gt;.add(T) and wants me to change the return type of add(T) to boolean which doesn't make sense. \nBelow is my code\n\npublic class ListStack&lt;"
         }
       ]
     },
     "1": {
-      "size": 13,
+      "size": 14,
       "samples": [
         {
-          "question_id": 39363200,
-          "question_text": "Title: \"AccessToken.user\" must be a \"User\" instance | Body: I am trying to figure out oAuth2 token based authentication since 3 days and no avail yet. I have written a code for user authentication. However, I am getting an error of \n\n\n  ValueError at /api/customer/login/ Cannot assign \"{'username':\n  'sanskars'}\": \"AccessToken.user\" must be a \"User\" instance"
+          "question_id": 34140330,
+          "question_text": "Title: How to get value of data attribute with jquery | Body: I want to be able to grab html5 attribute values and have them match the value and attribute name with the class - then hide on click. \n\nfor example data-table=\"sample11\" should hide class=\"sample11\" same for sample14 and any other attributes on this page \n\nI was trying something like this but it is"
         },
         {
-          "question_id": 23431940,
-          "question_text": "Title: C# access data from COMAdmin.COMAdminCatalog using WMI | Body: Earlier I was using code as below to grab COM+ applications and verify that my app is running\n\nCOMAdmin.COMAdminCatalog catalog = new COMAdmin.COMAdminCatalogClass();\ncatalog.Connect(servername);\ncatalog.GetCollection(\"Applications\")\n\n\nNow I need to perform the same actions but from other domain. So"
+          "question_id": 938690,
+          "question_text": "Title: jQuery Cross domain ajax calls and Internet Explorer | Body: The following code works fine in Firefox but in IE the link is never called, the exception is called with a rather generic [Object Error]\n\nvar GoalID = \"e13e68a8-ae18-49f1-9d2f-e052a63fac51\";\ntry\n{\n    $.ajax({\n      type: \"GET\",\n      url: \"http://www.externallink.co.uk/GoalAccessed.aspx?id=\" + Goa"
         },
         {
-          "question_id": 10795630,
-          "question_text": "Title: Share image from SD Card | Body: I'm trying for 2 weeks to find how to share images which are stored on an SD card with no success. \n\nThis answer doesn't work to me, nor is it what I'm looking for.\n\nI'm working with Cam Preview app that stores images to SD and then display them in in-app gallery: \n\n   public class GalleryView exten"
+          "question_id": 36305860,
+          "question_text": "Title: max-height transition doesn't work and works slow | Body: i'm having trouble animating a div expanding. My JQuery function does what it's supposed to, but the animation doesn't appear. I have tried both transition : all and transition : max-height but none seems to work. Also something very weird happens, when i want to hide my div again. It appears that t"
         }
       ]
     },
     "2": {
-      "size": 20,
+      "size": 18,
       "samples": [
         {
-          "question_id": 21685730,
-          "question_text": "Title: Jquery each loop + setTimeout problems with increments | Body: http://jsfiddle.net/fxLcy/ - example with setTimeout\n\nhttp://jsfiddle.net/fxLcy/1/ - this is the demo without setTimeout. All elements on right place, but i really need that delayed animation =/\n\nI want to place 6 cards per row via css transition and setTimeout. The point is, that i cant use increme"
+          "question_id": 25102930,
+          "question_text": "Title: imageSX and imageSY VS getimagesize | Body: I'm sorry for my bad English, in advance.\nI need to only receive a width and height of an image. What kind of function do I must use?\nI guess imageSX(Y) will be working quicker that getimagesize or am I wrong?\n\nI use the latest version of PHP\n"
         },
         {
-          "question_id": 21587540,
-          "question_text": "Title: rails3 jquery autocomplete getting and passing array | Body: This may seem like an easy problem to most of you, but it's been troubling me all day. \n\nI'm trying to implement messaging system. I want to be able to send message to multiple people. for this to happen i need help with two things:\nFirstly, data-delimeter doesn't work. I'm guessing i just don't kno"
+          "question_id": 25054190,
+          "question_text": "Title: Evaluate associative php array inline | Body: I am retrieving the f-number from JPEG images by EXIF data. To get the desired number, I need to evaluate the expression. Right now I use three lines of code for this. Could it be made shorter, or ideally as a one-liner?\n\n$fnumber = $exif['FNumber'];\neval(\"\\$fnumber = $fnumber;\");\n$photo['fnumber'] "
         },
         {
-          "question_id": 13372060,
-          "question_text": "Title: Regex matching @\"*\" | Body: I am attempting to use regexes in jQuery, and I am running into some problems. This is the string that I am operating on:\n\nNSLog(@\"It works!\");\n\n\nI want the regex to select everything between the @\" and the \", inclusive. This regex works just fine in Reggy, but when put in my JavaScript, does not wo"
+          "question_id": 18342730,
+          "question_text": "Title: import .CSV file with PHP using PDO | Body: I'm having a problem importing .CSV data into a SQL database. I'm trying to use PDO in my PHP file to accomplish this and I can't seem to figure this out. \n\nif (isset($_FILES['uploadedfile'])) {   \n\n    // get the csv file and open it up\n    $file = $_FILES['uploadedfile']['tmp_name']; \n    $handle "
         }
       ]
     },
     "3": {
-      "size": 34,
+      "size": 19,
       "samples": [
         {
-          "question_id": 7837270,
-          "question_text": "Title: How .NET's regex engine treats RTL+LTR mixed strings? | Body: I have a mixed Hebrew/english string to parse.\nThe string is built like this:\n\n[3 hebrew] [2 english 2] [1 hebrew],\n\n\nSo, it can be read as: 1 2 3, and it is stored as 3 2 1 (exact byte sequence in file, double-checked in hex editor, and anyway RTL is only the display attribute). .NET regex parser h"
+          "question_id": 17018410,
+          "question_text": "Title: Call service at specific time in android | Body: I have service run in background.\nI want to call this service at specific interval.\nif user provide values 10, 20, 30 than service should call after 10 min,20 min and 30 min receptively. \n\nHow can I do above thing?\n"
         },
         {
-          "question_id": 37287590,
-          "question_text": "Title: Is there a mechanism in C++ to make a full copy of a derived class from a base class pointer without dynamic memory allocation? | Body: Consider the following example, where object slicing occurs during dereference of a base pointer.\n\n#include &lt;stdio.h&gt;\n\nclass Base {\n  public:\n    virtual void hello() {\n        printf(\"hello world from base\\n\");\n    }\n};\nclass Derived : public Base{\n  public:\n    virtual void hello() {\n       "
+          "question_id": 4426350,
+          "question_text": "Title: Send the .apk file to client for review | Body: I have developed an Android application and had it tested on emulator as well as device. I want to export the .apk file to the client for review. I used the Application manifest file to export the unsigned apk and sent it, but that's not getting installed on his phone.\n\nI have read multiple question"
         },
         {
-          "question_id": 10433330,
-          "question_text": "Title: Midlet must not closed even press cut button of device | Body: I am working in J2ME. I want that my MIDlet must run for infinite time. It must not close even I press any of key from my device.\n\nPlease help me what should I do for this?\n"
+          "question_id": 38972250,
+          "question_text": "Title: Extracting all API calls from .smali files in android apk | Body: I want to extract all API calls from an Android application's apk. I have used apktool to get the smali code files from the apk. Manually I can spot some API calls, but I need an automated method. For example, I can see the getNetworkInfo call in this line of code:\n\n    invoke-virtual {p0, v0}, Land"
         }
       ]
     },
     "4": {
-      "size": 18,
+      "size": 17,
       "samples": [
         {
-          "question_id": 2457320,
-          "question_text": "Title: Checklist for good email delivery in php | Body: I have a PHP application that sends email using the pear Mail function. Unfortunately all my emails end up in the junk folder.\n\nCan i get a checklist for things i should do to make sure my emails are recieved correctly.\n\nThank you\n"
+          "question_id": 11802960,
+          "question_text": "Title: How Linq infers types from Lambda | Body: Here is the original Linq:\n\n       var developersUsingCSharp =\n                from d in developers\n                    where d.Language == \"C#\"\n                    select d.Name;\n\n\nThis can be written as:\n\n     Func&lt;Developer, bool&gt; filteringPredicate = d =&gt; d.Language == \"C#\";\n     Func&l"
         },
         {
-          "question_id": 15612820,
-          "question_text": "Title: Get image from a php file to iOS | Body: I want to get image from a php file (for example: http://abc.xyz.com/api/showImage.php) for a specific user through the user id &amp; set the image in the image view of my iOS app. How can i do so?\nThanks in advance.\n"
+          "question_id": 17912780,
+          "question_text": "Title: C# New window focus | Body: My program contains a listview with \"SelectionChanged\" event. When I'm changing the selected item in the list view I want to open a new window with specific options related to it. But the problem is that the new window appears for a moment and it hides behind the main window. \nThis is a part of my c"
         },
         {
-          "question_id": 29208610,
-          "question_text": "Title: PHP cURL connect using IP address instead domain name | Body: I run several servers in the same data center that have internal networking enabled.  In the interests of speed and costs (internal traffic is not billed) I would like to be able to cURL between the various servers on their internal IPs.\n\nI have just discovered that if I attempt something along the "
+          "question_id": 12453950,
+          "question_text": "Title: Why do you need two Current methods for IEnumerator<T> in C#? | Body: I'm writing a class that implements the interface IEnumerator. To get it to compile, I need the following two methods:\n\npublic object Current\n{\n    get { return current; }\n}\n\nT IEnumerator&lt;T&gt;.Current\n{\n    get { return current; }\n}\n\n\nWhy are both of these necessary? On the surface, it looks li"
+        }
+      ]
+    },
+    "5": {
+      "size": 11,
+      "samples": [
+        {
+          "question_id": 3316880,
+          "question_text": "Title: How to join 2 models in rails, which are not really in any relationship? | Body: I have 3 models, say Account, Comment and Status. Each Account will have many Comment and Status, but Comment and Status are not in any kind of relationship.\n\nI would like to query the Account's Comment and Status, and sort these comments and status by time. How can I make this?\n\nThanks all.\n"
+        },
+        {
+          "question_id": 10448510,
+          "question_text": "Title: DataMapper join statements | Body: How does one generate a query with join statements using ruby DataMapper?\n\nie.\n\nclass Model1\n    property id, Serial\n    has n :Model2s, :parent_key =&gt; [ :id ], :child_key =&gt; [ :model1_id ]\nend\n\nclass Model2\n    property :id, Serial\n    property :model1_id, Integer\n    has n :Model3s, :parent_"
+        },
+        {
+          "question_id": 24371740,
+          "question_text": "Title: Rails - Render asset javascript | Body: Is there any chance to render a precompiled javascript file? The plain file is no problem with:\n\ndef iframe_communication\n  render file: \"/app/assets/javascripts/iframe_communication_module.js\"\nend\n\n\nI tried assets_path or to include it with javascript_include_tag in the view, but no succeeds.\n\nFor "
+        }
+      ]
+    },
+    "6": {
+      "size": 22,
+      "samples": [
+        {
+          "question_id": 22098660,
+          "question_text": "Title: Understanding Javascript's prototypes coming from a Java and C++ background | Body: My programming background is largely in Java, C++, and C#.  I've been getting into Javascript and web development recently and I have a basic grasp of using Javascript and JQuery to do things like manipulate DOM elements and whatever else I need on the front end.\n\nWhat I can't seem to wrap my head a"
+        },
+        {
+          "question_id": 25063930,
+          "question_text": "Title: Dropdown menu coding - mouse over | Body: I've a code snippet I'm trying to edit.\n\nMy website has a link navigation dropdown menu in place, but the default setting it to activate it on a mouse click, not to function on mouse hover as I would prefer.\n\nBelow is a snippet of the JS code - Anyone recommend a change to allow mouse hover to opera"
+        },
+        {
+          "question_id": 37823490,
+          "question_text": "Title: Javascript Event Listener quits (?) from listening... Youtube API - No console error | Body: EDIT - 2016-06-25\n(I removed my june 16th update, since not relevant anymore.\n&nbsp;&nbsp;&nbsp;I left my OP below...)\n\n\n\nI've spent another 4 hours on this today.\nHere is the situation now:\n\nMy function WORKS for two links.\nThe video params are defined in an array.\nThe two other links aren't workin"
+        }
+      ]
+    },
+    "7": {
+      "size": 11,
+      "samples": [
+        {
+          "question_id": 34577870,
+          "question_text": "Title: Using scipy.integrate.complex_ode instead of scipy.integrate.ode | Body: I am trying to use complex_ode method instead of ode method in scipy.integrate. The help page for complex_ode does not provide example, so I may have done something wrong.\n\nThis code  works properly with scipy.integrate.ode:\n\nfrom scipy.integrate import ode\n\ny0, t0 = [1.0j, 2.0], 0\n\ndef f(t, y, arg1"
+        },
+        {
+          "question_id": 2515450,
+          "question_text": "Title: Injecting variables into the caller's scope? | Body: Can I define a function which, when called, inserts new locals into the caller's scope? I have a feeling that passing the caller's locals() into the function might work, but is there a way to do what I want without having to do this?\n"
+        },
+        {
+          "question_id": 32065910,
+          "question_text": "Title: cross-platform method for determining file owner in Python | Body: I need to find the owner of files in a script running on Windows, Linux and Mac. os.stat returns the owner id, but on windows I can't use getpwuid to find the actual name of the owner. I need the name as a string.\n"
+        }
+      ]
+    },
+    "8": {
+      "size": 57,
+      "samples": [
+        {
+          "question_id": 17560390,
+          "question_text": "Title: Match a^xb^x with regex | Body: To clarify, I want to match:\n\n\n  ab\n     aabb\n     aaabbb \n     ...\n\n\nThis works in Perl:\n\nif ($exp =~ /^(a(?1)?b)$/)\n\n\nTo understand this, look at the string as though it grows from the outside-in, not left-right:\n\n\n  ab\n     a(ab)b\n     aa(ab)bb\n\n\n(?1) is a reference to the outer set of parenthese"
+        },
+        {
+          "question_id": 38028730,
+          "question_text": "Title: Parse API push notification, open app page on play store | Body: So on are our app we have Parse API, to send push notification and manage backend stuff, we are sending and update the app notificaiton bt clicking the notification it opens the APP, we would like it to open the store page for our APP, is it possible?\n"
+        },
+        {
+          "question_id": 14644880,
+          "question_text": "Title: How to guess image mime type? | Body: How can I guess an image's mime type, in a cross-platform manner, and without any external libraries?\n"
+        }
+      ]
+    },
+    "9": {
+      "size": 10,
+      "samples": [
+        {
+          "question_id": 16601690,
+          "question_text": "Title: How to move the views from a XIB file to storyboards in a project in Xcode? | Body: I am new to iOS programming and Xcode. I have a project which is working perfectly fine with 5 viewControllers and XIB file. I have to add many more features in it (like Google Maps, iAd Banner and others) so I am finding it difficult to manage it all. So I thought to use Storyboards in my project s"
+        },
+        {
+          "question_id": 26760290,
+          "question_text": "Title: iOS Touch ID for Web Development | Body: I am currently trying to figure out a way where I can build a responsive website, however once the website loads on an iOS Device I wanted to use the new iOS Touch ID api to allow members to login. I know it is possible to do such things using Native ofcourse and also Cordova (http://cordova.apache."
+        },
+        {
+          "question_id": 26667380,
+          "question_text": "Title: In Swift, for AnyObject, how do I setValue() then call valueForKey() | Body: I'd like to store a value in AnyObject then retrieve it later as follows:\n\nvar obj:AnyObject = UIButton()\nobj.setValue(\"James\", forKey: \"owner\")\nobj.valueForKey(\"owner\")\n\n\nHowever, AnyObject does not allow it even if these methods are available as shown by the error:\n\nsetValue:forUndefinedKey:]: thi"
         }
       ]
     }
   },
   "clusters_b": {
     "0": {
-      "size": 3,
+      "size": 16,
       "samples": [
         {
+          "concept_id": "T-0",
+          "concept_name": "c++"
+        },
+        {
           "concept_id": "T-1",
-          "concept_name": "html",
-          "Description": "HyperText Markup Language, the standard markup language for documents designed to be displayed in a web browser."
+          "concept_name": "php"
         },
         {
           "concept_id": "T-2",
-          "concept_name": "javascript",
-          "Description": "A lightweight, interpreted programming language with first-class functions, core to interactive web development."
-        },
-        {
-          "concept_id": "T-3",
-          "concept_name": "jquery",
-          "Description": "A fast, small, and feature-rich JavaScript library designed to simplify HTML DOM tree traversal and manipulation."
+          "concept_name": "javascript"
         }
       ]
     },
     "1": {
-      "size": 7,
+      "size": 4,
       "samples": [
         {
-          "concept_id": "T-0",
-          "concept_name": "java",
-          "Description": "A high-level, class-based, object-oriented programming language designed to have as few implementation dependencies as possible."
+          "concept_id": "T-8",
+          "concept_name": "iphone"
         },
         {
-          "concept_id": "T-4",
-          "concept_name": "c++",
-          "Description": "A general-purpose programming language created as an extension of C, known for performance, efficiency, and hardware control."
+          "concept_id": "T-9",
+          "concept_name": "objective-c"
         },
         {
-          "concept_id": "T-5",
-          "concept_name": "c#",
-          "Description": "A modern, object-oriented, and type-safe programming language developed by Microsoft for the .NET framework."
+          "concept_id": "T-14",
+          "concept_name": "android"
         }
       ]
     }
@@ -136,440 +215,1259 @@
     {
       "ca": 0,
       "cb": 0,
-      "size_a": 15,
-      "size_b": 3,
+      "size_a": 21,
+      "size_b": 16,
       "sample_rate": 0.0,
-      "matches": [],
+      "matches": [
+        [
+          18,
+          4
+        ],
+        [
+          19,
+          4
+        ],
+        [
+          22,
+          4
+        ],
+        [
+          32,
+          4
+        ],
+        [
+          48,
+          4
+        ],
+        [
+          83,
+          4
+        ],
+        [
+          94,
+          4
+        ],
+        [
+          96,
+          4
+        ],
+        [
+          124,
+          4
+        ],
+        [
+          137,
+          4
+        ],
+        [
+          145,
+          4
+        ],
+        [
+          149,
+          4
+        ],
+        [
+          163,
+          4
+        ],
+        [
+          166,
+          4
+        ],
+        [
+          170,
+          4
+        ],
+        [
+          171,
+          4
+        ],
+        [
+          174,
+          4
+        ],
+        [
+          192,
+          4
+        ],
+        [
+          197,
+          4
+        ]
+      ],
       "tokens": {
-        "prompt": 1506,
-        "completion": 114
+        "prompt": 5151,
+        "completion": 412
       }
     },
     {
       "ca": 0,
       "cb": 1,
-      "size_a": 15,
-      "size_b": 7,
-      "sample_rate": 0.08,
+      "size_a": 21,
+      "size_b": 4,
+      "sample_rate": 0.05,
       "matches": [
         [
-          16,
-          8
-        ],
-        [
-          19,
-          8
-        ],
-        [
-          20,
-          8
-        ],
-        [
-          31,
-          9
-        ],
-        [
-          34,
-          9
-        ],
-        [
-          48,
-          8
-        ],
-        [
-          54,
-          9
-        ],
-        [
-          58,
-          8
-        ],
-        [
-          71,
-          9
-        ],
-        [
-          84,
-          7
-        ],
-        [
-          89,
-          9
-        ],
-        [
-          93,
-          8
-        ],
-        [
-          97,
-          9
+          100,
+          14
         ]
       ],
       "tokens": {
-        "prompt": 1546,
-        "completion": 166
+        "prompt": 2125,
+        "completion": 160
       }
     },
     {
       "ca": 1,
       "cb": 0,
-      "size_a": 13,
-      "size_b": 3,
+      "size_a": 14,
+      "size_b": 16,
       "sample_rate": 0.0,
-      "matches": [],
+      "matches": [
+        [
+          11,
+          3
+        ],
+        [
+          21,
+          3
+        ],
+        [
+          37,
+          3
+        ],
+        [
+          59,
+          3
+        ],
+        [
+          69,
+          3
+        ],
+        [
+          90,
+          3
+        ],
+        [
+          99,
+          3
+        ],
+        [
+          113,
+          3
+        ],
+        [
+          121,
+          3
+        ],
+        [
+          126,
+          3
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          37,
+          13
+        ],
+        [
+          59,
+          12
+        ],
+        [
+          90,
+          12
+        ],
+        [
+          113,
+          12
+        ],
+        [
+          113,
+          13
+        ],
+        [
+          128,
+          3
+        ],
+        [
+          138,
+          3
+        ],
+        [
+          182,
+          3
+        ],
+        [
+          128,
+          13
+        ],
+        [
+          182,
+          13
+        ]
+      ],
       "tokens": {
-        "prompt": 1347,
-        "completion": 100
+        "prompt": 3410,
+        "completion": 302
       }
     },
     {
       "ca": 1,
       "cb": 1,
-      "size_a": 13,
-      "size_b": 7,
-      "sample_rate": 0.08,
-      "matches": [
-        [
-          1,
-          5
-        ],
-        [
-          2,
-          8
-        ],
-        [
-          5,
-          8
-        ],
-        [
-          6,
-          4
-        ],
-        [
-          7,
-          7
-        ],
-        [
-          8,
-          0
-        ],
-        [
-          10,
-          0
-        ],
-        [
-          13,
-          4
-        ],
-        [
-          14,
-          5
-        ]
-      ],
+      "size_a": 14,
+      "size_b": 4,
+      "sample_rate": 0.0,
+      "matches": [],
       "tokens": {
-        "prompt": 1387,
-        "completion": 136
+        "prompt": 1459,
+        "completion": 88
       }
     },
     {
       "ca": 2,
       "cb": 0,
-      "size_a": 20,
-      "size_b": 3,
-      "sample_rate": 0.3333333333333333,
+      "size_a": 18,
+      "size_b": 16,
+      "sample_rate": 0.0,
       "matches": [
         [
-          17,
+          13,
+          1
+        ],
+        [
+          15,
+          1
+        ],
+        [
+          27,
+          1
+        ],
+        [
+          38,
+          1
+        ],
+        [
+          73,
+          1
+        ],
+        [
+          95,
+          1
+        ],
+        [
+          116,
+          1
+        ],
+        [
+          127,
+          1
+        ],
+        [
+          27,
+          15
+        ],
+        [
+          91,
+          12
+        ],
+        [
+          116,
+          12
+        ],
+        [
+          129,
+          1
+        ],
+        [
+          152,
+          1
+        ],
+        [
+          153,
+          1
+        ],
+        [
+          167,
+          1
+        ],
+        [
+          178,
+          1
+        ],
+        [
+          184,
+          1
+        ],
+        [
+          184,
+          2
+        ],
+        [
+          184,
           3
         ],
         [
-          18,
-          3
+          161,
+          12
         ],
         [
-          24,
-          3
+          168,
+          12
+        ]
+      ],
+      "tokens": {
+        "prompt": 4102,
+        "completion": 361
+      }
+    },
+    {
+      "ca": 2,
+      "cb": 1,
+      "size_a": 18,
+      "size_b": 4,
+      "sample_rate": 0.0,
+      "matches": [],
+      "tokens": {
+        "prompt": 1805,
+        "completion": 135
+      }
+    },
+    {
+      "ca": 3,
+      "cb": 0,
+      "size_a": 19,
+      "size_b": 16,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          10,
+          4
         ],
         [
-          25,
-          3
+          12,
+          4
+        ],
+        [
+          23,
+          4
         ],
         [
           28,
-          2
+          4
         ],
         [
-          32,
-          3
-        ],
-        [
-          35,
-          2
+          31,
+          4
         ],
         [
           40,
-          2
+          4
         ],
         [
-          42,
-          2
+          44,
+          4
+        ],
+        [
+          56,
+          4
+        ],
+        [
+          58,
+          4
+        ],
+        [
+          61,
+          4
+        ],
+        [
+          77,
+          4
+        ],
+        [
+          97,
+          4
+        ],
+        [
+          107,
+          4
+        ],
+        [
+          115,
+          1
+        ],
+        [
+          117,
+          4
+        ],
+        [
+          146,
+          4
+        ],
+        [
+          179,
+          4
+        ],
+        [
+          181,
+          4
+        ],
+        [
+          97,
+          12
+        ],
+        [
+          115,
+          15
+        ],
+        [
+          115,
+          18
+        ]
+      ],
+      "tokens": {
+        "prompt": 4142,
+        "completion": 343
+      }
+    },
+    {
+      "ca": 3,
+      "cb": 1,
+      "size_a": 19,
+      "size_b": 4,
+      "sample_rate": 0.25,
+      "matches": [
+        [
+          10,
+          14
+        ],
+        [
+          12,
+          14
+        ],
+        [
+          23,
+          14
+        ],
+        [
+          28,
+          14
+        ],
+        [
+          31,
+          14
+        ],
+        [
+          40,
+          14
+        ],
+        [
+          44,
+          14
+        ],
+        [
+          56,
+          14
+        ],
+        [
+          58,
+          14
+        ],
+        [
+          61,
+          14
+        ],
+        [
+          77,
+          14
+        ],
+        [
+          97,
+          14
+        ],
+        [
+          107,
+          14
+        ],
+        [
+          115,
+          14
+        ],
+        [
+          117,
+          14
+        ],
+        [
+          146,
+          14
+        ],
+        [
+          179,
+          14
+        ],
+        [
+          181,
+          14
+        ],
+        [
+          199,
+          14
+        ]
+      ],
+      "tokens": {
+        "prompt": 1825,
+        "completion": 218
+      }
+    },
+    {
+      "ca": 4,
+      "cb": 0,
+      "size_a": 17,
+      "size_b": 16,
+      "sample_rate": 0.16,
+      "matches": [
+        [
+          1,
+          10
+        ],
+        [
+          14,
+          10
+        ],
+        [
+          29,
+          10
+        ],
+        [
+          45,
+          10
+        ],
+        [
+          62,
+          6
+        ],
+        [
+          76,
+          10
+        ],
+        [
+          87,
+          10
+        ],
+        [
+          104,
+          10
+        ],
+        [
+          125,
+          10
+        ],
+        [
+          125,
+          6
+        ],
+        [
+          62,
+          16
+        ],
+        [
+          125,
+          12
+        ],
+        [
+          131,
+          6
+        ],
+        [
+          131,
+          10
+        ],
+        [
+          141,
+          6
+        ],
+        [
+          144,
+          10
+        ],
+        [
+          158,
+          10
+        ],
+        [
+          162,
+          10
+        ],
+        [
+          169,
+          10
+        ],
+        [
+          175,
+          10
+        ],
+        [
+          141,
+          16
+        ],
+        [
+          169,
+          15
+        ]
+      ],
+      "tokens": {
+        "prompt": 3890,
+        "completion": 349
+      }
+    },
+    {
+      "ca": 4,
+      "cb": 1,
+      "size_a": 17,
+      "size_b": 4,
+      "sample_rate": 0.0,
+      "matches": [],
+      "tokens": {
+        "prompt": 1699,
+        "completion": 106
+      }
+    },
+    {
+      "ca": 5,
+      "cb": 0,
+      "size_a": 11,
+      "size_b": 16,
+      "sample_rate": 0.16,
+      "matches": [
+        [
+          9,
+          5
+        ],
+        [
+          20,
+          5
         ],
         [
           52,
           2
         ],
         [
-          55,
-          3
-        ],
-        [
-          56,
-          2
-        ],
-        [
-          61,
-          3
-        ],
-        [
-          80,
-          2
-        ],
-        [
-          81,
-          2
-        ],
-        [
-          81,
-          3
-        ],
-        [
-          86,
-          3
-        ],
-        [
-          98,
-          3
-        ]
-      ],
-      "tokens": {
-        "prompt": 1963,
-        "completion": 197
-      }
-    },
-    {
-      "ca": 2,
-      "cb": 1,
-      "size_a": 20,
-      "size_b": 7,
-      "sample_rate": 0.0,
-      "matches": [],
-      "tokens": {
-        "prompt": 2003,
-        "completion": 149
-      }
-    },
-    {
-      "ca": 3,
-      "cb": 0,
-      "size_a": 34,
-      "size_b": 3,
-      "sample_rate": 0.0,
-      "matches": [
-        [
-          62,
-          3
-        ],
-        [
-          87,
-          3
-        ]
-      ],
-      "tokens": {
-        "prompt": 3275,
-        "completion": 255
-      }
-    },
-    {
-      "ca": 3,
-      "cb": 1,
-      "size_a": 34,
-      "size_b": 7,
-      "sample_rate": 0.08,
-      "matches": [
-        [
-          22,
+          133,
           5
         ],
         [
-          27,
-          4
-        ],
-        [
-          30,
-          0
-        ],
-        [
-          36,
+          154,
           5
         ],
         [
-          38,
+          180,
           5
         ],
         [
-          41,
-          0
+          9,
+          19
         ],
         [
-          45,
-          8
+          20,
+          19
         ],
         [
-          49,
-          4
-        ],
-        [
-          50,
-          4
-        ],
-        [
-          51,
-          7
-        ],
-        [
-          53,
-          5
-        ],
-        [
-          57,
-          5
-        ],
-        [
-          64,
-          7
-        ],
-        [
-          66,
-          0
-        ],
-        [
-          72,
-          5
+          65,
+          13
         ],
         [
           74,
+          19
+        ],
+        [
+          133,
+          19
+        ],
+        [
+          154,
+          19
+        ],
+        [
+          180,
+          19
+        ],
+        [
+          190,
           5
+        ],
+        [
+          190,
+          19
+        ]
+      ],
+      "tokens": {
+        "prompt": 2988,
+        "completion": 235
+      }
+    },
+    {
+      "ca": 5,
+      "cb": 1,
+      "size_a": 11,
+      "size_b": 4,
+      "sample_rate": 0.0,
+      "matches": [],
+      "tokens": {
+        "prompt": 1248,
+        "completion": 70
+      }
+    },
+    {
+      "ca": 6,
+      "cb": 0,
+      "size_a": 22,
+      "size_b": 16,
+      "sample_rate": 0.08,
+      "matches": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          10
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          26,
+          2
+        ],
+        [
+          30,
+          2
+        ],
+        [
+          43,
+          2
+        ],
+        [
+          50,
+          2
+        ],
+        [
+          81,
+          2
+        ],
+        [
+          81,
+          3
+        ],
+        [
+          114,
+          2
+        ],
+        [
+          118,
+          2
+        ],
+        [
+          119,
+          2
+        ],
+        [
+          122,
+          2
+        ],
+        [
+          122,
+          3
+        ],
+        [
+          134,
+          2
+        ],
+        [
+          139,
+          2
+        ],
+        [
+          139,
+          10
+        ],
+        [
+          140,
+          2
+        ],
+        [
+          164,
+          2
+        ],
+        [
+          173,
+          2
+        ],
+        [
+          134,
+          12
+        ],
+        [
+          136,
+          13
+        ],
+        [
+          139,
+          16
+        ],
+        [
+          173,
+          13
+        ],
+        [
+          183,
+          2
+        ],
+        [
+          183,
+          3
+        ],
+        [
+          183,
+          12
+        ],
+        [
+          183,
+          13
+        ]
+      ],
+      "tokens": {
+        "prompt": 5311,
+        "completion": 468
+      }
+    },
+    {
+      "ca": 6,
+      "cb": 1,
+      "size_a": 22,
+      "size_b": 4,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          118,
+          8
+        ],
+        [
+          118,
+          17
+        ]
+      ],
+      "tokens": {
+        "prompt": 2205,
+        "completion": 172
+      }
+    },
+    {
+      "ca": 7,
+      "cb": 0,
+      "size_a": 11,
+      "size_b": 16,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          41,
+          11
+        ],
+        [
+          63,
+          11
+        ],
+        [
+          71,
+          11
+        ],
+        [
+          85,
+          11
+        ],
+        [
+          120,
+          11
+        ],
+        [
+          147,
+          11
+        ],
+        [
+          165,
+          11
+        ],
+        [
+          176,
+          11
+        ],
+        [
+          188,
+          11
+        ],
+        [
+          189,
+          11
+        ],
+        [
+          193,
+          11
+        ]
+      ],
+      "tokens": {
+        "prompt": 2932,
+        "completion": 222
+      }
+    },
+    {
+      "ca": 7,
+      "cb": 1,
+      "size_a": 11,
+      "size_b": 4,
+      "sample_rate": 0.0,
+      "matches": [],
+      "tokens": {
+        "prompt": 1220,
+        "completion": 86
+      }
+    },
+    {
+      "ca": 8,
+      "cb": 0,
+      "size_a": 57,
+      "size_b": 16,
+      "sample_rate": 0.08,
+      "matches": [
+        [
+          7,
+          4
+        ],
+        [
+          16,
+          0
+        ],
+        [
+          33,
+          0
+        ],
+        [
+          6,
+          12
+        ],
+        [
+          6,
+          13
+        ],
+        [
+          8,
+          15
+        ],
+        [
+          8,
+          18
+        ],
+        [
+          24,
+          13
+        ],
+        [
+          39,
+          6
+        ],
+        [
+          39,
+          10
+        ],
+        [
+          49,
+          0
+        ],
+        [
+          51,
+          0
+        ],
+        [
+          54,
+          11
+        ],
+        [
+          57,
+          2
+        ],
+        [
+          57,
+          3
+        ],
+        [
+          64,
+          6
+        ],
+        [
+          67,
+          7
         ],
         [
           75,
           0
         ],
         [
-          85,
-          7
+          79,
+          0
         ],
         [
-          88,
-          4
+          79,
+          10
         ],
         [
-          95,
-          4
-        ],
-        [
-          96,
-          5
-        ]
-      ],
-      "tokens": {
-        "prompt": 3699,
-        "completion": 349
-      }
-    },
-    {
-      "ca": 4,
-      "cb": 0,
-      "size_a": 18,
-      "size_b": 3,
-      "sample_rate": 0.06666666666666667,
-      "matches": [
-        [
-          39,
-          1
-        ],
-        [
-          92,
-          1
-        ],
-        [
-          94,
-          1
-        ]
-      ],
-      "tokens": {
-        "prompt": 1910,
-        "completion": 147
-      }
-    },
-    {
-      "ca": 4,
-      "cb": 1,
-      "size_a": 18,
-      "size_b": 7,
-      "sample_rate": 0.16,
-      "matches": [
-        [
-          9,
-          6
-        ],
-        [
-          12,
-          6
-        ],
-        [
-          12,
-          9
-        ],
-        [
-          15,
-          6
-        ],
-        [
-          21,
-          6
-        ],
-        [
-          29,
-          6
-        ],
-        [
-          44,
-          6
+          84,
+          2
         ],
         [
           70,
-          6
+          18
         ],
         [
-          73,
-          6
+          84,
+          13
         ],
         [
-          82,
-          6
+          88,
+          11
         ],
         [
-          90,
-          6
+          93,
+          7
         ],
         [
-          91,
-          6
+          98,
+          0
+        ],
+        [
+          106,
+          2
+        ],
+        [
+          106,
+          3
+        ],
+        [
+          108,
+          0
+        ],
+        [
+          89,
+          15
+        ],
+        [
+          106,
+          12
+        ],
+        [
+          106,
+          13
+        ],
+        [
+          110,
+          2
+        ],
+        [
+          110,
+          3
+        ],
+        [
+          142,
+          10
+        ],
+        [
+          143,
+          0
+        ],
+        [
+          110,
+          13
+        ],
+        [
+          112,
+          12
+        ],
+        [
+          132,
+          12
+        ],
+        [
+          148,
+          15
+        ],
+        [
+          151,
+          15
+        ],
+        [
+          159,
+          7
+        ],
+        [
+          177,
+          2
+        ],
+        [
+          198,
+          7
+        ],
+        [
+          177,
+          13
+        ],
+        [
+          195,
+          13
+        ],
+        [
+          196,
+          15
         ]
       ],
       "tokens": {
-        "prompt": 1950,
-        "completion": 184
+        "prompt": 13198,
+        "completion": 1060
+      }
+    },
+    {
+      "ca": 8,
+      "cb": 1,
+      "size_a": 57,
+      "size_b": 4,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          4,
+          14
+        ],
+        [
+          17,
+          9
+        ],
+        [
+          80,
+          8
+        ],
+        [
+          80,
+          17
+        ]
+      ],
+      "tokens": {
+        "prompt": 6350,
+        "completion": 428
+      }
+    },
+    {
+      "ca": 9,
+      "cb": 0,
+      "size_a": 10,
+      "size_b": 16,
+      "sample_rate": 0.0,
+      "matches": [],
+      "tokens": {
+        "prompt": 2091,
+        "completion": 158
+      }
+    },
+    {
+      "ca": 9,
+      "cb": 1,
+      "size_a": 10,
+      "size_b": 4,
+      "sample_rate": 0.25,
+      "matches": [
+        [
+          25,
+          8
+        ],
+        [
+          25,
+          9
+        ],
+        [
+          25,
+          17
+        ],
+        [
+          36,
+          8
+        ],
+        [
+          36,
+          17
+        ],
+        [
+          46,
+          9
+        ],
+        [
+          68,
+          8
+        ],
+        [
+          68,
+          17
+        ],
+        [
+          82,
+          8
+        ],
+        [
+          82,
+          17
+        ],
+        [
+          150,
+          14
+        ],
+        [
+          150,
+          17
+        ],
+        [
+          155,
+          9
+        ],
+        [
+          160,
+          9
+        ],
+        [
+          185,
+          9
+        ]
+      ],
+      "tokens": {
+        "prompt": 1004,
+        "completion": 145
       }
     }
   ]

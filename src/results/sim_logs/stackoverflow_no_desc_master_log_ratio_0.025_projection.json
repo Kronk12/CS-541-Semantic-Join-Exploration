@@ -1,82 +1,127 @@
 {
   "fixed_tokens": {
-    "prompt": 13439,
-    "completion": 1288
+    "prompt": 29345,
+    "completion": 2766
   },
   "clusters_a": {
     "0": {
-      "size": 80,
+      "size": 43,
       "samples": [
         {
-          "question_id": 39363200,
-          "question_text": "Title: \"AccessToken.user\" must be a \"User\" instance | Body: I am trying to figure out oAuth2 token based authentication since 3 days and no avail yet. I have written a code for user authentication. However, I am getting an error of \n\n\n  ValueError at /api/customer/login/ Cannot assign \"{'username':\n  'sanskars'}\": \"AccessToken.user\" must be a \"User\" instance"
+          "question_id": 17560390,
+          "question_text": "Title: Match a^xb^x with regex | Body: To clarify, I want to match:\n\n\n  ab\n     aabb\n     aaabbb \n     ...\n\n\nThis works in Perl:\n\nif ($exp =~ /^(a(?1)?b)$/)\n\n\nTo understand this, look at the string as though it grows from the outside-in, not left-right:\n\n\n  ab\n     a(ab)b\n     aa(ab)bb\n\n\n(?1) is a reference to the outer set of parenthese"
         },
         {
-          "question_id": 23431940,
-          "question_text": "Title: C# access data from COMAdmin.COMAdminCatalog using WMI | Body: Earlier I was using code as below to grab COM+ applications and verify that my app is running\n\nCOMAdmin.COMAdminCatalog catalog = new COMAdmin.COMAdminCatalogClass();\ncatalog.Connect(servername);\ncatalog.GetCollection(\"Applications\")\n\n\nNow I need to perform the same actions but from other domain. So"
+          "question_id": 38028730,
+          "question_text": "Title: Parse API push notification, open app page on play store | Body: So on are our app we have Parse API, to send push notification and manage backend stuff, we are sending and update the app notificaiton bt clicking the notification it opens the APP, we would like it to open the store page for our APP, is it possible?\n"
         },
         {
-          "question_id": 10795630,
-          "question_text": "Title: Share image from SD Card | Body: I'm trying for 2 weeks to find how to share images which are stored on an SD card with no success. \n\nThis answer doesn't work to me, nor is it what I'm looking for.\n\nI'm working with Cam Preview app that stores images to SD and then display them in in-app gallery: \n\n   public class GalleryView exten"
+          "question_id": 8265760,
+          "question_text": "Title: Select unmatched records from two tables of MYSQL | Body: I have two tables Table1 and Table2 with some records\n\nid is the common column in both tables and primarykey is set to this column in table1\n\nThere are many records in table1 and some of these records (not all) are updated into table2.\n\nNow I want retrieve from table1 the records not updated into th"
         }
       ]
     },
     "1": {
-      "size": 20,
+      "size": 31,
       "samples": [
         {
-          "question_id": 21685730,
-          "question_text": "Title: Jquery each loop + setTimeout problems with increments | Body: http://jsfiddle.net/fxLcy/ - example with setTimeout\n\nhttp://jsfiddle.net/fxLcy/1/ - this is the demo without setTimeout. All elements on right place, but i really need that delayed animation =/\n\nI want to place 6 cards per row via css transition and setTimeout. The point is, that i cant use increme"
+          "question_id": 17018410,
+          "question_text": "Title: Call service at specific time in android | Body: I have service run in background.\nI want to call this service at specific interval.\nif user provide values 10, 20, 30 than service should call after 10 min,20 min and 30 min receptively. \n\nHow can I do above thing?\n"
         },
         {
-          "question_id": 21587540,
-          "question_text": "Title: rails3 jquery autocomplete getting and passing array | Body: This may seem like an easy problem to most of you, but it's been troubling me all day. \n\nI'm trying to implement messaging system. I want to be able to send message to multiple people. for this to happen i need help with two things:\nFirstly, data-delimeter doesn't work. I'm guessing i just don't kno"
+          "question_id": 4426350,
+          "question_text": "Title: Send the .apk file to client for review | Body: I have developed an Android application and had it tested on emulator as well as device. I want to export the .apk file to the client for review. I used the Application manifest file to export the unsigned apk and sent it, but that's not getting installed on his phone.\n\nI have read multiple question"
         },
         {
-          "question_id": 13372060,
-          "question_text": "Title: Regex matching @\"*\" | Body: I am attempting to use regexes in jQuery, and I am running into some problems. This is the string that I am operating on:\n\nNSLog(@\"It works!\");\n\n\nI want the regex to select everything between the @\" and the \", inclusive. This regex works just fine in Reggy, but when put in my JavaScript, does not wo"
+          "question_id": 38972250,
+          "question_text": "Title: Extracting all API calls from .smali files in android apk | Body: I want to extract all API calls from an Android application's apk. I have used apktool to get the smali code files from the apk. Manually I can spot some API calls, but I need an automated method. For example, I can see the getNetworkInfo call in this line of code:\n\n    invoke-virtual {p0, v0}, Land"
+        }
+      ]
+    },
+    "2": {
+      "size": 36,
+      "samples": [
+        {
+          "question_id": 22098660,
+          "question_text": "Title: Understanding Javascript's prototypes coming from a Java and C++ background | Body: My programming background is largely in Java, C++, and C#.  I've been getting into Javascript and web development recently and I have a basic grasp of using Javascript and JQuery to do things like manipulate DOM elements and whatever else I need on the front end.\n\nWhat I can't seem to wrap my head a"
+        },
+        {
+          "question_id": 25063930,
+          "question_text": "Title: Dropdown menu coding - mouse over | Body: I've a code snippet I'm trying to edit.\n\nMy website has a link navigation dropdown menu in place, but the default setting it to activate it on a mouse click, not to function on mouse hover as I would prefer.\n\nBelow is a snippet of the JS code - Anyone recommend a change to allow mouse hover to opera"
+        },
+        {
+          "question_id": 34140330,
+          "question_text": "Title: How to get value of data attribute with jquery | Body: I want to be able to grab html5 attribute values and have them match the value and attribute name with the class - then hide on click. \n\nfor example data-table=\"sample11\" should hide class=\"sample11\" same for sample14 and any other attributes on this page \n\nI was trying something like this but it is"
+        }
+      ]
+    },
+    "3": {
+      "size": 60,
+      "samples": [
+        {
+          "question_id": 11802960,
+          "question_text": "Title: How Linq infers types from Lambda | Body: Here is the original Linq:\n\n       var developersUsingCSharp =\n                from d in developers\n                    where d.Language == \"C#\"\n                    select d.Name;\n\n\nThis can be written as:\n\n     Func&lt;Developer, bool&gt; filteringPredicate = d =&gt; d.Language == \"C#\";\n     Func&l"
+        },
+        {
+          "question_id": 10353140,
+          "question_text": "Title: Algorithm to find isomorphic nature in binary trees | Body: what will be the algorithm to check two binary tree are isomorphic in nature?\nmy code-\n\nboolean isIsomorphic(Root t1 , Root t2){\n    if(t1==null || t2==null){\n        return false;\n    }\n\n    if((t1.value == t2.value) &amp;&amp; (isIsomorphic(t1.left,t2.right) &amp;&amp; isIsomorphic(t1.right,t2.lef"
+        },
+        {
+          "question_id": 17912780,
+          "question_text": "Title: C# New window focus | Body: My program contains a listview with \"SelectionChanged\" event. When I'm changing the selected item in the list view I want to open a new window with specific options related to it. But the problem is that the new window appears for a moment and it hides behind the main window. \nThis is a part of my c"
+        }
+      ]
+    },
+    "4": {
+      "size": 30,
+      "samples": [
+        {
+          "question_id": 14644880,
+          "question_text": "Title: How to guess image mime type? | Body: How can I guess an image's mime type, in a cross-platform manner, and without any external libraries?\n"
+        },
+        {
+          "question_id": 39233720,
+          "question_text": "Title: Implementing an image viewer using CSS | Body: The following code (jsfiddle) implements an image viewer in CSS\n\n\n\n&lt;!DOCTYPE html&gt;\n&lt;head&gt;\n    &lt;title&gt;Trains, Planes, Automobiles, and Boats&lt;/title&gt;\n    &lt;meta charset=\"UTF-8\"&gt;\n    &lt;style type=\"text/css\" media=\"screen\"&gt;\n        html, body { background:#ddd; margin:0"
+        },
+        {
+          "question_id": 25102930,
+          "question_text": "Title: imageSX and imageSY VS getimagesize | Body: I'm sorry for my bad English, in advance.\nI need to only receive a width and height of an image. What kind of function do I must use?\nI guess imageSX(Y) will be working quicker that getimagesize or am I wrong?\n\nI use the latest version of PHP\n"
         }
       ]
     }
   },
   "clusters_b": {
     "0": {
-      "size": 3,
+      "size": 16,
       "samples": [
         {
+          "concept_id": "T-0",
+          "concept_name": "c++"
+        },
+        {
           "concept_id": "T-1",
-          "concept_name": "html",
-          "Description": "HyperText Markup Language, the standard markup language for documents designed to be displayed in a web browser."
+          "concept_name": "php"
         },
         {
           "concept_id": "T-2",
-          "concept_name": "javascript",
-          "Description": "A lightweight, interpreted programming language with first-class functions, core to interactive web development."
-        },
-        {
-          "concept_id": "T-3",
-          "concept_name": "jquery",
-          "Description": "A fast, small, and feature-rich JavaScript library designed to simplify HTML DOM tree traversal and manipulation."
+          "concept_name": "javascript"
         }
       ]
     },
     "1": {
-      "size": 7,
+      "size": 4,
       "samples": [
         {
-          "concept_id": "T-0",
-          "concept_name": "java",
-          "Description": "A high-level, class-based, object-oriented programming language designed to have as few implementation dependencies as possible."
+          "concept_id": "T-8",
+          "concept_name": "iphone"
         },
         {
-          "concept_id": "T-4",
-          "concept_name": "c++",
-          "Description": "A general-purpose programming language created as an extension of C, known for performance, efficiency, and hardware control."
+          "concept_id": "T-9",
+          "concept_name": "objective-c"
         },
         {
-          "concept_id": "T-5",
-          "concept_name": "c#",
-          "Description": "A modern, object-oriented, and type-safe programming language developed by Microsoft for the .NET framework."
+          "concept_id": "T-14",
+          "concept_name": "android"
         }
       ]
     }
@@ -85,360 +130,1022 @@
     {
       "ca": 0,
       "cb": 0,
-      "size_a": 80,
-      "size_b": 3,
-      "sample_rate": 0.06666666666666667,
+      "size_a": 43,
+      "size_b": 16,
+      "sample_rate": 0.08,
       "matches": [
-        [
-          3,
-          1
-        ],
-        [
-          39,
-          1
-        ],
-        [
-          62,
-          2
-        ],
-        [
-          62,
-          3
-        ],
-        [
-          73,
-          1
-        ],
-        [
-          82,
-          1
-        ],
-        [
-          92,
-          1
-        ],
-        [
-          94,
-          1
-        ]
-      ],
-      "tokens": {
-        "prompt": 8342,
-        "completion": 617
-      }
-    },
-    {
-      "ca": 0,
-      "cb": 1,
-      "size_a": 80,
-      "size_b": 7,
-      "sample_rate": 0.12,
-      "matches": [
-        [
-          1,
-          5
-        ],
-        [
-          5,
-          8
-        ],
-        [
-          6,
-          4
-        ],
-        [
-          7,
-          7
-        ],
-        [
-          8,
-          0
-        ],
         [
           9,
-          6
-        ],
-        [
-          10,
-          0
-        ],
-        [
-          12,
-          9
-        ],
-        [
-          13,
-          4
-        ],
-        [
-          14,
-          5
-        ],
-        [
-          15,
-          6
-        ],
-        [
-          16,
-          8
-        ],
-        [
-          19,
-          8
-        ],
-        [
-          20,
-          8
-        ],
-        [
-          22,
-          5
-        ],
-        [
-          27,
-          4
-        ],
-        [
-          29,
-          6
-        ],
-        [
-          31,
-          9
-        ],
-        [
-          34,
-          9
-        ],
-        [
-          38,
           5
         ],
         [
           41,
-          0
+          11
         ],
         [
-          44,
-          6
+          8,
+          15
         ],
         [
-          48,
-          8
+          8,
+          18
         ],
         [
-          49,
-          4
+          9,
+          19
         ],
         [
-          50,
-          4
-        ],
-        [
-          51,
-          7
-        ],
-        [
-          53,
-          5
-        ],
-        [
-          54,
-          9
-        ],
-        [
-          57,
-          5
-        ],
-        [
-          58,
-          8
-        ],
-        [
-          62,
-          0
-        ],
-        [
-          64,
-          7
-        ],
-        [
-          66,
-          0
-        ],
-        [
-          67,
-          5
-        ],
-        [
-          69,
-          0
-        ],
-        [
-          70,
-          6
-        ],
-        [
-          71,
-          9
-        ],
-        [
-          72,
-          5
-        ],
-        [
-          73,
-          6
-        ],
-        [
-          74,
-          5
-        ],
-        [
-          75,
-          0
-        ],
-        [
-          78,
-          4
-        ],
-        [
-          82,
-          6
-        ],
-        [
-          85,
-          7
-        ],
-        [
-          88,
-          4
-        ],
-        [
-          89,
-          9
-        ],
-        [
-          91,
-          6
-        ],
-        [
-          93,
-          8
-        ],
-        [
-          95,
-          4
-        ],
-        [
-          96,
-          5
-        ],
-        [
-          97,
-          9
-        ]
-      ],
-      "tokens": {
-        "prompt": 8582,
-        "completion": 808
-      }
-    },
-    {
-      "ca": 1,
-      "cb": 0,
-      "size_a": 20,
-      "size_b": 3,
-      "sample_rate": 0.2,
-      "matches": [
-        [
-          17,
-          3
-        ],
-        [
-          18,
-          3
+          20,
+          19
         ],
         [
           24,
-          3
-        ],
-        [
-          25,
-          3
-        ],
-        [
-          28,
-          2
-        ],
-        [
-          32,
-          3
-        ],
-        [
-          35,
-          2
-        ],
-        [
-          40,
-          2
-        ],
-        [
-          42,
-          2
+          13
         ],
         [
           52,
           2
         ],
         [
-          55,
-          3
+          52,
+          5
         ],
         [
-          56,
+          54,
+          11
+        ],
+        [
+          65,
+          5
+        ],
+        [
+          71,
+          11
+        ],
+        [
+          74,
+          5
+        ],
+        [
+          78,
+          5
+        ],
+        [
+          85,
+          11
+        ],
+        [
+          52,
+          19
+        ],
+        [
+          65,
+          13
+        ],
+        [
+          70,
+          18
+        ],
+        [
+          74,
+          19
+        ],
+        [
+          111,
           2
         ],
         [
-          61,
-          3
+          120,
+          11
         ],
         [
-          80,
-          2
+          133,
+          5
         ],
         [
-          81,
-          2
+          142,
+          10
         ],
         [
-          81,
-          3
+          147,
+          11
         ],
         [
-          86,
-          3
+          89,
+          15
         ],
         [
-          98,
-          3
+          89,
+          18
+        ],
+        [
+          132,
+          12
+        ],
+        [
+          133,
+          19
+        ],
+        [
+          154,
+          5
+        ],
+        [
+          176,
+          11
+        ],
+        [
+          180,
+          5
+        ],
+        [
+          188,
+          11
+        ],
+        [
+          189,
+          11
+        ],
+        [
+          148,
+          15
+        ],
+        [
+          148,
+          18
+        ],
+        [
+          151,
+          15
+        ],
+        [
+          151,
+          18
+        ],
+        [
+          154,
+          19
+        ],
+        [
+          157,
+          15
+        ],
+        [
+          157,
+          18
+        ],
+        [
+          180,
+          19
+        ],
+        [
+          193,
+          11
+        ],
+        [
+          190,
+          19
+        ],
+        [
+          196,
+          15
         ]
       ],
       "tokens": {
-        "prompt": 1963,
-        "completion": 197
+        "prompt": 10413,
+        "completion": 874
+      }
+    },
+    {
+      "ca": 0,
+      "cb": 1,
+      "size_a": 43,
+      "size_b": 4,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          4,
+          14
+        ]
+      ],
+      "tokens": {
+        "prompt": 4999,
+        "completion": 327
+      }
+    },
+    {
+      "ca": 1,
+      "cb": 0,
+      "size_a": 31,
+      "size_b": 16,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          10,
+          4
+        ],
+        [
+          23,
+          4
+        ],
+        [
+          28,
+          4
+        ],
+        [
+          31,
+          4
+        ],
+        [
+          40,
+          4
+        ],
+        [
+          56,
+          4
+        ],
+        [
+          58,
+          4
+        ],
+        [
+          61,
+          4
+        ],
+        [
+          77,
+          4
+        ],
+        [
+          97,
+          4
+        ],
+        [
+          107,
+          4
+        ],
+        [
+          115,
+          1
+        ],
+        [
+          115,
+          15
+        ],
+        [
+          115,
+          18
+        ]
+      ],
+      "tokens": {
+        "prompt": 6894,
+        "completion": 551
       }
     },
     {
       "ca": 1,
       "cb": 1,
-      "size_a": 20,
-      "size_b": 7,
+      "size_a": 31,
+      "size_b": 4,
+      "sample_rate": 0.3,
+      "matches": [
+        [
+          10,
+          14
+        ],
+        [
+          12,
+          14
+        ],
+        [
+          23,
+          14
+        ],
+        [
+          25,
+          17
+        ],
+        [
+          28,
+          14
+        ],
+        [
+          31,
+          14
+        ],
+        [
+          36,
+          17
+        ],
+        [
+          40,
+          14
+        ],
+        [
+          44,
+          14
+        ],
+        [
+          56,
+          14
+        ],
+        [
+          58,
+          14
+        ],
+        [
+          61,
+          14
+        ],
+        [
+          68,
+          17
+        ],
+        [
+          77,
+          14
+        ],
+        [
+          80,
+          8
+        ],
+        [
+          82,
+          8
+        ],
+        [
+          97,
+          14
+        ],
+        [
+          107,
+          14
+        ],
+        [
+          115,
+          14
+        ],
+        [
+          117,
+          14
+        ],
+        [
+          146,
+          14
+        ],
+        [
+          150,
+          17
+        ],
+        [
+          155,
+          9
+        ],
+        [
+          160,
+          9
+        ],
+        [
+          179,
+          14
+        ],
+        [
+          181,
+          14
+        ],
+        [
+          185,
+          9
+        ],
+        [
+          199,
+          14
+        ]
+      ],
+      "tokens": {
+        "prompt": 3281,
+        "completion": 344
+      }
+    },
+    {
+      "ca": 2,
+      "cb": 0,
+      "size_a": 36,
+      "size_b": 16,
+      "sample_rate": 0.04,
+      "matches": [
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          11,
+          3
+        ],
+        [
+          21,
+          3
+        ],
+        [
+          26,
+          2
+        ],
+        [
+          30,
+          2
+        ],
+        [
+          37,
+          3
+        ],
+        [
+          50,
+          2
+        ],
+        [
+          59,
+          3
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          37,
+          13
+        ],
+        [
+          69,
+          2
+        ],
+        [
+          69,
+          3
+        ],
+        [
+          81,
+          2
+        ],
+        [
+          81,
+          3
+        ],
+        [
+          90,
+          2
+        ],
+        [
+          90,
+          3
+        ],
+        [
+          99,
+          2
+        ],
+        [
+          99,
+          3
+        ],
+        [
+          113,
+          3
+        ],
+        [
+          118,
+          2
+        ],
+        [
+          119,
+          2
+        ],
+        [
+          121,
+          2
+        ],
+        [
+          121,
+          3
+        ],
+        [
+          122,
+          2
+        ],
+        [
+          122,
+          3
+        ],
+        [
+          126,
+          3
+        ],
+        [
+          128,
+          3
+        ],
+        [
+          134,
+          2
+        ],
+        [
+          136,
+          2
+        ],
+        [
+          139,
+          2
+        ],
+        [
+          139,
+          10
+        ],
+        [
+          121,
+          12
+        ],
+        [
+          134,
+          12
+        ],
+        [
+          136,
+          13
+        ],
+        [
+          139,
+          16
+        ],
+        [
+          164,
+          2
+        ],
+        [
+          164,
+          3
+        ],
+        [
+          173,
+          2
+        ],
+        [
+          173,
+          3
+        ],
+        [
+          182,
+          3
+        ],
+        [
+          183,
+          3
+        ],
+        [
+          184,
+          1
+        ],
+        [
+          194,
+          3
+        ],
+        [
+          164,
+          12
+        ],
+        [
+          164,
+          13
+        ],
+        [
+          173,
+          12
+        ],
+        [
+          173,
+          13
+        ],
+        [
+          182,
+          12
+        ],
+        [
+          183,
+          12
+        ],
+        [
+          184,
+          12
+        ],
+        [
+          184,
+          15
+        ],
+        [
+          194,
+          12
+        ]
+      ],
+      "tokens": {
+        "prompt": 8312,
+        "completion": 790
+      }
+    },
+    {
+      "ca": 2,
+      "cb": 1,
+      "size_a": 36,
+      "size_b": 4,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          118,
+          8
+        ],
+        [
+          118,
+          17
+        ],
+        [
+          123,
+          14
+        ]
+      ],
+      "tokens": {
+        "prompt": 3990,
+        "completion": 260
+      }
+    },
+    {
+      "ca": 3,
+      "cb": 0,
+      "size_a": 60,
+      "size_b": 16,
+      "sample_rate": 0.12,
+      "matches": [
+        [
+          1,
+          10
+        ],
+        [
+          14,
+          10
+        ],
+        [
+          16,
+          7
+        ],
+        [
+          18,
+          4
+        ],
+        [
+          29,
+          10
+        ],
+        [
+          32,
+          4
+        ],
+        [
+          33,
+          0
+        ],
+        [
+          45,
+          10
+        ],
+        [
+          48,
+          4
+        ],
+        [
+          49,
+          0
+        ],
+        [
+          51,
+          0
+        ],
+        [
+          67,
+          7
+        ],
+        [
+          75,
+          0
+        ],
+        [
+          79,
+          0
+        ],
+        [
+          83,
+          4
+        ],
+        [
+          87,
+          10
+        ],
+        [
+          93,
+          7
+        ],
+        [
+          94,
+          4
+        ],
+        [
+          98,
+          0
+        ],
+        [
+          108,
+          0
+        ],
+        [
+          124,
+          4
+        ],
+        [
+          125,
+          6
+        ],
+        [
+          125,
+          10
+        ],
+        [
+          125,
+          12
+        ],
+        [
+          137,
+          4
+        ],
+        [
+          143,
+          0
+        ],
+        [
+          144,
+          10
+        ],
+        [
+          145,
+          4
+        ],
+        [
+          149,
+          4
+        ],
+        [
+          158,
+          6
+        ],
+        [
+          159,
+          7
+        ],
+        [
+          162,
+          10
+        ],
+        [
+          163,
+          4
+        ],
+        [
+          166,
+          4
+        ],
+        [
+          169,
+          10
+        ],
+        [
+          174,
+          4
+        ],
+        [
+          175,
+          10
+        ],
+        [
+          192,
+          4
+        ],
+        [
+          197,
+          4
+        ],
+        [
+          198,
+          7
+        ],
+        [
+          169,
+          15
+        ]
+      ],
+      "tokens": {
+        "prompt": 13726,
+        "completion": 1098
+      }
+    },
+    {
+      "ca": 3,
+      "cb": 1,
+      "size_a": 60,
+      "size_b": 4,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          100,
+          14
+        ],
+        [
+          137,
+          14
+        ]
+      ],
+      "tokens": {
+        "prompt": 6614,
+        "completion": 467
+      }
+    },
+    {
+      "ca": 4,
+      "cb": 0,
+      "size_a": 30,
+      "size_b": 16,
+      "sample_rate": 0.08,
+      "matches": [
+        [
+          5,
+          1
+        ],
+        [
+          13,
+          1
+        ],
+        [
+          15,
+          1
+        ],
+        [
+          27,
+          1
+        ],
+        [
+          38,
+          1
+        ],
+        [
+          62,
+          6
+        ],
+        [
+          6,
+          12
+        ],
+        [
+          6,
+          13
+        ],
+        [
+          27,
+          15
+        ],
+        [
+          62,
+          16
+        ],
+        [
+          73,
+          1
+        ],
+        [
+          84,
+          2
+        ],
+        [
+          91,
+          2
+        ],
+        [
+          95,
+          1
+        ],
+        [
+          106,
+          2
+        ],
+        [
+          110,
+          2
+        ],
+        [
+          116,
+          1
+        ],
+        [
+          127,
+          1
+        ],
+        [
+          84,
+          13
+        ],
+        [
+          91,
+          12
+        ],
+        [
+          106,
+          13
+        ],
+        [
+          110,
+          13
+        ],
+        [
+          112,
+          12
+        ],
+        [
+          116,
+          12
+        ],
+        [
+          129,
+          1
+        ],
+        [
+          141,
+          6
+        ],
+        [
+          152,
+          1
+        ],
+        [
+          153,
+          1
+        ],
+        [
+          167,
+          1
+        ],
+        [
+          177,
+          2
+        ],
+        [
+          178,
+          1
+        ],
+        [
+          141,
+          16
+        ],
+        [
+          161,
+          12
+        ],
+        [
+          168,
+          12
+        ],
+        [
+          177,
+          13
+        ],
+        [
+          195,
+          13
+        ]
+      ],
+      "tokens": {
+        "prompt": 6641,
+        "completion": 574
+      }
+    },
+    {
+      "ca": 4,
+      "cb": 1,
+      "size_a": 30,
+      "size_b": 4,
       "sample_rate": 0.0,
       "matches": [],
       "tokens": {
-        "prompt": 2003,
-        "completion": 149
+        "prompt": 3196,
+        "completion": 207
       }
     }
   ]

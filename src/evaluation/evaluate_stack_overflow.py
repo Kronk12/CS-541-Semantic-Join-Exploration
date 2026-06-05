@@ -11,14 +11,14 @@ from simulate import export_simulation_data
 
 def evaluate_stackoverflow():
     # Load your dataset
-    df_a = pd.read_csv('data/table_a_stack.csv')
-    df_b = pd.read_csv('data/table_b_stack.csv')
+    df_a = pd.read_csv('data/table_a_stack_200.csv')
+    df_b = pd.read_csv('data/table_b_stack_200.csv')
 
     # Target ratios for the grid search
-    target_ratios = [0.025, 0.05]
+    target_ratios = [0.025, 0.05, 0.075, 0.1]
     
     # Test both with and without projection
-    projection_states = [True]
+    projection_states = [False, True]
 
     for ratio in target_ratios:
         divisor = int(1 / ratio)
@@ -56,7 +56,7 @@ def evaluate_stackoverflow():
 
             # Dynamically name the output file to avoid overwriting standard runs
             suffix = "_projection" if force_proj else ""
-            output_filename = f"src/evaluation/sim_logs/stackoverflow_no_desc_master_log_ratio_10_{ratio}{suffix}.json"
+            output_filename = f"src/results/sim_logs/stackoverflow_no_desc_master_log_ratio_{ratio}{suffix}.json"
 
             # Export everything, including up to 3 sample rows per cluster
             export_simulation_data(

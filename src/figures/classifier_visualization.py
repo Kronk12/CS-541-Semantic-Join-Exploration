@@ -29,10 +29,15 @@ imdb_class = class_df[class_df['Baseline_Type'] == 'Classifier_Join'].iloc[0]
 class_f1 = imdb_class['F1']
 class_tokens = imdb_class['Tokens']
 
+# D. Naive Data (IMDB, Extrapolated) - Hardcoded from Table 2 in report
+naive_f1 = 69.04
+naive_tokens = 791165
+
 # Combine
 plot_data = [
+    {'Method': 'Naive Join\n(Extrapolated)', 'F1 Score (%)': naive_f1, 'Total Tokens': naive_tokens},
     {'Method': 'Block Join\n(Size=10)', 'F1 Score (%)': block_f1, 'Total Tokens': block_tokens},
-    {'Method': 'Optimal Semantic\nJoin', 'F1 Score (%)': cluster_f1, 'Total Tokens': cluster_tokens},
+    {'Method': 'Optimal Cluster\nJoin', 'F1 Score (%)': cluster_f1, 'Total Tokens': cluster_tokens},
     {'Method': 'Classifier Join', 'F1 Score (%)': class_f1, 'Total Tokens': class_tokens}
 ]
 plot_df = pd.DataFrame(plot_data)
@@ -40,9 +45,10 @@ plot_df = pd.DataFrame(plot_data)
 # ==========================================
 # 2. Setup Plot (1x2 Subplots)
 # ==========================================
-fig, axes = plt.subplots(1, 2, figsize=(14, 6))
+# Slightly wider figure to comfortably fit 4 bars
+fig, axes = plt.subplots(1, 2, figsize=(16, 6))
 
-palette = sns.color_palette("Set2", 3)
+palette = sns.color_palette("Set2", 4)
 
 # ---------------------------
 # Panel A: F1 Score
@@ -55,7 +61,7 @@ sns.barplot(
     palette=palette, 
     edgecolor='black',
     hue='Method',
-    dodge=False
+    legend=False
 )
 axes[0].set_ylim(0, 100)
 axes[0].set_title('Accuracy (F1 Score)', fontsize=14, fontweight='bold', pad=15)
@@ -66,13 +72,10 @@ axes[0].set_xlabel('')
 for p in axes[0].patches:
     height = p.get_height()
     if height > 0:
-        axes[0].annotate(f"{height:.1f}%", 
+        axes[0].annotate(f"{height:.2f}%", 
                     (p.get_x() + p.get_width() / 2., height), 
                     ha='center', va='bottom', xytext=(0, 5), 
                     textcoords='offset points', fontweight='bold', fontsize=11)
-
-if axes[0].legend_ is not None:
-    axes[0].legend_.remove()
 
 # ---------------------------
 # Panel B: Token Expenditure
@@ -85,15 +88,20 @@ sns.barplot(
     palette=palette, 
     edgecolor='black',
     hue='Method',
-    dodge=False
+    legend=False
 )
-axes[1].set_title('Token Expenditure', fontsize=14, fontweight='bold', pad=15)
+axes[1].set_title('Token Expenditure (Log Scale)', fontsize=14, fontweight='bold', pad=15)
 axes[1].set_ylabel('Total Tokens', fontsize=12, fontweight='bold')
 axes[1].set_xlabel('')
+
+# Apply logarithmic scale to y-axis
+axes[1].set_yscale('log')
+
+# Format ticks as standard numbers (e.g., 100,000) instead of scientific notation
 axes[1].yaxis.set_major_formatter(ticker.FuncFormatter(lambda x, p: format(int(x), ',')))
 
-# Add headroom for labels
-axes[1].set_ylim(0, plot_df['Total Tokens'].max() * 1.15)
+# Add more headroom for labels due to log scale compression
+axes[1].set_ylim(10000, plot_df['Total Tokens'].max() * 5)
 
 # Annotate bars
 for p in axes[1].patches:
@@ -103,9 +111,6 @@ for p in axes[1].patches:
                     (p.get_x() + p.get_width() / 2., height), 
                     ha='center', va='bottom', xytext=(0, 5), 
                     textcoords='offset points', fontweight='bold', fontsize=11)
-
-if axes[1].legend_ is not None:
-    axes[1].legend_.remove()
 
 # ==========================================
 # 3. Formatting and Export

@@ -3,7 +3,7 @@ import os
 import pandas as pd
 
 # Update these paths if your script is executed from a different directory
-LOG_DIR = "src/evaluation/sim_logs"
+LOG_DIR = "src/results/sim_logs"
 DATA_DIR = "data"  
 OUTPUT_CSV_DIR = "src/evaluation/logs" # Directory to store the organized CSVs
 
@@ -22,12 +22,16 @@ def get_emails_ground_truth():
 
 def get_stackoverflow_ground_truth():
     """Calculates the ground truth directly from the StackOverflow CSVs and the GT mapping file."""
-    df_a = pd.read_csv(os.path.join(DATA_DIR, 'table_a_stack.csv'))
-    df_b = pd.read_csv(os.path.join(DATA_DIR, 'table_b_stack.csv'))
+    # Using the 200-row dataset as the new standard
+    df_a = pd.read_csv(os.path.join(DATA_DIR, 'table_a_stack_200.csv'))
+    df_b = pd.read_csv(os.path.join(DATA_DIR, 'table_b_stack_200.csv'))
     
-    gt_mapping_path = os.path.join(DATA_DIR, 'stack_ground_truth.csv')
+    gt_mapping_path = os.path.join(DATA_DIR, 'stack_ground_truth_200.csv')
     if not os.path.exists(gt_mapping_path):
-        raise FileNotFoundError(f"Missing ground truth file: {gt_mapping_path}")
+        # Fallback to the original if _200 doesn't exist (though we just verified it does)
+        df_a = pd.read_csv(os.path.join(DATA_DIR, 'table_a_stack.csv'))
+        df_b = pd.read_csv(os.path.join(DATA_DIR, 'table_b_stack.csv'))
+        gt_mapping_path = os.path.join(DATA_DIR, 'stack_ground_truth.csv')
         
     df_gt = pd.read_csv(gt_mapping_path)
     valid_pairs = set(zip(df_gt['question_id'].astype(int), df_gt['concept_id'].astype(str)))

@@ -18,7 +18,7 @@ def safe_block_join(*args, **kwargs):
 
 def load_full_datasets():
     print("Loading datasets for FULL Block evaluation...")
-    so_gt_df = pd.read_csv('data/stack_ground_truth.csv')
+    so_gt_df = pd.read_csv('data/stack_ground_truth_200.csv')
     so_gt_pairs = set(zip(so_gt_df['question_id'].astype(int), so_gt_df['concept_id'].astype(str)))
     
     return {
@@ -37,8 +37,8 @@ def load_full_datasets():
             "gt_fn": lambda a, b: (a["name"] == b["name"]) and (b["month_idx"] < a["month_idx"]),
         },
         "StackOverflow": {
-            "a": pd.read_csv('data/table_a_stack.csv'),
-            "b": pd.read_csv('data/table_b_stack.csv'),
+            "a": pd.read_csv('data/table_a_stack_200.csv'),
+            "b": pd.read_csv('data/table_b_stack_200.csv'),
             "schema_a": ["question_text"], 
             "schema_b": ["concept_name"],
             "pred": "The question describes symptoms, errors, or intents that are solved by or directly related to this programming concept.",

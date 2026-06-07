@@ -1,1156 +1,312 @@
 question_id,question_text
-22098660,"Title: Understanding Javascript's prototypes coming from a Java and C++ background | Body: My programming background is largely in Java, C++, and C#.  I've been getting into Javascript and web development recently and I have a basic grasp of using Javascript and JQuery to do things like manipulate DOM elements and whatever else I need on the front end.
-
-What I can't seem to wrap my head a"
-11802960,"Title: How Linq infers types from Lambda | Body: Here is the original Linq:
-
-       var developersUsingCSharp =
-                from d in developers
-                    where d.Language == ""C#""
-                    select d.Name;
-
-
-This can be written as:
-
-     Func&lt;Developer, bool&gt; filteringPredicate = d =&gt; d.Language == ""C#"";
-     Func&l"
-25063930,"Title: Dropdown menu coding - mouse over | Body: I've a code snippet I'm trying to edit.
-
-My website has a link navigation dropdown menu in place, but the default setting it to activate it on a mouse click, not to function on mouse hover as I would prefer.
-
-Below is a snippet of the JS code - Anyone recommend a change to allow mouse hover to opera"
-17560390,"Title: Match a^xb^x with regex | Body: To clarify, I want to match:
-
-
-  ab
-     aabb
-     aaabbb 
-     ...
-
-
-This works in Perl:
-
-if ($exp =~ /^(a(?1)?b)$/)
-
-
-To understand this, look at the string as though it grows from the outside-in, not left-right:
-
-
-  ab
-     a(ab)b
-     aa(ab)bb
-
-
-(?1) is a reference to the outer set of parenthese"
-38028730,"Title: Parse API push notification, open app page on play store | Body: So on are our app we have Parse API, to send push notification and manage backend stuff, we are sending and update the app notificaiton bt clicking the notification it opens the APP, we would like it to open the store page for our APP, is it possible?
-"
-14644880,"Title: How to guess image mime type? | Body: How can I guess an image's mime type, in a cross-platform manner, and without any external libraries?
-"
-39233720,"Title: Implementing an image viewer using CSS | Body: The following code (jsfiddle) implements an image viewer in CSS
-
-
-
-&lt;!DOCTYPE html&gt;
-&lt;head&gt;
-    &lt;title&gt;Trains, Planes, Automobiles, and Boats&lt;/title&gt;
-    &lt;meta charset=""UTF-8""&gt;
-    &lt;style type=""text/css"" media=""screen""&gt;
-        html, body { background:#ddd; margin:0"
-10353140,"Title: Algorithm to find isomorphic nature in binary trees | Body: what will be the algorithm to check two binary tree are isomorphic in nature?
-my code-
-
-boolean isIsomorphic(Root t1 , Root t2){
-    if(t1==null || t2==null){
-        return false;
-    }
-
-    if((t1.value == t2.value) &amp;&amp; (isIsomorphic(t1.left,t2.right) &amp;&amp; isIsomorphic(t1.right,t2.lef"
-8265760,"Title: Select unmatched records from two tables of MYSQL | Body: I have two tables Table1 and Table2 with some records
-
-id is the common column in both tables and primarykey is set to this column in table1
-
-There are many records in table1 and some of these records (not all) are updated into table2.
-
-Now I want retrieve from table1 the records not updated into th"
-3316880,"Title: How to join 2 models in rails, which are not really in any relationship? | Body: I have 3 models, say Account, Comment and Status. Each Account will have many Comment and Status, but Comment and Status are not in any kind of relationship.
-
-I would like to query the Account's Comment and Status, and sort these comments and status by time. How can I make this?
-
-Thanks all.
-"
-17018410,"Title: Call service at specific time in android | Body: I have service run in background.
-I want to call this service at specific interval.
-if user provide values 10, 20, 30 than service should call after 10 min,20 min and 30 min receptively. 
-
-How can I do above thing?
-"
-34140330,"Title: How to get value of data attribute with jquery | Body: I want to be able to grab html5 attribute values and have them match the value and attribute name with the class - then hide on click. 
-
-for example data-table=""sample11"" should hide class=""sample11"" same for sample14 and any other attributes on this page 
-
-I was trying something like this but it is"
-4426350,"Title: Send the .apk file to client for review | Body: I have developed an Android application and had it tested on emulator as well as device. I want to export the .apk file to the client for review. I used the Application manifest file to export the unsigned apk and sent it, but that's not getting installed on his phone.
-
-I have read multiple question"
-25102930,"Title: imageSX and imageSY VS getimagesize | Body: I'm sorry for my bad English, in advance.
-I need to only receive a width and height of an image. What kind of function do I must use?
-I guess imageSX(Y) will be working quicker that getimagesize or am I wrong?
-
-I use the latest version of PHP
-"
-17912780,"Title: C# New window focus | Body: My program contains a listview with ""SelectionChanged"" event. When I'm changing the selected item in the list view I want to open a new window with specific options related to it. But the problem is that the new window appears for a moment and it hides behind the main window. 
-This is a part of my c"
-25054190,"Title: Evaluate associative php array inline | Body: I am retrieving the f-number from JPEG images by EXIF data. To get the desired number, I need to evaluate the expression. Right now I use three lines of code for this. Could it be made shorter, or ideally as a one-liner?
-
-$fnumber = $exif['FNumber'];
-eval(""\$fnumber = $fnumber;"");
-$photo['fnumber'] "
-1703670,"Title: Is there anything to change the exports name mangling scheme in GCC? | Body: I'm trying to build a project I have and it has several exported functions. The functions follow the stdcall convention and they get mangled if compiled with GCC as
-
-Func@X
-
-
-Other compilers mangle the name like this:
-
-_Func@X
-
-
-Is any way I can force GCC to mangle the names of the exported function"
-2548350,"Title: Creating a custom animation with CGLayers? | Body: Basically, I want to animate a shrinking circle. I've already done this by drawing progressively smaller circles onto CGLayer's, and then using
-
-if(index &lt; 30){ 
-[self performSelector:@selector(showNextLayer) withObject:nil afterDelay:(NSTimeInterval)0.02];
-index++; 
-}
-
-in my showNextLayer method"
-21177580,"Title: Java running out of memory on VPS | Body: The program has no apparent memory leaks and while I am observing it run the locally in my machine it works fine. On the VPS it crashes after few hours with a sequence of error messages as shown below. 
-
-Exception in thread ""Thread-10422"" java.lang.OutOfMemoryError: Java heap space
-
-I don't understa"
-29204840,"Title: Unit test ServiceLoader | Body: I have a method that uses ServiceLoader to load services using resources.
-
-public List&lt;String&gt; getContextData(int Id)
-{
-  List&lt;String&gt; list = new ArrayList&lt;String&gt;();
-  ServiceLoader&lt;ContextPlugin&gt; serviceLoader =  ServiceLoader.load(ContextPlugin.class);
-  for (Iterator&lt;C"
-10448510,"Title: DataMapper join statements | Body: How does one generate a query with join statements using ruby DataMapper?
-
-ie.
-
-class Model1
-    property id, Serial
-    has n :Model2s, :parent_key =&gt; [ :id ], :child_key =&gt; [ :model1_id ]
-end
-
-class Model2
-    property :id, Serial
-    property :model1_id, Integer
-    has n :Model3s, :parent_"
-938690,"Title: jQuery Cross domain ajax calls and Internet Explorer | Body: The following code works fine in Firefox but in IE the link is never called, the exception is called with a rather generic [Object Error]
-
-var GoalID = ""e13e68a8-ae18-49f1-9d2f-e052a63fac51"";
-try
-{
-    $.ajax({
-      type: ""GET"",
-      url: ""http://www.externallink.co.uk/GoalAccessed.aspx?id="" + Goa"
-19675160,"Title: defining a method using inherited methods | Body: I'm trying to define void add(T thing) method by using the inherited push method of a stack but Eclipse says the return type is incompatible with Vector&lt;T&gt;.add(T) and wants me to change the return type of add(T) to boolean which doesn't make sense. 
-Below is my code
-
-public class ListStack&lt;"
-38972250,"Title: Extracting all API calls from .smali files in android apk | Body: I want to extract all API calls from an Android application's apk. I have used apktool to get the smali code files from the apk. Manually I can spot some API calls, but I need an automated method. For example, I can see the getNetworkInfo call in this line of code:
-
-    invoke-virtual {p0, v0}, Land"
-3212210,"Title: Custom folding for CSS in Vim | Body: I came upon this custom folding for CSS in Vim and inspired by it I was
-trying to make my own with slightly different result in mind. I had to give up
-as I couldn't make search patterns work in folding function. No surprise to me
-as I'm rather a Vim beginner :)
-
-Any help to achieve the following wil"
-16601690,"Title: How to move the views from a XIB file to storyboards in a project in Xcode? | Body: I am new to iOS programming and Xcode. I have a project which is working perfectly fine with 5 viewControllers and XIB file. I have to add many more features in it (like Google Maps, iAd Banner and others) so I am finding it difficult to manage it all. So I thought to use Storyboards in my project s"
-37823490,"Title: Javascript Event Listener quits (?) from listening... Youtube API - No console error | Body: EDIT - 2016-06-25
-(I removed my june 16th update, since not relevant anymore.
-&nbsp;&nbsp;&nbsp;I left my OP below...)
-
-
-
-I've spent another 4 hours on this today.
-Here is the situation now:
-
-My function WORKS for two links.
-The video params are defined in an array.
-The two other links aren't workin"
-18342730,"Title: import .CSV file with PHP using PDO | Body: I'm having a problem importing .CSV data into a SQL database. I'm trying to use PDO in my PHP file to accomplish this and I can't seem to figure this out. 
-
-if (isset($_FILES['uploadedfile'])) {   
-
-    // get the csv file and open it up
-    $file = $_FILES['uploadedfile']['tmp_name']; 
-    $handle "
-28042650,"Title: How to debug my app using adb(without IDE) android | Body: I am using gradle script for building the app in Eclipse . By using gradle I can run the application to the device, by using the script in gradle.
-
-task run(type: Exec, dependsOn: 'installDebug') {
-    def adb = ""$System.env.ANDROID_HOME/platform-tools/adb""
-    commandLine ""$adb"", 'shell', 'am', 'st"
-12453950,"Title: Why do you need two Current methods for IEnumerator<T> in C#? | Body: I'm writing a class that implements the interface IEnumerator. To get it to compile, I need the following two methods:
-
-public object Current
-{
-    get { return current; }
-}
-
-T IEnumerator&lt;T&gt;.Current
-{
-    get { return current; }
-}
-
-
-Why are both of these necessary? On the surface, it looks li"
-16384980,"Title: Getting the value of a $resource call in AngularJS controller | Body: I'm using AngularJS and I've made a $resource call to fetch a single value (e.g. the fetch gets me 14). 
-
-The following is in my controller: 
-
-var MaxCount = $resource('/maxquestion/fetch', null, 
-{
-    getMaxQuestionCount: {method: 'GET', isArray: false}
-});
-$scope.maxQuestionCount = MaxCount.getMa"
-5495750,"Title: when click on editText show the android keyboard | Body: How to show and hide keyboard in android.For example when i click on the editText keyboard should display and when i click outside of edittext keyboard should get hidden.
-"
-34985220,"Title: Differences between `copy(List<? super T> dest, List<? extends T> src) ` and `copy(List<T> dest, List<? extends T> src)` | Body: I am trying to learn Java Generics wildcard by reading the following:
-http://www.angelikalanger.com/GenericsFAQ/FAQSections/TypeArguments.html#FAQ103
-
-There is one example in the material:
-
-public class Collections { 
-  public static &lt;T&gt; void copy (List&lt;? super T&gt; dest, List&lt;? extends"
-23210250,"Title: Does MFC CList support the copy assignment? | Body: I've looked up the CList definition in MSVC afxtempl.h and document on MSDN. I did not see the CList&amp; operator=(const CList&amp;); is defined. 
-
-Can I directly use operator= to copy a CList object like this? 
-
- CList&lt;int&gt; a = b;
-
-
-Or I should iterate the source CList manually from head to "
-9118040,"Title: Simple GUI Toolkits For Use With Clojure | Body: The long and short of this question is which GUI tool kits create very simple UIs and are easy to use work with Clojure? Here are further details to narrow down my question.
-
-I want to create very simple GUI applications that will run on Windows, without investing in a huge GUI design effort. 
-
-For "
-5678630,"Title: GXT(EXT-GWT) Cannot commit changes to EditorGrid store | Body: I have an EditorGrid. When i edit the grid i use grid.getStore().commitChanges(), in order to save all the changes to the grid's store.
-
-Then i print out each row of the grid's store. It return's the previous values and not the updated ones.
-
-I searched sensha ext-gwt forum, but couldn't find a solu"
-26760290,"Title: iOS Touch ID for Web Development | Body: I am currently trying to figure out a way where I can build a responsive website, however once the website loads on an iOS Device I wanted to use the new iOS Touch ID api to allow members to login. I know it is possible to do such things using Native ofcourse and also Cordova (http://cordova.apache."
-36305860,"Title: max-height transition doesn't work and works slow | Body: i'm having trouble animating a div expanding. My JQuery function does what it's supposed to, but the animation doesn't appear. I have tried both transition : all and transition : max-height but none seems to work. Also something very weird happens, when i want to hide my div again. It appears that t"
-23455400,"Title: json_encode returns false when dealing with multibyte substring | Body: I am using almost the latest version of php (5.5.11) and here is the problem. When I use json_encode of the part of the string, it returns false. In the beginning I was using substr, but then I realized that this is totally wrong when dealing with non-English strings. But even after I used mb_substr"
-10002430,"Title: Binding multiple fields to the same property of an MVC 3 view model | Body: I am currently trying to figure out how you can bind multiple fields in an MVC 3 view to 1 
-property on a view model and what is recommended when trying to achieve this.
-
-Using an example for the number of minutes (only) that it takes to prepare something.
-
-The form might look something like this:
-
-"
-7361110,"Title: How to create a 3X3 array of images in a viewpager like a GridView which scrolls horizontally in android | Body: How to create a 3X3 array of images in a viewpager like a GridView which scrolls horizontally?
-"
-34577870,"Title: Using scipy.integrate.complex_ode instead of scipy.integrate.ode | Body: I am trying to use complex_ode method instead of ode method in scipy.integrate. The help page for complex_ode does not provide example, so I may have done something wrong.
-
-This code  works properly with scipy.integrate.ode:
-
-from scipy.integrate import ode
-
-y0, t0 = [1.0j, 2.0], 0
-
-def f(t, y, arg1"
-11596220,"Title: understanding code that removes duplicate characters in a string (from cracking the coding interview) | Body: Here is the question from ""cracking the coding interview"" Q1.3 ""Design an algorithm and write code to remove the duplicate characters in a string without using any additional buffer. NOTE: One or two additional variables are fine. An extra copy of the array is not."" and I wrote a program that seems "
-35700650,"Title: Facebook doesn't fire refresh event and Tampermonkey won't work? | Body: So the problem is that script is working until I log in into facebook, then to fire the script I would have to refresh whole site manually. 
-
-// ==UserScript==
-// @name Open Test
-// @version 1.0
-// @description Test
-// @include     http://facebook.com/*
-// @include     http://*.facebook.com/*
-// @in"
-20269910,"Title: ?android:attr/selectableItemBackground with another existing background | Body: I have a 9patch set as the background of my layout. However I still want to provide touch feedback by using the selectableItemBackground attr.
-
-I've tried using a &lt;layer-list&gt; with the 9patch and selectableItemBackground as the android:drawable of the second &lt;item&gt;, however that did not "
-36262900,"Title: Check if a string contains a specific string using array | Body: I am new to c#. I would like to know if a string such as a user name contains a specific word. I want to get those specific words from an array.Here's a example.`
-
-Console.Write(""Name: "");
-_name = Console.ReadLine();
-name = Program.ProperNameMethod( _name);
-Console.WriteLine();
-
-string[] badWordArra"
-26667380,"Title: In Swift, for AnyObject, how do I setValue() then call valueForKey() | Body: I'd like to store a value in AnyObject then retrieve it later as follows:
-
-var obj:AnyObject = UIButton()
-obj.setValue(""James"", forKey: ""owner"")
-obj.valueForKey(""owner"")
-
-
-However, AnyObject does not allow it even if these methods are available as shown by the error:
-
-setValue:forUndefinedKey:]: thi"
-16383260,"Title: How to easily switch between single and double precision in CUDA? | Body: When debugging developing and debugging, I would like to run my code with double precision. However, once I know it's working, I'd like the option to run my code using single precision (i.e. floats) only. So I'd like to be able to easily switch between these precisions without a large rewrite of cod"
-3119470,"Title: Java Google App Engine: Do I need to make an object persistent before adding it to another persistent object's persistent data structure? | Body: Let's say I have a class Employee and a class Company which holds a LinkedList of Employee objects, and I want to write a method that adds an Employee to the database in a specific Company. I create a new Company object and add it to the database with the new Employee if the Company does not already"
-22829090,"Title: c++ - difference between const and static keyword in function header | Body: Consider the following code:
-
-class Test
-{
-public:
-   //1
-   int kon1() const;
-
-   //2
-   const int kon2();
-
-   //3
-   static int kon3();
-};
-
-
-As far as I know, the difference between function 1 and 2 is that :
-
-
-Function 1 says that the function will not be able to change any data member's value
-Fu"
-29424470,"Title: TypeError: undefined is not an object (evaluating 'this.__reactAutoBindMap') | Body: I am working with the latest version of react.js installed by NPM. I've written this code which works when I put it through jsfiddle, but not when I try it in my own setup. Here is the code I'm working with:
-
-/** @jsx React.DOM */
-
-var React = require('react');
-
-var MyButton = React.createClass({
-  "
-876920,"Title: How to reuse a string variable in c++ | Body: Is this correct, it works OK 
-
-string str(""in.dat"");
-ifstream fin(str.c_str(), ios::binary | ios::ate );
-.
-.
-.
-//Do I need to clear the string before assigning new name???
-str = ""out.dat"";
-ofstream fout(str.c_str(), ios::binary); //seems to work
-
-
-Regards
-"
-24371740,"Title: Rails - Render asset javascript | Body: Is there any chance to render a precompiled javascript file? The plain file is no problem with:
-
-def iframe_communication
-  render file: ""/app/assets/javascripts/iframe_communication_module.js""
-end
-
-
-I tried assets_path or to include it with javascript_include_tag in the view, but no succeeds.
-
-For "
-39882430,Title: How to configure teamcity build agent to use include files on system? | Body: I've a project that uses boost headers/libraries for which I would like to create a build configuration for a team city build agent (TeamCity 10.0.2 / Windows 10 / Visual studio 2015). The boost headers/libraries are not part of the project (that is boost is not in git). Instead the boost headers/li
-39514440,"Title: Serve Tensorflow model without installing Tensorflow | Body: I have a trained model that I want to use in a python application, but I can't see any examples of deploying to production environment without installing TensorFlow or creating gRPC service. Is it possible at all? What is the right approach in this situation?
-"
-39712880,"Title: Google places API to get airport names in autocomplete | Body: I am using google places Api. I want to have only the airports of particular country to displayed by autocomplete api. Is there any way to achieve this?
-"
-17441010,"Title: Android Apps design resolution | Body: I'm required to design an apps for android.
-And after some reading, I find out android device are divided into few categories in term of resolution, like 
-
-
-small screen
-normal screen
-large screen
-extra large screen
-
-
-but in different density.
-
-So lets say, now I need to come out a design for normal"
-26784850,"Title: Show progress bar until the webgrid completely loads and pagging to next or previous pages in the webgrid in MVC | Body: I am trying to show a progress bar until my grid fully loads, I seen various method they work based on a button click but i am unable to come up with a method to show a progress bar until my grid completely load and when i navigate to other pages in a webgrid . And this is the first time i am workin"
-29070650,"Title: Capture high fps videos using new Camera API | Body: I'm trying to capture videos from camera at high frame rates. (60fps/120fps)
-I'm testing on Nexus 5 device. From CameraCharacteristics, the available fps ranges are [15,15],[24, 24],[7, 30] and [30, 30]. So far I could save maximum 30fps videos. Is there a way to capture high fps videos using new ca"
-16912780,"Title: Why does jQuery select the wrong element? | Body: I have 2 jQuery select expressions:
-
-(1) $('html body table tbody tr td:nth-child(2) table tbody tr td table:nth-child(1) tbody tr:nth-child(2) td table tbody tr td:nth-child(2)')
-
-
-vs
-
-(2) $('html body table tbody tr td table tbody tr td table tbody tr td table tbody tr td')
-
-
-As I can understand t"
-14580970,"Title: Magento 3rd level Subcategories Menu | Body: I am working on a magento website that has a 2-level (category and subcategory) menu and I would like to add a 3rd level but I don't know how to get it working and I need help.
-
-This is the code I have used to get the 1st and 2nd category levels, how can I get a 3rd level?
-
-&lt;div class=""left_conte"
-16187670,"Title: How to display Tab bar on the left of the layout | Body: I am new to android and I have just started working on application for the first time.
-I have created/using a tab bar view to display multiple view.
-
-I am getting the tab bar at the bottom of the screen.
-However I want to display the tab bar on the left of the screen.
-
-The code I am using is as foll"
-25049480,"Title: ASP.NET MVC Microsoft Live Account Authentication on Localhost | Body: I have created a blank, new ASP.NET MVC site.
-
-I have set up an application endpoint at https://account.live.com/developers/ as follows: 
-
-API Settings: http://i.imgur.com/bIoV3x9.png
-
-
-App Settings and Code-Behind: http://i.imgur.com/P3KFyhV.png
-
-
-I have tried launching my site, connecting to https"
-2515450,"Title: Injecting variables into the caller's scope? | Body: Can I define a function which, when called, inserts new locals into the caller's scope? I have a feeling that passing the caller's locals() into the function might work, but is there a way to do what I want without having to do this?
-"
-7361020,"Title: In a multi-tier architecture, is it OK to have adjacent layers reference one another? | Body: If I have an app that consists of multiple layers, defined as multiple projects in a solution, is it ok to have a layer reference the layer directly above/below it? Or, should one use dependency injection to eliminate this need?
-
-I am building on a more specific questions that I asked here, but I wo"
-20319230,"Title: Rails & Bootstrap Make button inline with text field | Body: I'm working on a front end of web app. I would like to know how to make the button and textfield in line. Another question is how to make the error message displayed just below the textfield?
-Picture: 
-https://www.dropbox.com/s/vsdy3730flraes3/Screen%20Shot%202013-12-01%20at%204.47.20%20PM.png
-
-Here"
-19257660,"Title: proper way to load mongodb hash associated array mapping when not using annotations with weird accessors | Body: I am doing this to map non annotation mapping of my document. But it is not catching it up. I know it is old code, but does someone know how to map it correctly. Thanks!
-
-associated PR = https://github.com/Payum/PaypalExpressCheckoutNvp/pull/12/files#diff-fcfa75e424ccb89d62449aba21f9db31R49
-
-And als"
+32774910,"Title: Clean way to read a null-terminated (C-style) string from a file? | Body: I'm looking for a clean and simple way to read a null-terminated C string from a file or file-like object in Python. In a way that doesn't consume more input from the file than it needs, or pushes it back onto whatever file/buffer it works with such that other code can read the data immediately afte"
+12502080,"Title: Facebook Graph API JSON result has Page Next, despite no more data | Body: I am wondering if this is a Facebook bug or something that I am doing wrong. Anyways, I am developing a server application that talks to my own simple Facebook app via Graph API calls. For development purposes, the only users of the Facebook app are a few Test Users that I have defined. In this scen"
+12521830,"Title: Optimizing ""this"" type of loop | Body: I'm currently (and have in the past been) using this loop to look through an array of custom classes and make sure that a boolean member value of each class in the array is equal. Is there a better (more efficient, simpler to code perhaps) way to do this?
+
+Since that explanation is pretty bad and fo"
+5364520,"Title: Get Method Name From Action | Body: Is it possible to get a method name from an action?  I know I could always pass a string, but I was hoping for something a little more clever.
+
+    public bool DeviceCommand(Action apiCall)
+    {
+        //It would be nice to log the method name that was passed in
+        try
+        {
+            a"
+12974940,"Title: Adding an attribute to a file using c# | Body: I am trying to build an app that synchronizes files on my computer with files on my webserver. In my current situation my app watches a series of paths that contain files to sync. The problem with this solution is that when I locally rename a file, it no longer matches any of the paths and gets uplo"
+30428080,"Title: Android smart power management using sensor data | Body: I'm working on an Android application that needs to scan nearby Wi-Fi access points on a regular basis. Currently the scan takes place every 2-3 minutes, which requires registering a BroadcastReceiver to capture the scan results, calling WifiManager's startScan method and processing the results (som"
+35370410,"Title: SSL/conceptual aspects of sharing a object via pythons DataProcess Object remotely | Body: Hello fellow inhabitants of the stackspace!
+I want to learn/elaborate on serving objects by remote shared object method
+
+class ContainerFS():
+    #contains stuffs, has its methods
+    def sync(self):
+         pass
+    def dump(self):
+         stuff()
+
+class DataManager(BaseManager):
+    def get_data"
+15772920,"Title: Firefox exception 'JavaScript component does not have a method named: ""available""' | Body: I'm building a web app with Django. I have a bunch of API calls in Javascript via Ajax (jQuery v1.8.3).
+
+Most of them work, but a particular one results in a return object with status 0 and this message as the statusText:
+
+[Exception... ""'JavaScript component does not have a method named: ""available"
+9414090,"Title: Issue with jdbcTemplate.batchUpdate() for large list of queries | Body: I am facing an issue with JdbcTemplate.batchUpdate(String[] queries) method when processing bulk of queries.
+
+The statement is getting executed without any exception but updation is not reflected in database. We are using sybase. The size of list of queries is around 7000+.
+
+Have anyone faced simila"
+11956800,"Title: Does the getID() always return a constant value? | Body: For my Android project, I am using the getID() method to retrieve the numeric value for a View and store this value in my database.  I am banking that this getID() method for a particular View will always return the same constant value over multiple executions in a production environment and over su"
 16571060,"Title: strtok() issue: If tokens are delimited by delimiters,why is last token between a delimiter and the null '\0'? | Body: In the following program, strtok() works as expected in the major part but I just can't comprehend the reason behind one finding.  I have read about strtok() that:
 
 
   
     To determine the beginning and the end of a token, the function first scans from the starting location for the first character "
-7154450,"Title: Build Calendar into iOS App | Body: I am building a iPad app that will have a calendar and that calendar will pull down its events from CalDav or from .ics. 
+27110040,"Title: slidetoggle not removing when page size changes | Body: Hi all i have got my repsonsive menu working at mobile level.
 
-Does anyone know of any sample code that shows the basic structure on how to do this. Is their a Calendar controller already in xCode? 
+when the website changes size the slideToggle does not get removed and I am not sure how to make this happen.
+
+$("".click"").click(function () 
+$('#menu').slideToggle(""veryslow""); });`
+
 "
-29666490,"Title: Assign Value from Ajax to Array | Body: I have trouble to assign a value I am getting from the ajax call to an array and pass that array.
+615040,"Title: Writing a mini-language | Body: I have an application that needs to allow users to write expressions similar to excel:
 
-so the variable options is not valid
+(H1 + (D1 / C3)) * I8
 
-I have this code
+and more complex things like 
 
-$.ajax({ url: url,
-    success: function(data){
-        for (var i = 0; i &lt; data.length; i++) {
-            var object =  data[i];
-           "
-35414450,"Title: when I use mysql and sigin in ,always error display ""ERROR 1524 (HY000): Plugin '*6BB4837EB74329105EE4568DDA7DC67ED2CA2AD9' is not loaded"" | Body: display like these:
+If(H1 = 'True', D3 * .2, D3 * .5)
 
-[guhan@localhost ~]$ mysql -u root -p 
-Enter password: 
-ERROR 1524 (HY000): Plugin '*6BB4837EB74329105EE4568DDA7DC67ED2CA2AD9' is not loaded
-[guhan@localhost ~]$ 
+I can only do so much with regular expressions. Any suggestions as to the right approach to doing this as well as any resou"
+25848640,"Title: How to capture input's type = 'text' clear event? | Body: &lt;input type='text' onchange=""reportAnswer(1, this.value);"" onkeyup=""this.onchange();"" onpaste=""this.onchange();"" oncut=""this.onchange();"" onclear = ""this.onchange();"" /&gt;
+
+
+
+How to capture that change? This is IE11.
+
+P.S. I added onclear handler because run out of ideas what to do.
 "
-32065910,"Title: cross-platform method for determining file owner in Python | Body: I need to find the owner of files in a script running on Windows, Linux and Mac. os.stat returns the owner id, but on windows I can't use getpwuid to find the actual name of the owner. I need the name as a string.
+38570670,"Title: Conditionally rename the value depending on the previous row | Body: I have a data frame df:  
+
+Event       Code
+Picture     no$
+Picture     value
+Picture     $
+Picture     value
+Picture     no$
+Picture     value
+Picture     no$
+Picture     value
+Picture     $
+Picture     value
+
+
+I want to rename value to reward or no_reward depending on the previous row. If it's $ t"
+14740150,"Title: OSX Dashboard Widget File URI | Body: I'm trying to update a dashboard widget that has stopped working, I think with the upgrade to either Lion or Mountain Lion.
+
+The widget has a drop zone for dropping files onto, which then uploads them to a web service.
+
+However, my ondrop event handler is returning an empty string for the text/uri-l"
+10682430,"Title: .net synthesizer | Body: I'm looking for a synthesizer that I can integrate with my .NET application. Is there any .NET synthesizers available out there? Is there a way of integrating VST-plugins into your .NET application?
+
+I want to create sounds based on MIDI-input, preferably sounds that are more appealing than sine/squ"
+6769740,"Title: MySQL: Finding duplicates across multiple fields | Body: Background: my employer has a database powered by a really old version of MySQL (3.23). I have been asked to find duplicate serial numbers and MAC addresses in the database.
+
+I was able to find the duplicate serial numbers, but since this version of MySQL doesn't support subqueries, I had to resort "
+35235300,"Title: Git - Does a remote branch need to be pulled local to merge? | Body: I have a local branch on which I committed some changes. I would then like to pull the changes that have been added to the parent branch by other developers. Do I need to pull down the parent branch locally before doing the merge?
+
+I thought I had been bringing down changes made by other developers "
+2625150,"Title: Membership Generate Password alphanumeric only password? | Body: How can I use Membership.GeneratePassword to return a password that ONLY contains alpha or numeric characters? The default method will only guarantee a minimum and not a maximum number of non alphanumeric passwords.
 "
-1562500,"Title: How to determine why an object is pinned | Body: I am trying to track down why some objects in my application are pinned.  The objects I have looked at so far are object arrays !gcroot is showing the array as being pinned but I do not know how to figure out why it is pinned.  
-
-Output:
-
-0:000&gt; !dumpobj 0239cea0
-Name: System.Object[]
-MethodTable"
-15987480,"Title: Optimal way to find common negative space in map of student_ids to class_times | Body: I am writing a proof of concept for a scheduling application in PHP. I have a 2D array of the student schedule in the format of (str) class_time =&gt; (array) student_ids, printout: http://d.pr/i/UKAy.
-
-At this point in the processing, I need to determine which class_time is the most appropriate to "
-19081980,"Title: nested assignment in ruby | Body: Why do these assignment happen?
-
-a,(b,c),d = 1,2,3,4 # a=1, b=2,c=nil, d=3
-
-
-why is d=3 and c=nil?
-
-yet on this 
-
-a,(b,c),d = 1,[2,3],4 # a=1, b=2,c=3, d=4 
-
-
-c=3 and d=4?
-
-this is ok since its 2 arugments vs 3 values 
-
-a,(b,c),d = 1,[2,3,4],5 # a=1, b=2,c=3, d=5 
-
-
-and this seems logical, since its"
-20550660,"Title: Distributing (native C++) libraries on windows | Body: I would like to share a library I've written in native C++ with a third party. By that I mean I'd like to share a library providing functionality I've developed with someone who is using windows, whom I do not wish to share source code with. We can assume the same CPU architecture here.
-
-I've only e"
-8112800,"Title: User selected date range to weeks via linq etc | Body: I have a form which user select start and end date to get data.
-Although user select start and end date i have to show data from table week by week in date range.
-
-My model is simple
-
-public class DateBetween
-      public Datetime StartDate{ get;set;}
-      public Datetime EndDate{ get;set;}
-
-
-I get"
-17916170,"Title: How to have locked text field above scrollable for android application | Body: I'd like to have a text field and a scrollable (that contains a drawable) in an application.  I'd like the textview to stay anchored to the screen as I scroll.  I already have the drawview being rendered in the scrollview with this code in my activity file:
-
-        drawView = new DrawView(this, hei"
-11918980,"Title: (:category_name/:id) Kind of routing | Body: I have these models:
-
-Category(:name)
-Post(:category_id, :title, :body)
-
-
-The category model only has a handful amount of categories, Currently my possible routes are:
-
-/tasks/15015
-/categories/5/posts/5641841
-
-
-I'd like to have a friendly url in this format, but i can't figure out a way to not go c"
-4789400,"Title: Convert string to int and get the number of characters consumed in C++ with stringstream | Body: I am new to C++ (coming from a C# background) and am trying to learn how to convert a string to an int.
-
-I got it working by using a stringstream and outputting it into a double, like so:
-
-const char* inputIndex = ""5+2"";
-double number = 0;
-stringstream ss(inputIndex);
-ss &gt;&gt; number;
-// number ="
-6106090,"Title: Core Data primitive accessor methods valid for iPhone? | Body: I'm getting mixed signals as to whether primitive accessor methods (of the form setPrimitive*YourAttribute* vs setPrimitiveValue:*value* forKey:@""*YourAttribute*"" in Core Data objects are meant for use with iPhone code or just Mac.  On the one hand, the Apple documentation doesn't seem to mention th"
-32167420,"Title: Can we name an event handler in Javascript? | Body: I was messing around with jQuery and event handlers, when I noticed this:
+27001200,"Title: Project ""MyProject"" has higher compiler option than running Eclipse | Body: I am trying to rebuild Hibernate configuration but i got Wrong Compiler Settings error, please find below screenshots of my App configuration and a of the error:
 
 
 
-That uses jQuery, and without it:
 
 
 
-How does the popup get a bar saying jQuery? Do browsers have integrated jQuery support to detect that? Or is there some way to name event handlers? I want to have my event display some o"
-2198000,"Title: How to debug a AVAudioPlayer play failure? | Body: I'm using an AVAudioPlayer to play a mono AIFF file from my app's Documents directory.
-
-On the simulator, [player play] returns YES and I hear the file playing. On the device the play method returns NO and nothing happens. I grabbed the file via the Organizer - it plays back fine on my Mac and seems"
-18756650,"Title: Unable to maintain order of producer tasks in java multithreading | Body: I am writing a multithreaded application where there a n producers who tries to add an element to the shared resource. I want to maintain the order in which producer produces the element in the shared resource. 
-
-For example my shared resource is a SynchronizedQueue and P1, P2, P3, P4 are going to p"
-34458140,"Title: Stop keyframe animation at top of div? | Body: I'm using this fun scrolling text effect on my 404 page, but I need the (short) text to stop and just remain visible once it reaches the top of the page instead of scrolling all the way up and away.  How do I make that happen with just CSS? I'd like to use as little js as possible.
 "
-32930120,"Title: Retrieve a value from subprocess after kill() | Body: So a bit of an odd project where I'm attempting to use a subprocess to keep track of the number of keys I press to measure my productivity. 
+32143210,"Title: How to redirect HTTPS requests to HTTP without a certificate (Apache VirtualHosts) | Body: I am hosting a couple of seperate websites on one apache server:
 
-Currently I start the subprocess using an Amazon Dash button, then kill the process on the second press.
+site.com
+example.com
 
-def start_keylogger():
-    global process
-    proces"
-27467690,"Title: Is there a more efficient algorithm for this process? | Body: I have a simple algorithm, which loops the variable self.h between 1 and 359. Here it is:
+site.com redirects all users to HTTPS from within the application.
 
-while True:
-    if self.h &lt;= 1:
-        self.up = True
-    elif self.h &gt;= 359:
-        self.up = False
+example.com is a non HTTPS website and HTTPS requests are redirects to HTTP
 
-    if self.up:
-        self.h += 1
-    else:
-        self.h -= 1
+In order for accidental requests for https://example.com instead of"
+36961710,"Title: Looking for one or two Node modules related to locking and update scheduling | Body: Some people are going to think this is too trivial to look for modules or almost put it in a leftPad category perhaps, but there are so many things in npm I have a feeling these two requirements are covered and so am interested to see what other people have done.
+I inherited this codebase that has t"
+6284440,"Title: Is there a way to avoid the subqueries with a query has three subqueries | Body: I have this query and it works great (not sure) about performance
 
+SELECT ssp.product_id, p.price
+FROM system_step_product AS ssp
+JOIN product AS p ON p.product_id=ssp.product_id 
+WHERE ssp.system_id = 14
+AND ssp.step_number = (
+  SELECT step_number
+  FROM system_step_product
+  WHERE system_id = '14"
+33688020,"Title: Configuring Apache Tomcat 7.0 to reject connections with expired client certificates | Body: Consider Apache Tomcat 7.0 configured to do client authentification (with connector's parameter clientAuth set to true).
 
-Sorry if this is a vague questi"
-14497050,"Title: Windows 8 C# Serialization of ObservableCollection. Getting error: System.InvalidOperationException | Body: I am trying to Serialize an ObservableCollection. But I am getting following error: Let me know how can I fix this?
+It appears, that Tomcat trusts to expired client certificates by default, which are in its trusted store (allow them successfully do authentification).
 
-Error:
+Is it possible to configu"
+23291030,"Title: Optimize ms sql select query for huge DB | Body: My query is 
 
+SELECT DISTINCT
+    Company.Name,
+    Customer.FirmID,
+    Customer.ID,
+    Customer.ExtendedId,
+    (CustomerExtended.FirstName + ' ' + CustomerExtended.LastName) as ""Customer Name""
 
-  {System.InvalidOperationException: There was an error reflecting type
-  'System.Collections.ObjectModel.ObservableCollection1[eText.DataModel.BooksDownloadedData]'.
-  ---&g"
-22080640,"Title: Asynchronous SOAP call with Tornado and SUDS | Body: I am working with Tornado and SUDS. I would like to make an asynchronous call using Tornados AsyncHTTPClient. Here is my code 
+FROM
+    Company,
+    Customer,
+    CustomerExtended
 
-class RequestHandler(tornado.web.RequestHandler):
-@tornado.web.asynchronous
-def post(self):
-    data = tornado.escape.json_decode(self.request.body)
-    uuid = data['id']
- "
-9653510,"Title: Can sql statement cause harddrive corruption? | Body: Are there some SQL statements that are able to cause hard drive corruption faster? How large should the database tables be for the undesired effect to take an effect?
+WHERE
+    (Customer.ExtendedId = 1) OR
+    (Cust"
+30614560,"Title: Crawling dynamic content with scrapy | Body: I am trying to get latest review form google play store. I am following this question for getting the latest reviews here
 
-Which SQL statements should rather be avoided? I'm using SQLite. Is this worse in comparison to other DMBS?
+Method specified in the above link's answer works fine with scrapy shell but when I try this in my crawler it gets completely ignored. 
 
-This question sprang up"
-37069470,"Title: check that contenteditable div is empty or not | Body: I have a content-editable div that works as Textarea.
+Code snippet:
 
-&lt;div id=""divThatYouCanWriteStuffIn"" contenteditable=""true"" class=""ibox-content col-lg-12""&gt;
-&lt;/div&gt;
+import re
+import sys
+impo"
+1354070,"Title: How to Insert row between two rows and give it priority in database? | Body: i have a stack of messages in database table.
+i want to send these messages by their priority so i added ""Priority"" column to ""messages"" table.
 
+but what if i want to insert ""cram"" message between two messages and give the previous priority to this new message?.
 
-Now I want check whether this div is empty or not, for validations.
-
-What I used is as below.
-
- if ($('#divThatYouCanWriteStuffIn')[0"
-12220630,"Title: How to disable script in HTML code & still show them? | Body: What are the ways which can be used to display [in html] a code segment involving script tag &amp; at the same time preventing browser execution of that script code?
+Should i update all messages priorit"
+9560620,"Title: Make Previous/Next buttons work on checkboxes on iOS | Body: On iOS when filling out a form on a webpage there are Next and Previous buttons on the keyboard that act like the tab key on a real keyboard.  We have a web application, which I've implemented as an app using PhoneGap, and the Next and Previous buttons skip past checkboxes as if they are not there.
 "
-2927120,"Title: Profiler for IAR EW for ARM | Body: I am trying to get the profiler plug-in for IAR Embedded Workbench for ARM to work. I have set everything in the documentation but when I fire up C-Spy and start the plug-in I get errors. I tried to different emulators and each gave a different error:
+31257720,"Title: Converting JSON data before displaying in HTML | Body: I have some data being returned in this format:
 
-Segger SAM-ICE JTAG Emulator - The following ap"
-2282840,"Title: Passing a 256-bit wire to a C function through the Verilog VPI | Body: I have a 256-bit value in Verilog:
-
-reg [255:0] val;
-
-
-I want to define a system task $foo that calls out to external C using the VPI, so I can call $foo like this:
-
-$foo(val);
+[{
+label: ""Store Name"",
+address: ""123 Somewhere Blvd"",
+city: "" Atlanta"",
+state: ""11"",
+zip: ""30333""
+}]
 
 
-Now, in the C definition for the function 'foo', I cannot simply read the argument as an integer (PLI_INT32), because I h"
-17456450,"Title: Is there a way I can allow someone to run my Java program without them seeing the code? | Body: So basically I made a terminal-dependent Java program and want to start handing it out, but I can't seem to find a way to do that without giving them my code. When making a .jar file it only works on Windows.
+Id like to know if there is a way to convert the ""state"" portion to the states name instead of its ID number. I have a table in my database that ma"
+2250080,"Title: java.lang.UnsatisfiedLinkError: Method inside dll is not accessible | Body: I am trying to access the function available inside the .dll file. But it give exception like ""Exception in thread ""main"" java.lang.UnsatisfiedLinkError: *.jniGetAudioInputLevel()D"". DLL file is loaded but when I try to access the methods it give an error message.
 
-When trying to run on Linux (CentOS) I get 
+According to my knowledge:- 
 
-  Exception in thread ""main"" java.lang.Unsupp"
-37334390,"Title: How do I properly json_encode [""number"" => 12, ""color"" => ""1e3673""] in PHP? | Body: I'm writing an API. The API always returns JSON. Internally, the response data is an array that is converted to JSON like so:
 
-&lt;?php
-function toJson($responseData) {
-  return json_encode($responseData, JSON_PRETTY_PRINT | JSON_NUMERIC_CHECK);
+Thi"
+14190420,"Title: Firefox word-break breaks short words at random points | Body: I'm break-wording a container so that extremely long words won't overflow. While Chrome and Safari deal with this really well, it seems that Firefox and IE like to break words randomly - even short words, at the most ridiculous points. See the screenshots below:
+
+
+
+Here is the code I'm using to prev"
+24024360,"Title: Start a new thread from the constructor of a QMainWindow in Qt | Body: I have the MainWindow class. In the constructor of this class I want to start a new thread that will do some work. But I get this error: 
+
+
+  Assert failure in QWidget: ""Widgets must be created in the GUI thread."" 
+
+
+In this new thread I am not creating any widgets. This is what I have tried so far."
+4040010,"Title: How to select icon for a WPF to be the icon of the application? | Body: I have set the icon to use for my application but my form still having the default icon on it. How can I select its icon to be the one set for the application? Please help
+"
+5215840,"Title: Why can C# not automatically provide thread-safe access to events, where C++/CLI can? | Body: From the MSDN documentation for EventHandler Delegate:
+
+
+  In contrast to the C# and Visual Basic examples, the Visual C++ example
+  code does not require you to create a
+  thread-safe temporary variable. Visual
+  C++ version automatically provides
+  thread-safe access, enabling you to
+  raise the e"
+34519490,"Title: Auxiliary class - define in companion object or as inner class | Body: Is there an (dis)advantage (for example performance-wise) for defining classes auxiliary to a trait in its companion object over defining them as inner classes? For example:
+
+object Foo {
+  final class Bar[A, B](val x: A, val y: B)
+}
+trait Foo[A, B] {
+  def foo: Foo.Bar[A, B]
 }
 
 
-This makes sure that numbers are represented as in"
-40133080,"Title: Gracefully shutdown JBoss application | Body: I am looking for an approach to gracefully handle shutdown of JBoss (Wildfly AS 8.2). This would mean that all current requests are served and the webapp stops receiving further requests. I found that this is possible via command line in version 9 of the application server -
+vs.
 
-./jboss-cli.sh --contro"
-38765790,"Title: Default Navigation Drawer View to ExpandableListView | Body: In Android Studio 2.1.2, if i create a default navigation activity I get this view:
+trait Foo[A, B"
+10473490,"Title: Different sizes of Fancybox window (iframe) for different links | Body: I have some links on my web page. When you click them Fancybox windows with iframe opens up, which works fine. However, I want to change the windows sizes so that it's different on the different links.
 
+How could I accomplish what I want? Should I change in the Fancybox.js-file?
 
+This is how my link"
+1130440,"Title: Is it possible to assign object to int? | Body: I have a CCounter class which holds and integer value protected by mutex. I've defined several operators like post/pre inc/dec returning an integer so I can do:
 
-Which uses the following activity_main.xml file:
-
-&lt;?xml version=""1.0"" encoding=""utf-8""?&gt;
-&lt;android.support.v4.widget.DrawerLayout xmlns:android=""http://schemas.android.com/apk/res/android""
-    xmlns:app=""h"
-24331640,"Title: c++11 construct an object for a caller | Body: I have some Foo struct that requires knowledge of some other object's state to be initialized, so I make a factory method for it:
-
-struct Foo {
-  Foo(int x) : x_(x) {}
-
-  int x_;
-};
-
-struct FooFactory {
-  Foo MakeFoo() {
-    return Foo(++counter);
-  }
-
-  int counter = 0;
-};
+CCounter c(10);
+int i = c++;
 
 
-So while callers could "
-2604450,Title: How to create a JQuery Clock / Timer | Body: I have a simple quiz application and I want display a nice timer / clock at the top of the page which shows the user how long they've been going for. (If I could somehow show them a timer for Total Quiz Time and also a second one for This Question Time that would be even cooler but I should be able 
-22302680,"Title: How to create Android Fragment as list item? | Body: I want to create an Android App with Fragment as a list item. Please someone help me if you know. Thanks in advance...
+but what do I do with a simple assignment like i = c ? I tried to define friend operator= but it gives me
+
 "
-15451680,"Title: Finding out Task and Action in CLI Phalcon script | Body: I'm trying to create a debug utility that prints out the time a script took, the actual task name it used and actual action it ran
+15897500,"Title: Closing tags when extracting HTML from XML | Body: I am transforming a mixed html and xml document using an xslt stylesheet and extracting only the html elements.
 
-&lt;?php
-$di = new Phalcon\DI\FactoryDefault\CLI();
+Source file:
 
-$console = new \Phalcon\CLI\Console();
-$console-&gt;setDI($di);
-$console-&gt;handle($argv);
+&lt;?xml version=""1.0"" encoding=""utf-8"" ?&gt;
+&lt;html &gt;
+  &lt;head&gt;
+    &lt;title&gt;Simplified Example Form&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;TLA:"
+9605480,"Title: deviceMotion not returning anything for pitch, roll, or yaw | Body: I'm trying to get some simple code working to log the pitch, roll, and yaw of my iPhone 4S. It's firing the timer correctly, but the values of pitch, roll, and yaw, are always displayed in the console as 0.0000000. What am I missing here? Any help appreciated!
 
-// something like this"
-35029550,"Title: Find thickness of the circle detected from contour? | Body: I am trying to detect the thickness of the circle which I have received from the code below, but I am unable to do so.
+Here's my .h file:
 
-My basic idea is to move through the circle and if at any point the thickness is less than the other side, it means it's a defected circle.
+@interface ViewCon"
+15302020,"Title: How to write a test class to test my code? | Body: I want a test class to test this class but i dont know how to write it and i tried to see online but i still couldnt figure it out.I wrote the code on BlueJ, i'm trying to create the set game.
 
-I found this on google but I don't know"
-13472460,"Title: Create an output matrix from a table of pairs | Body: I have a table of roles versus permissions as such:
+import java.util.*;
 
-role | permission    
-r1   | p1
-r2   | p1
-r2   | p2
-r3   | p1
-r3   | p2
-r3   | p3
-
-
-What I want is an output table where the columns are (role and then each permissions). Where the permission/role pair exists in the table I want a 1, where it does"
-9984290,"Title: Telerik WinForm Controls not showing Design-Time | Body: I am having trouble dragging controls from Tool Box into Design-View for Windows Form using Telerik References. Instead of controls showing up in the Design-View, it shows up in the component box on the bottom. 
-
-I tried adding the application extensions in the assembly using gacutil.exe.
-I also tri"
-13886430,"Title: Passing options to chrome driver selenium | Body: I am trying to disable the output to the console for chrome. If I pass the --start-maximized option it works fine. I may have the wrong command?
-
-DesiredCapabilities capabilities = DesiredCapabilities.chrome();
-capabilities.setCapability(""chrome.switches"", Arrays.asList(""--silent""));
-chrome = new Ch"
-34828590,"Title: Iframe fit to screen | Body: I am trying to integrate my blog into my website via iframe. However, using this method I have to give the height and width in pixels. I want the blog to fit the screen, though. Is there any way to do this?
-
-EDIT: The answer below suggests that I change my CSS. Then what do I do with the ""width"" and"
-12147020,"Title: How to send an audio file to server in android? | Body: public static String fileUploadFromPath(String url, String path) throws Throwable {
-
-        System.out.println(""IN fileUploadFromPath "");
-        String responseData = """";
-        String NL = System.getProperty(""line.separator"");
-
-        try {
-
-            System.out.println(""url ************ "" + "
-37092470,"Title: How to initialize a tuple with a given class having no copy constructor | Body: I have a requirement where tuple needs to be initialized as follows. How do I create a tuple containing class A's object?
-
-#include &lt;iostream&gt;
-#include &lt;tuple&gt;
-
-using namespace std;
-
-class A{
-  int a;
-
-public:
-  A(const A&amp;)=delete;
-  A(int a): a(a){}
-};
-
-std::tuple&lt;A&gt;&amp; crea"
-12416550,"Title: how to configure formidable in app.use express? | Body: this is a simple question... how can i use formidable instead bodyparser()...
-
-how to configure in app.use
-
-app.configure(function(){
-app.set('port', process.env.PORT || 9000);
-app.set('views', __dirname + '/views');
-app.set('view engine', 'jade');
-app.set('view options',{layout:false});
-app.use(exp"
-35365680,"Title: How do I select text except for the first letter? | Body: I know that ::first-letter selects the first letter of a block-level element.
-
-How can I select all text except the first letter?
-
-I tried :not(::first-letter) but that didn't select anything.
-"
-27148050,"Title: mocha: Testing whether something takes *more* than an interval of time | Body: If you want to test that something takes under a certain amount of time, you can use the .timeout() function:
-
-it('should have preloaded the first image', function () {
-  this.timeout(10);
-
-  return promise.then(function (data) {
-    return Monkey.helpers.preload(data.urls[0]);
-  });
-});
-
-
-However, "
-3068820,"Title: Does anyone actually use the phrase DHTML anymore? | Body: I'm not sure if this is exactly appropriate but I have what I think is a interesting question.
-
-Does anyone actually use the phrase DHTML anymore in a professional environment?
-
-I came across the the word the other day for the first time in years and shuddered at the thought of it. To me the acronym"
-20038640,"Title: Google Chrome issue with jquery page scrolling | Body: I have set up one page scrolling animation on a website built using Wordpress.
-
-The site can be viewed here - http://nutricalm.co.za/
-
-This is the scripting I used to achieve the animated scroll to the desired destination which is determined by clicking on an anchor link:
-
-&lt;script type=""text/java"
-20196950,"Title: Node js middleware for async request to mongo | Body: now i am working about my nodejs application. But i have some problem.
-
-So all that i need add avatar field to post objects.
-
-It look something like this.
-
-In mongodb there are 2 model user and post. Post have userId field for one-to-many relationship. And user have avatar were I store string for im"
-39912520,"Title: string convert to json in android | Body:     client.post(""http://10.0.2.2/project/process/selectalluser.php"", new AsyncHttpResponseHandler() {
-
-        @Override
-        public void onSuccess(String response) {
-            Integer contacts = controller.getContactsCount();
-            Log.d(""Reading contacts: "", contacts+"""");
-            Sy"
-10351890,"Title: PHP preg_replace usage versus a brute force approach | Body: I am trying to determine if it is possible to do the following using preg_replace and if so can you show me an example with comments so I learn from it.
-
-I have some html code that looks something like this:
-
-&lt;ul class=""sub-menu""&gt;
-&lt;li id=""menu-item-99"" class=""menu-item""&gt;&lt;a href=""/clie"
-25359500,"Title: Bundle in onConnect method of ConnectionCallback always returned null after connected to Google+ Account | Body: I followed Integrating Google+ into your Android app
-
-But I have issue Bundle always null when returned to me.
-
-I dont know how to get all information related to my Google+ account if Bundle returned null.
-
-So how Bundle is not return null.
-
-Please help me,
-
-Thanks,
-
-UPDATE I just know how to get in"
-2072240,"Title: Read UDID from Iphone with javascript on mobile safari | Body: How can I Read UDID from Iphone with javascript on mobile safari?
-"
-7394010,"Title: Two JavaScript timers vs one timer, for performance, is it worth dropping one? | Body: In a web app which I'm building, I have two loosely related bits of code running in two separate timers every one second.
-
-I'm looking to optimize the Javascript, is it worth merging these two timers into one or is that just over the top?
-
-Realistically, am I going to increase any performance (consi"
-9324670,"Title: QGIS-Python Icon in label | Body: I am working with python plugins for qgis.I developed my plugin and incooperated into QGIS locally. 
-My plugin name is DlgAbout.py.It has label named logo ,used to place image in it.The code is 
-
-self.logo.setPixmap( QtGui.QPixmap( ""icons/bannertile.PNG"" ) )
-
-
-When i run the same normally,it is show"
-11242910,"Title: if DIV contains word ""exemple"" , then addClass display none to another div | Body: I am trying to hide a div, if a specific word is inside another div.
-
-if (jQuery(""div.contactUs:contains('contact')"")) {
-jQuery("".hideThis"").css(""display"",""none"");
-}
-
-
-but it does not seem to work. Any ideas ?
-"
-35070220,"Title: Scraping Website. Unable automate a user click during scrape | Body: Attempting to scrape a website. In order to do so, I want to automate clicking a button. I can't seem to get the button to do anything.
-
-Link: http://shop.nordstrom.com/s/polo-ralph-lauren-pajama-pants/2849416
-
-Website Stack: ReactJS, JQueryJS
-
-Button Selector: #âproductâ¬-selection-2849416 > sec"
-22525760,"Title: RenderScript: Using ScriptGroup for image process causes horizontal stripes | Body: Problem Description:
-
-I write a simple demo using RenderScrip for image process. In my demo, when I use a one-kernal renderscript, it works fine. Yet when I use a script group to connect two rs-kernals for execution, I found the output bitmap with horizontal stripes. Especially when you chose a bitm"
-26410290,"Title: Create a bundle app from a jar that requires Java 1.8 | Body: I'm struggling with the delivery of a java application. I wrote it with Eclupse Luna, and I managed to export a jar with external files (images). So that now I have an ant build xml file from Eclipse, I can run ant -buildfile projectANT.xml and I can double click on the jar file to execute it only a"
-37282930,Title: HTML Scraping AJAX Paging Table with htmlagilitypack & HttpWebRequest | Body: I need to create an HTML scraper that scrapes the data from the an AJAX paging table on an HTML page. I was able to get the proper web requests using curl in PHP but I need to be able to do the same thing using C# and .NET. The page that I need to scrape is located here. As of right now there is onl
-3538590,"Title: jquery.autocomplete reverts to invalid previous suggestion on tab | Body: I'm using jQuery Autocomplete and users are seeing the following behaviour:
-
-
-User starts typing a string and suggestions are presented
-User keeps typing until no suggestions are valid any longer (and drop down goes away)
-User hits tab
-Autocomplete fills the field with an invalid previous suggestion"
-12989980,"Title: Use phpcassa for cassandra with yiiframework | Body: Does anyone know how to use phpcassa for cassandra with Yiiframework?
-
-I've tried Cassandra PDO. It works very well, but I happened to like the way phpcassa works. Especially the support for most cassandra features.
-
-I don't know but I found phpcassa much easier to use.
-
-Any suggestions?
-
-Regards
-"
-7743020,"Title: jquery ui tabs prevent ui-tabs-selected ui-state-active being added | Body: Looking for a way to prevent jquery from adding the ui-tabs-selected and ui-state-active to the tab bar / menu when it changes from tab to tab. But add my own styles if possible.Tried to find a solution, but nothing yet... anyone?
-"
-887100,"Title: ServerSide Sessions safe? | Body: I'm using (server side, not cookie) sessions in an application that I writing, if the users has not obtained access to the server can I trust the $_SESSION variable or should I verify it's content on every page load?
-
-
-Note:
-I'm trying to limit the number of queries to my database and currently I am"
-1452450,"Title: Does anyone use the ""swingx"" extensions to Swing? | Body: I've seen ""swingx"" mentioned and referred to here.
-
-However, every time I try to visit the site:
-
-http://swinglabs.org/
-
-It's down! Is this still an active, viable project? Or is it outdated and abandoned?
-"
-36339020,"Title: Error : Message Queuing failed to verify digital signature of a message sent to queue | Body: I am sending messages from a client machine to WFC service hosted in IIS on a remote machine, using net.msmq protocol.The queue is set as one way in WCF. The queue has authentication enable.
-
-The client can send messages successfully but they end in the Dead-lettler messages. Inspecting the message "
-12001060,"Title: How to include inline (not linked) images in SSRS e-mail reports? | Body: I have multiple SSRS 2008 report templates that contain embedded images and these are currently visible as expected in any report manager previews (using rendering extension HTML 4.0). However, I need these reports to be sent out as HTML e-mails.
-
-I believe the basic/easiest technique here is to att"
-4192510,"Title: enhancing a rails gem/plugin | Body: I want to enhance the functionality of acts-as-taggable-on by adding parent_id and acts_as_tree to the tag model.
-how do i edit the gem/plugin ?
-"
-18251180,"Title: Javascript enable textfield on checkbox tick | Body: I have this HTML Code:
-
-&lt;input type=""checkbox"" onclick=""document.getElementById('directory_entry_name').disabled=this.checked;"" name=""directory_entry"" id=""directory_entry"" /&gt;
-
-&lt;strong&gt;Name: &lt;/strong&gt;&lt;input type=""text"" name=""directory_entry_name"" id=""directory_entry_name"" disable"
-37890340,"Title: How to overwrite the current line with the new line to keep only one line of data | Body: What I want to do is this, read from a file, output each line of the file on one line, and if the output does not match the matching input, go to the next on the same line, for example:
-
-Text file:
-
-hello
-goodbye
-yes
-no
-why
-maybe
-okay
-tomorrow
-
-
-Code:
-
-def compare(input)
-  File.readlines('test.txt')"
-31385700,"Title: D3. Within a text string how do I style substrings? | Body: For a D3 chart I have various labels. I want to color substrings within a string with different colors. How do I do this?
-
-Specifically I have a string:
-
-75: OE 25 KD 35 CP 15
-
-
-I want OE, KD, and CP to each have different colors.
-"
-4517470,"Title: call the methods from one activite to other( java.lang.IllegalStateException: System services not available to Activities before onCreate()) | Body: I'm struck with some problem will calling the method from one activity to other......
-
-I have a activity called Transaction2 in this activity,I have a method like getProposal().I need to call this method in to the other activity called PaymentDetails. I called the method like this : I import the act"
-9544820,"Title: Trying to get a list of checked items on change_state in jstree | Body: Using jsTree (pre1.0_fix_1), I would like to obtain a list of id's for all the checked items (or better, a JSON object with id AND text of each checked item). I will then make an ajax call with this. Additionally, this should happen any time there is a state change of something getting checked or un"
-22030300,"Title: how to run a C# command with javascript ? | Body: take a look at this program:
-
-WebForm1.aspx is supposed to call the C# command  Button1_Click  which is from MultiCust_MultipleFunction.cs , but when I run the code it gives an error for  MultiCust_MultipleFunction.cs. It says Button1 is not defined in the current context. 
-
-btw when i run the progr"
-34322510,"Title: AngularJS controllerAs in directive with multiple instances overriding controller methods | Body: I have a form made up of directives. Two parts of this form are identical in input fields, selects, and check boxes. I made a directive using isolate scope and controllerAs syntax (with bindToController=true) where the controller has a method that fires from an ngChange on the checkBox. My problem i"
-5462070,"Title: Error with new ASP.NET MVC 3 Project | Body: I created a brand new ASP.NET MVC 3 project and ran it without making any changes to observe the project template behavior, and I get a ""Method not found error"" -- the full stack trace is below.
-
-When I view the WebPageContext object in object browser, I see that there is indeed no method signature "
-32307610,"Title: Mongo C# driver 2.0 - Empty result when using object type in search | Body: I had to attach image to make it more clear but ""SO says I need 10 reputation to post images"", so I'll try to make it clear with just text.
-
-I push data in Mongo using 
-
-BsonDocument doc = new BsonDocument();
-object val = GetValue(); //brings some value like int, string, float etc...
-doc.Add(""Code"","
-33321880,"Title: What is return value optimization? | Body: Reading through the answer for Split a string in C++?, here, a comment says
-
-
-  This should be split(s, delim, elems); return elems;, to enable return value optimization.
-
-
-The relevant piece of code is
-
-std::vector&lt;std::string&gt; split(const std::string &amp;s, char delim) {
-    std::vector&lt;"
-25550230,"Title: How to find specific value in string | Body: I have this:
-
-using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Net;
-using System.Text;
-using System.Text.RegularExpressions;
-using System.Threading;
-using System.Threading.Tasks;
-
-namespace ConsoleApplication2
+public class Deck
 {
-   public class Program
+    ArrayList&lt;Card&gt; deck;
+    public Deck ()
     {
-        st"
-38291050,"Title: tomcat logging.properties format not working | Body: I have the following logging.properties file which is located in WEB-INF/classes
+        "
+36643320,Title: p5.js: How can I access elements in a for() loop to rollover? | Body: I'm working on a interactive text analysis website and I currently have a for() loop running through an array of lines in a .txt file. Each line generates a rectangle. It works well but I need to be able to mouseOver/rollover each square to then print the text line on the web page. Essentially I jus
+6263660,"Title: The object cannot be deleted because it was not found in the ObjectStateManager | Body: I have something like this:
 
-handlers = 1myapp.org.apache.juli.FileHandler, java.util.logging.ConsoleHandler
-.handlers = 1myapp.org.apache.juli.FileHandler, java.util.logging.ConsoleHandler
-
-1myapp.org.apache.juli.FileHandler.level = FINE
-1myapp.o"
-36969790,"Title: Stripe for Android ExceptionInInitializerError | Body: Using the Stripe library and sample located here. When I attempt to create a token in the release version of our app I get the following stacktrace:
-
-    java.lang.RuntimeException: An error occured while executing doInBackground()
-    at com.stripe.android.compat.AsyncTask$3.done(AsyncTask.java:250"
-11295550,"Title: python pexpect sendcontrol key characters | Body: I am working with pythons pexpect module to automate tasks, I need help in figuring out key characters to use with sendcontrol. how could one send the controlkey ENTER ? and for future reference how can we find the key characters?  
-
-here is the code i am working on.
-
-#!/usr/bin/env python
-
-import p"
-32666890,"Title: Concatenate SQL table rows with conditions in single text | Body: I have a SQL table like this
-
-col1     col2      col3
-1         0         1
-1         1         1
-0         1         1
-1         0         0
-0         0         0
+public void Delete(T entity)
+        {
+            Context.DeleteObject(entity);
+            Context.SaveChanges();
+        }
 
 
-I am expecting output as like this
+I end up wit a exception:
+""The object cannot be deleted because it was not found in the ObjectStateManager.""
+If I try to add the entity to obje"
+14756820,"Title: iOS application missing from notification center | Body: Problem:
+The app doesn't appear on notification center and it is unable to receive push notifications right after installation completes and the app registers for push notifications via registerForRemoteNotificationTypes:.
 
-col1     col2      col3     NewCol
-1         0         1        SL,PL
-1         1         1       "
-29926320,"Title: Caused by: java.io.IOException: File /tmp/lp/LP.2015.4.28.10.29.40.zip is not a file or doesn't exist | Body: This is how my code looks  
+Details:
 
-protected Response uploadFile(final File file) throws HttpUploadException {
-    System.out.println(""Uploader uploading "" + file.getAbsolutePath());
-    System.out.println(""Uploader file exists "" + file.exists());
-    final String endPoint = endPoint.getAppURL() + ""/"" + u"
-7302570,"Title: ios pressure sensor API | Body: In android we can use Sensor TYPE_PRESSURE to measure the atmospheric pressure. 
 
-Is there any API that is available in iOS for the same purpose. How can this be achieved in iOS?
+The app usually appears in notification center after the device i"
+30591290,"Title: Is it possible to save the sorting order of rows and columns of Kendo UI pivot Grid? | Body: I am new to kendo UI stuff, I am using the Kendo Pivot Grid. As per my client requirement I have saved the rows and columns state of kendo Pivot Grid, but he also want to save the sorting order of rows and columns. I am following this http://demos.telerik.com/kendo-ui/pivotgrid/index demo of Pivot G"
+4007320,"Title: Separate quotes from string | Body: The following code keeps giving me this error 
 
-Any help appreciated
+
+  Parse error: syntax error, unexpected T_VARIABLE in ...
+
+
+?
+
+   $query_string = 'this is a test... ""this is in quotes"" mmm..chicken burgers... yummm...';
+   preg_match_all(""/\"".*\""|[^\s]*/"",  Â­ $query_string, $matches);
+   echo ""Matches:"";
+   forea"
+32780040,"Title: .net application proxy with WPAD | Body: One of our customers uses a Proxy which is configured using WPAD. All of their employees have to have the ""Automatically detect settings"" checkbox ticked in the Internet Explorer internet options. No further configuration is required.
+
+We implemented a proxy functionality in our app by adding the fo"
+79850,"Title: How do you design data models for Bigtable/Datastore (GAE)? | Body: Since the Google App Engine Datastore is based on Bigtable and we know that's not a relational database, how do you design a database schema/*data model* for applications that use this type of database system?
 "
-13132270,"Title: How to select similar sets in SQL | Body: I have the following tables:
+20644160,"Title: Using the Play WS API from pure Scala with sbt | Body: In this question it is said, that Scala future is represented as daemonic thread, so it shouldn't prevent the application to stop if the main thread is done.
 
-Order
-----
-ID (pk)
+However, if I run the following code:
 
-OrderItem
-----
-OrderID (fk -&gt; Order.ID)
-ItemID (fk -&gt; Item.ID)
-Quantity
-
-Item
-----
-ID (pk)
-
-
-How can I write a query that can select all Orders that are at least 85% similar to a specific Order?
-
-I considered using the Jaccard Index statistic t"
-3038310,"Title: PHP - Use isset inside function not working..? | Body: I have a PHP script that when loaded, check first if it was loaded via a POST, if not if GET['id'] is a number.
-
-Now I know I could do this like this:
-
-if(isset($_GET['id']) AND isNum($_GET['id'])) { ... }
-
-function isNum($data) {  
-    $data = sanitize($data);
-    if ( ctype_digit($data) ) {
-      "
-36090340,"Title: PHPUnit can't find my PHP file, namespaces issue? | Body: Maybe someone can help me out here. I can't get the following PHPUnit test to work.
-
-In C:\wamp\www\stats I have a file Baseball.php
-
-&lt;?php
-namespace stats;
-class Baseball
-{
-    /**
-    *
-    * Add two given values together and divide by 2
-    *
-    */
-    public function calc_avg($ab,$hits)
-    "
-1508450,"Title: In Spree (Rails E-commerce App) what is the preferred way to limit locales? | Body: I only want to support German and English for a starter.
-As I see it I can easily limit this in the spree core locales.rb, or in the localization extension by simply deleting the locale files.
-
-But this doesn't quite seem right. I would like to configure it form my site extension, without basically "
-5893290,"Title: How to detect if a variable has not been released in Objective-C? | Body: I've removed few release from my code to see if Leaks instrument in xCode can notify me about the bad code: 
-
-...
-UINavigationController *masterNav = [[UINavigationController alloc] initWithRootViewController:master];
-UINavigationController *detailNav = [[UINavigationController alloc] initWithRootVi"
-4691070,"Title: validate url without www. or http:// | Body: I'm looking to validate an URL. I have already a script that validates to not allow www. and http:// but i need to also validate for .co.uk .com etc.
-
-My script won't run if they enter something like example.co.ukff.
-
-I have this for a full URL:
-
-^[a-zA-Z]+[:\/\/]+[A-Za-z0-9\-_]+\\.+[A-Za-z0-9\.\/%&"
-4892050,"Title: Data conversion error when using CAST in a CASE statement | Body: I am getting the error 'Error converting data type nvarchar to float' when running the following
-
-     declare 
-     @completeCommand       nvarchar (max) = 'x'
-    ,@paramVal              nvarchar (100)
-    ,@paramName             nvarchar (100)
-    ,@paramType             nvarchar (100)
-    ,@temp"
-8073710,"Title: Prevent databound DataGridView from sorting while editing | Body: I have a databound DataGridView in a Win Forms app which the user may have sorted by a column.  The problem is this: after the user leaves a row after editing a cell in the sorted column, the row is immediately re-sorted.  
-
-This is very disorienting for users and makes editing groups of rows togeth"
-5322340,"Title: C - Read Directly From the Keyboard Buffer | Body: This is a question in the C programming language.
-
-How do I directly read the data in the keyboard buffer?
-
-I want to directly access the data and store it in a variable. Of what data type should the variable be?
-
-I need it for an operating system our institute is currently developing. It's called I"
-6897720,"Title: Comparison between a pointer and integer problem | Body: I have a conditional statement that I need some help with the syntax:
-
-if (mySegment.selectedSegmentIndex == 0 &amp;&amp; [[[dict objectForKey:[keys objectAtIndex:row]] objectAtIndex:0] == 8 ) {
-NSLog(@""test"");
-}
-
-
-I'm getting a comparison between a pointer and integer problem warning. I need a cond"
-38284340,"Title: How to embed path to the current path at anchor href? | Body: For example, right now I'm at http://example.com/practice
-
-If I have a link within the generated page: &lt;a href=""5""&gt;Click here&lt;/a&gt;, I'm directed to http://example.com/5.
-
-Now I know that this is the usual method of relative path. But what I actually need here is so that the link will take"
-2184510,"Title: Easily porting Lua code to C# | Body: is there any easy way to port Lua code to C#?
-
-The biggest problem would probably be to port tables neatly in some dictionaries.
-
-And to prevent any misunderstanding: no I cannot use embedded Lua in my program.
-"
-29393640,"Title: JMS publish to topic takes really long time and gets killed by the transaction reaper | Body: So I have this code which publishes to JMS topic:
-
-    public void notifyCreateListeners(MyCreatedObject payload) {
-    logger.trace(""ServiceImpl.notifyCreateListeners"");
-    TopicConnection conn = null;
-    TopicSession session = null;
-    Topic topic = null;
-
-    try {
-        Properties props = n"
-10672320,"Title: Text doesn't get toggled back | Body: I have this small toggle script, which toggles a panel, a class and text. I'm having trouble toggling the text though. It changes on the first click, but doesn't change back afterwards.
-
-Here is a fiddle. And here is the relevant code:
-
-var visibleText = ""Hide"";
-var hiddenText = ""Show"";
-var textChan"
-32434240,"Title: multi threaded cstringio is 17% slower on ubuntu 14.04 | Body: I am running the following program:
-
-import cStringIO
-import time
-import threading
-
-def func(tid):
-    buff = 'a'*4096
-    i = 0
-    while (i &lt; 40000000):
-        output = cStringIO.StringIO()
-        output.write(buff)
-        contents = output.getvalue()
-        output.close()
-        i = i + 1"
-10603620,"Title: Why does my Eclipse debugger fail to step into for the first time? | Body: I am new to Java and learning to debug in Eclipse. I am getting an odd error in which the debugger fails to step into a function for the first time, but successfully does so the second time. Specifically, here are my steps.
-
-
-Step over until I reach my desired function to examine.
-Step into the func"
-29691750,"Title: How to get difference between two day in php | Body: I have on function which passing some parameter the like 
-
-everyWeekOn(""Mon"",11,19,00)
-
-
-I want to compute the difference between the current day (e.g. 'Fri')
-and passed parameter day i.e. Mon.
-
-The output should be:
-
-The difference between Mon and Fri is 3
-
-
-I tried it like this 
-
- $_dt = new DateT"
-3263140,"Title: How to easily insert Excel spreadsheet into web page? | Body: I would like to insert an Excel spreadsheet into a Web page but would like to change some of the data at the same time to make them more user friendly.
-
-Is it easily possible?
-
-Thank you for your help.
-"
-2923370,"Title: Finding the SQL output of a parameterized query | Body: I'm making a parameterized query using C# against a SQL server 2005 instance, and I'd like to take a look at the SQL that is run against the database for debugging purposes. Is there somewhere I can look to see what the output SQL of the parameterized command is, either in the database logs or in th"
+object main extends App {
+  println(""before future\n*************"")
+  val responseFuture = WS.url(""htt"
 32189260,"Title: Why am I getting a NullPointerException when I return mocked values? | Body: I have a class:
 
 public CustomerService Implements custStruct {
@@ -1167,89 +323,746 @@ public CustomerService Implements custStruct {
 
 
 My test is "
-28664980,"Title: Getting a position in a JTextArea and using a timer | Body: I'm working on a school project and I'm hoping if you guys could help me. 
-I have this:
+17727760,"Title: Is there any performance or memory improvement between importing a class and using references with full class name? | Body: I'm wondering if there is any difference between something like the following implementations:
 
-JTextArea processTxt = new JTextArea();
+import java.util.Date;
+
+public class SimpleDatePrinter {
+
+    public void printDate() {
+        System.out.println(new Date());
+    }
+
+}
 
 
-And when I press this button,
+... and ...
 
-JButton sortBtn = new JButton(""SORT!"");
+public class SimpleDatePrinter {
+
+    public void pr"
+12632520,"Title: ML solution of a large Dirichlet PDF using optimx() | Body: I have tried gradient ascent to find ML solution to an 18 category Dirichlet model in R using the optimx package, but I can find initial parameter values that will make the CG algorithm run. I have tried different combinations of positive integers for the alphas. Could someone tell me what I'm doing"
+7275520,"Title: Eclipse debugging HashMap: Logical Structure using Key and Value's toString() method | Body: I have recently started to use Eclipse after using IntelliJ for a few years.  When debugging Map using IntelliJ, if the key or object implements toString(), a nice list of string representation of key-value is displayed.
+
+In Eclipse, when I select Show Logical Structure, I see something like the fol"
+4902350,"Title: asp net mvc validation and ViewModel | Body: I have four layer solution a medium size project:
 
 
-This would display this on processTxt.
+Model (EF POCO entities)
+Data (EF ObjectContext)
+Services 
+asp net MVC question
 
-   public void sort(String type, String order, int size)"
-6681750,"Title: NSOutlineView set max column width with its contents | Body: Is it posible to set an NSOutlineView's NSTableColumn max width with its contents?
+a)Should i have validation attributes- Dataanotation in Models or MVC project?
 
-Thanks in advance.
+b)where should i set ViewModel-s if in MVC then where do i fill ViewModels with data, i"
+704130,"Title: Can I transpose a file in Vim? | Body: I know I can use AWK but I am on a Windows box.  I am making a function for others that may not have AWK.  I also know I can write a C program but I would love not have to create maintain and compile something for a little Vim utility I am making.  
+
+The original file might be
+
+THE DAY WAS LONG 
+THE"
+30770960,"Title: Sending data from Android app to MySQL database | Body: I am a newbie attempting to send data from an Android app to a MySQL database set up on a localhost server via xampp. This method is supposed to put a name, username, password, phone number, and age into an arraylist of type NameValuePair.
+
+@Override
+    protected Void doInBackground(Void... params)"
+21262830,"Title: how to scroll live cards in aglass activity | Body: I'm writing a glass app.
+
+In one activity I want to scroll between few cards (which were popups in my android app).
+
+1) I thought to use cardsScrollView.
+
+problem: Is it possible to set customView to a card object?
+
+2) I thought to use LiveCard
+
+problems:
+
+Is it possible to publish them inside my ap"
+34828590,"Title: Iframe fit to screen | Body: I am trying to integrate my blog into my website via iframe. However, using this method I have to give the height and width in pixels. I want the blog to fit the screen, though. Is there any way to do this?
+
+EDIT: The answer below suggests that I change my CSS. Then what do I do with the ""width"" and"
+21833530,"Title: How to read the last XML element of a web file in Visual Basic | Body: I am completely new to Visual Basic. I want to create a program that reads only the last element of an external XML file. The only code I have is:
+
+Text = wc.DownloadString(""http://example.com/file.xml"")
+
+
+The XML file is as follows:
+
+&lt;message&gt;
+&lt;sender&gt;John&lt;/sender&gt;
+&lt;body&gt;Hel"
+17456450,"Title: Is there a way I can allow someone to run my Java program without them seeing the code? | Body: So basically I made a terminal-dependent Java program and want to start handing it out, but I can't seem to find a way to do that without giving them my code. When making a .jar file it only works on Windows.
+
+When trying to run on Linux (CentOS) I get 
+
+  Exception in thread ""main"" java.lang.Unsupp"
+13748770,"Title: Email Validation with JavaScript | Body: 
+  Possible Duplicate:
+  Validate email address in Javascript?  
+
+
+
+
+This is my first post and I have a small issue. I'm trying to validate an email address on a form, but with no luck. I found this snippet on the internet but it doesn't seem to be working. I'm using Javascript at the moment to vali"
+26105230,"Title: JSONP - ""Uncaught SyntaxError: Unexpected token"" | Body: before I explain my issue I would like to mention that I'm a naive on jsonp. This is actually my very first attempt to work with JSONP. 
+
+Im using jquery ajax call to pullback data from a website. 
+
+my jquery code is below
+
+$.fn.checkTPS = function(){
+
+    return this.each(function(){
+        var in"
+4766680,"Title: Android app, showing a keyboard | Body: I recently wrote my first app for android, and I created a listview for selecting an element from a list of about 500 items.  Since it's basically the default listview, it's searchable, and I can bring up the onscreen keyboard by holding down the menu button, but I was wondering if there was a way t"
+35931890,"Title: Table cell not properly calculating | Body: I am trying to keep my form fieldsets as table-cells. I am applying the width by percentage. But the field sets childer 'labelnot calculating the width as33.33%`.
+
+what is the issue here?
+
+
+
+*{
+  padding:0;
+  margin:0;
+}
+
+form{
+/*   display:table;
+width:100%; */
+  border:1px solid gray;
+}"
+9179640,"Title: Converting to JSON, how do I include multi-level deep models? | Body: A has_many Bs
+B has_many Cs
+B belongs_to A
+C belongs_to B
+C belongs_to A  
+
+But when I do myA.to_json(:include =&gt; [:b, :c]), Everything is in teh top level, which makes sense, but how does one pass params to to_json such that Cs will be in an array made under B, and not A??
+
+I think it should loo"
+18294830,"Title: How to mock a call-by-name argument (like getOrElse) using ScalaMock? | Body: I'd like to be able to mock a return value of getOrElse method so that it returns what is passed as orElse call-by-name argument with ScalaMock
+
+trait ToBeMocked {
+  def getOrElse(arg: Int)(orElse: =&gt; String): String
+}
+
+
+ScalaMock has to be used because of currying. Running this:
+
+class CallByNam"
+8023930,"Title: Best way to achieve C break or Python pass in a SQL case expression? | Body: Given a SQL CASE expression with nested CASE expressions, I'm looking for the best way to emulate a C break or Python pass within a nested CASE expression so I can evaluate the rest of the outer WHEN choices.
+
+For example, imagine
+
+select CASE 
+         WHEN C1 THEN CASE
+                      WHEN C"
+10155330,"Title: How to prevent a service from getting killed by Android because of uncaught exceptions? | Body: I am investigating if there are any ways to prevent an android service being killed because of uncaught exception.
+We have 10 UI apps talking to 5-6 services. The platform is Android 2.2. 
+Because of unforeseen conditions, some of the logic in the services are throwing exceptions now and then. That "
+36085460,"Title: Android : Determine direction of hand movement, the curve. | Body: I am working on an Android project in which I would like to detect hand movement of the user. I looked up a lot of examples, but all the examples only detect changes which are linear, like hand moves up or down, right or left... Nothing I could find for a curved detection. I have basic code now, whe"
+29346030,"Title: Can I Use Insert Snippet to Create Setters and Getters in Visual C++ | Body: This answer suggests creating a Code Snippet to allow the ""Insert Snippet"" menu to contain setters and getters in Visual C#.
+
+I went to check out the answer's link: https://msdn.microsoft.com/en-us/library/ms165392.aspx
+
+But it really doesn't have information about inserting anything more than fixed"
+5461240,"Title: SearchDialog cannot be shown within ActivityGroup | Body: i have two activities within an ActivityGroup, one ""ProvinceActivity"" and another ""CityActivity"".
+so code:
+
+public class CityManagerActivity extends ActivityGroup {
+    View v1 = getLocalActivityManager().startActivity(
+                ""tab1"",
+                new Intent(this, ProvinceActivity.class)"
+8678570,"Title: eventaggregator vs services | Body: When developping rather large applications using Prism and MEF/Unity I always reach a point where I should choose between using events, a service or maybe both. And I cannot decide what's most usable. Maybe something is wrong with my architecture (as in this decision shouldn't have to be made in the"
+31943730,"Title: Why Paint.ANTI_ALIAS_FLAG does not seem to work when drawing at same place on Canvas? | Body: There is an issue with anti-alias when trying to draw multiple times at same place using the android Canvas.
+
+First I'm initializing paint = new Paint(Paint.ANTI_ALIAS_FLAG) and then setting stroke cap to Paint.Cap.ROUND.
+
+Then, if I call canvas.drawPoint(x, y, paint) once causes the following resul"
+13831490,"Title: Auto_html says block not supplied | Body: I have a website that allows users to post links. I am trying to get the soundcloud links to embed the mediafile thus I am attempting to use AutoHtml Gem. I did gem install Autohtml, put it in my gemfile and in config/application.rb and ran bundle install. Why isn't Auto_html() working.
+
+GEMFILE
+
+so"
+26338110,"Title: Kinect SDK 1.8: How to detect grip using javascript? | Body: I'm playing with javascript API of KINECT FOR WINDOWS SDK 1.8 starting from Webserver sample included in developer toolkot. Now i would like to detect grip interaction in browser and i've not result at the moment.
+I'm using the Handpointer interface which provide a property isInGripInteraction but i"
+3682460,"Title: What is Adobe Air Packager for iphone | Body: I just read this annoucement about Apple lifting restrictions on its third-party developer guidelines with direct implications for Adobeâs Packager for iPhone.
+
+http://blogs.adobe.com/conversations/2010/09/great-news-for-developers.html
+
+
+I just want to know what kind of applications can be built "
+7717830,"Title: group by same column where multiple condition using same column input | Body: i have a table named temp. columns are id, telco, shortcode,hotkey.
+
+id  telco  shortcode hotkey
+1    asdf    123      ib
+2    gra     123      sb
+3    cc      123      sb
+4    bl      123      ibb
+
+
+using mysql query i want output count(shortcode) group by telco where hotkey ib shortcode 123 and 
+c"
+9617170,"Title: Using ""this"" in another constructor | Body: Suppose you have a class with this constructor:
+
+public SomeObj(int x, int y) {
+    this.x = x;
+    this.y = y;
+}
+
+
+All good. But now if you want to clone the object, I want a constructor to accept one argument with an object from that type, so inside the constructor all (necessary) fields can be co"
+36401290,"Title: Different results between Orange PCA and scikit-learn PCA | Body: I am using scikit-learn PCA to find the principal components of a dataset with about 20000 features and 400+ samples.
+
+However, comparing with Orange3 PCA which should be using scikit-learn PCA, I get different results. I also unchecked the normalization option proposed by Orange3 PCA.
+
+With scikit-"
+24335810,"Title: how to show a query result in jtable in netbeans | Body: I use netbeans 8 and JDBC/Derby and want to show the result of a statement (join of 3 tables) in a jTable. How should I do it? Is there a way to do it manually (not via java code)?
+when I want to show data from a single table, I Do it through table content>bound. If there is a way in this section pl"
+35040780,"Title: Abstract method in public abstract class implementing an internal interface doesn't compile? | Body: internal interface I_Foo
+{
+    void Bar();
+}
+
+public abstract class A_Foo : I_Foo
+{
+    public A_Foo() { }
+    abstract void I_Foo.Bar();
+}
+
+public class Foo : A_Foo
+{
+    public Foo() : base() { }
+    internal override void Bar()
+    {
+
+    }
+}
+
+
+Hello! I'm trying to have some methods visible to ou"
+3733450,"Title: What is the best way to execute a function when user clicks on a link? | Body: From my experience I know three different ways to execute a Javascript function when a user clicks on a link
+
+
+Use the onclick attribute on the link
+
+&lt;a href=""#"" onclick=""myfunction();return false;""&gt;click me&lt;/a&gt;
+
+Use the href on the link 
+
+&lt;a href=""javascript:myfunction();""&gt;click m"
+13367360,"Title: Spring security authorize rails app using devise | Body: I'm trying to figure out how to authorize my rails app into pentaho spring security. I've tried to use the URL parameters user=username&amp;password=password but somehow the application does not listen to it and it just send me to the login page.
+
+Right now im doing a hack on the pentaho server by a"
+31949620,"Title: Is it possible to invoke code for all Catch blocks without adding it manually? | Body: I have a custom exception class that will wrap around any other exception that is thrown.  This way I will always know the exception was handled and all other methods and layers will know to just pass the exception up to the UI.  However, when an exception is first thrown I want to the exact same th"
+16862880,"Title: Installing JSON Gem with Bundler without GCC | Body: I am in the process of deploying a rails application to a server. There are a few environmental limitations, namely:
+
+
+No internet access on server
+No root access on server
+No build tools (GCC, etc)
+
+
+I almost have the capistrano deployment working, however I get a failure when bundler tries to inst"
+22392110,"Title: Change jdk path in IntelliJ 13 when compiling from 32 bit program file folder to 64 bit one | Body: I'm getting this issue when trying to Make my java project.  I just uninstalled my 64 bit jdk for various reasons and installed the 32 bit one.  I'm getting the error:
+
+
+  Cannot run program ""C:\Program Files\Java\jdk1.7.0_51\bin\java"" (in
+  directory ""C:\Users\$username.IntelliJIdea13\system\compil"
+37193380,"Title: Rotate plotted points of an ellipse to give a circle | Body: I have an ellipse-shaped distribution that I think is a conic section. I want to rotate the points so that the distribution becomes circular-shaped, as if I was looking at the conic section directly over the top of the cone. 
+
+Here's some example data (generated using the function here)
+
+X_df &lt;-
 "
-7905670,"Title: How to make div appear from the top when scrolling down? | Body: I would like a div to appear and slide down once you scroll pass the header.
+20613950,"Title: xcode async tableview load image move listview images gone | Body: We want to download image and data async to our tableview and we want to cache it not to download it again. We found a code for caching.Here is our code. It works asynchronously but when we scroll table view, images gone and come back(we cant see image for a while). Sometimes wrong image come to wro"
+15436900,"Title: Executing mongoimport inside code with Javascript/Node.js | Body: Is there any library available in node.js/javascript that allows an individual to use mongoimport in code?
 
-Here's what it should look like:
+To my understanding, mongoimport is kinda like an .exe, which you have to execute it first before being able to use its text input environment. 
 
-http://www.space.com/11425-photos-supernovas-star-explosions.html
+Is it possible to execute mongoimport in my co"
+2359440,"Title: What is the most semantic way to display a street address in HTML? | Body: I have an address that is going to be displayed on a webpage, but it is not the address for the author of the page. How should this be coded to be semantic given the w3c recommendation of:
 
-Here's what I got so far but it's not working.
 
-http://jsfiddle.net/nHnrd/
+  The ADDRESS element may be used by authors to supply contact information for a document or a major part of "
+29959210,"Title: Object reference not set to an instance of an object when opening cshtml files in visual studio 2013 | Body: When I try to open .cshtml files in Visual Studio 2013 I get this error:
+
+
+
+Object reference not set to an instance of an object
+
+
+I have tried the solution given here but it did not work.
+Here is my appsettings section in the web.config: 
+
+&lt;appSettings&gt;
+   &lt;add key=""Port"" value=""25"" /&gt;
 "
-9946240,"Title: java.lang.ArrayIndexOutOfBoundsException error when I trying to make Bubble sort | Body: I'm trying to make the Bubble sort, and this is my code:
-
-import java.util.Random;
-import java.util.Scanner;
-
-public class Main {
+33281690,"Title: Get values from multiple inputs jQuery with same name and add the the values together | Body: Image of the the appending of items using jQuery
 
 
-public static void main(String[] args) {
 
-    double[] test = new double[5];
-    double t;
+function fill(thisValue) {
 
-    //Set random value to each of elements
-    for(int i = 0;i&lt;test.lengt"
-7827250,"Title: Replacing Cholesky factorization from IMSL MCHOL (Fortran) in C# | Body: I am converting a Fortran program to C#. This has to be done in bits and pieces, with proof of concepts along the way.
+function suggest(inputString){
+	            var inputString  =  $.trim(inputString);
+		if(inputString.length == 0) {
+			$('#suggestions').fadeOut('slow');
+		} else {
+		$('#country').addClass('load');   
+			 $.p"
+12532540,"Title: create a dynamic php/html table with mysql specific value in <td> (""League""-System) | Body: i struggle with the following structure / logic...
+the project is about how to build a league on php &amp; mysql
+every player has to play against each other
 
-One of these initial steps is to replicate the IMSL functions it uses. Luckily, it only uses a chosen few: some trivial random number generation, some trivial normal distribution i"
-33261630,"Title: Change File Permission in Python File System | Body: I want to change permission of file inside python file system (pyfilesystem).
+i want to generate a (dynamic) table like this one:
 
-Here's the code I have:
+&lt;table border=""1""&gt;
 
-fslocal = fs.osfs.OSFS(localdir, create=True, thread_synchronize=True)
-fslocal.setcontents('/file1', b'This is file 1')
+    &lt;tr&gt;
+        &lt;td&gt;--&lt;/td&gt;
+        &lt;td&g"
+36012890,"Title: LogCat not working after update to Android N | Body: I recently updated my Nexus 5x to Android N preview, I updated the SDK plugin for Android N on Eclipse too.
 
+But Eclipse still does not recognize the API of my own, and thus the LogCat is not working when debugging the app.
 
-Now I want to change file permission of file 1. I am using os.chmod for th"
-35361310,"Title: Does 'will-change' or the translateZ() hack improve any performance on 'transition: height' | Body: I am building an accordion with animated height on open/close, in which the content height is calculated via JS. I want to ensure the best performance, so I was thinking about forced hardware acceleration.
+Screenshot1
 
-.accordion-item-content {
-    overflow: hidden;
-    transition: height .3s ease;
-    transfor"
-18493720,"Title: Using "".htaccess"" how do I hide parse errors for files in a specific folder? | Body: I need to hide parse errors for PHP files within a folder, but leave that one for all other PHP files. How would I do this?
+Screenshot2
+
+Is there any solution for this?
 "
-8238100,"Title: Why I get the Activity pause timeout exception when my data is large? | Body: I am using a collection of my object in my activity. I pass this collection from Activity ActDocumentDetails to ActProductsGallery. When my collection is not so large, I have no problem but when the size of collection is large enough I get this execption:
+13251730,"Title: uwsgi: connection refused when running from startup script | Body: I want to run a django site on amazon ec2 (ubuntu) with nginx and uwsgi. I have followed a basic setup as described here. 
 
-Activity pause timeout for ActivityRecord{4"
-3183210,"Title: Ruby on rails more elegant way to authenticate that users can edit only their own content | Body: I currently authenticate that users can edit their own content only by:
+When I start uwsgi from the command line (as ubuntu user), everything works fine, the site is served up properly:
 
-@posts = current_user.posts.find(params[:id])
+/home/ubuntu/uwsgi-1.3/uwsgi --home /home/ubuntu/apps/mysite-"
+6223240,"Title: After importing into eclipse using eGit, can't compile and run. What do I do? | Body: After importing a standard .java file into Eclipse using Git, I tried to compile and run the  file. Eclipse gave me this error: 
+
+""Unable to launch: The selection cannot be launched, and there are no recent launches.""
 
 
-Is there an easier way to do this across all controllers?
+What do I do?
+"
+4224450,"Title: Android: Trying to start BluetoothSettings activity Force Close with NullPointerException | Body: I'm trying to bring up the standard window for Bluetooth Settings(with Device name, Discoverability etc).
 
-I have a before_filter that requires a user must be logged in, but it doesn't check who the individual user is.
+However, general approach with startActivity(intent) ends with NullPointerException pointing toBluetoothSettings.java onCreate:135.
 
-I'm won"
-7631580,"Title: How to implement double tap for Android live wallpapers? | Body: I want to implement a double tap event for a Android live wallpaper.
-Sadly, I couldnÂ´t find any specific code how to do that.
+Checking with the Android code, I've found that at line 135 "
+9596460,"Title: jquery targeting nested #div | Body: I am web-designer, not a programmer and  a newbie in Javascript / jQuery (although I do have experience with PHP )
 
-At the moment IÂ´ve found a workarround using the onTouchEvent-method of the Engine-class:
+I am having a problem understanding why I can not seem to target the right div for a hover effect.
 
-public void onTouchEvent(MotionEvent event) {
-  long time = android.os.SystemClo"
+Fiddle is here :
+http://jsfiddle.net/obmerk99/F6wJs/
+
+When I target a certain div cl"
+15885930,"Title: Automatically indenting pre-processor statements | Body: What does everyone use to indent C++ pre-processor directives? Astyle and Gnu-Ident don't seem to be able to do this!
+
+I think James McNellis' answer on this thread (How do you indent preprocessor statements?) is very interesting. I've adopted this style for some time now and it would be great to be"
+21175260,"Title: Travis CI fails to parse my gherkin `.feature` files | Body: I'm using RSpec and Turnip (an alternative to Cucumber that also uses Gherkin syntax) to test my Rails application.
+
+My specs and acceptance tests run 100% green on my local machine.
+
+josh@macbuech:~/Documents/Work/MuheimWebdesign/transition (master *)$ rake
+[deprecated] I18n.enforce_available_local"
+7134980,"Title: ANT: replace param in set of XML files based on XML file content | Body: I have directory with subdirs with xml files in it with different extensions. 
+
+
+
+Start of updated part 
+
+
+
+Target dir: /some/path
+
+Target files mask: *.load
+
+Basic filterset we use to find *.load files under /some/path:
+
+&lt;fileset dir=""/some/path""&gt;
+    &lt;include name=""**/*.load"" /&gt;
+&lt;/f"
+1426470,"Title: What does the CreateMask function of BitVector32 do? | Body: What does the CreateMask() function of BitVecto32 do?
+I did not get what a Mask is.
+
+Would like to understand the following lines of code. Does create mask just sets bit to true?
+
+// Creates and initializes a BitVector32 with all bit flags set to FALSE.
+  BitVector32 myBV = new BitVector32( 0 );
+
+  "
+33230890,"Title: Does awk run parallelly? | Body: TASK - SSH to 650 Servers and fetch few details from them and then write the completed server name in different file. How can do it in faster way? If I do normal ssh it takes 7 Minutes. So, I read about awk and wrote following 2 codes. 
+
+Could you please explain me the difference in the following co"
+9260190,"Title: Get base url in model | Body: I use zend framework to develop my project. I want to get base url with its protocol in some model. I try following lines to do that. But it return empty. 
+
+$front = Zend_Controller_Front::getInstance();
+$baseUrl = $front-&gt;getBaseUrl();
+echo $baseUrl; 
+
+
+Can i get base url from that way. What are"
+2495350,"Title: Python or Ruby for webbased Artificial Intelligence? | Body: A new web application may require adding Artificial Intelligence (AI) in the future, e.g. using ProLog. I know it can be done from a Java environment, but I am wondering about the opportunities with modern web languages like Ruby or Python. The latter is considered to be ""more scientific"" (at least "
+26208940,"Title: How to go from System.currentTimeMillis() to hhmmssSSS in Java? | Body: I have a long with the EPOCH time. I want to do some math and go to a hhmmssSSS number. Any math/date wizards out there who could help me? Thanks!
+"
+32392290,"Title: Maven to use same API document for all projects(mvn site customised) | Body: I have one Maven project , there i have a created a site with all css and images i added manually , then i want to reuse that API where  ever it called.
+
+In another project if i execute this command mvn site.. it will generate site with API documents but i want to apply the above css and images whic"
+27599540,"Title: Multiple angularJS directives that have the same functions how to | Body: I have multiple angularJS directives (that use one of the angular versions of chart.js)
+
+Now I have a couple of functions that I need to use in these directives.
+
+What is a good way to make me not repeat myself, so remove the code from the directives and have it in one place. Since that code is iden"
+11317920,"Title: Need help ordering data from mysql_fetch_array() | Body: I'm having a hard time organizing the data that I get from mysql_fetch_array().
+
+I have a DB table with that looks something like this:
+
++---------------------+------------------+---------------+--------+---------+
+| date                | name             | indexed_pages | nameID | entryID |
++------"
+8265760,"Title: Select unmatched records from two tables of MYSQL | Body: I have two tables Table1 and Table2 with some records
+
+id is the common column in both tables and primarykey is set to this column in table1
+
+There are many records in table1 and some of these records (not all) are updated into table2.
+
+Now I want retrieve from table1 the records not updated into th"
+10236000,"Title: Allow all remote connections, MySQL | Body: I had been using SQL Server and am now using MySQL for a project. With SQL Server, our developers can connect to the remote database on their local machines if they know the host, username, password. With MySQL, though, to give a developer access from their local machines, I have been having to log "
+2184510,"Title: Easily porting Lua code to C# | Body: is there any easy way to port Lua code to C#?
+
+The biggest problem would probably be to port tables neatly in some dictionaries.
+
+And to prevent any misunderstanding: no I cannot use embedded Lua in my program.
+"
+36905460,"Title: Bluetooth device discovery is not working properly on android | Body: I am building an app that requires communicating with another device via bluetooth , and i am using the following code from http://developer.android.com/guide/topics/connectivity/bluetooth.html.
+
+The code runs without any errors , But the devices are not discovered even when visibility is turned on "
+38858650,"Title: How to use subprocess to interact with a python script | Body: I'm writing an IDE for python, in python, and need to use subprocess to intereact with a user's script.
+
+I am completely new to using subprocess and not sure what I'm doing here. I've created a test snippet representing what I'm trying to do:
+
+from subprocess import Popen,PIPE,STDOUT
+import tkinter "
+8370010,"Title: Credential Provider communicating over network | Body: First let me explain my desired solution:
+
+I'm making a custom Credential Provider to authenticate a user by sending logon credentials to an external authentication server, then passing the same credentials along with some extra authentication parameters back to the Credential Provider. The Credenti"
+9637100,"Title: how to disable expandablelistview vertical scrolling when webview is scolled horizontally | Body: I have taken a webview as a child in my expandable list. When I scroll the webview horizontally it clashes with vertical scroll of listview. 
+
+I want to smoothly scroll horizontally when swiped left or right.
+
+Any help is appreciated.
+
+Thanks
+"
+29203410,"Title: How to parse data in RealmObject setters? | Body: What I want to do is make a custom setter method for a RealmOblject subclass. Realm doesn't allow us to use custom logic in getters and setters so the only available options are workarounds. There are 2 ways that I am aware of
+
+1) Using @Ignore as explained in Realm documentation ( http://realm.io/d"
+8058900,"Title: Preference class | Body: I am now trying to use Preference class using 
+
+Preferences pfrOfThis = Preferences.userNodeForPackage(this) 
+
+It gets an error:
+
+""method userNodeForPackage in class java.util.prefs.Preferences cannot be applied to given types;
+  required: java.lang.Class
+  found: myPac.MainApp
+  reason: actual argu"
+29090160,"Title: Why does splitting with RegEx group include the group in the result? | Body: I don't understand this.
+
+&gt; 'a\nb'.split(/\n/)       
+[ 'a', 'b' ]               
+&gt; 'a\nb'.split(/(\n)/)     
+[ 'a', '\n', 'b' ]         
+
+
+Why?
+"
+25611880,"Title: Parsing XML in Haskell | Body: I am trying to learn me some Haskell and I wanted to parse some XML files with the following structure: 
+
+&lt;properties&gt;
+  &lt;property name=""a""&gt;
+    &lt;value&gt;1&lt;/value&gt;
+  &lt;/property&gt;
+  &lt;property name=""b""&gt;
+    &lt;value&gt;2&lt;/value&gt;
+  &lt;/property&gt;
+&lt;/properti"
+10907530,"Title: Get a string from a large html variable | Body: 
+  Possible Duplicate:
+  How to parse and process HTML with PHP?  
+
+
+
+
+How would I go about getting a certain string from a webpage that has been scraped?
+I am using SimpleBrowser in PHP to download a webpage into a variable.
+
+The resultant webpage at a certain part has the following:
+
+    &lt;tr&gt"
+24519320,"Title: Multiple promises in Node with error handling | Body: How can I avoid nesting-hell with a chain of service calls in Node.js, where I'd like to throw a given error and exit the entire chain in certain instances? Here's an example of the chain:
+
+
+Load Mongoose object.
+If load fails, res.send(404); if load succeeds, go to the next then().
+Call 3rd party A"
+27405500,"Title: Change Binding depending on RadioButton | Body: I have a textbox with an Binding to an ObservableCollection with a triple tuple and want to change the Binding depending on two radiobuttons:
+
+XAML:
+
+&lt;ItemsControl ItemsSource=""{Binding DataInformation, Mode=OneWay}""&gt;
+    &lt;ItemsControl.ItemTemplate&gt;
+        &lt;DataTemplate&gt;
+         "
+9143460,"Title: Pointer to structure element that is reference to variable | Body: Consider:
+
+struct
+{
+  char *rcssMonitoredServices;
+  int  nSomeVar;
+} appinfo;
+
+
+In conventional use:
+
+appinfo.rcssMonitoredServices=strdup(""something"");
+
+
+However now consider:
+
+char *RefToStructVar[]=
+{
+  appinfo.rcssMonitoredServices,
+  ""\0""
+};
+
+
+The intent being that we may perform operations ag"
+5097450,"Title: Is it possible to delete the object itself, not the reference | Body: var a = {
+    ""example"" : true
+};
+
+var x = [a], y = [a];
+
+delete x[0];
+
+console.log(y);
+
+
+In the above code, would it be possible to have a deleted, not just the reference in x ?
+"
+2380130,"Title: How to force select_related() to select ForeignKeys that have null=True attribute? | Body: Model1 has a ForeignKey to Model2. And Model2 has a ForeignKey(Model3, null=True, blank=True) to Model3. By default, when I use select_related() on Model1, Model3 is not selected because of null=True. How can I force select_related() to follow a foreign_key that has has null=True?
+
+The only way I ca"
+11215400,"Title: C++ & Lua, push Lua table as argument | Body: I'm integrating Lua in C++, and now I have this table that behaves as a 'class', and for some functions it needs a 'self' argument, which actually is the table. The Lua code:
+
+a = {
+numb = 5,
+
+create = function(a)
+    print(a);
+end,
+
+increment = function(self)
+                            --self.numb"
+30995750,"Title: How can i generate and use unique deviceId for iOS devices? | Body: In my previous app,I was using the below mentioned code to generate unique deviceId for iOS devices.But the problem is that it will generate a new code everytime when the app is reinstalled.How can i do this properly?
+
+-(NSString*)uniqueIDForDevice //new..
+{
+    NSString* uniqueIdentifier = nil;
+   "
+39393520,"Title: How to remove a current page from stack navigation Xamarin Forms | Body: I'm trying so hard to do something but i wasnt able to solve this problem. I have three pages, One is the MainPage, LoginUpPage and SignUpPage, inside of LoginUpPage has a button who navigates to SignUpPage, what i want to do is when I finish my logic navigates to another page CreatedPage, whitch co"
+38420930,"Title: C++ and Windows - how to overwrite exe file of the running program? | Body: I tried to make self-updatable program, but I can't understand, how to over-write exe file of the running program (of the current process). When Exe file is running, it's locked by process and can't be writable. 
+
+How to update program - I need to update file, close current process and re-run update"
+16743520,"Title: Blurry images, shifting content, unreproducable errors in IE9 | Body: I have a client who keeps sending me bugs that I can't replicate on any of my computers, but I also can't find anything about this particular problem online.
+
+They are 1000 miles away, so I can't go see what their computer is like, and according to them, they don't have any addons installed and this"
+3663640,"Title: WPF TabPanel without the Tabs? | Body: Ok I admit, what I need is not a tabpanel, (or is it?). But what I effectively want is a panel with a number of children I can select one of which to be visible at any given time. 
+
+Basically I have a couple views and based on the state of the app, the current view needs to change.
+
+This is essentia"
+36738670,"Title: Using Respect/Validation in another language | Body: I want to use the Respect/Validation library in PHP. I know how to use it but currently I'm using it in a project in german language and of course I also want the error messages in german.
+
+For language translation there is a section in the documentation but I don't really get it and I did not found"
+1452450,"Title: Does anyone use the ""swingx"" extensions to Swing? | Body: I've seen ""swingx"" mentioned and referred to here.
+
+However, every time I try to visit the site:
+
+http://swinglabs.org/
+
+It's down! Is this still an active, viable project? Or is it outdated and abandoned?
+"
+2936380,"Title: Can I grant explicit Javascript methods to a different-host iframe? | Body: I'm thinking about a system in which I allow users to create Javascript-empowered widgets for other users to embed in their dashboard on my website. I'd like to limit these widgets fairly strictly, so each would exist as an iframe kept on its own unique hostname: the widget with ID #47 would be acce"
+6013110,"Title: Gridview Validation | Body: I am using Gridview and using Item Template text box. There are 5 text box and i am adding a new row dynamically on clicking on add row btn. in that row i have adding all text box which is empty. Now i want to validate that text box on btn click next.
+
+now to do it?
+
+I used required field validation"
+8145910,"Title: Break long text into <div> elements on client-side | Body: Let's assume I have a very long text, for instance an long article.
+Is it possible to to break the text into equaly long div elements on client-side with:
+
+css (this would be awesome!) ?
+javascript ?
+
+The goal: I'd love to have those divs side by side with float.
+
+- I know it is possible from server"
+39912520,"Title: string convert to json in android | Body:     client.post(""http://10.0.2.2/project/process/selectalluser.php"", new AsyncHttpResponseHandler() {
+
+        @Override
+        public void onSuccess(String response) {
+            Integer contacts = controller.getContactsCount();
+            Log.d(""Reading contacts: "", contacts+"""");
+            Sy"
+21372860,"Title: characteristic operation and expressing it as a summation | Body: Ok this is kind of really dumb but I am having trouble with doing summations (I know its embarassing). I am supposed to make an algorithm that gets subsets of three elements of a
+set of n elements. I already done this and I have identified my character operation as well. What I am having trouble is "
+37823490,"Title: Javascript Event Listener quits (?) from listening... Youtube API - No console error | Body: EDIT - 2016-06-25
+(I removed my june 16th update, since not relevant anymore.
+&nbsp;&nbsp;&nbsp;I left my OP below...)
+
+
+
+I've spent another 4 hours on this today.
+Here is the situation now:
+
+My function WORKS for two links.
+The video params are defined in an array.
+The two other links aren't workin"
+30935110,"Title: Source video tag does not work.HTML | Body: I have this page:
+
+link
+
+I want to add a video of my own and I use this source code
+
+&lt;p&gt;&lt;video id=""sampleMovie"" width=""320"" height=""240"" src=""wysiwyg/movie.avi"" controls=""controls""&gt;&lt;/video&gt;&lt;/p&gt;
+
+
+Unfortunately does not work ... is something wrong in my writing?
+
+link2
+
+The si"
+25405080,"Title: Is it possible to set key for assoc results from db? | Body: When getting result from db is it possible to setup field name that would be the key in the array? lists method not suitable as there is more than 1 value.
+
+Basicaly i have:
+
+array(4) {
+  [0]=&gt;
+  array(3) {
+    [""DevID""]=&gt;
+    string(6) ""448805""
+    [""Active""]=&gt;
+    string(1) ""0""
+    [""Site"
+39658700,"Title: How to Sort Amount Number Negative and Positive Number In SQL server | Body: I have  working SQL Server.I have More than 20000 Lines Using SQL server.I have  column  Filed Name Amount. in Amount Filed Inserted negative and Positive Number .Now I want Sort Amount Field  Negative and Positive Number 
+
+Example Like :
+
+Entity  ExpenseTypeCode ExpenseType  Amount
+
+  11       043 "
+12787730,"Title: Execute code on App Engine application initialization | Body: When running a Python Web Application  on App Engine, we need to set up some mechanism to execute some code before (or during) the application's initialization.  This means that, in the optimal solution, the code that we need to run is executed as early as possible.  The purpose of this is to allow "
+2998710,"Title: XDocument containing namespaces | Body: I have the following XML which I am trying to query with XDocument:
+
+&lt;E2ETraceEvent xmlns=""http://schemas.microsoft.com/2004/06/E2ETraceEvent""&gt;
+    &lt;System xmlns=""http://schemas.microsoft.com/2004/06/windows/eventlog/system""&gt;
+        &lt;EventID&gt;589828&lt;/EventID&gt;
+        &lt;Type"
+14627180,"Title: C# classes - basic example | Body: This is basically my first attempt to understand the classes in C#. I've went through several tutorials on the internet, but the thing I'm missing the most and what I haven't found anywhere yet, is a simple good example.
+
+I have some idea how my basic program should look like and I would appreciate "
+20260240,"Title: How to get session in Global.asax | Body: I have value in Session UserID, I want to access this id in a function in global.asax
+if session expires i can get it in void Session_End(object sender, EventArgs e) other wise it showing error Session state is not available in this context
+
+What to do?
+"
+29200120,"Title: insert name attribute when check box is checked | Body: I'm hoping someone can help me.  I have a form, when the form check box is checked a name attribute should be inserted in to the check box input field with a number at the end. I made something but is not exactly working
+
+when checkbox is checked it should look like this: 
+&lt;input type=""CHECKBOX"" "
+10813930,"Title: Read a file backwards? | Body: Is there a way to read a file backwards, line by line, without having to go through the file from the beginning to start reading backwards?
+"
+16133500,"Title: how to add a date variable in sql string | Body: I have a query that is being built based on some data and I need to be able to add the @StartDate parameter in the string but I get the following error
+
+
+  Conversion failed when converting date and/or time from character string.
+
+
+Part of the query is like this:
+
+DECLARE @StartDate DATETIME
+DECLARE"
+3467950,"Title: jQuery smooth mouse tracking | Body: I have my object tracking the mouse using the onmousemove event. But I would like to make it smooth. I'm sure this can't be difficult in jQuery but I'm not finding any really good resources.
+
+One idea I had was to simply use the animate function and calculating the offsets that I want to move to. Th"
+31463870,"Title: Assign BASH variable from file with specific criteria | Body: A config file that the last line contains data that I want to assign everything to the RIGHT of the = sign into a variable that I can display and call later in the script.
+
+Example:  /path/to/magic.conf:
+
+foo
+bar
+ThisOption=foo.bar.address:location.555
+
+
+What would be the best method in a bash shell"
+8797800,"Title: auto from const std::vector<>&; object or reference? | Body: suppose we have an object with the following interface:
+
+struct Node_t {
+ ... const std::vector&lt; something &gt;&amp; getChilds() const;
+ } node;
+
+
+Now, i access the property with an auto variable like this:
+
+auto childs = node-&gt;getChilds();
+
+
+what is the type of childs? a std::vector&lt; somet"
+37464800,"Title: SQL: How to get Max of Variable (per category of another varialbe) | Body: I am a beginner in SQL and could really use some help.
+
+Situation: I have a table containing the data field my_number and my_location (among many other data fields). I'm only concerned about those two fields. I want to select the maximum 'my_number' for each 'my_location'. There are only 3 possible "
+3163130,"Title: I've broken debugging in Visual Studio. I think I pressed a wrong key | Body: I don't know what I've done. Visual Studio used to stop when it hit an exception and now it just continues and doesn't take me to the offending code.
+
+Does anyone know what I've pressed to turn it off? And how to turn it back on?
+
+Thanks.
+"
+7641110,"Title: Webapp2 for Authentication and Login | Body: I would like to roll my own login system for my python Google App Engine application (rather than using Google's users api).
+
+I am using webapp2, and I noticed that there is a webapp2_extras.auth module and an incomplete auth tutorial.
+
+Does anyone know how I can use this API to create:
+
+
+User Regis"
+20192780,"Title: Using Spring Data with JBoss 7 | Body: I want to start using Spring Data so I can use JpaRepository, but for some reason injecting the repository fails (NullPointerException)
+
+I added this dependency to my pom.xml
+
+&lt;dependency&gt;
+     &lt;groupId&gt;org.springframework.data&lt;/groupId&gt;
+     &lt;artifactId&gt;spring-data-jpa&lt;/a"
+38028730,"Title: Parse API push notification, open app page on play store | Body: So on are our app we have Parse API, to send push notification and manage backend stuff, we are sending and update the app notificaiton bt clicking the notification it opens the APP, we would like it to open the store page for our APP, is it possible?
+"
+15706930,"Title: Installing PyGame onto Mountain Lion OS | Body: Okay, so I've completely given up. 
+
+I've tried about a thousand different walkthroughs to solve my problem, on every website I can find, but I either get stuck and no one knows the answer, or they just don't work.
+
+So has anyone got an answer to installing PyGame onto Mountain Lion that they know 1"
+9324670,"Title: QGIS-Python Icon in label | Body: I am working with python plugins for qgis.I developed my plugin and incooperated into QGIS locally. 
+My plugin name is DlgAbout.py.It has label named logo ,used to place image in it.The code is 
+
+self.logo.setPixmap( QtGui.QPixmap( ""icons/bannertile.PNG"" ) )
+
+
+When i run the same normally,it is show"
+36494510,"Title: How to insert a specific UUID in h2 database? | Body: I need to insert some default data in my database. I am using Spring Boot with the Flyway integration. For testing, I use H2. For production MySQL will be used.
+
+I have made separate Flyway migration scripts so I can use database specific stuff for the default data (Creating the tables is done in a "
 7056520,"Title: With Jquery ui's draggable, how do you change the revert on stop? | Body: I was wondering how you changed the ""revert"" property of something being dragged in Jquery ui from the stop event.
 
     $('.things').draggable({ 
@@ -1261,103 +1074,301 @@ public void onTouchEvent(MotionEvent event) {
 
 
 I've tried "
-23107130,"Title: Animation bug in Chrome v.36? | Body: I've just noticed a wrong behavior of Chrome 36.0.1933.0 m rendering when using fullpage.js plugin.
+1064640,"Title: Do I have to pthread_join each thread I create? | Body: From pthread_join() man page:
 
-This bug didn't took place in a previous version of Chrome and it neither does in any other browser. (IE, Opera, Firefox)
+When  a  joinable  thread terminates, its memory resources (thread descriptor and stack) are not deallocated until thread performs pthread_join on it. Therefore, pthread_join must be called once for each joinable thread created to avoid memory leaks. 
 
-Some content suddenly disappears from the site after it is animated (It chan"
-33321560,"Title: Ajax Populated Dropdown Taking Two Clicks | Body: My web page is an internal DB Move Tool for my company.  I have a section for source and for target.
+Does it mean I n"
+39060510,"Title: Batch Script: Extract number from a string | Body: I'm writing a batch script where I need to extract numbers from a string (which indicates the version of a file), so that I can compare it with another number.
+Below is my script written so far
 
-I have radio buttons for host and port, and a dropdown for database name.  When host and port are set, I have a click event capture on the dropdown that sends an ajax request to a php page that quer"
-28509040,"Title: Custom TableView section headers with NSFetchedResultsController | Body: I have table view section headers which display summary information (a total of a particular property) about the objects contained in that section.
-
-When a user deletes an object by swiping on the table cell, I delete the object from the model and FetchedResultsController removes that cell from the "
-20985000,Title: Gadget in a Site to browse and retrieve ID for a selected Drive folder | Body: I'm building a Gadget for a Sites page that will display a document for the current month. I have accomplished it as a Google App Script but must hardcode the folder ID and target page. I would like to build a Gadget that lets the user browse and select a folder from their Drive. Once the folder ID 
-24882820,"Title: QString:number with maximum 2 decimal places without trailing zero | Body: I have a division like this:
-
-number / 1000.0
+:: Over here I'm trying to extract number from the string , this isn't working
+    for %%F in (""!name!\.."
+30603680,"Title: Client ECC SSL Certificate contains ""unknown named curve"" | Body: Question precontext:
+I am working in an existing library that uses SSL with the netty framework on a remote server. I am running into an SSL/TLS handshake error. The error is as follows: 
 
 
-Sometimes it gives answers like 96.0000000001, sometimes the division works as expected.
 
-I want to limit my number to a maximum of two decimal places and without trailing zeros.
+javax.net.ssl.SSLProtocolException: java.io.IOException: Unknown named curve: 1.2.840.10045.3.1.1
+    at sun."
+37493520,"Title: how to remove rows based on some conditions | Body: My data looks like this:
 
-If it's 96.5500000001 it should show 96.55.
+row  ID  YU  DV
+ 1    1   0   .
+ 2    1   .   .
+ 3    1   .   .
+ 4    1   .   .
+ 5    1   45  .
+ 6    1   .   7
+ 7    1   .   .
+ 8    1   .   .
+ 9    1   .   .
+ 10   1   65  .
+ 11   1   .   5
+ 12   1   .   .
+ 13   1   .   .
+ 14   1   .   .
+ 15   2   20  .
+ 16   2   .   .
+ 1"
+15256140,"Title: Groovy script not parsing XML correctly | Body: I am trying to use Groovy to parse the following XML:
 
-If it's 96.4000000001 it sh"
-14688510,"Title: Why does this Python logical indexing take up so much memory | Body: I have a 1-D time series that is 1e8 long (100,000,000 elements). Here is a link to the data I am using on Dropbox. (The file is 382 MB.)
-
-Update
-
-Based on memory_profiling, the error occurs in the line
-
-data[absolute(data-dc)&lt; m*std(data)]=dc.
-
-
-More specifically, the operation absolute(data-dc)"
-5430540,"Title: element tree search help(python, xml) | Body: I'm trying to find all child elements whose attribute class is 'TRX' and whose attribute distName Starts with 'PLMN-PLMN/BSC-208812/BCF-1/BTS-1'
-
-Is something like this possible?
-
-root[0].findall(""*[@class='TRX'][@distName='PLMN-PLMN/BSC-208812/BCF-1/BTS-1*']"")
-
-
-I'm using cElementTree over lxml bec"
-17385880,"Title: Rack-superfeedr: Authenticating web-hook calls from hub | Body: This question refers to Superfeedr's official rack-superfeedr library. As SuperFeedr supports PubSubHubbub's challenge-response protocol, I'm wondering if the rack-superfeedr library provides this automatically.
-
-Looking at the code, I see subscribe() has a block argument which might be necessary fo"
-34220730,"Title: Qt Directx rendering | Body: I'm rendering in Qt widget by DirectX.
-I disabled qt paint engine 
-
-QPaintEngine *paintEngine() const { return NULL; }
-
-
-but sometimes I want to enable qt paint and disable directX rendering.
-I'm disabling DirectX rendering, but how can I enable Qt paintEngine?
+&lt;list&gt;
+    &lt;list&gt;
+        &lt;widget&gt;
+            &lt;fizz id=""3"" /&gt;
+            &lt;buzz&gt;false&lt;/buzz&gt;
+            &lt;explanations/&gt;
+        &lt;/widget&gt;
+        &lt;widget&gt;
+            &lt;fizz id=""3"" /&gt;
 "
-31519650,Title: Java while loop dramatically slows down over time after a large number of iterations | Body: My program reads a text file line by line in a while loop. It then processes each line and extracts some information to be written in the output. Everything it does inside the while loop is O(1) except two ArrayList indexOf() method calls which I suppose are O(N). The program runs at a reasonable pa
-8493100,"Title: Python error with debugging | Body: I am very new with Python and I have just received this message while trying to use Visual Studio plugin for Python:
+28224370,"Title: capture camera image but not save a file | Body: Is it possible to capture a camera image and use it in my code, but not have the image saved on the device? I need the image for sending to an API, but I have no need for the user to have the file afterwards.  Can this be done?
+"
+14473380,"Title: SELECT related articles based on keywords from single table | Body: I am working on a web project which shows article details on one of it pages and on side i also need to show top 5 related article based on keywords or tags.
 
-try:
-    import boinc # getting the exception here
-    _BOINC_ENABLED = True
-except:
-    _BOINC_ENABLED = False
+I am not sure how i can entirely do it using T-SQL rather than doing part of processing from code behind.
 
+I using FUNCTION to split my keywo"
+7136980,"Title: Xcode 4: library depends on itself issue | Body: On the project I'm helping to revive, iSoul, some users are reporting an issue while compiling with Xcode 4 (I use Xcode 3.6.8 currently and cannot get my hands on the new one at the moment): it appears that some libraries depend on themselves.
 
-and this is the error message that I get:
+This is the message they are getting:
 
+File /Users/use"
+25798350,"Title: UITableView scrollView delegate not called | Body: I have a tableview set inside a UIViewController
 
-  exceptions.ImportError"
-20881820,"Title: jCarousel: scroll to first item index of class name | Body: I am using the jCarousel plugin.  
-
-What i want to do is when i click on a list item used for navigating the carousel, go to the first index of that class name.  If i click on the Two in the &lt;ul id=""bah""&gt;, it should go to the first occurence in the class name level-2 which in my case would be "
-9452770,"Title: Prevent content from changing to multiple lines when contents overflows in IE | Body: This is a cross-browser style compatibility problem. And the effect is unexpected in Internet Explorer(&lt;=7.0)
-
-The sample webpage is here
-
-Notice the .pll_viewpoint  element(The boxes whose colors changes gradually from red to grey). 
-
-The expected effect should be:(See it in Chrome, FF, Opera or"
-14889950,"Title: Can a fake table be created in SQL Server 2005 | Body: I would like to know if it is possible to create a fake table in SQL Server 2005. 
-
-Because when I tried I got an error
+@property (strong, nonatomic) IBOutlet UITableView *tableView;
 
 
-  Msg 208, Level 16, State 1, Line 1
-  Invalid object name 'dual'.
+with delegates set in viewDidLoad
+
+self.tableView.delegate = self;
+self.tableView.dataSource = self;
 
 
-This is what I  tried
+The following methods never get called:
 
-and it did not work. For test purpose I have created a test table to execute the query"
-10938150,"Title: convert four 32 bits ints to IP address in java | Body: Using the code found here: https://libbits.wordpress.com/2011/05/17/check-if-ip-is-within-range-specified-in-cidr-in-java/
+- (void)scrollViewDidEndDecelerating:(UIS"
+37134090,"Title: How to build up an elasticsearch query in a better way? | Body: I am currently using the elasticsearch helper to run queries on my elasticsearch database. Currently I am using vue.js to help build this application.
 
-  // Step 1. Convert IPs into ints (32 bits). 
-// E.g. 157.166.224.26 becomes 10011101  10100110  11100000 00011010
-int addr = (( 157 &lt;&lt; 24 ) &amp; 0xFF000000) 
-         "
-27435200,"Title: Compile time zero C union | Body: I have a union with a great number of fields, some of indeterminate size. I'd like to create a preset value (in the vein of NULL) where every field of the union is zero. I tried the following, but without optimization it would probably result in two copies; and more importantly doesn't actually work"
-36316820,"Title: Android emulator does not install app when using 'ionic emulate android' command | Body: I am new to Ionic and Android programming, so I am sorry if there are any inconveniences.
+When I am paginating my results I use this query:
 
-My problem is that I can't see my app (default app in tutorial) on the emulated android virtual device. It just shows a stock android phone basically after I run ionic emulate android. So I assume the app wasn"
+this.client.search({
+        index: 'node',
+        type: 'vakantie',
+        from: 12 * index,
+ "
+9090050,"Title: Hibernate: Select N rows, but with only unique values in one column | Body: I want to implement this with Hibernate criteria. 
+
+Let's say I have data like(from the link):
+
+ID  Name            City            Birthyear
+1   Egon Spengler   New York        1957
+2   Mac Taylor      New York        1955
+3   Sarah Connor    Los Angeles     1959
+4   Jean-Luc Picard La Barre       "
+30783280,"Title: C# list of ""Type"" that implements specific interface | Body: I want to create a List&lt;System.Type&gt; listOfTypesOfGlasses , where Type must implement a specific interface IGlass , so I could load it with Types of glasses.
+Is there a way to enforce in compile time this constraint(must implement IGlass) ?
+"
+17541960,"Title: Convert markdown to json in R | Body: Here are the steps I would like to execute:
+
+
+Read a markdown file (see below) into R
+Convert the markdown text to JSON
+Send the JSON in an API POST call
+
+
+Eg. markdown text file:
+
+## This is a list
+
++ one
++ two
++ three
+
+#### Do a thing
+```coffee
+points &lt;- rnorm(10)
+plot(points)
+```
+
+#### Do some"
+1808020,"Title: Radio menu check | Body: Using Winform, is it possible to ""radio check"" a menu item?
+"
+9430070,"Title: Get page height in JS (Cross-Browser) | Body: What is the best way to get the actual page (not window) height in JS that is cross-browser compatible?
+
+I've seen a few ways but they all return different values...
+
+self.innerHeight
+or
+document.documentElement.clientHeight
+or
+document.body.clientHeight
+or something else?
+
+One way of doing it which"
+13720510,"Title: Can I get my salt from a database and then check the password in the same query? | Body: I've recently added a class which uses unique salts stored in the members table. This was my login script before I used salts:
+
+    $sql = 'SELECT id, username FROM member WHERE username = ? AND pass = ?';
+
+    $result = $this-&gt;DB-&gt;query($sql, array($username, $pass));
+    foreach($result as $"
+11349730,Title: How to require multiple permissions on a single broadcast? | Body: I'm working on an android Service that allows other applications to collect data received from a company's proprietary devices. The connection can be made over Bluetooth or USB. I allow other applications to access this data through broadcasted intents sent out by the service. I would like to force 
+30899710,"Title: Shuffled vs non-shuffled coalesce in Apache Spark | Body: What is the difference between the following transformations when they are executed right before writing RDD to a file?
+
+
+coalesce(1, shuffle = true)
+coalesce(1, shuffle = false)
+
+
+Code example:
+
+val input = sc.textFile(inputFile)
+val filtered = input.filter(doSomeFiltering)
+val mapped = filtered.ma"
+38547300,"Title: SQL Left Outer join with where clause reduces results from left outer join | Body: I have the following query that works exactly how I would expect it to. It returns back all of the Statuses with the counts.
+
+SELECT 
+    ProcessStatuses.Status, 
+    COUNT(SecretProcesses.ProcessStatusID) AS Count
+FROM  
+    ProcessStatuses
+LEFT OUTER JOIN 
+    SecretProcesses ON ProcessStatuses.Pr"
+34324690,"Title: Detecting missing annotations in code | Body: Is there a way to detect missing annotations in code using Sonarqube. Does it have any inbuilt rules for it. 
+
+If there is a way, can we also detect missing annotations on new code?
+"
+12198670,"Title: select option in payment method instead of radion button in magento | Body: This is my methods.phtml file in onepagecheckout in magento,I want the dropdown(select option) button instead of radio button .........so that i could select the payment method to pay the payment.
+
+&lt;?php if (!$methods = $this-&gt;getMethods()) : ?&gt;
+  &lt;p&gt;&lt;?php echo $this-&gt;helper('ch"
+34351480,"Title: UIKeyboard letter click action in iOS | Body: I want to get UIKeyboard's each letter click action in iOS application, 
+is it possible in swift?
+
+such as:
+
+ func textFieldShouldReturn(textField: UITextField) -&gt; Bool {
+   ...
+ }
+
+
+but on the other buttons.. without creating custom keybaord
+"
+13343800,"Title: Trying to template a view file in Yii with SmartyViewRenderer | Body: I am trying to use SmartyViewRendere in Yii. I got everything setup according to the instructions for using Smarty with Yii.
+
+In my application I want to render a template called widgets_sidebar_template.tpl 
+
+&lt;h1&gt;Widgets bewerken voor Sidebar #&lt;?php echo $model-&gt;id; ?&gt;&lt;/h1&gt;
+&lt"
+26987460,"Title: How long my Facebook app ID will work if it is not reviewed? | Body: I have created my app on developers.facebook.com few months back. At that time, there was no concept of reviewing app by Facebook. Now, if anyone add an app on Facebook, Facebook will review his/her app and then they approve or reject your app. On approval you get your app ID. But when I added my ap"
+6625110,"Title: Android CMYK mode | Body: I have a Bitmap in CMYK mode, which doesn't show correctly, and at some point not at all, on Android. Googling didn't return many answers, so I have to ask here how do I handle CMYK mode images?
+
+Thanks
+
+UPDATE
+
+Ok, more info as requested. I have a image that is in the assets, and I construct a Bitm"
+7152250,"Title: Fastest way to erase part of file in C++ | Body: I wonder which is the fastest way to erase part of a file in c++.
+
+I know the way of write a second file and skip the part you want. But i think is slow when you work with big files.
+
+What about database system, how they remove records so fast?
+"
+9564890,"Title: Get the value of static properties from static methods in JavascriptMVC | Body: I'm working on my first project with JavascriptMVC.
+
+I have a class Foo.
+
+$.Class('Foo',{
+    // Static properties and methods
+    message: 'Hello World',
+    getMessage: function() {
+        return Foo.message;
+    }
+},{});
+
+
+This works fine. But what if I don't know the class name?
+I want somethin"
+7552210,"Title: CheckBoxList ASP.Net MVC 3 from database | Body: assumed that i have Roles table like this :
+
+tb_role
+RoleId  Role_Name
+     1  SalesCreate
+     2  SalesEdit
+     3  AgentCreate
+     4  AgentEdit
+
+
+i want to list role for Sales in checkbox (SalesCreate and SalesEdit, so its only have 2 checboxes). I made my tb_role using aspnet configuration, so i"
+31726340,"Title: Enumerator attributes in GCC | Body: GCC's online documentation claims it supports enumerator attributes:
+
+
+  GCC allows attributes to be set on enumerators.
+
+
+It then gives a code example using such attributes:
+
+ enum E {
+   oldval __attribute__((deprecated)),
+   newval
+ };
+
+ int
+ fn (void)
+ {
+   return oldval;
+ }
+
+
+But when I try it "
+35399250,"Title: getType on Android | Body: I am trying to make a program that will refresh every time the user shakes the phone and after searching on the web, I believe I have gotten one that would work and after copying it down, there seems to be only one error with getType, does anyone know what the problem might be?
+
+
+"
+38727800,"Title: ld linker error ""cpu model hidden symbol"" | Body: I'm getting an ld error when attempting to compile an sfml program on ubuntu 16.04. This is apparently a known issue, and there is supposed to be a workaround, but I don't understand what is it...
+
+http://web.archive.org/web/20160509014317/https://gitlab.peach-bun.com/pinion/SFML/commit/3383b4a472f0"
+31808160,"Title: Selecting specific columns when using mutate_each function from dplyr | Body: I have data frame with the first column as a categorical identifier, the second column as a frequency value and the remaining columns as raw data counts. I want to multiply all the count columns by the frequency column but not the first two. 
+
+All the raw count columns start with a capital letter fo"
+28279030,"Title: How to use General and Downloads icon seen in Xcode's Preferences Panel? | Body: I have been creating a preferences panel that would pop up when an user taps â+, in my Cocoa app, and I like to use the same General and Downloads icons that are used in Xcode.
+
+
+
+However, as far as I know, when I moved Image Toolbar Item from Object Library to the Toolbar in IB and then search fo"
+21050340,"Title: How to use LoaderManager.LoaderCallbacks and CursorLoader for ORMLite? | Body: Recently I started using ORMLite for my application. Before I used to use 'ContentProvider' and implement LoaderManager.LoaderCallbacks&lt;Cursor&gt;. I would create CursorLoader and show the list to user when I have data.
+
+How can I manage that cycle with ORMLite?
+
+I want to create Cursor and get n"
+30744000,"Title: parsing into std::vector<string> with Spirit Qi, getting segfaults or assert failures | Body: I am using Spirit Qi as my parser, to parse mathematical expressions into an expression tree.  I keep track of such things as the types of the symbols which are encountered as I parse, and which must be declared in the text I am parsing.  Namely, I am parsing Bertini input files, a simple-ish exampl"
+4030640,"Title: Why doesnât my enum work as a method parameter? | Body: I've used typedef enum in the past with method parameters and had no problem, but today I'm having problems...
+
+h file
+
+typedef enum
+{   eGetVarious1,
+eGetVarious2,
+} eGetVarious; 
+
+- (double)getVarious:(eGetVarious)eVar:(NSDate*)pDate;
+
+
+an m file
+
+
+"
+4406590,"Title: How to trigger Account Manager to add new account from application | Body: I am trying to extend the SampleSync application. After I install the app, I can go to settings -> accounts &amp; sync -> add account to add an account. However, if I want to check from my Application code and want to trigger AccountManager to add a new account directly, what should be the best way?"
+25546910,"Title: Phonegap ondevice ready | Body: I have a phonegap application with several html files, and for each html file I have js.file.
+In each js file I'm adding an eventListener like this:
+
+function onDeviceReady()
+{ 
+   alert('HI'); 
+}
+
+document.addEventListener('deviceready',onDeviceReady,false);
+
+
+Now when the app starts I'm checking i"

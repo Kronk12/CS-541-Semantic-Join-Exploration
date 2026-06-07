@@ -4,8 +4,8 @@ import pandas as pd
 questions_df = pd.read_csv("data/stack_questions.csv")
 tags_df = pd.read_csv("data/stack_tags.csv")
 
-# 1. Isolate the Top 20 Tags (to force density)
-top_tags = tags_df['Tag'].value_counts().head(20).reset_index()
+# 1. Isolate the Top 50 Tags (to force density and optimize for 4:1 ratio)
+top_tags = tags_df['Tag'].value_counts().head(50).reset_index()
 top_tags.columns = ['Tag', 'Count']
 
 # 2. Get questions that contain AT LEAST one of these top 20 tags

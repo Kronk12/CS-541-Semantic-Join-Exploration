@@ -1,227 +1,227 @@
 {
   "fixed_tokens": {
-    "prompt": 18570,
-    "completion": 1268
+    "prompt": 28296,
+    "completion": 1864
   },
   "clusters_a": {
     "0": {
-      "size": 15,
+      "size": 9,
       "samples": [
         {
-          "question_id": 14644880,
-          "question_text": "Title: How to guess image mime type? | Body: How can I guess an image's mime type, in a cross-platform manner, and without any external libraries?\n"
+          "question_id": 11956800,
+          "question_text": "Title: Does the getID() always return a constant value? | Body: For my Android project, I am using the getID() method to retrieve the numeric value for a View and store this value in my database.  I am banking that this getID() method for a particular View will always return the same constant value over multiple executions in a production environment and over su"
         },
         {
-          "question_id": 25102930,
-          "question_text": "Title: imageSX and imageSY VS getimagesize | Body: I'm sorry for my bad English, in advance.\nI need to only receive a width and height of an image. What kind of function do I must use?\nI guess imageSX(Y) will be working quicker that getimagesize or am I wrong?\n\nI use the latest version of PHP\n"
+          "question_id": 9605480,
+          "question_text": "Title: deviceMotion not returning anything for pitch, roll, or yaw | Body: I'm trying to get some simple code working to log the pitch, roll, and yaw of my iPhone 4S. It's firing the timer correctly, but the values of pitch, roll, and yaw, are always displayed in the console as 0.0000000. What am I missing here? Any help appreciated!\n\nHere's my .h file:\n\n@interface ViewCon"
         },
         {
-          "question_id": 25054190,
-          "question_text": "Title: Evaluate associative php array inline | Body: I am retrieving the f-number from JPEG images by EXIF data. To get the desired number, I need to evaluate the expression. Right now I use three lines of code for this. Could it be made shorter, or ideally as a one-liner?\n\n$fnumber = $exif['FNumber'];\neval(\"\\$fnumber = $fnumber;\");\n$photo['fnumber'] "
+          "question_id": 26338110,
+          "question_text": "Title: Kinect SDK 1.8: How to detect grip using javascript? | Body: I'm playing with javascript API of KINECT FOR WINDOWS SDK 1.8 starting from Webserver sample included in developer toolkot. Now i would like to detect grip interaction in browser and i've not result at the moment.\nI'm using the Handpointer interface which provide a property isInGripInteraction but i"
         }
       ]
     },
     "1": {
-      "size": 17,
+      "size": 15,
       "samples": [
         {
-          "question_id": 39233720,
-          "question_text": "Title: Implementing an image viewer using CSS | Body: The following code (jsfiddle) implements an image viewer in CSS\n\n\n\n&lt;!DOCTYPE html&gt;\n&lt;head&gt;\n    &lt;title&gt;Trains, Planes, Automobiles, and Boats&lt;/title&gt;\n    &lt;meta charset=\"UTF-8\"&gt;\n    &lt;style type=\"text/css\" media=\"screen\"&gt;\n        html, body { background:#ddd; margin:0"
+          "question_id": 32774910,
+          "question_text": "Title: Clean way to read a null-terminated (C-style) string from a file? | Body: I'm looking for a clean and simple way to read a null-terminated C string from a file or file-like object in Python. In a way that doesn't consume more input from the file than it needs, or pushes it back onto whatever file/buffer it works with such that other code can read the data immediately afte"
         },
         {
-          "question_id": 17018410,
-          "question_text": "Title: Call service at specific time in android | Body: I have service run in background.\nI want to call this service at specific interval.\nif user provide values 10, 20, 30 than service should call after 10 min,20 min and 30 min receptively. \n\nHow can I do above thing?\n"
+          "question_id": 615040,
+          "question_text": "Title: Writing a mini-language | Body: I have an application that needs to allow users to write expressions similar to excel:\n\n(H1 + (D1 / C3)) * I8\n\nand more complex things like \n\nIf(H1 = 'True', D3 * .2, D3 * .5)\n\nI can only do so much with regular expressions. Any suggestions as to the right approach to doing this as well as any resou"
         },
         {
-          "question_id": 9118040,
-          "question_text": "Title: Simple GUI Toolkits For Use With Clojure | Body: The long and short of this question is which GUI tool kits create very simple UIs and are easy to use work with Clojure? Here are further details to narrow down my question.\n\nI want to create very simple GUI applications that will run on Windows, without investing in a huge GUI design effort. \n\nFor "
+          "question_id": 36643320,
+          "question_text": "Title: p5.js: How can I access elements in a for() loop to rollover? | Body: I'm working on a interactive text analysis website and I currently have a for() loop running through an array of lines in a .txt file. Each line generates a rectangle. It works well but I need to be able to mouseOver/rollover each square to then print the text line on the web page. Essentially I jus"
         }
       ]
     },
     "2": {
-      "size": 25,
+      "size": 10,
       "samples": [
         {
-          "question_id": 11802960,
-          "question_text": "Title: How Linq infers types from Lambda | Body: Here is the original Linq:\n\n       var developersUsingCSharp =\n                from d in developers\n                    where d.Language == \"C#\"\n                    select d.Name;\n\n\nThis can be written as:\n\n     Func&lt;Developer, bool&gt; filteringPredicate = d =&gt; d.Language == \"C#\";\n     Func&l"
+          "question_id": 38570670,
+          "question_text": "Title: Conditionally rename the value depending on the previous row | Body: I have a data frame df:  \n\nEvent       Code\nPicture     no$\nPicture     value\nPicture     $\nPicture     value\nPicture     no$\nPicture     value\nPicture     no$\nPicture     value\nPicture     $\nPicture     value\n\n\nI want to rename value to reward or no_reward depending on the previous row. If it's $ t"
         },
         {
-          "question_id": 17560390,
-          "question_text": "Title: Match a^xb^x with regex | Body: To clarify, I want to match:\n\n\n  ab\n     aabb\n     aaabbb \n     ...\n\n\nThis works in Perl:\n\nif ($exp =~ /^(a(?1)?b)$/)\n\n\nTo understand this, look at the string as though it grows from the outside-in, not left-right:\n\n\n  ab\n     a(ab)b\n     aa(ab)bb\n\n\n(?1) is a reference to the outer set of parenthese"
+          "question_id": 6284440,
+          "question_text": "Title: Is there a way to avoid the subqueries with a query has three subqueries | Body: I have this query and it works great (not sure) about performance\n\nSELECT ssp.product_id, p.price\nFROM system_step_product AS ssp\nJOIN product AS p ON p.product_id=ssp.product_id \nWHERE ssp.system_id = 14\nAND ssp.step_number = (\n  SELECT step_number\n  FROM system_step_product\n  WHERE system_id = '14"
         },
         {
-          "question_id": 11596220,
-          "question_text": "Title: understanding code that removes duplicate characters in a string (from cracking the coding interview) | Body: Here is the question from \"cracking the coding interview\" Q1.3 \"Design an algorithm and write code to remove the duplicate characters in a string without using any additional buffer. NOTE: One or two additional variables are fine. An extra copy of the array is not.\" and I wrote a program that seems "
+          "question_id": 23291030,
+          "question_text": "Title: Optimize ms sql select query for huge DB | Body: My query is \n\nSELECT DISTINCT\n    Company.Name,\n    Customer.FirmID,\n    Customer.ID,\n    Customer.ExtendedId,\n    (CustomerExtended.FirstName + ' ' + CustomerExtended.LastName) as \"Customer Name\"\n\nFROM\n    Company,\n    Customer,\n    CustomerExtended\n\nWHERE\n    (Customer.ExtendedId = 1) OR\n    (Cust"
         }
       ]
     },
     "3": {
-      "size": 18,
+      "size": 16,
       "samples": [
         {
-          "question_id": 25063930,
-          "question_text": "Title: Dropdown menu coding - mouse over | Body: I've a code snippet I'm trying to edit.\n\nMy website has a link navigation dropdown menu in place, but the default setting it to activate it on a mouse click, not to function on mouse hover as I would prefer.\n\nBelow is a snippet of the JS code - Anyone recommend a change to allow mouse hover to opera"
+          "question_id": 9414090,
+          "question_text": "Title: Issue with jdbcTemplate.batchUpdate() for large list of queries | Body: I am facing an issue with JdbcTemplate.batchUpdate(String[] queries) method when processing bulk of queries.\n\nThe statement is getting executed without any exception but updation is not reflected in database. We are using sybase. The size of list of queries is around 7000+.\n\nHave anyone faced simila"
         },
         {
-          "question_id": 34140330,
-          "question_text": "Title: How to get value of data attribute with jquery | Body: I want to be able to grab html5 attribute values and have them match the value and attribute name with the class - then hide on click. \n\nfor example data-table=\"sample11\" should hide class=\"sample11\" same for sample14 and any other attributes on this page \n\nI was trying something like this but it is"
+          "question_id": 36961710,
+          "question_text": "Title: Looking for one or two Node modules related to locking and update scheduling | Body: Some people are going to think this is too trivial to look for modules or almost put it in a leftPad category perhaps, but there are so many things in npm I have a feeling these two requirements are covered and so am interested to see what other people have done.\nI inherited this codebase that has t"
         },
         {
-          "question_id": 3212210,
-          "question_text": "Title: Custom folding for CSS in Vim | Body: I came upon this custom folding for CSS in Vim and inspired by it I was\ntrying to make my own with slightly different result in mind. I had to give up\nas I couldn't make search patterns work in folding function. No surprise to me\nas I'm rather a Vim beginner :)\n\nAny help to achieve the following wil"
+          "question_id": 1354070,
+          "question_text": "Title: How to Insert row between two rows and give it priority in database? | Body: i have a stack of messages in database table.\ni want to send these messages by their priority so i added \"Priority\" column to \"messages\" table.\n\nbut what if i want to insert \"cram\" message between two messages and give the previous priority to this new message?.\n\nShould i update all messages priorit"
         }
       ]
     },
     "4": {
-      "size": 9,
+      "size": 13,
       "samples": [
         {
-          "question_id": 26760290,
-          "question_text": "Title: iOS Touch ID for Web Development | Body: I am currently trying to figure out a way where I can build a responsive website, however once the website loads on an iOS Device I wanted to use the new iOS Touch ID api to allow members to login. I know it is possible to do such things using Native ofcourse and also Cordova (http://cordova.apache."
+          "question_id": 15772920,
+          "question_text": "Title: Firefox exception 'JavaScript component does not have a method named: \"available\"' | Body: I'm building a web app with Django. I have a bunch of API calls in Javascript via Ajax (jQuery v1.8.3).\n\nMost of them work, but a particular one results in a return object with status 0 and this message as the statusText:\n\n[Exception... \"'JavaScript component does not have a method named: \"available"
         },
         {
-          "question_id": 32065910,
-          "question_text": "Title: cross-platform method for determining file owner in Python | Body: I need to find the owner of files in a script running on Windows, Linux and Mac. os.stat returns the owner id, but on windows I can't use getpwuid to find the actual name of the owner. I need the name as a string.\n"
+          "question_id": 27110040,
+          "question_text": "Title: slidetoggle not removing when page size changes | Body: Hi all i have got my repsonsive menu working at mobile level.\n\nwhen the website changes size the slideToggle does not get removed and I am not sure how to make this happen.\n\n$(\".click\").click(function () \n$('#menu').slideToggle(\"veryslow\"); });`\n\n"
         },
         {
-          "question_id": 20550660,
-          "question_text": "Title: Distributing (native C++) libraries on windows | Body: I would like to share a library I've written in native C++ with a third party. By that I mean I'd like to share a library providing functionality I've developed with someone who is using windows, whom I do not wish to share source code with. We can assume the same CPU architecture here.\n\nI've only e"
+          "question_id": 25848640,
+          "question_text": "Title: How to capture input's type = 'text' clear event? | Body: &lt;input type='text' onchange=\"reportAnswer(1, this.value);\" onkeyup=\"this.onchange();\" onpaste=\"this.onchange();\" oncut=\"this.onchange();\" onclear = \"this.onchange();\" /&gt;\n\n\n\nHow to capture that change? This is IE11.\n\nP.S. I added onclear handler because run out of ideas what to do.\n"
         }
       ]
     },
     "5": {
-      "size": 7,
+      "size": 10,
       "samples": [
         {
-          "question_id": 5678630,
-          "question_text": "Title: GXT(EXT-GWT) Cannot commit changes to EditorGrid store | Body: I have an EditorGrid. When i edit the grid i use grid.getStore().commitChanges(), in order to save all the changes to the grid's store.\n\nThen i print out each row of the grid's store. It return's the previous values and not the updated ones.\n\nI searched sensha ext-gwt forum, but couldn't find a solu"
+          "question_id": 12974940,
+          "question_text": "Title: Adding an attribute to a file using c# | Body: I am trying to build an app that synchronizes files on my computer with files on my webserver. In my current situation my app watches a series of paths that contain files to sync. The problem with this solution is that when I locally rename a file, it no longer matches any of the paths and gets uplo"
         },
         {
-          "question_id": 18756650,
-          "question_text": "Title: Unable to maintain order of producer tasks in java multithreading | Body: I am writing a multithreaded application where there a n producers who tries to add an element to the shared resource. I want to maintain the order in which producer produces the element in the shared resource. \n\nFor example my shared resource is a SynchronizedQueue and P1, P2, P3, P4 are going to p"
+          "question_id": 15897500,
+          "question_text": "Title: Closing tags when extracting HTML from XML | Body: I am transforming a mixed html and xml document using an xslt stylesheet and extracting only the html elements.\n\nSource file:\n\n&lt;?xml version=\"1.0\" encoding=\"utf-8\" ?&gt;\n&lt;html &gt;\n  &lt;head&gt;\n    &lt;title&gt;Simplified Example Form&lt;/title&gt;\n  &lt;/head&gt;\n  &lt;body&gt;\n    &lt;TLA:"
         },
         {
-          "question_id": 40133080,
-          "question_text": "Title: Gracefully shutdown JBoss application | Body: I am looking for an approach to gracefully handle shutdown of JBoss (Wildfly AS 8.2). This would mean that all current requests are served and the webapp stops receiving further requests. I found that this is possible via command line in version 9 of the application server -\n\n./jboss-cli.sh --contro"
+          "question_id": 21833530,
+          "question_text": "Title: How to read the last XML element of a web file in Visual Basic | Body: I am completely new to Visual Basic. I want to create a program that reads only the last element of an external XML file. The only code I have is:\n\nText = wc.DownloadString(\"http://example.com/file.xml\")\n\n\nThe XML file is as follows:\n\n&lt;message&gt;\n&lt;sender&gt;John&lt;/sender&gt;\n&lt;body&gt;Hel"
         }
       ]
     },
     "6": {
-      "size": 17,
+      "size": 20,
       "samples": [
         {
-          "question_id": 10353140,
-          "question_text": "Title: Algorithm to find isomorphic nature in binary trees | Body: what will be the algorithm to check two binary tree are isomorphic in nature?\nmy code-\n\nboolean isIsomorphic(Root t1 , Root t2){\n    if(t1==null || t2==null){\n        return false;\n    }\n\n    if((t1.value == t2.value) &amp;&amp; (isIsomorphic(t1.left,t2.right) &amp;&amp; isIsomorphic(t1.right,t2.lef"
+          "question_id": 12521830,
+          "question_text": "Title: Optimizing \"this\" type of loop | Body: I'm currently (and have in the past been) using this loop to look through an array of custom classes and make sure that a boolean member value of each class in the array is equal. Is there a better (more efficient, simpler to code perhaps) way to do this?\n\nSince that explanation is pretty bad and fo"
         },
         {
-          "question_id": 8265760,
-          "question_text": "Title: Select unmatched records from two tables of MYSQL | Body: I have two tables Table1 and Table2 with some records\n\nid is the common column in both tables and primarykey is set to this column in table1\n\nThere are many records in table1 and some of these records (not all) are updated into table2.\n\nNow I want retrieve from table1 the records not updated into th"
+          "question_id": 10682430,
+          "question_text": "Title: .net synthesizer | Body: I'm looking for a synthesizer that I can integrate with my .NET application. Is there any .NET synthesizers available out there? Is there a way of integrating VST-plugins into your .NET application?\n\nI want to create sounds based on MIDI-input, preferably sounds that are more appealing than sine/squ"
         },
         {
-          "question_id": 3316880,
-          "question_text": "Title: How to join 2 models in rails, which are not really in any relationship? | Body: I have 3 models, say Account, Comment and Status. Each Account will have many Comment and Status, but Comment and Status are not in any kind of relationship.\n\nI would like to query the Account's Comment and Status, and sort these comments and status by time. How can I make this?\n\nThanks all.\n"
+          "question_id": 33688020,
+          "question_text": "Title: Configuring Apache Tomcat 7.0 to reject connections with expired client certificates | Body: Consider Apache Tomcat 7.0 configured to do client authentification (with connector's parameter clientAuth set to true).\n\nIt appears, that Tomcat trusts to expired client certificates by default, which are in its trusted store (allow them successfully do authentification).\n\nIs it possible to configu"
         }
       ]
     },
     "7": {
-      "size": 5,
+      "size": 8,
       "samples": [
         {
-          "question_id": 39514440,
-          "question_text": "Title: Serve Tensorflow model without installing Tensorflow | Body: I have a trained model that I want to use in a python application, but I can't see any examples of deploying to production environment without installing TensorFlow or creating gRPC service. Is it possible at all? What is the right approach in this situation?\n"
+          "question_id": 21262830,
+          "question_text": "Title: how to scroll live cards in aglass activity | Body: I'm writing a glass app.\n\nIn one activity I want to scroll between few cards (which were popups in my android app).\n\n1) I thought to use cardsScrollView.\n\nproblem: Is it possible to set customView to a card object?\n\n2) I thought to use LiveCard\n\nproblems:\n\nIs it possible to publish them inside my ap"
         },
         {
-          "question_id": 27467690,
-          "question_text": "Title: Is there a more efficient algorithm for this process? | Body: I have a simple algorithm, which loops the variable self.h between 1 and 359. Here it is:\n\nwhile True:\n    if self.h &lt;= 1:\n        self.up = True\n    elif self.h &gt;= 359:\n        self.up = False\n\n    if self.up:\n        self.h += 1\n    else:\n        self.h -= 1\n\n\nSorry if this is a vague questi"
+          "question_id": 4766680,
+          "question_text": "Title: Android app, showing a keyboard | Body: I recently wrote my first app for android, and I created a listview for selecting an element from a list of about 500 items.  Since it's basically the default listview, it's searchable, and I can bring up the onscreen keyboard by holding down the menu button, but I was wondering if there was a way t"
         },
         {
-          "question_id": 2927120,
-          "question_text": "Title: Profiler for IAR EW for ARM | Body: I am trying to get the profiler plug-in for IAR Embedded Workbench for ARM to work. I have set everything in the documentation but when I fire up C-Spy and start the plug-in I get errors. I tried to different emulators and each gave a different error:\n\nSegger SAM-ICE JTAG Emulator - The following ap"
+          "question_id": 36085460,
+          "question_text": "Title: Android : Determine direction of hand movement, the curve. | Body: I am working on an Android project in which I would like to detect hand movement of the user. I looked up a lot of examples, but all the examples only detect changes which are linear, like hand moves up or down, right or left... Nothing I could find for a curved detection. I have basic code now, whe"
         }
       ]
     },
     "8": {
-      "size": 10,
+      "size": 18,
       "samples": [
         {
-          "question_id": 36305860,
-          "question_text": "Title: max-height transition doesn't work and works slow | Body: i'm having trouble animating a div expanding. My JQuery function does what it's supposed to, but the animation doesn't appear. I have tried both transition : all and transition : max-height but none seems to work. Also something very weird happens, when i want to hide my div again. It appears that t"
+          "question_id": 12502080,
+          "question_text": "Title: Facebook Graph API JSON result has Page Next, despite no more data | Body: I am wondering if this is a Facebook bug or something that I am doing wrong. Anyways, I am developing a server application that talks to my own simple Facebook app via Graph API calls. For development purposes, the only users of the Facebook app are a few Test Users that I have defined. In this scen"
         },
         {
-          "question_id": 29070650,
-          "question_text": "Title: Capture high fps videos using new Camera API | Body: I'm trying to capture videos from camera at high frame rates. (60fps/120fps)\nI'm testing on Nexus 5 device. From CameraCharacteristics, the available fps ranges are [15,15],[24, 24],[7, 30] and [30, 30]. So far I could save maximum 30fps videos. Is there a way to capture high fps videos using new ca"
+          "question_id": 35370410,
+          "question_text": "Title: SSL/conceptual aspects of sharing a object via pythons DataProcess Object remotely | Body: Hello fellow inhabitants of the stackspace!\nI want to learn/elaborate on serving objects by remote shared object method\n\nclass ContainerFS():\n    #contains stuffs, has its methods\n    def sync(self):\n         pass\n    def dump(self):\n         stuff()\n\nclass DataManager(BaseManager):\n    def get_data"
         },
         {
-          "question_id": 17916170,
-          "question_text": "Title: How to have locked text field above scrollable for android application | Body: I'd like to have a text field and a scrollable (that contains a drawable) in an application.  I'd like the textview to stay anchored to the screen as I scroll.  I already have the drawview being rendered in the scrollview with this code in my activity file:\n\n        drawView = new DrawView(this, hei"
+          "question_id": 32143210,
+          "question_text": "Title: How to redirect HTTPS requests to HTTP without a certificate (Apache VirtualHosts) | Body: I am hosting a couple of seperate websites on one apache server:\n\nsite.com\nexample.com\n\nsite.com redirects all users to HTTPS from within the application.\n\nexample.com is a non HTTPS website and HTTPS requests are redirects to HTTP\n\nIn order for accidental requests for https://example.com instead of"
         }
       ]
     },
     "9": {
-      "size": 8,
+      "size": 9,
       "samples": [
         {
-          "question_id": 21177580,
-          "question_text": "Title: Java running out of memory on VPS | Body: The program has no apparent memory leaks and while I am observing it run the locally in my machine it works fine. On the VPS it crashes after few hours with a sequence of error messages as shown below. \n\nException in thread \"Thread-10422\" java.lang.OutOfMemoryError: Java heap space\n\nI don't understa"
+          "question_id": 6769740,
+          "question_text": "Title: MySQL: Finding duplicates across multiple fields | Body: Background: my employer has a database powered by a really old version of MySQL (3.23). I have been asked to find duplicate serial numbers and MAC addresses in the database.\n\nI was able to find the duplicate serial numbers, but since this version of MySQL doesn't support subqueries, I had to resort "
         },
         {
-          "question_id": 29204840,
-          "question_text": "Title: Unit test ServiceLoader | Body: I have a method that uses ServiceLoader to load services using resources.\n\npublic List&lt;String&gt; getContextData(int Id)\n{\n  List&lt;String&gt; list = new ArrayList&lt;String&gt;();\n  ServiceLoader&lt;ContextPlugin&gt; serviceLoader =  ServiceLoader.load(ContextPlugin.class);\n  for (Iterator&lt;C"
+          "question_id": 35235300,
+          "question_text": "Title: Git - Does a remote branch need to be pulled local to merge? | Body: I have a local branch on which I committed some changes. I would then like to pull the changes that have been added to the parent branch by other developers. Do I need to pull down the parent branch locally before doing the merge?\n\nI thought I had been bringing down changes made by other developers "
         },
         {
-          "question_id": 7361110,
-          "question_text": "Title: How to create a 3X3 array of images in a viewpager like a GridView which scrolls horizontally in android | Body: How to create a 3X3 array of images in a viewpager like a GridView which scrolls horizontally?\n"
+          "question_id": 30770960,
+          "question_text": "Title: Sending data from Android app to MySQL database | Body: I am a newbie attempting to send data from an Android app to a MySQL database set up on a localhost server via xampp. This method is supposed to put a name, username, password, phone number, and age into an arraylist of type NameValuePair.\n\n@Override\n    protected Void doInBackground(Void... params)"
         }
       ]
     },
     "10": {
-      "size": 21,
+      "size": 14,
       "samples": [
         {
-          "question_id": 22098660,
-          "question_text": "Title: Understanding Javascript's prototypes coming from a Java and C++ background | Body: My programming background is largely in Java, C++, and C#.  I've been getting into Javascript and web development recently and I have a basic grasp of using Javascript and JQuery to do things like manipulate DOM elements and whatever else I need on the front end.\n\nWhat I can't seem to wrap my head a"
+          "question_id": 30428080,
+          "question_text": "Title: Android smart power management using sensor data | Body: I'm working on an Android application that needs to scan nearby Wi-Fi access points on a regular basis. Currently the scan takes place every 2-3 minutes, which requires registering a BroadcastReceiver to capture the scan results, calling WifiManager's startScan method and processing the results (som"
         },
         {
-          "question_id": 17912780,
-          "question_text": "Title: C# New window focus | Body: My program contains a listview with \"SelectionChanged\" event. When I'm changing the selected item in the list view I want to open a new window with specific options related to it. But the problem is that the new window appears for a moment and it hides behind the main window. \nThis is a part of my c"
+          "question_id": 24024360,
+          "question_text": "Title: Start a new thread from the constructor of a QMainWindow in Qt | Body: I have the MainWindow class. In the constructor of this class I want to start a new thread that will do some work. But I get this error: \n\n\n  Assert failure in QWidget: \"Widgets must be created in the GUI thread.\" \n\n\nIn this new thread I am not creating any widgets. This is what I have tried so far."
         },
         {
-          "question_id": 37823490,
-          "question_text": "Title: Javascript Event Listener quits (?) from listening... Youtube API - No console error | Body: EDIT - 2016-06-25\n(I removed my june 16th update, since not relevant anymore.\n&nbsp;&nbsp;&nbsp;I left my OP below...)\n\n\n\nI've spent another 4 hours on this today.\nHere is the situation now:\n\nMy function WORKS for two links.\nThe video params are defined in an array.\nThe two other links aren't workin"
+          "question_id": 6263660,
+          "question_text": "Title: The object cannot be deleted because it was not found in the ObjectStateManager | Body: I have something like this:\n\npublic void Delete(T entity)\n        {\n            Context.DeleteObject(entity);\n            Context.SaveChanges();\n        }\n\n\nI end up wit a exception:\n\"The object cannot be deleted because it was not found in the ObjectStateManager.\"\nIf I try to add the entity to obje"
         }
       ]
     },
     "11": {
-      "size": 12,
+      "size": 17,
       "samples": [
         {
-          "question_id": 2548350,
-          "question_text": "Title: Creating a custom animation with CGLayers? | Body: Basically, I want to animate a shrinking circle. I've already done this by drawing progressively smaller circles onto CGLayer's, and then using\n\nif(index &lt; 30){ \n[self performSelector:@selector(showNextLayer) withObject:nil afterDelay:(NSTimeInterval)0.02];\nindex++; \n}\n\nin my showNextLayer method"
+          "question_id": 2625150,
+          "question_text": "Title: Membership Generate Password alphanumeric only password? | Body: How can I use Membership.GeneratePassword to return a password that ONLY contains alpha or numeric characters? The default method will only guarantee a minimum and not a maximum number of non alphanumeric passwords.\n"
         },
         {
-          "question_id": 16601690,
-          "question_text": "Title: How to move the views from a XIB file to storyboards in a project in Xcode? | Body: I am new to iOS programming and Xcode. I have a project which is working perfectly fine with 5 viewControllers and XIB file. I have to add many more features in it (like Google Maps, iAd Banner and others) so I am finding it difficult to manage it all. So I thought to use Storyboards in my project s"
+          "question_id": 27001200,
+          "question_text": "Title: Project \"MyProject\" has higher compiler option than running Eclipse | Body: I am trying to rebuild Hibernate configuration but i got Wrong Compiler Settings error, please find below screenshots of my App configuration and a of the error:\n\n\n\n\n\n\n"
         },
         {
-          "question_id": 26667380,
-          "question_text": "Title: In Swift, for AnyObject, how do I setValue() then call valueForKey() | Body: I'd like to store a value in AnyObject then retrieve it later as follows:\n\nvar obj:AnyObject = UIButton()\nobj.setValue(\"James\", forKey: \"owner\")\nobj.valueForKey(\"owner\")\n\n\nHowever, AnyObject does not allow it even if these methods are available as shown by the error:\n\nsetValue:forUndefinedKey:]: thi"
+          "question_id": 2250080,
+          "question_text": "Title: java.lang.UnsatisfiedLinkError: Method inside dll is not accessible | Body: I am trying to access the function available inside the .dll file. But it give exception like \"Exception in thread \"main\" java.lang.UnsatisfiedLinkError: *.jniGetAudioInputLevel()D\". DLL file is loaded but when I try to access the methods it give an error message.\n\nAccording to my knowledge:- \n\n\nThi"
         }
       ]
     },
     "12": {
-      "size": 10,
+      "size": 15,
       "samples": [
         {
-          "question_id": 1703670,
-          "question_text": "Title: Is there anything to change the exports name mangling scheme in GCC? | Body: I'm trying to build a project I have and it has several exported functions. The functions follow the stdcall convention and they get mangled if compiled with GCC as\n\nFunc@X\n\n\nOther compilers mangle the name like this:\n\n_Func@X\n\n\nIs any way I can force GCC to mangle the names of the exported function"
+          "question_id": 5364520,
+          "question_text": "Title: Get Method Name From Action | Body: Is it possible to get a method name from an action?  I know I could always pass a string, but I was hoping for something a little more clever.\n\n    public bool DeviceCommand(Action apiCall)\n    {\n        //It would be nice to log the method name that was passed in\n        try\n        {\n            a"
         },
         {
-          "question_id": 19675160,
-          "question_text": "Title: defining a method using inherited methods | Body: I'm trying to define void add(T thing) method by using the inherited push method of a stack but Eclipse says the return type is incompatible with Vector&lt;T&gt;.add(T) and wants me to change the return type of add(T) to boolean which doesn't make sense. \nBelow is my code\n\npublic class ListStack&lt;"
+          "question_id": 9560620,
+          "question_text": "Title: Make Previous/Next buttons work on checkboxes on iOS | Body: On iOS when filling out a form on a webpage there are Next and Previous buttons on the keyboard that act like the tab key on a real keyboard.  We have a web application, which I've implemented as an app using PhoneGap, and the Next and Previous buttons skip past checkboxes as if they are not there.\n"
         },
         {
-          "question_id": 23210250,
-          "question_text": "Title: Does MFC CList support the copy assignment? | Body: I've looked up the CList definition in MSVC afxtempl.h and document on MSDN. I did not see the CList&amp; operator=(const CList&amp;); is defined. \n\nCan I directly use operator= to copy a CList object like this? \n\n CList&lt;int&gt; a = b;\n\n\nOr I should iterate the source CList manually from head to "
+          "question_id": 13748770,
+          "question_text": "Title: Email Validation with JavaScript | Body: \n  Possible Duplicate:\n  Validate email address in Javascript?  \n\n\n\n\nThis is my first post and I have a small issue. I'm trying to validate an email address on a form, but with no luck. I found this snippet on the internet but it doesn't seem to be working. I'm using Javascript at the moment to vali"
         }
       ]
     },
@@ -229,16 +229,16 @@
       "size": 18,
       "samples": [
         {
-          "question_id": 38028730,
-          "question_text": "Title: Parse API push notification, open app page on play store | Body: So on are our app we have Parse API, to send push notification and manage backend stuff, we are sending and update the app notificaiton bt clicking the notification it opens the APP, we would like it to open the store page for our APP, is it possible?\n"
+          "question_id": 16571060,
+          "question_text": "Title: strtok() issue: If tokens are delimited by delimiters,why is last token between a delimiter and the null '\\0'? | Body: In the following program, strtok() works as expected in the major part but I just can't comprehend the reason behind one finding.  I have read about strtok() that:\n\n\n  \n    To determine the beginning and the end of a token, the function first scans from the starting location for the first character "
         },
         {
-          "question_id": 4426350,
-          "question_text": "Title: Send the .apk file to client for review | Body: I have developed an Android application and had it tested on emulator as well as device. I want to export the .apk file to the client for review. I used the Application manifest file to export the unsigned apk and sent it, but that's not getting installed on his phone.\n\nI have read multiple question"
+          "question_id": 30614560,
+          "question_text": "Title: Crawling dynamic content with scrapy | Body: I am trying to get latest review form google play store. I am following this question for getting the latest reviews here\n\nMethod specified in the above link's answer works fine with scrapy shell but when I try this in my crawler it gets completely ignored. \n\nCode snippet:\n\nimport re\nimport sys\nimpo"
         },
         {
-          "question_id": 38972250,
-          "question_text": "Title: Extracting all API calls from .smali files in android apk | Body: I want to extract all API calls from an Android application's apk. I have used apktool to get the smali code files from the apk. Manually I can spot some API calls, but I need an automated method. For example, I can see the getNetworkInfo call in this line of code:\n\n    invoke-virtual {p0, v0}, Land"
+          "question_id": 31257720,
+          "question_text": "Title: Converting JSON data before displaying in HTML | Body: I have some data being returned in this format:\n\n[{\nlabel: \"Store Name\",\naddress: \"123 Somewhere Blvd\",\ncity: \" Atlanta\",\nstate: \"11\",\nzip: \"30333\"\n}]\n\n\nId like to know if there is a way to convert the \"state\" portion to the states name instead of its ID number. I have a table in my database that ma"
         }
       ]
     },
@@ -246,52 +246,69 @@
       "size": 8,
       "samples": [
         {
-          "question_id": 938690,
-          "question_text": "Title: jQuery Cross domain ajax calls and Internet Explorer | Body: The following code works fine in Firefox but in IE the link is never called, the exception is called with a rather generic [Object Error]\n\nvar GoalID = \"e13e68a8-ae18-49f1-9d2f-e052a63fac51\";\ntry\n{\n    $.ajax({\n      type: \"GET\",\n      url: \"http://www.externallink.co.uk/GoalAccessed.aspx?id=\" + Goa"
+          "question_id": 14190420,
+          "question_text": "Title: Firefox word-break breaks short words at random points | Body: I'm break-wording a container so that extremely long words won't overflow. While Chrome and Safari deal with this really well, it seems that Firefox and IE like to break words randomly - even short words, at the most ridiculous points. See the screenshots below:\n\n\n\nHere is the code I'm using to prev"
         },
         {
-          "question_id": 16384980,
-          "question_text": "Title: Getting the value of a $resource call in AngularJS controller | Body: I'm using AngularJS and I've made a $resource call to fetch a single value (e.g. the fetch gets me 14). \n\nThe following is in my controller: \n\nvar MaxCount = $resource('/maxquestion/fetch', null, \n{\n    getMaxQuestionCount: {method: 'GET', isArray: false}\n});\n$scope.maxQuestionCount = MaxCount.getMa"
+          "question_id": 10473490,
+          "question_text": "Title: Different sizes of Fancybox window (iframe) for different links | Body: I have some links on my web page. When you click them Fancybox windows with iframe opens up, which works fine. However, I want to change the windows sizes so that it's different on the different links.\n\nHow could I accomplish what I want? Should I change in the Fancybox.js-file?\n\nThis is how my link"
         },
         {
-          "question_id": 23455400,
-          "question_text": "Title: json_encode returns false when dealing with multibyte substring | Body: I am using almost the latest version of php (5.5.11) and here is the problem. When I use json_encode of the part of the string, it returns false. In the beginning I was using substr, but then I realized that this is totally wrong when dealing with non-English strings. But even after I used mb_substr"
+          "question_id": 34828590,
+          "question_text": "Title: Iframe fit to screen | Body: I am trying to integrate my blog into my website via iframe. However, using this method I have to give the height and width in pixels. I want the blog to fit the screen, though. Is there any way to do this?\n\nEDIT: The answer below suggests that I change my CSS. Then what do I do with the \"width\" and"
         }
       ]
     }
   },
   "clusters_b": {
     "0": {
-      "size": 16,
+      "size": 26,
       "samples": [
         {
           "concept_id": "T-0",
-          "concept_name": "c++"
+          "concept_name": "python"
         },
         {
           "concept_id": "T-1",
-          "concept_name": "php"
+          "concept_name": "database"
         },
         {
-          "concept_id": "T-2",
-          "concept_name": "javascript"
+          "concept_id": "T-4",
+          "concept_name": "multithreading"
         }
       ]
     },
     "1": {
-      "size": 4,
+      "size": 13,
       "samples": [
         {
-          "concept_id": "T-8",
-          "concept_name": "iphone"
+          "concept_id": "T-3",
+          "concept_name": "linux"
+        },
+        {
+          "concept_id": "T-5",
+          "concept_name": "c++"
+        },
+        {
+          "concept_id": "T-17",
+          "concept_name": "wpf"
+        }
+      ]
+    },
+    "2": {
+      "size": 11,
+      "samples": [
+        {
+          "concept_id": "T-2",
+          "concept_name": ".net"
         },
         {
           "concept_id": "T-9",
-          "concept_name": "objective-c"
+          "concept_name": "html"
         },
         {
-          "concept_id": "T-14",
-          "concept_name": "android"
+          "concept_id": "T-12",
+          "concept_name": "asp.net"
         }
       ]
     }
@@ -300,1253 +317,632 @@
     {
       "ca": 0,
       "cb": 0,
-      "size_a": 15,
-      "size_b": 16,
+      "size_a": 9,
+      "size_b": 26,
       "sample_rate": 0.0,
       "matches": [
         [
-          13,
+          9,
           1
         ],
         [
-          15,
-          1
-        ],
-        [
-          27,
-          1
-        ],
-        [
-          116,
-          1
-        ],
-        [
-          127,
-          1
-        ],
-        [
-          129,
-          1
-        ],
-        [
-          152,
-          1
-        ],
-        [
-          27,
-          15
-        ],
-        [
-          27,
-          18
-        ],
-        [
-          116,
-          12
-        ],
-        [
-          153,
-          1
-        ],
-        [
-          154,
-          5
-        ],
-        [
-          178,
-          1
+          105,
+          8
         ]
       ],
       "tokens": {
-        "prompt": 3466,
-        "completion": 299
+        "prompt": 3029,
+        "completion": 224
       }
     },
     {
       "ca": 0,
       "cb": 1,
-      "size_a": 15,
-      "size_b": 4,
+      "size_a": 9,
+      "size_b": 13,
       "sample_rate": 0.0,
-      "matches": [],
+      "matches": [
+        [
+          9,
+          21
+        ],
+        [
+          39,
+          18
+        ],
+        [
+          127,
+          18
+        ],
+        [
+          191,
+          21
+        ],
+        [
+          197,
+          19
+        ],
+        [
+          39,
+          33
+        ],
+        [
+          127,
+          33
+        ],
+        [
+          170,
+          33
+        ],
+        [
+          191,
+          33
+        ]
+      ],
       "tokens": {
-        "prompt": 1487,
-        "completion": 114
+        "prompt": 1976,
+        "completion": 166
+      }
+    },
+    {
+      "ca": 0,
+      "cb": 2,
+      "size_a": 9,
+      "size_b": 11,
+      "sample_rate": 0.04,
+      "matches": [
+        [
+          74,
+          14
+        ]
+      ],
+      "tokens": {
+        "prompt": 1039,
+        "completion": 76
       }
     },
     {
       "ca": 1,
       "cb": 0,
-      "size_a": 17,
-      "size_b": 16,
-      "sample_rate": 0.04,
+      "size_a": 15,
+      "size_b": 26,
+      "sample_rate": 0.0,
       "matches": [
         [
-          6,
-          2
+          0,
+          0
         ],
         [
-          10,
+          12,
+          13
+        ],
+        [
+          69,
+          7
+        ],
+        [
+          88,
+          0
+        ],
+        [
+          102,
           4
         ],
         [
-          39,
-          6
+          0,
+          30
         ],
         [
-          39,
-          10
+          41,
+          34
         ],
         [
-          52,
+          66,
+          27
+        ],
+        [
+          66,
+          30
+        ],
+        [
+          69,
+          30
+        ],
+        [
+          86,
+          36
+        ],
+        [
+          98,
+          30
+        ],
+        [
+          0,
+          46
+        ],
+        [
+          102,
+          39
+        ],
+        [
+          111,
+          7
+        ],
+        [
+          187,
+          1
+        ],
+        [
+          138,
+          41
+        ],
+        [
+          187,
+          39
+        ]
+      ],
+      "tokens": {
+        "prompt": 5140,
+        "completion": 442
+      }
+    },
+    {
+      "ca": 1,
+      "cb": 1,
+      "size_a": 15,
+      "size_b": 13,
+      "sample_rate": 0.04,
+      "matches": [
+        [
+          54,
+          29
+        ],
+        [
+          69,
           5
         ],
         [
-          57,
-          6
-        ],
-        [
-          65,
+          98,
           5
         ],
         [
-          99,
-          2
+          129,
+          29
         ],
         [
-          99,
-          3
+          187,
+          5
+        ]
+      ],
+      "tokens": {
+        "prompt": 3340,
+        "completion": 251
+      }
+    },
+    {
+      "ca": 1,
+      "cb": 2,
+      "size_a": 15,
+      "size_b": 11,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          88,
+          37
         ],
         [
-          6,
-          12
-        ],
-        [
-          6,
-          13
-        ],
-        [
-          52,
-          19
-        ],
-        [
-          65,
-          13
-        ],
-        [
-          106,
-          12
-        ],
-        [
-          106,
-          13
+          88,
+          14
         ],
         [
           111,
           2
         ],
         [
-          119,
-          2
-        ],
-        [
-          167,
-          1
-        ],
-        [
-          171,
-          4
-        ],
-        [
-          132,
+          111,
           12
         ],
         [
-          161,
-          12
-        ],
-        [
-          168,
-          12
+          111,
+          23
         ]
       ],
       "tokens": {
-        "prompt": 3924,
-        "completion": 366
-      }
-    },
-    {
-      "ca": 1,
-      "cb": 1,
-      "size_a": 17,
-      "size_b": 4,
-      "sample_rate": 0.05,
-      "matches": [
-        [
-          10,
-          14
-        ],
-        [
-          68,
-          8
-        ],
-        [
-          68,
-          17
-        ]
-      ],
-      "tokens": {
-        "prompt": 1716,
-        "completion": 141
+        "prompt": 3308,
+        "completion": 229
       }
     },
     {
       "ca": 2,
       "cb": 0,
-      "size_a": 25,
-      "size_b": 16,
-      "sample_rate": 0.16,
+      "size_a": 10,
+      "size_b": 26,
+      "sample_rate": 0.0,
       "matches": [
         [
-          1,
-          10
-        ],
-        [
-          45,
-          10
-        ],
-        [
-          51,
+          14,
           0
         ],
         [
-          67,
-          7
+          23,
+          1
+        ],
+        [
+          23,
+          6
+        ],
+        [
+          25,
+          1
+        ],
+        [
+          25,
+          6
         ],
         [
           76,
+          1
+        ],
+        [
+          125,
           10
         ],
         [
-          79,
+          168,
+          1
+        ],
+        [
+          168,
+          6
+        ],
+        [
+          172,
+          8
+        ],
+        [
+          180,
+          1
+        ],
+        [
+          180,
+          6
+        ],
+        [
+          193,
           0
         ],
         [
-          70,
-          18
+          14,
+          36
         ],
         [
-          87,
-          10
+          23,
+          27
         ],
         [
-          107,
-          4
+          25,
+          27
         ],
         [
-          110,
-          2
+          76,
+          24
         ],
         [
-          136,
-          2
+          168,
+          27
         ],
         [
-          142,
-          10
+          180,
+          27
         ],
         [
-          144,
-          10
+          193,
+          36
         ],
         [
-          89,
-          15
+          23,
+          39
         ],
         [
-          110,
-          13
-        ],
-        [
-          136,
-          13
-        ],
-        [
-          148,
-          15
-        ],
-        [
-          157,
-          15
-        ],
-        [
-          159,
-          7
-        ],
-        [
-          162,
-          10
-        ],
-        [
-          169,
-          10
-        ],
-        [
-          189,
-          11
-        ],
-        [
-          169,
-          15
+          25,
+          39
         ]
       ],
       "tokens": {
-        "prompt": 5949,
-        "completion": 496
+        "prompt": 3884,
+        "completion": 329
       }
     },
     {
       "ca": 2,
       "cb": 1,
-      "size_a": 25,
-      "size_b": 4,
+      "size_a": 10,
+      "size_b": 13,
       "sample_rate": 0.0,
-      "matches": [
-        [
-          107,
-          14
-        ]
-      ],
+      "matches": [],
       "tokens": {
-        "prompt": 2524,
-        "completion": 188
+        "prompt": 2546,
+        "completion": 143
+      }
+    },
+    {
+      "ca": 2,
+      "cb": 2,
+      "size_a": 10,
+      "size_b": 11,
+      "sample_rate": 0.0,
+      "matches": [],
+      "tokens": {
+        "prompt": 2530,
+        "completion": 143
       }
     },
     {
       "ca": 3,
       "cb": 0,
-      "size_a": 18,
-      "size_b": 16,
-      "sample_rate": 0.0,
-      "matches": [
-        [
-          2,
-          2
-        ],
-        [
-          2,
-          3
-        ],
-        [
-          11,
-          3
-        ],
-        [
-          59,
-          3
-        ],
-        [
-          81,
-          2
-        ],
-        [
-          81,
-          3
-        ],
-        [
-          90,
-          3
-        ],
-        [
-          118,
-          2
-        ],
-        [
-          121,
-          3
-        ],
-        [
-          2,
-          12
-        ],
-        [
-          11,
-          12
-        ],
-        [
-          24,
-          13
-        ],
-        [
-          59,
-          12
-        ],
-        [
-          81,
-          12
-        ],
-        [
-          90,
-          12
-        ],
-        [
-          91,
-          12
-        ],
-        [
-          118,
-          12
-        ],
-        [
-          121,
-          12
-        ],
-        [
-          126,
-          3
-        ],
-        [
-          128,
-          3
-        ],
-        [
-          134,
-          2
-        ],
-        [
-          138,
-          2
-        ],
-        [
-          140,
-          2
-        ],
-        [
-          164,
-          2
-        ],
-        [
-          182,
-          3
-        ],
-        [
-          134,
-          12
-        ],
-        [
-          195,
-          13
-        ]
-      ],
-      "tokens": {
-        "prompt": 3832,
-        "completion": 385
-      }
-    },
-    {
-      "ca": 3,
-      "cb": 1,
-      "size_a": 18,
-      "size_b": 4,
-      "sample_rate": 0.1,
-      "matches": [
-        [
-          118,
-          8
-        ],
-        [
-          118,
-          17
-        ]
-      ],
-      "tokens": {
-        "prompt": 1669,
-        "completion": 121
-      }
-    },
-    {
-      "ca": 4,
-      "cb": 0,
-      "size_a": 9,
-      "size_b": 16,
+      "size_a": 16,
+      "size_b": 26,
       "sample_rate": 0.04,
       "matches": [
         [
-          36,
-          2
-        ],
-        [
-          71,
-          11
-        ],
-        [
-          75,
-          0
-        ],
-        [
-          94,
-          4
-        ],
-        [
-          120,
-          11
-        ],
-        [
-          176,
-          11
-        ],
-        [
-          180,
-          5
-        ],
-        [
-          36,
-          12
-        ],
-        [
-          180,
-          19
-        ]
-      ],
-      "tokens": {
-        "prompt": 2037,
-        "completion": 166
-      }
-    },
-    {
-      "ca": 4,
-      "cb": 1,
-      "size_a": 9,
-      "size_b": 4,
-      "sample_rate": 0.05,
-      "matches": [
-        [
-          36,
-          8
-        ],
-        [
-          36,
-          17
-        ]
-      ],
-      "tokens": {
-        "prompt": 977,
-        "completion": 67
-      }
-    },
-    {
-      "ca": 5,
-      "cb": 0,
-      "size_a": 7,
-      "size_b": 16,
-      "sample_rate": 0.0,
-      "matches": [
-        [
-          35,
-          2
-        ],
-        [
-          35,
-          3
-        ],
-        [
-          83,
-          4
-        ],
-        [
-          96,
-          4
-        ],
-        [
-          131,
-          4
-        ],
-        [
-          131,
-          6
-        ],
-        [
-          158,
-          6
-        ],
-        [
-          163,
-          4
-        ],
-        [
-          165,
-          11
-        ]
-      ],
-      "tokens": {
-        "prompt": 1745,
-        "completion": 154
-      }
-    },
-    {
-      "ca": 5,
-      "cb": 1,
-      "size_a": 7,
-      "size_b": 4,
-      "sample_rate": 0.0,
-      "matches": [],
-      "tokens": {
-        "prompt": 831,
-        "completion": 46
-      }
-    },
-    {
-      "ca": 6,
-      "cb": 0,
-      "size_a": 17,
-      "size_b": 16,
-      "sample_rate": 0.08,
-      "matches": [
-        [
-          9,
-          5
-        ],
-        [
-          20,
-          5
-        ],
-        [
-          29,
-          10
-        ],
-        [
-          32,
-          4
-        ],
-        [
-          64,
-          6
-        ],
-        [
-          73,
+          8,
           1
         ],
         [
           8,
-          15
+          8
         ],
         [
-          8,
-          18
-        ],
-        [
-          9,
-          19
-        ],
-        [
-          20,
-          19
-        ],
-        [
-          74,
-          5
-        ],
-        [
-          78,
-          5
-        ],
-        [
-          133,
-          5
-        ],
-        [
-          197,
-          4
-        ],
-        [
-          74,
-          19
-        ],
-        [
-          78,
-          19
-        ],
-        [
-          133,
-          19
-        ]
-      ],
-      "tokens": {
-        "prompt": 4380,
-        "completion": 316
-      }
-    },
-    {
-      "ca": 6,
-      "cb": 1,
-      "size_a": 17,
-      "size_b": 4,
-      "sample_rate": 0.0,
-      "matches": [],
-      "tokens": {
-        "prompt": 1944,
-        "completion": 128
-      }
-    },
-    {
-      "ca": 7,
-      "cb": 0,
-      "size_a": 5,
-      "size_b": 16,
-      "sample_rate": 0.04,
-      "matches": [
-        [
-          54,
-          11
-        ],
-        [
-          151,
-          15
-        ],
-        [
-          188,
-          11
-        ]
-      ],
-      "tokens": {
-        "prompt": 777,
-        "completion": 56
-      }
-    },
-    {
-      "ca": 7,
-      "cb": 1,
-      "size_a": 5,
-      "size_b": 4,
-      "sample_rate": 0.0,
-      "matches": [],
-      "tokens": {
-        "prompt": 653,
-        "completion": 44
-      }
-    },
-    {
-      "ca": 8,
-      "cb": 0,
-      "size_a": 10,
-      "size_b": 16,
-      "sample_rate": 0.16,
-      "matches": [
-        [
-          37,
-          2
-        ],
-        [
-          37,
-          3
-        ],
-        [
-          84,
-          2
-        ],
-        [
-          113,
-          2
-        ],
-        [
-          113,
-          3
-        ],
-        [
-          173,
-          2
-        ],
-        [
-          177,
-          2
-        ],
-        [
-          183,
-          2
-        ],
-        [
-          37,
-          13
-        ],
-        [
-          84,
-          13
-        ],
-        [
-          113,
-          13
-        ],
-        [
-          173,
-          13
-        ],
-        [
-          177,
-          13
-        ]
-      ],
-      "tokens": {
-        "prompt": 2229,
-        "completion": 197
-      }
-    },
-    {
-      "ca": 8,
-      "cb": 1,
-      "size_a": 10,
-      "size_b": 4,
-      "sample_rate": 0.05,
-      "matches": [
-        [
-          77,
-          14
-        ]
-      ],
-      "tokens": {
-        "prompt": 1073,
-        "completion": 83
-      }
-    },
-    {
-      "ca": 9,
-      "cb": 0,
-      "size_a": 8,
-      "size_b": 16,
-      "sample_rate": 0.0,
-      "matches": [
-        [
-          18,
-          4
-        ],
-        [
-          19,
-          4
-        ],
-        [
-          149,
-          4
-        ],
-        [
-          166,
-          4
-        ],
-        [
-          174,
-          4
-        ],
-        [
-          192,
-          4
-        ]
-      ],
-      "tokens": {
-        "prompt": 1875,
-        "completion": 154
-      }
-    },
-    {
-      "ca": 9,
-      "cb": 1,
-      "size_a": 8,
-      "size_b": 4,
-      "sample_rate": 0.05,
-      "matches": [
-        [
-          40,
-          14
-        ]
-      ],
-      "tokens": {
-        "prompt": 896,
-        "completion": 69
-      }
-    },
-    {
-      "ca": 10,
-      "cb": 0,
-      "size_a": 21,
-      "size_b": 16,
-      "sample_rate": 0.16,
-      "matches": [
-        [
-          0,
-          0
-        ],
-        [
-          0,
-          2
-        ],
-        [
-          0,
-          3
-        ],
-        [
-          0,
-          4
-        ],
-        [
-          0,
-          7
-        ],
-        [
-          0,
-          10
-        ],
-        [
-          14,
-          10
-        ],
-        [
-          26,
-          2
-        ],
-        [
-          43,
-          2
-        ],
-        [
-          43,
-          3
-        ],
-        [
-          50,
-          2
-        ],
-        [
-          62,
-          6
-        ],
-        [
-          101,
+          27,
           1
         ],
         [
-          62,
-          16
-        ],
-        [
-          122,
-          2
-        ],
-        [
-          122,
-          3
-        ],
-        [
-          125,
-          6
-        ],
-        [
-          130,
-          4
-        ],
-        [
-          139,
-          2
-        ],
-        [
-          139,
-          10
-        ],
-        [
-          141,
-          6
-        ],
-        [
-          147,
-          11
-        ],
-        [
-          175,
-          10
-        ],
-        [
-          193,
-          11
-        ],
-        [
-          125,
-          12
-        ],
-        [
-          139,
-          16
-        ],
-        [
-          141,
-          16
-        ],
-        [
-          196,
-          15
-        ]
-      ],
-      "tokens": {
-        "prompt": 5189,
-        "completion": 447
-      }
-    },
-    {
-      "ca": 10,
-      "cb": 1,
-      "size_a": 21,
-      "size_b": 4,
-      "sample_rate": 0.0,
-      "matches": [],
-      "tokens": {
-        "prompt": 2144,
-        "completion": 130
-      }
-    },
-    {
-      "ca": 11,
-      "cb": 0,
-      "size_a": 12,
-      "size_b": 16,
-      "sample_rate": 0.0,
-      "matches": [
-        [
-          93,
-          7
-        ]
-      ],
-      "tokens": {
-        "prompt": 2952,
-        "completion": 201
-      }
-    },
-    {
-      "ca": 11,
-      "cb": 1,
-      "size_a": 12,
-      "size_b": 4,
-      "sample_rate": 0.1,
-      "matches": [
-        [
-          25,
-          8
-        ],
-        [
-          25,
-          17
-        ],
-        [
-          46,
-          9
-        ],
-        [
-          80,
-          8
-        ],
-        [
-          80,
-          17
-        ],
-        [
-          150,
-          8
-        ],
-        [
-          150,
-          17
-        ],
-        [
-          155,
-          9
-        ],
-        [
-          160,
-          9
-        ]
-      ],
-      "tokens": {
-        "prompt": 1230,
-        "completion": 132
-      }
-    },
-    {
-      "ca": 12,
-      "cb": 0,
-      "size_a": 10,
-      "size_b": 16,
-      "sample_rate": 0.0,
-      "matches": [
-        [
-          16,
-          0
-        ],
-        [
-          22,
-          4
-        ],
-        [
-          33,
-          0
-        ],
-        [
-          48,
-          4
-        ],
-        [
-          49,
-          0
-        ],
-        [
-          63,
-          11
-        ],
-        [
-          98,
-          0
+          92,
+          1
         ],
         [
           108,
-          0
+          1
         ],
         [
-          143,
-          0
+          109,
+          1
         ],
         [
-          198,
-          0
+          141,
+          1
+        ],
+        [
+          8,
+          32
+        ],
+        [
+          27,
+          27
+        ],
+        [
+          92,
+          24
+        ],
+        [
+          108,
+          24
+        ],
+        [
+          109,
+          24
+        ],
+        [
+          109,
+          27
+        ],
+        [
+          141,
+          34
+        ],
+        [
+          8,
+          39
+        ],
+        [
+          142,
+          1
+        ],
+        [
+          142,
+          6
+        ],
+        [
+          153,
+          1
+        ],
+        [
+          153,
+          6
+        ],
+        [
+          160,
+          1
+        ],
+        [
+          162,
+          4
+        ],
+        [
+          142,
+          27
+        ],
+        [
+          153,
+          27
+        ],
+        [
+          160,
+          24
+        ],
+        [
+          160,
+          32
+        ],
+        [
+          162,
+          30
+        ],
+        [
+          195,
+          32
+        ],
+        [
+          142,
+          41
+        ],
+        [
+          153,
+          41
+        ],
+        [
+          179,
+          40
         ]
       ],
       "tokens": {
-        "prompt": 2285,
-        "completion": 198
+        "prompt": 5830,
+        "completion": 500
       }
     },
     {
-      "ca": 12,
+      "ca": 3,
       "cb": 1,
-      "size_a": 10,
-      "size_b": 4,
-      "sample_rate": 0.0,
-      "matches": [],
-      "tokens": {
-        "prompt": 1101,
-        "completion": 79
-      }
-    },
-    {
-      "ca": 13,
-      "cb": 0,
-      "size_a": 18,
-      "size_b": 16,
+      "size_a": 16,
+      "size_b": 13,
       "sample_rate": 0.0,
       "matches": [
         [
-          4,
+          126,
+          5
+        ]
+      ],
+      "tokens": {
+        "prompt": 3800,
+        "completion": 264
+      }
+    },
+    {
+      "ca": 3,
+      "cb": 2,
+      "size_a": 16,
+      "size_b": 11,
+      "sample_rate": 0.04,
+      "matches": [
+        [
+          22,
+          37
+        ],
+        [
+          92,
+          9
+        ],
+        [
+          121,
+          37
+        ],
+        [
+          92,
+          49
+        ]
+      ],
+      "tokens": {
+        "prompt": 3768,
+        "completion": 250
+      }
+    },
+    {
+      "ca": 4,
+      "cb": 0,
+      "size_a": 13,
+      "size_b": 26,
+      "sample_rate": 0.08,
+      "matches": [
+        [
+          7,
+          10
+        ],
+        [
+          34,
           4
         ],
         [
-          12,
-          4
-        ],
-        [
-          23,
-          4
-        ],
-        [
-          28,
-          4
-        ],
-        [
-          31,
-          4
-        ],
-        [
-          41,
-          11
-        ],
-        [
-          44,
-          4
-        ],
-        [
-          56,
-          4
-        ],
-        [
-          61,
-          4
+          34,
+          7
         ],
         [
           97,
-          4
-        ],
-        [
-          100,
-          4
-        ],
-        [
-          117,
-          4
+          20
         ],
         [
           124,
-          4
-        ],
-        [
-          137,
-          4
-        ],
-        [
-          146,
-          4
-        ],
-        [
-          179,
-          4
-        ],
-        [
-          181,
-          4
+          34
         ]
       ],
       "tokens": {
-        "prompt": 3998,
-        "completion": 356
+        "prompt": 4810,
+        "completion": 317
       }
     },
     {
-      "ca": 13,
+      "ca": 4,
       "cb": 1,
-      "size_a": 18,
-      "size_b": 4,
+      "size_a": 13,
+      "size_b": 13,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          15,
+          26
+        ],
+        [
+          34,
+          5
+        ],
+        [
+          154,
+          29
+        ]
+      ],
+      "tokens": {
+        "prompt": 3120,
+        "completion": 207
+      }
+    },
+    {
+      "ca": 4,
+      "cb": 2,
+      "size_a": 13,
+      "size_b": 11,
       "sample_rate": 0.2,
       "matches": [
         [
-          4,
+          7,
           14
         ],
         [
-          12,
+          7,
+          16
+        ],
+        [
+          7,
+          42
+        ],
+        [
+          11,
+          16
+        ],
+        [
+          13,
           14
         ],
         [
-          23,
-          14
-        ],
-        [
-          28,
-          14
-        ],
-        [
-          31,
-          14
-        ],
-        [
-          44,
-          14
-        ],
-        [
-          56,
-          14
-        ],
-        [
-          61,
+          15,
           14
         ],
         [
@@ -1554,24 +950,32 @@
           14
         ],
         [
-          100,
+          97,
+          16
+        ],
+        [
+          124,
           14
         ],
         [
-          117,
+          139,
           14
         ],
         [
-          146,
+          150,
+          16
+        ],
+        [
+          161,
+          16
+        ],
+        [
+          188,
           14
         ],
         [
-          179,
-          14
-        ],
-        [
-          181,
-          14
+          199,
+          9
         ],
         [
           199,
@@ -1579,66 +983,1424 @@
         ]
       ],
       "tokens": {
-        "prompt": 1753,
-        "completion": 172
+        "prompt": 3088,
+        "completion": 251
+      }
+    },
+    {
+      "ca": 5,
+      "cb": 0,
+      "size_a": 10,
+      "size_b": 26,
+      "sample_rate": 0.04,
+      "matches": [
+        [
+          4,
+          7
+        ],
+        [
+          38,
+          15
+        ],
+        [
+          58,
+          15
+        ],
+        [
+          100,
+          15
+        ],
+        [
+          119,
+          15
+        ],
+        [
+          133,
+          8
+        ],
+        [
+          144,
+          15
+        ],
+        [
+          163,
+          13
+        ],
+        [
+          164,
+          8
+        ],
+        [
+          166,
+          15
+        ],
+        [
+          163,
+          45
+        ],
+        [
+          163,
+          46
+        ]
+      ],
+      "tokens": {
+        "prompt": 3665,
+        "completion": 271
+      }
+    },
+    {
+      "ca": 5,
+      "cb": 1,
+      "size_a": 10,
+      "size_b": 13,
+      "sample_rate": 0.0,
+      "matches": [],
+      "tokens": {
+        "prompt": 2400,
+        "completion": 158
+      }
+    },
+    {
+      "ca": 5,
+      "cb": 2,
+      "size_a": 10,
+      "size_b": 11,
+      "sample_rate": 0.04,
+      "matches": [
+        [
+          4,
+          2
+        ],
+        [
+          38,
+          9
+        ],
+        [
+          144,
+          2
+        ],
+        [
+          38,
+          49
+        ]
+      ],
+      "tokens": {
+        "prompt": 2384,
+        "completion": 159
+      }
+    },
+    {
+      "ca": 6,
+      "cb": 0,
+      "size_a": 20,
+      "size_b": 26,
+      "sample_rate": 0.04,
+      "matches": [
+        [
+          16,
+          7
+        ],
+        [
+          37,
+          7
+        ],
+        [
+          40,
+          8
+        ],
+        [
+          50,
+          8
+        ],
+        [
+          53,
+          7
+        ],
+        [
+          77,
+          8
+        ],
+        [
+          2,
+          34
+        ],
+        [
+          37,
+          30
+        ],
+        [
+          2,
+          39
+        ],
+        [
+          35,
+          39
+        ],
+        [
+          35,
+          40
+        ],
+        [
+          50,
+          39
+        ],
+        [
+          65,
+          40
+        ],
+        [
+          80,
+          7
+        ],
+        [
+          145,
+          7
+        ],
+        [
+          173,
+          7
+        ],
+        [
+          167,
+          38
+        ]
+      ],
+      "tokens": {
+        "prompt": 6661,
+        "completion": 543
+      }
+    },
+    {
+      "ca": 6,
+      "cb": 1,
+      "size_a": 20,
+      "size_b": 13,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          37,
+          5
+        ],
+        [
+          80,
+          5
+        ],
+        [
+          101,
+          5
+        ],
+        [
+          131,
+          17
+        ],
+        [
+          145,
+          5
+        ],
+        [
+          152,
+          5
+        ],
+        [
+          173,
+          5
+        ],
+        [
+          190,
+          5
+        ]
+      ],
+      "tokens": {
+        "prompt": 4354,
+        "completion": 348
+      }
+    },
+    {
+      "ca": 6,
+      "cb": 2,
+      "size_a": 20,
+      "size_b": 11,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          16,
+          2
+        ],
+        [
+          53,
+          12
+        ],
+        [
+          53,
+          23
+        ],
+        [
+          80,
+          2
+        ],
+        [
+          80,
+          12
+        ],
+        [
+          80,
+          23
+        ],
+        [
+          101,
+          2
+        ],
+        [
+          145,
+          2
+        ],
+        [
+          173,
+          2
+        ]
+      ],
+      "tokens": {
+        "prompt": 4322,
+        "completion": 325
+      }
+    },
+    {
+      "ca": 7,
+      "cb": 0,
+      "size_a": 8,
+      "size_b": 26,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          56,
+          8
+        ],
+        [
+          171,
+          1
+        ],
+        [
+          87,
+          38
+        ],
+        [
+          186,
+          38
+        ],
+        [
+          68,
+          41
+        ],
+        [
+          87,
+          39
+        ],
+        [
+          171,
+          41
+        ]
+      ],
+      "tokens": {
+        "prompt": 2756,
+        "completion": 210
+      }
+    },
+    {
+      "ca": 7,
+      "cb": 1,
+      "size_a": 8,
+      "size_b": 13,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          56,
+          21
+        ],
+        [
+          62,
+          21
+        ],
+        [
+          68,
+          21
+        ],
+        [
+          87,
+          25
+        ],
+        [
+          115,
+          21
+        ],
+        [
+          183,
+          25
+        ],
+        [
+          186,
+          21
+        ],
+        [
+          87,
+          33
+        ],
+        [
+          183,
+          33
+        ],
+        [
+          183,
+          47
+        ]
+      ],
+      "tokens": {
+        "prompt": 1794,
+        "completion": 171
+      }
+    },
+    {
+      "ca": 7,
+      "cb": 2,
+      "size_a": 8,
+      "size_b": 11,
+      "sample_rate": 0.04,
+      "matches": [
+        [
+          171,
+          37
+        ]
+      ],
+      "tokens": {
+        "prompt": 948,
+        "completion": 69
+      }
+    },
+    {
+      "ca": 8,
+      "cb": 0,
+      "size_a": 18,
+      "size_b": 26,
+      "sample_rate": 0.04,
+      "matches": [
+        [
+          6,
+          0
+        ],
+        [
+          47,
+          1
+        ],
+        [
+          94,
+          10
+        ],
+        [
+          104,
+          0
+        ],
+        [
+          104,
+          11
+        ],
+        [
+          1,
+          35
+        ],
+        [
+          104,
+          31
+        ],
+        [
+          113,
+          0
+        ],
+        [
+          143,
+          0
+        ],
+        [
+          155,
+          0
+        ],
+        [
+          158,
+          0
+        ],
+        [
+          159,
+          0
+        ],
+        [
+          159,
+          38
+        ]
+      ],
+      "tokens": {
+        "prompt": 5968,
+        "completion": 444
+      }
+    },
+    {
+      "ca": 8,
+      "cb": 1,
+      "size_a": 18,
+      "size_b": 13,
+      "sample_rate": 0.08,
+      "matches": [
+        [
+          75,
+          18
+        ],
+        [
+          1,
+          43
+        ],
+        [
+          75,
+          33
+        ],
+        [
+          157,
+          21
+        ],
+        [
+          158,
+          26
+        ],
+        [
+          198,
+          21
+        ],
+        [
+          185,
+          43
+        ]
+      ],
+      "tokens": {
+        "prompt": 3892,
+        "completion": 316
+      }
+    },
+    {
+      "ca": 8,
+      "cb": 2,
+      "size_a": 18,
+      "size_b": 11,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          46,
+          2
+        ]
+      ],
+      "tokens": {
+        "prompt": 3860,
+        "completion": 251
+      }
+    },
+    {
+      "ca": 9,
+      "cb": 0,
+      "size_a": 9,
+      "size_b": 26,
+      "sample_rate": 0.08,
+      "matches": [
+        [
+          17,
+          1
+        ],
+        [
+          55,
+          1
+        ],
+        [
+          59,
+          8
+        ],
+        [
+          79,
+          1
+        ],
+        [
+          82,
+          11
+        ],
+        [
+          110,
+          1
+        ],
+        [
+          110,
+          6
+        ],
+        [
+          177,
+          1
+        ],
+        [
+          17,
+          24
+        ],
+        [
+          17,
+          27
+        ],
+        [
+          55,
+          24
+        ],
+        [
+          82,
+          32
+        ],
+        [
+          110,
+          24
+        ],
+        [
+          18,
+          48
+        ]
+      ],
+      "tokens": {
+        "prompt": 3071,
+        "completion": 274
+      }
+    },
+    {
+      "ca": 9,
+      "cb": 1,
+      "size_a": 9,
+      "size_b": 13,
+      "sample_rate": 0.04,
+      "matches": [
+        [
+          55,
+          21
+        ],
+        [
+          59,
+          3
+        ],
+        [
+          59,
+          29
+        ]
+      ],
+      "tokens": {
+        "prompt": 2004,
+        "completion": 143
+      }
+    },
+    {
+      "ca": 9,
+      "cb": 2,
+      "size_a": 9,
+      "size_b": 11,
+      "sample_rate": 0.0,
+      "matches": [],
+      "tokens": {
+        "prompt": 1053,
+        "completion": 72
+      }
+    },
+    {
+      "ca": 10,
+      "cb": 0,
+      "size_a": 14,
+      "size_b": 26,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          32,
+          4
+        ],
+        [
+          42,
+          1
+        ],
+        [
+          42,
+          6
+        ],
+        [
+          48,
+          4
+        ],
+        [
+          49,
+          7
+        ],
+        [
+          49,
+          8
+        ],
+        [
+          48,
+          40
+        ],
+        [
+          96,
+          8
+        ],
+        [
+          112,
+          8
+        ],
+        [
+          178,
+          8
+        ],
+        [
+          156,
+          32
+        ]
+      ],
+      "tokens": {
+        "prompt": 4903,
+        "completion": 385
+      }
+    },
+    {
+      "ca": 10,
+      "cb": 1,
+      "size_a": 14,
+      "size_b": 13,
+      "sample_rate": 0.04,
+      "matches": [
+        [
+          5,
+          21
+        ],
+        [
+          43,
+          18
+        ],
+        [
+          43,
+          19
+        ],
+        [
+          67,
+          21
+        ],
+        [
+          70,
+          21
+        ],
+        [
+          72,
+          21
+        ],
+        [
+          93,
+          21
+        ],
+        [
+          93,
+          22
+        ],
+        [
+          43,
+          33
+        ],
+        [
+          96,
+          21
+        ],
+        [
+          112,
+          21
+        ],
+        [
+          178,
+          21
+        ]
+      ],
+      "tokens": {
+        "prompt": 3182,
+        "completion": 264
+      }
+    },
+    {
+      "ca": 10,
+      "cb": 2,
+      "size_a": 14,
+      "size_b": 11,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          42,
+          2
+        ],
+        [
+          42,
+          12
+        ],
+        [
+          42,
+          23
+        ]
+      ],
+      "tokens": {
+        "prompt": 3150,
+        "completion": 222
+      }
+    },
+    {
+      "ca": 11,
+      "cb": 0,
+      "size_a": 17,
+      "size_b": 26,
+      "sample_rate": 0.08,
+      "matches": [
+        [
+          20,
+          8
+        ],
+        [
+          30,
+          8
+        ],
+        [
+          33,
+          7
+        ],
+        [
+          84,
+          11
+        ],
+        [
+          85,
+          8
+        ],
+        [
+          90,
+          7
+        ],
+        [
+          51,
+          36
+        ],
+        [
+          84,
+          31
+        ],
+        [
+          84,
+          35
+        ],
+        [
+          19,
+          46
+        ],
+        [
+          51,
+          41
+        ],
+        [
+          52,
+          46
+        ],
+        [
+          78,
+          41
+        ],
+        [
+          95,
+          8
+        ],
+        [
+          99,
+          11
+        ],
+        [
+          117,
+          8
+        ],
+        [
+          194,
+          38
+        ],
+        [
+          95,
+          48
+        ]
+      ],
+      "tokens": {
+        "prompt": 5842,
+        "completion": 457
+      }
+    },
+    {
+      "ca": 11,
+      "cb": 1,
+      "size_a": 17,
+      "size_b": 13,
+      "sample_rate": 0.08,
+      "matches": [
+        [
+          20,
+          22
+        ],
+        [
+          33,
+          17
+        ],
+        [
+          52,
+          22
+        ],
+        [
+          95,
+          22
+        ],
+        [
+          169,
+          25
+        ],
+        [
+          194,
+          25
+        ]
+      ],
+      "tokens": {
+        "prompt": 3808,
+        "completion": 283
+      }
+    },
+    {
+      "ca": 11,
+      "cb": 2,
+      "size_a": 17,
+      "size_b": 11,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          90,
+          2
+        ],
+        [
+          90,
+          12
+        ],
+        [
+          90,
+          23
+        ],
+        [
+          106,
+          28
+        ]
+      ],
+      "tokens": {
+        "prompt": 3776,
+        "completion": 265
+      }
+    },
+    {
+      "ca": 12,
+      "cb": 0,
+      "size_a": 15,
+      "size_b": 26,
+      "sample_rate": 0.04,
+      "matches": [
+        [
+          3,
+          7
+        ],
+        [
+          60,
+          13
+        ],
+        [
+          122,
+          15
+        ],
+        [
+          91,
+          34
+        ],
+        [
+          132,
+          20
+        ],
+        [
+          3,
+          46
+        ],
+        [
+          60,
+          46
+        ],
+        [
+          135,
+          7
+        ],
+        [
+          175,
+          7
+        ],
+        [
+          189,
+          1
+        ],
+        [
+          189,
+          7
+        ],
+        [
+          182,
+          20
+        ]
+      ],
+      "tokens": {
+        "prompt": 5302,
+        "completion": 393
+      }
+    },
+    {
+      "ca": 12,
+      "cb": 1,
+      "size_a": 15,
+      "size_b": 13,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          28,
+          18
+        ],
+        [
+          28,
+          19
+        ],
+        [
+          28,
+          25
+        ],
+        [
+          28,
+          26
+        ],
+        [
+          122,
+          17
+        ],
+        [
+          28,
+          33
+        ],
+        [
+          175,
+          29
+        ]
+      ],
+      "tokens": {
+        "prompt": 3448,
+        "completion": 267
+      }
+    },
+    {
+      "ca": 12,
+      "cb": 2,
+      "size_a": 15,
+      "size_b": 11,
+      "sample_rate": 0.12,
+      "matches": [
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          12
+        ],
+        [
+          3,
+          23
+        ],
+        [
+          28,
+          9
+        ],
+        [
+          28,
+          28
+        ],
+        [
+          60,
+          14
+        ],
+        [
+          81,
+          14
+        ],
+        [
+          91,
+          16
+        ],
+        [
+          103,
+          2
+        ],
+        [
+          103,
+          12
+        ],
+        [
+          103,
+          23
+        ],
+        [
+          107,
+          44
+        ],
+        [
+          135,
+          2
+        ],
+        [
+          135,
+          12
+        ],
+        [
+          147,
+          9
+        ],
+        [
+          189,
+          12
+        ],
+        [
+          189,
+          23
+        ],
+        [
+          147,
+          49
+        ]
+      ],
+      "tokens": {
+        "prompt": 3416,
+        "completion": 290
+      }
+    },
+    {
+      "ca": 13,
+      "cb": 0,
+      "size_a": 18,
+      "size_b": 26,
+      "sample_rate": 0.16,
+      "matches": [
+        [
+          29,
+          1
+        ],
+        [
+          45,
+          13
+        ],
+        [
+          64,
+          11
+        ],
+        [
+          73,
+          11
+        ],
+        [
+          118,
+          13
+        ],
+        [
+          10,
+          30
+        ],
+        [
+          29,
+          35
+        ],
+        [
+          45,
+          20
+        ],
+        [
+          61,
+          35
+        ],
+        [
+          64,
+          35
+        ],
+        [
+          73,
+          31
+        ],
+        [
+          120,
+          20
+        ],
+        [
+          10,
+          46
+        ],
+        [
+          45,
+          46
+        ],
+        [
+          118,
+          46
+        ],
+        [
+          137,
+          8
+        ],
+        [
+          146,
+          7
+        ],
+        [
+          149,
+          1
+        ],
+        [
+          149,
+          6
+        ],
+        [
+          123,
+          30
+        ],
+        [
+          123,
+          34
+        ],
+        [
+          137,
+          35
+        ],
+        [
+          149,
+          27
+        ],
+        [
+          174,
+          35
+        ],
+        [
+          174,
+          36
+        ],
+        [
+          137,
+          46
+        ],
+        [
+          149,
+          46
+        ],
+        [
+          151,
+          45
+        ],
+        [
+          174,
+          46
+        ]
+      ],
+      "tokens": {
+        "prompt": 6331,
+        "completion": 538
+      }
+    },
+    {
+      "ca": 13,
+      "cb": 1,
+      "size_a": 18,
+      "size_b": 13,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          10,
+          5
+        ],
+        [
+          26,
+          21
+        ],
+        [
+          123,
+          5
+        ],
+        [
+          137,
+          21
+        ],
+        [
+          151,
+          3
+        ],
+        [
+          196,
+          5
+        ]
+      ],
+      "tokens": {
+        "prompt": 4134,
+        "completion": 286
+      }
+    },
+    {
+      "ca": 13,
+      "cb": 2,
+      "size_a": 18,
+      "size_b": 11,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          29,
+          9
+        ],
+        [
+          61,
+          16
+        ],
+        [
+          61,
+          42
+        ],
+        [
+          89,
+          9
+        ],
+        [
+          120,
+          9
+        ],
+        [
+          89,
+          49
+        ],
+        [
+          137,
+          14
+        ],
+        [
+          137,
+          42
+        ],
+        [
+          140,
+          9
+        ],
+        [
+          146,
+          2
+        ],
+        [
+          146,
+          12
+        ],
+        [
+          146,
+          23
+        ],
+        [
+          140,
+          49
+        ]
+      ],
+      "tokens": {
+        "prompt": 4102,
+        "completion": 316
       }
     },
     {
       "ca": 14,
       "cb": 0,
       "size_a": 8,
-      "size_b": 16,
+      "size_b": 26,
       "sample_rate": 0.0,
       "matches": [
         [
-          21,
-          2
+          130,
+          38
         ],
         [
-          21,
-          3
+          31,
+          46
         ],
         [
-          30,
-          2
-        ],
-        [
-          38,
-          1
-        ],
-        [
-          69,
-          2
-        ],
-        [
-          95,
-          1
-        ],
-        [
-          184,
-          2
+          136,
+          46
         ]
       ],
       "tokens": {
-        "prompt": 1967,
-        "completion": 159
+        "prompt": 2810,
+        "completion": 207
       }
     },
     {
       "ca": 14,
       "cb": 1,
       "size_a": 8,
-      "size_b": 4,
+      "size_b": 13,
       "sample_rate": 0.0,
       "matches": [
         [
-          115,
+          130,
+          29
+        ]
+      ],
+      "tokens": {
+        "prompt": 1830,
+        "completion": 121
+      }
+    },
+    {
+      "ca": 14,
+      "cb": 2,
+      "size_a": 8,
+      "size_b": 11,
+      "sample_rate": 0.24,
+      "matches": [
+        [
+          31,
+          28
+        ],
+        [
+          36,
+          16
+        ],
+        [
+          57,
+          28
+        ],
+        [
+          63,
+          28
+        ],
+        [
+          134,
+          14
+        ],
+        [
+          136,
+          28
+        ],
+        [
+          136,
+          14
+        ],
+        [
+          176,
           14
         ]
       ],
       "tokens": {
-        "prompt": 942,
-        "completion": 69
+        "prompt": 966,
+        "completion": 98
       }
     }
   ]

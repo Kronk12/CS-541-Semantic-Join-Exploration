@@ -1,0 +1,2 @@
+Run_ID,Dataset,Trial,Baseline_Type,A_Size,B_Size,Total_Pairs_Evaluated,Recall,Precision,F1,Tokens,Time_s
+1,StackOverflow,1,Classifier_Join,250,10,2500,66.91,85.19,74.95,30216,26.61

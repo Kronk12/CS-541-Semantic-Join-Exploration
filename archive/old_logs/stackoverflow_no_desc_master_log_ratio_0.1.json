@@ -1,7 +1,7 @@
 {
   "fixed_tokens": {
     "prompt": 62195,
-    "completion": 4417
+    "completion": 4453
   },
   "clusters_a": {
     "0": {
@@ -480,7 +480,7 @@
       ],
       "tokens": {
         "prompt": 1712,
-        "completion": 120
+        "completion": 108
       }
     },
     {
@@ -511,13 +511,17 @@
           14
         ],
         [
+          115,
+          49
+        ],
+        [
           150,
           16
         ]
       ],
       "tokens": {
         "prompt": 824,
-        "completion": 58
+        "completion": 62
       }
     },
     {
@@ -574,7 +578,7 @@
       ],
       "tokens": {
         "prompt": 1858,
-        "completion": 139
+        "completion": 152
       }
     },
     {
@@ -586,11 +590,27 @@
       "matches": [
         [
           3,
+          2
+        ],
+        [
+          3,
           7
+        ],
+        [
+          3,
+          12
+        ],
+        [
+          3,
+          23
         ],
         [
           90,
           2
+        ],
+        [
+          90,
+          7
         ],
         [
           90,
@@ -611,11 +631,15 @@
         [
           146,
           12
+        ],
+        [
+          146,
+          23
         ]
       ],
       "tokens": {
         "prompt": 952,
-        "completion": 96
+        "completion": 121
       }
     },
     {
@@ -699,17 +723,13 @@
           5
         ],
         [
-          52,
-          46
-        ],
-        [
           65,
           40
         ]
       ],
       "tokens": {
         "prompt": 2350,
-        "completion": 185
+        "completion": 167
       }
     },
     {
@@ -755,7 +775,7 @@
       "matches": [],
       "tokens": {
         "prompt": 1144,
-        "completion": 58
+        "completion": 72
       }
     },
     {
@@ -790,6 +810,10 @@
           20
         ],
         [
+          147,
+          9
+        ],
+        [
           2,
           39
         ],
@@ -812,7 +836,7 @@
       ],
       "tokens": {
         "prompt": 3858,
-        "completion": 268
+        "completion": 272
       }
     },
     {
@@ -853,50 +877,6 @@
       "matches": [
         [
           29,
-          14
-        ],
-        [
-          29,
-          16
-        ],
-        [
-          29,
-          49
-        ],
-        [
-          79,
-          14
-        ],
-        [
-          79,
-          16
-        ],
-        [
-          79,
-          37
-        ],
-        [
-          79,
-          42
-        ],
-        [
-          79,
-          49
-        ],
-        [
-          92,
-          14
-        ],
-        [
-          92,
-          49
-        ],
-        [
-          147,
-          14
-        ],
-        [
-          147,
           49
         ],
         [
@@ -906,7 +886,7 @@
       ],
       "tokens": {
         "prompt": 1680,
-        "completion": 154
+        "completion": 122
       }
     },
     {
@@ -1114,7 +1094,7 @@
       ],
       "tokens": {
         "prompt": 3656,
-        "completion": 294
+        "completion": 282
       }
     },
     {
@@ -1135,7 +1115,7 @@
       ],
       "tokens": {
         "prompt": 1836,
-        "completion": 133
+        "completion": 145
       }
     },
     {
@@ -1147,7 +1127,7 @@
       "matches": [],
       "tokens": {
         "prompt": 1838,
-        "completion": 125
+        "completion": 137
       }
     },
     {
@@ -1236,7 +1216,7 @@
       "cb": 3,
       "size_a": 10,
       "size_b": 6,
-      "sample_rate": 0.16,
+      "sample_rate": 0.12,
       "matches": [
         [
           11,
@@ -1360,10 +1340,15 @@
       "size_a": 13,
       "size_b": 11,
       "sample_rate": 0.0,
-      "matches": [],
+      "matches": [
+        [
+          94,
+          3
+        ]
+      ],
       "tokens": {
         "prompt": 3236,
-        "completion": 187
+        "completion": 199
       }
     },
     {
@@ -1517,6 +1502,10 @@
       "sample_rate": 0.04,
       "matches": [
         [
+          40,
+          34
+        ],
+        [
           20,
           39
         ],
@@ -1537,10 +1526,6 @@
           48
         ],
         [
-          117,
-          46
-        ],
-        [
           159,
           38
         ],
@@ -1559,7 +1544,7 @@
       "cb": 2,
       "size_a": 19,
       "size_b": 11,
-      "sample_rate": 0.12,
+      "sample_rate": 0.08,
       "matches": [
         [
           20,
@@ -1570,16 +1555,20 @@
           8
         ],
         [
+          40,
+          8
+        ],
+        [
           50,
           8
         ],
         [
           59,
-          8
+          3
         ],
         [
           59,
-          3
+          8
         ],
         [
           59,
@@ -1608,7 +1597,7 @@
       ],
       "tokens": {
         "prompt": 4178,
-        "completion": 319
+        "completion": 323
       }
     },
     {
@@ -1620,7 +1609,7 @@
       "matches": [],
       "tokens": {
         "prompt": 2097,
-        "completion": 151
+        "completion": 137
       }
     },
     {
@@ -1665,7 +1654,7 @@
       ],
       "tokens": {
         "prompt": 1352,
-        "completion": 110
+        "completion": 99
       }
     },
     {
@@ -1714,7 +1703,7 @@
       "matches": [],
       "tokens": {
         "prompt": 644,
-        "completion": 40
+        "completion": 51
       }
     },
     {
@@ -1763,7 +1752,7 @@
         ],
         [
           123,
-          30
+          5
         ],
         [
           126,
@@ -1774,8 +1763,8 @@
           5
         ],
         [
-          190,
-          30
+          193,
+          36
         ],
         [
           197,
@@ -1813,7 +1802,7 @@
       ],
       "tokens": {
         "prompt": 2760,
-        "completion": 175
+        "completion": 181
       }
     },
     {
@@ -1825,7 +1814,7 @@
       "matches": [],
       "tokens": {
         "prompt": 1203,
-        "completion": 70
+        "completion": 86
       }
     },
     {
@@ -2006,31 +1995,10 @@
       "size_a": 6,
       "size_b": 11,
       "sample_rate": 0.0,
-      "matches": [
-        [
-          5,
-          8
-        ],
-        [
-          67,
-          8
-        ],
-        [
-          96,
-          8
-        ],
-        [
-          112,
-          8
-        ],
-        [
-          178,
-          8
-        ]
-      ],
+      "matches": [],
       "tokens": {
         "prompt": 730,
-        "completion": 60
+        "completion": 51
       }
     },
     {
@@ -2042,7 +2010,7 @@
       "matches": [],
       "tokens": {
         "prompt": 675,
-        "completion": 40
+        "completion": 51
       }
     },
     {
@@ -2107,11 +2075,15 @@
         [
           132,
           20
+        ],
+        [
+          132,
+          46
         ]
       ],
       "tokens": {
         "prompt": 3182,
-        "completion": 207
+        "completion": 218
       }
     },
     {
@@ -2172,7 +2144,7 @@
       ],
       "tokens": {
         "prompt": 1342,
-        "completion": 132
+        "completion": 115
       }
     },
     {
@@ -2308,7 +2280,7 @@
       "cb": 4,
       "size_a": 11,
       "size_b": 6,
-      "sample_rate": 0.12,
+      "sample_rate": 0.08,
       "matches": [
         [
           142,
@@ -2325,7 +2297,7 @@
       ],
       "tokens": {
         "prompt": 1231,
-        "completion": 83
+        "completion": 99
       }
     },
     {
@@ -2374,11 +2346,11 @@
         ],
         [
           66,
-          30
+          0
         ],
         [
           66,
-          0
+          30
         ],
         [
           89,
@@ -2456,7 +2428,7 @@
       ],
       "tokens": {
         "prompt": 2860,
-        "completion": 190
+        "completion": 183
       }
     },
     {
@@ -2544,7 +2516,7 @@
       ],
       "tokens": {
         "prompt": 1526,
-        "completion": 95
+        "completion": 106
       }
     },
     {
@@ -2573,7 +2545,7 @@
       "matches": [],
       "tokens": {
         "prompt": 731,
-        "completion": 51
+        "completion": 40
       }
     },
     {
@@ -2712,13 +2684,17 @@
           42
         ],
         [
+          87,
+          42
+        ],
+        [
           137,
           42
         ]
       ],
       "tokens": {
         "prompt": 1068,
-        "completion": 87
+        "completion": 91
       }
     },
     {
@@ -2758,12 +2734,16 @@
         ],
         [
           149,
+          6
+        ],
+        [
+          149,
           27
         ]
       ],
       "tokens": {
         "prompt": 1069,
-        "completion": 100
+        "completion": 105
       }
     },
     {
@@ -2783,10 +2763,6 @@
         ],
         [
           183,
-          18
-        ],
-        [
-          183,
           33
         ],
         [
@@ -2796,7 +2772,7 @@
       ],
       "tokens": {
         "prompt": 562,
-        "completion": 51
+        "completion": 46
       }
     },
     {
@@ -2822,10 +2798,15 @@
       "size_a": 4,
       "size_b": 11,
       "sample_rate": 0.0,
-      "matches": [],
+      "matches": [
+        [
+          128,
+          7
+        ]
+      ],
       "tokens": {
         "prompt": 597,
-        "completion": 37
+        "completion": 32
       }
     },
     {
@@ -2854,7 +2835,7 @@
       ],
       "tokens": {
         "prompt": 542,
-        "completion": 55
+        "completion": 46
       }
     },
     {
@@ -2977,7 +2958,7 @@
       ],
       "tokens": {
         "prompt": 596,
-        "completion": 53
+        "completion": 43
       }
     },
     {
@@ -3055,7 +3036,7 @@
       ],
       "tokens": {
         "prompt": 2904,
-        "completion": 216
+        "completion": 223
       }
     },
     {
@@ -3072,11 +3053,15 @@
         [
           82,
           32
+        ],
+        [
+          198,
+          8
         ]
       ],
       "tokens": {
         "prompt": 2760,
-        "completion": 198
+        "completion": 202
       }
     },
     {
@@ -3103,13 +3088,13 @@
           1
         ],
         [
-          104,
+          82,
           11
         ]
       ],
       "tokens": {
         "prompt": 1204,
-        "completion": 101
+        "completion": 84
       }
     }
   ]

@@ -1,0 +1,850 @@
+{
+  "fixed_tokens": {
+    "prompt": 16490,
+    "completion": 1129
+  },
+  "clusters_a": {
+    "0": {
+      "size": 10,
+      "samples": [
+        {
+          "question_id": 15706930,
+          "question_text": "Title: Installing PyGame onto Mountain Lion OS | Body: Okay, so I've completely given up. \n\nI've tried about a thousand different walkthroughs to solve my problem, on every website I can find, but I either get stuck and no one knows the answer, or they just don't work.\n\nSo has anyone got an answer to installing PyGame onto Mountain Lion that they know 1"
+        },
+        {
+          "question_id": 17541960,
+          "question_text": "Title: Convert markdown to json in R | Body: Here are the steps I would like to execute:\n\n\nRead a markdown file (see below) into R\nConvert the markdown text to JSON\nSend the JSON in an API POST call\n\n\nEg. markdown text file:\n\n## This is a list\n\n+ one\n+ two\n+ three\n\n#### Do a thing\n```coffee\npoints &lt;- rnorm(10)\nplot(points)\n```\n\n#### Do some"
+        },
+        {
+          "question_id": 8023930,
+          "question_text": "Title: Best way to achieve C break or Python pass in a SQL case expression? | Body: Given a SQL CASE expression with nested CASE expressions, I'm looking for the best way to emulate a C break or Python pass within a nested CASE expression so I can evaluate the rest of the outer WHEN choices.\n\nFor example, imagine\n\nselect CASE \n         WHEN C1 THEN CASE\n                      WHEN C"
+        }
+      ]
+    },
+    "1": {
+      "size": 10,
+      "samples": [
+        {
+          "question_id": 6223240,
+          "question_text": "Title: After importing into eclipse using eGit, can't compile and run. What do I do? | Body: After importing a standard .java file into Eclipse using Git, I tried to compile and run the  file. Eclipse gave me this error: \n\n\"Unable to launch: The selection cannot be launched, and there are no recent launches.\"\n\n\nWhat do I do?\n"
+        },
+        {
+          "question_id": 2250080,
+          "question_text": "Title: java.lang.UnsatisfiedLinkError: Method inside dll is not accessible | Body: I am trying to access the function available inside the .dll file. But it give exception like \"Exception in thread \"main\" java.lang.UnsatisfiedLinkError: *.jniGetAudioInputLevel()D\". DLL file is loaded but when I try to access the methods it give an error message.\n\nAccording to my knowledge:- \n\n\nThi"
+        },
+        {
+          "question_id": 36401290,
+          "question_text": "Title: Different results between Orange PCA and scikit-learn PCA | Body: I am using scikit-learn PCA to find the principal components of a dataset with about 20000 features and 400+ samples.\n\nHowever, comparing with Orange3 PCA which should be using scikit-learn PCA, I get different results. I also unchecked the normalization option proposed by Orange3 PCA.\n\nWith scikit-"
+        }
+      ]
+    },
+    "2": {
+      "size": 15,
+      "samples": [
+        {
+          "question_id": 14740150,
+          "question_text": "Title: OSX Dashboard Widget File URI | Body: I'm trying to update a dashboard widget that has stopped working, I think with the upgrade to either Lion or Mountain Lion.\n\nThe widget has a drop zone for dropping files onto, which then uploads them to a web service.\n\nHowever, my ondrop event handler is returning an empty string for the text/uri-l"
+        },
+        {
+          "question_id": 39393520,
+          "question_text": "Title: How to remove a current page from stack navigation Xamarin Forms | Body: I'm trying so hard to do something but i wasnt able to solve this problem. I have three pages, One is the MainPage, LoginUpPage and SignUpPage, inside of LoginUpPage has a button who navigates to SignUpPage, what i want to do is when I finish my logic navigates to another page CreatedPage, whitch co"
+        },
+        {
+          "question_id": 29346030,
+          "question_text": "Title: Can I Use Insert Snippet to Create Setters and Getters in Visual C++ | Body: This answer suggests creating a Code Snippet to allow the \"Insert Snippet\" menu to contain setters and getters in Visual C#.\n\nI went to check out the answer's link: https://msdn.microsoft.com/en-us/library/ms165392.aspx\n\nBut it really doesn't have information about inserting anything more than fixed"
+        }
+      ]
+    },
+    "3": {
+      "size": 9,
+      "samples": [
+        {
+          "question_id": 9637100,
+          "question_text": "Title: how to disable expandablelistview vertical scrolling when webview is scolled horizontally | Body: I have taken a webview as a child in my expandable list. When I scroll the webview horizontally it clashes with vertical scroll of listview. \n\nI want to smoothly scroll horizontally when swiped left or right.\n\nAny help is appreciated.\n\nThanks\n"
+        },
+        {
+          "question_id": 25798350,
+          "question_text": "Title: UITableView scrollView delegate not called | Body: I have a tableview set inside a UIViewController\n\n@property (strong, nonatomic) IBOutlet UITableView *tableView;\n\n\nwith delegates set in viewDidLoad\n\nself.tableView.delegate = self;\nself.tableView.dataSource = self;\n\n\nThe following methods never get called:\n\n- (void)scrollViewDidEndDecelerating:(UIS"
+        },
+        {
+          "question_id": 6625110,
+          "question_text": "Title: Android CMYK mode | Body: I have a Bitmap in CMYK mode, which doesn't show correctly, and at some point not at all, on Android. Googling didn't return many answers, so I have to ask here how do I handle CMYK mode images?\n\nThanks\n\nUPDATE\n\nOk, more info as requested. I have a image that is in the assets, and I construct a Bitm"
+        }
+      ]
+    },
+    "4": {
+      "size": 6,
+      "samples": [
+        {
+          "question_id": 13720510,
+          "question_text": "Title: Can I get my salt from a database and then check the password in the same query? | Body: I've recently added a class which uses unique salts stored in the members table. This was my login script before I used salts:\n\n    $sql = 'SELECT id, username FROM member WHERE username = ? AND pass = ?';\n\n    $result = $this-&gt;DB-&gt;query($sql, array($username, $pass));\n    foreach($result as $"
+        },
+        {
+          "question_id": 13367360,
+          "question_text": "Title: Spring security authorize rails app using devise | Body: I'm trying to figure out how to authorize my rails app into pentaho spring security. I've tried to use the URL parameters user=username&amp;password=password but somehow the application does not listen to it and it just send me to the login page.\n\nRight now im doing a hack on the pentaho server by a"
+        },
+        {
+          "question_id": 11956800,
+          "question_text": "Title: Does the getID() always return a constant value? | Body: For my Android project, I am using the getID() method to retrieve the numeric value for a View and store this value in my database.  I am banking that this getID() method for a particular View will always return the same constant value over multiple executions in a production environment and over su"
+        }
+      ]
+    }
+  },
+  "clusters_b": {
+    "0": {
+      "size": 8,
+      "samples": [
+        {
+          "concept_id": "T-18",
+          "concept_name": "iphone"
+        },
+        {
+          "concept_id": "T-19",
+          "concept_name": "objective-c"
+        },
+        {
+          "concept_id": "T-21",
+          "concept_name": "android"
+        }
+      ]
+    },
+    "1": {
+      "size": 19,
+      "samples": [
+        {
+          "concept_id": "T-0",
+          "concept_name": "python"
+        },
+        {
+          "concept_id": "T-5",
+          "concept_name": "c++"
+        },
+        {
+          "concept_id": "T-9",
+          "concept_name": "html"
+        }
+      ]
+    },
+    "2": {
+      "size": 11,
+      "samples": [
+        {
+          "concept_id": "T-2",
+          "concept_name": ".net"
+        },
+        {
+          "concept_id": "T-3",
+          "concept_name": "linux"
+        },
+        {
+          "concept_id": "T-4",
+          "concept_name": "multithreading"
+        }
+      ]
+    },
+    "3": {
+      "size": 6,
+      "samples": [
+        {
+          "concept_id": "T-14",
+          "concept_name": "javascript"
+        },
+        {
+          "concept_id": "T-16",
+          "concept_name": "jquery"
+        },
+        {
+          "concept_id": "T-37",
+          "concept_name": "node.js"
+        }
+      ]
+    },
+    "4": {
+      "size": 6,
+      "samples": [
+        {
+          "concept_id": "T-1",
+          "concept_name": "database"
+        },
+        {
+          "concept_id": "T-6",
+          "concept_name": "sql-server"
+        },
+        {
+          "concept_id": "T-10",
+          "concept_name": "django"
+        }
+      ]
+    }
+  },
+  "pairs": [
+    {
+      "ca": 0,
+      "cb": 0,
+      "size_a": 10,
+      "size_b": 8,
+      "sample_rate": 0.12,
+      "matches": [
+        [
+          3,
+          26
+        ],
+        [
+          33,
+          18
+        ],
+        [
+          33,
+          33
+        ]
+      ],
+      "tokens": {
+        "prompt": 1061,
+        "completion": 92
+      }
+    },
+    {
+      "ca": 0,
+      "cb": 1,
+      "size_a": 10,
+      "size_b": 19,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          8,
+          0
+        ],
+        [
+          8,
+          31
+        ],
+        [
+          10,
+          0
+        ],
+        [
+          10,
+          30
+        ],
+        [
+          26,
+          31
+        ],
+        [
+          35,
+          0
+        ],
+        [
+          35,
+          31
+        ],
+        [
+          48,
+          0
+        ],
+        [
+          8,
+          35
+        ],
+        [
+          8,
+          36
+        ],
+        [
+          26,
+          35
+        ]
+      ],
+      "tokens": {
+        "prompt": 2146,
+        "completion": 191
+      }
+    },
+    {
+      "ca": 0,
+      "cb": 2,
+      "size_a": 10,
+      "size_b": 11,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          21,
+          2
+        ]
+      ],
+      "tokens": {
+        "prompt": 2074,
+        "completion": 132
+      }
+    },
+    {
+      "ca": 0,
+      "cb": 3,
+      "size_a": 10,
+      "size_b": 6,
+      "sample_rate": 0.0,
+      "matches": [],
+      "tokens": {
+        "prompt": 1041,
+        "completion": 64
+      }
+    },
+    {
+      "ca": 0,
+      "cb": 4,
+      "size_a": 10,
+      "size_b": 6,
+      "sample_rate": 0.04,
+      "matches": [
+        [
+          10,
+          1
+        ],
+        [
+          10,
+          6
+        ],
+        [
+          10,
+          27
+        ],
+        [
+          26,
+          11
+        ],
+        [
+          28,
+          10
+        ]
+      ],
+      "tokens": {
+        "prompt": 1042,
+        "completion": 101
+      }
+    },
+    {
+      "ca": 1,
+      "cb": 0,
+      "size_a": 10,
+      "size_b": 8,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          23,
+          21
+        ],
+        [
+          41,
+          19
+        ]
+      ],
+      "tokens": {
+        "prompt": 1140,
+        "completion": 87
+      }
+    },
+    {
+      "ca": 1,
+      "cb": 1,
+      "size_a": 10,
+      "size_b": 19,
+      "sample_rate": 0.08,
+      "matches": [
+        [
+          17,
+          5
+        ],
+        [
+          41,
+          5
+        ],
+        [
+          41,
+          30
+        ],
+        [
+          0,
+          48
+        ],
+        [
+          24,
+          40
+        ],
+        [
+          49,
+          36
+        ]
+      ],
+      "tokens": {
+        "prompt": 2304,
+        "completion": 168
+      }
+    },
+    {
+      "ca": 1,
+      "cb": 2,
+      "size_a": 10,
+      "size_b": 11,
+      "sample_rate": 0.04,
+      "matches": [
+        [
+          0,
+          22
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          23,
+          22
+        ]
+      ],
+      "tokens": {
+        "prompt": 2232,
+        "completion": 155
+      }
+    },
+    {
+      "ca": 1,
+      "cb": 3,
+      "size_a": 10,
+      "size_b": 6,
+      "sample_rate": 0.0,
+      "matches": [],
+      "tokens": {
+        "prompt": 1120,
+        "completion": 79
+      }
+    },
+    {
+      "ca": 1,
+      "cb": 4,
+      "size_a": 10,
+      "size_b": 6,
+      "sample_rate": 0.0,
+      "matches": [],
+      "tokens": {
+        "prompt": 1121,
+        "completion": 79
+      }
+    },
+    {
+      "ca": 2,
+      "cb": 0,
+      "size_a": 15,
+      "size_b": 8,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          1,
+          26
+        ],
+        [
+          37,
+          21
+        ]
+      ],
+      "tokens": {
+        "prompt": 1857,
+        "completion": 121
+      }
+    },
+    {
+      "ca": 2,
+      "cb": 1,
+      "size_a": 15,
+      "size_b": 19,
+      "sample_rate": 0.04,
+      "matches": [
+        [
+          6,
+          5
+        ],
+        [
+          9,
+          13
+        ],
+        [
+          20,
+          34
+        ],
+        [
+          9,
+          46
+        ],
+        [
+          12,
+          36
+        ],
+        [
+          37,
+          20
+        ],
+        [
+          42,
+          15
+        ],
+        [
+          46,
+          9
+        ],
+        [
+          37,
+          35
+        ],
+        [
+          46,
+          35
+        ]
+      ],
+      "tokens": {
+        "prompt": 3762,
+        "completion": 286
+      }
+    },
+    {
+      "ca": 2,
+      "cb": 2,
+      "size_a": 15,
+      "size_b": 11,
+      "sample_rate": 0.04,
+      "matches": [
+        [
+          6,
+          7
+        ],
+        [
+          37,
+          8
+        ],
+        [
+          44,
+          17
+        ],
+        [
+          47,
+          2
+        ],
+        [
+          47,
+          7
+        ],
+        [
+          47,
+          12
+        ],
+        [
+          47,
+          23
+        ]
+      ],
+      "tokens": {
+        "prompt": 3618,
+        "completion": 252
+      }
+    },
+    {
+      "ca": 2,
+      "cb": 3,
+      "size_a": 15,
+      "size_b": 6,
+      "sample_rate": 0.12,
+      "matches": [
+        [
+          20,
+          14
+        ],
+        [
+          25,
+          14
+        ],
+        [
+          37,
+          42
+        ],
+        [
+          42,
+          49
+        ]
+      ],
+      "tokens": {
+        "prompt": 1632,
+        "completion": 110
+      }
+    },
+    {
+      "ca": 2,
+      "cb": 4,
+      "size_a": 15,
+      "size_b": 6,
+      "sample_rate": 0.12,
+      "matches": [
+        [
+          11,
+          1
+        ],
+        [
+          11,
+          24
+        ],
+        [
+          46,
+          1
+        ]
+      ],
+      "tokens": {
+        "prompt": 1633,
+        "completion": 127
+      }
+    },
+    {
+      "ca": 3,
+      "cb": 0,
+      "size_a": 9,
+      "size_b": 8,
+      "sample_rate": 0.12,
+      "matches": [
+        [
+          5,
+          21
+        ],
+        [
+          7,
+          19
+        ],
+        [
+          14,
+          21
+        ],
+        [
+          16,
+          21
+        ],
+        [
+          19,
+          21
+        ],
+        [
+          27,
+          21
+        ],
+        [
+          45,
+          21
+        ]
+      ],
+      "tokens": {
+        "prompt": 1008,
+        "completion": 100
+      }
+    },
+    {
+      "ca": 3,
+      "cb": 1,
+      "size_a": 9,
+      "size_b": 19,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          14,
+          38
+        ],
+        [
+          31,
+          48
+        ]
+      ],
+      "tokens": {
+        "prompt": 2040,
+        "completion": 152
+      }
+    },
+    {
+      "ca": 3,
+      "cb": 2,
+      "size_a": 9,
+      "size_b": 11,
+      "sample_rate": 0.0,
+      "matches": [],
+      "tokens": {
+        "prompt": 1043,
+        "completion": 72
+      }
+    },
+    {
+      "ca": 3,
+      "cb": 3,
+      "size_a": 9,
+      "size_b": 6,
+      "sample_rate": 0.04,
+      "matches": [
+        [
+          34,
+          16
+        ]
+      ],
+      "tokens": {
+        "prompt": 988,
+        "completion": 76
+      }
+    },
+    {
+      "ca": 3,
+      "cb": 4,
+      "size_a": 9,
+      "size_b": 6,
+      "sample_rate": 0.0,
+      "matches": [],
+      "tokens": {
+        "prompt": 989,
+        "completion": 72
+      }
+    },
+    {
+      "ca": 4,
+      "cb": 0,
+      "size_a": 6,
+      "size_b": 8,
+      "sample_rate": 0.04,
+      "matches": [
+        [
+          30,
+          21
+        ],
+        [
+          32,
+          21
+        ]
+      ],
+      "tokens": {
+        "prompt": 790,
+        "completion": 59
+      }
+    },
+    {
+      "ca": 4,
+      "cb": 1,
+      "size_a": 6,
+      "size_b": 19,
+      "sample_rate": 0.04,
+      "matches": [
+        [
+          15,
+          20
+        ],
+        [
+          18,
+          31
+        ],
+        [
+          32,
+          20
+        ],
+        [
+          32,
+          34
+        ],
+        [
+          39,
+          20
+        ]
+      ],
+      "tokens": {
+        "prompt": 1604,
+        "completion": 123
+      }
+    },
+    {
+      "ca": 4,
+      "cb": 2,
+      "size_a": 6,
+      "size_b": 11,
+      "sample_rate": 0.04,
+      "matches": [
+        [
+          18,
+          32
+        ],
+        [
+          30,
+          8
+        ],
+        [
+          32,
+          8
+        ],
+        [
+          40,
+          8
+        ]
+      ],
+      "tokens": {
+        "prompt": 825,
+        "completion": 67
+      }
+    },
+    {
+      "ca": 4,
+      "cb": 3,
+      "size_a": 6,
+      "size_b": 6,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          32,
+          42
+        ]
+      ],
+      "tokens": {
+        "prompt": 770,
+        "completion": 44
+      }
+    },
+    {
+      "ca": 4,
+      "cb": 4,
+      "size_a": 6,
+      "size_b": 6,
+      "sample_rate": 0.24,
+      "matches": [
+        [
+          15,
+          1
+        ],
+        [
+          15,
+          24
+        ],
+        [
+          15,
+          27
+        ],
+        [
+          18,
+          11
+        ],
+        [
+          32,
+          1
+        ],
+        [
+          32,
+          24
+        ],
+        [
+          39,
+          24
+        ],
+        [
+          39,
+          27
+        ]
+      ],
+      "tokens": {
+        "prompt": 771,
+        "completion": 76
+      }
+    }
+  ]
+}

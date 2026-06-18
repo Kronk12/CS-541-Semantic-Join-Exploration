@@ -1,0 +1,835 @@
+{
+  "fixed_tokens": {
+    "prompt": 20616,
+    "completion": 1609
+  },
+  "clusters_a": {
+    "0": {
+      "size": 11,
+      "samples": [
+        {
+          "question_id": 6223240,
+          "question_text": "Title: After importing into eclipse using eGit, can't compile and run. What do I do? | Body: After importing a standard .java file into Eclipse using Git, I tried to compile and run the  file. Eclipse gave me this error: \n\n\"Unable to launch: The selection cannot be launched, and there are no recent launches.\"\n\n\nWhat do I do?\n"
+        },
+        {
+          "question_id": 2250080,
+          "question_text": "Title: java.lang.UnsatisfiedLinkError: Method inside dll is not accessible | Body: I am trying to access the function available inside the .dll file. But it give exception like \"Exception in thread \"main\" java.lang.UnsatisfiedLinkError: *.jniGetAudioInputLevel()D\". DLL file is loaded but when I try to access the methods it give an error message.\n\nAccording to my knowledge:- \n\n\nThi"
+        },
+        {
+          "question_id": 4007320,
+          "question_text": "Title: Separate quotes from string | Body: The following code keeps giving me this error \n\n\n  Parse error: syntax error, unexpected T_VARIABLE in ...\n\n\n?\n\n   $query_string = 'this is a test... \"this is in quotes\" mmm..chicken burgers... yummm...';\n   preg_match_all(\"/\\\".*\\\"|[^\\s]*/\",  \u00c2\u00ad $query_string, $matches);\n   echo \"Matches:\";\n   forea"
+        }
+      ]
+    },
+    "1": {
+      "size": 17,
+      "samples": [
+        {
+          "question_id": 8023930,
+          "question_text": "Title: Best way to achieve C break or Python pass in a SQL case expression? | Body: Given a SQL CASE expression with nested CASE expressions, I'm looking for the best way to emulate a C break or Python pass within a nested CASE expression so I can evaluate the rest of the outer WHEN choices.\n\nFor example, imagine\n\nselect CASE \n         WHEN C1 THEN CASE\n                      WHEN C"
+        },
+        {
+          "question_id": 12198670,
+          "question_text": "Title: select option in payment method instead of radion button in magento | Body: This is my methods.phtml file in onepagecheckout in magento,I want the dropdown(select option) button instead of radio button .........so that i could select the payment method to pay the payment.\n\n&lt;?php if (!$methods = $this-&gt;getMethods()) : ?&gt;\n  &lt;p&gt;&lt;?php echo $this-&gt;helper('ch"
+        },
+        {
+          "question_id": 37493520,
+          "question_text": "Title: how to remove rows based on some conditions | Body: My data looks like this:\n\nrow  ID  YU  DV\n 1    1   0   .\n 2    1   .   .\n 3    1   .   .\n 4    1   .   .\n 5    1   45  .\n 6    1   .   7\n 7    1   .   .\n 8    1   .   .\n 9    1   .   .\n 10   1   65  .\n 11   1   .   5\n 12   1   .   .\n 13   1   .   .\n 14   1   .   .\n 15   2   20  .\n 16   2   .   .\n 1"
+        }
+      ]
+    },
+    "2": {
+      "size": 9,
+      "samples": [
+        {
+          "question_id": 39393520,
+          "question_text": "Title: How to remove a current page from stack navigation Xamarin Forms | Body: I'm trying so hard to do something but i wasnt able to solve this problem. I have three pages, One is the MainPage, LoginUpPage and SignUpPage, inside of LoginUpPage has a button who navigates to SignUpPage, what i want to do is when I finish my logic navigates to another page CreatedPage, whitch co"
+        },
+        {
+          "question_id": 9637100,
+          "question_text": "Title: how to disable expandablelistview vertical scrolling when webview is scolled horizontally | Body: I have taken a webview as a child in my expandable list. When I scroll the webview horizontally it clashes with vertical scroll of listview. \n\nI want to smoothly scroll horizontally when swiped left or right.\n\nAny help is appreciated.\n\nThanks\n"
+        },
+        {
+          "question_id": 6625110,
+          "question_text": "Title: Android CMYK mode | Body: I have a Bitmap in CMYK mode, which doesn't show correctly, and at some point not at all, on Android. Googling didn't return many answers, so I have to ask here how do I handle CMYK mode images?\n\nThanks\n\nUPDATE\n\nOk, more info as requested. I have a image that is in the assets, and I construct a Bitm"
+        }
+      ]
+    },
+    "3": {
+      "size": 10,
+      "samples": [
+        {
+          "question_id": 14740150,
+          "question_text": "Title: OSX Dashboard Widget File URI | Body: I'm trying to update a dashboard widget that has stopped working, I think with the upgrade to either Lion or Mountain Lion.\n\nThe widget has a drop zone for dropping files onto, which then uploads them to a web service.\n\nHowever, my ondrop event handler is returning an empty string for the text/uri-l"
+        },
+        {
+          "question_id": 15706930,
+          "question_text": "Title: Installing PyGame onto Mountain Lion OS | Body: Okay, so I've completely given up. \n\nI've tried about a thousand different walkthroughs to solve my problem, on every website I can find, but I either get stuck and no one knows the answer, or they just don't work.\n\nSo has anyone got an answer to installing PyGame onto Mountain Lion that they know 1"
+        },
+        {
+          "question_id": 29346030,
+          "question_text": "Title: Can I Use Insert Snippet to Create Setters and Getters in Visual C++ | Body: This answer suggests creating a Code Snippet to allow the \"Insert Snippet\" menu to contain setters and getters in Visual C#.\n\nI went to check out the answer's link: https://msdn.microsoft.com/en-us/library/ms165392.aspx\n\nBut it really doesn't have information about inserting anything more than fixed"
+        }
+      ]
+    },
+    "4": {
+      "size": 3,
+      "samples": [
+        {
+          "question_id": 5097450,
+          "question_text": "Title: Is it possible to delete the object itself, not the reference | Body: var a = {\n    \"example\" : true\n};\n\nvar x = [a], y = [a];\n\ndelete x[0];\n\nconsole.log(y);\n\n\nIn the above code, would it be possible to have a deleted, not just the reference in x ?\n"
+        },
+        {
+          "question_id": 13748770,
+          "question_text": "Title: Email Validation with JavaScript | Body: \n  Possible Duplicate:\n  Validate email address in Javascript?  \n\n\n\n\nThis is my first post and I have a small issue. I'm trying to validate an email address on a form, but with no luck. I found this snippet on the internet but it doesn't seem to be working. I'm using Javascript at the moment to vali"
+        },
+        {
+          "question_id": 3467950,
+          "question_text": "Title: jQuery smooth mouse tracking | Body: I have my object tracking the mouse using the onmousemove event. But I would like to make it smooth. I'm sure this can't be difficult in jQuery but I'm not finding any really good resources.\n\nOne idea I had was to simply use the animate function and calculating the offsets that I want to move to. Th"
+        }
+      ]
+    }
+  },
+  "clusters_b": {
+    "0": {
+      "size": 8,
+      "samples": [
+        {
+          "concept_id": "T-18",
+          "concept_name": "iphone"
+        },
+        {
+          "concept_id": "T-19",
+          "concept_name": "objective-c"
+        },
+        {
+          "concept_id": "T-21",
+          "concept_name": "android"
+        }
+      ]
+    },
+    "1": {
+      "size": 19,
+      "samples": [
+        {
+          "concept_id": "T-0",
+          "concept_name": "python"
+        },
+        {
+          "concept_id": "T-5",
+          "concept_name": "c++"
+        },
+        {
+          "concept_id": "T-9",
+          "concept_name": "html"
+        }
+      ]
+    },
+    "2": {
+      "size": 11,
+      "samples": [
+        {
+          "concept_id": "T-2",
+          "concept_name": ".net"
+        },
+        {
+          "concept_id": "T-3",
+          "concept_name": "linux"
+        },
+        {
+          "concept_id": "T-4",
+          "concept_name": "multithreading"
+        }
+      ]
+    },
+    "3": {
+      "size": 6,
+      "samples": [
+        {
+          "concept_id": "T-14",
+          "concept_name": "javascript"
+        },
+        {
+          "concept_id": "T-16",
+          "concept_name": "jquery"
+        },
+        {
+          "concept_id": "T-37",
+          "concept_name": "node.js"
+        }
+      ]
+    },
+    "4": {
+      "size": 6,
+      "samples": [
+        {
+          "concept_id": "T-1",
+          "concept_name": "database"
+        },
+        {
+          "concept_id": "T-6",
+          "concept_name": "sql-server"
+        },
+        {
+          "concept_id": "T-10",
+          "concept_name": "django"
+        }
+      ]
+    }
+  },
+  "pairs": [
+    {
+      "ca": 0,
+      "cb": 0,
+      "size_a": 11,
+      "size_b": 8,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          32,
+          21
+        ]
+      ],
+      "tokens": {
+        "prompt": 1194,
+        "completion": 90
+      }
+    },
+    {
+      "ca": 0,
+      "cb": 1,
+      "size_a": 11,
+      "size_b": 19,
+      "sample_rate": 0.08,
+      "matches": [
+        [
+          9,
+          13
+        ],
+        [
+          9,
+          20
+        ],
+        [
+          29,
+          20
+        ],
+        [
+          32,
+          34
+        ],
+        [
+          0,
+          48
+        ],
+        [
+          9,
+          46
+        ]
+      ],
+      "tokens": {
+        "prompt": 2846,
+        "completion": 203
+      }
+    },
+    {
+      "ca": 0,
+      "cb": 2,
+      "size_a": 11,
+      "size_b": 11,
+      "sample_rate": 0.04,
+      "matches": [
+        [
+          0,
+          22
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          21,
+          2
+        ]
+      ],
+      "tokens": {
+        "prompt": 2702,
+        "completion": 175
+      }
+    },
+    {
+      "ca": 0,
+      "cb": 3,
+      "size_a": 11,
+      "size_b": 6,
+      "sample_rate": 0.0,
+      "matches": [],
+      "tokens": {
+        "prompt": 1174,
+        "completion": 86
+      }
+    },
+    {
+      "ca": 0,
+      "cb": 4,
+      "size_a": 11,
+      "size_b": 6,
+      "sample_rate": 0.12,
+      "matches": [
+        [
+          28,
+          10
+        ],
+        [
+          32,
+          24
+        ],
+        [
+          39,
+          24
+        ],
+        [
+          39,
+          27
+        ]
+      ],
+      "tokens": {
+        "prompt": 1175,
+        "completion": 103
+      }
+    },
+    {
+      "ca": 1,
+      "cb": 0,
+      "size_a": 17,
+      "size_b": 8,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          41,
+          19
+        ],
+        [
+          45,
+          21
+        ]
+      ],
+      "tokens": {
+        "prompt": 2093,
+        "completion": 133
+      }
+    },
+    {
+      "ca": 1,
+      "cb": 1,
+      "size_a": 17,
+      "size_b": 19,
+      "sample_rate": 0.08,
+      "matches": [
+        [
+          10,
+          0
+        ],
+        [
+          10,
+          30
+        ],
+        [
+          11,
+          20
+        ],
+        [
+          15,
+          20
+        ],
+        [
+          17,
+          5
+        ],
+        [
+          18,
+          31
+        ],
+        [
+          41,
+          5
+        ],
+        [
+          42,
+          15
+        ],
+        [
+          44,
+          15
+        ],
+        [
+          46,
+          9
+        ],
+        [
+          48,
+          0
+        ],
+        [
+          46,
+          35
+        ],
+        [
+          49,
+          36
+        ]
+      ],
+      "tokens": {
+        "prompt": 4234,
+        "completion": 312
+      }
+    },
+    {
+      "ca": 1,
+      "cb": 2,
+      "size_a": 17,
+      "size_b": 11,
+      "sample_rate": 0.12,
+      "matches": [
+        [
+          40,
+          8
+        ],
+        [
+          18,
+          32
+        ],
+        [
+          44,
+          17
+        ],
+        [
+          45,
+          8
+        ]
+      ],
+      "tokens": {
+        "prompt": 4090,
+        "completion": 248
+      }
+    },
+    {
+      "ca": 1,
+      "cb": 3,
+      "size_a": 17,
+      "size_b": 6,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          11,
+          49
+        ],
+        [
+          42,
+          49
+        ],
+        [
+          46,
+          49
+        ]
+      ],
+      "tokens": {
+        "prompt": 2053,
+        "completion": 134
+      }
+    },
+    {
+      "ca": 1,
+      "cb": 4,
+      "size_a": 17,
+      "size_b": 6,
+      "sample_rate": 0.12,
+      "matches": [
+        [
+          10,
+          6
+        ],
+        [
+          10,
+          27
+        ],
+        [
+          15,
+          24
+        ],
+        [
+          18,
+          11
+        ],
+        [
+          40,
+          6
+        ],
+        [
+          40,
+          24
+        ],
+        [
+          40,
+          27
+        ],
+        [
+          46,
+          1
+        ],
+        [
+          46,
+          6
+        ],
+        [
+          46,
+          24
+        ],
+        [
+          46,
+          27
+        ]
+      ],
+      "tokens": {
+        "prompt": 2055,
+        "completion": 182
+      }
+    },
+    {
+      "ca": 2,
+      "cb": 0,
+      "size_a": 9,
+      "size_b": 8,
+      "sample_rate": 0.16,
+      "matches": [
+        [
+          19,
+          21
+        ],
+        [
+          23,
+          21
+        ],
+        [
+          27,
+          21
+        ],
+        [
+          30,
+          21
+        ],
+        [
+          37,
+          21
+        ]
+      ],
+      "tokens": {
+        "prompt": 1006,
+        "completion": 92
+      }
+    },
+    {
+      "ca": 2,
+      "cb": 1,
+      "size_a": 9,
+      "size_b": 19,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          37,
+          20
+        ],
+        [
+          14,
+          38
+        ],
+        [
+          37,
+          35
+        ],
+        [
+          37,
+          46
+        ]
+      ],
+      "tokens": {
+        "prompt": 2036,
+        "completion": 161
+      }
+    },
+    {
+      "ca": 2,
+      "cb": 2,
+      "size_a": 9,
+      "size_b": 11,
+      "sample_rate": 0.04,
+      "matches": [
+        [
+          23,
+          22
+        ]
+      ],
+      "tokens": {
+        "prompt": 1041,
+        "completion": 76
+      }
+    },
+    {
+      "ca": 2,
+      "cb": 3,
+      "size_a": 9,
+      "size_b": 6,
+      "sample_rate": 0.04,
+      "matches": [
+        [
+          37,
+          42
+        ]
+      ],
+      "tokens": {
+        "prompt": 986,
+        "completion": 76
+      }
+    },
+    {
+      "ca": 2,
+      "cb": 4,
+      "size_a": 9,
+      "size_b": 6,
+      "sample_rate": 0.04,
+      "matches": [
+        [
+          30,
+          1
+        ]
+      ],
+      "tokens": {
+        "prompt": 987,
+        "completion": 76
+      }
+    },
+    {
+      "ca": 3,
+      "cb": 0,
+      "size_a": 10,
+      "size_b": 8,
+      "sample_rate": 0.08,
+      "matches": [
+        [
+          1,
+          26
+        ],
+        [
+          3,
+          26
+        ],
+        [
+          7,
+          19
+        ],
+        [
+          33,
+          18
+        ]
+      ],
+      "tokens": {
+        "prompt": 1114,
+        "completion": 95
+      }
+    },
+    {
+      "ca": 3,
+      "cb": 1,
+      "size_a": 10,
+      "size_b": 19,
+      "sample_rate": 0.08,
+      "matches": [
+        [
+          6,
+          5
+        ],
+        [
+          8,
+          0
+        ],
+        [
+          35,
+          0
+        ],
+        [
+          35,
+          31
+        ],
+        [
+          8,
+          35
+        ],
+        [
+          8,
+          36
+        ],
+        [
+          24,
+          40
+        ],
+        [
+          26,
+          35
+        ],
+        [
+          31,
+          48
+        ]
+      ],
+      "tokens": {
+        "prompt": 2252,
+        "completion": 196
+      }
+    },
+    {
+      "ca": 3,
+      "cb": 2,
+      "size_a": 10,
+      "size_b": 11,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          6,
+          7
+        ],
+        [
+          35,
+          8
+        ]
+      ],
+      "tokens": {
+        "prompt": 2180,
+        "completion": 136
+      }
+    },
+    {
+      "ca": 3,
+      "cb": 3,
+      "size_a": 10,
+      "size_b": 6,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          1,
+          14
+        ]
+      ],
+      "tokens": {
+        "prompt": 1094,
+        "completion": 83
+      }
+    },
+    {
+      "ca": 3,
+      "cb": 4,
+      "size_a": 10,
+      "size_b": 6,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          26,
+          11
+        ]
+      ],
+      "tokens": {
+        "prompt": 1095,
+        "completion": 68
+      }
+    },
+    {
+      "ca": 4,
+      "cb": 0,
+      "size_a": 3,
+      "size_b": 8,
+      "sample_rate": 0.0,
+      "matches": [],
+      "tokens": {
+        "prompt": 449,
+        "completion": 22
+      }
+    },
+    {
+      "ca": 4,
+      "cb": 1,
+      "size_a": 3,
+      "size_b": 19,
+      "sample_rate": 0.06666666666666667,
+      "matches": [
+        [
+          20,
+          34
+        ],
+        [
+          20,
+          35
+        ],
+        [
+          25,
+          13
+        ],
+        [
+          25,
+          46
+        ]
+      ],
+      "tokens": {
+        "prompt": 556,
+        "completion": 48
+      }
+    },
+    {
+      "ca": 4,
+      "cb": 2,
+      "size_a": 3,
+      "size_b": 11,
+      "sample_rate": 0.0,
+      "matches": [],
+      "tokens": {
+        "prompt": 484,
+        "completion": 22
+      }
+    },
+    {
+      "ca": 4,
+      "cb": 3,
+      "size_a": 3,
+      "size_b": 6,
+      "sample_rate": 0.2,
+      "matches": [
+        [
+          20,
+          14
+        ],
+        [
+          25,
+          14
+        ],
+        [
+          34,
+          16
+        ]
+      ],
+      "tokens": {
+        "prompt": 429,
+        "completion": 42
+      }
+    },
+    {
+      "ca": 4,
+      "cb": 4,
+      "size_a": 3,
+      "size_b": 6,
+      "sample_rate": 0.0,
+      "matches": [],
+      "tokens": {
+        "prompt": 430,
+        "completion": 22
+      }
+    }
+  ]
+}

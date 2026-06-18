@@ -1,0 +1,595 @@
+{
+  "fixed_tokens": {
+    "prompt": 11359,
+    "completion": 897
+  },
+  "clusters_a": {
+    "0": {
+      "size": 24,
+      "samples": [
+        {
+          "question_id": 6223240,
+          "question_text": "Title: After importing into eclipse using eGit, can't compile and run. What do I do? | Body: After importing a standard .java file into Eclipse using Git, I tried to compile and run the  file. Eclipse gave me this error: \n\n\"Unable to launch: The selection cannot be launched, and there are no recent launches.\"\n\n\nWhat do I do?\n"
+        },
+        {
+          "question_id": 14740150,
+          "question_text": "Title: OSX Dashboard Widget File URI | Body: I'm trying to update a dashboard widget that has stopped working, I think with the upgrade to either Lion or Mountain Lion.\n\nThe widget has a drop zone for dropping files onto, which then uploads them to a web service.\n\nHowever, my ondrop event handler is returning an empty string for the text/uri-l"
+        },
+        {
+          "question_id": 2250080,
+          "question_text": "Title: java.lang.UnsatisfiedLinkError: Method inside dll is not accessible | Body: I am trying to access the function available inside the .dll file. But it give exception like \"Exception in thread \"main\" java.lang.UnsatisfiedLinkError: *.jniGetAudioInputLevel()D\". DLL file is loaded but when I try to access the methods it give an error message.\n\nAccording to my knowledge:- \n\n\nThi"
+        }
+      ]
+    },
+    "1": {
+      "size": 9,
+      "samples": [
+        {
+          "question_id": 39393520,
+          "question_text": "Title: How to remove a current page from stack navigation Xamarin Forms | Body: I'm trying so hard to do something but i wasnt able to solve this problem. I have three pages, One is the MainPage, LoginUpPage and SignUpPage, inside of LoginUpPage has a button who navigates to SignUpPage, what i want to do is when I finish my logic navigates to another page CreatedPage, whitch co"
+        },
+        {
+          "question_id": 9637100,
+          "question_text": "Title: how to disable expandablelistview vertical scrolling when webview is scolled horizontally | Body: I have taken a webview as a child in my expandable list. When I scroll the webview horizontally it clashes with vertical scroll of listview. \n\nI want to smoothly scroll horizontally when swiped left or right.\n\nAny help is appreciated.\n\nThanks\n"
+        },
+        {
+          "question_id": 6625110,
+          "question_text": "Title: Android CMYK mode | Body: I have a Bitmap in CMYK mode, which doesn't show correctly, and at some point not at all, on Android. Googling didn't return many answers, so I have to ask here how do I handle CMYK mode images?\n\nThanks\n\nUPDATE\n\nOk, more info as requested. I have a image that is in the assets, and I construct a Bitm"
+        }
+      ]
+    },
+    "2": {
+      "size": 17,
+      "samples": [
+        {
+          "question_id": 8023930,
+          "question_text": "Title: Best way to achieve C break or Python pass in a SQL case expression? | Body: Given a SQL CASE expression with nested CASE expressions, I'm looking for the best way to emulate a C break or Python pass within a nested CASE expression so I can evaluate the rest of the outer WHEN choices.\n\nFor example, imagine\n\nselect CASE \n         WHEN C1 THEN CASE\n                      WHEN C"
+        },
+        {
+          "question_id": 12198670,
+          "question_text": "Title: select option in payment method instead of radion button in magento | Body: This is my methods.phtml file in onepagecheckout in magento,I want the dropdown(select option) button instead of radio button .........so that i could select the payment method to pay the payment.\n\n&lt;?php if (!$methods = $this-&gt;getMethods()) : ?&gt;\n  &lt;p&gt;&lt;?php echo $this-&gt;helper('ch"
+        },
+        {
+          "question_id": 37493520,
+          "question_text": "Title: how to remove rows based on some conditions | Body: My data looks like this:\n\nrow  ID  YU  DV\n 1    1   0   .\n 2    1   .   .\n 3    1   .   .\n 4    1   .   .\n 5    1   45  .\n 6    1   .   7\n 7    1   .   .\n 8    1   .   .\n 9    1   .   .\n 10   1   65  .\n 11   1   .   5\n 12   1   .   .\n 13   1   .   .\n 14   1   .   .\n 15   2   20  .\n 16   2   .   .\n 1"
+        }
+      ]
+    }
+  },
+  "clusters_b": {
+    "0": {
+      "size": 26,
+      "samples": [
+        {
+          "concept_id": "T-0",
+          "concept_name": "python"
+        },
+        {
+          "concept_id": "T-1",
+          "concept_name": "database"
+        },
+        {
+          "concept_id": "T-4",
+          "concept_name": "multithreading"
+        }
+      ]
+    },
+    "1": {
+      "size": 13,
+      "samples": [
+        {
+          "concept_id": "T-3",
+          "concept_name": "linux"
+        },
+        {
+          "concept_id": "T-5",
+          "concept_name": "c++"
+        },
+        {
+          "concept_id": "T-17",
+          "concept_name": "wpf"
+        }
+      ]
+    },
+    "2": {
+      "size": 11,
+      "samples": [
+        {
+          "concept_id": "T-2",
+          "concept_name": ".net"
+        },
+        {
+          "concept_id": "T-9",
+          "concept_name": "html"
+        },
+        {
+          "concept_id": "T-12",
+          "concept_name": "asp.net"
+        }
+      ]
+    }
+  },
+  "pairs": [
+    {
+      "ca": 0,
+      "cb": 0,
+      "size_a": 24,
+      "size_b": 26,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          0,
+          8
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          9,
+          13
+        ],
+        [
+          21,
+          7
+        ],
+        [
+          8,
+          35
+        ],
+        [
+          8,
+          36
+        ],
+        [
+          9,
+          20
+        ],
+        [
+          0,
+          48
+        ],
+        [
+          9,
+          46
+        ],
+        [
+          25,
+          13
+        ],
+        [
+          26,
+          11
+        ],
+        [
+          28,
+          10
+        ],
+        [
+          32,
+          1
+        ],
+        [
+          26,
+          31
+        ],
+        [
+          26,
+          35
+        ],
+        [
+          29,
+          20
+        ],
+        [
+          32,
+          24
+        ],
+        [
+          22,
+          41
+        ],
+        [
+          24,
+          40
+        ],
+        [
+          25,
+          46
+        ],
+        [
+          31,
+          48
+        ],
+        [
+          35,
+          0
+        ],
+        [
+          35,
+          11
+        ],
+        [
+          38,
+          8
+        ],
+        [
+          39,
+          1
+        ],
+        [
+          35,
+          31
+        ],
+        [
+          39,
+          24
+        ],
+        [
+          39,
+          27
+        ]
+      ],
+      "tokens": {
+        "prompt": 8322,
+        "completion": 685
+      }
+    },
+    {
+      "ca": 0,
+      "cb": 1,
+      "size_a": 24,
+      "size_b": 13,
+      "sample_rate": 0.04,
+      "matches": [
+        [
+          0,
+          22
+        ],
+        [
+          1,
+          26
+        ],
+        [
+          3,
+          26
+        ],
+        [
+          6,
+          5
+        ],
+        [
+          7,
+          18
+        ],
+        [
+          7,
+          19
+        ],
+        [
+          7,
+          33
+        ],
+        [
+          32,
+          21
+        ],
+        [
+          33,
+          18
+        ],
+        [
+          33,
+          33
+        ]
+      ],
+      "tokens": {
+        "prompt": 5418,
+        "completion": 422
+      }
+    },
+    {
+      "ca": 0,
+      "cb": 2,
+      "size_a": 24,
+      "size_b": 11,
+      "sample_rate": 0.04,
+      "matches": [
+        [
+          20,
+          14
+        ],
+        [
+          21,
+          2
+        ],
+        [
+          25,
+          14
+        ],
+        [
+          34,
+          16
+        ],
+        [
+          36,
+          12
+        ],
+        [
+          36,
+          23
+        ]
+      ],
+      "tokens": {
+        "prompt": 5370,
+        "completion": 361
+      }
+    },
+    {
+      "ca": 1,
+      "cb": 0,
+      "size_a": 9,
+      "size_b": 26,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          27,
+          4
+        ],
+        [
+          30,
+          1
+        ],
+        [
+          14,
+          38
+        ],
+        [
+          37,
+          35
+        ],
+        [
+          37,
+          46
+        ]
+      ],
+      "tokens": {
+        "prompt": 3035,
+        "completion": 236
+      }
+    },
+    {
+      "ca": 1,
+      "cb": 1,
+      "size_a": 9,
+      "size_b": 13,
+      "sample_rate": 0.04,
+      "matches": [
+        [
+          19,
+          21
+        ],
+        [
+          23,
+          21
+        ],
+        [
+          23,
+          22
+        ],
+        [
+          27,
+          21
+        ],
+        [
+          30,
+          21
+        ],
+        [
+          37,
+          21
+        ]
+      ],
+      "tokens": {
+        "prompt": 1980,
+        "completion": 155
+      }
+    },
+    {
+      "ca": 1,
+      "cb": 2,
+      "size_a": 9,
+      "size_b": 11,
+      "sample_rate": 0.08,
+      "matches": [
+        [
+          37,
+          42
+        ]
+      ],
+      "tokens": {
+        "prompt": 1041,
+        "completion": 76
+      }
+    },
+    {
+      "ca": 2,
+      "cb": 0,
+      "size_a": 17,
+      "size_b": 26,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          10,
+          6
+        ],
+        [
+          15,
+          1
+        ],
+        [
+          18,
+          11
+        ],
+        [
+          40,
+          1
+        ],
+        [
+          42,
+          15
+        ],
+        [
+          10,
+          27
+        ],
+        [
+          10,
+          30
+        ],
+        [
+          11,
+          20
+        ],
+        [
+          15,
+          24
+        ],
+        [
+          17,
+          34
+        ],
+        [
+          18,
+          31
+        ],
+        [
+          18,
+          32
+        ],
+        [
+          43,
+          8
+        ],
+        [
+          44,
+          7
+        ],
+        [
+          44,
+          15
+        ],
+        [
+          45,
+          0
+        ],
+        [
+          46,
+          1
+        ],
+        [
+          48,
+          0
+        ],
+        [
+          46,
+          35
+        ],
+        [
+          49,
+          36
+        ],
+        [
+          46,
+          46
+        ]
+      ],
+      "tokens": {
+        "prompt": 6313,
+        "completion": 483
+      }
+    },
+    {
+      "ca": 2,
+      "cb": 1,
+      "size_a": 17,
+      "size_b": 13,
+      "sample_rate": 0.04,
+      "matches": [
+        [
+          17,
+          5
+        ],
+        [
+          41,
+          19
+        ],
+        [
+          44,
+          17
+        ],
+        [
+          45,
+          21
+        ]
+      ],
+      "tokens": {
+        "prompt": 4122,
+        "completion": 263
+      }
+    },
+    {
+      "ca": 2,
+      "cb": 2,
+      "size_a": 17,
+      "size_b": 11,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          11,
+          9
+        ],
+        [
+          42,
+          9
+        ],
+        [
+          42,
+          49
+        ],
+        [
+          44,
+          2
+        ],
+        [
+          44,
+          12
+        ],
+        [
+          44,
+          23
+        ],
+        [
+          46,
+          9
+        ],
+        [
+          46,
+          49
+        ]
+      ],
+      "tokens": {
+        "prompt": 4090,
+        "completion": 281
+      }
+    }
+  ]
+}

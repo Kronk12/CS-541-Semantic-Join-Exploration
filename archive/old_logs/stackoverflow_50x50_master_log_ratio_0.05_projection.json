@@ -1,0 +1,476 @@
+{
+  "fixed_tokens": {
+    "prompt": 8223,
+    "completion": 645
+  },
+  "clusters_a": {
+    "0": {
+      "size": 20,
+      "samples": [
+        {
+          "question_id": 8023930,
+          "question_text": "Title: Best way to achieve C break or Python pass in a SQL case expression? | Body: Given a SQL CASE expression with nested CASE expressions, I'm looking for the best way to emulate a C break or Python pass within a nested CASE expression so I can evaluate the rest of the outer WHEN choices.\n\nFor example, imagine\n\nselect CASE \n         WHEN C1 THEN CASE\n                      WHEN C"
+        },
+        {
+          "question_id": 12198670,
+          "question_text": "Title: select option in payment method instead of radion button in magento | Body: This is my methods.phtml file in onepagecheckout in magento,I want the dropdown(select option) button instead of radio button .........so that i could select the payment method to pay the payment.\n\n&lt;?php if (!$methods = $this-&gt;getMethods()) : ?&gt;\n  &lt;p&gt;&lt;?php echo $this-&gt;helper('ch"
+        },
+        {
+          "question_id": 37493520,
+          "question_text": "Title: how to remove rows based on some conditions | Body: My data looks like this:\n\nrow  ID  YU  DV\n 1    1   0   .\n 2    1   .   .\n 3    1   .   .\n 4    1   .   .\n 5    1   45  .\n 6    1   .   7\n 7    1   .   .\n 8    1   .   .\n 9    1   .   .\n 10   1   65  .\n 11   1   .   5\n 12   1   .   .\n 13   1   .   .\n 14   1   .   .\n 15   2   20  .\n 16   2   .   .\n 1"
+        }
+      ]
+    },
+    "1": {
+      "size": 30,
+      "samples": [
+        {
+          "question_id": 6223240,
+          "question_text": "Title: After importing into eclipse using eGit, can't compile and run. What do I do? | Body: After importing a standard .java file into Eclipse using Git, I tried to compile and run the  file. Eclipse gave me this error: \n\n\"Unable to launch: The selection cannot be launched, and there are no recent launches.\"\n\n\nWhat do I do?\n"
+        },
+        {
+          "question_id": 14740150,
+          "question_text": "Title: OSX Dashboard Widget File URI | Body: I'm trying to update a dashboard widget that has stopped working, I think with the upgrade to either Lion or Mountain Lion.\n\nThe widget has a drop zone for dropping files onto, which then uploads them to a web service.\n\nHowever, my ondrop event handler is returning an empty string for the text/uri-l"
+        },
+        {
+          "question_id": 2250080,
+          "question_text": "Title: java.lang.UnsatisfiedLinkError: Method inside dll is not accessible | Body: I am trying to access the function available inside the .dll file. But it give exception like \"Exception in thread \"main\" java.lang.UnsatisfiedLinkError: *.jniGetAudioInputLevel()D\". DLL file is loaded but when I try to access the methods it give an error message.\n\nAccording to my knowledge:- \n\n\nThi"
+        }
+      ]
+    }
+  },
+  "clusters_b": {
+    "0": {
+      "size": 39,
+      "samples": [
+        {
+          "concept_id": "T-0",
+          "concept_name": "python"
+        },
+        {
+          "concept_id": "T-1",
+          "concept_name": "database"
+        },
+        {
+          "concept_id": "T-2",
+          "concept_name": ".net"
+        }
+      ]
+    },
+    "1": {
+      "size": 11,
+      "samples": [
+        {
+          "concept_id": "T-9",
+          "concept_name": "html"
+        },
+        {
+          "concept_id": "T-12",
+          "concept_name": "asp.net"
+        },
+        {
+          "concept_id": "T-14",
+          "concept_name": "javascript"
+        }
+      ]
+    }
+  },
+  "pairs": [
+    {
+      "ca": 0,
+      "cb": 0,
+      "size_a": 20,
+      "size_b": 39,
+      "sample_rate": 0.04,
+      "matches": [
+        [
+          10,
+          6
+        ],
+        [
+          15,
+          1
+        ],
+        [
+          17,
+          5
+        ],
+        [
+          10,
+          24
+        ],
+        [
+          15,
+          24
+        ],
+        [
+          18,
+          11
+        ],
+        [
+          19,
+          21
+        ],
+        [
+          10,
+          27
+        ],
+        [
+          10,
+          30
+        ],
+        [
+          17,
+          34
+        ],
+        [
+          18,
+          32
+        ],
+        [
+          18,
+          31
+        ],
+        [
+          14,
+          38
+        ],
+        [
+          19,
+          38
+        ],
+        [
+          40,
+          1
+        ],
+        [
+          40,
+          8
+        ],
+        [
+          41,
+          5
+        ],
+        [
+          45,
+          1
+        ],
+        [
+          45,
+          8
+        ],
+        [
+          46,
+          1
+        ],
+        [
+          48,
+          0
+        ],
+        [
+          41,
+          19
+        ],
+        [
+          42,
+          15
+        ],
+        [
+          44,
+          17
+        ],
+        [
+          45,
+          21
+        ],
+        [
+          40,
+          27
+        ],
+        [
+          49,
+          36
+        ]
+      ],
+      "tokens": {
+        "prompt": 9618,
+        "completion": 744
+      }
+    },
+    {
+      "ca": 0,
+      "cb": 1,
+      "size_a": 20,
+      "size_b": 11,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          11,
+          9
+        ],
+        [
+          11,
+          49
+        ],
+        [
+          42,
+          9
+        ],
+        [
+          46,
+          35
+        ],
+        [
+          42,
+          49
+        ]
+      ],
+      "tokens": {
+        "prompt": 4642,
+        "completion": 306
+      }
+    },
+    {
+      "ca": 1,
+      "cb": 0,
+      "size_a": 30,
+      "size_b": 39,
+      "sample_rate": 0.04,
+      "matches": [
+        [
+          0,
+          8
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          6,
+          5
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          8,
+          0
+        ],
+        [
+          0,
+          22
+        ],
+        [
+          5,
+          21
+        ],
+        [
+          7,
+          19
+        ],
+        [
+          9,
+          13
+        ],
+        [
+          9,
+          20
+        ],
+        [
+          1,
+          26
+        ],
+        [
+          3,
+          26
+        ],
+        [
+          7,
+          33
+        ],
+        [
+          8,
+          36
+        ],
+        [
+          0,
+          48
+        ],
+        [
+          9,
+          46
+        ],
+        [
+          21,
+          2
+        ],
+        [
+          23,
+          8
+        ],
+        [
+          27,
+          8
+        ],
+        [
+          28,
+          10
+        ],
+        [
+          23,
+          21
+        ],
+        [
+          23,
+          22
+        ],
+        [
+          25,
+          13
+        ],
+        [
+          26,
+          11
+        ],
+        [
+          27,
+          21
+        ],
+        [
+          29,
+          20
+        ],
+        [
+          20,
+          34
+        ],
+        [
+          26,
+          31
+        ],
+        [
+          24,
+          40
+        ],
+        [
+          32,
+          1
+        ],
+        [
+          35,
+          0
+        ],
+        [
+          38,
+          8
+        ],
+        [
+          32,
+          24
+        ],
+        [
+          33,
+          18
+        ],
+        [
+          37,
+          21
+        ],
+        [
+          39,
+          24
+        ],
+        [
+          32,
+          27
+        ],
+        [
+          33,
+          33
+        ],
+        [
+          35,
+          31
+        ],
+        [
+          39,
+          27
+        ],
+        [
+          31,
+          48
+        ],
+        [
+          37,
+          46
+        ]
+      ],
+      "tokens": {
+        "prompt": 13331,
+        "completion": 1123
+      }
+    },
+    {
+      "ca": 1,
+      "cb": 1,
+      "size_a": 30,
+      "size_b": 11,
+      "sample_rate": 0.08,
+      "matches": [
+        [
+          1,
+          14
+        ],
+        [
+          8,
+          35
+        ],
+        [
+          21,
+          12
+        ],
+        [
+          21,
+          23
+        ],
+        [
+          25,
+          14
+        ],
+        [
+          26,
+          35
+        ],
+        [
+          32,
+          42
+        ],
+        [
+          34,
+          16
+        ],
+        [
+          36,
+          12
+        ],
+        [
+          36,
+          23
+        ],
+        [
+          37,
+          35
+        ]
+      ],
+      "tokens": {
+        "prompt": 6415,
+        "completion": 475
+      }
+    }
+  ]
+}

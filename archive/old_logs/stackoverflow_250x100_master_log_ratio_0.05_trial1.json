@@ -1,0 +1,3501 @@
+{
+  "fixed_tokens": {
+    "prompt": 41049,
+    "completion": 2426
+  },
+  "clusters_a": {
+    "0": {
+      "size": 14,
+      "samples": [
+        {
+          "question_id": 31584230,
+          "question_text": "Title: Fragment communicating with an Activity | Body: I am confused about how communication with a Fragment and an Activity is made. For example, an interface was defined here (http://developer.android.com/intl/ko/training/basics/fragments/communicating.html).  public class HeadlinesFragment extends ListFragment {     OnHeadlineSelectedListener mCallback;      // Container Activity must implement th"
+        },
+        {
+          "question_id": 25485250,
+          "question_text": "Title: ZPL passing parameters to the labels prints with misplaced data | Body: We are using Zebra Designer Pro to create the templates. We have placed various labels on the templates to which we pass values dynamically through the code at the runtime.  We are doing this by creating ZPL in the code and appending various parameter values which we want to print in the ZPL. Method to create the label is "
+        },
+        {
+          "question_id": 16016060,
+          "question_text": "Title: Change blueprints or Reload flask app during runtime | Body: I'm writing a Flask app that supports a plugin architecture. Each plugin lives in a separate folder and is a module that has at least one class which subclasses a Plugin class. For security reasons, I don't want to load all the plugins when the flask app is initially run. Instead, the user can enable plugins from within the flask app"
+        }
+      ]
+    },
+    "1": {
+      "size": 23,
+      "samples": [
+        {
+          "question_id": 24049000,
+          "question_text": "Title: Initiating a TransactionScope from Excel VBA? | Body: I have some existing c# code that I'd like to expose via com interop so that it can be called from Excel VBA.  As I will be performing many nested batch update operations, I need to support transactions, and to minimize the refactoring required at the c# level, I'd like to use the TransactionScope approach:  Implementing an Implicit Transac"
+        },
+        {
+          "question_id": 14046830,
+          "question_text": "Title: DataGridView - Use DataPropertyName to show child element property | Body: Lets image that I have the following classes  public class Master {     public string MasterName = \"Something\";      public List&lt;Detail&gt; details = new List&lt;Detail&gt;(); }  public class Detail  {     public string Foo = \"Test\"; }   And then I want to show the collection of Details objects in a DataGridView, usi"
+        },
+        {
+          "question_id": 23272890,
+          "question_text": "Title: How can I temporarily disable constraints on my table? | Body: After going through this post, I am trying to add the following command in my stored procedure:  ALTER TABLE MyTable NOCHECK CONSTRAINT ALL   But the editor underlines it and shows this error:  SQL70005: The ALL option cannot be used to modify constraints. You must use individual constraint names instead   I'm using VS2013 Express "
+        }
+      ]
+    },
+    "2": {
+      "size": 24,
+      "samples": [
+        {
+          "question_id": 10314070,
+          "question_text": "Title: Java: How to convert a String into an subclass data type? | Body: I want to convert a String to an subclass data type, how can it be done? or it is possible?  I have a abstract class Acct  A public abstract class SinAcct extends Acct  A public class SavAcct extends SinAcct   In SavAcct, there is a constructor   public SavAcct(String acctNo, String name, ConsolidateAccount ownerAcct, double las"
+        },
+        {
+          "question_id": 16855780,
+          "question_text": "Title: Array of pointers to Eigen Matrices | Body: I am using MatrixXd matrices from Eigen on my code, and at a certain point I need a 3D one. Since Eigen does not have tridimensional matrix types, as it is optimized just for linear algebra, instead I am creating a pointer array of the MatrixXd type:  Eigen::MatrixXd *CVM =new Eigen::MatrixXd[100]; for (int i = 0; i &lt; 100; i++){    CVM[i]= Eigen::"
+        },
+        {
+          "question_id": 29776850,
+          "question_text": "Title: clang++ error on late default template parameter declaration | Body: The following code compiles fine with g++, but not with clang++ (3.6):  // Forward declaration: template &lt;class S, class T&gt; struct Base;  template &lt;class T&gt; struct BaseFriend {     friend struct Base&lt;int, T&gt;; };  // Actual declaration: template &lt;class S, class T = int&gt; struct Base {     void foo() {} }"
+        }
+      ]
+    },
+    "3": {
+      "size": 17,
+      "samples": [
+        {
+          "question_id": 9809210,
+          "question_text": "Title: web service modify return value | Body: We have a lot of web services (.asmx files, which can be accessed for example from http://localhost/ApplicationName/VeryAncientWebService.asmx).  Also we have a sad bug, and the most painless solution to fix it - modify return value.  I know about IParameterInspector for WCF - thats really powerfull thing with  public void AfterCall(string operationName,"
+        },
+        {
+          "question_id": 9573010,
+          "question_text": "Title: python SimpleHTTPRequestHandler server leaves socket in TIME_WAIT state after exit | Body: I have a simple server written that extends the SimpleHTTPRequestHandler  If I start and stop it without making any requests to the server, I can start back up on the same port with no problem.  When started, a netstat looks like this:   sam@hersheezy:server$ sudo netstat -na --program | grep 8001 tcp   "
+        },
+        {
+          "question_id": 17125720,
+          "question_text": "Title: Twitter API 1.1 Search with C# (in a PCL) | Body: I have a Windows 8 and a Windows Phone 8 app that serves as a social media dashboard and it get's tweets using the twitter search api. This was originally implemented using the Twitter API 1 and worked with no authentication so since it didn't need any additional 3rd party libs it was placed in the PCL part of the solution. For the same reason "
+        }
+      ]
+    },
+    "4": {
+      "size": 14,
+      "samples": [
+        {
+          "question_id": 26690360,
+          "question_text": "Title: How to verify HMAC java | Body: I've got the following code to compute Hmacs with a password:   public static void main(String[] args) throws NoSuchAlgorithmException, InvalidKeyException  {   String password = \"password123\";   SecretKeySpec keySpec = new SecretKeySpec(password.getBytes(), \"HmacSHA1\");    Mac mac = Mac.getInstance(\"HmacSHA1\");   mac.init(keySpec);    byte[] result = mac.doFina"
+        },
+        {
+          "question_id": 17366490,
+          "question_text": "Title: Use Keychain before api level 14 | Body: I am working on an Android app with min API version 10 and target 17. I want to use KeyChain but it is not supported before ICS.  Can someone suggest something similar or a solution for this problem?  Thank you so much "
+        },
+        {
+          "question_id": 23745130,
+          "question_text": "Title: Searching for the last instance of data in a list | Body: I have an assignment to write a function that searches for the last instance of data (integer in this case) in a list. The function breaks with access violation on the line with if statement.   Node* List::SearchLast (int val) {     Node* pLast=NULL;     Node* pNode=pHead;     while (pHead!=NULL)     {         if (pNode-&gt;data==val)  "
+        }
+      ]
+    },
+    "5": {
+      "size": 27,
+      "samples": [
+        {
+          "question_id": 20373460,
+          "question_text": "Title: C# Word Interop encoding on pasting HTML from Clipboard | Body: In order to paste formatted HTML in a Word document, I am using this approach HtmlFragment that was recommended several times here. My problem now is the charset that is not recognized. I already add this in the HtmlFragment to generate proper encode:  &lt;meta http-equiv=\"\"Content-Type\"\" content=\"\"text/html; charset=iso-8859-2\"\" "
+        },
+        {
+          "question_id": 4210270,
+          "question_text": "Title: allow users to create forms within android survey/data collection app | Body: I'm trying to develop an Android app that could be used by advocacy groups or campaigners such that they would be able to create their own forms (surveys) for which they can go out canvassing and collect opinion data from people who don't have Internet connections and thus can't take surveys/polls online. Could also "
+        },
+        {
+          "question_id": 4877260,
+          "question_text": "Title: Copy file from TrueCrypt volume to clipboard? | Body: I use this code to copy files to Clipboard:  IDataObject data = new DataObject(); data.SetData(DataFormats.FileDrop, new string[] {@\"X:\\test.doc\"}); MemoryStream memo = new MemoryStream(4); byte[] bytes = new byte[] { (byte)(5), 0, 0, 0 }; memo.Write(bytes, 0, bytes.Length); data.SetData(\"Preferred DropEffect\", memo); Clipboard.SetDataObjec"
+        }
+      ]
+    },
+    "6": {
+      "size": 19,
+      "samples": [
+        {
+          "question_id": 18189840,
+          "question_text": "Title: ASP FormView Item Template add empty to dropdown list? | Body: I have a formview in a ASP form that I use to edit and view information. The form contains a lot of dropdownlist controls and most of them aren't required fields. In the edit template I use ddlInfoEstStatus.Items.Insert(0, new ListItem(\"\", \"*\")); to show an empty row.  The problem I am having is that using the code above doesn't wo"
+        },
+        {
+          "question_id": 7845470,
+          "question_text": "Title: ASP.NET MVC : validation domain password | Body: In an ASP.NET MVC 3.0 application (intranet), the end user is logged on the domain (sample : MyDomain\\User1. In my application there is a validation section, when I want to valid a jQuery UI popup appear and I have to enter password of the user logged.   I'd like to know :    how can I check if the password receive in the action method match wit"
+        },
+        {
+          "question_id": 32551300,
+          "question_text": "Title: text by right positioned iframe | Body: I would like to make an index (iframe) of a page but I can not done in front of the text. The text comes behind iframe or iframe not on the right corner, no matter what I try.  page.html  &lt;?xml version=\"1.0\" encoding=\"UTF-8\"?&gt; &lt;!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\"&gt; &lt;html "
+        }
+      ]
+    },
+    "7": {
+      "size": 21,
+      "samples": [
+        {
+          "question_id": 10734080,
+          "question_text": "Title: memory access vs. memory copy | Body: I am writing an application in C++ that needs to read-only from the same memory many times from many threads.  My question is from a performance point of view will it be better to copy the memory for each thread or give all threads the same pointer and have all of them access the same memory.  Thanks "
+        },
+        {
+          "question_id": 11390850,
+          "question_text": "Title: How std::cout works | Body:    Possible Duplicate:   What&#39;s the difference between cout&lt;&lt;cout and cout&lt;&lt;&amp;cout in c++?       I accidentally found:  cout &lt;&lt; cout;   The output is some address. What does this address mean, and why is it shown? I am looking this question.  Thanks "
+        },
+        {
+          "question_id": 7837270,
+          "question_text": "Title: How .NET's regex engine treats RTL+LTR mixed strings? | Body: I have a mixed Hebrew/english string to parse. The string is built like this:  [3 hebrew] [2 english 2] [1 hebrew],   So, it can be read as: 1 2 3, and it is stored as 3 2 1 (exact byte sequence in file, double-checked in hex editor, and anyway RTL is only the display attribute). .NET regex parser has RTL option, which (when given f"
+        }
+      ]
+    },
+    "8": {
+      "size": 44,
+      "samples": [
+        {
+          "question_id": 7875850,
+          "question_text": "Title: Java - Reversing words in a string | Body: This is our code:      import java.io.File; import java.io.FileNotFoundException; import java.util.*; import java.util.regex.Matcher; import java.util.regex.Pattern;  public class reverse {  public static void main(String[] args) throws FileNotFoundException {     File fil = new File(\"textFile.txt\");     Scanner scan = new Scanner(fil);      while (sc"
+        },
+        {
+          "question_id": 30160340,
+          "question_text": "Title: NullPointerException on return new[] | Body: I have a very strange problem with NullPointerException. Code example is as follows:  ... ... public String[] getParams(...) { ...   ... ...   ...  143   return new String[] { 144     getUserFullName(), 145     StringUtil.formatDate(sent),  .      tiltu,  .      StringUtil.initCap(user.getName()),  .      vuosi.toString(),  .      asiatyyppi[0] + \" "
+        },
+        {
+          "question_id": 12158810,
+          "question_text": "Title: Database connection reuse | Body: I am writing a simple class to make a connection with the database. I want to reuse the class through out my application. Can anyone tell me, how should i do it? I am using JSP and JavaBeans.  "
+        }
+      ]
+    },
+    "9": {
+      "size": 20,
+      "samples": [
+        {
+          "question_id": 10010430,
+          "question_text": "Title: Strange thing With CTYPE_ALNUM | Body: i have this strange problem with the PHP function CTYPE_ALNUM  if i do:  PHP:     $words=\"\u00c3\u00a0\u00c3\u00b2\u00c3\u00a8\";   if(ctype_alnum($words)){     Echo \"Don't work\";  }else{     Echo \"Work\";       }   this will echo out 'Work'  BUT if i have a form and in that form i insert the letters with the grave like (\u00c3\u00a0 , \u00c3\u00a8, \u00c3\u00b2) this will echo out 'Don't Work'   Code:    &lt;form a"
+        },
+        {
+          "question_id": 19867580,
+          "question_text": "Title: Insert a file to google drive using google app engine. python client api used | Body: Using Google App Engine, I am trying to insert a file \"a.txt\" into my google drive. The error that i get when i view page source of InsertDrive page is   HttpError 401 \"Login Required\" bound method InsertDrive.error of main.InsertDrive object at 0x10f884b0  Note: I am calling class InsertDrive from my MainHan"
+        },
+        {
+          "question_id": 35066040,
+          "question_text": "Title: Is it fine to define a variable after it is used in Less and not before? | Body: So, the question actually is if it is just fine to use:  .mytest {   border:1px solid @black; } @black: #000;   instead of   @black: #000; .mytest {   border:1px solid @black; }   I don't see any warnings when I do this and it works fine - the result is   .mytest {   border: 1px solid #000; }   for both cases.  De"
+        }
+      ]
+    },
+    "10": {
+      "size": 11,
+      "samples": [
+        {
+          "question_id": 39312530,
+          "question_text": "Title: Mock property return value gets overridden when instantiating mock object | Body: Background  I'm trying to set up a test fixture for an application I'm writing in which one of my classes is replaced with a mock. I'm happy to leave most of the attributes of the mock class as the default MagicMock instances (where I'm only interested in making assertions about their usage), but the class also h"
+        },
+        {
+          "question_id": 14350200,
+          "question_text": "Title: Want a SQL Query to know the Oracle RAC Node hit by the Current JDBC Connection | Body: I am trying to use Load Balance where I have 3 RAC nodes in my Oracle 10g Database like db1, db2, db3. I have developed a Java program with JDBC connection. This JDBC connection uses load balance. My problem is that I want to print the RAC node (whether db1 or db2 or db3) which is hit by this JDBC connectio"
+        },
+        {
+          "question_id": 10000790,
+          "question_text": "Title: Can't get mac address with ioctl on Linux when disconnected from Wifi | Body: I'm getting a mac address using this method:  #include &lt;sys/ioctl.h&gt; #include &lt;net/if.h&gt;  #include &lt;unistd.h&gt; #include &lt;netinet/in.h&gt; #include &lt;string.h&gt;  int main() {     ifreq ifr;     ifconf ifc;     char buf[1024];     int success = 0;      int sock = socket(AF_INET, SOCK_DGRAM, IPPR"
+        }
+      ]
+    },
+    "11": {
+      "size": 16,
+      "samples": [
+        {
+          "question_id": 29245710,
+          "question_text": "Title: Why my lambdas do not work? | Body: I struggle with making lambdas work. The code here is example, but it shows my problem well.  lambdas = list()  for i in range(5):     lambdas.append(lambda x:i*i*x)   print lambdas[0](1) print lambdas[2](1)   This give me 16, but I expect to have different value for different lambda. Why is happening! "
+        },
+        {
+          "question_id": 33287490,
+          "question_text": "Title: How can I speed up hybrid property queries in SQLAlchemy? | Body: Is there a good way to speed up querying hybrid properties in SQLALchemy that involve relationships? I have the following two tables:  class Child(Base):      __tablename__ = 'Child'      id = Column(Integer, primary_key=True)       is_boy = Column(Boolean, default=False)      parent_id = Column(Integer, ForeignKey('Parent.id'))"
+        },
+        {
+          "question_id": 8510830,
+          "question_text": "Title: Testing a Django app in many separate threads | Body: I'd like to run my Django app's tests in several threads (possibly dozens) in parallel. This is because my app spends almost all of its time waiting for remote requests, and I reckon that if I run the tests in parallel, they would all work at the same time without slowing each other down, and the whole suite would be over pretty quickly.  B"
+        }
+      ]
+    }
+  },
+  "clusters_b": {
+    "0": {
+      "size": 21,
+      "samples": [
+        {
+          "concept_id": "T-13",
+          "concept_name": "regex"
+        },
+        {
+          "concept_id": "T-15",
+          "concept_name": "xml"
+        },
+        {
+          "concept_id": "T-30",
+          "concept_name": "c"
+        }
+      ]
+    },
+    "1": {
+      "size": 36,
+      "samples": [
+        {
+          "concept_id": "T-0",
+          "concept_name": "python"
+        },
+        {
+          "concept_id": "T-1",
+          "concept_name": "database"
+        },
+        {
+          "concept_id": "T-3",
+          "concept_name": "linux"
+        }
+      ]
+    },
+    "2": {
+      "size": 11,
+      "samples": [
+        {
+          "concept_id": "T-18",
+          "concept_name": "iphone"
+        },
+        {
+          "concept_id": "T-19",
+          "concept_name": "objective-c"
+        },
+        {
+          "concept_id": "T-21",
+          "concept_name": "android"
+        }
+      ]
+    },
+    "3": {
+      "size": 17,
+      "samples": [
+        {
+          "concept_id": "T-9",
+          "concept_name": "html"
+        },
+        {
+          "concept_id": "T-14",
+          "concept_name": "javascript"
+        },
+        {
+          "concept_id": "T-16",
+          "concept_name": "jquery"
+        }
+      ]
+    },
+    "4": {
+      "size": 15,
+      "samples": [
+        {
+          "concept_id": "T-2",
+          "concept_name": ".net"
+        },
+        {
+          "concept_id": "T-7",
+          "concept_name": "c#"
+        },
+        {
+          "concept_id": "T-12",
+          "concept_name": "asp.net"
+        }
+      ]
+    }
+  },
+  "pairs": [
+    {
+      "ca": 0,
+      "cb": 0,
+      "size_a": 14,
+      "size_b": 21,
+      "sample_rate": 0.04,
+      "matches": [
+        [
+          53,
+          34
+        ],
+        [
+          101,
+          46
+        ],
+        [
+          3,
+          70
+        ],
+        [
+          20,
+          75
+        ],
+        [
+          53,
+          76
+        ],
+        [
+          83,
+          77
+        ],
+        [
+          101,
+          71
+        ],
+        [
+          164,
+          71
+        ],
+        [
+          194,
+          38
+        ],
+        [
+          170,
+          71
+        ],
+        [
+          247,
+          76
+        ]
+      ],
+      "tokens": {
+        "prompt": 5111,
+        "completion": 350
+      }
+    },
+    {
+      "ca": 0,
+      "cb": 1,
+      "size_a": 14,
+      "size_b": 36,
+      "sample_rate": 0.04,
+      "matches": [
+        [
+          101,
+          20
+        ],
+        [
+          102,
+          0
+        ],
+        [
+          138,
+          0
+        ],
+        [
+          165,
+          0
+        ],
+        [
+          102,
+          40
+        ],
+        [
+          35,
+          74
+        ],
+        [
+          102,
+          73
+        ],
+        [
+          138,
+          73
+        ],
+        [
+          170,
+          0
+        ],
+        [
+          247,
+          0
+        ],
+        [
+          247,
+          10
+        ],
+        [
+          170,
+          22
+        ],
+        [
+          247,
+          51
+        ],
+        [
+          176,
+          73
+        ],
+        [
+          170,
+          98
+        ]
+      ],
+      "tokens": {
+        "prompt": 7002,
+        "completion": 501
+      }
+    },
+    {
+      "ca": 0,
+      "cb": 2,
+      "size_a": 14,
+      "size_b": 11,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          3,
+          21
+        ],
+        [
+          83,
+          21
+        ]
+      ],
+      "tokens": {
+        "prompt": 3358,
+        "completion": 192
+      }
+    },
+    {
+      "ca": 0,
+      "cb": 3,
+      "size_a": 14,
+      "size_b": 17,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          194,
+          16
+        ]
+      ],
+      "tokens": {
+        "prompt": 3484,
+        "completion": 197
+      }
+    },
+    {
+      "ca": 0,
+      "cb": 4,
+      "size_a": 14,
+      "size_b": 15,
+      "sample_rate": 0.0,
+      "matches": [],
+      "tokens": {
+        "prompt": 3452,
+        "completion": 208
+      }
+    },
+    {
+      "ca": 1,
+      "cb": 0,
+      "size_a": 23,
+      "size_b": 21,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          76,
+          34
+        ],
+        [
+          91,
+          46
+        ],
+        [
+          93,
+          39
+        ],
+        [
+          110,
+          46
+        ],
+        [
+          119,
+          34
+        ],
+        [
+          119,
+          46
+        ],
+        [
+          48,
+          76
+        ],
+        [
+          122,
+          39
+        ],
+        [
+          179,
+          34
+        ],
+        [
+          187,
+          30
+        ],
+        [
+          187,
+          34
+        ],
+        [
+          202,
+          46
+        ],
+        [
+          129,
+          76
+        ],
+        [
+          179,
+          76
+        ],
+        [
+          187,
+          76
+        ],
+        [
+          213,
+          39
+        ],
+        [
+          237,
+          46
+        ],
+        [
+          237,
+          71
+        ]
+      ],
+      "tokens": {
+        "prompt": 8442,
+        "completion": 599
+      }
+    },
+    {
+      "ca": 1,
+      "cb": 1,
+      "size_a": 23,
+      "size_b": 36,
+      "sample_rate": 0.04,
+      "matches": [
+        [
+          51,
+          6
+        ],
+        [
+          56,
+          6
+        ],
+        [
+          76,
+          6
+        ],
+        [
+          76,
+          8
+        ],
+        [
+          92,
+          1
+        ],
+        [
+          110,
+          6
+        ],
+        [
+          119,
+          8
+        ],
+        [
+          51,
+          27
+        ],
+        [
+          56,
+          27
+        ],
+        [
+          76,
+          27
+        ],
+        [
+          51,
+          80
+        ],
+        [
+          56,
+          80
+        ],
+        [
+          76,
+          80
+        ],
+        [
+          93,
+          97
+        ],
+        [
+          129,
+          1
+        ],
+        [
+          129,
+          6
+        ],
+        [
+          144,
+          1
+        ],
+        [
+          144,
+          20
+        ],
+        [
+          152,
+          6
+        ],
+        [
+          154,
+          6
+        ],
+        [
+          202,
+          6
+        ],
+        [
+          208,
+          1
+        ],
+        [
+          208,
+          6
+        ],
+        [
+          129,
+          27
+        ],
+        [
+          144,
+          24
+        ],
+        [
+          152,
+          27
+        ],
+        [
+          154,
+          27
+        ],
+        [
+          187,
+          24
+        ],
+        [
+          202,
+          27
+        ],
+        [
+          208,
+          27
+        ],
+        [
+          122,
+          73
+        ],
+        [
+          152,
+          80
+        ],
+        [
+          154,
+          80
+        ],
+        [
+          163,
+          74
+        ],
+        [
+          202,
+          80
+        ],
+        [
+          208,
+          57
+        ],
+        [
+          211,
+          1
+        ],
+        [
+          211,
+          6
+        ],
+        [
+          211,
+          11
+        ],
+        [
+          213,
+          1
+        ],
+        [
+          213,
+          6
+        ],
+        [
+          237,
+          4
+        ],
+        [
+          211,
+          27
+        ],
+        [
+          211,
+          31
+        ],
+        [
+          213,
+          27
+        ],
+        [
+          211,
+          57
+        ]
+      ],
+      "tokens": {
+        "prompt": 11537,
+        "completion": 921
+      }
+    },
+    {
+      "ca": 1,
+      "cb": 2,
+      "size_a": 23,
+      "size_b": 11,
+      "sample_rate": 0.0,
+      "matches": [],
+      "tokens": {
+        "prompt": 5554,
+        "completion": 330
+      }
+    },
+    {
+      "ca": 1,
+      "cb": 3,
+      "size_a": 23,
+      "size_b": 17,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          144,
+          9
+        ],
+        [
+          187,
+          9
+        ]
+      ],
+      "tokens": {
+        "prompt": 5743,
+        "completion": 384
+      }
+    },
+    {
+      "ca": 1,
+      "cb": 4,
+      "size_a": 23,
+      "size_b": 15,
+      "sample_rate": 0.08,
+      "matches": [
+        [
+          43,
+          2
+        ],
+        [
+          43,
+          7
+        ],
+        [
+          48,
+          7
+        ],
+        [
+          48,
+          50
+        ],
+        [
+          91,
+          7
+        ],
+        [
+          93,
+          7
+        ],
+        [
+          43,
+          63
+        ],
+        [
+          43,
+          69
+        ],
+        [
+          51,
+          62
+        ],
+        [
+          163,
+          2
+        ],
+        [
+          163,
+          7
+        ],
+        [
+          237,
+          7
+        ]
+      ],
+      "tokens": {
+        "prompt": 5695,
+        "completion": 412
+      }
+    },
+    {
+      "ca": 2,
+      "cb": 0,
+      "size_a": 24,
+      "size_b": 21,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          2,
+          46
+        ],
+        [
+          15,
+          34
+        ],
+        [
+          2,
+          70
+        ],
+        [
+          29,
+          75
+        ],
+        [
+          41,
+          70
+        ],
+        [
+          61,
+          70
+        ],
+        [
+          62,
+          70
+        ],
+        [
+          74,
+          81
+        ],
+        [
+          77,
+          70
+        ],
+        [
+          162,
+          46
+        ],
+        [
+          215,
+          30
+        ],
+        [
+          97,
+          70
+        ],
+        [
+          167,
+          70
+        ],
+        [
+          216,
+          70
+        ],
+        [
+          223,
+          30
+        ],
+        [
+          223,
+          70
+        ],
+        [
+          228,
+          75
+        ],
+        [
+          242,
+          71
+        ],
+        [
+          242,
+          75
+        ]
+      ],
+      "tokens": {
+        "prompt": 9063,
+        "completion": 590
+      }
+    },
+    {
+      "ca": 2,
+      "cb": 1,
+      "size_a": 24,
+      "size_b": 36,
+      "sample_rate": 0.04,
+      "matches": [
+        [
+          2,
+          8
+        ],
+        [
+          29,
+          5
+        ],
+        [
+          37,
+          5
+        ],
+        [
+          41,
+          5
+        ],
+        [
+          61,
+          5
+        ],
+        [
+          62,
+          8
+        ],
+        [
+          74,
+          5
+        ],
+        [
+          77,
+          5
+        ],
+        [
+          41,
+          73
+        ],
+        [
+          61,
+          73
+        ],
+        [
+          62,
+          73
+        ],
+        [
+          77,
+          73
+        ],
+        [
+          106,
+          5
+        ],
+        [
+          162,
+          5
+        ],
+        [
+          215,
+          5
+        ],
+        [
+          97,
+          51
+        ],
+        [
+          97,
+          73
+        ],
+        [
+          167,
+          73
+        ],
+        [
+          218,
+          73
+        ],
+        [
+          223,
+          5
+        ],
+        [
+          228,
+          5
+        ],
+        [
+          242,
+          5
+        ],
+        [
+          223,
+          73
+        ]
+      ],
+      "tokens": {
+        "prompt": 12365,
+        "completion": 806
+      }
+    },
+    {
+      "ca": 2,
+      "cb": 2,
+      "size_a": 24,
+      "size_b": 11,
+      "sample_rate": 0.0,
+      "matches": [],
+      "tokens": {
+        "prompt": 5968,
+        "completion": 327
+      }
+    },
+    {
+      "ca": 2,
+      "cb": 3,
+      "size_a": 24,
+      "size_b": 17,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          197,
+          28
+        ],
+        [
+          197,
+          44
+        ]
+      ],
+      "tokens": {
+        "prompt": 6157,
+        "completion": 336
+      }
+    },
+    {
+      "ca": 2,
+      "cb": 4,
+      "size_a": 24,
+      "size_b": 15,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          115,
+          7
+        ],
+        [
+          115,
+          62
+        ],
+        [
+          249,
+          7
+        ]
+      ],
+      "tokens": {
+        "prompt": 6109,
+        "completion": 393
+      }
+    },
+    {
+      "ca": 3,
+      "cb": 0,
+      "size_a": 17,
+      "size_b": 21,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          49,
+          35
+        ],
+        [
+          96,
+          15
+        ],
+        [
+          184,
+          46
+        ],
+        [
+          248,
+          71
+        ]
+      ],
+      "tokens": {
+        "prompt": 6248,
+        "completion": 388
+      }
+    },
+    {
+      "ca": 3,
+      "cb": 1,
+      "size_a": 17,
+      "size_b": 36,
+      "sample_rate": 0.08,
+      "matches": [
+        [
+          45,
+          0
+        ],
+        [
+          109,
+          51
+        ],
+        [
+          45,
+          87
+        ],
+        [
+          178,
+          8
+        ],
+        [
+          219,
+          6
+        ],
+        [
+          235,
+          8
+        ],
+        [
+          219,
+          27
+        ],
+        [
+          178,
+          87
+        ],
+        [
+          219,
+          74
+        ]
+      ],
+      "tokens": {
+        "prompt": 8518,
+        "completion": 584
+      }
+    },
+    {
+      "ca": 3,
+      "cb": 2,
+      "size_a": 17,
+      "size_b": 11,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          184,
+          21
+        ]
+      ],
+      "tokens": {
+        "prompt": 4116,
+        "completion": 239
+      }
+    },
+    {
+      "ca": 3,
+      "cb": 3,
+      "size_a": 17,
+      "size_b": 17,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          89,
+          66
+        ],
+        [
+          155,
+          66
+        ],
+        [
+          155,
+          85
+        ],
+        [
+          172,
+          42
+        ],
+        [
+          172,
+          44
+        ],
+        [
+          172,
+          66
+        ],
+        [
+          229,
+          66
+        ]
+      ],
+      "tokens": {
+        "prompt": 4242,
+        "completion": 292
+      }
+    },
+    {
+      "ca": 3,
+      "cb": 4,
+      "size_a": 17,
+      "size_b": 15,
+      "sample_rate": 0.08,
+      "matches": [
+        [
+          34,
+          2
+        ],
+        [
+          34,
+          7
+        ],
+        [
+          49,
+          7
+        ],
+        [
+          89,
+          2
+        ],
+        [
+          96,
+          2
+        ],
+        [
+          109,
+          2
+        ],
+        [
+          130,
+          7
+        ],
+        [
+          155,
+          2
+        ],
+        [
+          155,
+          12
+        ],
+        [
+          155,
+          23
+        ],
+        [
+          34,
+          64
+        ],
+        [
+          96,
+          62
+        ],
+        [
+          109,
+          64
+        ],
+        [
+          172,
+          2
+        ],
+        [
+          172,
+          12
+        ],
+        [
+          172,
+          23
+        ],
+        [
+          184,
+          2
+        ],
+        [
+          219,
+          2
+        ],
+        [
+          219,
+          12
+        ],
+        [
+          219,
+          23
+        ],
+        [
+          229,
+          2
+        ],
+        [
+          229,
+          7
+        ],
+        [
+          235,
+          2
+        ],
+        [
+          235,
+          7
+        ],
+        [
+          248,
+          12
+        ],
+        [
+          248,
+          23
+        ],
+        [
+          184,
+          64
+        ],
+        [
+          235,
+          62
+        ],
+        [
+          248,
+          63
+        ]
+      ],
+      "tokens": {
+        "prompt": 4210,
+        "completion": 361
+      }
+    },
+    {
+      "ca": 4,
+      "cb": 0,
+      "size_a": 14,
+      "size_b": 21,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          0,
+          46
+        ],
+        [
+          9,
+          34
+        ],
+        [
+          90,
+          34
+        ],
+        [
+          133,
+          41
+        ],
+        [
+          9,
+          76
+        ],
+        [
+          153,
+          34
+        ],
+        [
+          148,
+          71
+        ],
+        [
+          150,
+          76
+        ],
+        [
+          153,
+          71
+        ]
+      ],
+      "tokens": {
+        "prompt": 5579,
+        "completion": 351
+      }
+    },
+    {
+      "ca": 4,
+      "cb": 1,
+      "size_a": 14,
+      "size_b": 36,
+      "sample_rate": 0.08,
+      "matches": [
+        [
+          0,
+          8
+        ],
+        [
+          9,
+          5
+        ],
+        [
+          65,
+          1
+        ],
+        [
+          133,
+          8
+        ],
+        [
+          134,
+          1
+        ],
+        [
+          134,
+          54
+        ],
+        [
+          0,
+          74
+        ],
+        [
+          148,
+          3
+        ],
+        [
+          153,
+          1
+        ],
+        [
+          153,
+          8
+        ],
+        [
+          148,
+          45
+        ],
+        [
+          153,
+          24
+        ],
+        [
+          153,
+          27
+        ],
+        [
+          153,
+          65
+        ],
+        [
+          148,
+          98
+        ],
+        [
+          153,
+          97
+        ],
+        [
+          183,
+          92
+        ]
+      ],
+      "tokens": {
+        "prompt": 7626,
+        "completion": 495
+      }
+    },
+    {
+      "ca": 4,
+      "cb": 2,
+      "size_a": 14,
+      "size_b": 11,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          4,
+          21
+        ],
+        [
+          153,
+          21
+        ],
+        [
+          183,
+          21
+        ]
+      ],
+      "tokens": {
+        "prompt": 3670,
+        "completion": 205
+      }
+    },
+    {
+      "ca": 4,
+      "cb": 3,
+      "size_a": 14,
+      "size_b": 17,
+      "sample_rate": 0.04,
+      "matches": [
+        [
+          73,
+          9
+        ],
+        [
+          137,
+          9
+        ],
+        [
+          137,
+          28
+        ]
+      ],
+      "tokens": {
+        "prompt": 3796,
+        "completion": 221
+      }
+    },
+    {
+      "ca": 4,
+      "cb": 4,
+      "size_a": 14,
+      "size_b": 15,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          150,
+          7
+        ],
+        [
+          150,
+          29
+        ]
+      ],
+      "tokens": {
+        "prompt": 3764,
+        "completion": 208
+      }
+    },
+    {
+      "ca": 5,
+      "cb": 0,
+      "size_a": 27,
+      "size_b": 21,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          64,
+          46
+        ],
+        [
+          6,
+          71
+        ],
+        [
+          17,
+          71
+        ],
+        [
+          27,
+          71
+        ],
+        [
+          60,
+          70
+        ],
+        [
+          124,
+          38
+        ],
+        [
+          135,
+          38
+        ],
+        [
+          141,
+          38
+        ],
+        [
+          159,
+          38
+        ],
+        [
+          131,
+          71
+        ],
+        [
+          132,
+          71
+        ],
+        [
+          141,
+          75
+        ],
+        [
+          161,
+          38
+        ],
+        [
+          196,
+          15
+        ],
+        [
+          206,
+          15
+        ],
+        [
+          166,
+          71
+        ],
+        [
+          166,
+          77
+        ],
+        [
+          206,
+          71
+        ]
+      ],
+      "tokens": {
+        "prompt": 9480,
+        "completion": 652
+      }
+    },
+    {
+      "ca": 5,
+      "cb": 1,
+      "size_a": 27,
+      "size_b": 36,
+      "sample_rate": 0.04,
+      "matches": [
+        [
+          67,
+          8
+        ],
+        [
+          112,
+          8
+        ],
+        [
+          116,
+          3
+        ],
+        [
+          131,
+          1
+        ],
+        [
+          159,
+          0
+        ],
+        [
+          166,
+          3
+        ],
+        [
+          182,
+          3
+        ],
+        [
+          189,
+          8
+        ],
+        [
+          166,
+          45
+        ],
+        [
+          166,
+          98
+        ]
+      ],
+      "tokens": {
+        "prompt": 12921,
+        "completion": 847
+      }
+    },
+    {
+      "ca": 5,
+      "cb": 2,
+      "size_a": 27,
+      "size_b": 11,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          12,
+          21
+        ],
+        [
+          189,
+          21
+        ]
+      ],
+      "tokens": {
+        "prompt": 6246,
+        "completion": 368
+      }
+    },
+    {
+      "ca": 5,
+      "cb": 3,
+      "size_a": 27,
+      "size_b": 17,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          6,
+          9
+        ],
+        [
+          27,
+          9
+        ],
+        [
+          36,
+          9
+        ],
+        [
+          64,
+          9
+        ],
+        [
+          71,
+          9
+        ],
+        [
+          71,
+          14
+        ],
+        [
+          104,
+          9
+        ],
+        [
+          112,
+          14
+        ],
+        [
+          141,
+          9
+        ],
+        [
+          159,
+          14
+        ],
+        [
+          161,
+          9
+        ],
+        [
+          161,
+          49
+        ],
+        [
+          245,
+          14
+        ],
+        [
+          245,
+          42
+        ],
+        [
+          161,
+          66
+        ],
+        [
+          196,
+          91
+        ],
+        [
+          245,
+          66
+        ]
+      ],
+      "tokens": {
+        "prompt": 6435,
+        "completion": 476
+      }
+    },
+    {
+      "ca": 5,
+      "cb": 4,
+      "size_a": 27,
+      "size_b": 15,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          6,
+          7
+        ],
+        [
+          17,
+          7
+        ],
+        [
+          24,
+          17
+        ],
+        [
+          27,
+          7
+        ],
+        [
+          64,
+          29
+        ],
+        [
+          112,
+          2
+        ],
+        [
+          124,
+          7
+        ],
+        [
+          132,
+          7
+        ],
+        [
+          135,
+          29
+        ],
+        [
+          159,
+          7
+        ],
+        [
+          71,
+          63
+        ]
+      ],
+      "tokens": {
+        "prompt": 6387,
+        "completion": 461
+      }
+    },
+    {
+      "ca": 6,
+      "cb": 0,
+      "size_a": 19,
+      "size_b": 21,
+      "sample_rate": 0.12,
+      "matches": [
+        [
+          18,
+          15
+        ],
+        [
+          105,
+          13
+        ],
+        [
+          10,
+          75
+        ],
+        [
+          10,
+          76
+        ],
+        [
+          107,
+          76
+        ],
+        [
+          111,
+          76
+        ],
+        [
+          16,
+          93
+        ],
+        [
+          121,
+          46
+        ],
+        [
+          168,
+          38
+        ],
+        [
+          168,
+          76
+        ],
+        [
+          200,
+          93
+        ]
+      ],
+      "tokens": {
+        "prompt": 7421,
+        "completion": 469
+      }
+    },
+    {
+      "ca": 6,
+      "cb": 1,
+      "size_a": 19,
+      "size_b": 36,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          111,
+          1
+        ],
+        [
+          111,
+          20
+        ],
+        [
+          16,
+          74
+        ],
+        [
+          246,
+          20
+        ],
+        [
+          171,
+          92
+        ]
+      ],
+      "tokens": {
+        "prompt": 10082,
+        "completion": 611
+      }
+    },
+    {
+      "ca": 6,
+      "cb": 2,
+      "size_a": 19,
+      "size_b": 11,
+      "sample_rate": 0.0,
+      "matches": [],
+      "tokens": {
+        "prompt": 4898,
+        "completion": 273
+      }
+    },
+    {
+      "ca": 6,
+      "cb": 3,
+      "size_a": 19,
+      "size_b": 17,
+      "sample_rate": 0.04,
+      "matches": [
+        [
+          16,
+          14
+        ],
+        [
+          18,
+          9
+        ],
+        [
+          18,
+          49
+        ],
+        [
+          40,
+          9
+        ],
+        [
+          47,
+          16
+        ],
+        [
+          111,
+          42
+        ],
+        [
+          117,
+          28
+        ],
+        [
+          117,
+          58
+        ],
+        [
+          121,
+          9
+        ],
+        [
+          121,
+          16
+        ],
+        [
+          156,
+          9
+        ],
+        [
+          156,
+          28
+        ],
+        [
+          168,
+          9
+        ],
+        [
+          168,
+          28
+        ],
+        [
+          171,
+          44
+        ],
+        [
+          174,
+          16
+        ],
+        [
+          175,
+          16
+        ],
+        [
+          175,
+          42
+        ],
+        [
+          186,
+          9
+        ],
+        [
+          246,
+          9
+        ],
+        [
+          175,
+          66
+        ],
+        [
+          175,
+          86
+        ],
+        [
+          246,
+          66
+        ]
+      ],
+      "tokens": {
+        "prompt": 5024,
+        "completion": 386
+      }
+    },
+    {
+      "ca": 6,
+      "cb": 4,
+      "size_a": 19,
+      "size_b": 15,
+      "sample_rate": 0.08,
+      "matches": [
+        [
+          10,
+          12
+        ],
+        [
+          16,
+          12
+        ],
+        [
+          16,
+          23
+        ],
+        [
+          81,
+          17
+        ],
+        [
+          105,
+          7
+        ],
+        [
+          200,
+          12
+        ]
+      ],
+      "tokens": {
+        "prompt": 4992,
+        "completion": 327
+      }
+    },
+    {
+      "ca": 7,
+      "cb": 0,
+      "size_a": 21,
+      "size_b": 21,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          25,
+          39
+        ],
+        [
+          42,
+          13
+        ],
+        [
+          42,
+          46
+        ],
+        [
+          69,
+          34
+        ],
+        [
+          86,
+          39
+        ],
+        [
+          86,
+          71
+        ],
+        [
+          120,
+          39
+        ],
+        [
+          120,
+          41
+        ],
+        [
+          149,
+          39
+        ],
+        [
+          139,
+          90
+        ],
+        [
+          160,
+          71
+        ],
+        [
+          207,
+          75
+        ]
+      ],
+      "tokens": {
+        "prompt": 8016,
+        "completion": 524
+      }
+    },
+    {
+      "ca": 7,
+      "cb": 1,
+      "size_a": 21,
+      "size_b": 36,
+      "sample_rate": 0.04,
+      "matches": [
+        [
+          25,
+          4
+        ],
+        [
+          25,
+          5
+        ],
+        [
+          39,
+          5
+        ],
+        [
+          55,
+          4
+        ],
+        [
+          55,
+          20
+        ],
+        [
+          68,
+          4
+        ],
+        [
+          68,
+          5
+        ],
+        [
+          68,
+          8
+        ],
+        [
+          118,
+          4
+        ],
+        [
+          118,
+          5
+        ],
+        [
+          85,
+          87
+        ],
+        [
+          118,
+          73
+        ],
+        [
+          25,
+          97
+        ],
+        [
+          59,
+          97
+        ],
+        [
+          69,
+          97
+        ],
+        [
+          86,
+          97
+        ],
+        [
+          120,
+          5
+        ],
+        [
+          143,
+          4
+        ],
+        [
+          149,
+          5
+        ],
+        [
+          160,
+          3
+        ],
+        [
+          160,
+          5
+        ],
+        [
+          173,
+          8
+        ],
+        [
+          188,
+          5
+        ],
+        [
+          191,
+          4
+        ],
+        [
+          207,
+          5
+        ],
+        [
+          120,
+          97
+        ],
+        [
+          244,
+          4
+        ],
+        [
+          244,
+          5
+        ],
+        [
+          244,
+          97
+        ]
+      ],
+      "tokens": {
+        "prompt": 10969,
+        "completion": 786
+      }
+    },
+    {
+      "ca": 7,
+      "cb": 2,
+      "size_a": 21,
+      "size_b": 11,
+      "sample_rate": 0.0,
+      "matches": [],
+      "tokens": {
+        "prompt": 5270,
+        "completion": 291
+      }
+    },
+    {
+      "ca": 7,
+      "cb": 3,
+      "size_a": 21,
+      "size_b": 17,
+      "sample_rate": 0.0,
+      "matches": [],
+      "tokens": {
+        "prompt": 5459,
+        "completion": 291
+      }
+    },
+    {
+      "ca": 7,
+      "cb": 4,
+      "size_a": 21,
+      "size_b": 15,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          42,
+          2
+        ],
+        [
+          59,
+          7
+        ],
+        [
+          120,
+          29
+        ],
+        [
+          139,
+          7
+        ],
+        [
+          149,
+          29
+        ],
+        [
+          192,
+          2
+        ],
+        [
+          244,
+          2
+        ],
+        [
+          244,
+          62
+        ]
+      ],
+      "tokens": {
+        "prompt": 5411,
+        "completion": 353
+      }
+    },
+    {
+      "ca": 8,
+      "cb": 0,
+      "size_a": 44,
+      "size_b": 21,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          7,
+          13
+        ],
+        [
+          7,
+          46
+        ],
+        [
+          8,
+          34
+        ],
+        [
+          26,
+          41
+        ],
+        [
+          30,
+          38
+        ],
+        [
+          7,
+          71
+        ],
+        [
+          52,
+          71
+        ],
+        [
+          57,
+          77
+        ],
+        [
+          57,
+          82
+        ],
+        [
+          58,
+          71
+        ],
+        [
+          63,
+          46
+        ],
+        [
+          84,
+          35
+        ],
+        [
+          114,
+          34
+        ],
+        [
+          63,
+          71
+        ],
+        [
+          127,
+          71
+        ],
+        [
+          128,
+          81
+        ],
+        [
+          136,
+          34
+        ],
+        [
+          136,
+          46
+        ],
+        [
+          203,
+          15
+        ],
+        [
+          209,
+          13
+        ],
+        [
+          136,
+          76
+        ],
+        [
+          157,
+          71
+        ],
+        [
+          209,
+          93
+        ],
+        [
+          238,
+          15
+        ],
+        [
+          236,
+          76
+        ],
+        [
+          230,
+          93
+        ],
+        [
+          232,
+          93
+        ],
+        [
+          239,
+          15
+        ],
+        [
+          240,
+          38
+        ],
+        [
+          241,
+          39
+        ],
+        [
+          239,
+          71
+        ],
+        [
+          240,
+          71
+        ]
+      ],
+      "tokens": {
+        "prompt": 16418,
+        "completion": 1112
+      }
+    },
+    {
+      "ca": 8,
+      "cb": 1,
+      "size_a": 44,
+      "size_b": 36,
+      "sample_rate": 0.12,
+      "matches": [
+        [
+          7,
+          8
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          14,
+          1
+        ],
+        [
+          14,
+          8
+        ],
+        [
+          26,
+          8
+        ],
+        [
+          30,
+          8
+        ],
+        [
+          52,
+          1
+        ],
+        [
+          52,
+          8
+        ],
+        [
+          57,
+          8
+        ],
+        [
+          58,
+          8
+        ],
+        [
+          50,
+          22
+        ],
+        [
+          63,
+          8
+        ],
+        [
+          72,
+          8
+        ],
+        [
+          84,
+          8
+        ],
+        [
+          98,
+          8
+        ],
+        [
+          98,
+          4
+        ],
+        [
+          100,
+          8
+        ],
+        [
+          114,
+          8
+        ],
+        [
+          127,
+          1
+        ],
+        [
+          128,
+          5
+        ],
+        [
+          128,
+          3
+        ],
+        [
+          100,
+          22
+        ],
+        [
+          100,
+          32
+        ],
+        [
+          108,
+          88
+        ],
+        [
+          127,
+          65
+        ],
+        [
+          209,
+          8
+        ],
+        [
+          212,
+          8
+        ],
+        [
+          177,
+          22
+        ],
+        [
+          203,
+          32
+        ],
+        [
+          190,
+          73
+        ],
+        [
+          220,
+          8
+        ],
+        [
+          225,
+          8
+        ],
+        [
+          226,
+          8
+        ],
+        [
+          232,
+          8
+        ],
+        [
+          238,
+          8
+        ],
+        [
+          220,
+          32
+        ],
+        [
+          238,
+          32
+        ],
+        [
+          220,
+          88
+        ],
+        [
+          239,
+          8
+        ],
+        [
+          240,
+          8
+        ],
+        [
+          241,
+          8
+        ],
+        [
+          239,
+          22
+        ],
+        [
+          241,
+          22
+        ],
+        [
+          239,
+          88
+        ],
+        [
+          243,
+          73
+        ],
+        [
+          241,
+          97
+        ]
+      ],
+      "tokens": {
+        "prompt": 22359,
+        "completion": 1523
+      }
+    },
+    {
+      "ca": 8,
+      "cb": 2,
+      "size_a": 44,
+      "size_b": 11,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          127,
+          21
+        ],
+        [
+          204,
+          21
+        ],
+        [
+          212,
+          26
+        ]
+      ],
+      "tokens": {
+        "prompt": 10822,
+        "completion": 634
+      }
+    },
+    {
+      "ca": 8,
+      "cb": 3,
+      "size_a": 44,
+      "size_b": 17,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          30,
+          55
+        ],
+        [
+          44,
+          49
+        ],
+        [
+          63,
+          9
+        ],
+        [
+          100,
+          86
+        ],
+        [
+          108,
+          86
+        ],
+        [
+          225,
+          49
+        ]
+      ],
+      "tokens": {
+        "prompt": 11137,
+        "completion": 667
+      }
+    },
+    {
+      "ca": 8,
+      "cb": 4,
+      "size_a": 44,
+      "size_b": 15,
+      "sample_rate": 0.04,
+      "matches": [
+        [
+          14,
+          52
+        ],
+        [
+          52,
+          52
+        ],
+        [
+          136,
+          7
+        ],
+        [
+          136,
+          60
+        ],
+        [
+          212,
+          52
+        ],
+        [
+          230,
+          7
+        ],
+        [
+          230,
+          50
+        ],
+        [
+          234,
+          52
+        ],
+        [
+          238,
+          63
+        ],
+        [
+          240,
+          52
+        ]
+      ],
+      "tokens": {
+        "prompt": 11057,
+        "completion": 670
+      }
+    },
+    {
+      "ca": 9,
+      "cb": 0,
+      "size_a": 20,
+      "size_b": 21,
+      "sample_rate": 0.04,
+      "matches": [
+        [
+          5,
+          46
+        ],
+        [
+          46,
+          38
+        ],
+        [
+          54,
+          13
+        ],
+        [
+          54,
+          46
+        ],
+        [
+          95,
+          46
+        ],
+        [
+          11,
+          71
+        ],
+        [
+          95,
+          76
+        ],
+        [
+          5,
+          93
+        ],
+        [
+          113,
+          30
+        ],
+        [
+          123,
+          34
+        ],
+        [
+          113,
+          71
+        ],
+        [
+          145,
+          77
+        ],
+        [
+          145,
+          82
+        ]
+      ],
+      "tokens": {
+        "prompt": 7253,
+        "completion": 498
+      }
+    },
+    {
+      "ca": 9,
+      "cb": 1,
+      "size_a": 20,
+      "size_b": 36,
+      "sample_rate": 0.04,
+      "matches": [
+        [
+          5,
+          20
+        ],
+        [
+          23,
+          0
+        ],
+        [
+          23,
+          3
+        ],
+        [
+          23,
+          4
+        ],
+        [
+          54,
+          0
+        ],
+        [
+          75,
+          0
+        ],
+        [
+          78,
+          0
+        ],
+        [
+          78,
+          10
+        ],
+        [
+          87,
+          0
+        ],
+        [
+          95,
+          0
+        ],
+        [
+          87,
+          74
+        ],
+        [
+          113,
+          3
+        ],
+        [
+          123,
+          0
+        ],
+        [
+          140,
+          0
+        ],
+        [
+          145,
+          0
+        ],
+        [
+          180,
+          3
+        ],
+        [
+          195,
+          0
+        ],
+        [
+          195,
+          10
+        ],
+        [
+          210,
+          0
+        ],
+        [
+          221,
+          0
+        ],
+        [
+          231,
+          0
+        ],
+        [
+          180,
+          45
+        ],
+        [
+          123,
+          87
+        ],
+        [
+          113,
+          98
+        ],
+        [
+          180,
+          98
+        ],
+        [
+          221,
+          98
+        ]
+      ],
+      "tokens": {
+        "prompt": 9858,
+        "completion": 680
+      }
+    },
+    {
+      "ca": 9,
+      "cb": 2,
+      "size_a": 20,
+      "size_b": 11,
+      "sample_rate": 0.04,
+      "matches": [
+        [
+          11,
+          68
+        ]
+      ],
+      "tokens": {
+        "prompt": 4786,
+        "completion": 275
+      }
+    },
+    {
+      "ca": 9,
+      "cb": 3,
+      "size_a": 20,
+      "size_b": 17,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          13,
+          28
+        ],
+        [
+          13,
+          58
+        ],
+        [
+          46,
+          28
+        ],
+        [
+          46,
+          58
+        ],
+        [
+          75,
+          9
+        ],
+        [
+          75,
+          14
+        ],
+        [
+          11,
+          66
+        ],
+        [
+          75,
+          66
+        ],
+        [
+          233,
+          9
+        ]
+      ],
+      "tokens": {
+        "prompt": 4912,
+        "completion": 340
+      }
+    },
+    {
+      "ca": 9,
+      "cb": 4,
+      "size_a": 20,
+      "size_b": 15,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          180,
+          29
+        ],
+        [
+          195,
+          29
+        ],
+        [
+          221,
+          29
+        ],
+        [
+          231,
+          29
+        ]
+      ],
+      "tokens": {
+        "prompt": 4880,
+        "completion": 332
+      }
+    },
+    {
+      "ca": 10,
+      "cb": 0,
+      "size_a": 11,
+      "size_b": 21,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          22,
+          30
+        ],
+        [
+          33,
+          15
+        ],
+        [
+          79,
+          30
+        ],
+        [
+          147,
+          38
+        ],
+        [
+          201,
+          15
+        ],
+        [
+          33,
+          71
+        ],
+        [
+          224,
+          71
+        ]
+      ],
+      "tokens": {
+        "prompt": 4451,
+        "completion": 250
+      }
+    },
+    {
+      "ca": 10,
+      "cb": 1,
+      "size_a": 11,
+      "size_b": 36,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          21,
+          1
+        ],
+        [
+          21,
+          8
+        ],
+        [
+          22,
+          3
+        ],
+        [
+          66,
+          6
+        ],
+        [
+          94,
+          1
+        ],
+        [
+          19,
+          51
+        ],
+        [
+          21,
+          27
+        ],
+        [
+          66,
+          27
+        ],
+        [
+          201,
+          32
+        ],
+        [
+          21,
+          56
+        ],
+        [
+          22,
+          87
+        ],
+        [
+          224,
+          8
+        ]
+      ],
+      "tokens": {
+        "prompt": 6122,
+        "completion": 402
+      }
+    },
+    {
+      "ca": 10,
+      "cb": 2,
+      "size_a": 11,
+      "size_b": 11,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          33,
+          18
+        ],
+        [
+          33,
+          19
+        ],
+        [
+          33,
+          25
+        ],
+        [
+          33,
+          33
+        ]
+      ],
+      "tokens": {
+        "prompt": 2918,
+        "completion": 182
+      }
+    },
+    {
+      "ca": 10,
+      "cb": 3,
+      "size_a": 11,
+      "size_b": 17,
+      "sample_rate": 0.0,
+      "matches": [],
+      "tokens": {
+        "prompt": 3044,
+        "completion": 163
+      }
+    },
+    {
+      "ca": 10,
+      "cb": 4,
+      "size_a": 11,
+      "size_b": 15,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          33,
+          2
+        ],
+        [
+          33,
+          7
+        ],
+        [
+          224,
+          63
+        ],
+        [
+          224,
+          69
+        ]
+      ],
+      "tokens": {
+        "prompt": 3012,
+        "completion": 172
+      }
+    },
+    {
+      "ca": 11,
+      "cb": 0,
+      "size_a": 16,
+      "size_b": 21,
+      "sample_rate": 0.04,
+      "matches": [
+        [
+          1,
+          39
+        ],
+        [
+          1,
+          46
+        ],
+        [
+          31,
+          39
+        ],
+        [
+          32,
+          39
+        ],
+        [
+          38,
+          38
+        ],
+        [
+          88,
+          39
+        ],
+        [
+          126,
+          41
+        ],
+        [
+          142,
+          39
+        ],
+        [
+          151,
+          39
+        ],
+        [
+          151,
+          46
+        ],
+        [
+          158,
+          39
+        ],
+        [
+          158,
+          41
+        ],
+        [
+          1,
+          90
+        ],
+        [
+          151,
+          81
+        ],
+        [
+          185,
+          30
+        ],
+        [
+          193,
+          34
+        ],
+        [
+          198,
+          39
+        ],
+        [
+          205,
+          34
+        ],
+        [
+          222,
+          41
+        ]
+      ],
+      "tokens": {
+        "prompt": 6566,
+        "completion": 443
+      }
+    },
+    {
+      "ca": 11,
+      "cb": 1,
+      "size_a": 16,
+      "size_b": 36,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          1,
+          0
+        ],
+        [
+          31,
+          1
+        ],
+        [
+          32,
+          0
+        ],
+        [
+          32,
+          4
+        ],
+        [
+          38,
+          5
+        ],
+        [
+          88,
+          1
+        ],
+        [
+          88,
+          10
+        ],
+        [
+          142,
+          0
+        ],
+        [
+          151,
+          0
+        ],
+        [
+          151,
+          4
+        ],
+        [
+          158,
+          0
+        ],
+        [
+          31,
+          27
+        ],
+        [
+          32,
+          51
+        ],
+        [
+          88,
+          27
+        ],
+        [
+          142,
+          97
+        ],
+        [
+          193,
+          0
+        ],
+        [
+          198,
+          0
+        ],
+        [
+          205,
+          0
+        ]
+      ],
+      "tokens": {
+        "prompt": 8942,
+        "completion": 584
+      }
+    },
+    {
+      "ca": 11,
+      "cb": 2,
+      "size_a": 16,
+      "size_b": 11,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          146,
+          26
+        ]
+      ],
+      "tokens": {
+        "prompt": 4328,
+        "completion": 238
+      }
+    },
+    {
+      "ca": 11,
+      "cb": 3,
+      "size_a": 16,
+      "size_b": 17,
+      "sample_rate": 0.0,
+      "matches": [],
+      "tokens": {
+        "prompt": 4454,
+        "completion": 223
+      }
+    },
+    {
+      "ca": 11,
+      "cb": 4,
+      "size_a": 16,
+      "size_b": 15,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          185,
+          7
+        ],
+        [
+          193,
+          53
+        ]
+      ],
+      "tokens": {
+        "prompt": 4422,
+        "completion": 253
+      }
+    }
+  ]
+}

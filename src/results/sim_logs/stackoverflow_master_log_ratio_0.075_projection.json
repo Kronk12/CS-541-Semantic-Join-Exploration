@@ -1,74 +1,74 @@
 {
   "fixed_tokens": {
-    "prompt": 21425,
-    "completion": 3976
+    "prompt": 54599,
+    "completion": 4201
   },
   "clusters_a": {
     "0": {
-      "size": 23,
+      "size": 22,
       "samples": [
         {
-          "question_id": 23431940,
-          "question_text": "Title: C# access data from COMAdmin.COMAdminCatalog using WMI | Body: Earlier I was using code as below to grab COM+ applications and verify that my app is running\n\nCOMAdmin.COMAdminCatalog catalog = new COMAdmin.COMAdminCatalogClass();\ncatalog.Connect(servername);\ncatalog.GetCollection(\"Applications\")\n\n\nNow I need to perform the same actions but from other domain. So"
+          "question_id": 31846240,
+          "question_text": "Title: Return 'X' when sum of 9 digits divided by 11 is 10 | Body: In my code, I want charSum to return 'X' if the remainder is 10 when the sum of 9 digits is divided by 9. I tried both charSum = 'X' and charSum = (char) 88 and neither works. Something in my algorithm must be wrong. Please help.  public static char getCheckSum(String isbn) {     int sum = 0;      for (int i = 0; i &lt; isbn.length();"
         },
         {
-          "question_id": 7679020,
-          "question_text": "Title: How to write an XQuery which crosses an xsd:any element? | Body: A schema contains a &lt;xsd:any/> element. \n\nThe code, by some external information, knows that in place of any there is a specific XML structure (e.g. foo).\n\nXQuery would be looking as /Root/Child/AnotherChild/book/title.\n\nBut XQuery complains that book element is not known, and XQuery thus is not "
+          "question_id": 19786450,
+          "question_text": "Title: Using a third-party library with libgdx and GWT | Body: As I'm sure many others have, I've written my own game engine and am successfully using it with libgdx in my desktop project.  Now, it's time for me to get the HTML5 project working. I followed these directions to integrate my game engine, the \"third-party library\", into the HTML5 project. However, it hasn't gone smoothly. When I do GWT C"
         },
         {
-          "question_id": 860880,
-          "question_text": "Title: Why would I get a GPF in DLLMain when run as a restricted user? | Body: Why is this code crashing when run as a restricted user, but not when run as an admin of the machine?\n\nextern \"C\" BOOL WINAPI DllMain(HINSTANCE hInstance, \n                               DWORD dwReason, \n                               LPVOID lpReserved)\n{\n hInstance;\n m_hInstance=hInstance;\n return "
+          "question_id": 39855330,
+          "question_text": "Title: SonarLint 2.2.1 Eclipse not catching a majority of issues (unlike examples online) | Body: I want to use the SonarLint plugin for Eclipse.  I installed it, but it doesn't seem to be catching everything it should.  After installing it, I tried to write code that should trigger SonarLint issues.  For example, the picture on the site http://www.sonarlint.org/eclipse/ , indicates that SonarLint sh"
         }
       ]
     },
     "1": {
-      "size": 7,
+      "size": 29,
       "samples": [
         {
-          "question_id": 21685730,
-          "question_text": "Title: Jquery each loop + setTimeout problems with increments | Body: http://jsfiddle.net/fxLcy/ - example with setTimeout\n\nhttp://jsfiddle.net/fxLcy/1/ - this is the demo without setTimeout. All elements on right place, but i really need that delayed animation =/\n\nI want to place 6 cards per row via css transition and setTimeout. The point is, that i cant use increme"
+          "question_id": 35066040,
+          "question_text": "Title: Is it fine to define a variable after it is used in Less and not before? | Body: So, the question actually is if it is just fine to use:  .mytest {   border:1px solid @black; } @black: #000;   instead of   @black: #000; .mytest {   border:1px solid @black; }   I don't see any warnings when I do this and it works fine - the result is   .mytest {   border: 1px solid #000; }   for both cases.  De"
         },
         {
-          "question_id": 21587540,
-          "question_text": "Title: rails3 jquery autocomplete getting and passing array | Body: This may seem like an easy problem to most of you, but it's been troubling me all day. \n\nI'm trying to implement messaging system. I want to be able to send message to multiple people. for this to happen i need help with two things:\nFirstly, data-delimeter doesn't work. I'm guessing i just don't kno"
+          "question_id": 4877260,
+          "question_text": "Title: Copy file from TrueCrypt volume to clipboard? | Body: I use this code to copy files to Clipboard:  IDataObject data = new DataObject(); data.SetData(DataFormats.FileDrop, new string[] {@\"X:\\test.doc\"}); MemoryStream memo = new MemoryStream(4); byte[] bytes = new byte[] { (byte)(5), 0, 0, 0 }; memo.Write(bytes, 0, bytes.Length); data.SetData(\"Preferred DropEffect\", memo); Clipboard.SetDataObjec"
         },
         {
-          "question_id": 537140,
-          "question_text": "Title: jQuery: CSS Selectors | Body: How would I use jQuery CSS Selectors to find for instance:\n\ncss class name: \"Text\" which is a div inside of dom object \"wrapper\"?\n"
+          "question_id": 4637180,
+          "question_text": "Title: iPhone, Monotouch, and XIB outlet issues | Body: I'm having a problem with mapping controls in a subview back to fields on the owning controller. Specifically, I have mapped outlets for each of my \"controls\" to File's Owner. Monotouch then generated code for the controller's xib designer.cs file to reference these controls as properties on the controller class. However, when I run my code; I g"
         }
       ]
     },
     "2": {
-      "size": 15,
+      "size": 14,
       "samples": [
         {
-          "question_id": 10795630,
-          "question_text": "Title: Share image from SD Card | Body: I'm trying for 2 weeks to find how to share images which are stored on an SD card with no success. \n\nThis answer doesn't work to me, nor is it what I'm looking for.\n\nI'm working with Cam Preview app that stores images to SD and then display them in in-app gallery: \n\n   public class GalleryView exten"
+          "question_id": 12158810,
+          "question_text": "Title: Database connection reuse | Body: I am writing a simple class to make a connection with the database. I want to reuse the class through out my application. Can anyone tell me, how should i do it? I am using JSP and JavaBeans.  "
         },
         {
-          "question_id": 11271470,
-          "question_text": "Title: FATAL EXCEPTION: main- I have no idea what's wrong | Body: I'm still fairly new to Eclipse and I have tried everything to keep these errors from happening:\n\n06-30 00:38:28.773: E/AndroidRuntime(20520): FATAL EXCEPTION: main\n06-30 00:38:28.773: E/AndroidRuntime(20520): java.lang.SecurityException: Permission       Denial: starting Intent { act=android.intent"
+          "question_id": 33287490,
+          "question_text": "Title: How can I speed up hybrid property queries in SQLAlchemy? | Body: Is there a good way to speed up querying hybrid properties in SQLALchemy that involve relationships? I have the following two tables:  class Child(Base):      __tablename__ = 'Child'      id = Column(Integer, primary_key=True)       is_boy = Column(Boolean, default=False)      parent_id = Column(Integer, ForeignKey('Parent.id'))"
         },
         {
-          "question_id": 31936570,
-          "question_text": "Title: Crosswalk's XWalkView (an alternative to Webview) not working with AppBarLayout + CoordinatorLayout | Body: I'm trying to achieve the scrolling Toolbar technique (hiding Toolbar when scrolling down in a sibling child view) using CoordinatorLayout and AppBarLayout.\n\nI'm using Crosswalk's XWalkView (it's a view which functions like WebView).  \n\nWhen using regular WebView (inside a NestedScrollView) I can ac"
+          "question_id": 22033660,
+          "question_text": "Title: Calling stored procedure with table type input parameter in sql server 2008 | Body: I want to call a stored procedure in SQL Server 2008 from Java code. The stored procedure takes user defined table type as parameter(basically array)  Please can you give me Java syntax to call the stored procedure and pass the array as input parameter "
         }
       ]
     },
     "3": {
-      "size": 7,
+      "size": 18,
       "samples": [
         {
-          "question_id": 11985680,
-          "question_text": "Title: Jackson equivalent to @XmlSeeAlso | Body: I am writing a RESTful web service using Java and Jersey, where the service will accept either XML or JSON inputs. Jackson is used as the JSON deserializer, and integrated into the Jersey config.\n\nOne of the endpoints is a POST request to a URL, where the content can be one of several different Java"
+          "question_id": 29245710,
+          "question_text": "Title: Why my lambdas do not work? | Body: I struggle with making lambdas work. The code here is example, but it shows my problem well.  lambdas = list()  for i in range(5):     lambdas.append(lambda x:i*i*x)   print lambdas[0](1) print lambdas[2](1)   This give me 16, but I expect to have different value for different lambda. Why is happening! "
         },
         {
-          "question_id": 37796290,
-          "question_text": "Title: Vaadin app is deployed on WildFly in Openshift, but i can see only standard openshift welcome page | Body: I'm a newbie with all that vaadin, wildfly and openshift stuff, so, please, excuse me, if I will sound stupid.\n\nI deployed my app to Wildfly 10 server. Everything was fine during deployment. But now I just can't see the rendered page (only welcome page can be accessed).\n\nWhen I deploy locally I use "
+          "question_id": 19867580,
+          "question_text": "Title: Insert a file to google drive using google app engine. python client api used | Body: Using Google App Engine, I am trying to insert a file \"a.txt\" into my google drive. The error that i get when i view page source of InsertDrive page is   HttpError 401 \"Login Required\" bound method InsertDrive.error of main.InsertDrive object at 0x10f884b0  Note: I am calling class InsertDrive from my MainHan"
         },
         {
-          "question_id": 10433330,
-          "question_text": "Title: Midlet must not closed even press cut button of device | Body: I am working in J2ME. I want that my MIDlet must run for infinite time. It must not close even I press any of key from my device.\n\nPlease help me what should I do for this?\n"
+          "question_id": 16016060,
+          "question_text": "Title: Change blueprints or Reload flask app during runtime | Body: I'm writing a Flask app that supports a plugin architecture. Each plugin lives in a separate folder and is a module that has at least one class which subclasses a Plugin class. For security reasons, I don't want to load all the plugins when the flask app is initially run. Instead, the user can enable plugins from within the flask app"
         }
       ]
     },
@@ -76,92 +76,278 @@
       "size": 13,
       "samples": [
         {
-          "question_id": 22025090,
-          "question_text": "Title: Datatable filter not working | Body: I am using Primefaces for creating a filterable table.\n\n&lt;p:dataTable id=\"tasksTable\" value=\"#{taskView.currentTasks}\" var=\"task\" rowIndexVar=\"index\" filteredValue=\"#{taskView.filteredTasks}\"&gt;\n                &lt;p:column headerText=\"Name\"&gt;\n                    &lt;h:outputText value=\"#{task."
+          "question_id": 14350200,
+          "question_text": "Title: Want a SQL Query to know the Oracle RAC Node hit by the Current JDBC Connection | Body: I am trying to use Load Balance where I have 3 RAC nodes in my Oracle 10g Database like db1, db2, db3. I have developed a Java program with JDBC connection. This JDBC connection uses load balance. My problem is that I want to print the RAC node (whether db1 or db2 or db3) which is hit by this JDBC connectio"
         },
         {
-          "question_id": 16820230,
-          "question_text": "Title: Load JSON file into highcharts to draw a Line Chart | Body: I want to load a JSON file into highcharts. But, I am not being able to understand how to do it. The y-axis labels are the year values starting from 2046.  \n\nThe JSON file is as follows:\n\n{\n  \"year\":[2046,2047,2048,2049,2050,2051,2052,2053,2054,2055,2056,2057,2058,2059,2060,2061,2062,2063,2064,2065,"
+          "question_id": 23272890,
+          "question_text": "Title: How can I temporarily disable constraints on my table? | Body: After going through this post, I am trying to add the following command in my stored procedure:  ALTER TABLE MyTable NOCHECK CONSTRAINT ALL   But the editor underlines it and shows this error:  SQL70005: The ALL option cannot be used to modify constraints. You must use individual constraint names instead   I'm using VS2013 Express "
         },
         {
-          "question_id": 24781920,
-          "question_text": "Title: What causes an hierarchy request error when trying to move an svg from one div to another? | Body: I am trying to move an svg from one div to another.  This stack question offered this solution which I tried.\n\ndocument.getElementById(\"LightBoxDiv\").appendChild(svgId+\"V\");\n\nWhen I tried this, I received an hierarchy request error.  This stack question suggested several things which might be the ca"
+          "question_id": 15801640,
+          "question_text": "Title: Displaying data from JDBC select statement | Body: I am creating a program that is going to allow for displaying and manipulating data from my database. I wrote the following code based on a tutorial I found:   public class JavaApplication25 {     public static void main(String[] args) {         try {             Class.forName(\"sun.jdbc.odbc.JdbcOdbcDriver\");             String url = \"jdbc:odb"
         }
       ]
     },
     "5": {
-      "size": 17,
+      "size": 15,
       "samples": [
         {
-          "question_id": 2457320,
-          "question_text": "Title: Checklist for good email delivery in php | Body: I have a PHP application that sends email using the pear Mail function. Unfortunately all my emails end up in the junk folder.\n\nCan i get a checklist for things i should do to make sure my emails are recieved correctly.\n\nThank you\n"
+          "question_id": 15933780,
+          "question_text": "Title: Vertical scroll bar appearing even when height is not set | Body: If you save the file below in html format, you will that a vertical scroll bar appears. Since the height for   &lt;div class=\"tabData\" id=\"tab3data\" style=\"visibility: visible;\"&gt;   is not set, shouldn't it automatically expand to fit all the contents?  &lt;html dir=\"ltr\" xmlns=\"http://www.w3.org/1999/xhtml\"&gt; &lt;head&gt;  "
         },
         {
-          "question_id": 15612820,
-          "question_text": "Title: Get image from a php file to iOS | Body: I want to get image from a php file (for example: http://abc.xyz.com/api/showImage.php) for a specific user through the user id &amp; set the image in the image view of my iOS app. How can i do so?\nThanks in advance.\n"
+          "question_id": 32526760,
+          "question_text": "Title: Getting <a ref> image icon | Body: Studying webpages to learn html/css/javascript  Got confused when I thought that most images were linked to or loaded locally... It seems like on spotify their search button is using something I don't understand to load the magnifying glass.   .spoticon-search-32:before {     content: \"\\f141\";     font-size: 32px; }   If I edit content the picture of the sear"
         },
         {
-          "question_id": 29208610,
-          "question_text": "Title: PHP cURL connect using IP address instead domain name | Body: I run several servers in the same data center that have internal networking enabled.  In the interests of speed and costs (internal traffic is not billed) I would like to be able to cURL between the various servers on their internal IPs.\n\nI have just discovered that if I attempt something along the "
+          "question_id": 17367420,
+          "question_text": "Title: JQuery modal dialog shows behind overlay using append | Body: I have a div with some stuff on I want to pop up to the user so they have to agree before they submit:  &lt;div id=\"terms\" style=\"display:none\"&gt;         &lt;p style=\"font-weight:bold\"&gt;If your data is not backed up in advance, you may have to forfeit your booked slot and rebook the handover on another date.&lt;/p&gt;         &l"
         }
       ]
     },
     "6": {
+      "size": 14,
+      "samples": [
+        {
+          "question_id": 16855780,
+          "question_text": "Title: Array of pointers to Eigen Matrices | Body: I am using MatrixXd matrices from Eigen on my code, and at a certain point I need a 3D one. Since Eigen does not have tridimensional matrix types, as it is optimized just for linear algebra, instead I am creating a pointer array of the MatrixXd type:  Eigen::MatrixXd *CVM =new Eigen::MatrixXd[100]; for (int i = 0; i &lt; 100; i++){    CVM[i]= Eigen::"
+        },
+        {
+          "question_id": 15622930,
+          "question_text": "Title: Limit count of threads for python script | Body: I have a python 2.7 script on a CentOS linux server which had a bug starting new threads until I could not login to the server anymore.  Is there a way to tell the python runtime not to create/start/use more than 50 threads (and to throw exceptions instead or kill the script) to prevent this problem, or do I have to implement this in the script "
+        },
+        {
+          "question_id": 10734080,
+          "question_text": "Title: memory access vs. memory copy | Body: I am writing an application in C++ that needs to read-only from the same memory many times from many threads.  My question is from a performance point of view will it be better to copy the memory for each thread or give all threads the same pointer and have all of them access the same memory.  Thanks "
+        }
+      ]
+    },
+    "7": {
+      "size": 16,
+      "samples": [
+        {
+          "question_id": 26690360,
+          "question_text": "Title: How to verify HMAC java | Body: I've got the following code to compute Hmacs with a password:   public static void main(String[] args) throws NoSuchAlgorithmException, InvalidKeyException  {   String password = \"password123\";   SecretKeySpec keySpec = new SecretKeySpec(password.getBytes(), \"HmacSHA1\");    Mac mac = Mac.getInstance(\"HmacSHA1\");   mac.init(keySpec);    byte[] result = mac.doFina"
+        },
+        {
+          "question_id": 10314070,
+          "question_text": "Title: Java: How to convert a String into an subclass data type? | Body: I want to convert a String to an subclass data type, how can it be done? or it is possible?  I have a abstract class Acct  A public abstract class SinAcct extends Acct  A public class SavAcct extends SinAcct   In SavAcct, there is a constructor   public SavAcct(String acctNo, String name, ConsolidateAccount ownerAcct, double las"
+        },
+        {
+          "question_id": 7875850,
+          "question_text": "Title: Java - Reversing words in a string | Body: This is our code:      import java.io.File; import java.io.FileNotFoundException; import java.util.*; import java.util.regex.Matcher; import java.util.regex.Pattern;  public class reverse {  public static void main(String[] args) throws FileNotFoundException {     File fil = new File(\"textFile.txt\");     Scanner scan = new Scanner(fil);      while (sc"
+        }
+      ]
+    },
+    "8": {
+      "size": 14,
+      "samples": [
+        {
+          "question_id": 10010430,
+          "question_text": "Title: Strange thing With CTYPE_ALNUM | Body: i have this strange problem with the PHP function CTYPE_ALNUM  if i do:  PHP:     $words=\"\u00c3\u00a0\u00c3\u00b2\u00c3\u00a8\";   if(ctype_alnum($words)){     Echo \"Don't work\";  }else{     Echo \"Work\";       }   this will echo out 'Work'  BUT if i have a form and in that form i insert the letters with the grave like (\u00c3\u00a0 , \u00c3\u00a8, \u00c3\u00b2) this will echo out 'Don't Work'   Code:    &lt;form a"
+        },
+        {
+          "question_id": 32551300,
+          "question_text": "Title: text by right positioned iframe | Body: I would like to make an index (iframe) of a page but I can not done in front of the text. The text comes behind iframe or iframe not on the right corner, no matter what I try.  page.html  &lt;?xml version=\"1.0\" encoding=\"UTF-8\"?&gt; &lt;!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\"&gt; &lt;html "
+        },
+        {
+          "question_id": 4348520,
+          "question_text": "Title: Html Agility Pack - Get html fragment from an html document | Body: Using the html agility pack; how would I extract an html \"fragment\" from a full html document? For my purposes, an html \"fragment\" is defined as all content inside of the &lt;body&gt; tags.  For example:  Sample Input:  &lt;html&gt;    &lt;head&gt;      &lt;title&gt;blah&lt;/title&gt;    &lt;/head&gt;    &lt;body&gt;     &lt;p"
+        }
+      ]
+    },
+    "9": {
       "size": 18,
       "samples": [
         {
-          "question_id": 39363200,
-          "question_text": "Title: \"AccessToken.user\" must be a \"User\" instance | Body: I am trying to figure out oAuth2 token based authentication since 3 days and no avail yet. I have written a code for user authentication. However, I am getting an error of \n\n\n  ValueError at /api/customer/login/ Cannot assign \"{'username':\n  'sanskars'}\": \"AccessToken.user\" must be a \"User\" instance"
+          "question_id": 23745130,
+          "question_text": "Title: Searching for the last instance of data in a list | Body: I have an assignment to write a function that searches for the last instance of data (integer in this case) in a list. The function breaks with access violation on the line with if statement.   Node* List::SearchLast (int val) {     Node* pLast=NULL;     Node* pNode=pHead;     while (pHead!=NULL)     {         if (pNode-&gt;data==val)  "
         },
         {
-          "question_id": 11604390,
-          "question_text": "Title: Numerical Problems with GNU MP Bignum Library | Body: I'm doing some number crunching, which needs high precision arithmetic. I'm using the GNU MP library, and according to the GMP manual:\n\n\"Floating point number or Float for short, is an arbitrary precision mantissa with a limited precision exponent.\"\n\nAlthough the mantissa is supposed to have an arbi"
+          "question_id": 25485250,
+          "question_text": "Title: ZPL passing parameters to the labels prints with misplaced data | Body: We are using Zebra Designer Pro to create the templates. We have placed various labels on the templates to which we pass values dynamically through the code at the runtime.  We are doing this by creating ZPL in the code and appending various parameter values which we want to print in the ZPL. Method to create the label is "
         },
         {
-          "question_id": 35879220,
-          "question_text": "Title: Weights in a labeled_graph | Body: How do I add weights to this labeled graph that uses add_edge_by_label for use in dijkstra_shortest_paths?\nAm trying to use an example\nThanks\n\n#include &lt;boost/graph/adjacency_list.hpp&gt;\n#include &lt;boost/graph/copy.hpp&gt;\n#include &lt;boost/graph/labeled_graph.hpp&gt;\n#include &lt;boost/graph"
+          "question_id": 4818270,
+          "question_text": "Title: How to put a custom form region in Outlook's appointment 'schedule' pane? | Body: It's pretty easy to show a custom form in Outlook 2007 'Appointment' pane using VSTO (Form Region of the IPM.Appointment type).  So far, so good. But I'd like to put my form not on the first 'Appointment' pane, but rather on bottom of the 'Schedule' pane.  Any idea?  "
+        }
+      ]
+    },
+    "10": {
+      "size": 11,
+      "samples": [
+        {
+          "question_id": 9573010,
+          "question_text": "Title: python SimpleHTTPRequestHandler server leaves socket in TIME_WAIT state after exit | Body: I have a simple server written that extends the SimpleHTTPRequestHandler  If I start and stop it without making any requests to the server, I can start back up on the same port with no problem.  When started, a netstat looks like this:   sam@hersheezy:server$ sudo netstat -na --program | grep 8001 tcp   "
+        },
+        {
+          "question_id": 17125720,
+          "question_text": "Title: Twitter API 1.1 Search with C# (in a PCL) | Body: I have a Windows 8 and a Windows Phone 8 app that serves as a social media dashboard and it get's tweets using the twitter search api. This was originally implemented using the Twitter API 1 and worked with no authentication so since it didn't need any additional 3rd party libs it was placed in the PCL part of the solution. For the same reason "
+        },
+        {
+          "question_id": 27048750,
+          "question_text": "Title: Counting items in a List used as a Dictionary Value | Body: I have the following dictionary of lists working fine, but the printing at the end is borked, I can't get the counter to return correct numbers of items in each list as soon as I get more than one key in my dictionary! It's supposed to tell me how many people have chosen a particular dessert as their favourite.   desserts = {}  name_v"
+        }
+      ]
+    },
+    "11": {
+      "size": 6,
+      "samples": [
+        {
+          "question_id": 7845470,
+          "question_text": "Title: ASP.NET MVC : validation domain password | Body: In an ASP.NET MVC 3.0 application (intranet), the end user is logged on the domain (sample : MyDomain\\User1. In my application there is a validation section, when I want to valid a jQuery UI popup appear and I have to enter password of the user logged.   I'd like to know :    how can I check if the password receive in the action method match wit"
+        },
+        {
+          "question_id": 9809210,
+          "question_text": "Title: web service modify return value | Body: We have a lot of web services (.asmx files, which can be accessed for example from http://localhost/ApplicationName/VeryAncientWebService.asmx).  Also we have a sad bug, and the most painless solution to fix it - modify return value.  I know about IParameterInspector for WCF - thats really powerfull thing with  public void AfterCall(string operationName,"
+        },
+        {
+          "question_id": 3263140,
+          "question_text": "Title: How to easily insert Excel spreadsheet into web page? | Body: I would like to insert an Excel spreadsheet into a Web page but would like to change some of the data at the same time to make them more user friendly.  Is it easily possible?  Thank you for your help. "
+        }
+      ]
+    },
+    "12": {
+      "size": 10,
+      "samples": [
+        {
+          "question_id": 10000790,
+          "question_text": "Title: Can't get mac address with ioctl on Linux when disconnected from Wifi | Body: I'm getting a mac address using this method:  #include &lt;sys/ioctl.h&gt; #include &lt;net/if.h&gt;  #include &lt;unistd.h&gt; #include &lt;netinet/in.h&gt; #include &lt;string.h&gt;  int main() {     ifreq ifr;     ifconf ifc;     char buf[1024];     int success = 0;      int sock = socket(AF_INET, SOCK_DGRAM, IPPR"
+        },
+        {
+          "question_id": 35059240,
+          "question_text": "Title: Read return garbage data in serial port programming in linux | Body: I want to communicate with my PC using the RS232 port. I can open \"/dev/ttyS0\" and write data using write() function, But i can't read correct data from \"dev/ttyS0\" by using read(). read() function read the unnecessary data.Please tell me how to solve this problem?  My program code here :  #include &lt;stdio.h&gt; #include &l"
+        },
+        {
+          "question_id": 8294710,
+          "question_text": "Title: Choosing what native library to load depending on system setup | Body: In our OSGi code, we are using Bundle-NativeCode manifest headers to choose what native libraries to load for Windows or Linux.  The problem arises when one of the libraries we need to use depends on a specific version of an already installed library (GLIBC is currently at version 2.12 in Ubuntu and 2.11 in Debian). Is ther"
+        }
+      ]
+    },
+    "13": {
+      "size": 4,
+      "samples": [
+        {
+          "question_id": 33116730,
+          "question_text": "Title: How to inherit particular view in our own module? ODOO | Body: Good morning all, I would like to inherit some view from ODOO views. so that i can use it my own module. can anybody please explain me , what are the possible ways to it?  Thanks in advance.! "
+        },
+        {
+          "question_id": 10060050,
+          "question_text": "Title: Which is more performant, passing a method the entire object, or a property of that object? | Body: Consider the following example.  I need to check if a CouponModel has a unique serial key.  I have two choices:  CouponModel model = GetFromSomewhere();  if (!CouponHasUniqueKey(model)) { }  //or  if (!CouponHasUniqueKey(model.SerialKey)) { }   Of course in the method where I pass in the whole o"
+        },
+        {
+          "question_id": 7507320,
+          "question_text": "Title: Producing a read-only copy of a class, howto | Body: Given the following UML representation, how can i get an instance of a BullDog , that only has getter methods exposed?   Instance of the BullDog should not have any of the setter methods available. Instance of the BullDog should only have getter methods (3 of them) available   Basically the question is .. what do i cast new BullDog to?   "
+        }
+      ]
+    },
+    "14": {
+      "size": 18,
+      "samples": [
+        {
+          "question_id": 21055210,
+          "question_text": "Title: How to Create a Child Window From Parent in MVVM Light and WPF? | Body: I have a button on my Main Window. When I click it I want another Window to popup on top of the Main Window.  Main Window is still visible and should be the parent of this new window.  I been looking around and not sure how to do it, some people suggested to use the Messenger to do this but did not really give an example. "
+        },
+        {
+          "question_id": 568320,
+          "question_text": "Title: Get the diff of two MSWord doc files and output to html | Body:    Possible Duplicate:   How to compare two word documents?       How can you get the diff of two word .doc documents programatically? Where you can then take the resulting output and generate an html file of the result. (As you would expect to see in a normal gui diff tool)  I imagine if you grabed the docs via COM and converted "
+        },
+        {
+          "question_id": 7837270,
+          "question_text": "Title: How .NET's regex engine treats RTL+LTR mixed strings? | Body: I have a mixed Hebrew/english string to parse. The string is built like this:  [3 hebrew] [2 english 2] [1 hebrew],   So, it can be read as: 1 2 3, and it is stored as 3 2 1 (exact byte sequence in file, double-checked in hex editor, and anyway RTL is only the display attribute). .NET regex parser has RTL option, which (when given f"
+        }
+      ]
+    },
+    "15": {
+      "size": 16,
+      "samples": [
+        {
+          "question_id": 20373460,
+          "question_text": "Title: C# Word Interop encoding on pasting HTML from Clipboard | Body: In order to paste formatted HTML in a Word document, I am using this approach HtmlFragment that was recommended several times here. My problem now is the charset that is not recognized. I already add this in the HtmlFragment to generate proper encode:  &lt;meta http-equiv=\"\"Content-Type\"\" content=\"\"text/html; charset=iso-8859-2\"\" "
+        },
+        {
+          "question_id": 18189840,
+          "question_text": "Title: ASP FormView Item Template add empty to dropdown list? | Body: I have a formview in a ASP form that I use to edit and view information. The form contains a lot of dropdownlist controls and most of them aren't required fields. In the edit template I use ddlInfoEstStatus.Items.Insert(0, new ListItem(\"\", \"*\")); to show an empty row.  The problem I am having is that using the code above doesn't wo"
+        },
+        {
+          "question_id": 30772860,
+          "question_text": "Title: Is there a way to control the memory usage of C# DataTable | Body: I'm writing a tool to copy data into SQL Server using C# SqlBulkCopy. For reliability reasons, I'm loading each batch of data into a DataTable (so that later I can retry on the same batch if the insertion failed), and users can specify the batch size. Now the problem is if the user sets the batch size to a very large value, the"
+        }
+      ]
+    },
+    "16": {
+      "size": 3,
+      "samples": [
+        {
+          "question_id": 30808780,
+          "question_text": "Title: DefaultRebelLaunchConfigProvider - unknown type org.springframework.ide.eclipse.boot.launch | Body: I am setting up a basic Spring Boot application (1.2.3.RELEASE) on Spring Tool Suite 3.6.4.RELEASE.  I decided to install jRebel using myJRebel (6.2.0).  When I start my application (Run as Spring Boot App), I can't see the jRebel logs in the console. I already checked my project under jRebel co"
+        },
+        {
+          "question_id": 2706630,
+          "question_text": "Title: What is the best way to get a reference to a spring bean in the backend layers? | Body: I have two spring config files and I'm specifying them in my web.xml as in below.   web.xml snippet   .. &lt;context-param&gt;         &lt;param-name&gt;contextConfigLocation&lt;/param-name&gt;         &lt;param-value&gt;WEB-INF/classes/domain-context.xml WEB-INF/classes/client-ws.xml&lt;/param-value&gt; &l"
+        },
+        {
+          "question_id": 6214110,
+          "question_text": "Title: Spring 3 Dependency Injcetion | Body: I am using Spring3 with xml based configuration.  The problem is when the IOC container starts it loads/caches all the properties/fields defined in com.dao.MyDAOFactory class. I want to tell spring that only load/cache specific properties/fields.  The bean declaration is given below   &lt;bean  id=\"daoFactory\" class=\"com.dao.MyDAOFactory\" &gt;&lt;/bean&gt;"
+        }
+      ]
+    },
+    "17": {
+      "size": 2,
+      "samples": [
+        {
+          "question_id": 39312530,
+          "question_text": "Title: Mock property return value gets overridden when instantiating mock object | Body: Background  I'm trying to set up a test fixture for an application I'm writing in which one of my classes is replaced with a mock. I'm happy to leave most of the attributes of the mock class as the default MagicMock instances (where I'm only interested in making assertions about their usage), but the class also h"
+        },
+        {
+          "question_id": 12896480,
+          "question_text": "Title: unit testing & constructor dependency injection | Body: I have an issue regarding how one would go about designing an application suited for unit-testing.  I am trying to implement the SRP (Single-Responsibility Principle), and from what I understood this involves splitting out most functionality in seperate, dedicated classes to keep code more organised.  For example, I have this specific sce"
+        }
+      ]
+    },
+    "18": {
+      "size": 7,
+      "samples": [
+        {
+          "question_id": 31584230,
+          "question_text": "Title: Fragment communicating with an Activity | Body: I am confused about how communication with a Fragment and an Activity is made. For example, an interface was defined here (http://developer.android.com/intl/ko/training/basics/fragments/communicating.html).  public class HeadlinesFragment extends ListFragment {     OnHeadlineSelectedListener mCallback;      // Container Activity must implement th"
+        },
+        {
+          "question_id": 17366490,
+          "question_text": "Title: Use Keychain before api level 14 | Body: I am working on an Android app with min API version 10 and target 17. I want to use KeyChain but it is not supported before ICS.  Can someone suggest something similar or a solution for this problem?  Thank you so much "
+        },
+        {
+          "question_id": 4210270,
+          "question_text": "Title: allow users to create forms within android survey/data collection app | Body: I'm trying to develop an Android app that could be used by advocacy groups or campaigners such that they would be able to create their own forms (surveys) for which they can go out canvassing and collect opinion data from people who don't have Internet connections and thus can't take surveys/polls online. Could also "
         }
       ]
     }
   },
   "clusters_b": {
     "0": {
-      "size": 6,
+      "size": 1,
       "samples": [
         {
-          "concept_id": "T-0",
-          "concept_name": "java",
-          "Description": "A high-level, class-based, object-oriented programming language designed to have as few implementation dependencies as possible."
-        },
-        {
           "concept_id": "T-4",
-          "concept_name": "c++",
-          "Description": "A general-purpose programming language created as an extension of C, known for performance, efficiency, and hardware control."
-        },
-        {
-          "concept_id": "T-5",
-          "concept_name": "c#",
-          "Description": "A modern, object-oriented, and type-safe programming language developed by Microsoft for the .NET framework."
+          "concept_name": "multithreading"
         }
       ]
     },
     "1": {
-      "size": 4,
+      "size": 9,
       "samples": [
         {
+          "concept_id": "T-0",
+          "concept_name": "python"
+        },
+        {
           "concept_id": "T-1",
-          "concept_name": "html",
-          "Description": "HyperText Markup Language, the standard markup language for documents designed to be displayed in a web browser."
+          "concept_name": "database"
         },
         {
           "concept_id": "T-2",
-          "concept_name": "javascript",
-          "Description": "A lightweight, interpreted programming language with first-class functions, core to interactive web development."
-        },
-        {
-          "concept_id": "T-3",
-          "concept_name": "jquery",
-          "Description": "A fast, small, and feature-rich JavaScript library designed to simplify HTML DOM tree traversal and manipulation."
+          "concept_name": ".net"
         }
       ]
     }
@@ -170,288 +356,421 @@
     {
       "ca": 0,
       "cb": 0,
-      "size_a": 23,
-      "size_b": 6,
-      "sample_rate": 0.08,
+      "size_a": 22,
+      "size_b": 1,
+      "sample_rate": 0.2,
       "matches": [
         [
-          1,
-          5
-        ],
-        [
-          14,
-          5
-        ],
-        [
-          27,
+          68,
           4
-        ],
-        [
-          31,
-          9
-        ],
-        [
-          38,
-          5
-        ],
-        [
-          47,
-          5
-        ],
-        [
-          49,
-          4
-        ],
-        [
-          53,
-          5
-        ],
-        [
-          57,
-          5
-        ],
-        [
-          59,
-          5
-        ],
-        [
-          72,
-          5
-        ],
-        [
-          74,
-          5
-        ],
-        [
-          78,
-          4
-        ],
-        [
-          97,
-          9
         ]
       ],
       "tokens": {
-        "prompt": 2379,
-        "completion": 198
+        "prompt": 2286,
+        "completion": 140
       }
     },
     {
       "ca": 0,
       "cb": 1,
-      "size_a": 23,
-      "size_b": 4,
-      "sample_rate": 0.0,
-      "matches": [],
-      "tokens": {
-        "prompt": 2304,
-        "completion": 142
-      }
-    },
-    {
-      "ca": 1,
-      "cb": 0,
-      "size_a": 7,
-      "size_b": 6,
-      "sample_rate": 0.0,
-      "matches": [],
-      "tokens": {
-        "prompt": 944,
-        "completion": 46
-      }
-    },
-    {
-      "ca": 1,
-      "cb": 1,
-      "size_a": 7,
-      "size_b": 4,
-      "sample_rate": 0.25,
+      "size_a": 22,
+      "size_b": 9,
+      "sample_rate": 0.08,
       "matches": [
         [
-          17,
-          3
-        ],
-        [
-          18,
-          3
-        ],
-        [
-          25,
-          3
-        ],
-        [
-          32,
-          3
-        ],
-        [
-          61,
-          3
-        ],
-        [
-          81,
-          2
-        ],
-        [
-          81,
-          3
-        ],
-        [
-          98,
-          3
-        ]
-      ],
-      "tokens": {
-        "prompt": 869,
-        "completion": 91
-      }
-    },
-    {
-      "ca": 2,
-      "cb": 0,
-      "size_a": 15,
-      "size_b": 6,
-      "sample_rate": 0.16,
-      "matches": [
-        [
-          2,
-          0
-        ],
-        [
-          2,
+          26,
           8
         ],
         [
-          5,
-          0
-        ],
-        [
-          5,
-          8
-        ],
-        [
-          16,
-          8
-        ],
-        [
-          19,
-          8
-        ],
-        [
-          20,
-          8
-        ],
-        [
-          23,
-          8
-        ],
-        [
-          23,
+          44,
           9
         ],
         [
-          34,
-          9
-        ],
-        [
-          45,
+          57,
           8
-        ],
-        [
-          48,
-          8
-        ],
-        [
-          54,
-          9
         ],
         [
           58,
           8
         ],
         [
-          71,
-          9
+          62,
+          8
         ],
         [
-          84,
-          7
+          67,
+          8
         ],
         [
-          89,
-          9
+          68,
+          5
         ],
         [
-          93,
+          68,
+          8
+        ],
+        [
+          102,
+          0
+        ],
+        [
+          108,
+          8
+        ],
+        [
+          114,
+          8
+        ],
+        [
+          119,
+          8
+        ],
+        [
+          173,
+          8
+        ],
+        [
+          178,
+          8
+        ],
+        [
+          212,
+          8
+        ],
+        [
+          220,
+          8
+        ],
+        [
+          226,
           8
         ]
       ],
       "tokens": {
-        "prompt": 1660,
-        "completion": 189
+        "prompt": 2794,
+        "completion": 235
+      }
+    },
+    {
+      "ca": 1,
+      "cb": 0,
+      "size_a": 29,
+      "size_b": 1,
+      "sample_rate": 0.0,
+      "matches": [],
+      "tokens": {
+        "prompt": 3168,
+        "completion": 178
+      }
+    },
+    {
+      "ca": 1,
+      "cb": 1,
+      "size_a": 29,
+      "size_b": 9,
+      "sample_rate": 0.08,
+      "matches": [
+        [
+          17,
+          2
+        ],
+        [
+          17,
+          7
+        ],
+        [
+          33,
+          2
+        ],
+        [
+          38,
+          5
+        ],
+        [
+          77,
+          5
+        ],
+        [
+          80,
+          8
+        ],
+        [
+          82,
+          5
+        ],
+        [
+          85,
+          5
+        ],
+        [
+          94,
+          1
+        ],
+        [
+          96,
+          2
+        ],
+        [
+          133,
+          8
+        ],
+        [
+          199,
+          2
+        ],
+        [
+          206,
+          2
+        ],
+        [
+          209,
+          8
+        ],
+        [
+          242,
+          5
+        ],
+        [
+          249,
+          7
+        ]
+      ],
+      "tokens": {
+        "prompt": 3676,
+        "completion": 280
+      }
+    },
+    {
+      "ca": 2,
+      "cb": 0,
+      "size_a": 14,
+      "size_b": 1,
+      "sample_rate": 0.0,
+      "matches": [],
+      "tokens": {
+        "prompt": 1475,
+        "completion": 107
       }
     },
     {
       "ca": 2,
       "cb": 1,
-      "size_a": 15,
-      "size_b": 4,
-      "sample_rate": 0.05,
-      "matches": [],
+      "size_a": 14,
+      "size_b": 9,
+      "sample_rate": 0.04,
+      "matches": [
+        [
+          14,
+          1
+        ],
+        [
+          14,
+          8
+        ],
+        [
+          31,
+          1
+        ],
+        [
+          76,
+          1
+        ],
+        [
+          76,
+          6
+        ],
+        [
+          76,
+          8
+        ],
+        [
+          91,
+          1
+        ],
+        [
+          91,
+          7
+        ],
+        [
+          92,
+          1
+        ],
+        [
+          127,
+          1
+        ],
+        [
+          129,
+          1
+        ],
+        [
+          131,
+          1
+        ],
+        [
+          134,
+          1
+        ],
+        [
+          152,
+          1
+        ],
+        [
+          152,
+          6
+        ],
+        [
+          153,
+          1
+        ],
+        [
+          153,
+          8
+        ],
+        [
+          154,
+          1
+        ],
+        [
+          154,
+          6
+        ],
+        [
+          202,
+          1
+        ],
+        [
+          208,
+          1
+        ],
+        [
+          208,
+          2
+        ]
+      ],
       "tokens": {
-        "prompt": 1585,
-        "completion": 114
+        "prompt": 1769,
+        "completion": 212
       }
     },
     {
       "ca": 3,
       "cb": 0,
-      "size_a": 7,
-      "size_b": 6,
-      "sample_rate": 0.12,
-      "matches": [
-        [
-          8,
-          0
-        ],
-        [
-          41,
-          0
-        ],
-        [
-          66,
-          0
-        ],
-        [
-          75,
-          0
-        ]
-      ],
+      "size_a": 18,
+      "size_b": 1,
+      "sample_rate": 0.0,
+      "matches": [],
       "tokens": {
-        "prompt": 894,
-        "completion": 62
+        "prompt": 2101,
+        "completion": 135
       }
     },
     {
       "ca": 3,
       "cb": 1,
-      "size_a": 7,
-      "size_b": 4,
-      "sample_rate": 0.0,
-      "matches": [],
+      "size_a": 18,
+      "size_b": 9,
+      "sample_rate": 0.04,
+      "matches": [
+        [
+          1,
+          0
+        ],
+        [
+          11,
+          0
+        ],
+        [
+          35,
+          0
+        ],
+        [
+          75,
+          0
+        ],
+        [
+          75,
+          9
+        ],
+        [
+          78,
+          0
+        ],
+        [
+          87,
+          0
+        ],
+        [
+          88,
+          0
+        ],
+        [
+          95,
+          0
+        ],
+        [
+          123,
+          0
+        ],
+        [
+          138,
+          0
+        ],
+        [
+          158,
+          0
+        ],
+        [
+          165,
+          0
+        ],
+        [
+          193,
+          0
+        ],
+        [
+          195,
+          0
+        ],
+        [
+          195,
+          1
+        ],
+        [
+          198,
+          0
+        ],
+        [
+          205,
+          0
+        ],
+        [
+          231,
+          0
+        ],
+        [
+          247,
+          0
+        ],
+        [
+          247,
+          1
+        ]
+      ],
       "tokens": {
-        "prompt": 819,
-        "completion": 58
+        "prompt": 2395,
+        "completion": 216
       }
     },
     {
       "ca": 4,
       "cb": 0,
       "size_a": 13,
-      "size_b": 6,
+      "size_b": 1,
       "sample_rate": 0.0,
       "matches": [],
       "tokens": {
-        "prompt": 1544,
+        "prompt": 1383,
         "completion": 82
       }
     },
@@ -459,28 +778,20 @@
       "ca": 4,
       "cb": 1,
       "size_a": 13,
-      "size_b": 4,
-      "sample_rate": 0.25,
+      "size_b": 9,
+      "sample_rate": 0.08,
       "matches": [
         [
-          3,
+          21,
           1
         ],
         [
-          3,
-          2
+          21,
+          8
         ],
         [
-          28,
-          2
-        ],
-        [
-          35,
-          2
-        ],
-        [
-          42,
-          2
+          51,
+          1
         ],
         [
           52,
@@ -488,183 +799,770 @@
         ],
         [
           52,
-          2
-        ],
-        [
-          52,
-          6
-        ],
-        [
-          55,
-          3
+          8
         ],
         [
           56,
-          2
-        ],
-        [
-          60,
           1
         ],
         [
-          77,
-          2
+          56,
+          6
         ],
         [
-          80,
-          2
+          65,
+          1
+        ],
+        [
+          66,
+          1
+        ],
+        [
+          110,
+          1
+        ],
+        [
+          141,
+          9
+        ],
+        [
+          144,
+          1
+        ],
+        [
+          179,
+          1
+        ],
+        [
+          187,
+          1
+        ],
+        [
+          187,
+          5
+        ],
+        [
+          187,
+          9
+        ],
+        [
+          211,
+          1
+        ],
+        [
+          211,
+          6
+        ],
+        [
+          213,
+          1
+        ],
+        [
+          213,
+          6
         ]
       ],
       "tokens": {
-        "prompt": 1469,
-        "completion": 137
+        "prompt": 1677,
+        "completion": 188
       }
     },
     {
       "ca": 5,
       "cb": 0,
-      "size_a": 17,
-      "size_b": 6,
-      "sample_rate": 0.04,
-      "matches": [
-        [
-          12,
-          9
-        ]
-      ],
+      "size_a": 15,
+      "size_b": 1,
+      "sample_rate": 0.0,
+      "matches": [],
       "tokens": {
-        "prompt": 1965,
-        "completion": 110
+        "prompt": 1776,
+        "completion": 94
       }
     },
     {
       "ca": 5,
       "cb": 1,
-      "size_a": 17,
-      "size_b": 4,
-      "sample_rate": 0.25,
+      "size_a": 15,
+      "size_b": 9,
+      "sample_rate": 0.08,
       "matches": [
         [
-          9,
-          6
+          40,
+          9
         ],
         [
-          12,
-          6
+          46,
+          9
         ],
         [
-          15,
-          6
+          63,
+          8
         ],
         [
-          29,
-          6
+          104,
+          9
         ],
         [
-          39,
+          111,
           1
         ],
         [
-          44,
-          6
+          117,
+          9
         ],
         [
-          70,
-          6
+          225,
+          8
         ],
         [
-          73,
-          6
-        ],
-        [
-          82,
-          6
-        ],
-        [
-          86,
-          3
-        ],
-        [
-          91,
-          6
-        ],
-        [
-          92,
-          1
-        ],
-        [
-          94,
-          1
+          225,
+          9
         ]
       ],
       "tokens": {
-        "prompt": 1890,
-        "completion": 158
+        "prompt": 2070,
+        "completion": 156
       }
     },
     {
       "ca": 6,
       "cb": 0,
-      "size_a": 18,
-      "size_b": 6,
-      "sample_rate": 0.08,
+      "size_a": 14,
+      "size_b": 1,
+      "sample_rate": 0.4,
       "matches": [
         [
-          6,
+          23,
           4
         ],
         [
-          7,
+          25,
+          4
+        ],
+        [
+          32,
+          4
+        ],
+        [
+          55,
+          4
+        ],
+        [
+          98,
+          4
+        ],
+        [
+          143,
+          4
+        ],
+        [
+          151,
+          4
+        ],
+        [
+          191,
+          4
+        ],
+        [
+          237,
+          4
+        ]
+      ],
+      "tokens": {
+        "prompt": 1526,
+        "completion": 143
+      }
+    },
+    {
+      "ca": 6,
+      "cb": 1,
+      "size_a": 14,
+      "size_b": 9,
+      "sample_rate": 0.08,
+      "matches": [
+        [
+          15,
+          5
+        ],
+        [
+          23,
+          0
+        ],
+        [
+          23,
+          3
+        ],
+        [
+          25,
+          5
+        ],
+        [
+          32,
+          0
+        ],
+        [
+          98,
+          8
+        ],
+        [
+          120,
+          5
+        ],
+        [
+          143,
+          5
+        ],
+        [
+          149,
+          5
+        ],
+        [
+          151,
+          0
+        ],
+        [
+          151,
+          3
+        ],
+        [
+          191,
+          2
+        ],
+        [
+          191,
           7
+        ],
+        [
+          207,
+          5
+        ],
+        [
+          214,
+          5
+        ],
+        [
+          237,
+          2
+        ],
+        [
+          237,
+          7
+        ]
+      ],
+      "tokens": {
+        "prompt": 1820,
+        "completion": 188
+      }
+    },
+    {
+      "ca": 7,
+      "cb": 0,
+      "size_a": 16,
+      "size_b": 1,
+      "sample_rate": 0.2,
+      "matches": [
+        [
+          72,
+          4
+        ]
+      ],
+      "tokens": {
+        "prompt": 1802,
+        "completion": 125
+      }
+    },
+    {
+      "ca": 7,
+      "cb": 1,
+      "size_a": 16,
+      "size_b": 9,
+      "sample_rate": 0.16,
+      "matches": [
+        [
+          0,
+          8
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          30,
+          8
+        ],
+        [
+          72,
+          8
+        ],
+        [
+          84,
+          8
+        ],
+        [
+          157,
+          8
+        ],
+        [
+          232,
+          8
+        ],
+        [
+          234,
+          8
+        ],
+        [
+          238,
+          8
+        ],
+        [
+          239,
+          8
+        ],
+        [
+          240,
+          8
+        ],
+        [
+          241,
+          8
+        ]
+      ],
+      "tokens": {
+        "prompt": 2096,
+        "completion": 171
+      }
+    },
+    {
+      "ca": 8,
+      "cb": 0,
+      "size_a": 14,
+      "size_b": 1,
+      "sample_rate": 0.0,
+      "matches": [],
+      "tokens": {
+        "prompt": 1779,
+        "completion": 88
+      }
+    },
+    {
+      "ca": 8,
+      "cb": 1,
+      "size_a": 14,
+      "size_b": 9,
+      "sample_rate": 0.08,
+      "matches": [
+        [
+          18,
+          9
+        ],
+        [
+          36,
+          9
+        ],
+        [
+          73,
+          9
+        ],
+        [
+          121,
+          9
+        ],
+        [
+          137,
+          9
+        ],
+        [
+          156,
+          9
+        ],
+        [
+          161,
+          9
+        ],
+        [
+          168,
+          9
+        ],
+        [
+          233,
+          9
+        ],
+        [
+          246,
+          9
+        ]
+      ],
+      "tokens": {
+        "prompt": 2073,
+        "completion": 156
+      }
+    },
+    {
+      "ca": 9,
+      "cb": 0,
+      "size_a": 18,
+      "size_b": 1,
+      "sample_rate": 0.2,
+      "matches": [
+        [
+          69,
+          4
+        ],
+        [
+          118,
+          4
+        ],
+        [
+          188,
+          4
+        ]
+      ],
+      "tokens": {
+        "prompt": 2006,
+        "completion": 124
+      }
+    },
+    {
+      "ca": 9,
+      "cb": 1,
+      "size_a": 18,
+      "size_b": 9,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          9,
+          5
+        ],
+        [
+          29,
+          5
+        ],
+        [
+          37,
+          5
+        ],
+        [
+          39,
+          5
+        ],
+        [
+          41,
+          5
+        ],
+        [
+          61,
+          5
+        ],
+        [
+          106,
+          5
+        ],
+        [
+          118,
+          5
+        ],
+        [
+          162,
+          5
+        ],
+        [
+          188,
+          5
+        ],
+        [
+          215,
+          5
+        ],
+        [
+          218,
+          5
+        ],
+        [
+          223,
+          5
+        ],
+        [
+          228,
+          5
+        ]
+      ],
+      "tokens": {
+        "prompt": 2300,
+        "completion": 200
+      }
+    },
+    {
+      "ca": 10,
+      "cb": 0,
+      "size_a": 11,
+      "size_b": 1,
+      "sample_rate": 0.0,
+      "matches": [],
+      "tokens": {
+        "prompt": 1192,
+        "completion": 86
+      }
+    },
+    {
+      "ca": 10,
+      "cb": 1,
+      "size_a": 11,
+      "size_b": 9,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          45,
+          0
+        ],
+        [
+          49,
+          7
+        ],
+        [
+          53,
+          0
+        ],
+        [
+          54,
+          0
+        ],
+        [
+          140,
+          0
+        ],
+        [
+          142,
+          0
+        ],
+        [
+          145,
+          0
+        ],
+        [
+          170,
+          0
+        ],
+        [
+          210,
+          0
+        ],
+        [
+          221,
+          0
+        ]
+      ],
+      "tokens": {
+        "prompt": 1272,
+        "completion": 126
+      }
+    },
+    {
+      "ca": 11,
+      "cb": 0,
+      "size_a": 6,
+      "size_b": 1,
+      "sample_rate": 0.0,
+      "matches": [],
+      "tokens": {
+        "prompt": 718,
+        "completion": 40
+      }
+    },
+    {
+      "ca": 11,
+      "cb": 1,
+      "size_a": 6,
+      "size_b": 9,
+      "sample_rate": 0.16,
+      "matches": [
+        [
+          16,
+          2
+        ],
+        [
+          16,
+          7
+        ],
+        [
+          34,
+          2
+        ],
+        [
+          71,
+          9
+        ],
+        [
+          86,
+          2
+        ],
+        [
+          89,
+          2
+        ],
+        [
+          89,
+          7
+        ],
+        [
+          248,
+          2
+        ],
+        [
+          248,
+          7
+        ]
+      ],
+      "tokens": {
+        "prompt": 798,
+        "completion": 90
+      }
+    },
+    {
+      "ca": 12,
+      "cb": 0,
+      "size_a": 10,
+      "size_b": 1,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          146,
+          4
+        ]
+      ],
+      "tokens": {
+        "prompt": 1153,
+        "completion": 68
+      }
+    },
+    {
+      "ca": 12,
+      "cb": 1,
+      "size_a": 10,
+      "size_b": 9,
+      "sample_rate": 0.2,
+      "matches": [
+        [
+          22,
+          3
         ],
         [
           22,
           5
         ],
         [
-          46,
-          4
+          113,
+          3
         ],
         [
-          50,
-          4
+          113,
+          5
         ],
         [
-          51,
+          116,
+          3
+        ],
+        [
+          128,
+          5
+        ],
+        [
+          148,
+          3
+        ],
+        [
+          160,
+          3
+        ],
+        [
+          160,
+          5
+        ],
+        [
+          166,
+          3
+        ],
+        [
+          180,
+          3
+        ],
+        [
+          182,
+          3
+        ]
+      ],
+      "tokens": {
+        "prompt": 1233,
+        "completion": 115
+      }
+    },
+    {
+      "ca": 13,
+      "cb": 0,
+      "size_a": 4,
+      "size_b": 1,
+      "sample_rate": 0.0,
+      "matches": [],
+      "tokens": {
+        "prompt": 470,
+        "completion": 28
+      }
+    },
+    {
+      "ca": 13,
+      "cb": 1,
+      "size_a": 4,
+      "size_b": 9,
+      "sample_rate": 0.1,
+      "matches": [
+        [
+          122,
           7
         ],
         [
-          64,
+          167,
           7
         ],
         [
-          76,
-          4
-        ],
+          190,
+          8
+        ]
+      ],
+      "tokens": {
+        "prompt": 550,
+        "completion": 49
+      }
+    },
+    {
+      "ca": 14,
+      "cb": 0,
+      "size_a": 18,
+      "size_b": 1,
+      "sample_rate": 0.0,
+      "matches": [
         [
-          85,
-          7
-        ],
-        [
-          88,
-          4
-        ],
-        [
-          95,
+          59,
           4
         ]
       ],
       "tokens": {
-        "prompt": 2095,
-        "completion": 179
+        "prompt": 1917,
+        "completion": 116
       }
     },
     {
-      "ca": 6,
+      "ca": 14,
       "cb": 1,
       "size_a": 18,
-      "size_b": 4,
-      "sample_rate": 0.1,
+      "size_b": 9,
+      "sample_rate": 0.28,
       "matches": [
         [
           24,
@@ -672,12 +1570,305 @@
         ],
         [
           24,
-          3
+          7
+        ],
+        [
+          27,
+          9
+        ],
+        [
+          42,
+          2
+        ],
+        [
+          43,
+          2
+        ],
+        [
+          43,
+          7
+        ],
+        [
+          48,
+          7
+        ],
+        [
+          59,
+          7
+        ],
+        [
+          64,
+          9
+        ],
+        [
+          105,
+          7
+        ],
+        [
+          109,
+          7
+        ],
+        [
+          112,
+          2
+        ],
+        [
+          112,
+          8
+        ],
+        [
+          115,
+          7
+        ],
+        [
+          172,
+          2
+        ],
+        [
+          181,
+          8
+        ],
+        [
+          184,
+          2
+        ],
+        [
+          185,
+          7
+        ],
+        [
+          219,
+          2
+        ],
+        [
+          219,
+          6
+        ],
+        [
+          229,
+          2
         ]
       ],
       "tokens": {
-        "prompt": 2020,
-        "completion": 144
+        "prompt": 2211,
+        "completion": 232
+      }
+    },
+    {
+      "ca": 15,
+      "cb": 0,
+      "size_a": 16,
+      "size_b": 1,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          244,
+          4
+        ]
+      ],
+      "tokens": {
+        "prompt": 1643,
+        "completion": 125
+      }
+    },
+    {
+      "ca": 15,
+      "cb": 1,
+      "size_a": 16,
+      "size_b": 9,
+      "sample_rate": 0.24,
+      "matches": [
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          9
+        ],
+        [
+          10,
+          2
+        ],
+        [
+          93,
+          7
+        ],
+        [
+          93,
+          6
+        ],
+        [
+          124,
+          7
+        ],
+        [
+          130,
+          7
+        ],
+        [
+          132,
+          7
+        ],
+        [
+          139,
+          7
+        ],
+        [
+          150,
+          7
+        ],
+        [
+          155,
+          2
+        ],
+        [
+          159,
+          7
+        ],
+        [
+          159,
+          0
+        ],
+        [
+          163,
+          2
+        ],
+        [
+          163,
+          7
+        ],
+        [
+          192,
+          2
+        ],
+        [
+          200,
+          2
+        ],
+        [
+          230,
+          7
+        ],
+        [
+          235,
+          2
+        ],
+        [
+          235,
+          7
+        ],
+        [
+          244,
+          2
+        ],
+        [
+          244,
+          5
+        ]
+      ],
+      "tokens": {
+        "prompt": 1937,
+        "completion": 213
+      }
+    },
+    {
+      "ca": 16,
+      "cb": 0,
+      "size_a": 3,
+      "size_b": 1,
+      "sample_rate": 0.0,
+      "matches": [],
+      "tokens": {
+        "prompt": 460,
+        "completion": 22
+      }
+    },
+    {
+      "ca": 16,
+      "cb": 1,
+      "size_a": 3,
+      "size_b": 9,
+      "sample_rate": 0.06666666666666667,
+      "matches": [
+        [
+          100,
+          8
+        ],
+        [
+          201,
+          8
+        ],
+        [
+          203,
+          8
+        ]
+      ],
+      "tokens": {
+        "prompt": 540,
+        "completion": 42
+      }
+    },
+    {
+      "ca": 17,
+      "cb": 0,
+      "size_a": 2,
+      "size_b": 1,
+      "sample_rate": 0.0,
+      "matches": [],
+      "tokens": {
+        "prompt": 305,
+        "completion": 16
+      }
+    },
+    {
+      "ca": 17,
+      "cb": 1,
+      "size_a": 2,
+      "size_b": 9,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          19,
+          0
+        ]
+      ],
+      "tokens": {
+        "prompt": 385,
+        "completion": 20
+      }
+    },
+    {
+      "ca": 18,
+      "cb": 0,
+      "size_a": 7,
+      "size_b": 1,
+      "sample_rate": 0.0,
+      "matches": [],
+      "tokens": {
+        "prompt": 773,
+        "completion": 46
+      }
+    },
+    {
+      "ca": 18,
+      "cb": 1,
+      "size_a": 7,
+      "size_b": 9,
+      "sample_rate": 0.04,
+      "matches": [
+        [
+          3,
+          8
+        ],
+        [
+          189,
+          8
+        ]
+      ],
+      "tokens": {
+        "prompt": 853,
+        "completion": 54
       }
     }
   ]

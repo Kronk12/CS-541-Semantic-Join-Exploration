@@ -21,33 +21,22 @@ def get_emails_ground_truth():
     return gt
 
 def get_stackoverflow_ground_truth():
-    """Calculates the ground truth directly from the StackOverflow CSVs and the GT mapping file."""
-    # Using the 200-row dataset as the new standard
-    df_a = pd.read_csv(os.path.join(DATA_DIR, 'table_a_stack_200.csv'))
-    df_b = pd.read_csv(os.path.join(DATA_DIR, 'table_b_stack_200.csv'))
-    
-    gt_mapping_path = os.path.join(DATA_DIR, 'stack_ground_truth_200.csv')
-    if not os.path.exists(gt_mapping_path):
-        # Fallback to the original if _200 doesn't exist (though we just verified it does)
-        df_a = pd.read_csv(os.path.join(DATA_DIR, 'table_a_stack.csv'))
-        df_b = pd.read_csv(os.path.join(DATA_DIR, 'table_b_stack.csv'))
-        gt_mapping_path = os.path.join(DATA_DIR, 'stack_ground_truth.csv')
-        
-    df_gt = pd.read_csv(gt_mapping_path)
+    """Calculates the ground truth for the StackOverflow dataset (250x10)."""
+    df_a = pd.read_csv(os.path.join(DATA_DIR, 'table_a_stack.csv'))
+    df_b = pd.read_csv(os.path.join(DATA_DIR, 'table_b_stack.csv'))
+    df_gt = pd.read_csv(os.path.join(DATA_DIR, 'stack_ground_truth.csv'))
     valid_pairs = set(zip(df_gt['question_id'].astype(int), df_gt['concept_id'].astype(str)))
-    
+
     gt = set()
     for i, row_a in df_a.iterrows():
         q_id = row_a.get("question_id")
         if pd.isna(q_id):
             continue
         q_id = int(q_id)
-            
         for j, row_b in df_b.iterrows():
             c_id = str(row_b.get("concept_id"))
             if (q_id, c_id) in valid_pairs:
                 gt.add((i, j))
-                
     return gt
 
 def get_imdb_ground_truth():
@@ -139,16 +128,15 @@ if __name__ == "__main__":
     gt_emails = get_emails_ground_truth()
     gt_stack = get_stackoverflow_ground_truth()
     gt_imdb = get_imdb_ground_truth()
-    
+
     print(f"  Emails GT: {len(gt_emails)} pairs")
     print(f"  StackOverflow GT: {len(gt_stack)} pairs")
     print(f"  IMDB GT: {len(gt_imdb)} pairs\n")
-    
+
     # Map the base JSON filenames to their respective ground truth sets
     subgroups_to_run = [
         ("emails", gt_emails),
         ("stackoverflow", gt_stack),
-        ("stackoverflow_no_desc", gt_stack),
         ("imdb", gt_imdb)
     ]
     

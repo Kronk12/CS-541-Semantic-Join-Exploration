@@ -1,0 +1,11 @@
+concept_id,concept_name,Description
+T-0,java,"A high-level, class-based, object-oriented programming language designed to have as few implementation dependencies as possible."
+T-1,html,"HyperText Markup Language, the standard markup language for documents designed to be displayed in a web browser."
+T-2,javascript,"A lightweight, interpreted programming language with first-class functions, core to interactive web development."
+T-3,jquery,"A fast, small, and feature-rich JavaScript library designed to simplify HTML DOM tree traversal and manipulation."
+T-4,c++,"A general-purpose programming language created as an extension of C, known for performance, efficiency, and hardware control."
+T-5,c#,"A modern, object-oriented, and type-safe programming language developed by Microsoft for the .NET framework."
+T-6,php,A popular general-purpose scripting language that is especially suited to server-side web development.
+T-7,python,"An interpreted, high-level programming language known for its code readability and comprehensive standard library."
+T-8,android,"A mobile operating system based on a modified version of the Linux kernel, designed primarily for touchscreen mobile devices."
+T-9,ios,A mobile operating system created and developed by Apple Inc. exclusively for its hardware like the iPhone and iPad.

@@ -6,7 +6,7 @@ LOG_DIR = 'src/evaluation/logs'
 
 datasets = [
     ('Emails', 'emails_aggregated_results.csv', 'emails_projection_aggregated_results.csv'),
-    ('StackOverflow', 'stackoverflow_no_desc_aggregated_results.csv', 'stackoverflow_no_desc_projection_aggregated_results.csv'),
+    ('StackOverflow', 'stackoverflow_aggregated_results.csv', 'stackoverflow_projection_aggregated_results.csv'),
     ('IMDB', 'imdb_aggregated_results.csv', 'imdb_projection_aggregated_results.csv')
 ]
 

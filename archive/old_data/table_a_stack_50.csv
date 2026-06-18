@@ -1,0 +1,346 @@
+question_id,question_text
+6223240,"Title: After importing into eclipse using eGit, can't compile and run. What do I do? | Body: After importing a standard .java file into Eclipse using Git, I tried to compile and run the  file. Eclipse gave me this error: 
+
+""Unable to launch: The selection cannot be launched, and there are no recent launches.""
+
+
+What do I do?
+"
+14740150,"Title: OSX Dashboard Widget File URI | Body: I'm trying to update a dashboard widget that has stopped working, I think with the upgrade to either Lion or Mountain Lion.
+
+The widget has a drop zone for dropping files onto, which then uploads them to a web service.
+
+However, my ondrop event handler is returning an empty string for the text/uri-l"
+2250080,"Title: java.lang.UnsatisfiedLinkError: Method inside dll is not accessible | Body: I am trying to access the function available inside the .dll file. But it give exception like ""Exception in thread ""main"" java.lang.UnsatisfiedLinkError: *.jniGetAudioInputLevel()D"". DLL file is loaded but when I try to access the methods it give an error message.
+
+According to my knowledge:- 
+
+
+Thi"
+15706930,"Title: Installing PyGame onto Mountain Lion OS | Body: Okay, so I've completely given up. 
+
+I've tried about a thousand different walkthroughs to solve my problem, on every website I can find, but I either get stuck and no one knows the answer, or they just don't work.
+
+So has anyone got an answer to installing PyGame onto Mountain Lion that they know 1"
+39393520,"Title: How to remove a current page from stack navigation Xamarin Forms | Body: I'm trying so hard to do something but i wasnt able to solve this problem. I have three pages, One is the MainPage, LoginUpPage and SignUpPage, inside of LoginUpPage has a button who navigates to SignUpPage, what i want to do is when I finish my logic navigates to another page CreatedPage, whitch co"
+9637100,"Title: how to disable expandablelistview vertical scrolling when webview is scolled horizontally | Body: I have taken a webview as a child in my expandable list. When I scroll the webview horizontally it clashes with vertical scroll of listview. 
+
+I want to smoothly scroll horizontally when swiped left or right.
+
+Any help is appreciated.
+
+Thanks
+"
+29346030,"Title: Can I Use Insert Snippet to Create Setters and Getters in Visual C++ | Body: This answer suggests creating a Code Snippet to allow the ""Insert Snippet"" menu to contain setters and getters in Visual C#.
+
+I went to check out the answer's link: https://msdn.microsoft.com/en-us/library/ms165392.aspx
+
+But it really doesn't have information about inserting anything more than fixed"
+25798350,"Title: UITableView scrollView delegate not called | Body: I have a tableview set inside a UIViewController
+
+@property (strong, nonatomic) IBOutlet UITableView *tableView;
+
+
+with delegates set in viewDidLoad
+
+self.tableView.delegate = self;
+self.tableView.dataSource = self;
+
+
+The following methods never get called:
+
+- (void)scrollViewDidEndDecelerating:(UIS"
+17541960,"Title: Convert markdown to json in R | Body: Here are the steps I would like to execute:
+
+
+Read a markdown file (see below) into R
+Convert the markdown text to JSON
+Send the JSON in an API POST call
+
+
+Eg. markdown text file:
+
+## This is a list
+
++ one
++ two
++ three
+
+#### Do a thing
+```coffee
+points &lt;- rnorm(10)
+plot(points)
+```
+
+#### Do some"
+4007320,"Title: Separate quotes from string | Body: The following code keeps giving me this error 
+
+
+  Parse error: syntax error, unexpected T_VARIABLE in ...
+
+
+?
+
+   $query_string = 'this is a test... ""this is in quotes"" mmm..chicken burgers... yummm...';
+   preg_match_all(""/\"".*\""|[^\s]*/"",  Â­ $query_string, $matches);
+   echo ""Matches:"";
+   forea"
+8023930,"Title: Best way to achieve C break or Python pass in a SQL case expression? | Body: Given a SQL CASE expression with nested CASE expressions, I'm looking for the best way to emulate a C break or Python pass within a nested CASE expression so I can evaluate the rest of the outer WHEN choices.
+
+For example, imagine
+
+select CASE 
+         WHEN C1 THEN CASE
+                      WHEN C"
+12198670,"Title: select option in payment method instead of radion button in magento | Body: This is my methods.phtml file in onepagecheckout in magento,I want the dropdown(select option) button instead of radio button .........so that i could select the payment method to pay the payment.
+
+&lt;?php if (!$methods = $this-&gt;getMethods()) : ?&gt;
+  &lt;p&gt;&lt;?php echo $this-&gt;helper('ch"
+37493520,"Title: how to remove rows based on some conditions | Body: My data looks like this:
+
+row  ID  YU  DV
+ 1    1   0   .
+ 2    1   .   .
+ 3    1   .   .
+ 4    1   .   .
+ 5    1   45  .
+ 6    1   .   7
+ 7    1   .   .
+ 8    1   .   .
+ 9    1   .   .
+ 10   1   65  .
+ 11   1   .   5
+ 12   1   .   .
+ 13   1   .   .
+ 14   1   .   .
+ 15   2   20  .
+ 16   2   .   .
+ 1"
+36401290,"Title: Different results between Orange PCA and scikit-learn PCA | Body: I am using scikit-learn PCA to find the principal components of a dataset with about 20000 features and 400+ samples.
+
+However, comparing with Orange3 PCA which should be using scikit-learn PCA, I get different results. I also unchecked the normalization option proposed by Orange3 PCA.
+
+With scikit-"
+6625110,"Title: Android CMYK mode | Body: I have a Bitmap in CMYK mode, which doesn't show correctly, and at some point not at all, on Android. Googling didn't return many answers, so I have to ask here how do I handle CMYK mode images?
+
+Thanks
+
+UPDATE
+
+Ok, more info as requested. I have a image that is in the assets, and I construct a Bitm"
+13720510,"Title: Can I get my salt from a database and then check the password in the same query? | Body: I've recently added a class which uses unique salts stored in the members table. This was my login script before I used salts:
+
+    $sql = 'SELECT id, username FROM member WHERE username = ? AND pass = ?';
+
+    $result = $this-&gt;DB-&gt;query($sql, array($username, $pass));
+    foreach($result as $"
+21262830,"Title: how to scroll live cards in aglass activity | Body: I'm writing a glass app.
+
+In one activity I want to scroll between few cards (which were popups in my android app).
+
+1) I thought to use cardsScrollView.
+
+problem: Is it possible to set customView to a card object?
+
+2) I thought to use LiveCard
+
+problems:
+
+Is it possible to publish them inside my ap"
+8797800,"Title: auto from const std::vector<>&; object or reference? | Body: suppose we have an object with the following interface:
+
+struct Node_t {
+ ... const std::vector&lt; something &gt;&amp; getChilds() const;
+ } node;
+
+
+Now, i access the property with an auto variable like this:
+
+auto childs = node-&gt;getChilds();
+
+
+what is the type of childs? a std::vector&lt; somet"
+13367360,"Title: Spring security authorize rails app using devise | Body: I'm trying to figure out how to authorize my rails app into pentaho spring security. I've tried to use the URL parameters user=username&amp;password=password but somehow the application does not listen to it and it just send me to the login page.
+
+Right now im doing a hack on the pentaho server by a"
+36085460,"Title: Android : Determine direction of hand movement, the curve. | Body: I am working on an Android project in which I would like to detect hand movement of the user. I looked up a lot of examples, but all the examples only detect changes which are linear, like hand moves up or down, right or left... Nothing I could find for a curved detection. I have basic code now, whe"
+5097450,"Title: Is it possible to delete the object itself, not the reference | Body: var a = {
+    ""example"" : true
+};
+
+var x = [a], y = [a];
+
+delete x[0];
+
+console.log(y);
+
+
+In the above code, would it be possible to have a deleted, not just the reference in x ?
+"
+10682430,"Title: .net synthesizer | Body: I'm looking for a synthesizer that I can integrate with my .NET application. Is there any .NET synthesizers available out there? Is there a way of integrating VST-plugins into your .NET application?
+
+I want to create sounds based on MIDI-input, preferably sounds that are more appealing than sine/squ"
+10813930,"Title: Read a file backwards? | Body: Is there a way to read a file backwards, line by line, without having to go through the file from the beginning to start reading backwards?
+"
+36012890,"Title: LogCat not working after update to Android N | Body: I recently updated my Nexus 5x to Android N preview, I updated the SDK plugin for Android N on Eclipse too.
+
+But Eclipse still does not recognize the API of my own, and thus the LogCat is not working when debugging the app.
+
+Screenshot1
+
+Screenshot2
+
+Is there any solution for this?
+"
+18294830,"Title: How to mock a call-by-name argument (like getOrElse) using ScalaMock? | Body: I'd like to be able to mock a return value of getOrElse method so that it returns what is passed as orElse call-by-name argument with ScalaMock
+
+trait ToBeMocked {
+  def getOrElse(arg: Int)(orElse: =&gt; String): String
+}
+
+
+ScalaMock has to be used because of currying. Running this:
+
+class CallByNam"
+13748770,"Title: Email Validation with JavaScript | Body: 
+  Possible Duplicate:
+  Validate email address in Javascript?  
+
+
+
+
+This is my first post and I have a small issue. I'm trying to validate an email address on a form, but with no luck. I found this snippet on the internet but it doesn't seem to be working. I'm using Javascript at the moment to vali"
+16862880,"Title: Installing JSON Gem with Bundler without GCC | Body: I am in the process of deploying a rails application to a server. There are a few environmental limitations, namely:
+
+
+No internet access on server
+No root access on server
+No build tools (GCC, etc)
+
+
+I almost have the capistrano deployment working, however I get a failure when bundler tries to inst"
+10155330,"Title: How to prevent a service from getting killed by Android because of uncaught exceptions? | Body: I am investigating if there are any ways to prevent an android service being killed because of uncaught exception.
+We have 10 UI apps talking to 5-6 services. The platform is Android 2.2. 
+Because of unforeseen conditions, some of the logic in the services are throwing exceptions now and then. That "
+2380130,"Title: How to force select_related() to select ForeignKeys that have null=True attribute? | Body: Model1 has a ForeignKey to Model2. And Model2 has a ForeignKey(Model3, null=True, blank=True) to Model3. By default, when I use select_related() on Model1, Model3 is not selected because of null=True. How can I force select_related() to follow a foreign_key that has has null=True?
+
+The only way I ca"
+36738670,"Title: Using Respect/Validation in another language | Body: I want to use the Respect/Validation library in PHP. I know how to use it but currently I'm using it in a project in german language and of course I also want the error messages in german.
+
+For language translation there is a section in the documentation but I don't really get it and I did not found"
+11956800,"Title: Does the getID() always return a constant value? | Body: For my Android project, I am using the getID() method to retrieve the numeric value for a View and store this value in my database.  I am banking that this getID() method for a particular View will always return the same constant value over multiple executions in a production environment and over su"
+35235300,"Title: Git - Does a remote branch need to be pulled local to merge? | Body: I have a local branch on which I committed some changes. I would then like to pull the changes that have been added to the parent branch by other developers. Do I need to pull down the parent branch locally before doing the merge?
+
+I thought I had been bringing down changes made by other developers "
+30770960,"Title: Sending data from Android app to MySQL database | Body: I am a newbie attempting to send data from an Android app to a MySQL database set up on a localhost server via xampp. This method is supposed to put a name, username, password, phone number, and age into an arraylist of type NameValuePair.
+
+@Override
+    protected Void doInBackground(Void... params)"
+3682460,"Title: What is Adobe Air Packager for iphone | Body: I just read this annoucement about Apple lifting restrictions on its third-party developer guidelines with direct implications for Adobeâs Packager for iPhone.
+
+http://blogs.adobe.com/conversations/2010/09/great-news-for-developers.html
+
+
+I just want to know what kind of applications can be built "
+3467950,"Title: jQuery smooth mouse tracking | Body: I have my object tracking the mouse using the onmousemove event. But I would like to make it smooth. I'm sure this can't be difficult in jQuery but I'm not finding any really good resources.
+
+One idea I had was to simply use the animate function and calculating the offsets that I want to move to. Th"
+2495350,"Title: Python or Ruby for webbased Artificial Intelligence? | Body: A new web application may require adding Artificial Intelligence (AI) in the future, e.g. using ProLog. I know it can be done from a Java environment, but I am wondering about the opportunities with modern web languages like Ruby or Python. The latter is considered to be ""more scientific"" (at least "
+6013110,"Title: Gridview Validation | Body: I am using Gridview and using Item Template text box. There are 5 text box and i am adding a new row dynamically on clicking on add row btn. in that row i have adding all text box which is empty. Now i want to validate that text box on btn click next.
+
+now to do it?
+
+I used required field validation"
+39912520,"Title: string convert to json in android | Body:     client.post(""http://10.0.2.2/project/process/selectalluser.php"", new AsyncHttpResponseHandler() {
+
+        @Override
+        public void onSuccess(String response) {
+            Integer contacts = controller.getContactsCount();
+            Log.d(""Reading contacts: "", contacts+"""");
+            Sy"
+30603680,"Title: Client ECC SSL Certificate contains ""unknown named curve"" | Body: Question precontext:
+I am working in an existing library that uses SSL with the netty framework on a remote server. I am running into an SSL/TLS handshake error. The error is as follows: 
+
+
+
+javax.net.ssl.SSLProtocolException: java.io.IOException: Unknown named curve: 1.2.840.10045.3.1.1
+    at sun."
+7717830,"Title: group by same column where multiple condition using same column input | Body: i have a table named temp. columns are id, telco, shortcode,hotkey.
+
+id  telco  shortcode hotkey
+1    asdf    123      ib
+2    gra     123      sb
+3    cc      123      sb
+4    bl      123      ibb
+
+
+using mysql query i want output count(shortcode) group by telco where hotkey ib shortcode 123 and 
+c"
+24335810,"Title: how to show a query result in jtable in netbeans | Body: I use netbeans 8 and JDBC/Derby and want to show the result of a statement (join of 3 tables) in a jTable. How should I do it? Is there a way to do it manually (not via java code)?
+when I want to show data from a single table, I Do it through table content>bound. If there is a way in this section pl"
+4030640,"Title: Why doesnât my enum work as a method parameter? | Body: I've used typedef enum in the past with method parameters and had no problem, but today I'm having problems...
+
+h file
+
+typedef enum
+{   eGetVarious1,
+eGetVarious2,
+} eGetVarious; 
+
+- (double)getVarious:(eGetVarious)eVar:(NSDate*)pDate;
+
+
+an m file
+
+
+"
+15897500,"Title: Closing tags when extracting HTML from XML | Body: I am transforming a mixed html and xml document using an xslt stylesheet and extracting only the html elements.
+
+Source file:
+
+&lt;?xml version=""1.0"" encoding=""utf-8"" ?&gt;
+&lt;html &gt;
+  &lt;head&gt;
+    &lt;title&gt;Simplified Example Form&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;TLA:"
+33688020,"Title: Configuring Apache Tomcat 7.0 to reject connections with expired client certificates | Body: Consider Apache Tomcat 7.0 configured to do client authentification (with connector's parameter clientAuth set to true).
+
+It appears, that Tomcat trusts to expired client certificates by default, which are in its trusted store (allow them successfully do authentification).
+
+Is it possible to configu"
+27405500,"Title: Change Binding depending on RadioButton | Body: I have a textbox with an Binding to an ObservableCollection with a triple tuple and want to change the Binding depending on two radiobuttons:
+
+XAML:
+
+&lt;ItemsControl ItemsSource=""{Binding DataInformation, Mode=OneWay}""&gt;
+    &lt;ItemsControl.ItemTemplate&gt;
+        &lt;DataTemplate&gt;
+         "
+21050340,"Title: How to use LoaderManager.LoaderCallbacks and CursorLoader for ORMLite? | Body: Recently I started using ORMLite for my application. Before I used to use 'ContentProvider' and implement LoaderManager.LoaderCallbacks&lt;Cursor&gt;. I would create CursorLoader and show the list to user when I have data.
+
+How can I manage that cycle with ORMLite?
+
+I want to create Cursor and get n"
+31257720,"Title: Converting JSON data before displaying in HTML | Body: I have some data being returned in this format:
+
+[{
+label: ""Store Name"",
+address: ""123 Somewhere Blvd"",
+city: "" Atlanta"",
+state: ""11"",
+zip: ""30333""
+}]
+
+
+Id like to know if there is a way to convert the ""state"" portion to the states name instead of its ID number. I have a table in my database that ma"
+2625150,"Title: Membership Generate Password alphanumeric only password? | Body: How can I use Membership.GeneratePassword to return a password that ONLY contains alpha or numeric characters? The default method will only guarantee a minimum and not a maximum number of non alphanumeric passwords.
+"
+12787730,"Title: Execute code on App Engine application initialization | Body: When running a Python Web Application  on App Engine, we need to set up some mechanism to execute some code before (or during) the application's initialization.  This means that, in the optimal solution, the code that we need to run is executed as early as possible.  The purpose of this is to allow "
+37193380,"Title: Rotate plotted points of an ellipse to give a circle | Body: I have an ellipse-shaped distribution that I think is a conic section. I want to rotate the points so that the distribution becomes circular-shaped, as if I was looking at the conic section directly over the top of the cone. 
+
+Here's some example data (generated using the function here)
+
+X_df &lt;-
+"

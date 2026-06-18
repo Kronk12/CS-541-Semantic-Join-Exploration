@@ -1,0 +1,628 @@
+question_id,question_text
+39363200,"Title: ""AccessToken.user"" must be a ""User"" instance | Body: I am trying to figure out oAuth2 token based authentication since 3 days and no avail yet. I have written a code for user authentication. However, I am getting an error of 
+
+
+  ValueError at /api/customer/login/ Cannot assign ""{'username':
+  'sanskars'}"": ""AccessToken.user"" must be a ""User"" instance"
+23431940,"Title: C# access data from COMAdmin.COMAdminCatalog using WMI | Body: Earlier I was using code as below to grab COM+ applications and verify that my app is running
+
+COMAdmin.COMAdminCatalog catalog = new COMAdmin.COMAdminCatalogClass();
+catalog.Connect(servername);
+catalog.GetCollection(""Applications"")
+
+
+Now I need to perform the same actions but from other domain. So"
+10795630,"Title: Share image from SD Card | Body: I'm trying for 2 weeks to find how to share images which are stored on an SD card with no success. 
+
+This answer doesn't work to me, nor is it what I'm looking for.
+
+I'm working with Cam Preview app that stores images to SD and then display them in in-app gallery: 
+
+   public class GalleryView exten"
+22025090,"Title: Datatable filter not working | Body: I am using Primefaces for creating a filterable table.
+
+&lt;p:dataTable id=""tasksTable"" value=""#{taskView.currentTasks}"" var=""task"" rowIndexVar=""index"" filteredValue=""#{taskView.filteredTasks}""&gt;
+                &lt;p:column headerText=""Name""&gt;
+                    &lt;h:outputText value=""#{task."
+11604390,"Title: Numerical Problems with GNU MP Bignum Library | Body: I'm doing some number crunching, which needs high precision arithmetic. I'm using the GNU MP library, and according to the GMP manual:
+
+""Floating point number or Float for short, is an arbitrary precision mantissa with a limited precision exponent.""
+
+Although the mantissa is supposed to have an arbi"
+11271470,"Title: FATAL EXCEPTION: main- I have no idea what's wrong | Body: I'm still fairly new to Eclipse and I have tried everything to keep these errors from happening:
+
+06-30 00:38:28.773: E/AndroidRuntime(20520): FATAL EXCEPTION: main
+06-30 00:38:28.773: E/AndroidRuntime(20520): java.lang.SecurityException: Permission       Denial: starting Intent { act=android.intent"
+35879220,"Title: Weights in a labeled_graph | Body: How do I add weights to this labeled graph that uses add_edge_by_label for use in dijkstra_shortest_paths?
+Am trying to use an example
+Thanks
+
+#include &lt;boost/graph/adjacency_list.hpp&gt;
+#include &lt;boost/graph/copy.hpp&gt;
+#include &lt;boost/graph/labeled_graph.hpp&gt;
+#include &lt;boost/graph"
+2359300,"Title: wxPython change field on tab | Body: I apologize for a simple question, but I did not see this in the tutorials.
+
+I have a very simple gui, but I would like the user to be able to press the TAB key and have it move from one input field to another.  I am using wxPython with Python 2.6.
+"
+11985680,"Title: Jackson equivalent to @XmlSeeAlso | Body: I am writing a RESTful web service using Java and Jersey, where the service will accept either XML or JSON inputs. Jackson is used as the JSON deserializer, and integrated into the Jersey config.
+
+One of the endpoints is a POST request to a URL, where the content can be one of several different Java"
+2457320,"Title: Checklist for good email delivery in php | Body: I have a PHP application that sends email using the pear Mail function. Unfortunately all my emails end up in the junk folder.
+
+Can i get a checklist for things i should do to make sure my emails are recieved correctly.
+
+Thank you
+"
+37796290,"Title: Vaadin app is deployed on WildFly in Openshift, but i can see only standard openshift welcome page | Body: I'm a newbie with all that vaadin, wildfly and openshift stuff, so, please, excuse me, if I will sound stupid.
+
+I deployed my app to Wildfly 10 server. Everything was fine during deployment. But now I just can't see the rendered page (only welcome page can be accessed).
+
+When I deploy locally I use "
+7679020,"Title: How to write an XQuery which crosses an xsd:any element? | Body: A schema contains a &lt;xsd:any/> element. 
+
+The code, by some external information, knows that in place of any there is a specific XML structure (e.g. foo).
+
+XQuery would be looking as /Root/Child/AnotherChild/book/title.
+
+But XQuery complains that book element is not known, and XQuery thus is not "
+15612820,"Title: Get image from a php file to iOS | Body: I want to get image from a php file (for example: http://abc.xyz.com/api/showImage.php) for a specific user through the user id &amp; set the image in the image view of my iOS app. How can i do so?
+Thanks in advance.
+"
+860880,"Title: Why would I get a GPF in DLLMain when run as a restricted user? | Body: Why is this code crashing when run as a restricted user, but not when run as an admin of the machine?
+
+extern ""C"" BOOL WINAPI DllMain(HINSTANCE hInstance, 
+                               DWORD dwReason, 
+                               LPVOID lpReserved)
+{
+ hInstance;
+ m_hInstance=hInstance;
+ return "
+4227950,"Title: File access issue | Body: Before writing to the file:
+
+using (StreamWriter outfile = new StreamWriter(filePath, false, System.Text.Encoding.UTF8))
+{
+    outfile.Write(content);            
+}
+
+
+I'm checking the file write accsses using this:
+
+public bool CheckIfAccessToFileIsGranted(string filePath)
+{
+     try
+     {
+        "
+29208610,"Title: PHP cURL connect using IP address instead domain name | Body: I run several servers in the same data center that have internal networking enabled.  In the interests of speed and costs (internal traffic is not billed) I would like to be able to cURL between the various servers on their internal IPs.
+
+I have just discovered that if I attempt something along the "
+31936570,"Title: Crosswalk's XWalkView (an alternative to Webview) not working with AppBarLayout + CoordinatorLayout | Body: I'm trying to achieve the scrolling Toolbar technique (hiding Toolbar when scrolling down in a sibling child view) using CoordinatorLayout and AppBarLayout.
+
+I'm using Crosswalk's XWalkView (it's a view which functions like WebView).  
+
+When using regular WebView (inside a NestedScrollView) I can ac"
+21685730,"Title: Jquery each loop + setTimeout problems with increments | Body: http://jsfiddle.net/fxLcy/ - example with setTimeout
+
+http://jsfiddle.net/fxLcy/1/ - this is the demo without setTimeout. All elements on right place, but i really need that delayed animation =/
+
+I want to place 6 cards per row via css transition and setTimeout. The point is, that i cant use increme"
+21587540,"Title: rails3 jquery autocomplete getting and passing array | Body: This may seem like an easy problem to most of you, but it's been troubling me all day. 
+
+I'm trying to implement messaging system. I want to be able to send message to multiple people. for this to happen i need help with two things:
+Firstly, data-delimeter doesn't work. I'm guessing i just don't kno"
+29485210,"Title: match_parent does not work in case of CustomListview | Body: &lt;com.mil.example.CustomListView
+                    android:id=""@+id/villa_lv""
+                    android:layout_width=""match_parent""
+                    android:layout_height=""match_parent""
+                    android:layout_below=""@+id/itemImageLay""
+                    android:fadingEdge=""none"
+26672520,"Title: How to use google maps places autocomplete api and list suggestions in a listview and not a dropdown | Body: https://developers.google.com/places/training/autocomplete-android
+
+I have used the above link, but I want the results as a list directly below the input box, not as a dropdown but as a listview occupying the whole page. Similar to Google Maps App in  Android.
+
+How can i change the code to achieve t"
+9181590,"Title: What is the purpose of empty abstract classes in Kohana 3? | Body: I haven't used abstract classes much in practice, though I understand what they are : a way to dictate to subclasses which methods must be implemented.
+
+I just put a Kohana project through Doxygen and can see the class hierarchy in its entirety. I see that, at the top of the chain we have a factory:"
+7837270,"Title: How .NET's regex engine treats RTL+LTR mixed strings? | Body: I have a mixed Hebrew/english string to parse.
+The string is built like this:
+
+[3 hebrew] [2 english 2] [1 hebrew],
+
+
+So, it can be read as: 1 2 3, and it is stored as 3 2 1 (exact byte sequence in file, double-checked in hex editor, and anyway RTL is only the display attribute). .NET regex parser h"
+39070080,"Title: Barcode scanning broken | Body: Since the recent update for Codename one any barcode scanning seems to be broken.
+On android the camera appears and scans the code but nothing happens when it returns to the app (that is none of the 3 callback functions are triggered).
+On iOS the camera window doesn't even appear.
+I'm using this lib"
+13372060,"Title: Regex matching @""*"" | Body: I am attempting to use regexes in jQuery, and I am running into some problems. This is the string that I am operating on:
+
+NSLog(@""It works!"");
+
+
+I want the regex to select everything between the @"" and the "", inclusive. This regex works just fine in Reggy, but when put in my JavaScript, does not wo"
+537140,"Title: jQuery: CSS Selectors | Body: How would I use jQuery CSS Selectors to find for instance:
+
+css class name: ""Text"" which is a div inside of dom object ""wrapper""?
+"
+16820230,"Title: Load JSON file into highcharts to draw a Line Chart | Body: I want to load a JSON file into highcharts. But, I am not being able to understand how to do it. The y-axis labels are the year values starting from 2046.  
+
+The JSON file is as follows:
+
+{
+  ""year"":[2046,2047,2048,2049,2050,2051,2052,2053,2054,2055,2056,2057,2058,2059,2060,2061,2062,2063,2064,2065,"
+37287590,"Title: Is there a mechanism in C++ to make a full copy of a derived class from a base class pointer without dynamic memory allocation? | Body: Consider the following example, where object slicing occurs during dereference of a base pointer.
+
+#include &lt;stdio.h&gt;
+
+class Base {
+  public:
+    virtual void hello() {
+        printf(""hello world from base\n"");
+    }
+};
+class Derived : public Base{
+  public:
+    virtual void hello() {
+       "
+24781920,"Title: What causes an hierarchy request error when trying to move an svg from one div to another? | Body: I am trying to move an svg from one div to another.  This stack question offered this solution which I tried.
+
+document.getElementById(""LightBoxDiv"").appendChild(svgId+""V"");
+
+When I tried this, I received an hierarchy request error.  This stack question suggested several things which might be the ca"
+29464210,"Title: How do I send an email from the localhost with Swiftmailer and Yii? | Body: When I try to send a mail, I'm getting this error message from my mail server:
+
+
+  Swift_TransportException
+  Expected response code 250 but got code ""501"", with message ""501 5.5.2 &lt;[::1]>: Helo command rejected: invalid ip address""
+
+
+In the debug bar, I see the SERVER_ADDR is set to ::1, but I c"
+10433330,"Title: Midlet must not closed even press cut button of device | Body: I am working in J2ME. I want that my MIDlet must run for infinite time. It must not close even I press any of key from my device.
+
+Please help me what should I do for this?
+"
+5611350,"Title: Capturing UIScrollView off screen content | Body: I'm working with a UIScrollView which can be used in either orientation and contains a number of subviews:
+
+// in viewDidLoad
+
+mainScrollView = (UIScrollView *)self.view;
+
+mainScrollView.contentSize = CGSizeMake(1024, 1432);
+
+
+I'm trying to capture a screen shot of the entire scroll view with all it"
+2626370,"Title: Chaining CSS classes in IE6 - Trying to find a jQuery solution? | Body: tl;dr = ""Anyone know how to apply chained classes for IE6 using jQuery or similar?""
+
+Right,
+
+perhaps I ask the impossible? I consider myself fairly new to Javscript and jQuery, but that being said, I have written some fairly complex code recently so I am definitely getting there... however I am now "
+21448310,"Title: How do you find common sublists between two lists? | Body: How do you find or keep only the sublists of a list if it the sublist is also present within another list?
+
+lsta = [['a','b','c'],['c','d','e'],['e','f','g']]
+lstb = [['a','b','c'],['d','d','e'],['e','f','g']]
+
+
+I'd like to do something like set(lsta) &amp; set(lstb) 
+
+Desired_List = [['a','b','c'],"
+23157670,"Title: What can cause NSUserDefaults to be cleared | Body: I've been getting some odd reports for my app where the application settings stored into the NSUserDefaults is being cleared. The reports have all been on iOS 7s
+
+I know you can manually clear the NSUserDefaults by either uninstalling or making a call to
+
+NSString *appDomain = [[NSBundle mainBundle]"
+4944750,"Title: How to subtract date/time in javascript? | Body: I have a field at a grid containing date/time and I need to know the difference between that and current date/time. What could be the best way of doing so?
+"
+10827780,"Title: Setting EventQuery.Uri resets the EventQuery state | Body: This works:
+
+public override bool GetAppointments(CalendarModel calendar, DateTime startDate, DateTime endDate) {
+    foreach (var googcal in _settings.Calendars.Where(googcal =&gt; googcal.Selected)) {
+        var eventQuery = new EventQuery {
+            Uri = new Uri(googcal.ProviderData),
+      "
+12987220,"Title: Get backreferences values and modificate these values | Body: Could you please explain why im not able to get values of backreferences from a matched regex result and apply it some modification before effective replacement?
+
+The expected result is replacing for example string "".coord('X','Y')"" by ""X * Y"". But if X > to some value, divide this value by 2 and th"
+3609890,"Title: How to report that custom (added) Calculated Property of entity object has changed? | Body: First, I apologize for my low level English writing. 
+
+I use Entity Framework and data-binding in WPF MVVM project.
+I would like to know what is the best way to do data binding to added calculated property of EntityObject which is generated with Entity Framework. 
+
+For example:
+
+    partial class Pe"
+3140690,"Title: What's the correct syntax for replacing HTML elements with an <!--[if IE 7]> statement? | Body: I need to have a slightly different HTML element in IE7 than the rest, here is what I have so far:
+
+&lt;p&gt;
+        &lt;label&gt;&amp;nbsp;&lt;/label&gt;
+
+        &lt;!--[if IE 7]&gt;
+        &lt;span class=""progressIndicator"" style=""display: none;""&gt;&lt;/span&gt;
+        &lt;button type=""submit"
+20826780,"Title: Requirejs baseUrl to prepend only bower modules | Body: Here's my directory structure
+
+
+/assets
+
+/javascripts
+
+/config.js
+
+
+/bower_components
+/gruntfile.js
+
+
+Here's my rjs options
+
+{
+    name: ""config"",
+    mainConfigFile: ""assets/javascripts/config.js"",
+    out: ""public/main.js""
+}
+
+
+Here's my config.js file
+
+require.config({
+    baseUrl: ""../../bower_co"
+19835400,"Title: Disposing a Thread in JDK 1.6+ | Body: In simple. How to stop and then dispose a thread in JDK 1.6 or 1.7? Javadoc say stop() is deprecated. What is the proper ways to stop/end and then dispose a thread?
+"
+9297180,"Title: How to Redirect to Referrer after Accepting Terms (Javascript) | Body: I have a script set up to require a visitor to accept terms, but I need them to be redirected to the referrer when they accept the terms without naming a specific url.
+
+For example, I have it set up so that when a visitor clicks a link on the site to watch, say,  ""video1"", they must come from the te"
+12929430,"Title: Tempfolder and its lifetime | Body: I have a little question: in windows 8 we have ""tempFolder"". How can i set lifetime for files, that i want to store in this folder?
+
+Dev-center says about this:
+""temporary: Data that could be removed by the system any time the app isn't running""
+It's mean that, when app suspended(or minimized) they/"
+1857360,"Title: Strange Behaviour : unlink not deleting files in php | Body: Somehow unlink is not deleting the file. If you see in the file, am copying from $incoming_file_path to $processing_file_path and than after copying is done. I am trying to delete the file in $incoming_file_path but somehow is it not deleting and I really wonder why it is happening so. Kindly advice"
+14162640,"Title: Listview Holder positions shuffled | Body: I have a problem with ListView, or to be more exact - ImageView placed on it. My app is downloading thumbnails from Youtube. Everything to that place is fine. Later, while using getView() a strange behavior appears. When I'm loading data to holder within if condition:
+
+    if(convertView == null){
+
+"
+32046640,"Title: Boost future continuation never changes state | Body: i have a question concerning the boost future continuations. Consider the following code:
+
+#define BOOST_THREAD_PROVIDES_FUTURE
+#define BOOST_THREAD_PROVIDES_FUTURE_CONTINUATION
+#define BOOST_THREAD_PROVIDES_FUTURE_UNWRAP
+#include &lt;boost/thread.hpp&gt;
+#include &lt;boost/thread/future.hpp&gt;
+#in"
+38979540,"Title: Registry Key is not created | Body: I've had no trouble creating/deleting keys to the CurrentUser but whenever I try LocalMachine nothing happens. I've added (""requestedExecutionLevel level=""requireAdministrator"" uiAccess=""false"")  to the app.manifest. Am I missing something? Please let me know if this is too long of a code first time"
+10103190,"Title: Change drawable of scrollbarThumbVertical when scrolling is active | Body: i tried to change the drawable of the scrollbar with a selector (state_pressed, state_focus, ...) but i didn't work.
+
+scrollview
+
+&lt;ScrollView
+xmlns:android=""http://schemas.android.com/apk/res/android""
+android:id=""@+id/scroll"" 
+android:layout_width=""fill_parent""     
+android:layout_height=""wrap_co"
+23323510,"Title: Shouldn't the code print "" 1 1"" instead of ""4 4""? | Body: According to Â§7.2/5 and Â§7.2/6 shouldn't the code below print 1 1 instead of 4 4?
+
+#include &lt;iostream&gt;
+enum A { a = (char)1, b, c };   //  underlying type is not fixed
+
+int main() {
+    std::cout &lt;&lt; sizeof(a) &lt;&lt; ' ' &lt;&lt; sizeof(A) &lt;&lt; '\n';
+}
+
+
+Edit
+
+
+  From Â§7.2/5:
+  
+"
+648960,"Title: std::vector on VisualStudio2008 appears to be suboptimally implemented - too many copy constructor calls | Body: I've been comparing a STL implementation of a popular XmlRpc library with an implementation that mostly avoids STL.  The STL implementation is much slower - I got 47s down to 4.5s.  I've diagnosed some of the reasons: it's partly due to std::string being mis-used (e.g. the author should have used ""c"
+32065910,"Title: cross-platform method for determining file owner in Python | Body: I need to find the owner of files in a script running on Windows, Linux and Mac. os.stat returns the owner id, but on windows I can't use getpwuid to find the actual name of the owner. I need the name as a string.
+"
+4749200,"Title: ""Bookmark"" button? | Body: Is there anything like a bookmark button using Javascript or HTML or PHP that we can bookmark the website ? without doing manually.
+
+Like,
+
+When the user clicks the button.The webpage should automatically bookarmed by the browser.
+
+Thanks
+"
+18772190,"Title: Should I dispose all disposable objects? | Body: Many objects in .NET (SQLCommand for instance) implement IDisposable. As a general rule, if I create an instance of an IDisposable object, should I always dispose it?
+"
+12085990,"Title: Detecting iOS orientation change instantly | Body: I have a game in which the orientation of the device affects the state of the game. The user must quickly switch between Landscape, Portrait, and Reverse Landscape orientations. So far I've been registering the game for orientation notifications via:
+
+[[UIDevice currentDevice] beginGeneratingDeviceO"
+5083540,"Title: What is the Dojo equivalent to jQuery .live()? | Body: What is the Dojo equivalent to jQuery .live()?
+http://api.jquery.com/live/  
+
+The only solution I found was to dojo.disconnect the event handlers and re-connect them once a dynamic piece of markup was added to the page.
+"
+5827290,"Title: javascript function leading bang ! syntax | Body: I've been seeing this syntax on a few libraries now and I'm wondering what the benefit is.  (note i'm well aware of closures and what the code is doing, I'm only concerned about the syntactical differences)
+
+!function(){
+  // do stuff
+}();
+
+
+As an alternative to the more common
+
+(function(){
+  // do"
+31532060,"Title: XML to String List | Body: I have some code that I need to put into a string list in C# and I am reading this code from an XML files and the layout of it is something like below...
+
+&lt;?xml version=""1.0""?&gt;
+&lt;accountlist&gt;
+    &lt;main&gt;
+        &lt;account id=""1"" special_id=""4923959""&gt;
+            &lt;username&gt;"
+3043330,"Title: Unable to mute the microphone in Android | Body: I'm working on an app that uses AudioRecord class to get input data from the phone mic. For some reason I'm unable to mute the mic. I have tried with different AudioSources (DEFAULT, MIC and VOICE_UPLINK) when creating the AudioRecord object, but there's no difference in the muting behaviour.
+
+The m"
+2607030,"Title: sendmail function shows:Syntax error, command unrecognized. The server response was: | Body: While sending mail from particular id I get this error, for rest of all id's its working fine,
+What was the problem over here..
+
+Syntax error, command unrecognized. The server response was: 
+status code :0 
+
+
+stack trace:
+
+   at System.Net.Mail.SmtpConnection.ConnectAndHandshakeAsyncResult.End(IAsyn"
+8828680,"Title: I need a Lightbox to display multiple images at once (in one zoom area) | Body: Can anyone tell me if there is a Lightbox (or similar) which is able to display several images at once, i.e  5 images shown overlayed together on one 'zoom'.  More specifically, I need to display one main 'background' image with several divs (each having a background image) positioned over it.
+This "
+8129800,"Title: jQuery validation live | Body: I have a form that is generated when a user clicks a button, and is put in a dialog div. Im trying to use the validation plugin, but having trouble attaching it to newly created elements. With the code below it works but one has to press the submit button twice. Any help fixing this problem is highl"
+18594770,"Title: Uploadify: Can not work using servlet | Body: My JSP page like this:
+
+$(function() {  
+    $(""#file_upload"").uploadify({  
+        'height': 27,
+        'width': 80,
+        'buttonText':'æµè§',
+        'swf':'&lt;%=basePath%&gt;admin/tupian/js/uploadify.swf',
+        'uploader': '&lt;%=basePath%&gt;Imguploadoper.img',
+        'auto' : false,"
+29903370,"Title: visualize genres of movies | Body: Using the example table below, I would like to show:
+
+
+a) nodes: that there are many movies that have ""action"" or ""drama"" as a genre 
+b) edges (non-directional): when a movie has ""drama"" as a genre, that is is likely the movie also has the genre ""action""
+
+
+My main question: how can I best create a l"
+26607960,"Title: How to detect what element of a nested list has changed? (python) | Body: I have a large 2D (list of lists) list, each element containing a list of ints, strings and dicts. I would like to be able to determine the 'path' (eg. [2][3][2][""items""][2] at the worst!) of any element that is modified, and have this fire upon modification. This list is to big to scan through and "
+38586970,"Title: Can someone explain me short _linear function from TensorFlow RNN code? | Body: Here the core(mb) function of tensorflow RNN implimentation
+
+Linear map:
+
+def _linear(args, output_size, bias, bias_start=0.0, scope=None):
+  """"""Linear map: sum_i(args[i] * W[i]), where W[i] is a variable.
+  Args:
+    args: a 2D Tensor or a list of 2D, batch x n, Tensors.
+    output_size: int, secon"
+3471200,"Title: Implementing a IM platform in Java | Body: If creating an IM platform in Java, which would be a better way to implement communications between the clients and server?
+I was thinking either RMI or just a socket connection...
+
+Advice please,
+
+Thanks
+"
+9984290,"Title: Telerik WinForm Controls not showing Design-Time | Body: I am having trouble dragging controls from Tool Box into Design-View for Windows Form using Telerik References. Instead of controls showing up in the Design-View, it shows up in the component box on the bottom. 
+
+I tried adding the application extensions in the assembly using gacutil.exe.
+I also tri"
+32968290,"Title: mapping network drive with smartcard non domain | Body: I am attempting to be able to use a smart card to map a network drive from a computer that is not joined to the domain. Whenever I try to use net use with the smartcard switch, i get the following error 
+
+net USE ERROR
+Error: 1263 the kerberos protocol encountered an error while validating the KDC c"
+25309250,"Title: execute gradle shadowjar task twice in same build file | Body: I am trying to create two 'fatJars' using ShadowJar plugin as part of the same build file. I am trying to run the shadowJar task twice inside the build by declaring two tasks of ShadowJar type
+
+So far, I have defined two tasks like so:
+
+task shadowjar_one (type: com.github.jengelman.gradle.plugins.s"
+6164860,"Title: Passing by reference; why is the original object not changed? | Body: If objects are passed by reference in PHP5, then why $foo below doesn't change?
+
+$foo = array(1, 2, 3);
+$foo = (object)$foo;
+
+$x = $foo;            // $x = &amp;$foo makes $foo (5)!
+$x = (object)array(5);
+
+print_r($foo); // still 1,2,3
+
+
+
+
+so:
+
+
+  Passing by reference not the same as
+  assign.
+
+
+the"
+27757470,"Title: iOS WebView Youtube inline-Video | Body: I want to play an youtube-video inline inside a WebView in an iPhone App.
+In the youtube iframe-api I use the parameter ""'playsinline': 1"". When I inspect the video-tag inside safari devtools, in the video-tag the
+
+webkit-playsinline
+
+
+attribute is set correctly (...but the value is missing).  
+Anyh"
+1583150,"Title: C#: Oracle Data Type Equivalence with OracleDbType | Body: 
+
+Situation:
+
+I am creating an app in C# that uses Oracle.DataAccess.Client (11g) to do certain operations on a Oracle database with stored procedures. I am aware that there is a certain enum (OracleDbType) that contains the Oracle data types, but I am not sure which one to use for certain types.
+
+Q"
+34485180,"Title: How to retrieve data and dropdown list month | Body: I'm trying to retrieve data from database. I'm using below code:-
+
+&lt;?php
+  include('header.php'); //Header which contains html, head, etc 
+  include('function/dbconnect.php'); //Database connection
+?&gt;
+
+&lt;!-- menu bar here --&gt;
+
+        &lt;form method=""post"" class=""form""&gt;
+
+        &lt;?"
+3459510,"Title: unsafe c# code causes heap corruption on 64 bit platform unless built for x86 platform | Body: I have a simple util that uses some unsafe code to get the file version information.  when I compiled this as mixed platform (vs2008/.net 3.5)  and deploy to 64 bit machine I get a heap corruption error.  If I recompile as x86 then everything works....
+
+This was suprising because of my understanding"
+143390,"Title: Java: Text to Speech engines overview | Body: I'm now in search for a Java Text to Speech (TTS) framework. During my investigations I've found several JSAPI1.0-(partially)-compatible frameworks listed on JSAPI Implementations page, as well as a pair of Java TTS frameworks which do not appear to follow JSAPI spec (Mary, Say-It-Now). I've also no"
+34220730,"Title: Qt Directx rendering | Body: I'm rendering in Qt widget by DirectX.
+I disabled qt paint engine 
+
+QPaintEngine *paintEngine() const { return NULL; }
+
+
+but sometimes I want to enable qt paint and disable directX rendering.
+I'm disabling DirectX rendering, but how can I enable Qt paintEngine?
+"
+19991400,"Title: How to reuse the same google map street view object | Body: I have a google map and some markers, on clicking the markers I want to open up a street view map, which can be closed and open up again.
+
+I have tried using single global street view instance and using display:none to hide it, problem is, the map won't show render again after it has been hidden.
+
+I"
+26561720,"Title: enable_if type has unknown size | Body: I have a problem where unknown code is using meta-templates which tries to dereference types at compile-time and runtime. This means, they traverse the pointer hierarchy until they find a matcher. 
+
+Now normally this works well. But when the user passes something like:
+
+typedef struct _Unknown_* Unk"
+4200710,"Title: Why no debug for Project | Body: I am looking at the sample project for a ColorPicker CustomControl. I am trying to debug it to see how the code runs. I am getting
+
+
+
+I think it has to do with 
+
+
+
+No build config for debug?
+"
+12768720,"Title: Select a random element from array and check its index | Body: I have the first part of this problem down, I am able to select a random element from the array like so
+
+function setImage()
+{
+
+var images = ['anemone.gif', 'ball.gif', 'crab.gif', 'fish2.gif', 'gull.gif',  'jellyfish.gif', 'moon.gif', 'sail.gif', 'shell.gif', 'snail.gif', 'sun.gif', 'sunnies.gif', "
+14992480,"Title: jQuery ajax() Call Failing | Body: I am writing a web-based application that makes a call to server to update a particular object in the server, from a REST-ful application.
+
+This is the javascript code that I have written.
+
+var sendUrl = url + ""v1/items/"" + itmId;
+$.ajax({
+    ""type"": ""PUT"",
+    ""url"": sendUrl,
+    //""data"": {""name"""
+22824900,"Title: Facebook share Scraped URL not processing php | Body: I use the following code to select specific image to be shown on FB sharing:
+
+&lt;link rel=""image_src"" href=""&lt;?php echo getTheField('an_image'); ?&gt;""/&gt;
+
+
+The problem is, FB debugger tool can't see the image, and when I click ""See exactly what our scraper sees for your URL"" on Scraped URL on "
+3608600,"Title: Doctrine 2.0 in production | Body: I would like to know if Doctrine 2 Beta 3 is stable enough to use for a production project? Do you have any success stories about it? What about api stability in general, and especially in recent betas?
+"
+19867580,"Title: Insert a file to google drive using google app engine. python client api used | Body: Using Google App Engine, I am trying to insert a file ""a.txt"" into my google drive. The error that i get when i view page source of InsertDrive page is 
+
+HttpError 401 ""Login Required""
+bound method InsertDrive.error of main.InsertDrive object at 0x10f884b0
+
+Note: I am calling class InsertDrive from "
+12903620,"Title: Python - User-defined classes have __cmp__() and __hash__() methods by default? Or? | Body: In the python docs (yeah, I have this thing with the docs) it says that:
+
+
+  User-defined classes have __cmp__() and __hash__() methods by default; with them, all objects compare unequal (except with themselves) and x.__hash__() returns id(x).
+
+
+But the following code shows another thing:
+
+&gt;&gt;&"
+36305860,"Title: max-height transition doesn't work and works slow | Body: i'm having trouble animating a div expanding. My JQuery function does what it's supposed to, but the animation doesn't appear. I have tried both transition : all and transition : max-height but none seems to work. Also something very weird happens, when i want to hide my div again. It appears that t"
+28619210,Title: Configure bower to install only dist folder | Body: I am trying to learn tools such as bower/grunt/requirejs  in order to speed up the development process for my website and to make my code more modularized/efficient.  I am currently following this tutorial.  How does one make Bower only install the dist folder for my dependencies (setup in my compon
+5741970,"Title: Registering types from a boost mpl vector | Body: std::string a= ""a"";
+std::string b= ""b"";
+std::string c= ""c"";
+
+typedef mpl::vector&lt;EasyFixEngineA,EasyFixEngineB,EasyFixEngineC&gt; vecType;
+
+RegisterInFactory&lt;EasyFixEngine, mpl::at_c&lt;vecType,0&gt;::type&gt;    registerA( a); 
+RegisterInFactory&lt;EasyFixEngine, mpl::at_c&lt;vecType,1&gt;::t"
+30995750,"Title: How can i generate and use unique deviceId for iOS devices? | Body: In my previous app,I was using the below mentioned code to generate unique deviceId for iOS devices.But the problem is that it will generate a new code everytime when the app is reinstalled.How can i do this properly?
+
+-(NSString*)uniqueIDForDevice //new..
+{
+    NSString* uniqueIdentifier = nil;
+   "
+10214070,"Title: .htaccess not acting as suspected | Body: I'm using CI and WAMP on a Windows 7 machine.  In my Application folder of the site I have a .htaccess file with the following:
+
+RewriteEngine on
+RewriteCond $1 !^(index\.php)
+RewriteRule ^(.*)$ /index.php/$1 [L]
+
+
+This was copied and modified CodeIgniter User Guide.  And I made sure the rewrite_mod"
+7624020,"Title: Why does error_log() always send exactly 3 emails? | Body: I'm using the error_log() function like so:
+
+error_log($errorstring, 1, 'myemail@gmail.com');
+
+
+And it works fine, but every single time it is executed I get exactly 3 copies of the same email spaced about 1 or 2 seconds apart.  There is no loop or anything that it's in, this is simply to notify me "
+32551300,"Title: text by right positioned iframe | Body: I would like to make an index (iframe) of a page but I can not done in front of the text. The text comes behind iframe or iframe not on the right corner, no matter what I try.
+
+page.html
+
+&lt;?xml version=""1.0"" encoding=""UTF-8""?&gt;
+&lt;!DOCTYPE html PUBLIC ""-//W3C//DTD XHTML 1.0 Strict//EN http://w"
+25482480,"Title: Android bindService throws NullPointerException | Body: I worked through several tutorials to build my first bindService in Android but I keep on getting the same NullPointerException I don't understand. My last example is very simple...
+
+MyActivity.java:
+
+package de.123team.myapplication;
+
+import android.app.Activity; import android.content.ComponentNam"
+14936080,"Title: Is it possible to align element's width like in a table with CSS without altering HTML? | Body: I've put together a demo of current menu.
+It is not feasible to change HTML structure.
+
+HTML
+
+&lt;ul class=""menu row1""&gt;
+    &lt;li&gt;item&lt;/li&gt;
+    &lt;li&gt;varied item&lt;/li&gt;
+    &lt;li&gt;item&lt;/li&gt;
+    &lt;li&gt;item&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul class=""menu row2""&gt;
+    &lt;l"
+19241190,"Title: Boost Xpressive - why is the failure case of this regex exponential? | Body: I am using a simple regex to match against a string read from the OS that has teh following format:
+
+timestamp:{comma separated list of values}
+
+Where
+   timestamp is unsigned
+   the values are unsigned
+
+To do this I was using the following regex using boost::xpressive
+
+std::vector&lt; uint32_t &gt;"
+1796920,"Title: Can DbParameter instance of same name and type be shared with multiple DbCommand instances? | Body: Is it efficient or possible to share same DbParameter  object with multiple commands?
+"
+168440,"Title: How do you add a link that will add an event to your iPhone calendar from safari? | Body: This seems like it should be simple but after a couple hours of googling I have not figured it out.  I know I can add iCal links using ICS files, but this does not work on the iPhone.
+
+BTW, when I say iPhone I would like it to work on the touch also.  Anyone have any luck with this?
+"
+2256930,"Title: how to check the valid Youtube url using jquery | Body: In Jquery i want to check the specific url from youtube alone and show success status and others i want to skip by stating it as not valid url
+
+var _videoUrl = ""youtube.com/watch?v=FhnMNwiGg5M"";
+if (_videoUrl.contains(""youtube.com""))
+{
+  alert('Valid'); 
+} 
+else
+{ 
+  alert('Not Valid');
+} 
+
+
+how to "
+38732030,"Title: jOOQ Return a POJO, and ID from from joined table | Body: I've got a table WARNINGS_HISTORY which is a list of events, each event links to a WARNINGS row which contains details for the event. I've been able to retrieve a list of WARNINGS (List&lt;Warnings&gt;) which occurred in a specific time frame. But I also need to have the  WARNINGS_HISTORY.ID. So I n"

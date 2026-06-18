@@ -42,7 +42,7 @@ src/
 |---------|------|----------------|
 | **IMDb Reviews** | 50 × 50 | Same sentiment (positive/negative) |
 | **Emails** | 100 × 100 | Email contradicts witness statement |
-| **Stack Overflow** | 100 × 10 | Question relates to programming concept |
+| **Stack Overflow** | 250 × 10 | Question relates to programming concept |
 
 ## Setup
 

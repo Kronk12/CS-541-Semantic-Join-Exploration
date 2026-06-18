@@ -1,45 +1,11 @@
 {
   "fixed_tokens": {
-    "prompt": 38878,
-    "completion": 3079
+    "prompt": 37090,
+    "completion": 3244
   },
   "clusters_a": {
     "0": {
-      "size": 69,
-      "samples": [
-        {
-          "question_id": 26690360,
-          "question_text": "Title: How to verify HMAC java | Body: I've got the following code to compute Hmacs with a password:   public static void main(String[] args) throws NoSuchAlgorithmException, InvalidKeyException  {   String password = \"password123\";   SecretKeySpec keySpec = new SecretKeySpec(password.getBytes(), \"HmacSHA1\");    Mac mac = Mac.getInstance(\"HmacSHA1\");   mac.init(keySpec);    byte[] result = mac.doFina"
-        },
-        {
-          "question_id": 10314070,
-          "question_text": "Title: Java: How to convert a String into an subclass data type? | Body: I want to convert a String to an subclass data type, how can it be done? or it is possible?  I have a abstract class Acct  A public abstract class SinAcct extends Acct  A public class SavAcct extends SinAcct   In SavAcct, there is a constructor   public SavAcct(String acctNo, String name, ConsolidateAccount ownerAcct, double las"
-        },
-        {
-          "question_id": 31584230,
-          "question_text": "Title: Fragment communicating with an Activity | Body: I am confused about how communication with a Fragment and an Activity is made. For example, an interface was defined here (http://developer.android.com/intl/ko/training/basics/fragments/communicating.html).  public class HeadlinesFragment extends ListFragment {     OnHeadlineSelectedListener mCallback;      // Container Activity must implement th"
-        }
-      ]
-    },
-    "1": {
-      "size": 68,
-      "samples": [
-        {
-          "question_id": 25485250,
-          "question_text": "Title: ZPL passing parameters to the labels prints with misplaced data | Body: We are using Zebra Designer Pro to create the templates. We have placed various labels on the templates to which we pass values dynamically through the code at the runtime.  We are doing this by creating ZPL in the code and appending various parameter values which we want to print in the ZPL. Method to create the label is "
-        },
-        {
-          "question_id": 10000790,
-          "question_text": "Title: Can't get mac address with ioctl on Linux when disconnected from Wifi | Body: I'm getting a mac address using this method:  #include &lt;sys/ioctl.h&gt; #include &lt;net/if.h&gt;  #include &lt;unistd.h&gt; #include &lt;netinet/in.h&gt; #include &lt;string.h&gt;  int main() {     ifreq ifr;     ifconf ifc;     char buf[1024];     int success = 0;      int sock = socket(AF_INET, SOCK_DGRAM, IPPR"
-        },
-        {
-          "question_id": 15622930,
-          "question_text": "Title: Limit count of threads for python script | Body: I have a python 2.7 script on a CentOS linux server which had a bug starting new threads until I could not login to the server anymore.  Is there a way to tell the python runtime not to create/start/use more than 50 threads (and to throw exceptions instead or kill the script) to prevent this problem, or do I have to implement this in the script "
-        }
-      ]
-    },
-    "2": {
-      "size": 34,
+      "size": 31,
       "samples": [
         {
           "question_id": 20373460,
@@ -55,20 +21,54 @@
         }
       ]
     },
-    "3": {
-      "size": 29,
+    "1": {
+      "size": 112,
       "samples": [
+        {
+          "question_id": 26690360,
+          "question_text": "Title: How to verify HMAC java | Body: I've got the following code to compute Hmacs with a password:   public static void main(String[] args) throws NoSuchAlgorithmException, InvalidKeyException  {   String password = \"password123\";   SecretKeySpec keySpec = new SecretKeySpec(password.getBytes(), \"HmacSHA1\");    Mac mac = Mac.getInstance(\"HmacSHA1\");   mac.init(keySpec);    byte[] result = mac.doFina"
+        },
         {
           "question_id": 29245710,
           "question_text": "Title: Why my lambdas do not work? | Body: I struggle with making lambdas work. The code here is example, but it shows my problem well.  lambdas = list()  for i in range(5):     lambdas.append(lambda x:i*i*x)   print lambdas[0](1) print lambdas[2](1)   This give me 16, but I expect to have different value for different lambda. Why is happening! "
         },
         {
-          "question_id": 19867580,
-          "question_text": "Title: Insert a file to google drive using google app engine. python client api used | Body: Using Google App Engine, I am trying to insert a file \"a.txt\" into my google drive. The error that i get when i view page source of InsertDrive page is   HttpError 401 \"Login Required\" bound method InsertDrive.error of main.InsertDrive object at 0x10f884b0  Note: I am calling class InsertDrive from my MainHan"
+          "question_id": 10314070,
+          "question_text": "Title: Java: How to convert a String into an subclass data type? | Body: I want to convert a String to an subclass data type, how can it be done? or it is possible?  I have a abstract class Acct  A public abstract class SinAcct extends Acct  A public class SavAcct extends SinAcct   In SavAcct, there is a constructor   public SavAcct(String acctNo, String name, ConsolidateAccount ownerAcct, double las"
+        }
+      ]
+    },
+    "2": {
+      "size": 10,
+      "samples": [
+        {
+          "question_id": 10734080,
+          "question_text": "Title: memory access vs. memory copy | Body: I am writing an application in C++ that needs to read-only from the same memory many times from many threads.  My question is from a performance point of view will it be better to copy the memory for each thread or give all threads the same pointer and have all of them access the same memory.  Thanks "
         },
         {
-          "question_id": 8510830,
-          "question_text": "Title: Testing a Django app in many separate threads | Body: I'd like to run my Django app's tests in several threads (possibly dozens) in parallel. This is because my app spends almost all of its time waiting for remote requests, and I reckon that if I run the tests in parallel, they would all work at the same time without slowing each other down, and the whole suite would be over pretty quickly.  B"
+          "question_id": 9566770,
+          "question_text": "Title: \"NoSuchMethodError\" when initialising object from pthread | Body: I have an Android/Java application which calls down to C++ code through JNI to start a blocking operation. The C++ code starts a thread to do this blocking operation which should then call back through JNI when it's finished.  Calling down to C++ works without any issues. However, when calling back to JNI a mix of error's are be"
+        },
+        {
+          "question_id": 7905010,
+          "question_text": "Title: Calling a virtual function before Implementation | Body: So I have this kind of setup  class Base { public:   Base();   virtual void parse() = 0; };  Base::Base() {   parse(); }   class Sub : public Base { public:   Sub();   void parse(); };  Sub::Sub() : Base() {}  void Sub::parse() {   // DO stuff }   I'm wondering if there's anway I can do something similar to this, right now I'm getting an"
+        }
+      ]
+    },
+    "3": {
+      "size": 26,
+      "samples": [
+        {
+          "question_id": 10010430,
+          "question_text": "Title: Strange thing With CTYPE_ALNUM | Body: i have this strange problem with the PHP function CTYPE_ALNUM  if i do:  PHP:     $words=\"\u00c3\u00a0\u00c3\u00b2\u00c3\u00a8\";   if(ctype_alnum($words)){     Echo \"Don't work\";  }else{     Echo \"Work\";       }   this will echo out 'Work'  BUT if i have a form and in that form i insert the letters with the grave like (\u00c3\u00a0 , \u00c3\u00a8, \u00c3\u00b2) this will echo out 'Don't Work'   Code:    &lt;form a"
+        },
+        {
+          "question_id": 35066040,
+          "question_text": "Title: Is it fine to define a variable after it is used in Less and not before? | Body: So, the question actually is if it is just fine to use:  .mytest {   border:1px solid @black; } @black: #000;   instead of   @black: #000; .mytest {   border:1px solid @black; }   I don't see any warnings when I do this and it works fine - the result is   .mytest {   border: 1px solid #000; }   for both cases.  De"
+        },
+        {
+          "question_id": 32551300,
+          "question_text": "Title: text by right positioned iframe | Body: I would like to make an index (iframe) of a page but I can not done in front of the text. The text comes behind iframe or iframe not on the right corner, no matter what I try.  page.html  &lt;?xml version=\"1.0\" encoding=\"UTF-8\"?&gt; &lt;!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\"&gt; &lt;html "
         }
       ]
     },
@@ -90,19 +90,19 @@
       ]
     },
     "5": {
-      "size": 25,
+      "size": 46,
       "samples": [
         {
-          "question_id": 32551300,
-          "question_text": "Title: text by right positioned iframe | Body: I would like to make an index (iframe) of a page but I can not done in front of the text. The text comes behind iframe or iframe not on the right corner, no matter what I try.  page.html  &lt;?xml version=\"1.0\" encoding=\"UTF-8\"?&gt; &lt;!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\"&gt; &lt;html "
+          "question_id": 9573010,
+          "question_text": "Title: python SimpleHTTPRequestHandler server leaves socket in TIME_WAIT state after exit | Body: I have a simple server written that extends the SimpleHTTPRequestHandler  If I start and stop it without making any requests to the server, I can start back up on the same port with no problem.  When started, a netstat looks like this:   sam@hersheezy:server$ sudo netstat -na --program | grep 8001 tcp   "
         },
         {
-          "question_id": 9809210,
-          "question_text": "Title: web service modify return value | Body: We have a lot of web services (.asmx files, which can be accessed for example from http://localhost/ApplicationName/VeryAncientWebService.asmx).  Also we have a sad bug, and the most painless solution to fix it - modify return value.  I know about IParameterInspector for WCF - thats really powerfull thing with  public void AfterCall(string operationName,"
+          "question_id": 17367420,
+          "question_text": "Title: JQuery modal dialog shows behind overlay using append | Body: I have a div with some stuff on I want to pop up to the user so they have to agree before they submit:  &lt;div id=\"terms\" style=\"display:none\"&gt;         &lt;p style=\"font-weight:bold\"&gt;If your data is not backed up in advance, you may have to forfeit your booked slot and rebook the handover on another date.&lt;/p&gt;         &l"
         },
         {
-          "question_id": 4348520,
-          "question_text": "Title: Html Agility Pack - Get html fragment from an html document | Body: Using the html agility pack; how would I extract an html \"fragment\" from a full html document? For my purposes, an html \"fragment\" is defined as all content inside of the &lt;body&gt; tags.  For example:  Sample Input:  &lt;html&gt;    &lt;head&gt;      &lt;title&gt;blah&lt;/title&gt;    &lt;/head&gt;    &lt;body&gt;     &lt;p"
+          "question_id": 14046830,
+          "question_text": "Title: DataGridView - Use DataPropertyName to show child element property | Body: Lets image that I have the following classes  public class Master {     public string MasterName = \"Something\";      public List&lt;Detail&gt; details = new List&lt;Detail&gt;(); }  public class Detail  {     public string Foo = \"Test\"; }   And then I want to show the collection of Details objects in a DataGridView, usi"
         }
       ]
     }
@@ -139,481 +139,9 @@
     {
       "ca": 0,
       "cb": 0,
-      "size_a": 69,
-      "size_b": 1,
-      "sample_rate": 0.2,
-      "matches": [
-        [
-          98,
-          4
-        ],
-        [
-          151,
-          4
-        ],
-        [
-          191,
-          4
-        ]
-      ],
-      "tokens": {
-        "prompt": 7194,
-        "completion": 504
-      }
-    },
-    {
-      "ca": 0,
-      "cb": 1,
-      "size_a": 69,
-      "size_b": 9,
-      "sample_rate": 0.04,
-      "matches": [
-        [
-          0,
-          8
-        ],
-        [
-          2,
-          8
-        ],
-        [
-          3,
-          8
-        ],
-        [
-          4,
-          8
-        ],
-        [
-          7,
-          8
-        ],
-        [
-          9,
-          5
-        ],
-        [
-          12,
-          8
-        ],
-        [
-          13,
-          9
-        ],
-        [
-          15,
-          5
-        ],
-        [
-          17,
-          2
-        ],
-        [
-          17,
-          7
-        ],
-        [
-          71,
-          9
-        ],
-        [
-          72,
-          8
-        ],
-        [
-          77,
-          5
-        ],
-        [
-          84,
-          8
-        ],
-        [
-          85,
-          5
-        ],
-        [
-          86,
-          2
-        ],
-        [
-          89,
-          2
-        ],
-        [
-          91,
-          1
-        ],
-        [
-          91,
-          7
-        ],
-        [
-          94,
-          1
-        ],
-        [
-          96,
-          2
-        ],
-        [
-          96,
-          7
-        ],
-        [
-          97,
-          7
-        ],
-        [
-          98,
-          8
-        ],
-        [
-          151,
-          0
-        ],
-        [
-          160,
-          3
-        ],
-        [
-          160,
-          5
-        ],
-        [
-          162,
-          5
-        ],
-        [
-          166,
-          3
-        ],
-        [
-          167,
-          5
-        ],
-        [
-          190,
-          8
-        ],
-        [
-          191,
-          2
-        ],
-        [
-          191,
-          7
-        ],
-        [
-          199,
-          2
-        ],
-        [
-          207,
-          5
-        ],
-        [
-          208,
-          1
-        ],
-        [
-          208,
-          6
-        ],
-        [
-          209,
-          8
-        ],
-        [
-          232,
-          8
-        ],
-        [
-          237,
-          7
-        ],
-        [
-          238,
-          8
-        ],
-        [
-          239,
-          8
-        ],
-        [
-          240,
-          8
-        ],
-        [
-          241,
-          8
-        ],
-        [
-          242,
-          5
-        ],
-        [
-          246,
-          9
-        ],
-        [
-          249,
-          7
-        ]
-      ],
-      "tokens": {
-        "prompt": 8558,
-        "completion": 744
-      }
-    },
-    {
-      "ca": 1,
-      "cb": 0,
-      "size_a": 68,
+      "size_a": 31,
       "size_b": 1,
       "sample_rate": 0.0,
-      "matches": [
-        [
-          23,
-          4
-        ],
-        [
-          25,
-          4
-        ],
-        [
-          55,
-          4
-        ],
-        [
-          69,
-          4
-        ],
-        [
-          143,
-          4
-        ]
-      ],
-      "tokens": {
-        "prompt": 6977,
-        "completion": 432
-      }
-    },
-    {
-      "ca": 1,
-      "cb": 1,
-      "size_a": 68,
-      "size_b": 9,
-      "sample_rate": 0.0,
-      "matches": [
-        [
-          22,
-          3
-        ],
-        [
-          23,
-          0
-        ],
-        [
-          23,
-          3
-        ],
-        [
-          25,
-          5
-        ],
-        [
-          26,
-          8
-        ],
-        [
-          28,
-          2
-        ],
-        [
-          29,
-          5
-        ],
-        [
-          33,
-          2
-        ],
-        [
-          37,
-          5
-        ],
-        [
-          39,
-          5
-        ],
-        [
-          41,
-          5
-        ],
-        [
-          44,
-          9
-        ],
-        [
-          49,
-          7
-        ],
-        [
-          57,
-          8
-        ],
-        [
-          58,
-          8
-        ],
-        [
-          62,
-          8
-        ],
-        [
-          63,
-          8
-        ],
-        [
-          64,
-          9
-        ],
-        [
-          67,
-          8
-        ],
-        [
-          68,
-          5
-        ],
-        [
-          68,
-          8
-        ],
-        [
-          100,
-          8
-        ],
-        [
-          102,
-          0
-        ],
-        [
-          103,
-          3
-        ],
-        [
-          106,
-          5
-        ],
-        [
-          113,
-          3
-        ],
-        [
-          114,
-          8
-        ],
-        [
-          116,
-          3
-        ],
-        [
-          118,
-          5
-        ],
-        [
-          119,
-          8
-        ],
-        [
-          120,
-          5
-        ],
-        [
-          122,
-          5
-        ],
-        [
-          128,
-          5
-        ],
-        [
-          146,
-          5
-        ],
-        [
-          148,
-          3
-        ],
-        [
-          149,
-          5
-        ],
-        [
-          173,
-          8
-        ],
-        [
-          177,
-          2
-        ],
-        [
-          178,
-          8
-        ],
-        [
-          180,
-          0
-        ],
-        [
-          182,
-          3
-        ],
-        [
-          188,
-          5
-        ],
-        [
-          189,
-          8
-        ],
-        [
-          212,
-          8
-        ],
-        [
-          215,
-          5
-        ],
-        [
-          220,
-          8
-        ],
-        [
-          223,
-          5
-        ],
-        [
-          226,
-          8
-        ],
-        [
-          228,
-          5
-        ]
-      ],
-      "tokens": {
-        "prompt": 8341,
-        "completion": 692
-      }
-    },
-    {
-      "ca": 2,
-      "cb": 0,
-      "size_a": 34,
-      "size_b": 1,
-      "sample_rate": 0.2,
       "matches": [
         [
           244,
@@ -621,14 +149,14 @@
         ]
       ],
       "tokens": {
-        "prompt": 3413,
-        "completion": 251
+        "prompt": 3210,
+        "completion": 194
       }
     },
     {
-      "ca": 2,
+      "ca": 0,
       "cb": 1,
-      "size_a": 34,
+      "size_a": 31,
       "size_b": 9,
       "sample_rate": 0.16,
       "matches": [
@@ -645,27 +173,23 @@
           2
         ],
         [
+          17,
+          7
+        ],
+        [
           24,
           2
         ],
         [
-          27,
-          7
-        ],
-        [
-          27,
-          9
+          34,
+          2
         ],
         [
           42,
           2
         ],
         [
-          43,
-          7
-        ],
-        [
-          59,
+          42,
           7
         ],
         [
@@ -681,32 +205,24 @@
           7
         ],
         [
+          109,
+          2
+        ],
+        [
           112,
           2
         ],
         [
           115,
-          2
-        ],
-        [
-          115,
-          7
-        ],
-        [
-          124,
-          7
-        ],
-        [
-          130,
-          7
-        ],
-        [
-          132,
           7
         ],
         [
           139,
           7
+        ],
+        [
+          141,
+          9
         ],
         [
           150,
@@ -717,16 +233,16 @@
           2
         ],
         [
+          155,
+          7
+        ],
+        [
           159,
           0
         ],
         [
           159,
           7
-        ],
-        [
-          163,
-          2
         ],
         [
           163,
@@ -765,19 +281,7 @@
           2
         ],
         [
-          229,
-          7
-        ],
-        [
           230,
-          7
-        ],
-        [
-          235,
-          2
-        ],
-        [
-          235,
           7
         ],
         [
@@ -787,83 +291,155 @@
         [
           244,
           5
+        ],
+        [
+          248,
+          2
+        ],
+        [
+          248,
+          7
         ]
       ],
       "tokens": {
-        "prompt": 4135,
-        "completion": 425
+        "prompt": 3718,
+        "completion": 366
       }
     },
     {
-      "ca": 3,
+      "ca": 1,
       "cb": 0,
-      "size_a": 29,
+      "size_a": 112,
       "size_b": 1,
       "sample_rate": 0.0,
       "matches": [
+        [
+          23,
+          4
+        ],
         [
           32,
           4
         ]
       ],
       "tokens": {
-        "prompt": 3148,
-        "completion": 182
+        "prompt": 11410,
+        "completion": 684
       }
     },
     {
-      "ca": 3,
+      "ca": 1,
       "cb": 1,
-      "size_a": 29,
+      "size_a": 112,
       "size_b": 9,
-      "sample_rate": 0.04,
+      "sample_rate": 0.08,
       "matches": [
+        [
+          0,
+          8
+        ],
         [
           1,
           0
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          9,
+          5
         ],
         [
           11,
           0
         ],
         [
+          12,
+          8
+        ],
+        [
+          15,
+          5
+        ],
+        [
+          19,
+          0
+        ],
+        [
+          22,
+          3
+        ],
+        [
+          23,
+          0
+        ],
+        [
+          26,
+          8
+        ],
+        [
+          27,
+          9
+        ],
+        [
+          29,
+          5
+        ],
+        [
           32,
           0
         ],
         [
-          35,
-          0
+          37,
+          5
         ],
         [
-          45,
-          0
+          39,
+          5
         ],
         [
-          53,
-          0
+          41,
+          5
         ],
         [
-          54,
-          0
+          43,
+          7
         ],
         [
-          75,
-          0
+          63,
+          8
         ],
         [
-          78,
-          0
+          67,
+          8
         ],
         [
-          87,
-          0
+          72,
+          8
         ],
         [
-          88,
-          0
+          74,
+          5
         ],
         [
-          88,
+          94,
           1
         ],
         [
@@ -871,8 +447,36 @@
           0
         ],
         [
-          123,
+          96,
+          2
+        ],
+        [
+          102,
           0
+        ],
+        [
+          106,
+          5
+        ],
+        [
+          113,
+          3
+        ],
+        [
+          114,
+          8
+        ],
+        [
+          118,
+          5
+        ],
+        [
+          119,
+          8
+        ],
+        [
+          136,
+          7
         ],
         [
           138,
@@ -891,39 +495,55 @@
           0
         ],
         [
-          147,
-          0
+          148,
+          3
+        ],
+        [
+          149,
+          5
         ],
         [
           158,
           0
         ],
         [
+          160,
+          5
+        ],
+        [
+          162,
+          5
+        ],
+        [
           165,
           0
+        ],
+        [
+          166,
+          3
         ],
         [
           170,
           0
         ],
         [
+          173,
+          8
+        ],
+        [
+          182,
+          3
+        ],
+        [
+          188,
+          5
+        ],
+        [
+          189,
+          8
+        ],
+        [
           193,
-          0
-        ],
-        [
-          195,
-          0
-        ],
-        [
-          195,
-          1
-        ],
-        [
-          198,
-          0
-        ],
-        [
-          205,
           0
         ],
         [
@@ -931,25 +551,244 @@
           0
         ],
         [
+          212,
+          8
+        ],
+        [
+          215,
+          5
+        ],
+        [
+          218,
+          5
+        ],
+        [
+          220,
+          8
+        ],
+        [
           221,
           0
+        ],
+        [
+          223,
+          5
+        ],
+        [
+          226,
+          8
         ],
         [
           231,
           0
         ],
         [
+          232,
+          8
+        ],
+        [
+          235,
+          2
+        ],
+        [
+          238,
+          8
+        ],
+        [
+          239,
+          8
+        ],
+        [
+          240,
+          8
+        ],
+        [
+          241,
+          8
+        ],
+        [
+          242,
+          5
+        ],
+        [
           247,
           0
         ],
         [
-          247,
-          1
+          249,
+          7
         ]
       ],
       "tokens": {
-        "prompt": 3656,
-        "completion": 361
+        "prompt": 12988,
+        "completion": 1100
+      }
+    },
+    {
+      "ca": 2,
+      "cb": 0,
+      "size_a": 10,
+      "size_b": 1,
+      "sample_rate": 0.4,
+      "matches": [
+        [
+          98,
+          4
+        ],
+        [
+          143,
+          4
+        ],
+        [
+          151,
+          4
+        ]
+      ],
+      "tokens": {
+        "prompt": 1127,
+        "completion": 91
+      }
+    },
+    {
+      "ca": 2,
+      "cb": 1,
+      "size_a": 10,
+      "size_b": 9,
+      "sample_rate": 0.08,
+      "matches": [
+        [
+          25,
+          5
+        ],
+        [
+          68,
+          5
+        ],
+        [
+          68,
+          8
+        ],
+        [
+          77,
+          5
+        ],
+        [
+          98,
+          8
+        ],
+        [
+          120,
+          5
+        ],
+        [
+          143,
+          5
+        ],
+        [
+          151,
+          0
+        ],
+        [
+          191,
+          7
+        ],
+        [
+          237,
+          7
+        ]
+      ],
+      "tokens": {
+        "prompt": 1207,
+        "completion": 120
+      }
+    },
+    {
+      "ca": 3,
+      "cb": 0,
+      "size_a": 26,
+      "size_b": 1,
+      "sample_rate": 0.0,
+      "matches": [],
+      "tokens": {
+        "prompt": 3046,
+        "completion": 191
+      }
+    },
+    {
+      "ca": 3,
+      "cb": 1,
+      "size_a": 26,
+      "size_b": 9,
+      "sample_rate": 0.04,
+      "matches": [
+        [
+          18,
+          9
+        ],
+        [
+          36,
+          9
+        ],
+        [
+          40,
+          9
+        ],
+        [
+          46,
+          9
+        ],
+        [
+          73,
+          9
+        ],
+        [
+          104,
+          9
+        ],
+        [
+          117,
+          9
+        ],
+        [
+          137,
+          9
+        ],
+        [
+          156,
+          9
+        ],
+        [
+          161,
+          9
+        ],
+        [
+          168,
+          9
+        ],
+        [
+          178,
+          8
+        ],
+        [
+          186,
+          9
+        ],
+        [
+          225,
+          8
+        ],
+        [
+          233,
+          9
+        ],
+        [
+          246,
+          9
+        ]
+      ],
+      "tokens": {
+        "prompt": 3340,
+        "completion": 264
       }
     },
     {
@@ -960,7 +799,7 @@
       "sample_rate": 0.0,
       "matches": [],
       "tokens": {
-        "prompt": 2514,
+        "prompt": 2524,
         "completion": 184
       }
     },
@@ -993,6 +832,10 @@
         ],
         [
           51,
+          1
+        ],
+        [
+          51,
           6
         ],
         [
@@ -1002,6 +845,10 @@
         [
           52,
           8
+        ],
+        [
+          56,
+          1
         ],
         [
           56,
@@ -1017,11 +864,19 @@
         ],
         [
           76,
-          6
+          1
         ],
         [
           76,
           8
+        ],
+        [
+          91,
+          1
+        ],
+        [
+          91,
+          7
         ],
         [
           92,
@@ -1029,14 +884,6 @@
         ],
         [
           110,
-          1
-        ],
-        [
-          110,
-          6
-        ],
-        [
-          127,
           1
         ],
         [
@@ -1052,15 +899,11 @@
           1
         ],
         [
-          134,
-          8
-        ],
-        [
-          141,
-          9
-        ],
-        [
           144,
+          1
+        ],
+        [
+          152,
           1
         ],
         [
@@ -1072,8 +915,8 @@
           1
         ],
         [
-          153,
-          8
+          154,
+          1
         ],
         [
           154,
@@ -1084,20 +927,8 @@
           1
         ],
         [
-          179,
-          2
-        ],
-        [
-          179,
-          7
-        ],
-        [
           187,
           1
-        ],
-        [
-          187,
-          5
         ],
         [
           187,
@@ -1108,130 +939,171 @@
           1
         ],
         [
-          202,
-          6
+          208,
+          1
         ],
         [
           211,
           1
         ],
         [
-          211,
-          6
-        ],
-        [
           213,
           1
-        ],
-        [
-          213,
-          6
         ]
       ],
       "tokens": {
-        "prompt": 3022,
-        "completion": 372
+        "prompt": 2604,
+        "completion": 334
       }
     },
     {
       "ca": 5,
       "cb": 0,
-      "size_a": 25,
+      "size_a": 46,
       "size_b": 1,
-      "sample_rate": 0.0,
-      "matches": [],
+      "sample_rate": 0.2,
+      "matches": [
+        [
+          55,
+          4
+        ],
+        [
+          199,
+          4
+        ]
+      ],
       "tokens": {
-        "prompt": 2945,
-        "completion": 154
+        "prompt": 4874,
+        "completion": 288
       }
     },
     {
       "ca": 5,
       "cb": 1,
-      "size_a": 25,
+      "size_a": 46,
       "size_b": 9,
-      "sample_rate": 0.16,
+      "sample_rate": 0.08,
       "matches": [
         [
-          18,
-          9
-        ],
-        [
-          34,
-          2
-        ],
-        [
-          36,
-          9
-        ],
-        [
-          40,
-          9
-        ],
-        [
-          46,
-          9
+          45,
+          0
         ],
         [
           47,
           9
         ],
         [
-          73,
-          9
+          49,
+          7
         ],
         [
-          104,
-          9
+          54,
+          0
         ],
         [
-          107,
-          9
+          57,
+          8
         ],
         [
-          111,
+          58,
+          8
+        ],
+        [
+          59,
+          7
+        ],
+        [
+          75,
+          0
+        ],
+        [
+          81,
+          2
+        ],
+        [
+          84,
+          8
+        ],
+        [
+          87,
+          0
+        ],
+        [
+          88,
           1
-        ],
-        [
-          117,
-          9
         ],
         [
           121,
           9
         ],
         [
-          137,
-          9
+          123,
+          0
         ],
         [
-          156,
-          9
+          124,
+          7
         ],
         [
-          161,
-          9
+          127,
+          1
         ],
         [
-          168,
-          9
+          128,
+          3
         ],
         [
-          186,
-          9
+          128,
+          5
         ],
         [
-          225,
+          130,
+          2
+        ],
+        [
+          130,
+          7
+        ],
+        [
+          132,
+          7
+        ],
+        [
+          133,
           8
         ],
         [
-          233,
-          9
+          195,
+          0
+        ],
+        [
+          195,
+          1
+        ],
+        [
+          198,
+          0
+        ],
+        [
+          199,
+          5
+        ],
+        [
+          205,
+          0
+        ],
+        [
+          207,
+          5
+        ],
+        [
+          209,
+          8
         ]
       ],
       "tokens": {
-        "prompt": 3453,
-        "completion": 278
+        "prompt": 5596,
+        "completion": 471
       }
     }
   ]

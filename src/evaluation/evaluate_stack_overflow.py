@@ -48,7 +48,7 @@ def evaluate_stackoverflow():
                 filter_threshold=-1.0,  # -1.0 generates the master JSON for simulation
                 filter_sample_size=5,
                 cluster_size_limit=-1,
-                block_size=10,
+                block_size=15,
                 min_profile_size=0,
                 cluster_ratio=divisor, 
                 verbose=False 

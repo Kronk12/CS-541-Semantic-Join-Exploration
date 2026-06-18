@@ -53,7 +53,7 @@ def evaluate_imdb_pairwise():
 
             # Dynamically name the output file
             suffix = "_projection" if force_proj else ""
-            output_filename = f"src/evaluation/sim_logs/imdb_master_log_ratio_{ratio}{suffix}.json"
+            output_filename = f"src/results/sim_logs/imdb_master_log_ratio_{ratio}{suffix}.json"
 
             # Export simulation data
             export_simulation_data(

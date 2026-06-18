@@ -2,7 +2,7 @@ import pandas as pd
 import os
 
 # Define the paths to your aggregated result CSVs
-LOG_DIR = 'src/evaluation/logs'
+LOG_DIR = 'src/results'
 
 datasets = [
     ('Emails', 'emails_aggregated_results.csv', 'emails_projection_aggregated_results.csv'),

@@ -1,28 +1,45 @@
 {
   "fixed_tokens": {
-    "prompt": 62195,
-    "completion": 4701
+    "prompt": 59249,
+    "completion": 4698
   },
   "clusters_a": {
     "0": {
-      "size": 16,
+      "size": 10,
       "samples": [
         {
-          "question_id": 31846240,
-          "question_text": "Title: Return 'X' when sum of 9 digits divided by 11 is 10 | Body: In my code, I want charSum to return 'X' if the remainder is 10 when the sum of 9 digits is divided by 9. I tried both charSum = 'X' and charSum = (char) 88 and neither works. Something in my algorithm must be wrong. Please help.  public static char getCheckSum(String isbn) {     int sum = 0;      for (int i = 0; i &lt; isbn.length();"
+          "question_id": 21055210,
+          "question_text": "Title: How to Create a Child Window From Parent in MVVM Light and WPF? | Body: I have a button on my Main Window. When I click it I want another Window to popup on top of the Main Window.  Main Window is still visible and should be the parent of this new window.  I been looking around and not sure how to do it, some people suggested to use the Messenger to do this but did not really give an example. "
         },
         {
-          "question_id": 19786450,
-          "question_text": "Title: Using a third-party library with libgdx and GWT | Body: As I'm sure many others have, I've written my own game engine and am successfully using it with libgdx in my desktop project.  Now, it's time for me to get the HTML5 project working. I followed these directions to integrate my game engine, the \"third-party library\", into the HTML5 project. However, it hasn't gone smoothly. When I do GWT C"
+          "question_id": 30772860,
+          "question_text": "Title: Is there a way to control the memory usage of C# DataTable | Body: I'm writing a tool to copy data into SQL Server using C# SqlBulkCopy. For reliability reasons, I'm loading each batch of data into a DataTable (so that later I can retry on the same batch if the insertion failed), and users can specify the batch size. Now the problem is if the user sets the batch size to a very large value, the"
         },
         {
-          "question_id": 39855330,
-          "question_text": "Title: SonarLint 2.2.1 Eclipse not catching a majority of issues (unlike examples online) | Body: I want to use the SonarLint plugin for Eclipse.  I installed it, but it doesn't seem to be catching everything it should.  After installing it, I tried to write code that should trigger SonarLint issues.  For example, the picture on the site http://www.sonarlint.org/eclipse/ , indicates that SonarLint sh"
+          "question_id": 4325620,
+          "question_text": "Title: Draw image with rounded corners, border and gradient fill in C# | Body: I've looked everywhere and googled everything and couldn't find anything good. What I need is a class that is able to draw an image (graphics) with rounded corners (different on each corner is a plus) with a border and gradient fill.   All the examples I find have some flaws (like bad quality, missing functionality etc).  "
         }
       ]
     },
     "1": {
-      "size": 17,
+      "size": 14,
+      "samples": [
+        {
+          "question_id": 32551300,
+          "question_text": "Title: text by right positioned iframe | Body: I would like to make an index (iframe) of a page but I can not done in front of the text. The text comes behind iframe or iframe not on the right corner, no matter what I try.  page.html  &lt;?xml version=\"1.0\" encoding=\"UTF-8\"?&gt; &lt;!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\"&gt; &lt;html "
+        },
+        {
+          "question_id": 4348520,
+          "question_text": "Title: Html Agility Pack - Get html fragment from an html document | Body: Using the html agility pack; how would I extract an html \"fragment\" from a full html document? For my purposes, an html \"fragment\" is defined as all content inside of the &lt;body&gt; tags.  For example:  Sample Input:  &lt;html&gt;    &lt;head&gt;      &lt;title&gt;blah&lt;/title&gt;    &lt;/head&gt;    &lt;body&gt;     &lt;p"
+        },
+        {
+          "question_id": 15933780,
+          "question_text": "Title: Vertical scroll bar appearing even when height is not set | Body: If you save the file below in html format, you will that a vertical scroll bar appears. Since the height for   &lt;div class=\"tabData\" id=\"tab3data\" style=\"visibility: visible;\"&gt;   is not set, shouldn't it automatically expand to fit all the contents?  &lt;html dir=\"ltr\" xmlns=\"http://www.w3.org/1999/xhtml\"&gt; &lt;head&gt;  "
+        }
+      ]
+    },
+    "2": {
+      "size": 32,
       "samples": [
         {
           "question_id": 26690360,
@@ -38,25 +55,208 @@
         }
       ]
     },
-    "2": {
-      "size": 12,
+    "3": {
+      "size": 14,
       "samples": [
         {
-          "question_id": 29776850,
-          "question_text": "Title: clang++ error on late default template parameter declaration | Body: The following code compiles fine with g++, but not with clang++ (3.6):  // Forward declaration: template &lt;class S, class T&gt; struct Base;  template &lt;class T&gt; struct BaseFriend {     friend struct Base&lt;int, T&gt;; };  // Actual declaration: template &lt;class S, class T = int&gt; struct Base {     void foo() {} }"
+          "question_id": 9573010,
+          "question_text": "Title: python SimpleHTTPRequestHandler server leaves socket in TIME_WAIT state after exit | Body: I have a simple server written that extends the SimpleHTTPRequestHandler  If I start and stop it without making any requests to the server, I can start back up on the same port with no problem.  When started, a netstat looks like this:   sam@hersheezy:server$ sudo netstat -na --program | grep 8001 tcp   "
         },
         {
-          "question_id": 29196460,
-          "question_text": "Title: C++ multiple definition error when including external library | Body: I'm trying to write a simple application allowing the user to perform a series of symbolic manipulations on a set of linear equations and am using the  \"Symbolicc++\" library (more specifically, the latest version 3.35) for this purpose.  Since I don't have much experience with C++ and have never actually used a third-party l"
+          "question_id": 17125720,
+          "question_text": "Title: Twitter API 1.1 Search with C# (in a PCL) | Body: I have a Windows 8 and a Windows Phone 8 app that serves as a social media dashboard and it get's tweets using the twitter search api. This was originally implemented using the Twitter API 1 and worked with no authentication so since it didn't need any additional 3rd party libs it was placed in the PCL part of the solution. For the same reason "
         },
         {
-          "question_id": 27252350,
-          "question_text": "Title: Surf feature Extraction | Body: Objective: match blobs by using Surf descriptors and opencv 2.4.9 library.  Algorithm: based on the following link: Steps    #include &lt;stdio.h&gt; #include &lt;iostream&gt; #include \"opencv2/core/core.hpp\" #include \"opencv2/features2d/features2d.hpp\" #include \"opencv2/nonfree/features2d.hpp\" #include \"opencv2/highgui/highgui.hpp\" #include \"opencv2/nonfree/non"
+          "question_id": 27048750,
+          "question_text": "Title: Counting items in a List used as a Dictionary Value | Body: I have the following dictionary of lists working fine, but the printing at the end is borked, I can't get the counter to return correct numbers of items in each list as soon as I get more than one key in my dictionary! It's supposed to tell me how many people have chosen a particular dessert as their favourite.   desserts = {}  name_v"
         }
       ]
     },
-    "3": {
-      "size": 25,
+    "4": {
+      "size": 9,
+      "samples": [
+        {
+          "question_id": 14046830,
+          "question_text": "Title: DataGridView - Use DataPropertyName to show child element property | Body: Lets image that I have the following classes  public class Master {     public string MasterName = \"Something\";      public List&lt;Detail&gt; details = new List&lt;Detail&gt;(); }  public class Detail  {     public string Foo = \"Test\"; }   And then I want to show the collection of Details objects in a DataGridView, usi"
+        },
+        {
+          "question_id": 23272890,
+          "question_text": "Title: How can I temporarily disable constraints on my table? | Body: After going through this post, I am trying to add the following command in my stored procedure:  ALTER TABLE MyTable NOCHECK CONSTRAINT ALL   But the editor underlines it and shows this error:  SQL70005: The ALL option cannot be used to modify constraints. You must use individual constraint names instead   I'm using VS2013 Express "
+        },
+        {
+          "question_id": 15801640,
+          "question_text": "Title: Displaying data from JDBC select statement | Body: I am creating a program that is going to allow for displaying and manipulating data from my database. I wrote the following code based on a tutorial I found:   public class JavaApplication25 {     public static void main(String[] args) {         try {             Class.forName(\"sun.jdbc.odbc.JdbcOdbcDriver\");             String url = \"jdbc:odb"
+        }
+      ]
+    },
+    "5": {
+      "size": 13,
+      "samples": [
+        {
+          "question_id": 10734080,
+          "question_text": "Title: memory access vs. memory copy | Body: I am writing an application in C++ that needs to read-only from the same memory many times from many threads.  My question is from a performance point of view will it be better to copy the memory for each thread or give all threads the same pointer and have all of them access the same memory.  Thanks "
+        },
+        {
+          "question_id": 8510830,
+          "question_text": "Title: Testing a Django app in many separate threads | Body: I'd like to run my Django app's tests in several threads (possibly dozens) in parallel. This is because my app spends almost all of its time waiting for remote requests, and I reckon that if I run the tests in parallel, they would all work at the same time without slowing each other down, and the whole suite would be over pretty quickly.  B"
+        },
+        {
+          "question_id": 32679030,
+          "question_text": "Title: pthreads access to resource globally in PHP | Body: I'm having problems with accessing resources from global context using php pthreads for Windows.  The logic is very simple: there's a Server as a main class, only one, which will:   create logfile create couple of threads each thread will need to write something to this logfile   Problem is, the resource of logfile handle is somehow totally m"
+        }
+      ]
+    },
+    "6": {
+      "size": 19,
+      "samples": [
+        {
+          "question_id": 12158810,
+          "question_text": "Title: Database connection reuse | Body: I am writing a simple class to make a connection with the database. I want to reuse the class through out my application. Can anyone tell me, how should i do it? I am using JSP and JavaBeans.  "
+        },
+        {
+          "question_id": 14350200,
+          "question_text": "Title: Want a SQL Query to know the Oracle RAC Node hit by the Current JDBC Connection | Body: I am trying to use Load Balance where I have 3 RAC nodes in my Oracle 10g Database like db1, db2, db3. I have developed a Java program with JDBC connection. This JDBC connection uses load balance. My problem is that I want to print the RAC node (whether db1 or db2 or db3) which is hit by this JDBC connectio"
+        },
+        {
+          "question_id": 33287490,
+          "question_text": "Title: How can I speed up hybrid property queries in SQLAlchemy? | Body: Is there a good way to speed up querying hybrid properties in SQLALchemy that involve relationships? I have the following two tables:  class Child(Base):      __tablename__ = 'Child'      id = Column(Integer, primary_key=True)       is_boy = Column(Boolean, default=False)      parent_id = Column(Integer, ForeignKey('Parent.id'))"
+        }
+      ]
+    },
+    "7": {
+      "size": 15,
+      "samples": [
+        {
+          "question_id": 23745130,
+          "question_text": "Title: Searching for the last instance of data in a list | Body: I have an assignment to write a function that searches for the last instance of data (integer in this case) in a list. The function breaks with access violation on the line with if statement.   Node* List::SearchLast (int val) {     Node* pLast=NULL;     Node* pNode=pHead;     while (pHead!=NULL)     {         if (pNode-&gt;data==val)  "
+        },
+        {
+          "question_id": 16855780,
+          "question_text": "Title: Array of pointers to Eigen Matrices | Body: I am using MatrixXd matrices from Eigen on my code, and at a certain point I need a 3D one. Since Eigen does not have tridimensional matrix types, as it is optimized just for linear algebra, instead I am creating a pointer array of the MatrixXd type:  Eigen::MatrixXd *CVM =new Eigen::MatrixXd[100]; for (int i = 0; i &lt; 100; i++){    CVM[i]= Eigen::"
+        },
+        {
+          "question_id": 29776850,
+          "question_text": "Title: clang++ error on late default template parameter declaration | Body: The following code compiles fine with g++, but not with clang++ (3.6):  // Forward declaration: template &lt;class S, class T&gt; struct Base;  template &lt;class T&gt; struct BaseFriend {     friend struct Base&lt;int, T&gt;; };  // Actual declaration: template &lt;class S, class T = int&gt; struct Base {     void foo() {} }"
+        }
+      ]
+    },
+    "8": {
+      "size": 9,
+      "samples": [
+        {
+          "question_id": 10000790,
+          "question_text": "Title: Can't get mac address with ioctl on Linux when disconnected from Wifi | Body: I'm getting a mac address using this method:  #include &lt;sys/ioctl.h&gt; #include &lt;net/if.h&gt;  #include &lt;unistd.h&gt; #include &lt;netinet/in.h&gt; #include &lt;string.h&gt;  int main() {     ifreq ifr;     ifconf ifc;     char buf[1024];     int success = 0;      int sock = socket(AF_INET, SOCK_DGRAM, IPPR"
+        },
+        {
+          "question_id": 6647080,
+          "question_text": "Title: How to change the permission of celeryd in django | Body: I have seen that when i execute celeryd via normal user then i get permission denied error  /opt/python2.7/bin/celeryd  But it executes with root user  In the text it says that  \"Running celeryd with superuser privileges is not encouraged!\")   How can i assign previlege to user1 for celeryd "
+        },
+        {
+          "question_id": 35059240,
+          "question_text": "Title: Read return garbage data in serial port programming in linux | Body: I want to communicate with my PC using the RS232 port. I can open \"/dev/ttyS0\" and write data using write() function, But i can't read correct data from \"dev/ttyS0\" by using read(). read() function read the unnecessary data.Please tell me how to solve this problem?  My program code here :  #include &lt;stdio.h&gt; #include &l"
+        }
+      ]
+    },
+    "9": {
+      "size": 14,
+      "samples": [
+        {
+          "question_id": 29245710,
+          "question_text": "Title: Why my lambdas do not work? | Body: I struggle with making lambdas work. The code here is example, but it shows my problem well.  lambdas = list()  for i in range(5):     lambdas.append(lambda x:i*i*x)   print lambdas[0](1) print lambdas[2](1)   This give me 16, but I expect to have different value for different lambda. Why is happening! "
+        },
+        {
+          "question_id": 19867580,
+          "question_text": "Title: Insert a file to google drive using google app engine. python client api used | Body: Using Google App Engine, I am trying to insert a file \"a.txt\" into my google drive. The error that i get when i view page source of InsertDrive page is   HttpError 401 \"Login Required\" bound method InsertDrive.error of main.InsertDrive object at 0x10f884b0  Note: I am calling class InsertDrive from my MainHan"
+        },
+        {
+          "question_id": 15622930,
+          "question_text": "Title: Limit count of threads for python script | Body: I have a python 2.7 script on a CentOS linux server which had a bug starting new threads until I could not login to the server anymore.  Is there a way to tell the python runtime not to create/start/use more than 50 threads (and to throw exceptions instead or kill the script) to prevent this problem, or do I have to implement this in the script "
+        }
+      ]
+    },
+    "10": {
+      "size": 3,
+      "samples": [
+        {
+          "question_id": 17367420,
+          "question_text": "Title: JQuery modal dialog shows behind overlay using append | Body: I have a div with some stuff on I want to pop up to the user so they have to agree before they submit:  &lt;div id=\"terms\" style=\"display:none\"&gt;         &lt;p style=\"font-weight:bold\"&gt;If your data is not backed up in advance, you may have to forfeit your booked slot and rebook the handover on another date.&lt;/p&gt;         &l"
+        },
+        {
+          "question_id": 29749330,
+          "question_text": "Title: Unable to store cookies in AngularJs | Body: I am working on a small project in AngularJs in which I am trying to store username and password into browser cookies.   here is my app.js code. you can see that I have injected ngCookies as depenancy injection.   var app = angular.module('myApp', ['ui.router', 'myApp.routes', 'ngCookies']);   following is my login Controller.  app.controller('login"
+        },
+        {
+          "question_id": 30604270,
+          "question_text": "Title: ng-class $window.innerWidth | Body: I am trying to find a solution to add a class to an item if the screen width is greater than x (ie. 1200).  ng-class=\"{ large: isLarge() }\"  $scope.isLarge = function () {   return ($window.innerWidth &gt;= 1200); }   This doesn't work, and wont even add the class. It also needs to update on browser resize. Thinking a directive might be a better option.  EDI"
+        }
+      ]
+    },
+    "11": {
+      "size": 4,
+      "samples": [
+        {
+          "question_id": 39855330,
+          "question_text": "Title: SonarLint 2.2.1 Eclipse not catching a majority of issues (unlike examples online) | Body: I want to use the SonarLint plugin for Eclipse.  I installed it, but it doesn't seem to be catching everything it should.  After installing it, I tried to write code that should trigger SonarLint issues.  For example, the picture on the site http://www.sonarlint.org/eclipse/ , indicates that SonarLint sh"
+        },
+        {
+          "question_id": 37391130,
+          "question_text": "Title: Putting multiple images together into one | Body: I have bunch of photos sorted in a folder so that there is always one photo of type A and one photo of type B immediately after that.  Unfortunately, some of them needed to be rotated and I did so using standard Windows file explorer.  What I need is to combine each pair of photos A and B into new single photo so that the first source photo is "
+        },
+        {
+          "question_id": 36615010,
+          "question_text": "Title: Experiencing audio dropouts with OS X core audio playback/output | Body: I'm doing playback using core audio (OS X, 10.11.4 Beta, older mac mini) using a simple output audio unit configured for input and output (though all of my problems seem to be with output).  This is a streaming audio source from socket/internet feeding into a boost lockless queue, which then feeds into the output AU.  I'm"
+        }
+      ]
+    },
+    "12": {
+      "size": 2,
+      "samples": [
+        {
+          "question_id": 10442470,
+          "question_text": "Title: Android : Hide the soft keyboard when click the EditView | Body: In my application , I have to get date from the user. First I use one button, when the user clicks the button a dialog box will appear which holds datepicker and get the result in one TextView. Now I want to replace the button by EditView. On Clicking the EditView the dialog box will have to appear and no keyboards should appear."
+        },
+        {
+          "question_id": 34332520,
+          "question_text": "Title: Android Camera - Attempt to read from field 'int android.hardware.Camera$Size.width' on a null object reference | Body: I am developing an android application. I use a custom camera in a Fragment of a ViewPager. I have a problem of compatibility, my app works on android 4.2.2 , 4.4.4, 5.0.1 . But if i try with an android version 5.1.0 or 5.1.1 , the app crash . I have this log :      12-17 11:"
+        }
+      ]
+    },
+    "13": {
+      "size": 3,
+      "samples": [
+        {
+          "question_id": 30808780,
+          "question_text": "Title: DefaultRebelLaunchConfigProvider - unknown type org.springframework.ide.eclipse.boot.launch | Body: I am setting up a basic Spring Boot application (1.2.3.RELEASE) on Spring Tool Suite 3.6.4.RELEASE.  I decided to install jRebel using myJRebel (6.2.0).  When I start my application (Run as Spring Boot App), I can't see the jRebel logs in the console. I already checked my project under jRebel co"
+        },
+        {
+          "question_id": 2706630,
+          "question_text": "Title: What is the best way to get a reference to a spring bean in the backend layers? | Body: I have two spring config files and I'm specifying them in my web.xml as in below.   web.xml snippet   .. &lt;context-param&gt;         &lt;param-name&gt;contextConfigLocation&lt;/param-name&gt;         &lt;param-value&gt;WEB-INF/classes/domain-context.xml WEB-INF/classes/client-ws.xml&lt;/param-value&gt; &l"
+        },
+        {
+          "question_id": 6214110,
+          "question_text": "Title: Spring 3 Dependency Injcetion | Body: I am using Spring3 with xml based configuration.  The problem is when the IOC container starts it loads/caches all the properties/fields defined in com.dao.MyDAOFactory class. I want to tell spring that only load/cache specific properties/fields.  The bean declaration is given below   &lt;bean  id=\"daoFactory\" class=\"com.dao.MyDAOFactory\" &gt;&lt;/bean&gt;"
+        }
+      ]
+    },
+    "14": {
+      "size": 5,
+      "samples": [
+        {
+          "question_id": 10010430,
+          "question_text": "Title: Strange thing With CTYPE_ALNUM | Body: i have this strange problem with the PHP function CTYPE_ALNUM  if i do:  PHP:     $words=\"\u00c3\u00a0\u00c3\u00b2\u00c3\u00a8\";   if(ctype_alnum($words)){     Echo \"Don't work\";  }else{     Echo \"Work\";       }   this will echo out 'Work'  BUT if i have a form and in that form i insert the letters with the grave like (\u00c3\u00a0 , \u00c3\u00a8, \u00c3\u00b2) this will echo out 'Don't Work'   Code:    &lt;form a"
+        },
+        {
+          "question_id": 9809210,
+          "question_text": "Title: web service modify return value | Body: We have a lot of web services (.asmx files, which can be accessed for example from http://localhost/ApplicationName/VeryAncientWebService.asmx).  Also we have a sad bug, and the most painless solution to fix it - modify return value.  I know about IParameterInspector for WCF - thats really powerfull thing with  public void AfterCall(string operationName,"
+        },
+        {
+          "question_id": 29415880,
+          "question_text": "Title: Send variable value to .txt file through .php | Body: I have a script with a variable, this variable I am passing to a .php script and then from the .php script to a .txt file which then stores the number value from the variable, only problem is that when I pass the variable to the .txt file, instead of passing the number of the variable it just passes the name of it.  Here are my scripts:  ph"
+        }
+      ]
+    },
+    "15": {
+      "size": 22,
       "samples": [
         {
           "question_id": 20373460,
@@ -72,144 +272,8 @@
         }
       ]
     },
-    "4": {
-      "size": 17,
-      "samples": [
-        {
-          "question_id": 29245710,
-          "question_text": "Title: Why my lambdas do not work? | Body: I struggle with making lambdas work. The code here is example, but it shows my problem well.  lambdas = list()  for i in range(5):     lambdas.append(lambda x:i*i*x)   print lambdas[0](1) print lambdas[2](1)   This give me 16, but I expect to have different value for different lambda. Why is happening! "
-        },
-        {
-          "question_id": 19867580,
-          "question_text": "Title: Insert a file to google drive using google app engine. python client api used | Body: Using Google App Engine, I am trying to insert a file \"a.txt\" into my google drive. The error that i get when i view page source of InsertDrive page is   HttpError 401 \"Login Required\" bound method InsertDrive.error of main.InsertDrive object at 0x10f884b0  Note: I am calling class InsertDrive from my MainHan"
-        },
-        {
-          "question_id": 7687490,
-          "question_text": "Title: How to pass variable to a python cgi script | Body: What I want to do is have a single python program in cgi-bin that is executed by each of many pages on the site, and displays a line of HTML on each page that is different for each file, but keyed to the URL of that file on the site.  I know how to get the URL using javascript (e.g. on http://constitution.org/cs_event.htm ):  &lt;script langu"
-        }
-      ]
-    },
-    "5": {
-      "size": 13,
-      "samples": [
-        {
-          "question_id": 14350200,
-          "question_text": "Title: Want a SQL Query to know the Oracle RAC Node hit by the Current JDBC Connection | Body: I am trying to use Load Balance where I have 3 RAC nodes in my Oracle 10g Database like db1, db2, db3. I have developed a Java program with JDBC connection. This JDBC connection uses load balance. My problem is that I want to print the RAC node (whether db1 or db2 or db3) which is hit by this JDBC connectio"
-        },
-        {
-          "question_id": 33287490,
-          "question_text": "Title: How can I speed up hybrid property queries in SQLAlchemy? | Body: Is there a good way to speed up querying hybrid properties in SQLALchemy that involve relationships? I have the following two tables:  class Child(Base):      __tablename__ = 'Child'      id = Column(Integer, primary_key=True)       is_boy = Column(Boolean, default=False)      parent_id = Column(Integer, ForeignKey('Parent.id'))"
-        },
-        {
-          "question_id": 23272890,
-          "question_text": "Title: How can I temporarily disable constraints on my table? | Body: After going through this post, I am trying to add the following command in my stored procedure:  ALTER TABLE MyTable NOCHECK CONSTRAINT ALL   But the editor underlines it and shows this error:  SQL70005: The ALL option cannot be used to modify constraints. You must use individual constraint names instead   I'm using VS2013 Express "
-        }
-      ]
-    },
-    "6": {
-      "size": 3,
-      "samples": [
-        {
-          "question_id": 4637180,
-          "question_text": "Title: iPhone, Monotouch, and XIB outlet issues | Body: I'm having a problem with mapping controls in a subview back to fields on the owning controller. Specifically, I have mapped outlets for each of my \"controls\" to File's Owner. Monotouch then generated code for the controller's xib designer.cs file to reference these controls as properties on the controller class. However, when I run my code; I g"
-        },
-        {
-          "question_id": 10516140,
-          "question_text": "Title: How to replace link to hyperlink in RichTextBox (Windows phone) | Body: I have a text:  Download it directly to the &lt;a href=\"http://itunes.apple.com/fi/app/goalapp/id502461189?ls=1&amp;mt=8\"&gt;iTunes Store&lt;/a&gt; or &lt;a href=\"https://market.android.com/details?id=com.strikersoft.meramal.se\"&gt;Android Market&lt;/a&gt;. The application is launched for Swedish app store.   I know how to"
-        },
-        {
-          "question_id": 17210740,
-          "question_text": "Title: Application won't run correctly from %localappdata% | Body: My application run from \"...\\AppData\\Local\\Apps\\2.0\\some guid\", but it won't fully work (some third-party reg free COM DLL files don't work.. There is no exception, but nothing happens), but if I copy the whole folder to, for example, C:\\, all works.   How can I fix this problem?  Update: I tried to copy the application folder to the "
-        }
-      ]
-    },
-    "7": {
-      "size": 7,
-      "samples": [
-        {
-          "question_id": 15622930,
-          "question_text": "Title: Limit count of threads for python script | Body: I have a python 2.7 script on a CentOS linux server which had a bug starting new threads until I could not login to the server anymore.  Is there a way to tell the python runtime not to create/start/use more than 50 threads (and to throw exceptions instead or kill the script) to prevent this problem, or do I have to implement this in the script "
-        },
-        {
-          "question_id": 10734080,
-          "question_text": "Title: memory access vs. memory copy | Body: I am writing an application in C++ that needs to read-only from the same memory many times from many threads.  My question is from a performance point of view will it be better to copy the memory for each thread or give all threads the same pointer and have all of them access the same memory.  Thanks "
-        },
-        {
-          "question_id": 8510830,
-          "question_text": "Title: Testing a Django app in many separate threads | Body: I'd like to run my Django app's tests in several threads (possibly dozens) in parallel. This is because my app spends almost all of its time waiting for remote requests, and I reckon that if I run the tests in parallel, they would all work at the same time without slowing each other down, and the whole suite would be over pretty quickly.  B"
-        }
-      ]
-    },
-    "8": {
-      "size": 7,
-      "samples": [
-        {
-          "question_id": 4348520,
-          "question_text": "Title: Html Agility Pack - Get html fragment from an html document | Body: Using the html agility pack; how would I extract an html \"fragment\" from a full html document? For my purposes, an html \"fragment\" is defined as all content inside of the &lt;body&gt; tags.  For example:  Sample Input:  &lt;html&gt;    &lt;head&gt;      &lt;title&gt;blah&lt;/title&gt;    &lt;/head&gt;    &lt;body&gt;     &lt;p"
-        },
-        {
-          "question_id": 15933780,
-          "question_text": "Title: Vertical scroll bar appearing even when height is not set | Body: If you save the file below in html format, you will that a vertical scroll bar appears. Since the height for   &lt;div class=\"tabData\" id=\"tab3data\" style=\"visibility: visible;\"&gt;   is not set, shouldn't it automatically expand to fit all the contents?  &lt;html dir=\"ltr\" xmlns=\"http://www.w3.org/1999/xhtml\"&gt; &lt;head&gt;  "
-        },
-        {
-          "question_id": 32526760,
-          "question_text": "Title: Getting <a ref> image icon | Body: Studying webpages to learn html/css/javascript  Got confused when I thought that most images were linked to or loaded locally... It seems like on spotify their search button is using something I don't understand to load the magnifying glass.   .spoticon-search-32:before {     content: \"\\f141\";     font-size: 32px; }   If I edit content the picture of the sear"
-        }
-      ]
-    },
-    "9": {
-      "size": 7,
-      "samples": [
-        {
-          "question_id": 21055210,
-          "question_text": "Title: How to Create a Child Window From Parent in MVVM Light and WPF? | Body: I have a button on my Main Window. When I click it I want another Window to popup on top of the Main Window.  Main Window is still visible and should be the parent of this new window.  I been looking around and not sure how to do it, some people suggested to use the Messenger to do this but did not really give an example. "
-        },
-        {
-          "question_id": 24049000,
-          "question_text": "Title: Initiating a TransactionScope from Excel VBA? | Body: I have some existing c# code that I'd like to expose via com interop so that it can be called from Excel VBA.  As I will be performing many nested batch update operations, I need to support transactions, and to minimize the refactoring required at the c# level, I'd like to use the TransactionScope approach:  Implementing an Implicit Transac"
-        },
-        {
-          "question_id": 14046830,
-          "question_text": "Title: DataGridView - Use DataPropertyName to show child element property | Body: Lets image that I have the following classes  public class Master {     public string MasterName = \"Something\";      public List&lt;Detail&gt; details = new List&lt;Detail&gt;(); }  public class Detail  {     public string Foo = \"Test\"; }   And then I want to show the collection of Details objects in a DataGridView, usi"
-        }
-      ]
-    },
-    "10": {
-      "size": 12,
-      "samples": [
-        {
-          "question_id": 35066040,
-          "question_text": "Title: Is it fine to define a variable after it is used in Less and not before? | Body: So, the question actually is if it is just fine to use:  .mytest {   border:1px solid @black; } @black: #000;   instead of   @black: #000; .mytest {   border:1px solid @black; }   I don't see any warnings when I do this and it works fine - the result is   .mytest {   border: 1px solid #000; }   for both cases.  De"
-        },
-        {
-          "question_id": 39312530,
-          "question_text": "Title: Mock property return value gets overridden when instantiating mock object | Body: Background  I'm trying to set up a test fixture for an application I'm writing in which one of my classes is replaced with a mock. I'm happy to leave most of the attributes of the mock class as the default MagicMock instances (where I'm only interested in making assertions about their usage), but the class also h"
-        },
-        {
-          "question_id": 32970220,
-          "question_text": "Title: Multi inject with constructor parameter from a property of another dependency with Ninject | Body: I have an interface with an enumeration of instances implementing IModule interface:  public interface IConfiguration {     IEnumerable&lt;IModule&gt; Modules { get; } }   I have a class that takes IModule implementation as a constructor parameter:  public class ModuleClient : IModuleClient {    "
-        }
-      ]
-    },
-    "11": {
-      "size": 6,
-      "samples": [
-        {
-          "question_id": 10000790,
-          "question_text": "Title: Can't get mac address with ioctl on Linux when disconnected from Wifi | Body: I'm getting a mac address using this method:  #include &lt;sys/ioctl.h&gt; #include &lt;net/if.h&gt;  #include &lt;unistd.h&gt; #include &lt;netinet/in.h&gt; #include &lt;string.h&gt;  int main() {     ifreq ifr;     ifconf ifc;     char buf[1024];     int success = 0;      int sock = socket(AF_INET, SOCK_DGRAM, IPPR"
-        },
-        {
-          "question_id": 35059240,
-          "question_text": "Title: Read return garbage data in serial port programming in linux | Body: I want to communicate with my PC using the RS232 port. I can open \"/dev/ttyS0\" and write data using write() function, But i can't read correct data from \"dev/ttyS0\" by using read(). read() function read the unnecessary data.Please tell me how to solve this problem?  My program code here :  #include &lt;stdio.h&gt; #include &l"
-        },
-        {
-          "question_id": 8294710,
-          "question_text": "Title: Choosing what native library to load depending on system setup | Body: In our OSGi code, we are using Bundle-NativeCode manifest headers to choose what native libraries to load for Windows or Linux.  The problem arises when one of the libraries we need to use depends on a specific version of an already installed library (GLIBC is currently at version 2.12 in Ubuntu and 2.11 in Debian). Is ther"
-        }
-      ]
-    },
-    "12": {
-      "size": 7,
+    "16": {
+      "size": 8,
       "samples": [
         {
           "question_id": 31584230,
@@ -225,175 +289,90 @@
         }
       ]
     },
-    "13": {
-      "size": 12,
-      "samples": [
-        {
-          "question_id": 16016060,
-          "question_text": "Title: Change blueprints or Reload flask app during runtime | Body: I'm writing a Flask app that supports a plugin architecture. Each plugin lives in a separate folder and is a module that has at least one class which subclasses a Plugin class. For security reasons, I don't want to load all the plugins when the flask app is initially run. Instead, the user can enable plugins from within the flask app"
-        },
-        {
-          "question_id": 9573010,
-          "question_text": "Title: python SimpleHTTPRequestHandler server leaves socket in TIME_WAIT state after exit | Body: I have a simple server written that extends the SimpleHTTPRequestHandler  If I start and stop it without making any requests to the server, I can start back up on the same port with no problem.  When started, a netstat looks like this:   sam@hersheezy:server$ sudo netstat -na --program | grep 8001 tcp   "
-        },
-        {
-          "question_id": 17125720,
-          "question_text": "Title: Twitter API 1.1 Search with C# (in a PCL) | Body: I have a Windows 8 and a Windows Phone 8 app that serves as a social media dashboard and it get's tweets using the twitter search api. This was originally implemented using the Twitter API 1 and worked with no authentication so since it didn't need any additional 3rd party libs it was placed in the PCL part of the solution. For the same reason "
-        }
-      ]
-    },
-    "14": {
-      "size": 7,
-      "samples": [
-        {
-          "question_id": 568320,
-          "question_text": "Title: Get the diff of two MSWord doc files and output to html | Body:    Possible Duplicate:   How to compare two word documents?       How can you get the diff of two word .doc documents programatically? Where you can then take the resulting output and generate an html file of the result. (As you would expect to see in a normal gui diff tool)  I imagine if you grabed the docs via COM and converted "
-        },
-        {
-          "question_id": 9809210,
-          "question_text": "Title: web service modify return value | Body: We have a lot of web services (.asmx files, which can be accessed for example from http://localhost/ApplicationName/VeryAncientWebService.asmx).  Also we have a sad bug, and the most painless solution to fix it - modify return value.  I know about IParameterInspector for WCF - thats really powerfull thing with  public void AfterCall(string operationName,"
-        },
-        {
-          "question_id": 7837270,
-          "question_text": "Title: How .NET's regex engine treats RTL+LTR mixed strings? | Body: I have a mixed Hebrew/english string to parse. The string is built like this:  [3 hebrew] [2 english 2] [1 hebrew],   So, it can be read as: 1 2 3, and it is stored as 3 2 1 (exact byte sequence in file, double-checked in hex editor, and anyway RTL is only the display attribute). .NET regex parser has RTL option, which (when given f"
-        }
-      ]
-    },
-    "15": {
-      "size": 1,
-      "samples": [
-        {
-          "question_id": 33065600,
-          "question_text": "Title: How to get JSR-356 (javax.websockets.api) working on Jetty 9.3 JEE environment not embedded? | Body: I am having a hard time trying to get a simple echo server using javax.websockets on jetty 9.3 servlets (not embedded).  Server:   import java.io.IOException;  import javax.websocket.Endpoint; import javax.websocket.EndpointConfig; import javax.websocket.MessageHandler; import javax.websocket.R"
-        }
-      ]
-    },
-    "16": {
-      "size": 6,
-      "samples": [
-        {
-          "question_id": 10010430,
-          "question_text": "Title: Strange thing With CTYPE_ALNUM | Body: i have this strange problem with the PHP function CTYPE_ALNUM  if i do:  PHP:     $words=\"\u00c3\u00a0\u00c3\u00b2\u00c3\u00a8\";   if(ctype_alnum($words)){     Echo \"Don't work\";  }else{     Echo \"Work\";       }   this will echo out 'Work'  BUT if i have a form and in that form i insert the letters with the grave like (\u00c3\u00a0 , \u00c3\u00a8, \u00c3\u00b2) this will echo out 'Don't Work'   Code:    &lt;form a"
-        },
-        {
-          "question_id": 21324120,
-          "question_text": "Title: HttpWebRequest GET ProtocolViolationException WP7 | Body: I need to make a GET request with headers (this is the requeriment) but i am receiving the Protocol Violation Exception.  This is my code:        System.Uri targetUri = new System.Uri(\"http://54.219.33.208:8080/wsrewards/consultaEstatusRewards\");         HttpWebRequest request = (HttpWebRequest)HttpWebRequest.Create(targetUri);         "
-        },
-        {
-          "question_id": 20991530,
-          "question_text": "Title: An array of a certain size in z3 | Body: I'm using the z3py library for a program verification project, and would like to encode accesses to arrays in z3. Is there a simple way to make the Array z3type have a certain size, say, 112 entries for instance? I'm thinking of something like: A = Array('A', IntSort(), size)  Thanks, "
-        }
-      ]
-    },
     "17": {
-      "size": 15,
+      "size": 5,
       "samples": [
         {
-          "question_id": 12158810,
-          "question_text": "Title: Database connection reuse | Body: I am writing a simple class to make a connection with the database. I want to reuse the class through out my application. Can anyone tell me, how should i do it? I am using JSP and JavaBeans.  "
+          "question_id": 39312530,
+          "question_text": "Title: Mock property return value gets overridden when instantiating mock object | Body: Background  I'm trying to set up a test fixture for an application I'm writing in which one of my classes is replaced with a mock. I'm happy to leave most of the attributes of the mock class as the default MagicMock instances (where I'm only interested in making assertions about their usage), but the class also h"
         },
         {
-          "question_id": 22033660,
-          "question_text": "Title: Calling stored procedure with table type input parameter in sql server 2008 | Body: I want to call a stored procedure in SQL Server 2008 from Java code. The stored procedure takes user defined table type as parameter(basically array)  Please can you give me Java syntax to call the stored procedure and pass the array as input parameter "
+          "question_id": 13239350,
+          "question_text": "Title: correct Inheritance/class structure | Body: i want to write a library for linear program solving. Thereby several solvers such as cplex or gurobi are used. What i already have is an interface for each of them (all containing the same functions wrapping them to solver specific code).  Now I want to have a class 'LinearProgram' which can be instantiated e.g. by LinearProgram(\"cplex\") which then "
         },
         {
-          "question_id": 17801180,
-          "question_text": "Title: C# query sybase using Sybase.Data.AseClient.dll | Body: I import Sybase.Data.AseClient.dll into my C# project for connecting to a sybase database and query something like this  private DataSet query(string jjoprid) {     string queryStr = \"select oprid, oprname,orgid,lastmodified from                SA_CXTC_OPRINFO where oprid = \\\"\" + jjoprid + \"\\\";\";     DataSet ds ;     try     {         con"
+          "question_id": 29494450,
+          "question_text": "Title: How to extend a class that is returning this in their methods | Body: The question is easy but I'm not sure it's possible to do it...  if we have a class like   class A {     private int foo;      public A(int bar) {        this.foo = bar;     }      public A setFoo(int bar) {        this.foo = bar;        return this;     }      public int getFoo() {        return this.foo;     }      public "
         }
       ]
     },
     "18": {
-      "size": 11,
-      "samples": [
-        {
-          "question_id": 32551300,
-          "question_text": "Title: text by right positioned iframe | Body: I would like to make an index (iframe) of a page but I can not done in front of the text. The text comes behind iframe or iframe not on the right corner, no matter what I try.  page.html  &lt;?xml version=\"1.0\" encoding=\"UTF-8\"?&gt; &lt;!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\"&gt; &lt;html "
-        },
-        {
-          "question_id": 3263140,
-          "question_text": "Title: How to easily insert Excel spreadsheet into web page? | Body: I would like to insert an Excel spreadsheet into a Web page but would like to change some of the data at the same time to make them more user friendly.  Is it easily possible?  Thank you for your help. "
-        },
-        {
-          "question_id": 39553860,
-          "question_text": "Title: Wrapping a reoccuring collection of elements in a div | Body: This is kind of a two part question - I have an HTML page where I need to take reoccurring groups of elements such as:  &lt;h2&gt;1&lt;/h2&gt; &lt;p&gt;foo&lt;/p&gt; &lt;p&gt;bar&lt;/p&gt; &lt;h2&gt;2&lt;/h2&gt; &lt;p&gt;fizz&lt;/p&gt;   and wrap them individually with divs on each heading:  &lt;div&gt;   &lt;h2&gt;1&lt;/h2&gt;   &l"
-        }
-      ]
-    },
-    "19": {
-      "size": 12,
+      "size": 5,
       "samples": [
         {
           "question_id": 25485250,
           "question_text": "Title: ZPL passing parameters to the labels prints with misplaced data | Body: We are using Zebra Designer Pro to create the templates. We have placed various labels on the templates to which we pass values dynamically through the code at the runtime.  We are doing this by creating ZPL in the code and appending various parameter values which we want to print in the ZPL. Method to create the label is "
         },
         {
-          "question_id": 4818270,
-          "question_text": "Title: How to put a custom form region in Outlook's appointment 'schedule' pane? | Body: It's pretty easy to show a custom form in Outlook 2007 'Appointment' pane using VSTO (Form Region of the IPM.Appointment type).  So far, so good. But I'd like to put my form not on the first 'Appointment' pane, but rather on bottom of the 'Schedule' pane.  Any idea?  "
+          "question_id": 20991530,
+          "question_text": "Title: An array of a certain size in z3 | Body: I'm using the z3py library for a program verification project, and would like to encode accesses to arrays in z3. Is there a simple way to make the Array z3type have a certain size, say, 112 entries for instance? I'm thinking of something like: A = Array('A', IntSort(), size)  Thanks, "
         },
         {
-          "question_id": 13958950,
-          "question_text": "Title: removing an image from PPT Apache POI | Body: I've run into a situation:   XSLFSlide xslfSlide = ppt.createSlide();              for (XSLFShape shape : xslfSlide) {                 if (shape instanceof XSLFTextShape) {                     //some code here                 } else if(shape instanceof XSLFPictureShape) {                     //some code here                 }             }   if I h"
+          "question_id": 22275370,
+          "question_text": "Title: Retrieving every field of a database row as object in zend framework 2 | Body: I know we have result set to get a row as object But How can I get every field as a separate object ? consider of this database row :  user_id     address_id  product_id  shop_id 5               3       134          2   I want to retrieve and save the row as follows :  userEntity  AddressEntity   ProductEntity   Sho"
+        }
+      ]
+    },
+    "19": {
+      "size": 11,
+      "samples": [
+        {
+          "question_id": 6066200,
+          "question_text": "Title: What is the correct way to free memory in C# | Body: I have a timer in C# which executes some code inside it's method. Inside the code I'm using several temporary objects.   If I have something like Foo o = new Foo(); inside the method, does that mean that each time the timer ticks, I'm creating a new object and a new reference to that object? If I have string foo = null and then I just put so"
+        },
+        {
+          "question_id": 10377950,
+          "question_text": "Title: How to get (up)values associated to C closures outside the given function? | Body: In the Lua 5.2 manual we can find the following text:     When a C function is created, it is possible to associate some values   with it, thus creating a C closure (see lua_pushcclosure); these   values are called upvalues and are accessible to the function whenever   it is called.      Whenever a C function is"
+        },
+        {
+          "question_id": 24156560,
+          "question_text": "Title: Is there a data structure like a ListHashMap? | Body: I've been trying to find a data structure that will:   Let me check for duplicates in O(1) time (HashSet),  Preserve the order of insertion, and  Allow me to get a subset of that ordered list.    The closest thing I've found is a LinkedHashSet, but it just falls short by not implementing the List interface and allowing me to call List funct"
         }
       ]
     },
     "20": {
-      "size": 16,
+      "size": 3,
       "samples": [
         {
-          "question_id": 23745130,
-          "question_text": "Title: Searching for the last instance of data in a list | Body: I have an assignment to write a function that searches for the last instance of data (integer in this case) in a list. The function breaks with access violation on the line with if statement.   Node* List::SearchLast (int val) {     Node* pLast=NULL;     Node* pNode=pHead;     while (pHead!=NULL)     {         if (pNode-&gt;data==val)  "
+          "question_id": 844050,
+          "question_text": "Title: Rule of thumb for amount of usage memory it takes to make a worker process recycle? | Body: I've got a code base with lots of this:  byte[] contents = FileUtils.FileToByteArray(FileOfGartantuanProportions);   I don't control my IIS server, so I can't see the system log or do instrumentation, I just get to see my request fail to return (white page of death) and sometimes YSOD with Out of Memory"
         },
         {
-          "question_id": 29848320,
-          "question_text": "Title: Parse into a vector<vector<double>> with boost::spirit | Body: My intent is to parse a comma separated list of values into a nested vector. This list is two-dimensional. The basic question is:  is it possible to parse into a vector of vector with boost::spirit?  Something like the table under \"Traction\":  '  ' RPM 0,5000,10000,15000,20000,25000 ' ' Temp ' -40.,0.,20.,40. ' ' Traction 200.,175."
+          "question_id": 21324120,
+          "question_text": "Title: HttpWebRequest GET ProtocolViolationException WP7 | Body: I need to make a GET request with headers (this is the requeriment) but i am receiving the Protocol Violation Exception.  This is my code:        System.Uri targetUri = new System.Uri(\"http://54.219.33.208:8080/wsrewards/consultaEstatusRewards\");         HttpWebRequest request = (HttpWebRequest)HttpWebRequest.Create(targetUri);         "
         },
         {
-          "question_id": 7905010,
-          "question_text": "Title: Calling a virtual function before Implementation | Body: So I have this kind of setup  class Base { public:   Base();   virtual void parse() = 0; };  Base::Base() {   parse(); }   class Sub : public Base { public:   Sub();   void parse(); };  Sub::Sub() : Base() {}  void Sub::parse() {   // DO stuff }   I'm wondering if there's anway I can do something similar to this, right now I'm getting an"
+          "question_id": 12001060,
+          "question_text": "Title: How to include inline (not linked) images in SSRS e-mail reports? | Body: I have multiple SSRS 2008 report templates that contain embedded images and these are currently visible as expected in any report manager previews (using rendering extension HTML 4.0). However, I need these reports to be sent out as HTML e-mails.  I believe the basic/easiest technique here is to attach the images as inli"
         }
       ]
     },
     "21": {
-      "size": 3,
+      "size": 2,
       "samples": [
         {
-          "question_id": 10060050,
-          "question_text": "Title: Which is more performant, passing a method the entire object, or a property of that object? | Body: Consider the following example.  I need to check if a CouponModel has a unique serial key.  I have two choices:  CouponModel model = GetFromSomewhere();  if (!CouponHasUniqueKey(model)) { }  //or  if (!CouponHasUniqueKey(model.SerialKey)) { }   Of course in the method where I pass in the whole o"
+          "question_id": 13993820,
+          "question_text": "Title: Check string for an array item and match it | Body: I have a string and an array and i want to check the string and find if the string contains any string from the array.  My array will contain about 10 elements max.  string[] stringArray = { \"apple\", \"banana\", \"orange\" }; string text=\"I want an apple\";  public static string getItem(string text) {     //check text for stringArray items     //r"
         },
         {
-          "question_id": 7507320,
-          "question_text": "Title: Producing a read-only copy of a class, howto | Body: Given the following UML representation, how can i get an instance of a BullDog , that only has getter methods exposed?   Instance of the BullDog should not have any of the setter methods available. Instance of the BullDog should only have getter methods (3 of them) available   Basically the question is .. what do i cast new BullDog to?   "
-        },
-        {
-          "question_id": 3164260,
-          "question_text": "Title: Object instance without new? | Body: As we know we can instantiate an object without new keyword by using classloader/object cloning/object serialization. When I am using these techniques to create an object, is the constructor called or not?  "
+          "question_id": 31296820,
+          "question_text": "Title: Regex Exceptions | Body: I am trying to come up with a java regex that will match numbers with 2 too 3 decimals and not match any decimal number more than 3.  this is my regex  [0-9]{2}[.][0-9]{3}   It matches 41.51778000 and 18.740  but I only want it to match numbers that have exactly 3 decimal places and not numbers with more than three "
         }
       ]
     },
     "22": {
-      "size": 8,
-      "samples": [
-        {
-          "question_id": 16855780,
-          "question_text": "Title: Array of pointers to Eigen Matrices | Body: I am using MatrixXd matrices from Eigen on my code, and at a certain point I need a 3D one. Since Eigen does not have tridimensional matrix types, as it is optimized just for linear algebra, instead I am creating a pointer array of the MatrixXd type:  Eigen::MatrixXd *CVM =new Eigen::MatrixXd[100]; for (int i = 0; i &lt; 100; i++){    CVM[i]= Eigen::"
-        },
-        {
-          "question_id": 211480,
-          "question_text": "Title: Lightweight messaging (async invocations) in Java | Body: I am looking for lightweight messaging framework in Java. My task is to process events in a SEDA\u00e2\u0080\u0099s manner: I know that some stages of the processing could be completed quickly, and others not, and would like to decouple these stages of processing.  Let\u00e2\u0080\u0099s say I have components A and B and processing engine (be this container or whate"
-        },
-        {
-          "question_id": 30603740,
-          "question_text": "Title: Java Multi-Thread Pausing | Body:    My Goal   I am brand new to multi-threading in java and I am attempting to create pong.  I will only include a bit of code here that is relevant to the question.     Problem   I want to be able to pause the game by pressing the space bar, and then resume it again by pressing the space bar later.  The following code works to pause the game, however it cannot"
-        }
-      ]
-    },
-    "23": {
       "size": 6,
       "samples": [
-        {
-          "question_id": 17367420,
-          "question_text": "Title: JQuery modal dialog shows behind overlay using append | Body: I have a div with some stuff on I want to pop up to the user so they have to agree before they submit:  &lt;div id=\"terms\" style=\"display:none\"&gt;         &lt;p style=\"font-weight:bold\"&gt;If your data is not backed up in advance, you may have to forfeit your booked slot and rebook the handover on another date.&lt;/p&gt;         &l"
-        },
         {
           "question_id": 33321560,
           "question_text": "Title: Ajax Populated Dropdown Taking Two Clicks | Body: My web page is an internal DB Move Tool for my company.  I have a section for source and for target.  I have radio buttons for host and port, and a dropdown for database name.  When host and port are set, I have a click event capture on the dropdown that sends an ajax request to a php page that queries for the databases on that instance and pop"
@@ -401,23 +380,40 @@
         {
           "question_id": 4724950,
           "question_text": "Title: How to get rid of text after clicking in the form | Body: I have a guestbook form with this code:  &lt;input class='tbox' type='text' value='Type here' name='code_verify' size='15' maxlength='20'&gt;   How can I get rid of the text after clicking at the \"type here\" box?  What i mean is when I click in the field \"type here\" the words \"type here\" must dissapear and give a blinking cursor.  Any h"
+        },
+        {
+          "question_id": 26216020,
+          "question_text": "Title: Modal Popup button click not fired second time | Body: I have a Modal Popup with dynamic controls. I need to add new text box in Button click.  JQuery:-   &lt;script type=\"text/javascript\"&gt;     $(document).ready(function(){          if($('#hdnclick').val()==1){                   $('#modelPopup').dialog({      autoopen:false,           title: \"Add New Server\",      width:650,      height:450"
+        }
+      ]
+    },
+    "23": {
+      "size": 20,
+      "samples": [
+        {
+          "question_id": 35066040,
+          "question_text": "Title: Is it fine to define a variable after it is used in Less and not before? | Body: So, the question actually is if it is just fine to use:  .mytest {   border:1px solid @black; } @black: #000;   instead of   @black: #000; .mytest {   border:1px solid @black; }   I don't see any warnings when I do this and it works fine - the result is   .mytest {   border: 1px solid #000; }   for both cases.  De"
+        },
+        {
+          "question_id": 4877260,
+          "question_text": "Title: Copy file from TrueCrypt volume to clipboard? | Body: I use this code to copy files to Clipboard:  IDataObject data = new DataObject(); data.SetData(DataFormats.FileDrop, new string[] {@\"X:\\test.doc\"}); MemoryStream memo = new MemoryStream(4); byte[] bytes = new byte[] { (byte)(5), 0, 0, 0 }; memo.Write(bytes, 0, bytes.Length); data.SetData(\"Preferred DropEffect\", memo); Clipboard.SetDataObjec"
+        },
+        {
+          "question_id": 568320,
+          "question_text": "Title: Get the diff of two MSWord doc files and output to html | Body:    Possible Duplicate:   How to compare two word documents?       How can you get the diff of two word .doc documents programatically? Where you can then take the resulting output and generate an html file of the result. (As you would expect to see in a normal gui diff tool)  I imagine if you grabed the docs via COM and converted "
         }
       ]
     },
     "24": {
-      "size": 4,
+      "size": 2,
       "samples": [
         {
-          "question_id": 38170190,
-          "question_text": "Title: Named pipe file descriptor | Body: Currently I am making a C/C++ program for the Linux Operating system. I want to use a named pipe to communicate a PID (process ID) between two programs. The pipe has been created and is visible in the directory.  The Get PID program says that the file descriptor returns 3, while it should return 0 if it could open the pipe. What am I doing wrong?  Get PID  //"
+          "question_id": 32526760,
+          "question_text": "Title: Getting <a ref> image icon | Body: Studying webpages to learn html/css/javascript  Got confused when I thought that most images were linked to or loaded locally... It seems like on spotify their search button is using something I don't understand to load the magnifying glass.   .spoticon-search-32:before {     content: \"\\f141\";     font-size: 32px; }   If I edit content the picture of the sear"
         },
         {
-          "question_id": 22582760,
-          "question_text": "Title: How do we find a file that is located some where in directory tree | Body: How do we find a file that is located some where in directory tree hierarchy and was accessed 3 days ago. Which command should we use.  Find  or  Locate  Are there any other Unix commands for this   Also can i execute shell scripts using Alias  like  alias p='/hosting/apps/exception.sh'  When i use this its throwing exc"
-        },
-        {
-          "question_id": 32609640,
-          "question_text": "Title: uwsgi : doesn't detect plugins | Body: In Ubuntu i installed uwsgi and then the plugins with the following commands :  $ sudo apt-get install uwsgi $ sudo apt-get install uwsgi-plugin-python3 $ sudo apt-get install uwsgi-plugin-python   When i kill the process of uwsgi and rerun uwsgi with the following commands in a bash script :  #!/bin/bash echo '********* kill instance ******************' "
+          "question_id": 22154140,
+          "question_text": "Title: How can you left justify list items in a unordered list that is centered within a div? | Body: I have a div within a div within a div:  &lt;div id=\"wrapper\" class=\"center\"&gt;     &lt;div id=\"content\" class=\"center\"&gt;         &lt;div id=\"listDiv\" class=\"center\"&gt;            &lt;ul&gt;                &lt;li&gt;&lt;a href='#' id=\"1\" &gt;Link one&lt;/a&gt; &lt;/li&gt;                &lt;li&gt"
         }
       ]
     }
@@ -454,278 +450,45 @@
     {
       "ca": 0,
       "cb": 0,
-      "size_a": 16,
+      "size_a": 10,
       "size_b": 1,
       "sample_rate": 0.0,
       "matches": [],
       "tokens": {
-        "prompt": 1717,
-        "completion": 100
+        "prompt": 1111,
+        "completion": 64
       }
     },
     {
       "ca": 0,
       "cb": 1,
-      "size_a": 16,
+      "size_a": 10,
       "size_b": 9,
-      "sample_rate": 0.12,
+      "sample_rate": 0.24,
       "matches": [
         [
-          44,
-          9
-        ],
-        [
-          57,
-          8
-        ],
-        [
-          58,
-          8
-        ],
-        [
-          62,
-          8
-        ],
-        [
-          67,
-          8
-        ],
-        [
-          114,
-          8
-        ],
-        [
-          119,
-          8
-        ],
-        [
-          173,
-          8
-        ],
-        [
-          220,
-          8
-        ],
-        [
-          225,
-          8
-        ],
-        [
-          225,
-          9
-        ],
-        [
-          226,
-          8
-        ]
-      ],
-      "tokens": {
-        "prompt": 2011,
-        "completion": 179
-      }
-    },
-    {
-      "ca": 1,
-      "cb": 0,
-      "size_a": 17,
-      "size_b": 1,
-      "sample_rate": 0.0,
-      "matches": [],
-      "tokens": {
-        "prompt": 1911,
-        "completion": 128
-      }
-    },
-    {
-      "ca": 1,
-      "cb": 1,
-      "size_a": 17,
-      "size_b": 9,
-      "sample_rate": 0.12,
-      "matches": [
-        [
-          0,
-          8
-        ],
-        [
-          2,
-          8
-        ],
-        [
-          7,
-          8
-        ],
-        [
-          8,
-          8
-        ],
-        [
-          84,
-          8
-        ],
-        [
-          157,
-          8
-        ],
-        [
-          201,
-          8
-        ],
-        [
-          203,
-          8
-        ],
-        [
-          212,
-          8
-        ],
-        [
-          232,
-          8
-        ],
-        [
-          234,
-          8
-        ],
-        [
-          238,
-          8
-        ],
-        [
-          239,
-          8
-        ],
-        [
-          240,
-          8
-        ],
-        [
-          241,
-          8
-        ]
-      ],
-      "tokens": {
-        "prompt": 2205,
-        "completion": 197
-      }
-    },
-    {
-      "ca": 2,
-      "cb": 0,
-      "size_a": 12,
-      "size_b": 1,
-      "sample_rate": 0.0,
-      "matches": [
-        [
-          118,
-          4
-        ]
-      ],
-      "tokens": {
-        "prompt": 1399,
-        "completion": 80
-      }
-    },
-    {
-      "ca": 2,
-      "cb": 1,
-      "size_a": 12,
-      "size_b": 9,
-      "sample_rate": 0.0,
-      "matches": [
-        [
-          29,
-          5
-        ],
-        [
-          37,
-          5
-        ],
-        [
-          39,
-          5
-        ],
-        [
-          41,
-          5
-        ],
-        [
-          61,
-          5
-        ],
-        [
-          106,
-          5
-        ],
-        [
-          118,
-          5
-        ],
-        [
-          223,
-          5
-        ]
-      ],
-      "tokens": {
-        "prompt": 1693,
-        "completion": 112
-      }
-    },
-    {
-      "ca": 3,
-      "cb": 0,
-      "size_a": 25,
-      "size_b": 1,
-      "sample_rate": 0.2,
-      "matches": [
-        [
-          244,
-          4
-        ]
-      ],
-      "tokens": {
-        "prompt": 2597,
-        "completion": 188
-      }
-    },
-    {
-      "ca": 3,
-      "cb": 1,
-      "size_a": 25,
-      "size_b": 9,
-      "sample_rate": 0.16,
-      "matches": [
-        [
-          6,
-          7
-        ],
-        [
-          6,
-          9
-        ],
-        [
-          10,
+          24,
           2
         ],
         [
-          16,
-          2
-        ],
-        [
-          17,
+          24,
           7
         ],
         [
           93,
-          7
+          1
         ],
         [
           93,
           6
         ],
         [
-          96,
-          2
+          93,
+          7
+        ],
+        [
+          124,
+          7
         ],
         [
           130,
@@ -736,22 +499,6 @@
           7
         ],
         [
-          139,
-          7
-        ],
-        [
-          150,
-          7
-        ],
-        [
-          155,
-          2
-        ],
-        [
-          155,
-          7
-        ],
-        [
           159,
           0
         ],
@@ -760,56 +507,16 @@
           7
         ],
         [
-          163,
-          7
-        ],
-        [
-          181,
-          8
-        ],
-        [
-          184,
-          2
+          185,
+          5
         ],
         [
           185,
           7
         ],
         [
-          192,
-          2
-        ],
-        [
-          200,
-          2
-        ],
-        [
-          208,
-          1
-        ],
-        [
-          219,
-          2
-        ],
-        [
-          219,
-          6
-        ],
-        [
           230,
           7
-        ],
-        [
-          235,
-          7
-        ],
-        [
-          244,
-          2
-        ],
-        [
-          244,
-          5
         ],
         [
           249,
@@ -817,330 +524,33 @@
         ]
       ],
       "tokens": {
-        "prompt": 3105,
-        "completion": 303
+        "prompt": 1191,
+        "completion": 140
       }
     },
     {
-      "ca": 4,
+      "ca": 1,
       "cb": 0,
-      "size_a": 17,
+      "size_a": 14,
       "size_b": 1,
       "sample_rate": 0.0,
       "matches": [],
       "tokens": {
-        "prompt": 2000,
-        "completion": 106
+        "prompt": 1721,
+        "completion": 107
       }
     },
     {
-      "ca": 4,
+      "ca": 1,
       "cb": 1,
-      "size_a": 17,
-      "size_b": 9,
-      "sample_rate": 0.0,
-      "matches": [
-        [
-          1,
-          0
-        ],
-        [
-          11,
-          0
-        ],
-        [
-          75,
-          0
-        ],
-        [
-          78,
-          0
-        ],
-        [
-          87,
-          0
-        ],
-        [
-          88,
-          0
-        ],
-        [
-          95,
-          0
-        ],
-        [
-          138,
-          0
-        ],
-        [
-          158,
-          0
-        ],
-        [
-          165,
-          0
-        ],
-        [
-          193,
-          0
-        ],
-        [
-          195,
-          0
-        ],
-        [
-          195,
-          1
-        ],
-        [
-          198,
-          0
-        ],
-        [
-          205,
-          0
-        ],
-        [
-          210,
-          0
-        ],
-        [
-          231,
-          0
-        ],
-        [
-          247,
-          0
-        ],
-        [
-          247,
-          1
-        ]
-      ],
-      "tokens": {
-        "prompt": 2294,
-        "completion": 222
-      }
-    },
-    {
-      "ca": 5,
-      "cb": 0,
-      "size_a": 13,
-      "size_b": 1,
-      "sample_rate": 0.0,
-      "matches": [],
-      "tokens": {
-        "prompt": 1410,
-        "completion": 82
-      }
-    },
-    {
-      "ca": 5,
-      "cb": 1,
-      "size_a": 13,
-      "size_b": 9,
-      "sample_rate": 0.04,
-      "matches": [
-        [
-          21,
-          1
-        ],
-        [
-          21,
-          8
-        ],
-        [
-          31,
-          1
-        ],
-        [
-          51,
-          1
-        ],
-        [
-          52,
-          1
-        ],
-        [
-          52,
-          8
-        ],
-        [
-          56,
-          1
-        ],
-        [
-          56,
-          6
-        ],
-        [
-          65,
-          1
-        ],
-        [
-          66,
-          1
-        ],
-        [
-          110,
-          1
-        ],
-        [
-          127,
-          1
-        ],
-        [
-          129,
-          1
-        ],
-        [
-          141,
-          9
-        ],
-        [
-          144,
-          1
-        ],
-        [
-          179,
-          1
-        ]
-      ],
-      "tokens": {
-        "prompt": 1704,
-        "completion": 176
-      }
-    },
-    {
-      "ca": 6,
-      "cb": 0,
-      "size_a": 3,
-      "size_b": 1,
-      "sample_rate": 0.0,
-      "matches": [],
-      "tokens": {
-        "prompt": 461,
-        "completion": 22
-      }
-    },
-    {
-      "ca": 6,
-      "cb": 1,
-      "size_a": 3,
-      "size_b": 9,
-      "sample_rate": 0.26666666666666666,
-      "matches": [
-        [
-          33,
-          2
-        ],
-        [
-          33,
-          7
-        ],
-        [
-          64,
-          9
-        ],
-        [
-          125,
-          2
-        ]
-      ],
-      "tokens": {
-        "prompt": 541,
-        "completion": 47
-      }
-    },
-    {
-      "ca": 7,
-      "cb": 0,
-      "size_a": 7,
-      "size_b": 1,
-      "sample_rate": 0.8,
-      "matches": [
-        [
-          23,
-          4
-        ],
-        [
-          25,
-          4
-        ],
-        [
-          32,
-          4
-        ],
-        [
-          55,
-          4
-        ],
-        [
-          143,
-          4
-        ]
-      ],
-      "tokens": {
-        "prompt": 785,
-        "completion": 66
-      }
-    },
-    {
-      "ca": 7,
-      "cb": 1,
-      "size_a": 7,
-      "size_b": 9,
-      "sample_rate": 0.04,
-      "matches": [
-        [
-          23,
-          0
-        ],
-        [
-          23,
-          3
-        ],
-        [
-          25,
-          5
-        ],
-        [
-          32,
-          0
-        ],
-        [
-          120,
-          5
-        ],
-        [
-          149,
-          5
-        ]
-      ],
-      "tokens": {
-        "prompt": 865,
-        "completion": 83
-      }
-    },
-    {
-      "ca": 8,
-      "cb": 0,
-      "size_a": 7,
-      "size_b": 1,
-      "sample_rate": 0.0,
-      "matches": [],
-      "tokens": {
-        "prompt": 925,
-        "completion": 46
-      }
-    },
-    {
-      "ca": 8,
-      "cb": 1,
-      "size_a": 7,
+      "size_a": 14,
       "size_b": 9,
       "sample_rate": 0.2,
       "matches": [
+        [
+          18,
+          9
+        ],
         [
           36,
           9
@@ -1150,7 +560,11 @@
           9
         ],
         [
-          46,
+          71,
+          9
+        ],
+        [
+          73,
           9
         ],
         [
@@ -1163,582 +577,6 @@
         ],
         [
           117,
-          9
-        ]
-      ],
-      "tokens": {
-        "prompt": 1005,
-        "completion": 70
-      }
-    },
-    {
-      "ca": 9,
-      "cb": 0,
-      "size_a": 7,
-      "size_b": 1,
-      "sample_rate": 0.0,
-      "matches": [],
-      "tokens": {
-        "prompt": 814,
-        "completion": 46
-      }
-    },
-    {
-      "ca": 9,
-      "cb": 1,
-      "size_a": 7,
-      "size_b": 9,
-      "sample_rate": 0.16,
-      "matches": [
-        [
-          24,
-          7
-        ],
-        [
-          43,
-          7
-        ],
-        [
-          48,
-          7
-        ],
-        [
-          59,
-          7
-        ],
-        [
-          105,
-          7
-        ],
-        [
-          115,
-          7
-        ],
-        [
-          124,
-          7
-        ]
-      ],
-      "tokens": {
-        "prompt": 894,
-        "completion": 74
-      }
-    },
-    {
-      "ca": 10,
-      "cb": 0,
-      "size_a": 12,
-      "size_b": 1,
-      "sample_rate": 0.0,
-      "matches": [],
-      "tokens": {
-        "prompt": 1342,
-        "completion": 76
-      }
-    },
-    {
-      "ca": 10,
-      "cb": 1,
-      "size_a": 12,
-      "size_b": 9,
-      "sample_rate": 0.12,
-      "matches": [
-        [
-          19,
-          7
-        ],
-        [
-          70,
-          7
-        ],
-        [
-          81,
-          2
-        ],
-        [
-          97,
-          7
-        ],
-        [
-          133,
-          8
-        ],
-        [
-          169,
-          2
-        ],
-        [
-          206,
-          2
-        ],
-        [
-          209,
-          8
-        ],
-        [
-          216,
-          2
-        ]
-      ],
-      "tokens": {
-        "prompt": 1636,
-        "completion": 131
-      }
-    },
-    {
-      "ca": 11,
-      "cb": 0,
-      "size_a": 6,
-      "size_b": 1,
-      "sample_rate": 0.2,
-      "matches": [
-        [
-          146,
-          4
-        ]
-      ],
-      "tokens": {
-        "prompt": 765,
-        "completion": 44
-      }
-    },
-    {
-      "ca": 11,
-      "cb": 1,
-      "size_a": 6,
-      "size_b": 9,
-      "sample_rate": 0.16,
-      "matches": [
-        [
-          22,
-          3
-        ],
-        [
-          22,
-          5
-        ],
-        [
-          113,
-          3
-        ],
-        [
-          113,
-          5
-        ],
-        [
-          116,
-          3
-        ],
-        [
-          128,
-          5
-        ],
-        [
-          146,
-          5
-        ],
-        [
-          148,
-          3
-        ]
-      ],
-      "tokens": {
-        "prompt": 845,
-        "completion": 85
-      }
-    },
-    {
-      "ca": 12,
-      "cb": 0,
-      "size_a": 7,
-      "size_b": 1,
-      "sample_rate": 0.0,
-      "matches": [],
-      "tokens": {
-        "prompt": 773,
-        "completion": 46
-      }
-    },
-    {
-      "ca": 12,
-      "cb": 1,
-      "size_a": 7,
-      "size_b": 9,
-      "sample_rate": 0.04,
-      "matches": [
-        [
-          189,
-          8
-        ]
-      ],
-      "tokens": {
-        "prompt": 853,
-        "completion": 50
-      }
-    },
-    {
-      "ca": 13,
-      "cb": 0,
-      "size_a": 12,
-      "size_b": 1,
-      "sample_rate": 0.0,
-      "matches": [
-        [
-          45,
-          4
-        ],
-        [
-          123,
-          4
-        ]
-      ],
-      "tokens": {
-        "prompt": 1293,
-        "completion": 84
-      }
-    },
-    {
-      "ca": 13,
-      "cb": 1,
-      "size_a": 12,
-      "size_b": 9,
-      "sample_rate": 0.0,
-      "matches": [
-        [
-          35,
-          0
-        ],
-        [
-          45,
-          0
-        ],
-        [
-          49,
-          2
-        ],
-        [
-          49,
-          7
-        ],
-        [
-          53,
-          0
-        ],
-        [
-          54,
-          0
-        ],
-        [
-          123,
-          0
-        ],
-        [
-          140,
-          0
-        ],
-        [
-          142,
-          0
-        ],
-        [
-          145,
-          0
-        ],
-        [
-          170,
-          0
-        ],
-        [
-          221,
-          0
-        ]
-      ],
-      "tokens": {
-        "prompt": 1587,
-        "completion": 136
-      }
-    },
-    {
-      "ca": 14,
-      "cb": 0,
-      "size_a": 7,
-      "size_b": 1,
-      "sample_rate": 0.0,
-      "matches": [],
-      "tokens": {
-        "prompt": 812,
-        "completion": 46
-      }
-    },
-    {
-      "ca": 14,
-      "cb": 1,
-      "size_a": 7,
-      "size_b": 9,
-      "sample_rate": 0.2,
-      "matches": [
-        [
-          27,
-          9
-        ],
-        [
-          34,
-          2
-        ],
-        [
-          42,
-          2
-        ],
-        [
-          109,
-          2
-        ],
-        [
-          112,
-          2
-        ],
-        [
-          172,
-          2
-        ]
-      ],
-      "tokens": {
-        "prompt": 892,
-        "completion": 82
-      }
-    },
-    {
-      "ca": 15,
-      "cb": 0,
-      "size_a": 1,
-      "size_b": 1,
-      "sample_rate": 0.0,
-      "matches": [],
-      "tokens": {
-        "prompt": 239,
-        "completion": 10
-      }
-    },
-    {
-      "ca": 15,
-      "cb": 1,
-      "size_a": 1,
-      "size_b": 9,
-      "sample_rate": 0.2,
-      "matches": [
-        [
-          178,
-          8
-        ]
-      ],
-      "tokens": {
-        "prompt": 319,
-        "completion": 14
-      }
-    },
-    {
-      "ca": 16,
-      "cb": 0,
-      "size_a": 6,
-      "size_b": 1,
-      "sample_rate": 0.0,
-      "matches": [],
-      "tokens": {
-        "prompt": 773,
-        "completion": 40
-      }
-    },
-    {
-      "ca": 16,
-      "cb": 1,
-      "size_a": 6,
-      "size_b": 9,
-      "sample_rate": 0.08,
-      "matches": [
-        [
-          89,
-          2
-        ],
-        [
-          89,
-          7
-        ],
-        [
-          90,
-          0
-        ],
-        [
-          199,
-          2
-        ],
-        [
-          199,
-          7
-        ],
-        [
-          246,
-          9
-        ]
-      ],
-      "tokens": {
-        "prompt": 853,
-        "completion": 77
-      }
-    },
-    {
-      "ca": 17,
-      "cb": 0,
-      "size_a": 15,
-      "size_b": 1,
-      "sample_rate": 0.0,
-      "matches": [],
-      "tokens": {
-        "prompt": 1562,
-        "completion": 114
-      }
-    },
-    {
-      "ca": 17,
-      "cb": 1,
-      "size_a": 15,
-      "size_b": 9,
-      "sample_rate": 0.12,
-      "matches": [
-        [
-          14,
-          1
-        ],
-        [
-          14,
-          8
-        ],
-        [
-          76,
-          6
-        ],
-        [
-          76,
-          8
-        ],
-        [
-          91,
-          1
-        ],
-        [
-          91,
-          7
-        ],
-        [
-          92,
-          1
-        ],
-        [
-          94,
-          1
-        ],
-        [
-          131,
-          1
-        ],
-        [
-          134,
-          1
-        ],
-        [
-          134,
-          8
-        ],
-        [
-          152,
-          6
-        ],
-        [
-          153,
-          1
-        ],
-        [
-          153,
-          8
-        ],
-        [
-          154,
-          1
-        ],
-        [
-          154,
-          6
-        ],
-        [
-          187,
-          1
-        ],
-        [
-          187,
-          9
-        ],
-        [
-          202,
-          1
-        ],
-        [
-          202,
-          6
-        ],
-        [
-          211,
-          1
-        ],
-        [
-          211,
-          6
-        ],
-        [
-          213,
-          1
-        ],
-        [
-          213,
-          6
-        ]
-      ],
-      "tokens": {
-        "prompt": 1856,
-        "completion": 229
-      }
-    },
-    {
-      "ca": 18,
-      "cb": 0,
-      "size_a": 11,
-      "size_b": 1,
-      "sample_rate": 0.0,
-      "matches": [],
-      "tokens": {
-        "prompt": 1374,
-        "completion": 70
-      }
-    },
-    {
-      "ca": 18,
-      "cb": 1,
-      "size_a": 11,
-      "size_b": 9,
-      "sample_rate": 0.16,
-      "matches": [
-        [
-          18,
-          9
-        ],
-        [
-          71,
-          9
-        ],
-        [
-          73,
-          9
-        ],
-        [
-          137,
           9
         ],
         [
@@ -1758,46 +596,415 @@
           9
         ],
         [
+          225,
+          9
+        ],
+        [
           233,
           9
         ]
       ],
       "tokens": {
-        "prompt": 1454,
-        "completion": 106
+        "prompt": 1801,
+        "completion": 163
       }
     },
     {
-      "ca": 19,
+      "ca": 2,
       "cb": 0,
-      "size_a": 12,
+      "size_a": 32,
       "size_b": 1,
-      "sample_rate": 0.2,
+      "sample_rate": 0.0,
       "matches": [
+        [
+          72,
+          4
+        ],
+        [
+          173,
+          4
+        ]
+      ],
+      "tokens": {
+        "prompt": 3372,
+        "completion": 241
+      }
+    },
+    {
+      "ca": 2,
+      "cb": 1,
+      "size_a": 32,
+      "size_b": 9,
+      "sample_rate": 0.16,
+      "matches": [
+        [
+          0,
+          8
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          26,
+          8
+        ],
+        [
+          57,
+          8
+        ],
+        [
+          58,
+          8
+        ],
+        [
+          63,
+          8
+        ],
+        [
+          67,
+          8
+        ],
+        [
+          72,
+          8
+        ],
+        [
+          84,
+          8
+        ],
+        [
+          108,
+          8
+        ],
+        [
+          114,
+          8
+        ],
+        [
+          119,
+          8
+        ],
+        [
+          133,
+          8
+        ],
+        [
+          157,
+          8
+        ],
+        [
+          173,
+          8
+        ],
+        [
+          176,
+          8
+        ],
+        [
+          177,
+          8
+        ],
+        [
+          178,
+          8
+        ],
+        [
+          190,
+          8
+        ],
+        [
+          212,
+          8
+        ],
+        [
+          226,
+          8
+        ],
+        [
+          232,
+          8
+        ],
+        [
+          234,
+          8
+        ],
+        [
+          236,
+          8
+        ],
+        [
+          238,
+          8
+        ],
+        [
+          239,
+          8
+        ],
+        [
+          240,
+          8
+        ],
+        [
+          241,
+          8
+        ],
+        [
+          243,
+          8
+        ]
+      ],
+      "tokens": {
+        "prompt": 3880,
+        "completion": 355
+      }
+    },
+    {
+      "ca": 3,
+      "cb": 0,
+      "size_a": 14,
+      "size_b": 1,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          45,
+          4
+        ]
+      ],
+      "tokens": {
+        "prompt": 1557,
+        "completion": 92
+      }
+    },
+    {
+      "ca": 3,
+      "cb": 1,
+      "size_a": 14,
+      "size_b": 9,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          45,
+          0
+        ],
+        [
+          45,
+          3
+        ],
+        [
+          49,
+          2
+        ],
+        [
+          49,
+          7
+        ],
+        [
+          53,
+          0
+        ],
+        [
+          54,
+          0
+        ],
+        [
+          75,
+          0
+        ],
+        [
+          75,
+          9
+        ],
+        [
+          87,
+          0
+        ],
+        [
+          88,
+          0
+        ],
+        [
+          138,
+          0
+        ],
+        [
+          140,
+          0
+        ],
+        [
+          142,
+          0
+        ],
+        [
+          145,
+          0
+        ],
+        [
+          195,
+          0
+        ],
+        [
+          195,
+          1
+        ],
+        [
+          198,
+          0
+        ],
+        [
+          205,
+          0
+        ]
+      ],
+      "tokens": {
+        "prompt": 1637,
+        "completion": 183
+      }
+    },
+    {
+      "ca": 4,
+      "cb": 0,
+      "size_a": 9,
+      "size_b": 1,
+      "sample_rate": 0.0,
+      "matches": [],
+      "tokens": {
+        "prompt": 975,
+        "completion": 58
+      }
+    },
+    {
+      "ca": 4,
+      "cb": 1,
+      "size_a": 9,
+      "size_b": 9,
+      "sample_rate": 0.12,
+      "matches": [
+        [
+          48,
+          2
+        ],
+        [
+          48,
+          7
+        ],
+        [
+          51,
+          6
+        ],
+        [
+          52,
+          1
+        ],
+        [
+          52,
+          8
+        ],
+        [
+          56,
+          6
+        ],
+        [
+          76,
+          6
+        ],
+        [
+          76,
+          8
+        ],
+        [
+          144,
+          1
+        ],
+        [
+          202,
+          6
+        ],
+        [
+          208,
+          1
+        ],
+        [
+          208,
+          2
+        ]
+      ],
+      "tokens": {
+        "prompt": 1055,
+        "completion": 124
+      }
+    },
+    {
+      "ca": 5,
+      "cb": 0,
+      "size_a": 13,
+      "size_b": 1,
+      "sample_rate": 0.6,
+      "matches": [
+        [
+          25,
+          4
+        ],
+        [
+          32,
+          4
+        ],
+        [
+          55,
+          4
+        ],
         [
           68,
           4
         ],
         [
-          69,
+          98,
+          4
+        ],
+        [
+          143,
+          4
+        ],
+        [
+          151,
+          4
+        ],
+        [
+          191,
+          4
+        ],
+        [
+          237,
           4
         ]
       ],
       "tokens": {
-        "prompt": 1306,
-        "completion": 84
+        "prompt": 1406,
+        "completion": 136
       }
     },
     {
-      "ca": 19,
+      "ca": 5,
       "cb": 1,
-      "size_a": 12,
+      "size_a": 13,
       "size_b": 9,
-      "sample_rate": 0.04,
+      "sample_rate": 0.08,
       "matches": [
         [
-          63,
-          8
+          25,
+          5
+        ],
+        [
+          32,
+          0
         ],
         [
           68,
@@ -1808,36 +1015,173 @@
           8
         ],
         [
-          100,
+          77,
+          5
+        ],
+        [
+          98,
           8
         ],
         [
-          102,
+          120,
+          5
+        ],
+        [
+          151,
           0
         ],
         [
-          108,
-          8
+          151,
+          3
+        ],
+        [
+          191,
+          7
+        ],
+        [
+          237,
+          7
         ]
       ],
       "tokens": {
-        "prompt": 1600,
-        "completion": 120
+        "prompt": 1486,
+        "completion": 128
       }
     },
     {
-      "ca": 20,
+      "ca": 6,
       "cb": 0,
-      "size_a": 16,
+      "size_a": 19,
+      "size_b": 1,
+      "sample_rate": 0.0,
+      "matches": [],
+      "tokens": {
+        "prompt": 1997,
+        "completion": 142
+      }
+    },
+    {
+      "ca": 6,
+      "cb": 1,
+      "size_a": 19,
+      "size_b": 9,
+      "sample_rate": 0.16,
+      "matches": [
+        [
+          14,
+          1
+        ],
+        [
+          14,
+          8
+        ],
+        [
+          21,
+          1
+        ],
+        [
+          21,
+          8
+        ],
+        [
+          31,
+          1
+        ],
+        [
+          65,
+          1
+        ],
+        [
+          66,
+          1
+        ],
+        [
+          91,
+          1
+        ],
+        [
+          91,
+          7
+        ],
+        [
+          92,
+          1
+        ],
+        [
+          110,
+          1
+        ],
+        [
+          127,
+          1
+        ],
+        [
+          129,
+          1
+        ],
+        [
+          131,
+          1
+        ],
+        [
+          134,
+          1
+        ],
+        [
+          152,
+          1
+        ],
+        [
+          153,
+          1
+        ],
+        [
+          154,
+          1
+        ],
+        [
+          154,
+          6
+        ],
+        [
+          179,
+          1
+        ],
+        [
+          187,
+          1
+        ],
+        [
+          187,
+          9
+        ],
+        [
+          211,
+          1
+        ],
+        [
+          213,
+          1
+        ],
+        [
+          213,
+          6
+        ]
+      ],
+      "tokens": {
+        "prompt": 2077,
+        "completion": 248
+      }
+    },
+    {
+      "ca": 7,
+      "cb": 0,
+      "size_a": 15,
       "size_b": 1,
       "sample_rate": 0.0,
       "matches": [
         [
-          85,
-          4
-        ],
-        [
-          86,
+          118,
           4
         ],
         [
@@ -1846,14 +1190,14 @@
         ]
       ],
       "tokens": {
-        "prompt": 1804,
-        "completion": 112
+        "prompt": 1740,
+        "completion": 102
       }
     },
     {
-      "ca": 20,
+      "ca": 7,
       "cb": 1,
-      "size_a": 16,
+      "size_a": 15,
       "size_b": 9,
       "sample_rate": 0.0,
       "matches": [
@@ -1862,16 +1206,36 @@
           5
         ],
         [
-          77,
+          15,
           5
         ],
         [
-          86,
-          2
+          29,
+          5
         ],
         [
-          86,
-          7
+          37,
+          5
+        ],
+        [
+          39,
+          5
+        ],
+        [
+          41,
+          5
+        ],
+        [
+          74,
+          5
+        ],
+        [
+          106,
+          5
+        ],
+        [
+          118,
+          5
         ],
         [
           162,
@@ -1886,198 +1250,70 @@
           5
         ],
         [
+          218,
+          5
+        ],
+        [
+          223,
+          5
+        ],
+        [
           242,
           5
         ]
       ],
       "tokens": {
-        "prompt": 2098,
-        "completion": 163
+        "prompt": 1820,
+        "completion": 174
       }
     },
     {
-      "ca": 21,
+      "ca": 8,
       "cb": 0,
-      "size_a": 3,
+      "size_a": 9,
       "size_b": 1,
       "sample_rate": 0.0,
       "matches": [],
       "tokens": {
-        "prompt": 397,
-        "completion": 22
+        "prompt": 1049,
+        "completion": 58
       }
     },
     {
-      "ca": 21,
+      "ca": 8,
       "cb": 1,
-      "size_a": 3,
-      "size_b": 9,
-      "sample_rate": 0.26666666666666666,
-      "matches": [
-        [
-          122,
-          7
-        ],
-        [
-          122,
-          8
-        ],
-        [
-          167,
-          7
-        ],
-        [
-          167,
-          8
-        ],
-        [
-          190,
-          8
-        ]
-      ],
-      "tokens": {
-        "prompt": 477,
-        "completion": 52
-      }
-    },
-    {
-      "ca": 22,
-      "cb": 0,
-      "size_a": 8,
-      "size_b": 1,
-      "sample_rate": 0.4,
-      "matches": [
-        [
-          98,
-          4
-        ],
-        [
-          151,
-          4
-        ],
-        [
-          191,
-          4
-        ],
-        [
-          237,
-          4
-        ]
-      ],
-      "tokens": {
-        "prompt": 974,
-        "completion": 68
-      }
-    },
-    {
-      "ca": 22,
-      "cb": 1,
-      "size_a": 8,
+      "size_a": 9,
       "size_b": 9,
       "sample_rate": 0.16,
       "matches": [
         [
-          15,
+          22,
+          3
+        ],
+        [
+          22,
           5
         ],
         [
-          72,
-          8
-        ],
-        [
-          98,
-          8
-        ],
-        [
-          151,
+          78,
           0
         ],
         [
-          191,
-          2
+          113,
+          3
         ],
         [
-          191,
-          7
-        ],
-        [
-          207,
+          113,
           5
         ],
         [
-          237,
-          7
-        ]
-      ],
-      "tokens": {
-        "prompt": 1054,
-        "completion": 98
-      }
-    },
-    {
-      "ca": 23,
-      "cb": 0,
-      "size_a": 6,
-      "size_b": 1,
-      "sample_rate": 0.0,
-      "matches": [],
-      "tokens": {
-        "prompt": 782,
-        "completion": 40
-      }
-    },
-    {
-      "ca": 23,
-      "cb": 1,
-      "size_a": 6,
-      "size_b": 9,
-      "sample_rate": 0.16,
-      "matches": [
-        [
-          47,
-          9
+          128,
+          3
         ],
         [
-          111,
-          1
+          148,
+          3
         ],
-        [
-          121,
-          9
-        ],
-        [
-          174,
-          9
-        ],
-        [
-          194,
-          9
-        ]
-      ],
-      "tokens": {
-        "prompt": 862,
-        "completion": 60
-      }
-    },
-    {
-      "ca": 24,
-      "cb": 0,
-      "size_a": 4,
-      "size_b": 1,
-      "sample_rate": 0.0,
-      "matches": [],
-      "tokens": {
-        "prompt": 522,
-        "completion": 28
-      }
-    },
-    {
-      "ca": 24,
-      "cb": 1,
-      "size_a": 4,
-      "size_b": 9,
-      "sample_rate": 0.2,
-      "matches": [
         [
           160,
           3
@@ -2095,17 +1331,796 @@
           3
         ],
         [
-          180,
-          0
-        ],
-        [
           182,
           3
         ]
       ],
       "tokens": {
-        "prompt": 602,
-        "completion": 63
+        "prompt": 1129,
+        "completion": 123
+      }
+    },
+    {
+      "ca": 9,
+      "cb": 0,
+      "size_a": 14,
+      "size_b": 1,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          23,
+          4
+        ]
+      ],
+      "tokens": {
+        "prompt": 1648,
+        "completion": 92
+      }
+    },
+    {
+      "ca": 9,
+      "cb": 1,
+      "size_a": 14,
+      "size_b": 9,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          1,
+          0
+        ],
+        [
+          11,
+          0
+        ],
+        [
+          23,
+          0
+        ],
+        [
+          23,
+          3
+        ],
+        [
+          35,
+          0
+        ],
+        [
+          95,
+          0
+        ],
+        [
+          123,
+          0
+        ],
+        [
+          158,
+          0
+        ],
+        [
+          165,
+          0
+        ],
+        [
+          170,
+          0
+        ],
+        [
+          193,
+          0
+        ],
+        [
+          210,
+          0
+        ],
+        [
+          221,
+          0
+        ],
+        [
+          231,
+          0
+        ],
+        [
+          247,
+          0
+        ]
+      ],
+      "tokens": {
+        "prompt": 1728,
+        "completion": 168
+      }
+    },
+    {
+      "ca": 10,
+      "cb": 0,
+      "size_a": 3,
+      "size_b": 1,
+      "sample_rate": 0.0,
+      "matches": [],
+      "tokens": {
+        "prompt": 462,
+        "completion": 30
+      }
+    },
+    {
+      "ca": 10,
+      "cb": 1,
+      "size_a": 3,
+      "size_b": 9,
+      "sample_rate": 0.06666666666666667,
+      "matches": [
+        [
+          47,
+          9
+        ]
+      ],
+      "tokens": {
+        "prompt": 542,
+        "completion": 34
+      }
+    },
+    {
+      "ca": 11,
+      "cb": 0,
+      "size_a": 4,
+      "size_b": 1,
+      "sample_rate": 0.25,
+      "matches": [
+        [
+          146,
+          4
+        ]
+      ],
+      "tokens": {
+        "prompt": 528,
+        "completion": 32
+      }
+    },
+    {
+      "ca": 11,
+      "cb": 1,
+      "size_a": 4,
+      "size_b": 9,
+      "sample_rate": 0.05,
+      "matches": [],
+      "tokens": {
+        "prompt": 608,
+        "completion": 37
+      }
+    },
+    {
+      "ca": 12,
+      "cb": 0,
+      "size_a": 2,
+      "size_b": 1,
+      "sample_rate": 0.0,
+      "matches": [],
+      "tokens": {
+        "prompt": 355,
+        "completion": 16
+      }
+    },
+    {
+      "ca": 12,
+      "cb": 1,
+      "size_a": 2,
+      "size_b": 9,
+      "sample_rate": 0.1,
+      "matches": [],
+      "tokens": {
+        "prompt": 435,
+        "completion": 16
+      }
+    },
+    {
+      "ca": 13,
+      "cb": 0,
+      "size_a": 3,
+      "size_b": 1,
+      "sample_rate": 0.0,
+      "matches": [],
+      "tokens": {
+        "prompt": 460,
+        "completion": 22
+      }
+    },
+    {
+      "ca": 13,
+      "cb": 1,
+      "size_a": 3,
+      "size_b": 9,
+      "sample_rate": 0.06666666666666667,
+      "matches": [
+        [
+          100,
+          8
+        ],
+        [
+          201,
+          8
+        ],
+        [
+          203,
+          8
+        ]
+      ],
+      "tokens": {
+        "prompt": 540,
+        "completion": 42
+      }
+    },
+    {
+      "ca": 14,
+      "cb": 0,
+      "size_a": 5,
+      "size_b": 1,
+      "sample_rate": 0.0,
+      "matches": [],
+      "tokens": {
+        "prompt": 684,
+        "completion": 34
+      }
+    },
+    {
+      "ca": 14,
+      "cb": 1,
+      "size_a": 5,
+      "size_b": 9,
+      "sample_rate": 0.12,
+      "matches": [
+        [
+          34,
+          2
+        ],
+        [
+          101,
+          9
+        ],
+        [
+          220,
+          8
+        ],
+        [
+          246,
+          9
+        ]
+      ],
+      "tokens": {
+        "prompt": 764,
+        "completion": 60
+      }
+    },
+    {
+      "ca": 15,
+      "cb": 0,
+      "size_a": 22,
+      "size_b": 1,
+      "sample_rate": 0.2,
+      "matches": [
+        [
+          244,
+          4
+        ]
+      ],
+      "tokens": {
+        "prompt": 2310,
+        "completion": 167
+      }
+    },
+    {
+      "ca": 15,
+      "cb": 1,
+      "size_a": 22,
+      "size_b": 9,
+      "sample_rate": 0.16,
+      "matches": [
+        [
+          6,
+          2
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          9
+        ],
+        [
+          10,
+          2
+        ],
+        [
+          16,
+          2
+        ],
+        [
+          42,
+          2
+        ],
+        [
+          105,
+          2
+        ],
+        [
+          105,
+          7
+        ],
+        [
+          109,
+          2
+        ],
+        [
+          112,
+          2
+        ],
+        [
+          115,
+          2
+        ],
+        [
+          115,
+          7
+        ],
+        [
+          150,
+          2
+        ],
+        [
+          150,
+          7
+        ],
+        [
+          155,
+          2
+        ],
+        [
+          163,
+          2
+        ],
+        [
+          163,
+          7
+        ],
+        [
+          172,
+          2
+        ],
+        [
+          184,
+          2
+        ],
+        [
+          192,
+          2
+        ],
+        [
+          200,
+          2
+        ],
+        [
+          219,
+          2
+        ],
+        [
+          219,
+          6
+        ],
+        [
+          229,
+          2
+        ],
+        [
+          235,
+          2
+        ],
+        [
+          244,
+          2
+        ],
+        [
+          244,
+          5
+        ],
+        [
+          248,
+          2
+        ]
+      ],
+      "tokens": {
+        "prompt": 2390,
+        "completion": 283
+      }
+    },
+    {
+      "ca": 16,
+      "cb": 0,
+      "size_a": 8,
+      "size_b": 1,
+      "sample_rate": 0.0,
+      "matches": [],
+      "tokens": {
+        "prompt": 872,
+        "completion": 52
+      }
+    },
+    {
+      "ca": 16,
+      "cb": 1,
+      "size_a": 8,
+      "size_b": 9,
+      "sample_rate": 0.08,
+      "matches": [
+        [
+          44,
+          9
+        ],
+        [
+          64,
+          9
+        ],
+        [
+          189,
+          8
+        ]
+      ],
+      "tokens": {
+        "prompt": 952,
+        "completion": 64
+      }
+    },
+    {
+      "ca": 17,
+      "cb": 0,
+      "size_a": 5,
+      "size_b": 1,
+      "sample_rate": 0.0,
+      "matches": [],
+      "tokens": {
+        "prompt": 596,
+        "completion": 34
+      }
+    },
+    {
+      "ca": 17,
+      "cb": 1,
+      "size_a": 5,
+      "size_b": 9,
+      "sample_rate": 0.12,
+      "matches": [
+        [
+          19,
+          0
+        ],
+        [
+          19,
+          7
+        ],
+        [
+          61,
+          0
+        ],
+        [
+          61,
+          5
+        ],
+        [
+          62,
+          0
+        ],
+        [
+          62,
+          5
+        ],
+        [
+          62,
+          7
+        ],
+        [
+          70,
+          7
+        ],
+        [
+          97,
+          7
+        ]
+      ],
+      "tokens": {
+        "prompt": 676,
+        "completion": 84
+      }
+    },
+    {
+      "ca": 18,
+      "cb": 0,
+      "size_a": 5,
+      "size_b": 1,
+      "sample_rate": 0.0,
+      "matches": [],
+      "tokens": {
+        "prompt": 653,
+        "completion": 34
+      }
+    },
+    {
+      "ca": 18,
+      "cb": 1,
+      "size_a": 5,
+      "size_b": 9,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          94,
+          1
+        ]
+      ],
+      "tokens": {
+        "prompt": 733,
+        "completion": 38
+      }
+    },
+    {
+      "ca": 19,
+      "cb": 0,
+      "size_a": 11,
+      "size_b": 1,
+      "sample_rate": 0.4,
+      "matches": [
+        [
+          199,
+          4
+        ]
+      ],
+      "tokens": {
+        "prompt": 1173,
+        "completion": 74
+      }
+    },
+    {
+      "ca": 19,
+      "cb": 1,
+      "size_a": 11,
+      "size_b": 9,
+      "sample_rate": 0.08,
+      "matches": [
+        [
+          59,
+          7
+        ],
+        [
+          139,
+          7
+        ],
+        [
+          149,
+          5
+        ],
+        [
+          199,
+          2
+        ],
+        [
+          206,
+          2
+        ],
+        [
+          207,
+          5
+        ]
+      ],
+      "tokens": {
+        "prompt": 1253,
+        "completion": 110
+      }
+    },
+    {
+      "ca": 20,
+      "cb": 0,
+      "size_a": 3,
+      "size_b": 1,
+      "sample_rate": 0.0,
+      "matches": [],
+      "tokens": {
+        "prompt": 443,
+        "completion": 30
+      }
+    },
+    {
+      "ca": 20,
+      "cb": 1,
+      "size_a": 3,
+      "size_b": 9,
+      "sample_rate": 0.2,
+      "matches": [
+        [
+          86,
+          2
+        ],
+        [
+          86,
+          7
+        ],
+        [
+          89,
+          2
+        ],
+        [
+          89,
+          7
+        ],
+        [
+          141,
+          2
+        ],
+        [
+          141,
+          9
+        ]
+      ],
+      "tokens": {
+        "prompt": 523,
+        "completion": 57
+      }
+    },
+    {
+      "ca": 21,
+      "cb": 0,
+      "size_a": 2,
+      "size_b": 1,
+      "sample_rate": 0.0,
+      "matches": [],
+      "tokens": {
+        "prompt": 344,
+        "completion": 16
+      }
+    },
+    {
+      "ca": 21,
+      "cb": 1,
+      "size_a": 2,
+      "size_b": 9,
+      "sample_rate": 0.2,
+      "matches": [
+        [
+          136,
+          7
+        ],
+        [
+          209,
+          8
+        ]
+      ],
+      "tokens": {
+        "prompt": 424,
+        "completion": 24
+      }
+    },
+    {
+      "ca": 22,
+      "cb": 0,
+      "size_a": 6,
+      "size_b": 1,
+      "sample_rate": 0.0,
+      "matches": [],
+      "tokens": {
+        "prompt": 766,
+        "completion": 40
+      }
+    },
+    {
+      "ca": 22,
+      "cb": 1,
+      "size_a": 6,
+      "size_b": 9,
+      "sample_rate": 0.04,
+      "matches": [
+        [
+          111,
+          1
+        ],
+        [
+          121,
+          9
+        ]
+      ],
+      "tokens": {
+        "prompt": 846,
+        "completion": 59
+      }
+    },
+    {
+      "ca": 23,
+      "cb": 0,
+      "size_a": 20,
+      "size_b": 1,
+      "sample_rate": 0.2,
+      "matches": [
+        [
+          69,
+          4
+        ]
+      ],
+      "tokens": {
+        "prompt": 2146,
+        "completion": 153
+      }
+    },
+    {
+      "ca": 23,
+      "cb": 1,
+      "size_a": 20,
+      "size_b": 9,
+      "sample_rate": 0.08,
+      "matches": [
+        [
+          17,
+          7
+        ],
+        [
+          27,
+          9
+        ],
+        [
+          38,
+          5
+        ],
+        [
+          43,
+          7
+        ],
+        [
+          96,
+          2
+        ],
+        [
+          102,
+          0
+        ],
+        [
+          116,
+          3
+        ],
+        [
+          228,
+          5
+        ]
+      ],
+      "tokens": {
+        "prompt": 2226,
+        "completion": 181
+      }
+    },
+    {
+      "ca": 24,
+      "cb": 0,
+      "size_a": 2,
+      "size_b": 1,
+      "sample_rate": 0.0,
+      "matches": [],
+      "tokens": {
+        "prompt": 369,
+        "completion": 16
+      }
+    },
+    {
+      "ca": 24,
+      "cb": 1,
+      "size_a": 2,
+      "size_b": 9,
+      "sample_rate": 0.2,
+      "matches": [
+        [
+          46,
+          9
+        ],
+        [
+          137,
+          9
+        ]
+      ],
+      "tokens": {
+        "prompt": 449,
+        "completion": 31
       }
     }
   ]

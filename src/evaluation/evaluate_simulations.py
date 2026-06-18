@@ -5,7 +5,7 @@ import pandas as pd
 # Update these paths if your script is executed from a different directory
 LOG_DIR = "src/results/sim_logs"
 DATA_DIR = "data"  
-OUTPUT_CSV_DIR = "src/evaluation/logs" # Directory to store the organized CSVs
+OUTPUT_CSV_DIR = "src/results" # Directory to store the organized CSVs
 
 def get_emails_ground_truth():
     """Calculates the ground truth directly from the Emails CSVs."""

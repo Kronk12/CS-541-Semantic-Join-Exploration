@@ -45,7 +45,7 @@ for ratio in target_ratios:
     )
 
     # Dynamically name the output file based on the ratio
-    output_filename = f"src/evaluation/sim_logs/emails_master_log_ratio_{ratio}_projection.json"
+    output_filename = f"src/results/sim_logs/emails_master_log_ratio_{ratio}_projection.json"
 
     # Export everything, including up to 3 sample rows per cluster
     export_simulation_data(

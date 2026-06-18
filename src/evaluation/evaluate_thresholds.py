@@ -16,9 +16,9 @@ def analyze_optimal_tradeoffs(dataset_name, std_file, proj_file, max_f1_loss=2.5
     then searches for cheaper configurations that stay within `max_f1_loss`.
     """
     dfs = []
-    if os.path.exists(os.path.join(LOG_DIR, std_file)):
+    if std_file and os.path.exists(os.path.join(LOG_DIR, std_file)):
         dfs.append(pd.read_csv(os.path.join(LOG_DIR, std_file)))
-    if os.path.exists(os.path.join(LOG_DIR, proj_file)):
+    if proj_file and os.path.exists(os.path.join(LOG_DIR, proj_file)):
         dfs.append(pd.read_csv(os.path.join(LOG_DIR, proj_file)))
         
     if not dfs:
@@ -70,4 +70,5 @@ if __name__ == "__main__":
     print("=== Optimal Hyperparameter Analysis ===\n")
     
     for name, std, proj in datasets:
-        analyze_optimal_tradeoffs(name, std, proj, max_f1_loss=2.5)
+        analyze_optimal_tradeoffs(f"{name} (No Projection)", std, None, max_f1_loss=2.5)
+        analyze_optimal_tradeoffs(f"{name} (Projection)", None, proj, max_f1_loss=2.5)

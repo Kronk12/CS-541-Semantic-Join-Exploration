@@ -1,0 +1,1866 @@
+{
+  "fixed_tokens": {
+    "prompt": 55727,
+    "completion": 4339
+  },
+  "clusters_a": {
+    "0": {
+      "size": 24,
+      "samples": [
+        {
+          "question_id": 19786450,
+          "question_text": "Title: Using a third-party library with libgdx and GWT | Body: As I'm sure many others have, I've written my own game engine and am successfully using it with libgdx in my desktop project.  Now, it's time for me to get the HTML5 project working. I followed these directions to integrate my game engine, the \"third-party library\", into the HTML5 project. However, it hasn't gone smoothly. When I do GWT C"
+        },
+        {
+          "question_id": 39855330,
+          "question_text": "Title: SonarLint 2.2.1 Eclipse not catching a majority of issues (unlike examples online) | Body: I want to use the SonarLint plugin for Eclipse.  I installed it, but it doesn't seem to be catching everything it should.  After installing it, I tried to write code that should trigger SonarLint issues.  For example, the picture on the site http://www.sonarlint.org/eclipse/ , indicates that SonarLint sh"
+        },
+        {
+          "question_id": 15801640,
+          "question_text": "Title: Displaying data from JDBC select statement | Body: I am creating a program that is going to allow for displaying and manipulating data from my database. I wrote the following code based on a tutorial I found:   public class JavaApplication25 {     public static void main(String[] args) {         try {             Class.forName(\"sun.jdbc.odbc.JdbcOdbcDriver\");             String url = \"jdbc:odb"
+        }
+      ]
+    },
+    "1": {
+      "size": 19,
+      "samples": [
+        {
+          "question_id": 29245710,
+          "question_text": "Title: Why my lambdas do not work? | Body: I struggle with making lambdas work. The code here is example, but it shows my problem well.  lambdas = list()  for i in range(5):     lambdas.append(lambda x:i*i*x)   print lambdas[0](1) print lambdas[2](1)   This give me 16, but I expect to have different value for different lambda. Why is happening! "
+        },
+        {
+          "question_id": 19867580,
+          "question_text": "Title: Insert a file to google drive using google app engine. python client api used | Body: Using Google App Engine, I am trying to insert a file \"a.txt\" into my google drive. The error that i get when i view page source of InsertDrive page is   HttpError 401 \"Login Required\" bound method InsertDrive.error of main.InsertDrive object at 0x10f884b0  Note: I am calling class InsertDrive from my MainHan"
+        },
+        {
+          "question_id": 16016060,
+          "question_text": "Title: Change blueprints or Reload flask app during runtime | Body: I'm writing a Flask app that supports a plugin architecture. Each plugin lives in a separate folder and is a module that has at least one class which subclasses a Plugin class. For security reasons, I don't want to load all the plugins when the flask app is initially run. Instead, the user can enable plugins from within the flask app"
+        }
+      ]
+    },
+    "2": {
+      "size": 26,
+      "samples": [
+        {
+          "question_id": 20373460,
+          "question_text": "Title: C# Word Interop encoding on pasting HTML from Clipboard | Body: In order to paste formatted HTML in a Word document, I am using this approach HtmlFragment that was recommended several times here. My problem now is the charset that is not recognized. I already add this in the HtmlFragment to generate proper encode:  &lt;meta http-equiv=\"\"Content-Type\"\" content=\"\"text/html; charset=iso-8859-2\"\" "
+        },
+        {
+          "question_id": 18189840,
+          "question_text": "Title: ASP FormView Item Template add empty to dropdown list? | Body: I have a formview in a ASP form that I use to edit and view information. The form contains a lot of dropdownlist controls and most of them aren't required fields. In the edit template I use ddlInfoEstStatus.Items.Insert(0, new ListItem(\"\", \"*\")); to show an empty row.  The problem I am having is that using the code above doesn't wo"
+        },
+        {
+          "question_id": 7845470,
+          "question_text": "Title: ASP.NET MVC : validation domain password | Body: In an ASP.NET MVC 3.0 application (intranet), the end user is logged on the domain (sample : MyDomain\\User1. In my application there is a validation section, when I want to valid a jQuery UI popup appear and I have to enter password of the user logged.   I'd like to know :    how can I check if the password receive in the action method match wit"
+        }
+      ]
+    },
+    "3": {
+      "size": 10,
+      "samples": [
+        {
+          "question_id": 10000790,
+          "question_text": "Title: Can't get mac address with ioctl on Linux when disconnected from Wifi | Body: I'm getting a mac address using this method:  #include &lt;sys/ioctl.h&gt; #include &lt;net/if.h&gt;  #include &lt;unistd.h&gt; #include &lt;netinet/in.h&gt; #include &lt;string.h&gt;  int main() {     ifreq ifr;     ifconf ifc;     char buf[1024];     int success = 0;      int sock = socket(AF_INET, SOCK_DGRAM, IPPR"
+        },
+        {
+          "question_id": 35059240,
+          "question_text": "Title: Read return garbage data in serial port programming in linux | Body: I want to communicate with my PC using the RS232 port. I can open \"/dev/ttyS0\" and write data using write() function, But i can't read correct data from \"dev/ttyS0\" by using read(). read() function read the unnecessary data.Please tell me how to solve this problem?  My program code here :  #include &lt;stdio.h&gt; #include &l"
+        },
+        {
+          "question_id": 8294710,
+          "question_text": "Title: Choosing what native library to load depending on system setup | Body: In our OSGi code, we are using Bundle-NativeCode manifest headers to choose what native libraries to load for Windows or Linux.  The problem arises when one of the libraries we need to use depends on a specific version of an already installed library (GLIBC is currently at version 2.12 in Ubuntu and 2.11 in Debian). Is ther"
+        }
+      ]
+    },
+    "4": {
+      "size": 23,
+      "samples": [
+        {
+          "question_id": 12158810,
+          "question_text": "Title: Database connection reuse | Body: I am writing a simple class to make a connection with the database. I want to reuse the class through out my application. Can anyone tell me, how should i do it? I am using JSP and JavaBeans.  "
+        },
+        {
+          "question_id": 14350200,
+          "question_text": "Title: Want a SQL Query to know the Oracle RAC Node hit by the Current JDBC Connection | Body: I am trying to use Load Balance where I have 3 RAC nodes in my Oracle 10g Database like db1, db2, db3. I have developed a Java program with JDBC connection. This JDBC connection uses load balance. My problem is that I want to print the RAC node (whether db1 or db2 or db3) which is hit by this JDBC connectio"
+        },
+        {
+          "question_id": 33287490,
+          "question_text": "Title: How can I speed up hybrid property queries in SQLAlchemy? | Body: Is there a good way to speed up querying hybrid properties in SQLALchemy that involve relationships? I have the following two tables:  class Child(Base):      __tablename__ = 'Child'      id = Column(Integer, primary_key=True)       is_boy = Column(Boolean, default=False)      parent_id = Column(Integer, ForeignKey('Parent.id'))"
+        }
+      ]
+    },
+    "5": {
+      "size": 10,
+      "samples": [
+        {
+          "question_id": 16855780,
+          "question_text": "Title: Array of pointers to Eigen Matrices | Body: I am using MatrixXd matrices from Eigen on my code, and at a certain point I need a 3D one. Since Eigen does not have tridimensional matrix types, as it is optimized just for linear algebra, instead I am creating a pointer array of the MatrixXd type:  Eigen::MatrixXd *CVM =new Eigen::MatrixXd[100]; for (int i = 0; i &lt; 100; i++){    CVM[i]= Eigen::"
+        },
+        {
+          "question_id": 8510830,
+          "question_text": "Title: Testing a Django app in many separate threads | Body: I'd like to run my Django app's tests in several threads (possibly dozens) in parallel. This is because my app spends almost all of its time waiting for remote requests, and I reckon that if I run the tests in parallel, they would all work at the same time without slowing each other down, and the whole suite would be over pretty quickly.  B"
+        },
+        {
+          "question_id": 211480,
+          "question_text": "Title: Lightweight messaging (async invocations) in Java | Body: I am looking for lightweight messaging framework in Java. My task is to process events in a SEDA\u00e2\u0080\u0099s manner: I know that some stages of the processing could be completed quickly, and others not, and would like to decouple these stages of processing.  Let\u00e2\u0080\u0099s say I have components A and B and processing engine (be this container or whate"
+        }
+      ]
+    },
+    "6": {
+      "size": 10,
+      "samples": [
+        {
+          "question_id": 9573010,
+          "question_text": "Title: python SimpleHTTPRequestHandler server leaves socket in TIME_WAIT state after exit | Body: I have a simple server written that extends the SimpleHTTPRequestHandler  If I start and stop it without making any requests to the server, I can start back up on the same port with no problem.  When started, a netstat looks like this:   sam@hersheezy:server$ sudo netstat -na --program | grep 8001 tcp   "
+        },
+        {
+          "question_id": 17125720,
+          "question_text": "Title: Twitter API 1.1 Search with C# (in a PCL) | Body: I have a Windows 8 and a Windows Phone 8 app that serves as a social media dashboard and it get's tweets using the twitter search api. This was originally implemented using the Twitter API 1 and worked with no authentication so since it didn't need any additional 3rd party libs it was placed in the PCL part of the solution. For the same reason "
+        },
+        {
+          "question_id": 27048750,
+          "question_text": "Title: Counting items in a List used as a Dictionary Value | Body: I have the following dictionary of lists working fine, but the printing at the end is borked, I can't get the counter to return correct numbers of items in each list as soon as I get more than one key in my dictionary! It's supposed to tell me how many people have chosen a particular dessert as their favourite.   desserts = {}  name_v"
+        }
+      ]
+    },
+    "7": {
+      "size": 18,
+      "samples": [
+        {
+          "question_id": 26690360,
+          "question_text": "Title: How to verify HMAC java | Body: I've got the following code to compute Hmacs with a password:   public static void main(String[] args) throws NoSuchAlgorithmException, InvalidKeyException  {   String password = \"password123\";   SecretKeySpec keySpec = new SecretKeySpec(password.getBytes(), \"HmacSHA1\");    Mac mac = Mac.getInstance(\"HmacSHA1\");   mac.init(keySpec);    byte[] result = mac.doFina"
+        },
+        {
+          "question_id": 10314070,
+          "question_text": "Title: Java: How to convert a String into an subclass data type? | Body: I want to convert a String to an subclass data type, how can it be done? or it is possible?  I have a abstract class Acct  A public abstract class SinAcct extends Acct  A public class SavAcct extends SinAcct   In SavAcct, there is a constructor   public SavAcct(String acctNo, String name, ConsolidateAccount ownerAcct, double las"
+        },
+        {
+          "question_id": 7875850,
+          "question_text": "Title: Java - Reversing words in a string | Body: This is our code:      import java.io.File; import java.io.FileNotFoundException; import java.util.*; import java.util.regex.Matcher; import java.util.regex.Pattern;  public class reverse {  public static void main(String[] args) throws FileNotFoundException {     File fil = new File(\"textFile.txt\");     Scanner scan = new Scanner(fil);      while (sc"
+        }
+      ]
+    },
+    "8": {
+      "size": 5,
+      "samples": [
+        {
+          "question_id": 17367420,
+          "question_text": "Title: JQuery modal dialog shows behind overlay using append | Body: I have a div with some stuff on I want to pop up to the user so they have to agree before they submit:  &lt;div id=\"terms\" style=\"display:none\"&gt;         &lt;p style=\"font-weight:bold\"&gt;If your data is not backed up in advance, you may have to forfeit your booked slot and rebook the handover on another date.&lt;/p&gt;         &l"
+        },
+        {
+          "question_id": 33321560,
+          "question_text": "Title: Ajax Populated Dropdown Taking Two Clicks | Body: My web page is an internal DB Move Tool for my company.  I have a section for source and for target.  I have radio buttons for host and port, and a dropdown for database name.  When host and port are set, I have a click event capture on the dropdown that sends an ajax request to a php page that queries for the databases on that instance and pop"
+        },
+        {
+          "question_id": 26216020,
+          "question_text": "Title: Modal Popup button click not fired second time | Body: I have a Modal Popup with dynamic controls. I need to add new text box in Button click.  JQuery:-   &lt;script type=\"text/javascript\"&gt;     $(document).ready(function(){          if($('#hdnclick').val()==1){                   $('#modelPopup').dialog({      autoopen:false,           title: \"Add New Server\",      width:650,      height:450"
+        }
+      ]
+    },
+    "9": {
+      "size": 13,
+      "samples": [
+        {
+          "question_id": 32551300,
+          "question_text": "Title: text by right positioned iframe | Body: I would like to make an index (iframe) of a page but I can not done in front of the text. The text comes behind iframe or iframe not on the right corner, no matter what I try.  page.html  &lt;?xml version=\"1.0\" encoding=\"UTF-8\"?&gt; &lt;!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\"&gt; &lt;html "
+        },
+        {
+          "question_id": 4348520,
+          "question_text": "Title: Html Agility Pack - Get html fragment from an html document | Body: Using the html agility pack; how would I extract an html \"fragment\" from a full html document? For my purposes, an html \"fragment\" is defined as all content inside of the &lt;body&gt; tags.  For example:  Sample Input:  &lt;html&gt;    &lt;head&gt;      &lt;title&gt;blah&lt;/title&gt;    &lt;/head&gt;    &lt;body&gt;     &lt;p"
+        },
+        {
+          "question_id": 3263140,
+          "question_text": "Title: How to easily insert Excel spreadsheet into web page? | Body: I would like to insert an Excel spreadsheet into a Web page but would like to change some of the data at the same time to make them more user friendly.  Is it easily possible?  Thank you for your help. "
+        }
+      ]
+    },
+    "10": {
+      "size": 6,
+      "samples": [
+        {
+          "question_id": 568320,
+          "question_text": "Title: Get the diff of two MSWord doc files and output to html | Body:    Possible Duplicate:   How to compare two word documents?       How can you get the diff of two word .doc documents programatically? Where you can then take the resulting output and generate an html file of the result. (As you would expect to see in a normal gui diff tool)  I imagine if you grabed the docs via COM and converted "
+        },
+        {
+          "question_id": 7837270,
+          "question_text": "Title: How .NET's regex engine treats RTL+LTR mixed strings? | Body: I have a mixed Hebrew/english string to parse. The string is built like this:  [3 hebrew] [2 english 2] [1 hebrew],   So, it can be read as: 1 2 3, and it is stored as 3 2 1 (exact byte sequence in file, double-checked in hex editor, and anyway RTL is only the display attribute). .NET regex parser has RTL option, which (when given f"
+        },
+        {
+          "question_id": 1312930,
+          "question_text": "Title: WCF Message.IsFault | Body: I am trying to write a test and need to create a Message object with the IsFault property set to true. However, this property only has a getter. Does anyone know the best way to create a message where this property would be set to true?  Thanks "
+        }
+      ]
+    },
+    "11": {
+      "size": 11,
+      "samples": [
+        {
+          "question_id": 25485250,
+          "question_text": "Title: ZPL passing parameters to the labels prints with misplaced data | Body: We are using Zebra Designer Pro to create the templates. We have placed various labels on the templates to which we pass values dynamically through the code at the runtime.  We are doing this by creating ZPL in the code and appending various parameter values which we want to print in the ZPL. Method to create the label is "
+        },
+        {
+          "question_id": 31846240,
+          "question_text": "Title: Return 'X' when sum of 9 digits divided by 11 is 10 | Body: In my code, I want charSum to return 'X' if the remainder is 10 when the sum of 9 digits is divided by 9. I tried both charSum = 'X' and charSum = (char) 88 and neither works. Something in my algorithm must be wrong. Please help.  public static char getCheckSum(String isbn) {     int sum = 0;      for (int i = 0; i &lt; isbn.length();"
+        },
+        {
+          "question_id": 29776850,
+          "question_text": "Title: clang++ error on late default template parameter declaration | Body: The following code compiles fine with g++, but not with clang++ (3.6):  // Forward declaration: template &lt;class S, class T&gt; struct Base;  template &lt;class T&gt; struct BaseFriend {     friend struct Base&lt;int, T&gt;; };  // Actual declaration: template &lt;class S, class T = int&gt; struct Base {     void foo() {} }"
+        }
+      ]
+    },
+    "12": {
+      "size": 8,
+      "samples": [
+        {
+          "question_id": 15933780,
+          "question_text": "Title: Vertical scroll bar appearing even when height is not set | Body: If you save the file below in html format, you will that a vertical scroll bar appears. Since the height for   &lt;div class=\"tabData\" id=\"tab3data\" style=\"visibility: visible;\"&gt;   is not set, shouldn't it automatically expand to fit all the contents?  &lt;html dir=\"ltr\" xmlns=\"http://www.w3.org/1999/xhtml\"&gt; &lt;head&gt;  "
+        },
+        {
+          "question_id": 32526760,
+          "question_text": "Title: Getting <a ref> image icon | Body: Studying webpages to learn html/css/javascript  Got confused when I thought that most images were linked to or loaded locally... It seems like on spotify their search button is using something I don't understand to load the magnifying glass.   .spoticon-search-32:before {     content: \"\\f141\";     font-size: 32px; }   If I edit content the picture of the sear"
+        },
+        {
+          "question_id": 10516140,
+          "question_text": "Title: How to replace link to hyperlink in RichTextBox (Windows phone) | Body: I have a text:  Download it directly to the &lt;a href=\"http://itunes.apple.com/fi/app/goalapp/id502461189?ls=1&amp;mt=8\"&gt;iTunes Store&lt;/a&gt; or &lt;a href=\"https://market.android.com/details?id=com.strikersoft.meramal.se\"&gt;Android Market&lt;/a&gt;. The application is launched for Swedish app store.   I know how to"
+        }
+      ]
+    },
+    "13": {
+      "size": 7,
+      "samples": [
+        {
+          "question_id": 31584230,
+          "question_text": "Title: Fragment communicating with an Activity | Body: I am confused about how communication with a Fragment and an Activity is made. For example, an interface was defined here (http://developer.android.com/intl/ko/training/basics/fragments/communicating.html).  public class HeadlinesFragment extends ListFragment {     OnHeadlineSelectedListener mCallback;      // Container Activity must implement th"
+        },
+        {
+          "question_id": 17366490,
+          "question_text": "Title: Use Keychain before api level 14 | Body: I am working on an Android app with min API version 10 and target 17. I want to use KeyChain but it is not supported before ICS.  Can someone suggest something similar or a solution for this problem?  Thank you so much "
+        },
+        {
+          "question_id": 4210270,
+          "question_text": "Title: allow users to create forms within android survey/data collection app | Body: I'm trying to develop an Android app that could be used by advocacy groups or campaigners such that they would be able to create their own forms (surveys) for which they can go out canvassing and collect opinion data from people who don't have Internet connections and thus can't take surveys/polls online. Could also "
+        }
+      ]
+    },
+    "14": {
+      "size": 8,
+      "samples": [
+        {
+          "question_id": 21055210,
+          "question_text": "Title: How to Create a Child Window From Parent in MVVM Light and WPF? | Body: I have a button on my Main Window. When I click it I want another Window to popup on top of the Main Window.  Main Window is still visible and should be the parent of this new window.  I been looking around and not sure how to do it, some people suggested to use the Messenger to do this but did not really give an example. "
+        },
+        {
+          "question_id": 4818270,
+          "question_text": "Title: How to put a custom form region in Outlook's appointment 'schedule' pane? | Body: It's pretty easy to show a custom form in Outlook 2007 'Appointment' pane using VSTO (Form Region of the IPM.Appointment type).  So far, so good. But I'd like to put my form not on the first 'Appointment' pane, but rather on bottom of the 'Schedule' pane.  Any idea?  "
+        },
+        {
+          "question_id": 24049000,
+          "question_text": "Title: Initiating a TransactionScope from Excel VBA? | Body: I have some existing c# code that I'd like to expose via com interop so that it can be called from Excel VBA.  As I will be performing many nested batch update operations, I need to support transactions, and to minimize the refactoring required at the c# level, I'd like to use the TransactionScope approach:  Implementing an Implicit Transac"
+        }
+      ]
+    },
+    "15": {
+      "size": 37,
+      "samples": [
+        {
+          "question_id": 10010430,
+          "question_text": "Title: Strange thing With CTYPE_ALNUM | Body: i have this strange problem with the PHP function CTYPE_ALNUM  if i do:  PHP:     $words=\"\u00c3\u00a0\u00c3\u00b2\u00c3\u00a8\";   if(ctype_alnum($words)){     Echo \"Don't work\";  }else{     Echo \"Work\";       }   this will echo out 'Work'  BUT if i have a form and in that form i insert the letters with the grave like (\u00c3\u00a0 , \u00c3\u00a8, \u00c3\u00b2) this will echo out 'Don't Work'   Code:    &lt;form a"
+        },
+        {
+          "question_id": 23745130,
+          "question_text": "Title: Searching for the last instance of data in a list | Body: I have an assignment to write a function that searches for the last instance of data (integer in this case) in a list. The function breaks with access violation on the line with if statement.   Node* List::SearchLast (int val) {     Node* pLast=NULL;     Node* pNode=pHead;     while (pHead!=NULL)     {         if (pNode-&gt;data==val)  "
+        },
+        {
+          "question_id": 4877260,
+          "question_text": "Title: Copy file from TrueCrypt volume to clipboard? | Body: I use this code to copy files to Clipboard:  IDataObject data = new DataObject(); data.SetData(DataFormats.FileDrop, new string[] {@\"X:\\test.doc\"}); MemoryStream memo = new MemoryStream(4); byte[] bytes = new byte[] { (byte)(5), 0, 0, 0 }; memo.Write(bytes, 0, bytes.Length); data.SetData(\"Preferred DropEffect\", memo); Clipboard.SetDataObjec"
+        }
+      ]
+    },
+    "16": {
+      "size": 5,
+      "samples": [
+        {
+          "question_id": 15622930,
+          "question_text": "Title: Limit count of threads for python script | Body: I have a python 2.7 script on a CentOS linux server which had a bug starting new threads until I could not login to the server anymore.  Is there a way to tell the python runtime not to create/start/use more than 50 threads (and to throw exceptions instead or kill the script) to prevent this problem, or do I have to implement this in the script "
+        },
+        {
+          "question_id": 10734080,
+          "question_text": "Title: memory access vs. memory copy | Body: I am writing an application in C++ that needs to read-only from the same memory many times from many threads.  My question is from a performance point of view will it be better to copy the memory for each thread or give all threads the same pointer and have all of them access the same memory.  Thanks "
+        },
+        {
+          "question_id": 32679030,
+          "question_text": "Title: pthreads access to resource globally in PHP | Body: I'm having problems with accessing resources from global context using php pthreads for Windows.  The logic is very simple: there's a Server as a main class, only one, which will:   create logfile create couple of threads each thread will need to write something to this logfile   Problem is, the resource of logfile handle is somehow totally m"
+        }
+      ]
+    },
+    "17": {
+      "size": 6,
+      "samples": [
+        {
+          "question_id": 35066040,
+          "question_text": "Title: Is it fine to define a variable after it is used in Less and not before? | Body: So, the question actually is if it is just fine to use:  .mytest {   border:1px solid @black; } @black: #000;   instead of   @black: #000; .mytest {   border:1px solid @black; }   I don't see any warnings when I do this and it works fine - the result is   .mytest {   border: 1px solid #000; }   for both cases.  De"
+        },
+        {
+          "question_id": 2968270,
+          "question_text": "Title: F# pattern matching with DataGridColumn.Visibility | Body: I'm encountering a situation where I'm using pattern matching for determining the visibility property of a column.  System.Windows.Visibility has two fields,  Visibility.Visible and Visibility.Collapsed.  Can enyone tell me why the following code:  let colItem = myDataGrid.Columns.Item 1      chkBox.IsChecked &lt;-           match colI"
+        },
+        {
+          "question_id": 6051960,
+          "question_text": "Title: How to write a good hashCode() for permutations? | Body: In my program, I handle a lot of lists of size n that all are permutations of [1,...,n]. My problem is that I put these permutations in HashMaps and HashSets, and I need a good hashCode() that avoids too many collisions.  All the solutions I have thought of lead to either a lot of collisions or an overflow. How can I write a good hashCod"
+        }
+      ]
+    },
+    "18": {
+      "size": 4,
+      "samples": [
+        {
+          "question_id": 33116730,
+          "question_text": "Title: How to inherit particular view in our own module? ODOO | Body: Good morning all, I would like to inherit some view from ODOO views. so that i can use it my own module. can anybody please explain me , what are the possible ways to it?  Thanks in advance.! "
+        },
+        {
+          "question_id": 10060050,
+          "question_text": "Title: Which is more performant, passing a method the entire object, or a property of that object? | Body: Consider the following example.  I need to check if a CouponModel has a unique serial key.  I have two choices:  CouponModel model = GetFromSomewhere();  if (!CouponHasUniqueKey(model)) { }  //or  if (!CouponHasUniqueKey(model.SerialKey)) { }   Of course in the method where I pass in the whole o"
+        },
+        {
+          "question_id": 7507320,
+          "question_text": "Title: Producing a read-only copy of a class, howto | Body: Given the following UML representation, how can i get an instance of a BullDog , that only has getter methods exposed?   Instance of the BullDog should not have any of the setter methods available. Instance of the BullDog should only have getter methods (3 of them) available   Basically the question is .. what do i cast new BullDog to?   "
+        }
+      ]
+    }
+  },
+  "clusters_b": {
+    "0": {
+      "size": 1,
+      "samples": [
+        {
+          "concept_id": "T-4",
+          "concept_name": "multithreading"
+        }
+      ]
+    },
+    "1": {
+      "size": 9,
+      "samples": [
+        {
+          "concept_id": "T-0",
+          "concept_name": "python"
+        },
+        {
+          "concept_id": "T-1",
+          "concept_name": "database"
+        },
+        {
+          "concept_id": "T-2",
+          "concept_name": ".net"
+        }
+      ]
+    }
+  },
+  "pairs": [
+    {
+      "ca": 0,
+      "cb": 0,
+      "size_a": 24,
+      "size_b": 1,
+      "sample_rate": 0.2,
+      "matches": [
+        [
+          68,
+          4
+        ]
+      ],
+      "tokens": {
+        "prompt": 2496,
+        "completion": 152
+      }
+    },
+    {
+      "ca": 0,
+      "cb": 1,
+      "size_a": 24,
+      "size_b": 9,
+      "sample_rate": 0.12,
+      "matches": [
+        [
+          44,
+          9
+        ],
+        [
+          50,
+          8
+        ],
+        [
+          52,
+          1
+        ],
+        [
+          57,
+          8
+        ],
+        [
+          58,
+          8
+        ],
+        [
+          62,
+          8
+        ],
+        [
+          63,
+          8
+        ],
+        [
+          67,
+          8
+        ],
+        [
+          68,
+          5
+        ],
+        [
+          68,
+          8
+        ],
+        [
+          100,
+          8
+        ],
+        [
+          102,
+          0
+        ],
+        [
+          114,
+          8
+        ],
+        [
+          119,
+          8
+        ],
+        [
+          173,
+          8
+        ],
+        [
+          220,
+          8
+        ],
+        [
+          225,
+          8
+        ],
+        [
+          225,
+          9
+        ],
+        [
+          226,
+          8
+        ]
+      ],
+      "tokens": {
+        "prompt": 3004,
+        "completion": 258
+      }
+    },
+    {
+      "ca": 1,
+      "cb": 0,
+      "size_a": 19,
+      "size_b": 1,
+      "sample_rate": 0.0,
+      "matches": [],
+      "tokens": {
+        "prompt": 2208,
+        "completion": 142
+      }
+    },
+    {
+      "ca": 1,
+      "cb": 1,
+      "size_a": 19,
+      "size_b": 9,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          1,
+          0
+        ],
+        [
+          11,
+          0
+        ],
+        [
+          35,
+          0
+        ],
+        [
+          75,
+          0
+        ],
+        [
+          75,
+          9
+        ],
+        [
+          78,
+          0
+        ],
+        [
+          87,
+          0
+        ],
+        [
+          88,
+          0
+        ],
+        [
+          95,
+          0
+        ],
+        [
+          123,
+          0
+        ],
+        [
+          138,
+          0
+        ],
+        [
+          158,
+          0
+        ],
+        [
+          165,
+          0
+        ],
+        [
+          193,
+          0
+        ],
+        [
+          195,
+          0
+        ],
+        [
+          195,
+          1
+        ],
+        [
+          198,
+          0
+        ],
+        [
+          205,
+          0
+        ],
+        [
+          210,
+          0
+        ],
+        [
+          231,
+          0
+        ],
+        [
+          247,
+          0
+        ],
+        [
+          247,
+          1
+        ]
+      ],
+      "tokens": {
+        "prompt": 2502,
+        "completion": 242
+      }
+    },
+    {
+      "ca": 2,
+      "cb": 0,
+      "size_a": 26,
+      "size_b": 1,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          244,
+          4
+        ]
+      ],
+      "tokens": {
+        "prompt": 2662,
+        "completion": 195
+      }
+    },
+    {
+      "ca": 2,
+      "cb": 1,
+      "size_a": 26,
+      "size_b": 9,
+      "sample_rate": 0.24,
+      "matches": [
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          9
+        ],
+        [
+          10,
+          2
+        ],
+        [
+          16,
+          2
+        ],
+        [
+          34,
+          2
+        ],
+        [
+          93,
+          7
+        ],
+        [
+          93,
+          6
+        ],
+        [
+          124,
+          7
+        ],
+        [
+          130,
+          7
+        ],
+        [
+          132,
+          7
+        ],
+        [
+          139,
+          7
+        ],
+        [
+          150,
+          2
+        ],
+        [
+          150,
+          7
+        ],
+        [
+          155,
+          2
+        ],
+        [
+          155,
+          7
+        ],
+        [
+          159,
+          0
+        ],
+        [
+          159,
+          7
+        ],
+        [
+          163,
+          2
+        ],
+        [
+          163,
+          7
+        ],
+        [
+          184,
+          2
+        ],
+        [
+          185,
+          7
+        ],
+        [
+          192,
+          2
+        ],
+        [
+          200,
+          2
+        ],
+        [
+          208,
+          1
+        ],
+        [
+          208,
+          2
+        ],
+        [
+          219,
+          1
+        ],
+        [
+          219,
+          2
+        ],
+        [
+          219,
+          6
+        ],
+        [
+          230,
+          7
+        ],
+        [
+          235,
+          2
+        ],
+        [
+          235,
+          7
+        ],
+        [
+          244,
+          2
+        ],
+        [
+          244,
+          5
+        ],
+        [
+          249,
+          7
+        ]
+      ],
+      "tokens": {
+        "prompt": 3170,
+        "completion": 356
+      }
+    },
+    {
+      "ca": 3,
+      "cb": 0,
+      "size_a": 10,
+      "size_b": 1,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          146,
+          4
+        ]
+      ],
+      "tokens": {
+        "prompt": 1153,
+        "completion": 68
+      }
+    },
+    {
+      "ca": 3,
+      "cb": 1,
+      "size_a": 10,
+      "size_b": 9,
+      "sample_rate": 0.2,
+      "matches": [
+        [
+          22,
+          3
+        ],
+        [
+          22,
+          5
+        ],
+        [
+          113,
+          3
+        ],
+        [
+          113,
+          5
+        ],
+        [
+          116,
+          3
+        ],
+        [
+          128,
+          5
+        ],
+        [
+          148,
+          3
+        ],
+        [
+          160,
+          3
+        ],
+        [
+          160,
+          5
+        ],
+        [
+          166,
+          3
+        ],
+        [
+          180,
+          3
+        ],
+        [
+          182,
+          3
+        ]
+      ],
+      "tokens": {
+        "prompt": 1233,
+        "completion": 130
+      }
+    },
+    {
+      "ca": 4,
+      "cb": 0,
+      "size_a": 23,
+      "size_b": 1,
+      "sample_rate": 0.0,
+      "matches": [],
+      "tokens": {
+        "prompt": 2333,
+        "completion": 170
+      }
+    },
+    {
+      "ca": 4,
+      "cb": 1,
+      "size_a": 23,
+      "size_b": 9,
+      "sample_rate": 0.04,
+      "matches": [
+        [
+          14,
+          1
+        ],
+        [
+          14,
+          8
+        ],
+        [
+          21,
+          1
+        ],
+        [
+          21,
+          8
+        ],
+        [
+          31,
+          1
+        ],
+        [
+          51,
+          1
+        ],
+        [
+          51,
+          6
+        ],
+        [
+          65,
+          1
+        ],
+        [
+          66,
+          1
+        ],
+        [
+          76,
+          1
+        ],
+        [
+          76,
+          6
+        ],
+        [
+          76,
+          8
+        ],
+        [
+          92,
+          1
+        ],
+        [
+          110,
+          1
+        ],
+        [
+          127,
+          1
+        ],
+        [
+          129,
+          1
+        ],
+        [
+          129,
+          6
+        ],
+        [
+          131,
+          1
+        ],
+        [
+          134,
+          1
+        ],
+        [
+          134,
+          8
+        ],
+        [
+          141,
+          9
+        ],
+        [
+          144,
+          1
+        ],
+        [
+          152,
+          6
+        ],
+        [
+          153,
+          1
+        ],
+        [
+          153,
+          8
+        ],
+        [
+          154,
+          6
+        ],
+        [
+          179,
+          1
+        ],
+        [
+          187,
+          1
+        ],
+        [
+          187,
+          9
+        ],
+        [
+          202,
+          1
+        ],
+        [
+          202,
+          6
+        ],
+        [
+          211,
+          1
+        ],
+        [
+          211,
+          6
+        ],
+        [
+          213,
+          1
+        ],
+        [
+          213,
+          6
+        ]
+      ],
+      "tokens": {
+        "prompt": 2841,
+        "completion": 340
+      }
+    },
+    {
+      "ca": 5,
+      "cb": 0,
+      "size_a": 10,
+      "size_b": 1,
+      "sample_rate": 0.4,
+      "matches": [
+        [
+          32,
+          4
+        ],
+        [
+          98,
+          4
+        ],
+        [
+          151,
+          4
+        ],
+        [
+          191,
+          4
+        ],
+        [
+          237,
+          4
+        ]
+      ],
+      "tokens": {
+        "prompt": 1166,
+        "completion": 84
+      }
+    },
+    {
+      "ca": 5,
+      "cb": 1,
+      "size_a": 10,
+      "size_b": 9,
+      "sample_rate": 0.04,
+      "matches": [
+        [
+          72,
+          8
+        ],
+        [
+          98,
+          8
+        ],
+        [
+          120,
+          5
+        ],
+        [
+          151,
+          0
+        ],
+        [
+          207,
+          5
+        ],
+        [
+          237,
+          7
+        ]
+      ],
+      "tokens": {
+        "prompt": 1246,
+        "completion": 103
+      }
+    },
+    {
+      "ca": 6,
+      "cb": 0,
+      "size_a": 10,
+      "size_b": 1,
+      "sample_rate": 0.0,
+      "matches": [],
+      "tokens": {
+        "prompt": 1085,
+        "completion": 64
+      }
+    },
+    {
+      "ca": 6,
+      "cb": 1,
+      "size_a": 10,
+      "size_b": 9,
+      "sample_rate": 0.08,
+      "matches": [
+        [
+          45,
+          0
+        ],
+        [
+          49,
+          7
+        ],
+        [
+          53,
+          0
+        ],
+        [
+          54,
+          0
+        ],
+        [
+          140,
+          0
+        ],
+        [
+          142,
+          0
+        ],
+        [
+          145,
+          0
+        ],
+        [
+          170,
+          0
+        ],
+        [
+          221,
+          0
+        ]
+      ],
+      "tokens": {
+        "prompt": 1165,
+        "completion": 115
+      }
+    },
+    {
+      "ca": 7,
+      "cb": 0,
+      "size_a": 18,
+      "size_b": 1,
+      "sample_rate": 0.0,
+      "matches": [],
+      "tokens": {
+        "prompt": 2009,
+        "completion": 135
+      }
+    },
+    {
+      "ca": 7,
+      "cb": 1,
+      "size_a": 18,
+      "size_b": 9,
+      "sample_rate": 0.08,
+      "matches": [
+        [
+          0,
+          8
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          30,
+          8
+        ],
+        [
+          84,
+          8
+        ],
+        [
+          157,
+          8
+        ],
+        [
+          201,
+          8
+        ],
+        [
+          203,
+          8
+        ],
+        [
+          212,
+          8
+        ],
+        [
+          232,
+          8
+        ],
+        [
+          234,
+          8
+        ],
+        [
+          238,
+          8
+        ],
+        [
+          239,
+          8
+        ],
+        [
+          240,
+          8
+        ],
+        [
+          241,
+          8
+        ]
+      ],
+      "tokens": {
+        "prompt": 2303,
+        "completion": 193
+      }
+    },
+    {
+      "ca": 8,
+      "cb": 0,
+      "size_a": 5,
+      "size_b": 1,
+      "sample_rate": 0.0,
+      "matches": [],
+      "tokens": {
+        "prompt": 660,
+        "completion": 44
+      }
+    },
+    {
+      "ca": 8,
+      "cb": 1,
+      "size_a": 5,
+      "size_b": 9,
+      "sample_rate": 0.08,
+      "matches": [
+        [
+          47,
+          9
+        ],
+        [
+          111,
+          1
+        ],
+        [
+          174,
+          9
+        ],
+        [
+          194,
+          9
+        ]
+      ],
+      "tokens": {
+        "prompt": 740,
+        "completion": 60
+      }
+    },
+    {
+      "ca": 9,
+      "cb": 0,
+      "size_a": 13,
+      "size_b": 1,
+      "sample_rate": 0.0,
+      "matches": [],
+      "tokens": {
+        "prompt": 1620,
+        "completion": 82
+      }
+    },
+    {
+      "ca": 9,
+      "cb": 1,
+      "size_a": 13,
+      "size_b": 9,
+      "sample_rate": 0.2,
+      "matches": [
+        [
+          18,
+          9
+        ],
+        [
+          36,
+          9
+        ],
+        [
+          71,
+          9
+        ],
+        [
+          73,
+          9
+        ],
+        [
+          121,
+          9
+        ],
+        [
+          137,
+          9
+        ],
+        [
+          156,
+          9
+        ],
+        [
+          161,
+          9
+        ],
+        [
+          168,
+          9
+        ],
+        [
+          186,
+          9
+        ],
+        [
+          233,
+          9
+        ]
+      ],
+      "tokens": {
+        "prompt": 1914,
+        "completion": 145
+      }
+    },
+    {
+      "ca": 10,
+      "cb": 0,
+      "size_a": 6,
+      "size_b": 1,
+      "sample_rate": 0.0,
+      "matches": [],
+      "tokens": {
+        "prompt": 714,
+        "completion": 40
+      }
+    },
+    {
+      "ca": 10,
+      "cb": 1,
+      "size_a": 6,
+      "size_b": 9,
+      "sample_rate": 0.2,
+      "matches": [
+        [
+          27,
+          9
+        ],
+        [
+          42,
+          2
+        ],
+        [
+          42,
+          7
+        ],
+        [
+          109,
+          2
+        ],
+        [
+          112,
+          2
+        ],
+        [
+          112,
+          8
+        ],
+        [
+          172,
+          2
+        ],
+        [
+          229,
+          2
+        ]
+      ],
+      "tokens": {
+        "prompt": 794,
+        "completion": 85
+      }
+    },
+    {
+      "ca": 11,
+      "cb": 0,
+      "size_a": 11,
+      "size_b": 1,
+      "sample_rate": 0.2,
+      "matches": [
+        [
+          118,
+          4
+        ]
+      ],
+      "tokens": {
+        "prompt": 1313,
+        "completion": 74
+      }
+    },
+    {
+      "ca": 11,
+      "cb": 1,
+      "size_a": 11,
+      "size_b": 9,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          26,
+          8
+        ],
+        [
+          29,
+          5
+        ],
+        [
+          41,
+          5
+        ],
+        [
+          61,
+          5
+        ],
+        [
+          106,
+          5
+        ],
+        [
+          118,
+          5
+        ],
+        [
+          223,
+          5
+        ],
+        [
+          228,
+          5
+        ]
+      ],
+      "tokens": {
+        "prompt": 1393,
+        "completion": 118
+      }
+    },
+    {
+      "ca": 12,
+      "cb": 0,
+      "size_a": 8,
+      "size_b": 1,
+      "sample_rate": 0.0,
+      "matches": [],
+      "tokens": {
+        "prompt": 1024,
+        "completion": 65
+      }
+    },
+    {
+      "ca": 12,
+      "cb": 1,
+      "size_a": 8,
+      "size_b": 9,
+      "sample_rate": 0.12,
+      "matches": [
+        [
+          40,
+          9
+        ],
+        [
+          46,
+          9
+        ],
+        [
+          64,
+          9
+        ],
+        [
+          104,
+          9
+        ],
+        [
+          117,
+          9
+        ]
+      ],
+      "tokens": {
+        "prompt": 1104,
+        "completion": 85
+      }
+    },
+    {
+      "ca": 13,
+      "cb": 0,
+      "size_a": 7,
+      "size_b": 1,
+      "sample_rate": 0.0,
+      "matches": [],
+      "tokens": {
+        "prompt": 773,
+        "completion": 46
+      }
+    },
+    {
+      "ca": 13,
+      "cb": 1,
+      "size_a": 7,
+      "size_b": 9,
+      "sample_rate": 0.04,
+      "matches": [
+        [
+          189,
+          8
+        ]
+      ],
+      "tokens": {
+        "prompt": 853,
+        "completion": 50
+      }
+    },
+    {
+      "ca": 14,
+      "cb": 0,
+      "size_a": 8,
+      "size_b": 1,
+      "sample_rate": 0.0,
+      "matches": [],
+      "tokens": {
+        "prompt": 908,
+        "completion": 52
+      }
+    },
+    {
+      "ca": 14,
+      "cb": 1,
+      "size_a": 8,
+      "size_b": 9,
+      "sample_rate": 0.24,
+      "matches": [
+        [
+          24,
+          2
+        ],
+        [
+          24,
+          7
+        ],
+        [
+          28,
+          2
+        ],
+        [
+          43,
+          2
+        ],
+        [
+          43,
+          7
+        ],
+        [
+          48,
+          2
+        ],
+        [
+          48,
+          7
+        ],
+        [
+          56,
+          2
+        ],
+        [
+          56,
+          6
+        ],
+        [
+          59,
+          2
+        ],
+        [
+          59,
+          7
+        ],
+        [
+          105,
+          2
+        ],
+        [
+          105,
+          7
+        ],
+        [
+          115,
+          2
+        ],
+        [
+          115,
+          7
+        ]
+      ],
+      "tokens": {
+        "prompt": 988,
+        "completion": 132
+      }
+    },
+    {
+      "ca": 15,
+      "cb": 0,
+      "size_a": 37,
+      "size_b": 1,
+      "sample_rate": 0.0,
+      "matches": [],
+      "tokens": {
+        "prompt": 3967,
+        "completion": 226
+      }
+    },
+    {
+      "ca": 15,
+      "cb": 1,
+      "size_a": 37,
+      "size_b": 9,
+      "sample_rate": 0.08,
+      "matches": [
+        [
+          9,
+          5
+        ],
+        [
+          17,
+          2
+        ],
+        [
+          17,
+          7
+        ],
+        [
+          19,
+          2
+        ],
+        [
+          19,
+          7
+        ],
+        [
+          37,
+          5
+        ],
+        [
+          39,
+          5
+        ],
+        [
+          77,
+          5
+        ],
+        [
+          91,
+          1
+        ],
+        [
+          91,
+          7
+        ],
+        [
+          94,
+          1
+        ],
+        [
+          96,
+          2
+        ],
+        [
+          99,
+          1
+        ],
+        [
+          99,
+          2
+        ],
+        [
+          125,
+          2
+        ],
+        [
+          162,
+          5
+        ],
+        [
+          164,
+          7
+        ],
+        [
+          169,
+          7
+        ],
+        [
+          188,
+          5
+        ],
+        [
+          199,
+          2
+        ],
+        [
+          206,
+          2
+        ],
+        [
+          206,
+          7
+        ],
+        [
+          215,
+          5
+        ],
+        [
+          217,
+          8
+        ],
+        [
+          218,
+          5
+        ],
+        [
+          242,
+          5
+        ],
+        [
+          246,
+          9
+        ]
+      ],
+      "tokens": {
+        "prompt": 4689,
+        "completion": 396
+      }
+    },
+    {
+      "ca": 16,
+      "cb": 0,
+      "size_a": 5,
+      "size_b": 1,
+      "sample_rate": 0.8,
+      "matches": [
+        [
+          23,
+          4
+        ],
+        [
+          25,
+          4
+        ],
+        [
+          55,
+          4
+        ],
+        [
+          143,
+          4
+        ]
+      ],
+      "tokens": {
+        "prompt": 593,
+        "completion": 50
+      }
+    },
+    {
+      "ca": 16,
+      "cb": 1,
+      "size_a": 5,
+      "size_b": 9,
+      "sample_rate": 0.04,
+      "matches": [
+        [
+          23,
+          0
+        ],
+        [
+          23,
+          3
+        ],
+        [
+          25,
+          5
+        ],
+        [
+          149,
+          5
+        ]
+      ],
+      "tokens": {
+        "prompt": 673,
+        "completion": 51
+      }
+    },
+    {
+      "ca": 17,
+      "cb": 0,
+      "size_a": 6,
+      "size_b": 1,
+      "sample_rate": 0.0,
+      "matches": [],
+      "tokens": {
+        "prompt": 779,
+        "completion": 40
+      }
+    },
+    {
+      "ca": 17,
+      "cb": 1,
+      "size_a": 6,
+      "size_b": 9,
+      "sample_rate": 0.12,
+      "matches": [
+        [
+          81,
+          2
+        ],
+        [
+          81,
+          7
+        ],
+        [
+          209,
+          8
+        ]
+      ],
+      "tokens": {
+        "prompt": 859,
+        "completion": 53
+      }
+    },
+    {
+      "ca": 18,
+      "cb": 0,
+      "size_a": 4,
+      "size_b": 1,
+      "sample_rate": 0.0,
+      "matches": [],
+      "tokens": {
+        "prompt": 470,
+        "completion": 28
+      }
+    },
+    {
+      "ca": 18,
+      "cb": 1,
+      "size_a": 4,
+      "size_b": 9,
+      "sample_rate": 0.1,
+      "matches": [
+        [
+          122,
+          7
+        ],
+        [
+          167,
+          5
+        ],
+        [
+          167,
+          7
+        ],
+        [
+          190,
+          8
+        ]
+      ],
+      "tokens": {
+        "prompt": 550,
+        "completion": 54
+      }
+    }
+  ]
+}

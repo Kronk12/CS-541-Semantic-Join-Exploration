@@ -1,0 +1,1507 @@
+{
+  "fixed_tokens": {
+    "prompt": 46820,
+    "completion": 3670
+  },
+  "clusters_a": {
+    "0": {
+      "size": 16,
+      "samples": [
+        {
+          "question_id": 12158810,
+          "question_text": "Title: Database connection reuse | Body: I am writing a simple class to make a connection with the database. I want to reuse the class through out my application. Can anyone tell me, how should i do it? I am using JSP and JavaBeans.  "
+        },
+        {
+          "question_id": 33287490,
+          "question_text": "Title: How can I speed up hybrid property queries in SQLAlchemy? | Body: Is there a good way to speed up querying hybrid properties in SQLALchemy that involve relationships? I have the following two tables:  class Child(Base):      __tablename__ = 'Child'      id = Column(Integer, primary_key=True)       is_boy = Column(Boolean, default=False)      parent_id = Column(Integer, ForeignKey('Parent.id'))"
+        },
+        {
+          "question_id": 22033660,
+          "question_text": "Title: Calling stored procedure with table type input parameter in sql server 2008 | Body: I want to call a stored procedure in SQL Server 2008 from Java code. The stored procedure takes user defined table type as parameter(basically array)  Please can you give me Java syntax to call the stored procedure and pass the array as input parameter "
+        }
+      ]
+    },
+    "1": {
+      "size": 28,
+      "samples": [
+        {
+          "question_id": 20373460,
+          "question_text": "Title: C# Word Interop encoding on pasting HTML from Clipboard | Body: In order to paste formatted HTML in a Word document, I am using this approach HtmlFragment that was recommended several times here. My problem now is the charset that is not recognized. I already add this in the HtmlFragment to generate proper encode:  &lt;meta http-equiv=\"\"Content-Type\"\" content=\"\"text/html; charset=iso-8859-2\"\" "
+        },
+        {
+          "question_id": 23745130,
+          "question_text": "Title: Searching for the last instance of data in a list | Body: I have an assignment to write a function that searches for the last instance of data (integer in this case) in a list. The function breaks with access violation on the line with if statement.   Node* List::SearchLast (int val) {     Node* pLast=NULL;     Node* pNode=pHead;     while (pHead!=NULL)     {         if (pNode-&gt;data==val)  "
+        },
+        {
+          "question_id": 25485250,
+          "question_text": "Title: ZPL passing parameters to the labels prints with misplaced data | Body: We are using Zebra Designer Pro to create the templates. We have placed various labels on the templates to which we pass values dynamically through the code at the runtime.  We are doing this by creating ZPL in the code and appending various parameter values which we want to print in the ZPL. Method to create the label is "
+        }
+      ]
+    },
+    "2": {
+      "size": 33,
+      "samples": [
+        {
+          "question_id": 18189840,
+          "question_text": "Title: ASP FormView Item Template add empty to dropdown list? | Body: I have a formview in a ASP form that I use to edit and view information. The form contains a lot of dropdownlist controls and most of them aren't required fields. In the edit template I use ddlInfoEstStatus.Items.Insert(0, new ListItem(\"\", \"*\")); to show an empty row.  The problem I am having is that using the code above doesn't wo"
+        },
+        {
+          "question_id": 7845470,
+          "question_text": "Title: ASP.NET MVC : validation domain password | Body: In an ASP.NET MVC 3.0 application (intranet), the end user is logged on the domain (sample : MyDomain\\User1. In my application there is a validation section, when I want to valid a jQuery UI popup appear and I have to enter password of the user logged.   I'd like to know :    how can I check if the password receive in the action method match wit"
+        },
+        {
+          "question_id": 4877260,
+          "question_text": "Title: Copy file from TrueCrypt volume to clipboard? | Body: I use this code to copy files to Clipboard:  IDataObject data = new DataObject(); data.SetData(DataFormats.FileDrop, new string[] {@\"X:\\test.doc\"}); MemoryStream memo = new MemoryStream(4); byte[] bytes = new byte[] { (byte)(5), 0, 0, 0 }; memo.Write(bytes, 0, bytes.Length); data.SetData(\"Preferred DropEffect\", memo); Clipboard.SetDataObjec"
+        }
+      ]
+    },
+    "3": {
+      "size": 9,
+      "samples": [
+        {
+          "question_id": 17367420,
+          "question_text": "Title: JQuery modal dialog shows behind overlay using append | Body: I have a div with some stuff on I want to pop up to the user so they have to agree before they submit:  &lt;div id=\"terms\" style=\"display:none\"&gt;         &lt;p style=\"font-weight:bold\"&gt;If your data is not backed up in advance, you may have to forfeit your booked slot and rebook the handover on another date.&lt;/p&gt;         &l"
+        },
+        {
+          "question_id": 33321560,
+          "question_text": "Title: Ajax Populated Dropdown Taking Two Clicks | Body: My web page is an internal DB Move Tool for my company.  I have a section for source and for target.  I have radio buttons for host and port, and a dropdown for database name.  When host and port are set, I have a click event capture on the dropdown that sends an ajax request to a php page that queries for the databases on that instance and pop"
+        },
+        {
+          "question_id": 4724950,
+          "question_text": "Title: How to get rid of text after clicking in the form | Body: I have a guestbook form with this code:  &lt;input class='tbox' type='text' value='Type here' name='code_verify' size='15' maxlength='20'&gt;   How can I get rid of the text after clicking at the \"type here\" box?  What i mean is when I click in the field \"type here\" the words \"type here\" must dissapear and give a blinking cursor.  Any h"
+        }
+      ]
+    },
+    "4": {
+      "size": 30,
+      "samples": [
+        {
+          "question_id": 26690360,
+          "question_text": "Title: How to verify HMAC java | Body: I've got the following code to compute Hmacs with a password:   public static void main(String[] args) throws NoSuchAlgorithmException, InvalidKeyException  {   String password = \"password123\";   SecretKeySpec keySpec = new SecretKeySpec(password.getBytes(), \"HmacSHA1\");    Mac mac = Mac.getInstance(\"HmacSHA1\");   mac.init(keySpec);    byte[] result = mac.doFina"
+        },
+        {
+          "question_id": 10314070,
+          "question_text": "Title: Java: How to convert a String into an subclass data type? | Body: I want to convert a String to an subclass data type, how can it be done? or it is possible?  I have a abstract class Acct  A public abstract class SinAcct extends Acct  A public class SavAcct extends SinAcct   In SavAcct, there is a constructor   public SavAcct(String acctNo, String name, ConsolidateAccount ownerAcct, double las"
+        },
+        {
+          "question_id": 31584230,
+          "question_text": "Title: Fragment communicating with an Activity | Body: I am confused about how communication with a Fragment and an Activity is made. For example, an interface was defined here (http://developer.android.com/intl/ko/training/basics/fragments/communicating.html).  public class HeadlinesFragment extends ListFragment {     OnHeadlineSelectedListener mCallback;      // Container Activity must implement th"
+        }
+      ]
+    },
+    "5": {
+      "size": 12,
+      "samples": [
+        {
+          "question_id": 29245710,
+          "question_text": "Title: Why my lambdas do not work? | Body: I struggle with making lambdas work. The code here is example, but it shows my problem well.  lambdas = list()  for i in range(5):     lambdas.append(lambda x:i*i*x)   print lambdas[0](1) print lambdas[2](1)   This give me 16, but I expect to have different value for different lambda. Why is happening! "
+        },
+        {
+          "question_id": 9573010,
+          "question_text": "Title: python SimpleHTTPRequestHandler server leaves socket in TIME_WAIT state after exit | Body: I have a simple server written that extends the SimpleHTTPRequestHandler  If I start and stop it without making any requests to the server, I can start back up on the same port with no problem.  When started, a netstat looks like this:   sam@hersheezy:server$ sudo netstat -na --program | grep 8001 tcp   "
+        },
+        {
+          "question_id": 17125720,
+          "question_text": "Title: Twitter API 1.1 Search with C# (in a PCL) | Body: I have a Windows 8 and a Windows Phone 8 app that serves as a social media dashboard and it get's tweets using the twitter search api. This was originally implemented using the Twitter API 1 and worked with no authentication so since it didn't need any additional 3rd party libs it was placed in the PCL part of the solution. For the same reason "
+        }
+      ]
+    },
+    "6": {
+      "size": 15,
+      "samples": [
+        {
+          "question_id": 16855780,
+          "question_text": "Title: Array of pointers to Eigen Matrices | Body: I am using MatrixXd matrices from Eigen on my code, and at a certain point I need a 3D one. Since Eigen does not have tridimensional matrix types, as it is optimized just for linear algebra, instead I am creating a pointer array of the MatrixXd type:  Eigen::MatrixXd *CVM =new Eigen::MatrixXd[100]; for (int i = 0; i &lt; 100; i++){    CVM[i]= Eigen::"
+        },
+        {
+          "question_id": 15622930,
+          "question_text": "Title: Limit count of threads for python script | Body: I have a python 2.7 script on a CentOS linux server which had a bug starting new threads until I could not login to the server anymore.  Is there a way to tell the python runtime not to create/start/use more than 50 threads (and to throw exceptions instead or kill the script) to prevent this problem, or do I have to implement this in the script "
+        },
+        {
+          "question_id": 10734080,
+          "question_text": "Title: memory access vs. memory copy | Body: I am writing an application in C++ that needs to read-only from the same memory many times from many threads.  My question is from a performance point of view will it be better to copy the memory for each thread or give all threads the same pointer and have all of them access the same memory.  Thanks "
+        }
+      ]
+    },
+    "7": {
+      "size": 12,
+      "samples": [
+        {
+          "question_id": 14350200,
+          "question_text": "Title: Want a SQL Query to know the Oracle RAC Node hit by the Current JDBC Connection | Body: I am trying to use Load Balance where I have 3 RAC nodes in my Oracle 10g Database like db1, db2, db3. I have developed a Java program with JDBC connection. This JDBC connection uses load balance. My problem is that I want to print the RAC node (whether db1 or db2 or db3) which is hit by this JDBC connectio"
+        },
+        {
+          "question_id": 14046830,
+          "question_text": "Title: DataGridView - Use DataPropertyName to show child element property | Body: Lets image that I have the following classes  public class Master {     public string MasterName = \"Something\";      public List&lt;Detail&gt; details = new List&lt;Detail&gt;(); }  public class Detail  {     public string Foo = \"Test\"; }   And then I want to show the collection of Details objects in a DataGridView, usi"
+        },
+        {
+          "question_id": 23272890,
+          "question_text": "Title: How can I temporarily disable constraints on my table? | Body: After going through this post, I am trying to add the following command in my stored procedure:  ALTER TABLE MyTable NOCHECK CONSTRAINT ALL   But the editor underlines it and shows this error:  SQL70005: The ALL option cannot be used to modify constraints. You must use individual constraint names instead   I'm using VS2013 Express "
+        }
+      ]
+    },
+    "8": {
+      "size": 18,
+      "samples": [
+        {
+          "question_id": 10010430,
+          "question_text": "Title: Strange thing With CTYPE_ALNUM | Body: i have this strange problem with the PHP function CTYPE_ALNUM  if i do:  PHP:     $words=\"\u00c3\u00a0\u00c3\u00b2\u00c3\u00a8\";   if(ctype_alnum($words)){     Echo \"Don't work\";  }else{     Echo \"Work\";       }   this will echo out 'Work'  BUT if i have a form and in that form i insert the letters with the grave like (\u00c3\u00a0 , \u00c3\u00a8, \u00c3\u00b2) this will echo out 'Don't Work'   Code:    &lt;form a"
+        },
+        {
+          "question_id": 32551300,
+          "question_text": "Title: text by right positioned iframe | Body: I would like to make an index (iframe) of a page but I can not done in front of the text. The text comes behind iframe or iframe not on the right corner, no matter what I try.  page.html  &lt;?xml version=\"1.0\" encoding=\"UTF-8\"?&gt; &lt;!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\"&gt; &lt;html "
+        },
+        {
+          "question_id": 4348520,
+          "question_text": "Title: Html Agility Pack - Get html fragment from an html document | Body: Using the html agility pack; how would I extract an html \"fragment\" from a full html document? For my purposes, an html \"fragment\" is defined as all content inside of the &lt;body&gt; tags.  For example:  Sample Input:  &lt;html&gt;    &lt;head&gt;      &lt;title&gt;blah&lt;/title&gt;    &lt;/head&gt;    &lt;body&gt;     &lt;p"
+        }
+      ]
+    },
+    "9": {
+      "size": 39,
+      "samples": [
+        {
+          "question_id": 35066040,
+          "question_text": "Title: Is it fine to define a variable after it is used in Less and not before? | Body: So, the question actually is if it is just fine to use:  .mytest {   border:1px solid @black; } @black: #000;   instead of   @black: #000; .mytest {   border:1px solid @black; }   I don't see any warnings when I do this and it works fine - the result is   .mytest {   border: 1px solid #000; }   for both cases.  De"
+        },
+        {
+          "question_id": 39312530,
+          "question_text": "Title: Mock property return value gets overridden when instantiating mock object | Body: Background  I'm trying to set up a test fixture for an application I'm writing in which one of my classes is replaced with a mock. I'm happy to leave most of the attributes of the mock class as the default MagicMock instances (where I'm only interested in making assertions about their usage), but the class also h"
+        },
+        {
+          "question_id": 4637180,
+          "question_text": "Title: iPhone, Monotouch, and XIB outlet issues | Body: I'm having a problem with mapping controls in a subview back to fields on the owning controller. Specifically, I have mapped outlets for each of my \"controls\" to File's Owner. Monotouch then generated code for the controller's xib designer.cs file to reference these controls as properties on the controller class. However, when I run my code; I g"
+        }
+      ]
+    },
+    "10": {
+      "size": 18,
+      "samples": [
+        {
+          "question_id": 19867580,
+          "question_text": "Title: Insert a file to google drive using google app engine. python client api used | Body: Using Google App Engine, I am trying to insert a file \"a.txt\" into my google drive. The error that i get when i view page source of InsertDrive page is   HttpError 401 \"Login Required\" bound method InsertDrive.error of main.InsertDrive object at 0x10f884b0  Note: I am calling class InsertDrive from my MainHan"
+        },
+        {
+          "question_id": 16016060,
+          "question_text": "Title: Change blueprints or Reload flask app during runtime | Body: I'm writing a Flask app that supports a plugin architecture. Each plugin lives in a separate folder and is a module that has at least one class which subclasses a Plugin class. For security reasons, I don't want to load all the plugins when the flask app is initially run. Instead, the user can enable plugins from within the flask app"
+        },
+        {
+          "question_id": 7687490,
+          "question_text": "Title: How to pass variable to a python cgi script | Body: What I want to do is have a single python program in cgi-bin that is executed by each of many pages on the site, and displays a line of HTML on each page that is different for each file, but keyed to the URL of that file on the site.  I know how to get the URL using javascript (e.g. on http://constitution.org/cs_event.htm ):  &lt;script langu"
+        }
+      ]
+    },
+    "11": {
+      "size": 20,
+      "samples": [
+        {
+          "question_id": 4210270,
+          "question_text": "Title: allow users to create forms within android survey/data collection app | Body: I'm trying to develop an Android app that could be used by advocacy groups or campaigners such that they would be able to create their own forms (surveys) for which they can go out canvassing and collect opinion data from people who don't have Internet connections and thus can't take surveys/polls online. Could also "
+        },
+        {
+          "question_id": 13958950,
+          "question_text": "Title: removing an image from PPT Apache POI | Body: I've run into a situation:   XSLFSlide xslfSlide = ppt.createSlide();              for (XSLFShape shape : xslfSlide) {                 if (shape instanceof XSLFTextShape) {                     //some code here                 } else if(shape instanceof XSLFPictureShape) {                     //some code here                 }             }   if I h"
+        },
+        {
+          "question_id": 10442470,
+          "question_text": "Title: Android : Hide the soft keyboard when click the EditView | Body: In my application , I have to get date from the user. First I use one button, when the user clicks the button a dialog box will appear which holds datepicker and get the result in one TextView. Now I want to replace the button by EditView. On Clicking the EditView the dialog box will have to appear and no keyboards should appear."
+        }
+      ]
+    }
+  },
+  "clusters_b": {
+    "0": {
+      "size": 1,
+      "samples": [
+        {
+          "concept_id": "T-4",
+          "concept_name": "multithreading"
+        }
+      ]
+    },
+    "1": {
+      "size": 9,
+      "samples": [
+        {
+          "concept_id": "T-0",
+          "concept_name": "python"
+        },
+        {
+          "concept_id": "T-1",
+          "concept_name": "database"
+        },
+        {
+          "concept_id": "T-2",
+          "concept_name": ".net"
+        }
+      ]
+    }
+  },
+  "pairs": [
+    {
+      "ca": 0,
+      "cb": 0,
+      "size_a": 16,
+      "size_b": 1,
+      "sample_rate": 0.0,
+      "matches": [],
+      "tokens": {
+        "prompt": 1663,
+        "completion": 121
+      }
+    },
+    {
+      "ca": 0,
+      "cb": 1,
+      "size_a": 16,
+      "size_b": 9,
+      "sample_rate": 0.08,
+      "matches": [
+        [
+          14,
+          1
+        ],
+        [
+          14,
+          8
+        ],
+        [
+          31,
+          1
+        ],
+        [
+          76,
+          1
+        ],
+        [
+          76,
+          6
+        ],
+        [
+          76,
+          8
+        ],
+        [
+          91,
+          1
+        ],
+        [
+          91,
+          7
+        ],
+        [
+          92,
+          1
+        ],
+        [
+          127,
+          1
+        ],
+        [
+          129,
+          1
+        ],
+        [
+          131,
+          1
+        ],
+        [
+          134,
+          1
+        ],
+        [
+          152,
+          1
+        ],
+        [
+          152,
+          6
+        ],
+        [
+          153,
+          1
+        ],
+        [
+          153,
+          8
+        ],
+        [
+          154,
+          1
+        ],
+        [
+          154,
+          6
+        ],
+        [
+          202,
+          1
+        ],
+        [
+          202,
+          6
+        ],
+        [
+          211,
+          1
+        ],
+        [
+          211,
+          6
+        ],
+        [
+          213,
+          1
+        ],
+        [
+          213,
+          6
+        ]
+      ],
+      "tokens": {
+        "prompt": 1957,
+        "completion": 240
+      }
+    },
+    {
+      "ca": 1,
+      "cb": 0,
+      "size_a": 28,
+      "size_b": 1,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          69,
+          4
+        ],
+        [
+          118,
+          4
+        ]
+      ],
+      "tokens": {
+        "prompt": 3047,
+        "completion": 180
+      }
+    },
+    {
+      "ca": 1,
+      "cb": 1,
+      "size_a": 28,
+      "size_b": 9,
+      "sample_rate": 0.28,
+      "matches": [
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          9
+        ],
+        [
+          9,
+          5
+        ],
+        [
+          22,
+          3
+        ],
+        [
+          24,
+          2
+        ],
+        [
+          29,
+          5
+        ],
+        [
+          41,
+          5
+        ],
+        [
+          43,
+          7
+        ],
+        [
+          59,
+          7
+        ],
+        [
+          64,
+          9
+        ],
+        [
+          69,
+          3
+        ],
+        [
+          105,
+          7
+        ],
+        [
+          106,
+          5
+        ],
+        [
+          113,
+          3
+        ],
+        [
+          115,
+          7
+        ],
+        [
+          118,
+          5
+        ],
+        [
+          148,
+          3
+        ],
+        [
+          180,
+          0
+        ],
+        [
+          182,
+          3
+        ],
+        [
+          185,
+          7
+        ],
+        [
+          188,
+          5
+        ],
+        [
+          223,
+          5
+        ]
+      ],
+      "tokens": {
+        "prompt": 3555,
+        "completion": 312
+      }
+    },
+    {
+      "ca": 2,
+      "cb": 0,
+      "size_a": 33,
+      "size_b": 1,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          244,
+          4
+        ]
+      ],
+      "tokens": {
+        "prompt": 3333,
+        "completion": 244
+      }
+    },
+    {
+      "ca": 2,
+      "cb": 1,
+      "size_a": 33,
+      "size_b": 9,
+      "sample_rate": 0.16,
+      "matches": [
+        [
+          10,
+          2
+        ],
+        [
+          16,
+          2
+        ],
+        [
+          17,
+          2
+        ],
+        [
+          17,
+          7
+        ],
+        [
+          27,
+          2
+        ],
+        [
+          27,
+          9
+        ],
+        [
+          34,
+          2
+        ],
+        [
+          42,
+          2
+        ],
+        [
+          71,
+          9
+        ],
+        [
+          86,
+          2
+        ],
+        [
+          89,
+          2
+        ],
+        [
+          89,
+          7
+        ],
+        [
+          93,
+          2
+        ],
+        [
+          93,
+          6
+        ],
+        [
+          93,
+          7
+        ],
+        [
+          112,
+          2
+        ],
+        [
+          124,
+          7
+        ],
+        [
+          130,
+          7
+        ],
+        [
+          132,
+          7
+        ],
+        [
+          139,
+          7
+        ],
+        [
+          150,
+          7
+        ],
+        [
+          155,
+          7
+        ],
+        [
+          159,
+          7
+        ],
+        [
+          159,
+          0
+        ],
+        [
+          163,
+          7
+        ],
+        [
+          172,
+          2
+        ],
+        [
+          172,
+          7
+        ],
+        [
+          181,
+          8
+        ],
+        [
+          184,
+          2
+        ],
+        [
+          192,
+          2
+        ],
+        [
+          200,
+          2
+        ],
+        [
+          208,
+          1
+        ],
+        [
+          219,
+          2
+        ],
+        [
+          219,
+          6
+        ],
+        [
+          229,
+          2
+        ],
+        [
+          229,
+          7
+        ],
+        [
+          230,
+          7
+        ],
+        [
+          235,
+          2
+        ],
+        [
+          235,
+          7
+        ],
+        [
+          244,
+          2
+        ],
+        [
+          244,
+          5
+        ],
+        [
+          249,
+          7
+        ]
+      ],
+      "tokens": {
+        "prompt": 4055,
+        "completion": 431
+      }
+    },
+    {
+      "ca": 3,
+      "cb": 0,
+      "size_a": 9,
+      "size_b": 1,
+      "sample_rate": 0.0,
+      "matches": [],
+      "tokens": {
+        "prompt": 1094,
+        "completion": 58
+      }
+    },
+    {
+      "ca": 3,
+      "cb": 1,
+      "size_a": 9,
+      "size_b": 9,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          47,
+          9
+        ],
+        [
+          111,
+          1
+        ],
+        [
+          121,
+          9
+        ],
+        [
+          174,
+          9
+        ],
+        [
+          194,
+          9
+        ]
+      ],
+      "tokens": {
+        "prompt": 1174,
+        "completion": 92
+      }
+    },
+    {
+      "ca": 4,
+      "cb": 0,
+      "size_a": 30,
+      "size_b": 1,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          68,
+          4
+        ]
+      ],
+      "tokens": {
+        "prompt": 3067,
+        "completion": 223
+      }
+    },
+    {
+      "ca": 4,
+      "cb": 1,
+      "size_a": 30,
+      "size_b": 9,
+      "sample_rate": 0.08,
+      "matches": [
+        [
+          0,
+          8
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          57,
+          8
+        ],
+        [
+          58,
+          8
+        ],
+        [
+          62,
+          8
+        ],
+        [
+          67,
+          8
+        ],
+        [
+          68,
+          5
+        ],
+        [
+          68,
+          8
+        ],
+        [
+          100,
+          8
+        ],
+        [
+          102,
+          0
+        ],
+        [
+          114,
+          8
+        ],
+        [
+          119,
+          8
+        ],
+        [
+          173,
+          8
+        ],
+        [
+          178,
+          8
+        ],
+        [
+          189,
+          8
+        ],
+        [
+          220,
+          8
+        ],
+        [
+          226,
+          8
+        ]
+      ],
+      "tokens": {
+        "prompt": 3575,
+        "completion": 307
+      }
+    },
+    {
+      "ca": 5,
+      "cb": 0,
+      "size_a": 12,
+      "size_b": 1,
+      "sample_rate": 0.0,
+      "matches": [],
+      "tokens": {
+        "prompt": 1264,
+        "completion": 76
+      }
+    },
+    {
+      "ca": 5,
+      "cb": 1,
+      "size_a": 12,
+      "size_b": 9,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          1,
+          0
+        ],
+        [
+          45,
+          0
+        ],
+        [
+          45,
+          3
+        ],
+        [
+          49,
+          7
+        ],
+        [
+          53,
+          0
+        ],
+        [
+          54,
+          0
+        ],
+        [
+          140,
+          0
+        ],
+        [
+          142,
+          0
+        ],
+        [
+          145,
+          0
+        ],
+        [
+          170,
+          0
+        ],
+        [
+          221,
+          0
+        ]
+      ],
+      "tokens": {
+        "prompt": 1558,
+        "completion": 147
+      }
+    },
+    {
+      "ca": 6,
+      "cb": 0,
+      "size_a": 15,
+      "size_b": 1,
+      "sample_rate": 0.4,
+      "matches": [
+        [
+          23,
+          4
+        ],
+        [
+          25,
+          4
+        ],
+        [
+          32,
+          4
+        ],
+        [
+          55,
+          4
+        ],
+        [
+          98,
+          4
+        ],
+        [
+          143,
+          4
+        ],
+        [
+          151,
+          4
+        ],
+        [
+          191,
+          4
+        ],
+        [
+          237,
+          4
+        ]
+      ],
+      "tokens": {
+        "prompt": 1625,
+        "completion": 130
+      }
+    },
+    {
+      "ca": 6,
+      "cb": 1,
+      "size_a": 15,
+      "size_b": 9,
+      "sample_rate": 0.12,
+      "matches": [
+        [
+          23,
+          0
+        ],
+        [
+          23,
+          3
+        ],
+        [
+          25,
+          5
+        ],
+        [
+          72,
+          8
+        ],
+        [
+          98,
+          8
+        ],
+        [
+          120,
+          5
+        ],
+        [
+          143,
+          5
+        ],
+        [
+          149,
+          5
+        ],
+        [
+          151,
+          0
+        ],
+        [
+          151,
+          3
+        ],
+        [
+          191,
+          2
+        ],
+        [
+          191,
+          7
+        ],
+        [
+          207,
+          5
+        ],
+        [
+          237,
+          7
+        ]
+      ],
+      "tokens": {
+        "prompt": 1919,
+        "completion": 182
+      }
+    },
+    {
+      "ca": 7,
+      "cb": 0,
+      "size_a": 12,
+      "size_b": 1,
+      "sample_rate": 0.0,
+      "matches": [],
+      "tokens": {
+        "prompt": 1306,
+        "completion": 76
+      }
+    },
+    {
+      "ca": 7,
+      "cb": 1,
+      "size_a": 12,
+      "size_b": 9,
+      "sample_rate": 0.16,
+      "matches": [
+        [
+          21,
+          1
+        ],
+        [
+          21,
+          8
+        ],
+        [
+          48,
+          2
+        ],
+        [
+          48,
+          7
+        ],
+        [
+          51,
+          1
+        ],
+        [
+          51,
+          6
+        ],
+        [
+          52,
+          1
+        ],
+        [
+          52,
+          8
+        ],
+        [
+          56,
+          1
+        ],
+        [
+          56,
+          6
+        ],
+        [
+          65,
+          1
+        ],
+        [
+          66,
+          1
+        ],
+        [
+          110,
+          1
+        ],
+        [
+          141,
+          9
+        ],
+        [
+          144,
+          1
+        ],
+        [
+          179,
+          1
+        ],
+        [
+          179,
+          2
+        ],
+        [
+          179,
+          7
+        ],
+        [
+          187,
+          5
+        ],
+        [
+          187,
+          9
+        ]
+      ],
+      "tokens": {
+        "prompt": 1600,
+        "completion": 190
+      }
+    },
+    {
+      "ca": 8,
+      "cb": 0,
+      "size_a": 18,
+      "size_b": 1,
+      "sample_rate": 0.0,
+      "matches": [],
+      "tokens": {
+        "prompt": 2242,
+        "completion": 112
+      }
+    },
+    {
+      "ca": 8,
+      "cb": 1,
+      "size_a": 18,
+      "size_b": 9,
+      "sample_rate": 0.16,
+      "matches": [
+        [
+          18,
+          9
+        ],
+        [
+          36,
+          9
+        ],
+        [
+          40,
+          9
+        ],
+        [
+          46,
+          9
+        ],
+        [
+          63,
+          8
+        ],
+        [
+          73,
+          9
+        ],
+        [
+          104,
+          9
+        ],
+        [
+          117,
+          9
+        ],
+        [
+          137,
+          9
+        ],
+        [
+          156,
+          9
+        ],
+        [
+          161,
+          9
+        ],
+        [
+          168,
+          9
+        ],
+        [
+          186,
+          9
+        ],
+        [
+          225,
+          8
+        ],
+        [
+          233,
+          9
+        ]
+      ],
+      "tokens": {
+        "prompt": 2536,
+        "completion": 191
+      }
+    },
+    {
+      "ca": 9,
+      "cb": 0,
+      "size_a": 39,
+      "size_b": 1,
+      "sample_rate": 0.0,
+      "matches": [],
+      "tokens": {
+        "prompt": 4102,
+        "completion": 282
+      }
+    },
+    {
+      "ca": 9,
+      "cb": 1,
+      "size_a": 39,
+      "size_b": 9,
+      "sample_rate": 0.04,
+      "matches": [
+        [
+          37,
+          5
+        ],
+        [
+          39,
+          5
+        ],
+        [
+          70,
+          7
+        ],
+        [
+          77,
+          5
+        ],
+        [
+          82,
+          5
+        ],
+        [
+          94,
+          1
+        ],
+        [
+          96,
+          2
+        ],
+        [
+          128,
+          3
+        ],
+        [
+          133,
+          8
+        ],
+        [
+          136,
+          7
+        ],
+        [
+          160,
+          3
+        ],
+        [
+          160,
+          5
+        ],
+        [
+          162,
+          5
+        ],
+        [
+          166,
+          3
+        ],
+        [
+          199,
+          2
+        ],
+        [
+          206,
+          2
+        ],
+        [
+          209,
+          8
+        ],
+        [
+          215,
+          5
+        ],
+        [
+          242,
+          5
+        ],
+        [
+          246,
+          9
+        ]
+      ],
+      "tokens": {
+        "prompt": 4824,
+        "completion": 390
+      }
+    },
+    {
+      "ca": 10,
+      "cb": 0,
+      "size_a": 18,
+      "size_b": 1,
+      "sample_rate": 0.0,
+      "matches": [
+        [
+          158,
+          4
+        ]
+      ],
+      "tokens": {
+        "prompt": 2102,
+        "completion": 116
+      }
+    },
+    {
+      "ca": 10,
+      "cb": 1,
+      "size_a": 18,
+      "size_b": 9,
+      "sample_rate": 0.08,
+      "matches": [
+        [
+          11,
+          0
+        ],
+        [
+          35,
+          0
+        ],
+        [
+          75,
+          0
+        ],
+        [
+          78,
+          0
+        ],
+        [
+          87,
+          0
+        ],
+        [
+          88,
+          0
+        ],
+        [
+          95,
+          0
+        ],
+        [
+          123,
+          0
+        ],
+        [
+          138,
+          0
+        ],
+        [
+          158,
+          0
+        ],
+        [
+          165,
+          0
+        ],
+        [
+          193,
+          0
+        ],
+        [
+          195,
+          0
+        ],
+        [
+          195,
+          1
+        ],
+        [
+          198,
+          0
+        ],
+        [
+          205,
+          0
+        ],
+        [
+          210,
+          0
+        ],
+        [
+          231,
+          0
+        ],
+        [
+          247,
+          0
+        ],
+        [
+          247,
+          1
+        ]
+      ],
+      "tokens": {
+        "prompt": 2396,
+        "completion": 211
+      }
+    },
+    {
+      "ca": 11,
+      "cb": 0,
+      "size_a": 20,
+      "size_b": 1,
+      "sample_rate": 0.0,
+      "matches": [],
+      "tokens": {
+        "prompt": 2150,
+        "completion": 124
+      }
+    },
+    {
+      "ca": 11,
+      "cb": 1,
+      "size_a": 20,
+      "size_b": 9,
+      "sample_rate": 0.12,
+      "matches": [
+        [
+          30,
+          8
+        ],
+        [
+          83,
+          8
+        ],
+        [
+          84,
+          8
+        ],
+        [
+          157,
+          8
+        ],
+        [
+          190,
+          8
+        ],
+        [
+          212,
+          8
+        ],
+        [
+          232,
+          8
+        ],
+        [
+          238,
+          8
+        ],
+        [
+          239,
+          8
+        ],
+        [
+          240,
+          8
+        ],
+        [
+          241,
+          8
+        ]
+      ],
+      "tokens": {
+        "prompt": 2444,
+        "completion": 202
+      }
+    }
+  ]
+}

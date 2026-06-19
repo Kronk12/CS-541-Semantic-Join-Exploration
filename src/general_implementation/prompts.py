@@ -150,17 +150,29 @@ Table A sample:
 Table B sample:
 {_sample_block(schema_b, samples_b)}
 
-A predicate is a "same-label" join when:
-- It asks whether two rows share the same value of some discrete attribute
-  (sentiment, genre, priority, department, product category, …), AND
+A predicate is a "same-label" join when EITHER:
+
+(A) Both tables share the same discrete attribute:
+- The predicate asks whether two rows share the same value of some discrete
+  attribute (sentiment, genre, priority, department, product category, …), AND
 - That attribute has a small, finite label set (2–10 labels) that is the same
   for both tables, AND
 - Each row can be confidently labeled from its own content alone.
+
+OR (B) Table B defines the label taxonomy:
+- Table B rows each represent a distinct category or concept (e.g. programming
+  language, product type, department), forming a small, finite label set, AND
+- The predicate asks which Table B category best describes or applies to each
+  Table A row, AND
+- Each Table A row can be classified into one of the Table B categories from
+  its own content alone.
 
 It is NOT a same-label join when:
 - The predicate is about numeric proximity, continuous values, or ranges.
 - The predicate needs cross-row comparison (e.g. "A happened before B").
 - The label space is open-ended or unbounded (e.g. "same topic" with no fixed list).
+- The relationship between rows requires reading both rows together to decide
+  (e.g. contradiction, entailment, paraphrase).
 
 If it IS a same-label join, your strategy is "classifier". 
 If it is NOT a same-label join, your strategy is "pairwise". 

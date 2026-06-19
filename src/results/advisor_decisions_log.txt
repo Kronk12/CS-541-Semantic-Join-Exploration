@@ -1,53 +1,46 @@
 === IMDB ===
 Strategy: CLASSIFIER (Labels: ['Positive', 'Negative', 'unknown'])
-Strategy Reason: The predicate checks if both reviews express the same sentiment, which is a discrete attribute with a small, finite label set (Positive or Negative) that can be determined from each review's content alone.
-Raw Strat JSON: {"strategy": "classifier", "reason": "The predicate checks if both reviews express the same sentiment, which is a discrete attribute with a small, finite label set (Positive or Negative) that can be determined from each review's content alone."}
+Strategy Reason: The predicate asks whether both reviews express the same sentiment, which is a discrete attribute with a small, finite label set (Positive or Negative) that can be determined from each review's content alone.
+Raw Strat JSON: {"strategy": "classifier", "reason": "The predicate asks whether both reviews express the same sentiment, which is a discrete attribute with a small, finite label set (Positive or Negative) that can be determined from each review's content alone."}
 Raw Labels JSON: {"labels": ["Positive", "Negative"]}
 
 Projection: FALSE
-Projection Reason: The predicate compares symmetric properties by checking if both reviews express the same sentiment, which does not require projecting one table into the domain of the other.
-Raw Proj JSON: {"requires_projection": "false", "reason": "The predicate compares symmetric properties by checking if both reviews express the same sentiment, which does not require projecting one table into the domain of the other."}
+Projection Reason: The predicate compares symmetric properties by checking if both reviews express the same sentiment, which is semantically comparable without projection.
+Raw Proj JSON: {"requires_projection": "false", "reason": "The predicate compares symmetric properties by checking if both reviews express the same sentiment, which is semantically comparable without projection."}
 
-Performance (All Advisor LLMs): 7461 tokens | $0.01946 | 3.61s
+Performance (All Advisor LLMs): 9418 tokens | $0.02431 | 3.71s
 --------------------------------------------------
 
 === Emails ===
 Strategy: PAIRWISE (Labels: None)
-Strategy Reason: The predicate requires cross-row comparison to determine if the email in Table B proves the witness statement in Table A is a lie, which is not a same-label join.
-Raw Strat JSON: {"strategy": "pairwise", "reason": "The predicate requires cross-row comparison to determine if the email in Table B proves the witness statement in Table A is a lie, which is not a same-label join."}
+Strategy Reason: The predicate requires reading both rows together to determine if the email proves the witness statement is a lie, which is not a same-label join.
+Raw Strat JSON: {"strategy": "pairwise", "reason": "The predicate requires reading both rows together to determine if the email proves the witness statement is a lie, which is not a same-label join."}
 
 Embedding Model: all-mpnet-base-v2
-Model Reason: It is the best choice for strong general-purpose semantic similarity, which is needed to determine if the texts refer to the same person and prove a statement false.
-Raw Emb JSON: {"model": "all-mpnet-base-v2", "reason": "It is the best choice for strong general-purpose semantic similarity, which is needed to determine if the texts refer to the same person and prove a statement false."}
+Model Reason: It is the best choice for strong general-purpose semantic similarity, which is needed to match statements and emails referring to the same person and event.
+Raw Emb JSON: {"model": "all-mpnet-base-v2", "reason": "It is the best choice for strong general-purpose semantic similarity, which is needed to match statements and emails referring to the same person and event."}
 
 Clustering Method: kmeans (k=2, min_size=None)
-Clustering Reason: The predicate implies two groups: statements that are lies and those that are not, which aligns with kmeans for binary classification.
-Raw Clust JSON: {"method": "kmeans", "n_clusters": 2, "min_cluster_size": null, "reason": "The predicate implies two groups: statements that are lies and those that are not, which aligns with kmeans for binary classification."}
+Clustering Reason: The predicate implies two groups: statements that are true and those proven false by emails.
+Raw Clust JSON: {"method": "kmeans", "n_clusters": 2, "min_cluster_size": null, "reason": "The predicate implies two groups: statements that are true and those proven false by emails."}
 
 Projection: FALSE
 Projection Reason: The predicate directly compares statements and emails to determine if they refer to the same person and contradict each other, which are semantically comparable tasks.
 Raw Proj JSON: {"requires_projection": "false", "reason": "The predicate directly compares statements and emails to determine if they refer to the same person and contradict each other, which are semantically comparable tasks."}
 
-Performance (All Advisor LLMs): 2116 tokens | $0.00667 | 5.23s
+Performance (All Advisor LLMs): 2230 tokens | $0.00683 | 4.84s
 --------------------------------------------------
 
 === StackOverflow ===
-Strategy: PAIRWISE (Labels: None)
-Strategy Reason: The predicate requires cross-row comparison to determine if a question is solved by or directly related to a programming concept, and the label space is open-ended with no fixed list.
-Raw Strat JSON: {"strategy": "pairwise", "reason": "The predicate requires cross-row comparison to determine if a question is solved by or directly related to a programming concept, and the label space is open-ended with no fixed list."}
-
-Embedding Model: all-mpnet-base-v2
-Model Reason: It is a strong general-purpose model suitable for semantic similarity tasks involving programming concepts and questions.
-Raw Emb JSON: {"model": "all-mpnet-base-v2", "reason": "It is a strong general-purpose model suitable for semantic similarity tasks involving programming concepts and questions."}
-
-Clustering Method: kmeans (k=2, min_size=None)
-Clustering Reason: The predicate implies a small, fixed number of groups related to programming concepts, suitable for kmeans with 2 clusters.
-Raw Clust JSON: {"method": "kmeans", "n_clusters": 2, "min_cluster_size": null, "reason": "The predicate implies a small, fixed number of groups related to programming concepts, suitable for kmeans with 2 clusters."}
+Strategy: CLASSIFIER (Labels: ['java', 'database', 'c++', 'python', 'c#', '.net', 'html', 'multithreading', 'linux', 'sql-server', 'unknown'])
+Strategy Reason: Table B defines a finite set of programming concepts, and each question in Table A can be classified into one of these concepts based on its content alone.
+Raw Strat JSON: {"strategy": "classifier", "reason": "Table B defines a finite set of programming concepts, and each question in Table A can be classified into one of these concepts based on its content alone."}
+Raw Labels JSON: {"labels": ["java", "database", "c++", "python", "c#", ".net", "html", "multithreading", "linux", "sql-server"]}
 
 Projection: TRUE
-Projection Reason: The predicate involves mapping complex question descriptions to specific programming concepts, which requires projecting Table A's text into the domain of Table B's concepts for meaningful semantic similarity comparison.
-Raw Proj JSON: {"requires_projection": "true", "reason": "The predicate involves mapping complex question descriptions to specific programming concepts, which requires projecting Table A's text into the domain of Table B's concepts for meaningful semantic similarity comparison."}
+Projection Reason: The predicate involves mapping complex question descriptions to specific programming concepts, which requires projecting Table A's text into the domain of Table B's concepts.
+Raw Proj JSON: {"requires_projection": "true", "reason": "The predicate involves mapping complex question descriptions to specific programming concepts, which requires projecting Table A's text into the domain of Table B's concepts."}
 
-Performance (All Advisor LLMs): 2612 tokens | $0.00785 | 5.25s
+Performance (All Advisor LLMs): 1436 tokens | $0.00460 | 3.34s
 --------------------------------------------------
 

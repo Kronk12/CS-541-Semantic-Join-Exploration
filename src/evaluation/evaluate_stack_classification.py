@@ -22,16 +22,11 @@ def get_stack_ground_truth(df_a, df_b):
                 gt.add((i, j))
     return gt
 
-def evaluate_stack():
-    df_a = pd.read_csv('data/table_a_stack.csv')
-    df_b = pd.read_csv('data/table_b_stack.csv')
-
-    labels = list(df_b['concept_name'].astype(str)) + ['unknown']
-
-    print("\n" + "="*60)
-    print("Running Classifier Join evaluation for StackOverflow")
-    print(f"Labels: {labels}")
-    print("="*60)
+def run_trial(df_a, df_b, labels, gt, use_projection, run_id):
+    proj_label = "with projection" if use_projection else "no projection"
+    print(f"\n{'='*60}")
+    print(f"Classifier Join — {proj_label}")
+    print(f"{'='*60}")
 
     start_time = time.time()
 
@@ -43,34 +38,43 @@ def evaluate_stack():
         schema_b=["concept_name"],
         force_strategy="classifier",
         force_labels=labels,
-        force_projection=False,
+        force_projection=use_projection,
         verbose=False
     )
 
     time_s = time.time() - start_time
 
-    print("Calculating Ground Truth...")
-    gt = get_stack_ground_truth(df_a, df_b)
-
     predicted_matches = set(zip(result.matches["a_idx"], result.matches["b_idx"]))
-
     tp = len(gt & predicted_matches)
     recall = (tp / len(gt) * 100) if gt else 0.0
     precision = (tp / len(predicted_matches) * 100) if predicted_matches else 0.0
     f1 = (2 * precision * recall / (precision + recall)) if (precision + recall) else 0.0
-
     total_tokens = result.tokens.prompt_tokens + result.tokens.completion_tokens
 
-    print(f"\nRecall: {recall:.2f}%  Precision: {precision:.2f}%  F1: {f1:.2f}%  Tokens: {total_tokens:,}  Time: {time_s:.1f}s")
+    print(f"Recall: {recall:.2f}%  Precision: {precision:.2f}%  F1: {f1:.2f}%  Tokens: {total_tokens:,}  Time: {time_s:.1f}s")
+
+    baseline_type = "Classifier_Join_Projection" if use_projection else "Classifier_Join"
+    return f"{run_id},StackOverflow,1,{baseline_type},{len(df_a)},{len(df_b)},{len(df_a)*len(df_b)},{recall:.2f},{precision:.2f},{f1:.2f},{total_tokens},{time_s:.2f}\n"
+
+def evaluate_stack():
+    df_a = pd.read_csv('data/table_a_stack.csv')
+    df_b = pd.read_csv('data/table_b_stack.csv')
+    labels = list(df_b['concept_name'].astype(str)) + ['unknown']
+
+    print("Calculating Ground Truth...")
+    gt = get_stack_ground_truth(df_a, df_b)
+    print(f"GT size: {len(gt)} pairs")
 
     out_path = 'src/results/cluster_join_stack_classification.csv'
-    file_exists = os.path.isfile(out_path)
-    with open(out_path, "a") as f:
-        if not file_exists:
-            f.write("Run_ID,Dataset,Trial,Baseline_Type,A_Size,B_Size,Total_Pairs_Evaluated,Recall,Precision,F1,Tokens,Time_s\n")
-        f.write(f"1,StackOverflow,1,Classifier_Join,{len(df_a)},{len(df_b)},{len(df_a)*len(df_b)},{recall:.2f},{precision:.2f},{f1:.2f},{total_tokens},{time_s:.2f}\n")
+    rows = []
+    rows.append(run_trial(df_a, df_b, labels, gt, use_projection=False, run_id=1))
+    rows.append(run_trial(df_a, df_b, labels, gt, use_projection=True,  run_id=2))
 
-    print(f"Results saved to {out_path}")
+    with open(out_path, "w") as f:
+        f.write("Run_ID,Dataset,Trial,Baseline_Type,A_Size,B_Size,Total_Pairs_Evaluated,Recall,Precision,F1,Tokens,Time_s\n")
+        f.writelines(rows)
+
+    print(f"\nResults saved to {out_path}")
 
 if __name__ == "__main__":
     evaluate_stack()

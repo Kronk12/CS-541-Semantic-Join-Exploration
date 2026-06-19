@@ -46,14 +46,14 @@ def record_advisor_decisions():
         {
             "Dataset": "StackOverflow",
             "table_a": stack_a, "table_b": stack_b,
-            "schema_a": ["question_text"], "schema_b": ["concept_name", "Description"],
+            "schema_a": ["question_text"], "schema_b": ["concept_name"],
             "predicate": "The question describes symptoms, errors, or intents that are solved by or directly related to this programming concept."
         }
     ]
 
     records = []
-    output_csv = os.path.join(current_dir, 'logs/advisor_decisions_record.csv')
-    output_txt = os.path.join(current_dir, 'logs/advisor_decisions_log.txt')
+    output_csv = 'src/results/advisor_decisions_record.csv'
+    output_txt = 'src/results/advisor_decisions_log.txt'
 
     print(f"\nQuerying Advisor... Results will be saved to {output_csv}\n")
     
